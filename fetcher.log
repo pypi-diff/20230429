@@ -446,3 +446,62 @@
 [2023-04-29 00:47:48] INFO root fetch - main [MainThread]: End processing [injective-py]: success
 [2023-04-29 00:47:49] INFO root fetch - main [MainThread]: End processing [pyspnego]: success
 [2023-04-29 00:47:49] INFO root fetch - main [MainThread]: Store serial: [17903733]
+[2023-04-29 00:52:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903733]
+[2023-04-29 00:52:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CoLT5-attention
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmprocess
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LassPass3
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: richpdf
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CoLT5-attention
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autora
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: api-hunter-cli
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molab
+[2023-04-29 00:52:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doc-to-readme
+[2023-04-29 00:52:59] INFO root fetch - processPackages [gmprocess]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-29 00:52:59] INFO root fetch - processPackages [richpdf]: New version: [3.0] Old Version: [2.0]
+[2023-04-29 00:52:59] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-29 00:52:59] INFO root fetch - processPackages [molab]: New version: [0.4.6] Old Version: [0.4.4]
+[2023-04-29 00:52:59] INFO root fetch - processPackages [autora]: New version: [3.0.0a4] Old Version: [3.0.0a3]
+[2023-04-29 00:52:59] INFO root fetch - processPackages [molab]: executing diffoscope
+[2023-04-29 00:52:59] INFO root fetch - processPackages [molab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molab-0.4.4.tar.gz tmp/molab-0.4.6.tar.gz --markdown 20230429/m/molab/0.4.4-0.4.6/diff.md --exclude *.pyd
+[2023-04-29 00:52:59] INFO root fetch - processPackages [doc-to-readme]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 00:52:59] ERROR root fetch - processPackages [LassPass3]: Unable to get metadata: No such project 'LassPass3'
+[2023-04-29 00:52:59] INFO root fetch - main [MainThread]: End processing [LassPass3] error
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/dc/b5/63a1a64a833a0a058bb0e02ef0f635e046b6a066d99209583d1b86bf89e1/CoLT5-attention-0.3.0.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/dc/b5/63a1a64a833a0a058bb0e02ef0f635e046b6a066d99209583d1b86bf89e1/CoLT5-attention-0.3.0.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [gmprocess]: Downloading https://files.pythonhosted.org/packages/33/bc/c8614cba6342df1ea2012e356f01f4ec6ec0fd0b738f2cc5d76b9d472976/gmprocess-1.2.6.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [autora]: Downloading https://files.pythonhosted.org/packages/7e/cd/43905bf1f2b0488927f48044c837b1d78f9057d9d86491470cb79eae5069/autora-3.0.0a3.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [richpdf]: Downloading https://files.pythonhosted.org/packages/03/be/73a6b3019de720ed3878786cc03dfc2a1aa62bd232450d850d1ed243d1cc/richpdf-2.0.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/37/2b/6235608bc71c84dcbf2a5a04805fd87e4a3bf323d3669653bca31afe9b67/api_hunter_cli-0.1.3.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 00:52:59] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_hunter_cli-0.1.2.tar.gz tmp/api_hunter_cli-0.1.3.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-29 00:52:59] INFO root fetch - processPackages [doc-to-readme]: Downloading https://files.pythonhosted.org/packages/3b/b9/05bb844697b5be7f5cafdd78515798323dc82f97daa8552a28de5275405c/doc-to-readme-1.0.0.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/ed/78/4c3033f28040911be58971523177f007ec2bf22a0951b7f28786728f714c/CoLT5-attention-0.3.1.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/ed/78/4c3033f28040911be58971523177f007ec2bf22a0951b7f28786728f714c/CoLT5-attention-0.3.1.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [richpdf]: Downloading https://files.pythonhosted.org/packages/62/64/4bbf51823e85882e3ce396a7b830064a7d45279a891b0298aa4368625220/richpdf-3.0.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.3.0.tar.gz tmp/CoLT5-attention-0.3.1.tar.gz --markdown 20230429/C/CoLT5-attention/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-29 00:52:59] INFO root fetch - processPackages [doc-to-readme]: Downloading https://files.pythonhosted.org/packages/7c/59/21b67a676ea41cd8e0e0b8e9be6b985161fc5afc8d65ea08fc886386a346/doc-to-readme-1.0.1.tar.gz
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-04-29 00:52:59] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.3.0.tar.gz tmp/CoLT5-attention-0.3.1.tar.gz --markdown 20230429/C/CoLT5-attention/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-29 00:52:59] INFO root fetch - processPackages [richpdf]: executing diffoscope
+[2023-04-29 00:52:59] INFO root fetch - processPackages [richpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richpdf-2.0.tar.gz tmp/richpdf-3.0.tar.gz --markdown 20230429/r/richpdf/2.0-3.0/diff.md --exclude *.pyd
+[2023-04-29 00:52:59] INFO root fetch - processPackages [doc-to-readme]: executing diffoscope
+[2023-04-29 00:52:59] INFO root fetch - processPackages [doc-to-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc-to-readme-1.0.0.tar.gz tmp/doc-to-readme-1.0.1.tar.gz --markdown 20230429/d/doc-to-readme/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 00:53:00] INFO root fetch - processPackages [autora]: Downloading https://files.pythonhosted.org/packages/a4/fd/5175d97caf2b6a46e3c3f3a63098031fc0db7141b8e1c508a3a3991d2f7f/autora-3.0.0a4.tar.gz
+[2023-04-29 00:53:00] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-04-29 00:53:00] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0a3.tar.gz tmp/autora-3.0.0a4.tar.gz --markdown 20230429/a/autora/3.0.0a3-3.0.0a4/diff.md --exclude *.pyd
+[2023-04-29 00:53:00] INFO root fetch - processPackages [gmprocess]: Downloading https://files.pythonhosted.org/packages/22/a0/3db7e4e728c4ed01d07686ab2976e2afee99529bec87e0a5454cac305d06/gmprocess-1.2.7.tar.gz
+[2023-04-29 00:53:00] INFO root fetch - processPackages [gmprocess]: executing diffoscope
+[2023-04-29 00:53:00] INFO root fetch - processPackages [gmprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmprocess-1.2.6.tar.gz tmp/gmprocess-1.2.7.tar.gz --markdown 20230429/g/gmprocess/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-04-29 00:53:00] INFO root fetch - main [MainThread]: End processing [molab]: success
+[2023-04-29 00:53:00] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 00:53:01] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-04-29 00:53:01] INFO root fetch - main [MainThread]: End processing [richpdf]: success
+[2023-04-29 00:53:01] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-04-29 00:53:01] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-04-29 00:53:02] INFO root fetch - main [MainThread]: End processing [doc-to-readme]: success
+[2023-04-29 00:53:04] INFO root fetch - main [MainThread]: End processing [gmprocess]: success
+[2023-04-29 00:53:04] INFO root fetch - main [MainThread]: Store serial: [17903763]
