@@ -141,3 +141,69 @@
 [2023-04-29 00:15:31] INFO root fetch - main [MainThread]: End processing [autora]: success
 [2023-04-29 00:15:53] INFO root fetch - main [MainThread]: End processing [autora-synthetic-data]: success
 [2023-04-29 00:15:53] INFO root fetch - main [MainThread]: Store serial: [17903529]
+[2023-04-29 00:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903529]
+[2023-04-29 00:21:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-workflow
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: password-manager775
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isb-firm
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ooo-dev-tools
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mhn
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: great-expectations
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dagknows
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kafka
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alignem
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PrimeBotFramework
+[2023-04-29 00:21:02] INFO root fetch - processPackages [autora-workflow]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [mhn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [dagknows]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [isb-firm]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [PrimeBotFramework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [alignem]: New version: [0.5.433] Old Version: [0.5.432]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [great-expectations]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1682709301] Old Version: [3.5.0a1682709203]
+[2023-04-29 00:21:02] ERROR root fetch - processPackages [password-manager775]: Unable to get metadata: No such project 'password-manager775'
+[2023-04-29 00:21:02] INFO root fetch - processPackages [password-manager775]: Start processing: fixieai
+[2023-04-29 00:21:02] INFO root fetch - main [MainThread]: End processing [password-manager775] error
+[2023-04-29 00:21:02] INFO root fetch - processPackages [fixieai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-29 00:21:02] INFO root fetch - processPackages [autora-workflow]: Downloading https://files.pythonhosted.org/packages/7f/14/f48fdedab52852cc6e980cf3c01dea708b2894eb0888549e8be66a06c7f9/autora-workflow-0.1.0.tar.gz
+[2023-04-29 00:21:02] INFO root fetch - processPackages [alignem]: Downloading https://files.pythonhosted.org/packages/23/f0/3929b65e59e7c644accc0cf3386128c962b92e6ee029f64d1ce77ff0d8ea/alignem-0.5.432.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/48/5b/85b4c3b7ec270fcce58d0f43343adf5bb53a4bcf74af45dbd3e3940c90b2/dagknows-0.0.8-py3-none-any.whl
+[2023-04-29 00:21:03] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/da/21/25575a58d3e42aecbb1d72d19dbde852acde05c564076128a986c792ce32/pulumi_kafka-3.5.0a1682709301.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [isb-firm]: Downloading https://files.pythonhosted.org/packages/f5/8a/8a74981a2f608398dca69a727215400797271d6df509c283c7ca57c5531a/isb_firm-1.0.3.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [mhn]: Downloading https://files.pythonhosted.org/packages/3b/a1/0d19b95f39da60af8aa123e0886cb4b578e1b03de64ef2be927c8ea31e01/mhn-0.0.8.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [fixieai]: Downloading https://files.pythonhosted.org/packages/41/e0/89ea35efdc30f2abf8e53b45eac06cbfa98edc49af80fbcea96c943bc0de/fixieai-0.2.8.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-04-29 00:21:03] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.7-py3-none-any.whl.zip tmp/dagknows-0.0.8-py3-none-any.whl.zip --markdown 20230429/d/dagknows/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-29 00:21:03] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-04-29 00:21:03] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1682709203.tar.gz tmp/pulumi_kafka-3.5.0a1682709301.tar.gz --markdown 20230429/p/pulumi-kafka/3.5.0a1682709203-3.5.0a1682709301/diff.md --exclude *.pyd
+[2023-04-29 00:21:03] INFO root fetch - processPackages [PrimeBotFramework]: executing diffoscope
+[2023-04-29 00:21:03] INFO root fetch - processPackages [PrimeBotFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrimeBotFramework-0.0.8.tar.gz tmp/PrimeBotFramework-0.0.9.tar.gz --markdown 20230429/P/PrimeBotFramework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 00:21:03] INFO root fetch - processPackages [autora-workflow]: Downloading https://files.pythonhosted.org/packages/b9/a4/c041a61953b1a74b6cc80087007be0eab5c6386aef17525e4c3813b8e910/autora-workflow-0.2.0.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [great-expectations]: executing diffoscope
+[2023-04-29 00:21:03] INFO root fetch - processPackages [great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations-0.9.8.tar.gz tmp/great_expectations-0.9.9.tar.gz --markdown 20230429/g/great-expectations/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-29 00:21:03] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2023-04-29 00:21:03] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.6.tar.gz tmp/ooo_dev_tools-0.9.7.tar.gz --markdown 20230429/o/ooo-dev-tools/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-29 00:21:03] INFO root fetch - processPackages [fixieai]: Downloading https://files.pythonhosted.org/packages/ff/bc/59e5c8ec914d5d08a503b45976500b78cb34643158fdba07446610533d97/fixieai-0.2.9.tar.gz
+[2023-04-29 00:21:03] WARNING root fetch - processPackages [alignem]: Skipping package: exceeds size limit 42502219>=10485760
+[2023-04-29 00:21:03] INFO root fetch - main [MainThread]: End processing [alignem] error
+[2023-04-29 00:21:03] INFO root fetch - processPackages [isb-firm]: Downloading https://files.pythonhosted.org/packages/ae/61/19468562faac3bd30aa0675f33435610bc17da343623ff3336de428d22b6/isb_firm-1.0.4.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [fixieai]: executing diffoscope
+[2023-04-29 00:21:03] INFO root fetch - processPackages [fixieai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixieai-0.2.8.tar.gz tmp/fixieai-0.2.9.tar.gz --markdown 20230429/f/fixieai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-29 00:21:03] INFO root fetch - processPackages [autora-workflow]: executing diffoscope
+[2023-04-29 00:21:03] INFO root fetch - processPackages [autora-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-workflow-0.1.0.tar.gz tmp/autora-workflow-0.2.0.tar.gz --markdown 20230429/a/autora-workflow/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 00:21:03] WARNING root fetch - processPackages [isb-firm]: Skipping package: exceeds size limit 31733327>=10485760
+[2023-04-29 00:21:03] INFO root fetch - main [MainThread]: End processing [isb-firm] error
+[2023-04-29 00:21:03] INFO root fetch - processPackages [mhn]: Downloading https://files.pythonhosted.org/packages/1c/ef/ff4796ee073b5cc45c8393f492654dc7144b79e5348f85cded722984d02e/mhn-0.0.9.tar.gz
+[2023-04-29 00:21:03] INFO root fetch - processPackages [mhn]: executing diffoscope
+[2023-04-29 00:21:03] INFO root fetch - processPackages [mhn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mhn-0.0.8.tar.gz tmp/mhn-0.0.9.tar.gz --markdown 20230429/m/mhn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 00:21:04] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-04-29 00:21:04] INFO root fetch - main [MainThread]: End processing [PrimeBotFramework]: success
+[2023-04-29 00:21:05] INFO root fetch - main [MainThread]: End processing [fixieai]: success
+[2023-04-29 00:21:05] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-04-29 00:21:05] INFO root fetch - main [MainThread]: End processing [mhn]: success
+[2023-04-29 00:21:06] INFO root fetch - main [MainThread]: End processing [autora-workflow]: success
+[2023-04-29 00:21:08] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
+[2023-04-29 00:21:14] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2023-04-29 00:21:14] INFO root fetch - main [MainThread]: Store serial: [17903566]
