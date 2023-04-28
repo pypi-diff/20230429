@@ -1095,3 +1095,49 @@
 [2023-04-29 01:45:08] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
 [2023-04-29 01:45:09] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
 [2023-04-29 01:45:09] INFO root fetch - main [MainThread]: Store serial: [17904117]
+[2023-04-29 01:50:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904117]
+[2023-04-29 01:50:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathier
+[2023-04-29 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2023-04-29 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure
+[2023-04-29 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: custardpy
+[2023-04-29 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: featurizerai
+[2023-04-29 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-object-safety
+[2023-04-29 01:50:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-object-safety
+[2023-04-29 01:50:18] INFO root fetch - processPackages [pathier]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-29 01:50:18] INFO root fetch - processPackages [featurizerai]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-04-29 01:50:18] INFO root fetch - processPackages [django-object-safety]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-29 01:50:18] INFO root fetch - processPackages [custardpy]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-29 01:50:18] INFO root fetch - processPackages [django-object-safety]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-04-29 01:50:18] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230428.23.45.535557] Old Version: [20230428.21.49.673454]
+[2023-04-29 01:50:18] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-04-29 01:50:18] INFO root fetch - processPackages [pathier]: Downloading https://files.pythonhosted.org/packages/0e/f4/a214b6b30b783df6db4b6936c324190dba49463f6857268fca0585a654dc/pathier-0.8.0.tar.gz
+[2023-04-29 01:50:19] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/72/22/12757520f4b068ba97a714e9ba9211060406d3c277a0a6c123a12057ea44/custardpy-0.3.6-py3-none-any.whl
+[2023-04-29 01:50:19] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/f1/e8/7fa69fe6a62d10ab8816090cc9f6b9f5d51068edbd5064db0b4ff847501f/certora-cli-alpha-master-20230428.21.49.673454.tar.gz
+[2023-04-29 01:50:19] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/6e/c6/f37182d371e41eb8d075f819137719073d06d098a3983f1fa055a26f4590/django_object_safety-1.1.4.tar.gz
+[2023-04-29 01:50:19] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/6e/c6/f37182d371e41eb8d075f819137719073d06d098a3983f1fa055a26f4590/django_object_safety-1.1.4.tar.gz
+[2023-04-29 01:50:19] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38009369>=10485760
+[2023-04-29 01:50:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-29 01:50:19] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/d5/88/de06989da035a77ca81cbd81e775fa4d8a4254c40a2991f2f8c6d5ca66ea/featurizerai-1.6.4.tar.gz
+[2023-04-29 01:50:19] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-04-29 01:50:19] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.3.5-py3-none-any.whl.zip tmp/custardpy-0.3.6-py3-none-any.whl.zip --markdown 20230429/c/custardpy/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-29 01:50:19] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-04-29 01:50:19] INFO root fetch - processPackages [django-object-safety]: executing diffoscope
+[2023-04-29 01:50:19] INFO root fetch - processPackages [django-object-safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_object_safety-1.1.3.tar.gz tmp/django_object_safety-1.1.4.tar.gz --markdown 20230429/d/django-object-safety/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-29 01:50:19] INFO root fetch - processPackages [django-object-safety]: executing diffoscope
+[2023-04-29 01:50:19] INFO root fetch - processPackages [django-object-safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_object_safety-1.1.3.tar.gz tmp/django_object_safety-1.1.4.tar.gz --markdown 20230429/d/django-object-safety/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-04-29 01:50:19] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-29 01:50:19] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.6.3.tar.gz tmp/featurizerai-1.6.4.tar.gz --markdown 20230429/f/featurizerai/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-04-29 01:50:19] INFO root fetch - processPackages [pathier]: Downloading https://files.pythonhosted.org/packages/8f/d2/d37dc8f5fd6560d6ce827efbca68e3e5a1188f74d5d335da4c5504fd1556/pathier-0.9.0.tar.gz
+[2023-04-29 01:50:19] INFO root fetch - processPackages [pathier]: executing diffoscope
+[2023-04-29 01:50:19] INFO root fetch - processPackages [pathier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathier-0.8.0.tar.gz tmp/pathier-0.9.0.tar.gz --markdown 20230429/p/pathier/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 01:50:19] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-04-29 01:50:20] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-29 01:50:20] INFO root fetch - main [MainThread]: End processing [django-object-safety]: success
+[2023-04-29 01:50:20] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-04-29 01:50:20] INFO root fetch - main [MainThread]: End processing [django-object-safety]: success
+[2023-04-29 01:50:20] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-04-29 01:50:20] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230429/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-04-29 01:50:21] INFO root fetch - main [MainThread]: End processing [pathier]: success
+[2023-04-29 01:50:47] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-04-29 01:50:47] INFO root fetch - main [MainThread]: Store serial: [17904135]
