@@ -763,3 +763,49 @@
 [2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [vodesfunc]: success
 [2023-04-29 01:12:10] INFO root fetch - main [MainThread]: End processing [nbdefense_jupyter]: success
 [2023-04-29 01:12:10] INFO root fetch - main [MainThread]: Store serial: [17903897]
+[2023-04-29 01:17:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903897]
+[2023-04-29 01:17:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 01:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aphos-openapi
+[2023-04-29 01:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdew-datetimes
+[2023-04-29 01:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-29 01:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: passLass48
+[2023-04-29 01:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: space-invaders
+[2023-04-29 01:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: local-dialog-workflow-python-backend
+[2023-04-29 01:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benchling-api-client
+[2023-04-29 01:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: passLass498
+[2023-04-29 01:17:19] WARNING root fetch - processPackages [passLass498]: Skipping, unable to determine old version
+[2023-04-29 01:17:19] INFO root fetch - main [MainThread]: End processing [passLass498] error
+[2023-04-29 01:17:19] INFO root fetch - processPackages [aphos-openapi]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-04-29 01:17:19] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-29 01:17:19] INFO root fetch - processPackages [space-invaders]: New version: [0.1.60] Old Version: [0.1.59]
+[2023-04-29 01:17:19] INFO root fetch - processPackages [bdew-datetimes]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-29 01:17:19] WARNING root fetch - processPackages [passLass48]: Skipping, unable to determine old version
+[2023-04-29 01:17:19] INFO root fetch - main [MainThread]: End processing [passLass48] error
+[2023-04-29 01:17:19] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.296] Old Version: [0.3.295]
+[2023-04-29 01:17:19] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-29 01:17:19] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-04-29 01:17:19] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230429/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-29 01:17:19] INFO root fetch - processPackages [bdew-datetimes]: Downloading https://files.pythonhosted.org/packages/de/d0/ff746e40c208b4c87f42503f5308d00de054d4bbe6a28d71ccc2db15b453/bdew_datetimes-0.3.8.tar.gz
+[2023-04-29 01:17:19] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/b6/a9/d3d8c516b4590bff89bdeed404151e29a7a105a83afc97862f8c70f080e5/space-invaders-0.1.60.tar.gz
+[2023-04-29 01:17:19] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/40/84/a44a07c184353ebe967b03b8272b4ad19651bae0e65bef871d6a715a9664/pepperize.cdk-ses-smtp-credentials-0.3.296.tar.gz
+[2023-04-29 01:17:19] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: Downloading https://files.pythonhosted.org/packages/c8/49/b1de07d3547633ef3679571102cbe9dc0497d37e9505984d4ad4d1e64b4d/local-dialog-workflow-python-backend-0.0.3.tar.gz
+[2023-04-29 01:17:19] INFO root fetch - processPackages [aphos-openapi]: Downloading https://files.pythonhosted.org/packages/dd/bc/6848e13c7bf6e5b4dd70cb6b923b723bd29114a2a854f03287f46af3cfb6/aphos_openapi-2.4.0.tar.gz
+[2023-04-29 01:17:19] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-29 01:17:19] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.59.tar.gz tmp/space-invaders-0.1.60.tar.gz --markdown 20230429/s/space-invaders/0.1.59-0.1.60/diff.md --exclude *.pyd
+[2023-04-29 01:17:19] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-29 01:17:19] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.295.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.296.tar.gz --markdown 20230429/p/pepperize.cdk-ses-smtp-credentials/0.3.295-0.3.296/diff.md --exclude *.pyd
+[2023-04-29 01:17:19] INFO root fetch - processPackages [aphos-openapi]: executing diffoscope
+[2023-04-29 01:17:19] INFO root fetch - processPackages [aphos-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aphos_openapi-2.3.0.tar.gz tmp/aphos_openapi-2.4.0.tar.gz --markdown 20230429/a/aphos-openapi/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-04-29 01:17:19] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: Downloading https://files.pythonhosted.org/packages/37/19/2d397849bb37f886d2da1d246c2ef9d436e0cd4cf50b09ddae7483d4ccf0/local-dialog-workflow-python-backend-0.0.4.tar.gz
+[2023-04-29 01:17:19] INFO root fetch - processPackages [bdew-datetimes]: Downloading https://files.pythonhosted.org/packages/7c/e6/5443c7f538afa65a823e8ab76cb3aa40a7675c6154d388eef827d9b6628a/bdew_datetimes-0.3.9.tar.gz
+[2023-04-29 01:17:19] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: executing diffoscope
+[2023-04-29 01:17:19] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local-dialog-workflow-python-backend-0.0.3.tar.gz tmp/local-dialog-workflow-python-backend-0.0.4.tar.gz --markdown 20230429/l/local-dialog-workflow-python-backend/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-29 01:17:19] INFO root fetch - processPackages [bdew-datetimes]: executing diffoscope
+[2023-04-29 01:17:19] INFO root fetch - processPackages [bdew-datetimes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdew_datetimes-0.3.8.tar.gz tmp/bdew_datetimes-0.3.9.tar.gz --markdown 20230429/b/bdew-datetimes/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-29 01:17:20] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-29 01:17:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-29 01:17:21] INFO root fetch - main [MainThread]: End processing [aphos-openapi]: success
+[2023-04-29 01:17:21] INFO root fetch - main [MainThread]: End processing [local-dialog-workflow-python-backend]: success
+[2023-04-29 01:17:21] INFO root fetch - main [MainThread]: End processing [bdew-datetimes]: success
+[2023-04-29 01:19:05] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-04-29 01:19:05] INFO root fetch - main [MainThread]: Store serial: [17903923]
