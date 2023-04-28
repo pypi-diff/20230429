@@ -1016,3 +1016,82 @@
 [2023-04-29 01:39:56] INFO root fetch - main [MainThread]: End processing [data-pipeline-api]: success
 [2023-04-29 01:39:56] INFO root fetch - main [MainThread]: End processing [ipymock]: success
 [2023-04-29 01:39:56] INFO root fetch - main [MainThread]: Store serial: [17904034]
+[2023-04-29 01:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904034]
+[2023-04-29 01:45:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custardpy
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: featurizerai
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: investor8-sdk
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hassle
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pluto-rt
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyscal2
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tungstenkit
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: featurizerai
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: efpy
+[2023-04-29 01:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: transformers-gradients
+[2023-04-29 01:45:04] INFO root fetch - processPackages [pluto-rt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [pyscal2]: New version: [2.10.20] Old Version: [2.10.19]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [tungstenkit]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [hassle]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [custardpy]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [featurizerai]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [efpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [transformers-gradients]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [featurizerai]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-29 01:45:04] INFO root fetch - processPackages [transformers-gradients]: executing diffoscope
+[2023-04-29 01:45:04] INFO root fetch - processPackages [transformers-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_gradients-0.0.8.tar.gz tmp/transformers_gradients-0.0.9.tar.gz --markdown 20230429/t/transformers-gradients/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 01:45:04] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/28/3c/b403a4971f4eb5f11c6104aa5c49aea2c5df856b377ace8a2d443d8833e5/featurizerai-1.6.2.tar.gz
+[2023-04-29 01:45:04] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/28/3c/b403a4971f4eb5f11c6104aa5c49aea2c5df856b377ace8a2d443d8833e5/featurizerai-1.6.2.tar.gz
+[2023-04-29 01:45:04] INFO root fetch - processPackages [pluto-rt]: Downloading https://files.pythonhosted.org/packages/db/9b/79e35dfebb2ea17bd1d2369d251a1112b186493e9d026b6022bd44e0f4c0/pluto_rt-0.1.2.tar.gz
+[2023-04-29 01:45:04] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-04-29 01:45:04] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.8.tar.gz tmp/investor8-sdk-1.1.9.tar.gz --markdown 20230429/i/investor8-sdk/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-29 01:45:04] INFO root fetch - processPackages [pyscal2]: Downloading https://files.pythonhosted.org/packages/6a/0c/b67b87f253134db83007da20a001de186231803bc98420c135026d4bdffd/pyscal2-2.10.19.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/65/c8/bc3d78f65128214f49653152f27b74f49cef1d920bd5f0e6261895ae52d2/custardpy-0.3.5-py3-none-any.whl
+[2023-04-29 01:45:05] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/bf/41/8ed647e9d30e94cf1d0b91ddc007c460d5c721ed75579d5a91dec585874d/hassle-2.6.0.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [pluto-rt]: executing diffoscope
+[2023-04-29 01:45:05] INFO root fetch - processPackages [pluto-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluto_rt-0.1.1-py3-none-any.whl.zip tmp/pluto_rt-0.1.2.tar.gz --markdown 20230429/p/pluto-rt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 01:45:05] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/0c/32/c5e49f93f0282aab56397e67cf252d75ac18d7ef76e6e2cd341939454955/tungstenkit-0.0.1a4.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-04-29 01:45:05] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.3.4-py3-none-any.whl.zip tmp/custardpy-0.3.5-py3-none-any.whl.zip --markdown 20230429/c/custardpy/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-29 01:45:05] INFO root fetch - processPackages [pyscal2]: Downloading https://files.pythonhosted.org/packages/4b/7c/6cc2f82f4a55cd21a417a7870f4d08cb9126a894ad905afefff44760efd2/pyscal2-2.10.20.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/8f/04/f6cb23298e73327ea5d63581614b2f051db1d9dc40de49e574aff0025aaa/featurizerai-1.6.3.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/8f/04/f6cb23298e73327ea5d63581614b2f051db1d9dc40de49e574aff0025aaa/featurizerai-1.6.3.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-29 01:45:05] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.6.2.tar.gz tmp/featurizerai-1.6.3.tar.gz --markdown 20230429/f/featurizerai/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-29 01:45:05] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-29 01:45:05] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.6.2.tar.gz tmp/featurizerai-1.6.3.tar.gz --markdown 20230429/f/featurizerai/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-29 01:45:05] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/c2/c5/b67289abbd4bf618ea0f7d72670798f29c882366267162a61baceb3e309b/hassle-2.7.0.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [efpy]: Downloading https://files.pythonhosted.org/packages/93/c3/525e9bbec405a005ab9d4f3558b35b01f846268914002863c1bbbfeffe06/efpy-0.1.1.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [pyscal2]: executing diffoscope
+[2023-04-29 01:45:05] INFO root fetch - processPackages [pyscal2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal2-2.10.19.tar.gz tmp/pyscal2-2.10.20.tar.gz --markdown 20230429/p/pyscal2/2.10.19-2.10.20/diff.md --exclude *.pyd
+[2023-04-29 01:45:05] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-04-29 01:45:05] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.6.0.tar.gz tmp/hassle-2.7.0.tar.gz --markdown 20230429/h/hassle/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-04-29 01:45:05] INFO root fetch - processPackages [tungstenkit]: Downloading https://files.pythonhosted.org/packages/c9/c3/dfe2dce463cf041151330287514100a8af4fa4fe3b87aefead0298d93787/tungstenkit-0.0.1a5.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [efpy]: Downloading https://files.pythonhosted.org/packages/8e/2b/b32a3d0e413e481574426ba9051d6c48c83137cccd3538e5eb555c557db9/efpy-0.1.2.tar.gz
+[2023-04-29 01:45:05] INFO root fetch - processPackages [efpy]: executing diffoscope
+[2023-04-29 01:45:05] INFO root fetch - processPackages [efpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efpy-0.1.1.tar.gz tmp/efpy-0.1.2.tar.gz --markdown 20230429/e/efpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 01:45:05] INFO root fetch - processPackages [tungstenkit]: executing diffoscope
+[2023-04-29 01:45:05] INFO root fetch - processPackages [tungstenkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tungstenkit-0.0.1a4.tar.gz tmp/tungstenkit-0.0.1a5.tar.gz --markdown 20230429/t/tungstenkit/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-04-29 01:45:06] INFO root fetch - processPackages [pluto-rt]: Start processing: fair-cli
+[2023-04-29 01:45:06] INFO root fetch - main [MainThread]: End processing [pluto-rt]: success
+[2023-04-29 01:45:06] INFO root fetch - processPackages [fair-cli]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-29 01:45:06] INFO root fetch - processPackages [transformers-gradients]: Start processing: ytchat
+[2023-04-29 01:45:06] INFO root fetch - main [MainThread]: End processing [transformers-gradients]: success
+[2023-04-29 01:45:06] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-29 01:45:06] INFO root fetch - processPackages [ytchat]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-29 01:45:06] INFO root fetch - processPackages [fair-cli]: Downloading https://files.pythonhosted.org/packages/3e/e5/0a60ca1f16a832baebd4fa66f2cde88ae0f683dbd1e5e72895fab65937c7/fair_cli-0.5.1.tar.gz
+[2023-04-29 01:45:06] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-04-29 01:45:06] INFO root fetch - processPackages [ytchat]: Downloading https://files.pythonhosted.org/packages/b6/a7/6d0be2cd7cf14160ed70feb4a541f8ad138b2e8c3a4773ab3acac87c1977/ytchat-0.0.1.tar.gz
+[2023-04-29 01:45:06] WARNING root fetch - processPackages [ytchat]: Skipping package: exceeds size limit 12541446>=10485760
+[2023-04-29 01:45:06] INFO root fetch - main [MainThread]: End processing [ytchat] error
+[2023-04-29 01:45:06] INFO root fetch - main [MainThread]: End processing [efpy]: success
+[2023-04-29 01:45:07] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-29 01:45:07] INFO root fetch - processPackages [fair-cli]: Downloading https://files.pythonhosted.org/packages/bb/5d/6d666d60c76df8b9014024659db9209eaffde4bb4d847625e14036f61493/fair_cli-0.5.2.tar.gz
+[2023-04-29 01:45:07] INFO root fetch - main [MainThread]: End processing [pyscal2]: success
+[2023-04-29 01:45:07] INFO root fetch - processPackages [fair-cli]: executing diffoscope
+[2023-04-29 01:45:07] INFO root fetch - processPackages [fair-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fair_cli-0.5.1.tar.gz tmp/fair_cli-0.5.2.tar.gz --markdown 20230429/f/fair-cli/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-29 01:45:08] INFO root fetch - main [MainThread]: End processing [fair-cli]: success
+[2023-04-29 01:45:08] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-04-29 01:45:08] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
+[2023-04-29 01:45:09] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-04-29 01:45:09] INFO root fetch - main [MainThread]: Store serial: [17904117]
