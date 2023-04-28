@@ -809,3 +809,61 @@
 [2023-04-29 01:17:21] INFO root fetch - main [MainThread]: End processing [bdew-datetimes]: success
 [2023-04-29 01:19:05] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-04-29 01:19:05] INFO root fetch - main [MainThread]: Store serial: [17903923]
+[2023-04-29 01:24:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903923]
+[2023-04-29 01:24:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goxlrutilityapi
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: efpy
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medviz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pacakge1
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: local-dialog-workflow-python-backend
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dtn7zero
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: api-hunter-cli
+[2023-04-29 01:24:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: featurizerai
+[2023-04-29 01:24:14] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.0.0.dev5] Old Version: [1.0.0.dev4]
+[2023-04-29 01:24:14] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-29 01:24:14] WARNING root fetch - processPackages [pacakge1]: Skipping, unable to determine old version
+[2023-04-29 01:24:14] INFO root fetch - main [MainThread]: End processing [pacakge1] error
+[2023-04-29 01:24:14] INFO root fetch - processPackages [medviz]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-04-29 01:24:14] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 01:24:14] WARNING root fetch - processPackages [efpy]: Skipping, unable to determine old version
+[2023-04-29 01:24:14] INFO root fetch - main [MainThread]: End processing [efpy] error
+[2023-04-29 01:24:14] INFO root fetch - processPackages [featurizerai]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-04-29 01:24:14] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 01:24:14] INFO root fetch - processPackages [dtn7zero]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 01:24:14] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 01:24:14] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/f9/ce/c6c763407351bef4a23dfa1daae7c6444613367041556d170d7ef4a43931/goxlrutilityapi-1.0.0.dev4.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/3d/90/e1af90b341462623d8031a0faaf1246ced335f5f269ea8c553e469c71daa/api_hunter_cli-0.1.6.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: Downloading https://files.pythonhosted.org/packages/22/bf/611607b2dc0d6200f7e646ef79b582afb4852b6831676b5646d16b5e0bd9/local-dialog-workflow-python-backend-0.0.5.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/d6/f5/5dc3be256e0464e0eb5761b272e78f00cbd4815f226536acad1242804ea4/featurizerai-1.6.0.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [medviz]: Downloading https://files.pythonhosted.org/packages/6f/87/7009f283a3c6235579e0b6cae0972327a09026ac66ee308392c732f98442/medviz-0.0.2.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [dtn7zero]: Downloading https://files.pythonhosted.org/packages/55/44/464fa3a3eaa869e475f8a2846d89d3ebfadf509b0fd80b66518eb2c21265/dtn7zero-0.0.4.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 01:24:14] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_hunter_cli-0.1.5.tar.gz tmp/api_hunter_cli-0.1.6.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-29 01:24:14] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-29 01:24:14] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.5.9.tar.gz tmp/featurizerai-1.6.0.tar.gz --markdown 20230429/f/featurizerai/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-04-29 01:24:14] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: executing diffoscope
+[2023-04-29 01:24:14] INFO root fetch - processPackages [local-dialog-workflow-python-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local-dialog-workflow-python-backend-0.0.4.tar.gz tmp/local-dialog-workflow-python-backend-0.0.5.tar.gz --markdown 20230429/l/local-dialog-workflow-python-backend/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 01:24:14] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-04-29 01:24:14] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230429/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 01:24:14] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-04-29 01:24:14] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230429/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 01:24:14] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/92/4d/d98051486ab8e36c25de3aa92e0982d43b7012ce19365ee8e22ef23622b5/goxlrutilityapi-1.0.0.dev5.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [dtn7zero]: Downloading https://files.pythonhosted.org/packages/c7/ed/24a3bc529d0df3138160af4cacd221d0e4bb2e299332145de09ca32820e4/dtn7zero-0.0.5.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [medviz]: Downloading https://files.pythonhosted.org/packages/ab/0f/bbdf6c52fe0bc044008b42336a9bee53188105d8b63a7d3cbeb46225eaeb/medviz-0.1.1.tar.gz
+[2023-04-29 01:24:14] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-04-29 01:24:14] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.0.0.dev4.tar.gz tmp/goxlrutilityapi-1.0.0.dev5.tar.gz --markdown 20230429/g/goxlrutilityapi/1.0.0.dev4-1.0.0.dev5/diff.md --exclude *.pyd
+[2023-04-29 01:24:14] INFO root fetch - processPackages [medviz]: executing diffoscope
+[2023-04-29 01:24:14] INFO root fetch - processPackages [medviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medviz-0.0.2.tar.gz tmp/medviz-0.1.1.tar.gz --markdown 20230429/m/medviz/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 01:24:14] INFO root fetch - processPackages [dtn7zero]: executing diffoscope
+[2023-04-29 01:24:14] INFO root fetch - processPackages [dtn7zero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtn7zero-0.0.4.tar.gz tmp/dtn7zero-0.0.5.tar.gz --markdown 20230429/d/dtn7zero/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 01:24:15] INFO root fetch - main [MainThread]: End processing [local-dialog-workflow-python-backend]: success
+[2023-04-29 01:24:15] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 01:24:16] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-04-29 01:24:16] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-29 01:24:16] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-04-29 01:24:16] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-04-29 01:24:16] INFO root fetch - main [MainThread]: End processing [medviz]: success
+[2023-04-29 01:24:17] INFO root fetch - main [MainThread]: End processing [dtn7zero]: success
+[2023-04-29 01:24:17] INFO root fetch - main [MainThread]: Store serial: [17903955]
