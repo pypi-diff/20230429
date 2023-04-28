@@ -968,3 +968,51 @@
 [2023-04-29 01:34:42] INFO root fetch - processPackages [nuVeto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuVeto-2.1.5.tar.gz tmp/nuVeto-2.2.0.tar.gz --markdown 20230429/n/nuVeto/2.1.5-2.2.0/diff.md --exclude *.pyd
 [2023-04-29 01:34:45] INFO root fetch - main [MainThread]: End processing [nuVeto]: success
 [2023-04-29 01:34:45] INFO root fetch - main [MainThread]: Store serial: [17904010]
+[2023-04-29 01:39:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904010]
+[2023-04-29 01:39:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: carter-py
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipymock
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adafruit-circuitpython-pcf8563
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: passLass408
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-pipeline-api
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-object-safety
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qt-custom
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CoLT5-attention
+[2023-04-29 01:39:54] INFO root fetch - processPackages [qt-custom]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 01:39:54] INFO root fetch - processPackages [carter-py]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-04-29 01:39:54] WARNING root fetch - processPackages [passLass408]: Skipping, unable to determine old version
+[2023-04-29 01:39:54] INFO root fetch - main [MainThread]: End processing [passLass408] error
+[2023-04-29 01:39:54] INFO root fetch - processPackages [adafruit-circuitpython-pcf8563]: New version: [2.0.0] Old Version: [1.0.8]
+[2023-04-29 01:39:54] INFO root fetch - processPackages [django-object-safety]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-29 01:39:54] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-29 01:39:54] INFO root fetch - processPackages [data-pipeline-api]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ipymock]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-29 01:39:54] INFO root fetch - processPackages [data-pipeline-api]: executing diffoscope
+[2023-04-29 01:39:54] INFO root fetch - processPackages [data-pipeline-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_pipeline_api-0.7.8.tar.gz tmp/data_pipeline_api-0.7.9.tar.gz --markdown 20230429/d/data-pipeline-api/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-29 01:39:54] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-04-29 01:39:54] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.3.2.tar.gz tmp/CoLT5-attention-0.3.3.tar.gz --markdown 20230429/C/CoLT5-attention/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-29 01:39:54] INFO root fetch - processPackages [adafruit-circuitpython-pcf8563]: Downloading https://files.pythonhosted.org/packages/58/56/b27079e8ce1bb0b9b19a99175a4d8d7dc15437263afdc5832ae7e54c6d16/adafruit-circuitpython-pcf8563-1.0.8.tar.gz
+[2023-04-29 01:39:54] INFO root fetch - processPackages [carter-py]: Downloading https://files.pythonhosted.org/packages/3b/c4/cb58c5f0ffb7a2d2d81aa8dfaa37500dafd974859efbf75b9535fa879bb7/carter-py-0.1.3.tar.gz
+[2023-04-29 01:39:54] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/54/1e/a60f3f2e19e4f8c7cd7a6c007df3ec27346d482bd0f5a2a9e5fe24e35b89/django_object_safety-1.1.3.tar.gz
+[2023-04-29 01:39:54] INFO root fetch - processPackages [django-object-safety]: executing diffoscope
+[2023-04-29 01:39:54] INFO root fetch - processPackages [django-object-safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_object_safety-1.1.2.tar.gz tmp/django_object_safety-1.1.3.tar.gz --markdown 20230429/d/django-object-safety/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/9e/ba/509d445e43bc381e5350c583591e715e9cdd1b05c65969198e18d8015f12/ipymock-1.0.2.tar.gz
+[2023-04-29 01:39:54] INFO root fetch - processPackages [carter-py]: Downloading https://files.pythonhosted.org/packages/0c/ca/ebc47cc091d1191093d1621dd4a5a357583991b2beec339558db5be2b9d1/carter_py-0.2.0-py3-none-any.whl
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-04-29 01:39:54] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-1.0.1.tar.gz tmp/ipymock-1.0.2.tar.gz --markdown 20230429/i/ipymock/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-29 01:39:54] INFO root fetch - processPackages [carter-py]: executing diffoscope
+[2023-04-29 01:39:54] INFO root fetch - processPackages [carter-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carter-py-0.1.3.tar.gz tmp/carter_py-0.2.0-py3-none-any.whl.zip --markdown 20230429/c/carter-py/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 01:39:54] INFO root fetch - processPackages [adafruit-circuitpython-pcf8563]: Downloading https://files.pythonhosted.org/packages/a7/24/5021449a5970bda65e7084950d43f396d6ba8fb01ea95794c31c146f6763/adafruit-circuitpython-pcf8563-2.0.0.tar.gz
+[2023-04-29 01:39:54] INFO root fetch - processPackages [qt-custom]: Downloading https://files.pythonhosted.org/packages/ef/6c/f1397a2363ed971cd52f04374cb0da55d294e1f8c669b1713d747a25360d/qt-custom-0.2.2.tar.gz
+[2023-04-29 01:39:54] INFO root fetch - processPackages [adafruit-circuitpython-pcf8563]: executing diffoscope
+[2023-04-29 01:39:54] INFO root fetch - processPackages [adafruit-circuitpython-pcf8563]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-pcf8563-1.0.8.tar.gz tmp/adafruit-circuitpython-pcf8563-2.0.0.tar.gz --markdown 20230429/a/adafruit-circuitpython-pcf8563/1.0.8-2.0.0/diff.md --exclude *.pyd
+[2023-04-29 01:39:54] INFO root fetch - processPackages [qt-custom]: executing diffoscope
+[2023-04-29 01:39:54] INFO root fetch - processPackages [qt-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-custom-0.2.1.tar.gz tmp/qt-custom-0.2.2.tar.gz --markdown 20230429/q/qt-custom/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 01:39:55] INFO root fetch - main [MainThread]: End processing [django-object-safety]: success
+[2023-04-29 01:39:55] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-04-29 01:39:55] INFO root fetch - main [MainThread]: End processing [carter-py]: success
+[2023-04-29 01:39:56] INFO root fetch - main [MainThread]: End processing [qt-custom]: success
+[2023-04-29 01:39:56] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-pcf8563]: success
+[2023-04-29 01:39:56] INFO root fetch - main [MainThread]: End processing [data-pipeline-api]: success
+[2023-04-29 01:39:56] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-04-29 01:39:56] INFO root fetch - main [MainThread]: Store serial: [17904034]
