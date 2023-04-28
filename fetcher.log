@@ -306,3 +306,52 @@
 [2023-04-29 00:36:57] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-04-29 00:37:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-29 00:37:03] INFO root fetch - main [MainThread]: Store serial: [17903652]
+[2023-04-29 00:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903652]
+[2023-04-29 00:42:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: password-manager5
+[2023-04-29 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-04-29 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-SAM4IS
+[2023-04-29 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: screeny
+[2023-04-29 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: element-array-ephys
+[2023-04-29 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-hunter-cli
+[2023-04-29 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codex
+[2023-04-29 00:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rclone-decrypt
+[2023-04-29 00:42:12] INFO root fetch - processPackages [screeny]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 00:42:12] INFO root fetch - processPackages [codex]: New version: [1.4.0a1] Old Version: [1.4.0a0]
+[2023-04-29 00:42:12] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 00:42:12] INFO root fetch - processPackages [napari-SAM4IS]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 00:42:12] WARNING root fetch - processPackages [password-manager5]: Skipping, unable to determine old version
+[2023-04-29 00:42:12] INFO root fetch - main [MainThread]: End processing [password-manager5] error
+[2023-04-29 00:42:12] INFO root fetch - processPackages [element-array-ephys]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-29 00:42:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202304282237] Old Version: [99.0.202304282235]
+[2023-04-29 00:42:12] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/86/d8/c86943bc2638fc2492fc846ce4ec45f20a17c70a8e15fbedd39391ff064a/codex-1.4.0a0.tar.gz
+[2023-04-29 00:42:12] WARNING root fetch - processPackages [rclone-decrypt]: Skipping, unable to determine old version
+[2023-04-29 00:42:12] INFO root fetch - main [MainThread]: End processing [rclone-decrypt] error
+[2023-04-29 00:42:12] INFO root fetch - processPackages [screeny]: Downloading https://files.pythonhosted.org/packages/49/3b/92e084859a8201c5c4308a1a8e9eb3575cfc609634b5a345e029ce87539b/Screeny-0.0.2.tar.gz
+[2023-04-29 00:42:12] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f8/a8/a46ddfd9425c7d2f086a869b9db92f2c9bcb61fe2d22d59bf6e4b6bd2bef/kcli-99.0.202304282235-py3-none-any.whl
+[2023-04-29 00:42:12] INFO root fetch - processPackages [napari-SAM4IS]: Downloading https://files.pythonhosted.org/packages/9a/43/6b3cebd5c4d2967eaa46d4eb5d288debe8dfc3f12f532998173ebaee5e61/napari-SAM4IS-0.0.2.tar.gz
+[2023-04-29 00:42:12] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 16151115>=10485760
+[2023-04-29 00:42:12] INFO root fetch - main [MainThread]: End processing [codex] error
+[2023-04-29 00:42:12] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/49/27/380c3f9acc908baa9a000b8e7497c1d198f95932eb630e5a756e9e8b45cc/api-hunter-cli-0.1.0.tar.gz
+[2023-04-29 00:42:12] INFO root fetch - processPackages [element-array-ephys]: Downloading https://files.pythonhosted.org/packages/09/7a/5920342a4b47875471c37b388f91ba97281dd9720be255d4add20e49273a/element-array-ephys-0.2.7.tar.gz
+[2023-04-29 00:42:12] INFO root fetch - processPackages [screeny]: Downloading https://files.pythonhosted.org/packages/f9/fc/5550a3be3e202461241bcc2303b080c19b6e82f747d614c46890ea1808c0/screeny-0.0.3.tar.gz
+[2023-04-29 00:42:12] INFO root fetch - processPackages [napari-SAM4IS]: Downloading https://files.pythonhosted.org/packages/1a/a0/91d199a207a5b4e3ca4c6c63a0f61661b98ffd9478561ad3f725cec43dfe/napari-SAM4IS-0.0.3.tar.gz
+[2023-04-29 00:42:12] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/45/3d/b0331b14f6a23e7330c455a671a25e28bd590b3c10686ea47dd1af87f1dd/kcli-99.0.202304282237-py3-none-any.whl
+[2023-04-29 00:42:12] INFO root fetch - processPackages [element-array-ephys]: Downloading https://files.pythonhosted.org/packages/f0/bd/2ea16db2eac6a9e32f6101aaf279655c4e6a517d8fb21b1168dd243b1a3b/element-array-ephys-0.2.8.tar.gz
+[2023-04-29 00:42:12] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/1d/98/8f6f9546301d8cc4915ef5e17d48fdd4c225be83853bb36416da1be40045/api-hunter-cli-0.1.1.tar.gz
+[2023-04-29 00:42:12] INFO root fetch - processPackages [screeny]: executing diffoscope
+[2023-04-29 00:42:12] INFO root fetch - processPackages [screeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Screeny-0.0.2.tar.gz tmp/screeny-0.0.3.tar.gz --markdown 20230429/s/screeny/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 00:42:12] INFO root fetch - processPackages [napari-SAM4IS]: executing diffoscope
+[2023-04-29 00:42:12] INFO root fetch - processPackages [napari-SAM4IS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-SAM4IS-0.0.2.tar.gz tmp/napari-SAM4IS-0.0.3.tar.gz --markdown 20230429/n/napari-SAM4IS/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 00:42:12] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 00:42:12] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-hunter-cli-0.1.0.tar.gz tmp/api-hunter-cli-0.1.1.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 00:42:12] INFO root fetch - processPackages [element-array-ephys]: executing diffoscope
+[2023-04-29 00:42:12] INFO root fetch - processPackages [element-array-ephys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-array-ephys-0.2.7.tar.gz tmp/element-array-ephys-0.2.8.tar.gz --markdown 20230429/e/element-array-ephys/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-29 00:42:12] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-29 00:42:12] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304282235-py3-none-any.whl.zip tmp/kcli-99.0.202304282237-py3-none-any.whl.zip --markdown 20230429/k/kcli/99.0.202304282235-99.0.202304282237/diff.md --exclude *.pyd
+[2023-04-29 00:42:13] INFO root fetch - main [MainThread]: End processing [screeny]: success
+[2023-04-29 00:42:13] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 00:42:13] INFO root fetch - main [MainThread]: End processing [napari-SAM4IS]: success
+[2023-04-29 00:42:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-29 00:42:35] INFO root fetch - main [MainThread]: End processing [element-array-ephys]: success
+[2023-04-29 00:42:35] INFO root fetch - main [MainThread]: Store serial: [17903678]
