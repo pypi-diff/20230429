@@ -917,3 +917,54 @@
 [2023-04-29 01:29:27] INFO root fetch - main [MainThread]: End processing [skyagi]: success
 [2023-04-29 01:29:31] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
 [2023-04-29 01:29:31] INFO root fetch - main [MainThread]: Store serial: [17903985]
+[2023-04-29 01:34:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903985]
+[2023-04-29 01:34:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 01:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: api-hunter-cli
+[2023-04-29 01:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alacorder
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CoLT5-attention
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ark
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docstring-auditor
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: featurizerai
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cerebrium
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nuVeto
+[2023-04-29 01:34:40] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-29 01:34:40] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ark]: New version: [7.0.0] Old Version: [3.0.1]
+[2023-04-29 01:34:40] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 01:34:40] INFO root fetch - processPackages [docstring-auditor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 01:34:40] INFO root fetch - processPackages [featurizerai]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-04-29 01:34:40] INFO root fetch - processPackages [alacorder]: New version: [79.9.1] Old Version: [79.9.0]
+[2023-04-29 01:34:40] INFO root fetch - processPackages [nuVeto]: New version: [2.2.0] Old Version: [2.1.5]
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ark]: Downloading https://files.pythonhosted.org/packages/73/51/63d4071319482a3047c696fbab98351be568e975f959b32976b38a27d3c3/ark-3.0.1.tar.gz
+[2023-04-29 01:34:40] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 01:34:40] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 01:34:40] INFO root fetch - processPackages [docstring-auditor]: executing diffoscope
+[2023-04-29 01:34:40] INFO root fetch - processPackages [docstring-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_auditor-0.1.8.tar.gz tmp/docstring_auditor-0.1.9.tar.gz --markdown 20230429/d/docstring-auditor/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 01:34:40] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/67/ec/0905086b20ca2d78e9b6a3c828fd34f7ec7a89f21b2ef3e7717e964cb0c2/CoLT5-attention-0.3.3.tar.gz
+[2023-04-29 01:34:40] INFO root fetch - processPackages [featurizerai]: Downloading https://files.pythonhosted.org/packages/be/27/eba3e6a5c7122e10eb4b287d5f71524af5b6f9c4ce476879181cbcf38ee2/featurizerai-1.6.1.tar.gz
+[2023-04-29 01:34:40] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/0f/67/804da340802c5f7ed1b0212df98919f7d37c1e58ed67006cc997d9af7777/api_hunter_cli-0.1.7.tar.gz
+[2023-04-29 01:34:40] INFO root fetch - processPackages [nuVeto]: Downloading https://files.pythonhosted.org/packages/1d/8f/083db9497618917fa298f52a05d3deb9fbe01003eac1a9280a0d475d5dcb/nuVeto-2.1.5.tar.gz
+[2023-04-29 01:34:40] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-04-29 01:34:40] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.3.2.tar.gz tmp/CoLT5-attention-0.3.3.tar.gz --markdown 20230429/C/CoLT5-attention/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-29 01:34:40] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/e1/2a/87611ade6e0bdb78525926e7f80a74ee1682697b47bec1fa557d791342b6/alacorder-79.9.1.tar.gz
+[2023-04-29 01:34:40] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 01:34:40] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_hunter_cli-0.1.6.tar.gz tmp/api_hunter_cli-0.1.7.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-29 01:34:40] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-29 01:34:40] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.9.0.tar.gz tmp/alacorder-79.9.1.tar.gz --markdown 20230429/a/alacorder/79.9.0-79.9.1/diff.md --exclude *.pyd
+[2023-04-29 01:34:40] INFO root fetch - processPackages [featurizerai]: executing diffoscope
+[2023-04-29 01:34:40] INFO root fetch - processPackages [featurizerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurizerai-1.6.0.tar.gz tmp/featurizerai-1.6.1.tar.gz --markdown 20230429/f/featurizerai/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ark]: Downloading https://files.pythonhosted.org/packages/57/b1/72e0d15e0f4c30885f0ddc6b7387f116661ea611696d1fc8b97ba21f22de/ark-7.0.0.tar.gz
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ark]: executing diffoscope
+[2023-04-29 01:34:40] INFO root fetch - processPackages [ark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ark-3.0.1.tar.gz tmp/ark-7.0.0.tar.gz --markdown 20230429/a/ark/3.0.1-7.0.0/diff.md --exclude *.pyd
+[2023-04-29 01:34:41] INFO root fetch - processPackages [nuVeto]: Downloading https://files.pythonhosted.org/packages/4e/1b/036216ceb91046dd71bfb56cb13b1382d305e221651ef9e8396818d89d26/nuVeto-2.2.0.tar.gz
+[2023-04-29 01:34:41] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 01:34:41] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-04-29 01:34:41] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 01:34:41] INFO root fetch - main [MainThread]: End processing [docstring-auditor]: success
+[2023-04-29 01:34:41] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-29 01:34:41] INFO root fetch - main [MainThread]: End processing [featurizerai]: success
+[2023-04-29 01:34:42] INFO root fetch - main [MainThread]: End processing [ark]: success
+[2023-04-29 01:34:42] INFO root fetch - processPackages [nuVeto]: executing diffoscope
+[2023-04-29 01:34:42] INFO root fetch - processPackages [nuVeto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuVeto-2.1.5.tar.gz tmp/nuVeto-2.2.0.tar.gz --markdown 20230429/n/nuVeto/2.1.5-2.2.0/diff.md --exclude *.pyd
+[2023-04-29 01:34:45] INFO root fetch - main [MainThread]: End processing [nuVeto]: success
+[2023-04-29 01:34:45] INFO root fetch - main [MainThread]: Store serial: [17904010]
