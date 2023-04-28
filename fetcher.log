@@ -63,3 +63,38 @@
 [2023-04-29 00:05:08] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
 [2023-04-29 00:05:08] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-04-29 00:05:08] INFO root fetch - main [MainThread]: Store serial: [17903480]
+[2023-04-29 00:10:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903480]
+[2023-04-29 00:10:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 00:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-schema
+[2023-04-29 00:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-04-29 00:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-29 00:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bsmedit
+[2023-04-29 00:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spimdisasm
+[2023-04-29 00:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-hunter-cli
+[2023-04-29 00:10:16] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-29 00:10:16] WARNING root fetch - processPackages [api-hunter-cli]: Skipping, unable to determine old version
+[2023-04-29 00:10:16] INFO root fetch - main [MainThread]: End processing [api-hunter-cli] error
+[2023-04-29 00:10:16] INFO root fetch - processPackages [bsmedit]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-04-29 00:10:16] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-29 00:10:16] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-29 00:10:16] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 00:10:16] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-04-29 00:10:16] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230429/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-29 00:10:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-29 00:10:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230429/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-29 00:10:17] INFO root fetch - processPackages [bsmedit]: Downloading https://files.pythonhosted.org/packages/92/3c/c311e7a3690180e7c6f2afb42d0a8e61eaabb30cfa5e6406ef8b7ce8fb80/bsmedit-3.2.8.tar.gz
+[2023-04-29 00:10:17] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/65/8a/e3c45d6cdbcedb650d78e916ad3a53d6a72fa3e8eb4c6ffe1da395457581/spimdisasm-1.9.1.tar.gz
+[2023-04-29 00:10:17] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-29 00:10:17] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230429/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 00:10:17] INFO root fetch - processPackages [bsmedit]: Downloading https://files.pythonhosted.org/packages/b1/aa/4f2d6d2f8c156db26b950329c77de6bbd84a7610d36c0d57738032ed7f29/bsmedit-3.2.9.tar.gz
+[2023-04-29 00:10:17] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/4f/b6/3e3fe88ecbbc893a7b39d4c1bb62693fbaa6ad1360bbb0af77a0acafca9c/spimdisasm-1.9.2.tar.gz
+[2023-04-29 00:10:17] INFO root fetch - processPackages [bsmedit]: executing diffoscope
+[2023-04-29 00:10:17] INFO root fetch - processPackages [bsmedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsmedit-3.2.8.tar.gz tmp/bsmedit-3.2.9.tar.gz --markdown 20230429/b/bsmedit/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-04-29 00:10:17] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2023-04-29 00:10:17] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20230429/s/spimdisasm/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-29 00:10:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-29 00:10:18] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2023-04-29 00:10:19] INFO root fetch - main [MainThread]: End processing [bsmedit]: success
+[2023-04-29 00:10:19] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-04-29 00:10:20] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-29 00:10:20] INFO root fetch - main [MainThread]: Store serial: [17903502]
