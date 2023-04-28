@@ -867,3 +867,53 @@
 [2023-04-29 01:24:16] INFO root fetch - main [MainThread]: End processing [medviz]: success
 [2023-04-29 01:24:17] INFO root fetch - main [MainThread]: End processing [dtn7zero]: success
 [2023-04-29 01:24:17] INFO root fetch - main [MainThread]: Store serial: [17903955]
+[2023-04-29 01:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903955]
+[2023-04-29 01:29:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CoLT5-attention
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalice-spec
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foffinf
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alignem
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skyagi
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-rpautom
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python3-capsolver
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: efpy
+[2023-04-29 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: investor8-sdk
+[2023-04-29 01:29:26] WARNING root fetch - processPackages [foffinf]: Skipping, unable to determine old version
+[2023-04-29 01:29:26] INFO root fetch - main [MainThread]: End processing [foffinf] error
+[2023-04-29 01:29:26] INFO root fetch - processPackages [skyagi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 01:29:26] INFO root fetch - processPackages [chalice-spec]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-29 01:29:26] INFO root fetch - processPackages [py-rpautom]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-04-29 01:29:26] INFO root fetch - processPackages [alignem]: New version: [0.5.435] Old Version: [0.5.434]
+[2023-04-29 01:29:26] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-29 01:29:26] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-29 01:29:26] WARNING root fetch - processPackages [efpy]: Skipping, unable to determine old version
+[2023-04-29 01:29:26] INFO root fetch - main [MainThread]: End processing [efpy] error
+[2023-04-29 01:29:26] INFO root fetch - processPackages [python3-capsolver]: New version: [0.6] Old Version: [0.5.7]
+[2023-04-29 01:29:26] INFO root fetch - processPackages [py-rpautom]: executing diffoscope
+[2023-04-29 01:29:26] INFO root fetch - processPackages [py-rpautom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-rpautom-0.0.8b0.tar.gz tmp/py-rpautom-0.0.9b0.tar.gz --markdown 20230429/p/py-rpautom/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-04-29 01:29:26] INFO root fetch - processPackages [chalice-spec]: Downloading https://files.pythonhosted.org/packages/46/2a/8f137c892dd5678a544936b8908061114627c7cea0e2b6b589ad1e0a1b5b/chalice_spec-0.5.0.tar.gz
+[2023-04-29 01:29:26] INFO root fetch - processPackages [alignem]: Downloading https://files.pythonhosted.org/packages/de/02/1bf40a019e566d8aeeae6a296cc0c19daa29dfd9cc242c637ccc5bf126ce/alignem-0.5.434.tar.gz
+[2023-04-29 01:29:26] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/49/74/c2561dfd8e7b3cf177a16d8fba3fa6c15e2a0f276794da12b7b95e6c8135/investor8-sdk-1.1.8.tar.gz
+[2023-04-29 01:29:26] INFO root fetch - processPackages [python3-capsolver]: Downloading https://files.pythonhosted.org/packages/eb/a4/8a4f5b68f60de2df41283e35fc0eec20d2999afaeab2d4dafc19749229e9/python3-capsolver-0.6.tar.gz
+[2023-04-29 01:29:26] WARNING root fetch - processPackages [alignem]: Skipping package: exceeds size limit 42502230>=10485760
+[2023-04-29 01:29:26] INFO root fetch - main [MainThread]: End processing [alignem] error
+[2023-04-29 01:29:26] INFO root fetch - processPackages [python3-capsolver]: executing diffoscope
+[2023-04-29 01:29:26] INFO root fetch - processPackages [python3-capsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-capsolver-0.5.7.tar.gz tmp/python3-capsolver-0.6.tar.gz --markdown 20230429/p/python3-capsolver/0.5.7-0.6/diff.md --exclude *.pyd
+[2023-04-29 01:29:26] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/34/ea/2c59ec2a150af5377cb5ba42acdaf282bc5b4c125ea87867251e923a8bec/CoLT5-attention-0.3.2.tar.gz
+[2023-04-29 01:29:26] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-04-29 01:29:26] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.3.1.tar.gz tmp/CoLT5-attention-0.3.2.tar.gz --markdown 20230429/C/CoLT5-attention/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-29 01:29:26] INFO root fetch - processPackages [chalice-spec]: Downloading https://files.pythonhosted.org/packages/af/aa/f372841b694bcf82310145a845537dbd31e73c85caf61b0ed5da9f95b8b6/chalice_spec-0.6.0.tar.gz
+[2023-04-29 01:29:26] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-04-29 01:29:26] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.8.tar.gz tmp/skyagi-0.0.9.tar.gz --markdown 20230429/s/skyagi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 01:29:26] INFO root fetch - processPackages [chalice-spec]: executing diffoscope
+[2023-04-29 01:29:26] INFO root fetch - processPackages [chalice-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalice_spec-0.5.0.tar.gz tmp/chalice_spec-0.6.0.tar.gz --markdown 20230429/c/chalice-spec/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-29 01:29:27] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/e1/47/bce97e7b7f029c51614461015e4e7e67b15aa1d08c9f6d2d8c3f7e259616/investor8-sdk-1.1.9.tar.gz
+[2023-04-29 01:29:27] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-04-29 01:29:27] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.8.tar.gz tmp/investor8-sdk-1.1.9.tar.gz --markdown 20230429/i/investor8-sdk/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-29 01:29:27] INFO root fetch - main [MainThread]: End processing [py-rpautom]: success
+[2023-04-29 01:29:27] INFO root fetch - main [MainThread]: End processing [python3-capsolver]: success
+[2023-04-29 01:29:27] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-04-29 01:29:27] INFO root fetch - main [MainThread]: End processing [chalice-spec]: success
+[2023-04-29 01:29:27] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-04-29 01:29:31] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-04-29 01:29:31] INFO root fetch - main [MainThread]: Store serial: [17903985]
