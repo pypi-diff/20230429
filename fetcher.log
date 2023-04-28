@@ -588,3 +588,112 @@
 [2023-04-29 01:01:19] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
 [2023-04-29 01:01:19] INFO root fetch - main [MainThread]: End processing [bikeshed] error
 [2023-04-29 01:01:19] INFO root fetch - main [MainThread]: Store serial: [17903809]
+[2023-04-29 01:06:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903809]
+[2023-04-29 01:06:29] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docstring-auditor
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpxl2csv
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: a-pandas-ex-df-to-string
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mergem
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adaux
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msal-streamlit-authentication
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bump-deps-index
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafruit-circuitpython-neopixel-spi
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt-cu101
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ucsd-cape
+[2023-04-29 01:06:29] INFO root fetch - processPackages [docstring-auditor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: New version: [0.14] Old Version: [0.13]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [mpxl2csv]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adaux]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [bump-deps-index]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-04-29 01:06:29] WARNING root fetch - processPackages [ucsd-cape]: Skipping, unable to determine old version
+[2023-04-29 01:06:29] INFO root fetch - processPackages [msal-streamlit-authentication]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [ucsd-cape]: Start processing: tmnt
+[2023-04-29 01:06:29] INFO root fetch - main [MainThread]: End processing [ucsd-cape] error
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adafruit-circuitpython-neopixel-spi]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [mergem]: New version: [0.8] Old Version: [0.7.1]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230428] Old Version: [0.7.0b20230427]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230428] Old Version: [0.7.0b20230427]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [mergem]: Downloading https://files.pythonhosted.org/packages/57/95/8d85dfdc08cd5c899e31f8b4e92d0dac9b7fa59af01eca128b420d12bf8f/mergem-0.7.1.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [bump-deps-index]: Downloading https://files.pythonhosted.org/packages/07/1a/d77c6df2b9431a4354cd06ff41be913313533bccf9e8900dc9bce2519a9f/bump_deps_index-1.4.0.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [msal-streamlit-authentication]: Downloading https://files.pythonhosted.org/packages/d8/e1/e3057d98a13b2e8ada810d55529c80dc3c9ff71302bdcfdc97150b5a999d/msal_streamlit_authentication-1.0.7.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adafruit-circuitpython-neopixel-spi]: Downloading https://files.pythonhosted.org/packages/2d/bf/5e455874b49f549b20a3a98a2e65c085a45f986ef9c0913133d3e8dffb31/adafruit-circuitpython-neopixel-spi-1.0.5.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [mpxl2csv]: Downloading https://files.pythonhosted.org/packages/ca/3c/001e347ff272a6752c54b238847d6e3a21a4f7a4855b3a64d0b87da95313/mpxl2csv-0.1.1.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/5e/d4/223d085dad422e7c087405966f7a37c6a7ca72ed8fc69f751396a29b3b9d/tmnt-cu101-0.7.0b20230428.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/2e/83/2ea03209cfaa14e2450fdffce0135ff0a20ec5325a90b33bd8ddcb429b8c/tmnt-0.7.0b20230428.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [docstring-auditor]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [docstring-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_auditor-0.1.8.tar.gz tmp/docstring_auditor-0.1.9.tar.gz --markdown 20230429/d/docstring-auditor/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/52/49/a69900b4c25f807e221b74eb1fe80d22c40c0aaadce6d278cfcf6b7fc8d3/adaux-2.4.4.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: Downloading https://files.pythonhosted.org/packages/88/57/e14e7424ef0c597646f999006a3843361cac1aa859b8f1f86b71ef2f8c53/a_pandas_ex_df_to_string-0.14.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230427.tar.gz tmp/tmnt-cu101-0.7.0b20230428.tar.gz --markdown 20230429/t/tmnt-cu101/0.7.0b20230427-0.7.0b20230428/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230427.tar.gz tmp/tmnt-0.7.0b20230428.tar.gz --markdown 20230429/t/tmnt/0.7.0b20230427-0.7.0b20230428/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adaux]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaux-2.4.3.tar.gz tmp/adaux-2.4.4.tar.gz --markdown 20230429/a/adaux/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a_pandas_ex_df_to_string-0.13.tar.gz tmp/a_pandas_ex_df_to_string-0.14.tar.gz --markdown 20230429/a/a-pandas-ex-df-to-string/0.13-0.14/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] INFO root fetch - processPackages [bump-deps-index]: Downloading https://files.pythonhosted.org/packages/e1/13/f420a3794bfaacc5d8f1eeac4c6aff21ab6792bc2137f385d8c96f890890/bump_deps_index-1.4.1.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [msal-streamlit-authentication]: Downloading https://files.pythonhosted.org/packages/39/22/484e268cd3918096d555d6f685822c6f0937a9eed09352a1929bd026cadd/msal_streamlit_authentication-1.0.8.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [mpxl2csv]: Downloading https://files.pythonhosted.org/packages/a9/fa/bad9d9da44d5b2be1c60741bb62ff10d3bc240577a7ef6e1e6740b6df134/mpxl2csv-0.2.0.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [bump-deps-index]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [bump-deps-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bump_deps_index-1.4.0.tar.gz tmp/bump_deps_index-1.4.1.tar.gz --markdown 20230429/b/bump-deps-index/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adafruit-circuitpython-neopixel-spi]: Downloading https://files.pythonhosted.org/packages/fd/aa/18e7cce02bfcbbee4a5b32014df5ec236a4f3e011bf137a36d271fa90396/adafruit-circuitpython-neopixel-spi-1.0.6.tar.gz
+[2023-04-29 01:06:29] INFO root fetch - processPackages [mpxl2csv]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [mpxl2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpxl2csv-0.1.1.tar.gz tmp/mpxl2csv-0.2.0.tar.gz --markdown 20230429/m/mpxl2csv/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] INFO root fetch - processPackages [msal-streamlit-authentication]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [msal-streamlit-authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msal_streamlit_authentication-1.0.7.tar.gz tmp/msal_streamlit_authentication-1.0.8.tar.gz --markdown 20230429/m/msal-streamlit-authentication/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] WARNING root fetch - processPackages [mergem]: Skipping package: exceeds size limit 62373596>=10485760
+[2023-04-29 01:06:29] INFO root fetch - processPackages [mergem]: Start processing: api-hunter-cli
+[2023-04-29 01:06:29] INFO root fetch - main [MainThread]: End processing [mergem] error
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adafruit-circuitpython-neopixel-spi]: executing diffoscope
+[2023-04-29 01:06:29] INFO root fetch - processPackages [adafruit-circuitpython-neopixel-spi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-neopixel-spi-1.0.5.tar.gz tmp/adafruit-circuitpython-neopixel-spi-1.0.6.tar.gz --markdown 20230429/a/adafruit-circuitpython-neopixel-spi/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-29 01:06:29] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 01:06:29] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/bd/4b/656917c8d7c16190814790cde48d721f180447e3f74b64e1933e403c6cb6/api_hunter_cli-0.1.5.tar.gz
+[2023-04-29 01:06:30] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 01:06:30] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_hunter_cli-0.1.4.tar.gz tmp/api_hunter_cli-0.1.5.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 01:06:30] INFO root fetch - processPackages [docstring-auditor]: Start processing: shellextools
+[2023-04-29 01:06:30] INFO root fetch - main [MainThread]: End processing [docstring-auditor]: success
+[2023-04-29 01:06:30] INFO root fetch - processPackages [shellextools]: New version: [0.14] Old Version: [0.13]
+[2023-04-29 01:06:31] INFO root fetch - processPackages [a-pandas-ex-df-to-string]: Start processing: dnacentersdk
+[2023-04-29 01:06:31] INFO root fetch - main [MainThread]: End processing [a-pandas-ex-df-to-string]: success
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dnacentersdk]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-04-29 01:06:31] INFO root fetch - processPackages [mpxl2csv]: Start processing: cerebrium
+[2023-04-29 01:06:31] INFO root fetch - main [MainThread]: End processing [mpxl2csv]: success
+[2023-04-29 01:06:31] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 01:06:31] INFO root fetch - processPackages [shellextools]: Downloading https://files.pythonhosted.org/packages/a3/2a/73f5720b40a0df23b3633c7d9932aa54452c22fb54075ed1713a0ff17b18/shellextools-0.13.tar.gz
+[2023-04-29 01:06:31] INFO root fetch - processPackages [bump-deps-index]: Start processing: dbt-coves
+[2023-04-29 01:06:31] INFO root fetch - main [MainThread]: End processing [bump-deps-index]: success
+[2023-04-29 01:06:31] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 01:06:31] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dbt-coves]: New version: [1.4.7] Old Version: [1.4.6]
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dnacentersdk]: Downloading https://files.pythonhosted.org/packages/32/7c/33d5ba3a14f941c6e49d996cf25783c0d21bf3ee733efcb0e8b4295dd1f9/dnacentersdk-2.6.3.tar.gz
+[2023-04-29 01:06:31] INFO root fetch - processPackages [shellextools]: Downloading https://files.pythonhosted.org/packages/f7/f8/ecfc7930624ee10593fb6bfa6f9a02a665f26e05eb3fae89617d6f60a167/shellextools-0.14.tar.gz
+[2023-04-29 01:06:31] INFO root fetch - processPackages [api-hunter-cli]: Start processing: passLass
+[2023-04-29 01:06:31] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 01:06:31] WARNING root fetch - processPackages [passLass]: Skipping, unable to determine old version
+[2023-04-29 01:06:31] INFO root fetch - processPackages [passLass]: Start processing: tooljob
+[2023-04-29 01:06:31] INFO root fetch - main [MainThread]: End processing [passLass] error
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dbt-coves]: Downloading https://files.pythonhosted.org/packages/35/f1/0cf1321855be7f69ddcc869a997be3a38629d718bc34448daf78363e9ff9/dbt_coves-1.4.6.tar.gz
+[2023-04-29 01:06:31] INFO root fetch - processPackages [shellextools]: executing diffoscope
+[2023-04-29 01:06:31] INFO root fetch - processPackages [shellextools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellextools-0.13.tar.gz tmp/shellextools-0.14.tar.gz --markdown 20230429/s/shellextools/0.13-0.14/diff.md --exclude *.pyd
+[2023-04-29 01:06:31] INFO root fetch - main [MainThread]: End processing [adaux]: success
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dnacentersdk]: executing diffoscope
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dnacentersdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnacentersdk-2.6.2.tar.gz tmp/dnacentersdk-2.6.3.tar.gz --markdown 20230429/d/dnacentersdk/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-04-29 01:06:31] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-neopixel-spi]: success
+[2023-04-29 01:06:31] INFO root fetch - processPackages [tooljob]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dbt-coves]: Downloading https://files.pythonhosted.org/packages/f0/1a/ec438f49073a3b42f5bd01d9befc0c714b2187671fa317938984fc0974ca/dbt_coves-1.4.7.tar.gz
+[2023-04-29 01:06:31] INFO root fetch - processPackages [tooljob]: Downloading https://files.pythonhosted.org/packages/8d/0b/002c777f6bb23bbb2eaefc3147472dd6a980a8d2c74319f102e89569ad7b/tooljob-0.1.1.tar.gz
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-04-29 01:06:31] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.4.6.tar.gz tmp/dbt_coves-1.4.7.tar.gz --markdown 20230429/d/dbt-coves/1.4.6-1.4.7/diff.md --exclude *.pyd
+[2023-04-29 01:06:31] INFO root fetch - processPackages [tooljob]: Downloading https://files.pythonhosted.org/packages/31/8d/8fab4328ec8de34022b1c307c315892bf14511b5b412a7c94537f4c35f62/tooljob-0.1.2.tar.gz
+[2023-04-29 01:06:31] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-04-29 01:06:32] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-04-29 01:06:32] INFO root fetch - processPackages [tooljob]: executing diffoscope
+[2023-04-29 01:06:32] INFO root fetch - processPackages [tooljob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooljob-0.1.1.tar.gz tmp/tooljob-0.1.2.tar.gz --markdown 20230429/t/tooljob/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 01:06:32] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 01:06:32] INFO root fetch - main [MainThread]: End processing [shellextools]: success
+[2023-04-29 01:06:33] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-04-29 01:06:33] INFO root fetch - main [MainThread]: End processing [tooljob]: success
+[2023-04-29 01:06:36] INFO root fetch - main [MainThread]: End processing [msal-streamlit-authentication]: success
+[2023-04-29 01:06:58] INFO root fetch - main [MainThread]: End processing [dnacentersdk]: success
+[2023-04-29 01:06:58] INFO root fetch - main [MainThread]: Store serial: [17903865]
