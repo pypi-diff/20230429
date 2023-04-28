@@ -697,3 +697,69 @@
 [2023-04-29 01:06:36] INFO root fetch - main [MainThread]: End processing [msal-streamlit-authentication]: success
 [2023-04-29 01:06:58] INFO root fetch - main [MainThread]: End processing [dnacentersdk]: success
 [2023-04-29 01:06:58] INFO root fetch - main [MainThread]: Store serial: [17903865]
+[2023-04-29 01:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903865]
+[2023-04-29 01:12:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: space-invaders
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k1lib
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdefense_jupyter
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shellextools
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vodesfunc
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: passLass4
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-rpautom
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hoppr-cyclonedx-models
+[2023-04-29 01:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vodesfunc
+[2023-04-29 01:12:07] INFO root fetch - processPackages [space-invaders]: New version: [0.1.59] Old Version: [0.1.58]
+[2023-04-29 01:12:07] INFO root fetch - processPackages [nbdefense_jupyter]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 01:12:07] INFO root fetch - processPackages [vodesfunc]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-29 01:12:07] WARNING root fetch - processPackages [passLass4]: Skipping, unable to determine old version
+[2023-04-29 01:12:07] INFO root fetch - processPackages [shellextools]: New version: [0.15] Old Version: [0.14]
+[2023-04-29 01:12:07] INFO root fetch - processPackages [py-rpautom]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-04-29 01:12:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.295] Old Version: [0.3.294]
+[2023-04-29 01:12:07] INFO root fetch - main [MainThread]: End processing [passLass4] error
+[2023-04-29 01:12:07] INFO root fetch - processPackages [vodesfunc]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-04-29 01:12:07] INFO root fetch - processPackages [k1lib]: New version: [1.3.5.4] Old Version: [1.3.5.3]
+[2023-04-29 01:12:07] INFO root fetch - processPackages [hoppr-cyclonedx-models]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 01:12:07] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/9f/bd/d51b8a0d97a99f1193e032a627e7f46ffa5cedb851b8fc457c9568f80026/space-invaders-0.1.58.tar.gz
+[2023-04-29 01:12:07] INFO root fetch - processPackages [nbdefense_jupyter]: Downloading https://files.pythonhosted.org/packages/d7/99/5ea8e16d2f130a18847002567f319fe237fccf25ab152f8ec832174300cf/nbdefense_jupyter-1.0.3.tar.gz
+[2023-04-29 01:12:07] INFO root fetch - processPackages [vodesfunc]: Downloading https://files.pythonhosted.org/packages/36/c9/cb5eb6746be8c145090fca0f4fb2a46cb8bf8764a0d4448376dccb946fd6/vodesfunc-1.3.2.tar.gz
+[2023-04-29 01:12:07] INFO root fetch - processPackages [vodesfunc]: Downloading https://files.pythonhosted.org/packages/36/c9/cb5eb6746be8c145090fca0f4fb2a46cb8bf8764a0d4448376dccb946fd6/vodesfunc-1.3.2.tar.gz
+[2023-04-29 01:12:07] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/b8/86/3b39aeeeaeed9a04a6f8ae84778571be7149a76817e5a3272db02fa73b43/k1lib-1.3.5.4-py3-none-any.whl
+[2023-04-29 01:12:07] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/6e/39/46bb536db45da28d5a4efe63087cf7df066dd3b823715358df3eaff4fe72/py-rpautom-0.0.8b0.tar.gz
+[2023-04-29 01:12:07] INFO root fetch - processPackages [shellextools]: Downloading https://files.pythonhosted.org/packages/21/8d/ffce1dbd1ee779fca4990edf954f4882ec6da8bf34cc4ff0b3893a99d513/shellextools-0.15.tar.gz
+[2023-04-29 01:12:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/55/ea/7198a229c933486a32f552e5679d3170b9b4c78e7f6554290877ab75ebe0/pepperize.cdk-ses-smtp-credentials-0.3.295.tar.gz
+[2023-04-29 01:12:07] INFO root fetch - processPackages [hoppr-cyclonedx-models]: Downloading https://files.pythonhosted.org/packages/67/57/44aced9389486650d04a8bac07a33315396118df970ee17df6acd1cf1686/hoppr_cyclonedx_models-0.4.8.tar.gz
+[2023-04-29 01:12:07] INFO root fetch - processPackages [shellextools]: executing diffoscope
+[2023-04-29 01:12:07] INFO root fetch - processPackages [shellextools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellextools-0.14.tar.gz tmp/shellextools-0.15.tar.gz --markdown 20230429/s/shellextools/0.14-0.15/diff.md --exclude *.pyd
+[2023-04-29 01:12:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-29 01:12:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.294.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.295.tar.gz --markdown 20230429/p/pepperize.cdk-ses-smtp-credentials/0.3.294-0.3.295/diff.md --exclude *.pyd
+[2023-04-29 01:12:07] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-04-29 01:12:07] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.5.3-py3-none-any.whl.zip tmp/k1lib-1.3.5.4-py3-none-any.whl.zip --markdown 20230429/k/k1lib/1.3.5.3-1.3.5.4/diff.md --exclude *.pyd
+[2023-04-29 01:12:07] INFO root fetch - processPackages [nbdefense_jupyter]: Downloading https://files.pythonhosted.org/packages/f4/18/71ca557be686d8a889bcc5857a404934ab4e55c9ce85b6454552344df146/nbdefense_jupyter-1.0.4.tar.gz
+[2023-04-29 01:12:08] INFO root fetch - processPackages [vodesfunc]: Downloading https://files.pythonhosted.org/packages/40/86/79cd2679df4a0c76a92b680af7bcf495c698e73a32b477888c631ea7ead0/vodesfunc-1.3.3.tar.gz
+[2023-04-29 01:12:08] INFO root fetch - processPackages [vodesfunc]: Downloading https://files.pythonhosted.org/packages/40/86/79cd2679df4a0c76a92b680af7bcf495c698e73a32b477888c631ea7ead0/vodesfunc-1.3.3.tar.gz
+[2023-04-29 01:12:08] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/cf/3b/e059470a03ef2f0e921d173c0055657f1ffa2f19880f523ca5af3d2ffe26/space-invaders-0.1.59.tar.gz
+[2023-04-29 01:12:08] INFO root fetch - processPackages [nbdefense_jupyter]: executing diffoscope
+[2023-04-29 01:12:08] INFO root fetch - processPackages [nbdefense_jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdefense_jupyter-1.0.3.tar.gz tmp/nbdefense_jupyter-1.0.4.tar.gz --markdown 20230429/n/nbdefense_jupyter/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 01:12:08] INFO root fetch - processPackages [py-rpautom]: Downloading https://files.pythonhosted.org/packages/15/df/aca01fc29617ab2b4273b63a58b5cabaec5b193a2123d1bda0b5f8e7a87a/py-rpautom-0.0.9b0.tar.gz
+[2023-04-29 01:12:08] INFO root fetch - processPackages [hoppr-cyclonedx-models]: Downloading https://files.pythonhosted.org/packages/81/98/9f9fff57e1d9f7de886cfb08ab5198ec0082dc6d50b64ade56f4ba54666c/hoppr_cyclonedx_models-0.4.9.tar.gz
+[2023-04-29 01:12:08] INFO root fetch - processPackages [vodesfunc]: executing diffoscope
+[2023-04-29 01:12:08] INFO root fetch - processPackages [vodesfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vodesfunc-1.3.2.tar.gz tmp/vodesfunc-1.3.3.tar.gz --markdown 20230429/v/vodesfunc/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-29 01:12:08] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-29 01:12:08] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.58.tar.gz tmp/space-invaders-0.1.59.tar.gz --markdown 20230429/s/space-invaders/0.1.58-0.1.59/diff.md --exclude *.pyd
+[2023-04-29 01:12:08] INFO root fetch - processPackages [vodesfunc]: executing diffoscope
+[2023-04-29 01:12:08] INFO root fetch - processPackages [vodesfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vodesfunc-1.3.2.tar.gz tmp/vodesfunc-1.3.3.tar.gz --markdown 20230429/v/vodesfunc/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-04-29 01:12:08] INFO root fetch - processPackages [py-rpautom]: executing diffoscope
+[2023-04-29 01:12:08] INFO root fetch - processPackages [py-rpautom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-rpautom-0.0.8b0.tar.gz tmp/py-rpautom-0.0.9b0.tar.gz --markdown 20230429/p/py-rpautom/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-04-29 01:12:08] INFO root fetch - processPackages [hoppr-cyclonedx-models]: executing diffoscope
+[2023-04-29 01:12:08] INFO root fetch - processPackages [hoppr-cyclonedx-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_cyclonedx_models-0.4.8.tar.gz tmp/hoppr_cyclonedx_models-0.4.9.tar.gz --markdown 20230429/h/hoppr-cyclonedx-models/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [shellextools]: success
+[2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [py-rpautom]: success
+[2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [vodesfunc]: success
+[2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [hoppr-cyclonedx-models]: success
+[2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-04-29 01:12:09] INFO root fetch - main [MainThread]: End processing [vodesfunc]: success
+[2023-04-29 01:12:10] INFO root fetch - main [MainThread]: End processing [nbdefense_jupyter]: success
+[2023-04-29 01:12:10] INFO root fetch - main [MainThread]: Store serial: [17903897]
