@@ -242,3 +242,28 @@
 [2023-04-29 00:26:26] INFO root fetch - main [MainThread]: End processing [alethiometer]: success
 [2023-04-29 00:26:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-29 00:26:34] INFO root fetch - main [MainThread]: Store serial: [17903609]
+[2023-04-29 00:31:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903609]
+[2023-04-29 00:31:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 00:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: password-manager445
+[2023-04-29 00:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alethiometer
+[2023-04-29 00:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lpython-emulation
+[2023-04-29 00:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ygt
+[2023-04-29 00:31:43] WARNING root fetch - processPackages [password-manager445]: Skipping, unable to determine old version
+[2023-04-29 00:31:43] INFO root fetch - main [MainThread]: End processing [password-manager445] error
+[2023-04-29 00:31:43] INFO root fetch - processPackages [alethiometer]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 00:31:43] INFO root fetch - processPackages [ygt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-29 00:31:43] INFO root fetch - processPackages [lpython-emulation]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-04-29 00:31:43] INFO root fetch - processPackages [lpython-emulation]: Downloading https://files.pythonhosted.org/packages/6c/a9/7175d07d3db7cb3d275d6317503951df5bc749e4998ee6678dc8ec1a07e3/lpython_emulation-0.0.1.tar.gz
+[2023-04-29 00:31:43] INFO root fetch - processPackages [alethiometer]: Downloading https://files.pythonhosted.org/packages/a2/24/a62216cc22cc7f8b1744e0d7232d54d2d04c4306571e211eccdb221b6cb1/alethiometer-1.0.9.tar.gz
+[2023-04-29 00:31:43] INFO root fetch - processPackages [alethiometer]: executing diffoscope
+[2023-04-29 00:31:43] INFO root fetch - processPackages [alethiometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alethiometer-1.0.8.tar.gz tmp/alethiometer-1.0.9.tar.gz --markdown 20230429/a/alethiometer/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 00:31:43] INFO root fetch - processPackages [ygt]: Downloading https://files.pythonhosted.org/packages/37/14/3d2102452f4333465cd13c403681f0a62b742e5c7062ae6134a26ecb3381/ygt-0.1.6.tar.gz
+[2023-04-29 00:31:44] INFO root fetch - processPackages [lpython-emulation]: Downloading https://files.pythonhosted.org/packages/ae/64/6c74e32916d59120a354ac516efb6a0c63fcf2a698bc66469ac5a6ecaca2/lpython_emulation-0.0.1.1.tar.gz
+[2023-04-29 00:31:44] INFO root fetch - processPackages [ygt]: executing diffoscope
+[2023-04-29 00:31:44] INFO root fetch - processPackages [ygt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ygt-0.1.5.tar.gz tmp/ygt-0.1.6.tar.gz --markdown 20230429/y/ygt/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-29 00:31:44] INFO root fetch - processPackages [lpython-emulation]: executing diffoscope
+[2023-04-29 00:31:44] INFO root fetch - processPackages [lpython-emulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lpython_emulation-0.0.1.tar.gz tmp/lpython_emulation-0.0.1.1.tar.gz --markdown 20230429/l/lpython-emulation/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-04-29 00:31:45] INFO root fetch - main [MainThread]: End processing [alethiometer]: success
+[2023-04-29 00:31:45] INFO root fetch - main [MainThread]: End processing [lpython-emulation]: success
+[2023-04-29 00:31:45] INFO root fetch - main [MainThread]: End processing [ygt]: success
+[2023-04-29 00:31:45] INFO root fetch - main [MainThread]: Store serial: [17903624]
