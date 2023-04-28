@@ -267,3 +267,42 @@
 [2023-04-29 00:31:45] INFO root fetch - main [MainThread]: End processing [lpython-emulation]: success
 [2023-04-29 00:31:45] INFO root fetch - main [MainThread]: End processing [ygt]: success
 [2023-04-29 00:31:45] INFO root fetch - main [MainThread]: Store serial: [17903624]
+[2023-04-29 00:36:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903624]
+[2023-04-29 00:36:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 00:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: password-manager435
+[2023-04-29 00:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netconf-tool
+[2023-04-29 00:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uedge
+[2023-04-29 00:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot
+[2023-04-29 00:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-04-29 00:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cerebrium
+[2023-04-29 00:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-review
+[2023-04-29 00:36:53] WARNING root fetch - processPackages [netconf-tool]: Skipping, unable to determine old version
+[2023-04-29 00:36:53] INFO root fetch - main [MainThread]: End processing [netconf-tool] error
+[2023-04-29 00:36:53] INFO root fetch - processPackages [uedge]: New version: [8.0.0.dev0] Old Version: [8.0.0.1]
+[2023-04-29 00:36:53] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 00:36:53] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-04-29 00:36:53] WARNING root fetch - processPackages [password-manager435]: Skipping, unable to determine old version
+[2023-04-29 00:36:53] INFO root fetch - main [MainThread]: End processing [password-manager435] error
+[2023-04-29 00:36:54] INFO root fetch - processPackages [kcli]: New version: [99.0.202304282225] Old Version: [99.0.202304281640]
+[2023-04-29 00:36:54] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 00:36:54] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 00:36:54] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 00:36:54] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-04-29 00:36:54] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230429/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-04-29 00:36:54] INFO root fetch - processPackages [uedge]: Downloading https://files.pythonhosted.org/packages/6a/01/0d8b046d004f03b29c95938a272dcf3806f7fbbd93e99b74929c83b84c49/uedge-8.0.0.1.tar.gz
+[2023-04-29 00:36:54] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/fd/13/fcb2cfc4767339f9e2227b99b178e99ad62da42efd7343bbcb4495a4934d/cerebrium-0.4.8.tar.gz
+[2023-04-29 00:36:54] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/4c/4d/81348c2ffc61c858534d439286f51da5d841d259c2eed34961ddf6dbe621/kcli-99.0.202304282225-py3-none-any.whl
+[2023-04-29 00:36:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-29 00:36:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304281640-py3-none-any.whl.zip tmp/kcli-99.0.202304282225-py3-none-any.whl.zip --markdown 20230429/k/kcli/99.0.202304281640-99.0.202304282225/diff.md --exclude *.pyd
+[2023-04-29 00:36:54] INFO root fetch - processPackages [cerebrium]: Downloading https://files.pythonhosted.org/packages/7b/54/5e25d763a160a8f812ea5cdc025989b6fd783619d0557c49c65e1c72d464/cerebrium-0.4.9.tar.gz
+[2023-04-29 00:36:54] INFO root fetch - processPackages [uedge]: Downloading https://files.pythonhosted.org/packages/9d/a2/49261425bd21bb22b24c00ee1964be5e16c420831af6340e719daf788289/uedge-8.0.0.dev0-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-04-29 00:36:54] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 00:36:54] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 00:36:55] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 00:36:55] INFO root fetch - processPackages [uedge]: executing diffoscope
+[2023-04-29 00:36:55] INFO root fetch - processPackages [uedge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uedge-8.0.0.1.tar.gz tmp/uedge-8.0.0.dev0-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230429/u/uedge/8.0.0.1-8.0.0.dev0/diff.md --exclude *.pyd
+[2023-04-29 00:36:55] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 00:36:57] INFO root fetch - main [MainThread]: End processing [uedge]: success
+[2023-04-29 00:36:57] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-04-29 00:37:03] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-29 00:37:03] INFO root fetch - main [MainThread]: Store serial: [17903652]
