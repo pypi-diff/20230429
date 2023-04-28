@@ -207,3 +207,38 @@
 [2023-04-29 00:21:08] INFO root fetch - main [MainThread]: End processing [great-expectations]: success
 [2023-04-29 00:21:14] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2023-04-29 00:21:14] INFO root fetch - main [MainThread]: Store serial: [17903566]
+[2023-04-29 00:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903566]
+[2023-04-29 00:26:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 00:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alethiometer
+[2023-04-29 00:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: password-manager89
+[2023-04-29 00:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: custardpy
+[2023-04-29 00:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-shelly-certoraclibeta
+[2023-04-29 00:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: password-manager45
+[2023-04-29 00:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-04-29 00:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lpython-emulation
+[2023-04-29 00:26:24] INFO root fetch - processPackages [custardpy]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-29 00:26:24] WARNING root fetch - processPackages [password-manager89]: Skipping, unable to determine old version
+[2023-04-29 00:26:24] INFO root fetch - main [MainThread]: End processing [password-manager89] error
+[2023-04-29 00:26:24] INFO root fetch - processPackages [alethiometer]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-29 00:26:24] INFO root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: New version: [20230428.22.25.601887] Old Version: [20230428.18.32.408351]
+[2023-04-29 00:26:24] INFO root fetch - processPackages [kcli]: New version: [99.0.202304281640] Old Version: [99.0.202304281616]
+[2023-04-29 00:26:24] WARNING root fetch - processPackages [password-manager45]: Skipping, unable to determine old version
+[2023-04-29 00:26:24] INFO root fetch - main [MainThread]: End processing [password-manager45] error
+[2023-04-29 00:26:24] WARNING root fetch - processPackages [lpython-emulation]: Skipping, unable to determine old version
+[2023-04-29 00:26:24] INFO root fetch - main [MainThread]: End processing [lpython-emulation] error
+[2023-04-29 00:26:24] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-29 00:26:24] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304281616-py3-none-any.whl.zip tmp/kcli-99.0.202304281640-py3-none-any.whl.zip --markdown 20230429/k/kcli/99.0.202304281616-99.0.202304281640/diff.md --exclude *.pyd
+[2023-04-29 00:26:24] INFO root fetch - processPackages [alethiometer]: Downloading https://files.pythonhosted.org/packages/14/8f/3fb9c249163096404dbf0e6429b5842d28c7d68eb8e64c5a454b374ada23/alethiometer-1.0.7.tar.gz
+[2023-04-29 00:26:24] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/91/a0/d15e78d73f8176cbeb31c45b21dbe08ff48132be41e968f2ff630ce51ebb/custardpy-0.3.4-py3-none-any.whl
+[2023-04-29 00:26:24] INFO root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Downloading https://files.pythonhosted.org/packages/04/f7/2df3a81adea3967b57195b7b14146d6925845ddb3ae6496de655c3303b55/certora-cli-alpha-shelly-certoraclibeta-20230428.18.32.408351.tar.gz
+[2023-04-29 00:26:24] WARNING root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Skipping package: exceeds size limit 38050960>=10485760
+[2023-04-29 00:26:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-certoraclibeta] error
+[2023-04-29 00:26:24] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-04-29 00:26:24] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.3.3-py3-none-any.whl.zip tmp/custardpy-0.3.4-py3-none-any.whl.zip --markdown 20230429/c/custardpy/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-29 00:26:25] INFO root fetch - processPackages [alethiometer]: Downloading https://files.pythonhosted.org/packages/65/ce/8bdf22f5fe3fa328f34f791f8a9ed3adfda3682610b4dfc4a7e1351c976d/alethiometer-1.0.8.tar.gz
+[2023-04-29 00:26:25] INFO root fetch - processPackages [alethiometer]: executing diffoscope
+[2023-04-29 00:26:25] INFO root fetch - processPackages [alethiometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alethiometer-1.0.7.tar.gz tmp/alethiometer-1.0.8.tar.gz --markdown 20230429/a/alethiometer/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-29 00:26:26] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-04-29 00:26:26] INFO root fetch - main [MainThread]: End processing [alethiometer]: success
+[2023-04-29 00:26:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-29 00:26:34] INFO root fetch - main [MainThread]: Store serial: [17903609]
