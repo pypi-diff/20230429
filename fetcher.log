@@ -505,3 +505,86 @@
 [2023-04-29 00:53:02] INFO root fetch - main [MainThread]: End processing [doc-to-readme]: success
 [2023-04-29 00:53:04] INFO root fetch - main [MainThread]: End processing [gmprocess]: success
 [2023-04-29 00:53:04] INFO root fetch - main [MainThread]: Store serial: [17903763]
+[2023-04-29 00:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17903763]
+[2023-04-29 00:58:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astrohack
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k1lib
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyproject-fmt
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spikesafe-python
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: returnn
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cerebrium
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airunner
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: api-hunter-cli
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UQpy
+[2023-04-29 00:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-review
+[2023-04-29 00:58:12] INFO root fetch - processPackages [k1lib]: New version: [1.3.5.3] Old Version: [1.3.5.2]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [astrohack]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [UQpy]: New version: [4.1.0] Old Version: [4.0.7]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [spikesafe-python]: New version: [1.4.5] Old Version: [1.3.0]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [pyproject-fmt]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 00:58:12] INFO root fetch - processPackages [returnn]: New version: [1.20230429.4240] Old Version: [1.20230428.134452]
+[2023-04-29 00:58:13] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230429/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [pyproject-fmt]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [pyproject-fmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_fmt-0.9.1.tar.gz tmp/pyproject_fmt-0.9.2.tar.gz --markdown 20230429/p/pyproject-fmt/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [astrohack]: Downloading https://files.pythonhosted.org/packages/13/1b/4e8dfce8afd3ccbddc9018e80f3a06d0a1858bedfe7f290d08a1e925ae85/astrohack-0.0.9.tar.gz
+[2023-04-29 00:58:13] INFO root fetch - processPackages [UQpy]: Downloading https://files.pythonhosted.org/packages/0d/89/d9aaa751833066fed4f7589191ca0a84b07eeca379ed3fe3af25fc861943/UQpy-4.0.7.tar.gz
+[2023-04-29 00:58:13] INFO root fetch - processPackages [spikesafe-python]: Downloading https://files.pythonhosted.org/packages/a2/41/95a192797336ac1122842d34e3540e6c662255910bb771ef4eb24a7a1295/spikesafe-python-1.3.0.tar.gz
+[2023-04-29 00:58:13] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/69/3f/59b3474644cba76e67b304c64a27e887a7b6c861b47763bbeb0883001b0e/api_hunter_cli-0.1.4.tar.gz
+[2023-04-29 00:58:13] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/b4/e6/c10ed392bf564d8267af284a462b2c9b96cd495d97a9ef126657cc4a1c91/k1lib-1.3.5.3-py3-none-any.whl
+[2023-04-29 00:58:13] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/36/83/260fa976afd877557724f8e0df222b6bb1bd8dcb43aa77e72e7fe7856dd8/returnn-1.20230429.4240.tar.gz
+[2023-04-29 00:58:13] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230428.134452.tar.gz tmp/returnn-1.20230429.4240.tar.gz --markdown 20230429/r/returnn/1.20230428.134452-1.20230429.4240/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_hunter_cli-0.1.3.tar.gz tmp/api_hunter_cli-0.1.4.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [UQpy]: Downloading https://files.pythonhosted.org/packages/b7/b7/74e865bee3acf373e9eb3b3abdb9daf5f0915f886c09e2ac1920b77d0332/UQpy-4.1.0.tar.gz
+[2023-04-29 00:58:13] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.5.2-py3-none-any.whl.zip tmp/k1lib-1.3.5.3-py3-none-any.whl.zip --markdown 20230429/k/k1lib/1.3.5.2-1.3.5.3/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [spikesafe-python]: Downloading https://files.pythonhosted.org/packages/d7/e7/9896280531df548e3be18318b0cd9ca7e8d4b9383bd4fd24685b93a6e714/spikesafe-python-1.4.5.tar.gz
+[2023-04-29 00:58:13] INFO root fetch - processPackages [UQpy]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [UQpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UQpy-4.0.7.tar.gz tmp/UQpy-4.1.0.tar.gz --markdown 20230429/U/UQpy/4.0.7-4.1.0/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [astrohack]: Downloading https://files.pythonhosted.org/packages/a4/6a/79092a65c247daf082d2d2790b23b341efecc76d015ad5da61de62498711/astrohack-0.1.0.tar.gz
+[2023-04-29 00:58:13] INFO root fetch - processPackages [spikesafe-python]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [spikesafe-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spikesafe-python-1.3.0.tar.gz tmp/spikesafe-python-1.4.5.tar.gz --markdown 20230429/s/spikesafe-python/1.3.0-1.4.5/diff.md --exclude *.pyd
+[2023-04-29 00:58:13] INFO root fetch - processPackages [astrohack]: executing diffoscope
+[2023-04-29 00:58:13] INFO root fetch - processPackages [astrohack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrohack-0.0.9.tar.gz tmp/astrohack-0.1.0.tar.gz --markdown 20230429/a/astrohack/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 00:58:14] INFO root fetch - processPackages [api-hunter-cli]: Start processing: django-hostutils
+[2023-04-29 00:58:14] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 00:58:14] INFO root fetch - processPackages [django-hostutils]: New version: [0.0.dev3] Old Version: [0.0.2]
+[2023-04-29 00:58:14] INFO root fetch - processPackages [gpt-review]: Start processing: bikeshed
+[2023-04-29 00:58:14] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 00:58:14] INFO root fetch - processPackages [pyproject-fmt]: Start processing: google-cloud-pipeline-components
+[2023-04-29 00:58:14] INFO root fetch - main [MainThread]: End processing [pyproject-fmt]: success
+[2023-04-29 00:58:14] INFO root fetch - processPackages [bikeshed]: New version: [3.9.0] Old Version: [3.8.2]
+[2023-04-29 00:58:14] INFO root fetch - processPackages [google-cloud-pipeline-components]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-04-29 00:58:14] INFO root fetch - processPackages [django-hostutils]: Downloading https://files.pythonhosted.org/packages/b9/cd/33abf0ac6448ac6c86e29e7a8e7d496211223053ce48c8661f3ca468c111/django-hostutils-0.0.2.tar.gz
+[2023-04-29 00:58:14] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/8d/01/4bf86ee6dd68b65b221cc8cd652fcdadf6ef3763d556ba2ed9d328fd7e70/bikeshed-3.8.2.tar.gz
+[2023-04-29 00:58:14] INFO root fetch - processPackages [google-cloud-pipeline-components]: Downloading https://files.pythonhosted.org/packages/72/73/916c2ccfc3b995997427f0220b46216c464cd656868af0b678ebe011ca91/google_cloud_pipeline_components-2.0.0b1-py3-none-any.whl
+[2023-04-29 00:58:15] INFO root fetch - processPackages [django-hostutils]: executing diffoscope
+[2023-04-29 00:58:15] INFO root fetch - processPackages [django-hostutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-hostutils-0.0.2.tar.gz tmp/django-hostutils-0.0.dev3.tar.gz --markdown 20230429/d/django-hostutils/0.0.2-0.0.dev3/diff.md --exclude *.pyd
+[2023-04-29 00:58:15] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 00:58:15] INFO root fetch - processPackages [google-cloud-pipeline-components]: Downloading https://files.pythonhosted.org/packages/07/ec/8140d1c0989485df5543b806438b39ae9c7691e44a323d88d264973960f1/google_cloud_pipeline_components-2.0.0b2-py3-none-any.whl
+[2023-04-29 00:58:15] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-04-29 00:58:15] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-04-29 00:58:15] INFO root fetch - processPackages [google-cloud-pipeline-components]: executing diffoscope
+[2023-04-29 00:58:15] INFO root fetch - processPackages [google-cloud-pipeline-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_cloud_pipeline_components-2.0.0b1-py3-none-any.whl.zip tmp/google_cloud_pipeline_components-2.0.0b2-py3-none-any.whl.zip --markdown 20230429/g/google-cloud-pipeline-components/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-04-29 00:58:15] INFO root fetch - main [MainThread]: End processing [astrohack]: success
+[2023-04-29 00:58:16] INFO root fetch - main [MainThread]: End processing [django-hostutils]: success
+[2023-04-29 00:58:16] INFO root fetch - main [MainThread]: End processing [spikesafe-python]: success
+[2023-04-29 00:58:17] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/0d/7b/7da3451cea6ea989a5021170faad121ec4e6491f37be25499c9e2f10b1cb/bikeshed-3.9.0.tar.gz
+[2023-04-29 00:58:17] INFO root fetch - main [MainThread]: End processing [UQpy]: success
+[2023-04-29 00:58:19] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-29 00:58:19] INFO root fetch - processPackages [bikeshed]: executing diffoscope
+[2023-04-29 00:58:19] INFO root fetch - processPackages [bikeshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshed-3.8.2.tar.gz tmp/bikeshed-3.9.0.tar.gz --markdown 20230429/b/bikeshed/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2023-04-29 00:58:27] INFO root fetch - main [MainThread]: End processing [google-cloud-pipeline-components]: success
+[2023-04-29 01:01:19] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
+[2023-04-29 01:01:19] INFO root fetch - main [MainThread]: End processing [bikeshed] error
+[2023-04-29 01:01:19] INFO root fetch - main [MainThread]: Store serial: [17903809]
