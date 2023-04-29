@@ -5743,3 +5743,36 @@
 [2023-04-29 07:41:58] INFO root fetch - main [MainThread]: End processing [nsepython]: success
 [2023-04-29 07:41:58] INFO root fetch - main [MainThread]: End processing [pymkpsxiso]: success
 [2023-04-29 07:41:58] INFO root fetch - main [MainThread]: Store serial: [17906970]
+[2023-04-29 07:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906970]
+[2023-04-29 07:47:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 07:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nsepythonserver
+[2023-04-29 07:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tweepy-authlib
+[2023-04-29 07:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylyzer
+[2023-04-29 07:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysura
+[2023-04-29 07:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IMDbTraktSyncer
+[2023-04-29 07:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IMDbTraktSyncer
+[2023-04-29 07:47:09] WARNING root fetch - processPackages [IMDbTraktSyncer]: Skipping, unable to determine old version
+[2023-04-29 07:47:09] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer] error
+[2023-04-29 07:47:09] WARNING root fetch - processPackages [IMDbTraktSyncer]: Skipping, unable to determine old version
+[2023-04-29 07:47:09] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer] error
+[2023-04-29 07:47:09] INFO root fetch - processPackages [pylyzer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 07:47:09] INFO root fetch - processPackages [nsepythonserver]: New version: [1.5] Old Version: [1.4]
+[2023-04-29 07:47:09] INFO root fetch - processPackages [tweepy-authlib]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-04-29 07:47:09] INFO root fetch - processPackages [pysura]: New version: [0.99.99] Old Version: [0.99.98]
+[2023-04-29 07:47:09] INFO root fetch - processPackages [nsepythonserver]: Downloading https://files.pythonhosted.org/packages/f6/9f/2996107c849c0505edb8f197d1de2ddb5cf7ec796151d83a532e1da1ad81/nsepythonserver-1.4.tar.gz
+[2023-04-29 07:47:09] INFO root fetch - processPackages [tweepy-authlib]: Downloading https://files.pythonhosted.org/packages/25/14/e564b1b49de6fd5754f05649a04fe3967c53c662c6d3277d8d96c7a03dc5/tweepy_authlib-1.0.6.tar.gz
+[2023-04-29 07:47:09] INFO root fetch - processPackages [nsepythonserver]: Downloading https://files.pythonhosted.org/packages/2d/40/baf56ce7e7d005501182ca072cbd14c60bdd2269d4b61cdf3cb6b1d8b70d/nsepythonserver-1.5.tar.gz
+[2023-04-29 07:47:09] INFO root fetch - processPackages [pylyzer]: executing diffoscope
+[2023-04-29 07:47:09] INFO root fetch - processPackages [pylyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylyzer-0.0.8-py3-none-win_amd64.whl.zip tmp/pylyzer-0.0.9-py3-none-win_amd64.whl.zip --markdown 20230429/p/pylyzer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 07:47:09] INFO root fetch - processPackages [pysura]: executing diffoscope
+[2023-04-29 07:47:09] INFO root fetch - processPackages [pysura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysura-0.99.98.tar.gz tmp/pysura-0.99.99.tar.gz --markdown 20230429/p/pysura/0.99.98-0.99.99/diff.md --exclude *.pyd
+[2023-04-29 07:47:09] INFO root fetch - processPackages [tweepy-authlib]: Downloading https://files.pythonhosted.org/packages/d1/63/d57dd52d989c1d5d112d3e7bad22dd8649e026e1d1a70ce94dd2ee38ee72/tweepy_authlib-1.1.0.tar.gz
+[2023-04-29 07:47:09] INFO root fetch - processPackages [nsepythonserver]: executing diffoscope
+[2023-04-29 07:47:09] INFO root fetch - processPackages [nsepythonserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsepythonserver-1.4.tar.gz tmp/nsepythonserver-1.5.tar.gz --markdown 20230429/n/nsepythonserver/1.4-1.5/diff.md --exclude *.pyd
+[2023-04-29 07:47:09] INFO root fetch - processPackages [tweepy-authlib]: executing diffoscope
+[2023-04-29 07:47:09] INFO root fetch - processPackages [tweepy-authlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweepy_authlib-1.0.6.tar.gz tmp/tweepy_authlib-1.1.0.tar.gz --markdown 20230429/t/tweepy-authlib/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-04-29 07:47:10] INFO root fetch - main [MainThread]: End processing [nsepythonserver]: success
+[2023-04-29 07:47:10] INFO root fetch - main [MainThread]: End processing [tweepy-authlib]: success
+[2023-04-29 07:47:12] INFO root fetch - main [MainThread]: End processing [pysura]: success
+[2023-04-29 07:48:09] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
+[2023-04-29 07:48:09] INFO root fetch - main [MainThread]: Store serial: [17906989]
