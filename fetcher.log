@@ -2177,3 +2177,54 @@
 [2023-04-29 03:07:01] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
 [2023-04-29 03:07:01] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-04-29 03:07:01] INFO root fetch - main [MainThread]: Store serial: [17904776]
+[2023-04-29 03:12:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904776]
+[2023-04-29 03:12:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 03:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: space-invaders
+[2023-04-29 03:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: steamship-langchain
+[2023-04-29 03:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: estimenergy
+[2023-04-29 03:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-sops-secrets
+[2023-04-29 03:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cerebrium
+[2023-04-29 03:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Catalyst-Lib
+[2023-04-29 03:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Catalyst-Lib
+[2023-04-29 03:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hoppr-security-commons
+[2023-04-29 03:12:12] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 03:12:12] INFO root fetch - processPackages [Catalyst-Lib]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-29 03:12:12] INFO root fetch - processPackages [Catalyst-Lib]: New version: [0.1.1] Old Version: [0.1]
+[2023-04-29 03:12:12] INFO root fetch - processPackages [space-invaders]: New version: [0.1.71] Old Version: [0.1.70]
+[2023-04-29 03:12:12] INFO root fetch - processPackages [estimenergy]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-04-29 03:12:12] INFO root fetch - processPackages [steamship-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 03:12:12] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 03:12:12] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 03:12:12] INFO root fetch - processPackages [steamship-langchain]: executing diffoscope
+[2023-04-29 03:12:12] INFO root fetch - processPackages [steamship-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-langchain-0.0.8.tar.gz tmp/steamship-langchain-0.0.9.tar.gz --markdown 20230429/s/steamship-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 03:12:12] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/8b/20/263077e56b573716fdf850bace4054e7a948ee79372be6434cb7e58efd3b/Catalyst_Lib-0.1.tar.gz
+[2023-04-29 03:12:12] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-04-29 03:12:12] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230429/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 03:12:12] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/8b/20/263077e56b573716fdf850bace4054e7a948ee79372be6434cb7e58efd3b/Catalyst_Lib-0.1.tar.gz
+[2023-04-29 03:12:12] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/b8/28/6b53e17b33e03a63150557b7e482415c920b0b46eaf9bbc3a63f5106738c/space-invaders-0.1.70.tar.gz
+[2023-04-29 03:12:12] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/ed/68/e7a56048bc2c9578e99c5eaa8dcc14d9341c10dbfdd8caeae7af067aa1d1/estimenergy-2.0.7.tar.gz
+[2023-04-29 03:12:12] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2023-04-29 03:12:12] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.8.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20230429/h/hoppr-security-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 03:12:12] INFO root fetch - processPackages [estimenergy]: Downloading https://files.pythonhosted.org/packages/ba/76/7b273a073ae183aa6746d3aff89ef5fadd438dc2f38429cba922378c2658/estimenergy-2.0.8.tar.gz
+[2023-04-29 03:12:12] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 03:12:12] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 03:12:13] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-29 03:12:13] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-2.0.7.tar.gz tmp/estimenergy-2.0.8.tar.gz --markdown 20230429/e/estimenergy/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-04-29 03:12:13] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/b4/76/7f49136b129ca8559f5c009f3ca89640aa9192191715a22bce0625074216/Catalyst_Lib-0.1.1.tar.gz
+[2023-04-29 03:12:13] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/b4/76/7f49136b129ca8559f5c009f3ca89640aa9192191715a22bce0625074216/Catalyst_Lib-0.1.1.tar.gz
+[2023-04-29 03:12:13] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/85/ac/d86a4105174b709b1f06b11fa537375e0db9da9011e0ef4d532d7d93bd52/space-invaders-0.1.71.tar.gz
+[2023-04-29 03:12:13] INFO root fetch - processPackages [Catalyst-Lib]: executing diffoscope
+[2023-04-29 03:12:13] INFO root fetch - processPackages [Catalyst-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Catalyst_Lib-0.1.tar.gz tmp/Catalyst_Lib-0.1.1.tar.gz --markdown 20230429/C/Catalyst-Lib/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 03:12:13] INFO root fetch - processPackages [Catalyst-Lib]: executing diffoscope
+[2023-04-29 03:12:13] INFO root fetch - processPackages [Catalyst-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Catalyst_Lib-0.1.tar.gz tmp/Catalyst_Lib-0.1.1.tar.gz --markdown 20230429/C/Catalyst-Lib/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 03:12:13] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-29 03:12:13] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.70.tar.gz tmp/space-invaders-0.1.71.tar.gz --markdown 20230429/s/space-invaders/0.1.70-0.1.71/diff.md --exclude *.pyd
+[2023-04-29 03:12:14] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 03:12:14] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2023-04-29 03:12:14] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-29 03:12:14] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
+[2023-04-29 03:12:15] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-04-29 03:12:15] INFO root fetch - main [MainThread]: End processing [steamship-langchain]: success
+[2023-04-29 03:12:17] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-29 03:12:35] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
+[2023-04-29 03:12:35] INFO root fetch - main [MainThread]: Store serial: [17904799]
