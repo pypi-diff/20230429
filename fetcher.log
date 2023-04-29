@@ -6134,3 +6134,23 @@
 [2023-04-29 08:40:42] INFO root fetch - main [MainThread]: End processing [clueai]: success
 [2023-04-29 08:40:42] INFO root fetch - main [MainThread]: End processing [qq.py]: success
 [2023-04-29 08:40:42] INFO root fetch - main [MainThread]: Store serial: [17907155]
+[2023-04-29 08:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907155]
+[2023-04-29 08:45:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-29 08:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fullapp
+[2023-04-29 08:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tempo-api-python-client
+[2023-04-29 08:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-bottle
+[2023-04-29 08:45:51] WARNING root fetch - processPackages [fullapp]: Skipping, unable to determine old version
+[2023-04-29 08:45:51] INFO root fetch - processPackages [tempo-api-python-client]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-04-29 08:45:51] INFO root fetch - main [MainThread]: End processing [fullapp] error
+[2023-04-29 08:45:51] INFO root fetch - processPackages [nonebot-plugin-bottle]: New version: [1.0.0] Old Version: [0.2.7]
+[2023-04-29 08:45:51] INFO root fetch - processPackages [tempo-api-python-client]: Downloading https://files.pythonhosted.org/packages/f5/cf/29c2bc2da94c1c56c9770321a8ca47034b1d8f86f1a7cb3d277f7f72be82/tempo-api-python-client-0.7.2.tar.gz
+[2023-04-29 08:45:51] INFO root fetch - processPackages [nonebot-plugin-bottle]: Downloading https://files.pythonhosted.org/packages/4b/4e/6a1e121b1e86eb58dbed0c504bd5ba0dd583132360b4d155df681bd85585/nonebot_plugin_bottle-0.2.7-py3-none-any.whl
+[2023-04-29 08:45:51] INFO root fetch - processPackages [tempo-api-python-client]: Downloading https://files.pythonhosted.org/packages/f5/28/f47b39a1dc23a7846c51ba752f61c8ca46135b7112d95b74c66028ac6b08/tempo-api-python-client-0.7.3.tar.gz
+[2023-04-29 08:45:51] INFO root fetch - processPackages [tempo-api-python-client]: executing diffoscope
+[2023-04-29 08:45:52] INFO root fetch - processPackages [tempo-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempo-api-python-client-0.7.2.tar.gz tmp/tempo-api-python-client-0.7.3.tar.gz --markdown 20230429/t/tempo-api-python-client/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-04-29 08:45:52] INFO root fetch - processPackages [nonebot-plugin-bottle]: Downloading https://files.pythonhosted.org/packages/16/e1/9d411e8b89629317363698ac59a80de880e3e9057a57f29a7d739d2ecabf/nonebot_plugin_bottle-1.0.0-py3-none-any.whl
+[2023-04-29 08:45:52] INFO root fetch - processPackages [nonebot-plugin-bottle]: executing diffoscope
+[2023-04-29 08:45:52] INFO root fetch - processPackages [nonebot-plugin-bottle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bottle-0.2.7-py3-none-any.whl.zip tmp/nonebot_plugin_bottle-1.0.0-py3-none-any.whl.zip --markdown 20230429/n/nonebot-plugin-bottle/0.2.7-1.0.0/diff.md --exclude *.pyd
+[2023-04-29 08:45:53] INFO root fetch - main [MainThread]: End processing [tempo-api-python-client]: success
+[2023-04-29 08:45:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bottle]: success
+[2023-04-29 08:45:53] INFO root fetch - main [MainThread]: Store serial: [17907165]
