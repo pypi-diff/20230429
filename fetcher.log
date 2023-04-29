@@ -13287,3 +13287,30 @@
 [2023-04-29 21:49:55] INFO root fetch - main [MainThread]: End processing [relic-engine]: success
 [2023-04-29 21:49:56] INFO root fetch - main [MainThread]: End processing [meddlr]: success
 [2023-04-29 21:49:56] INFO root fetch - main [MainThread]: Store serial: [17911980]
+[2023-04-29 21:55:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911980]
+[2023-04-29 21:55:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ndfind
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coredis
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apache-skywalking
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-theme-adminlte3
+[2023-04-29 21:55:06] INFO root fetch - processPackages [coredis]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-04-29 21:55:06] INFO root fetch - processPackages [django-theme-adminlte3]: New version: [3.2.0.8] Old Version: [3.2.0.7]
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ndfind]: New version: [0.3] Old Version: [0.1]
+[2023-04-29 21:55:06] INFO root fetch - processPackages [apache-skywalking]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 21:55:06] INFO root fetch - processPackages [django-theme-adminlte3]: Downloading https://files.pythonhosted.org/packages/45/25/319172951f437cd65a7c003e37a4d0d9ad0a325d3109a6b86fc1a484ca53/django-theme-adminlte3-3.2.0.7.tar.gz
+[2023-04-29 21:55:06] WARNING root fetch - processPackages [django-theme-adminlte3]: Skipping package: exceeds size limit 21414449>=10485760
+[2023-04-29 21:55:06] INFO root fetch - main [MainThread]: End processing [django-theme-adminlte3] error
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ndfind]: Downloading https://files.pythonhosted.org/packages/d6/26/f63cd73cd97f66c829f8eb2a623fc12b0612e0d9d985a7fe68913883454c/ndfind-0.1.tar.gz
+[2023-04-29 21:55:06] INFO root fetch - processPackages [apache-skywalking]: Downloading https://files.pythonhosted.org/packages/ac/7e/6027ff691ce07dfd24241c1ded21c32db0841e49dfbeee454aff9f66b293/apache_skywalking-1.0.0.tar.gz
+[2023-04-29 21:55:06] INFO root fetch - processPackages [coredis]: executing diffoscope
+[2023-04-29 21:55:06] INFO root fetch - processPackages [coredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coredis-4.8.3.tar.gz tmp/coredis-4.9.0.tar.gz --markdown 20230429/c/coredis/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ndfind]: Downloading https://files.pythonhosted.org/packages/00/80/2f02f10c6e721845ceb4afda5094db0daa3ffdc43629ccc9288638800d39/ndfind-0.3.tar.gz
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ndfind]: executing diffoscope
+[2023-04-29 21:55:06] INFO root fetch - processPackages [ndfind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndfind-0.1.tar.gz tmp/ndfind-0.3.tar.gz --markdown 20230429/n/ndfind/0.1-0.3/diff.md --exclude *.pyd
+[2023-04-29 21:55:06] INFO root fetch - processPackages [apache-skywalking]: Downloading https://files.pythonhosted.org/packages/3b/52/5511f2f813b4b511c8b617f30bd1c667c7b3774ce9b73bdaede444276144/apache_skywalking-1.0.1.tar.gz
+[2023-04-29 21:55:06] INFO root fetch - processPackages [apache-skywalking]: executing diffoscope
+[2023-04-29 21:55:06] INFO root fetch - processPackages [apache-skywalking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_skywalking-1.0.0.tar.gz tmp/apache_skywalking-1.0.1.tar.gz --markdown 20230429/a/apache-skywalking/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 21:55:08] INFO root fetch - main [MainThread]: End processing [coredis]: success
+[2023-04-29 21:55:09] INFO root fetch - main [MainThread]: End processing [ndfind]: success
+[2023-04-29 21:55:31] INFO root fetch - main [MainThread]: End processing [apache-skywalking]: success
+[2023-04-29 21:55:31] INFO root fetch - main [MainThread]: Store serial: [17912019]
