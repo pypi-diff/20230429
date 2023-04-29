@@ -8967,3 +8967,41 @@
 [2023-04-29 14:29:39] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
 [2023-04-29 14:29:40] INFO root fetch - main [MainThread]: End processing [pymultiastar]: success
 [2023-04-29 14:29:40] INFO root fetch - main [MainThread]: Store serial: [17908961]
+[2023-04-29 14:34:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908961]
+[2023-04-29 14:34:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 14:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pawnlib
+[2023-04-29 14:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ext-mongo
+[2023-04-29 14:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fischer
+[2023-04-29 14:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multikeygraph
+[2023-04-29 14:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itkwasm
+[2023-04-29 14:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycrossgate
+[2023-04-29 14:34:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-object-safety
+[2023-04-29 14:34:50] INFO root fetch - processPackages [pawnlib]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 14:34:50] INFO root fetch - processPackages [django-object-safety]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-29 14:34:50] WARNING root fetch - processPackages [fischer]: Skipping, unable to determine old version
+[2023-04-29 14:34:50] INFO root fetch - main [MainThread]: End processing [fischer] error
+[2023-04-29 14:34:50] INFO root fetch - processPackages [itkwasm]: New version: [1.0b97] Old Version: [1.0b96]
+[2023-04-29 14:34:50] INFO root fetch - processPackages [multikeygraph]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-29 14:34:50] WARNING root fetch - processPackages [ext-mongo]: Skipping, unable to determine old version
+[2023-04-29 14:34:50] INFO root fetch - main [MainThread]: End processing [ext-mongo] error
+[2023-04-29 14:34:50] WARNING root fetch - processPackages [pycrossgate]: Skipping, unable to determine old version
+[2023-04-29 14:34:50] INFO root fetch - main [MainThread]: End processing [pycrossgate] error
+[2023-04-29 14:34:50] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/ec/6d/dee16eccac378b8108d6419dfc38c9478aed5bfd93d32830220611fe2862/django_object_safety-1.1.5.tar.gz
+[2023-04-29 14:34:50] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/f6/9d/385cbd7b8df981cfc8897da19437d04ba44da8c141afdaafa01bd7d127d5/itkwasm-1.0b96.tar.gz
+[2023-04-29 14:34:50] INFO root fetch - processPackages [django-object-safety]: executing diffoscope
+[2023-04-29 14:34:50] INFO root fetch - processPackages [django-object-safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_object_safety-1.1.4.tar.gz tmp/django_object_safety-1.1.5.tar.gz --markdown 20230429/d/django-object-safety/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-29 14:34:50] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/df/d8/5034c62f13f251fbebc56832bb87779576cc99e2992c3ad98bfca0a78574/pawnlib-1.0.3-py3-none-any.whl
+[2023-04-29 14:34:51] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-29 14:34:51] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.2-py3-none-any.whl.zip tmp/pawnlib-1.0.3-py3-none-any.whl.zip --markdown 20230429/p/pawnlib/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 14:34:51] INFO root fetch - processPackages [multikeygraph]: Downloading https://files.pythonhosted.org/packages/a6/01/ee56e76a7d2e461b11fe8fc9459072d6c3d2dde945270ad3ee007642eac1/multikeygraph-1.2.2.tar.gz
+[2023-04-29 14:34:51] INFO root fetch - processPackages [multikeygraph]: Downloading https://files.pythonhosted.org/packages/53/c9/d4155c780da5829516039ecefae5f91fd32fcdb0a808304fa5e2b678913a/multikeygraph-1.2.3.tar.gz
+[2023-04-29 14:34:51] INFO root fetch - processPackages [itkwasm]: Downloading https://files.pythonhosted.org/packages/a9/dc/417f2dbb23b3bd56dda068878d5050c55cfbacdcbb34387a8444583f31fa/itkwasm-1.0b97.tar.gz
+[2023-04-29 14:34:51] INFO root fetch - processPackages [multikeygraph]: executing diffoscope
+[2023-04-29 14:34:51] INFO root fetch - processPackages [multikeygraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multikeygraph-1.2.2.tar.gz tmp/multikeygraph-1.2.3.tar.gz --markdown 20230429/m/multikeygraph/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-29 14:34:51] INFO root fetch - main [MainThread]: End processing [django-object-safety]: success
+[2023-04-29 14:34:52] INFO root fetch - processPackages [itkwasm]: executing diffoscope
+[2023-04-29 14:34:52] INFO root fetch - processPackages [itkwasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm-1.0b96.tar.gz tmp/itkwasm-1.0b97.tar.gz --markdown 20230429/i/itkwasm/1.0b96-1.0b97/diff.md --exclude *.pyd
+[2023-04-29 14:34:52] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-29 14:34:52] INFO root fetch - main [MainThread]: End processing [multikeygraph]: success
+[2023-04-29 14:34:54] INFO root fetch - main [MainThread]: End processing [itkwasm]: success
+[2023-04-29 14:34:54] INFO root fetch - main [MainThread]: Store serial: [17909001]
