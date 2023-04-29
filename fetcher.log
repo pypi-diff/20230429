@@ -9398,3 +9398,63 @@
 [2023-04-29 15:17:00] INFO root fetch - main [MainThread]: End processing [blueskyapi]: success
 [2023-04-29 15:17:00] INFO root fetch - main [MainThread]: End processing [expiringsqlitedict]: success
 [2023-04-29 15:17:00] INFO root fetch - main [MainThread]: Store serial: [17909248]
+[2023-04-29 15:22:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909248]
+[2023-04-29 15:22:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlplan
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oscliantivirus
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycircleci
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m6anet
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyscemu
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbgemm-gpu-nightly
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shareddata
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cliboa
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: femwell
+[2023-04-29 15:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mvc4kivy
+[2023-04-29 15:22:09] INFO root fetch - processPackages [dlplan]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-29 15:22:09] INFO root fetch - processPackages [m6anet]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-04-29 15:22:09] WARNING root fetch - processPackages [pyscemu]: Skipping, unable to determine old version
+[2023-04-29 15:22:09] INFO root fetch - main [MainThread]: End processing [pyscemu] error
+[2023-04-29 15:22:09] INFO root fetch - processPackages [mvc4kivy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 15:22:09] INFO root fetch - processPackages [pycircleci]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-04-29 15:22:09] INFO root fetch - processPackages [cliboa]: New version: [2.3.2b0] Old Version: [2.3.1b0]
+[2023-04-29 15:22:09] WARNING root fetch - processPackages [oscliantivirus]: Skipping, unable to determine old version
+[2023-04-29 15:22:09] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.4.28] Old Version: [2023.4.27]
+[2023-04-29 15:22:09] INFO root fetch - main [MainThread]: End processing [oscliantivirus] error
+[2023-04-29 15:22:09] INFO root fetch - processPackages [shareddata]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-04-29 15:22:09] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/e9/25/0487f0c38f4f409fe83b1397beae8a48a05e82a0e591cbdaeeecc78552a7/fbgemm_gpu_nightly-2023.4.27-cp39-cp39-manylinux1_x86_64.whl
+[2023-04-29 15:22:09] INFO root fetch - processPackages [femwell]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-29 15:22:09] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 265717654>=10485760
+[2023-04-29 15:22:09] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-04-29 15:22:09] INFO root fetch - processPackages [pycircleci]: Downloading https://files.pythonhosted.org/packages/bf/11/c7117788c9e0d6d0581a48f9b9e4feabedd1124a15ab3be12a490d631a38/pycircleci-0.6.1.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [m6anet]: Downloading https://files.pythonhosted.org/packages/ee/4a/45e471b32695f7fd0c0fee3c2940e7da0d51a48139e88095ed596799557e/m6anet-2.0.1.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/59/4a/34094be73b32b7dea2fdd864cf9fb0a88aae7ed4dc77a1eed18fa0029586/shareddata-1.4.0.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/86/2c/0d98643cf991501b707b0376285182482e3c76abbd077283b20615be6a9d/femwell-0.0.9.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [mvc4kivy]: Downloading https://files.pythonhosted.org/packages/0b/22/40fcdc0e84503f1a9878a0ac5f888bee1c4bc5642a8d674f9a03988896a9/mvc4kivy-0.1.2.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [dlplan]: Downloading https://files.pythonhosted.org/packages/b7/eb/1af88d8ee192410ebe973be48a4b4736e033605b4bfc441bb0b2cbd7e822/dlplan-0.2.6.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [mvc4kivy]: executing diffoscope
+[2023-04-29 15:22:09] INFO root fetch - processPackages [mvc4kivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvc4kivy-0.1.1.tar.gz tmp/mvc4kivy-0.1.2.tar.gz --markdown 20230429/m/mvc4kivy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 15:22:09] INFO root fetch - processPackages [dlplan]: executing diffoscope
+[2023-04-29 15:22:09] INFO root fetch - processPackages [dlplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlplan-0.2.5.tar.gz tmp/dlplan-0.2.6.tar.gz --markdown 20230429/d/dlplan/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-29 15:22:09] INFO root fetch - processPackages [cliboa]: Downloading https://files.pythonhosted.org/packages/b9/89/ce0295edfb8d3ab355dd80943f3474a3e230f3203ac614df867a75dbef13/cliboa-2.3.2b0.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [pycircleci]: Downloading https://files.pythonhosted.org/packages/3e/67/a4130f7122b1a82b31bda2edacbfdf47d7e4417d6d6f96e7e772d9b54af9/pycircleci-0.7.0.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [m6anet]: Downloading https://files.pythonhosted.org/packages/a4/38/142fd9adafc7d128a61006aae59408bd029845af10e9623ceecb9f787bb1/m6anet-2.0.2.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/ec/47/a0f306ba0aa4557d688ef2e7f2052bc155988f5c330118e53675b98833ea/shareddata-2.0.0.tar.gz
+[2023-04-29 15:22:09] INFO root fetch - processPackages [pycircleci]: executing diffoscope
+[2023-04-29 15:22:09] INFO root fetch - processPackages [pycircleci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycircleci-0.6.1.tar.gz tmp/pycircleci-0.7.0.tar.gz --markdown 20230429/p/pycircleci/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-04-29 15:22:09] INFO root fetch - processPackages [m6anet]: executing diffoscope
+[2023-04-29 15:22:09] INFO root fetch - processPackages [m6anet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m6anet-2.0.1.tar.gz tmp/m6anet-2.0.2.tar.gz --markdown 20230429/m/m6anet/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-04-29 15:22:09] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-04-29 15:22:09] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-1.4.0.tar.gz tmp/shareddata-2.0.0.tar.gz --markdown 20230429/s/shareddata/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-29 15:22:09] INFO root fetch - processPackages [cliboa]: executing diffoscope
+[2023-04-29 15:22:09] INFO root fetch - processPackages [cliboa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliboa-2.3.1b0.tar.gz tmp/cliboa-2.3.2b0.tar.gz --markdown 20230429/c/cliboa/2.3.1b0-2.3.2b0/diff.md --exclude *.pyd
+[2023-04-29 15:22:09] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/d5/e9/36358d964ef766c8719f349b03ce48329b296e765f0031ba154209110ab2/femwell-0.1.0.tar.gz
+[2023-04-29 15:22:10] INFO root fetch - processPackages [femwell]: executing diffoscope
+[2023-04-29 15:22:10] INFO root fetch - processPackages [femwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femwell-0.0.9.tar.gz tmp/femwell-0.1.0.tar.gz --markdown 20230429/f/femwell/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 15:22:10] INFO root fetch - main [MainThread]: End processing [mvc4kivy]: success
+[2023-04-29 15:22:11] INFO root fetch - main [MainThread]: End processing [pycircleci]: success
+[2023-04-29 15:22:11] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-04-29 15:22:11] INFO root fetch - main [MainThread]: End processing [m6anet]: success
+[2023-04-29 15:22:11] INFO root fetch - main [MainThread]: End processing [femwell]: success
+[2023-04-29 15:22:11] INFO root fetch - main [MainThread]: End processing [cliboa]: success
+[2023-04-29 15:22:12] INFO root fetch - main [MainThread]: End processing [dlplan]: success
+[2023-04-29 15:22:12] INFO root fetch - main [MainThread]: Store serial: [17909283]
