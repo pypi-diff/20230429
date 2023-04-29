@@ -12149,3 +12149,35 @@
 [2023-04-29 19:42:25] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
 [2023-04-29 19:42:26] INFO root fetch - main [MainThread]: End processing [ManimPango]: success
 [2023-04-29 19:42:26] INFO root fetch - main [MainThread]: Store serial: [17911139]
+[2023-04-29 19:47:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911139]
+[2023-04-29 19:47:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 19:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wowee
+[2023-04-29 19:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hkkang-utils
+[2023-04-29 19:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencv-stubs
+[2023-04-29 19:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydmclab
+[2023-04-29 19:47:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Vulncapture
+[2023-04-29 19:47:35] WARNING root fetch - processPackages [wowee]: Skipping, unable to determine old version
+[2023-04-29 19:47:35] INFO root fetch - main [MainThread]: End processing [wowee] error
+[2023-04-29 19:47:35] INFO root fetch - processPackages [opencv-stubs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 19:47:35] INFO root fetch - processPackages [Vulncapture]: New version: [1.0.0] Old Version: [0.0.5]
+[2023-04-29 19:47:35] INFO root fetch - processPackages [pydmclab]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-04-29 19:47:35] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 19:47:35] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-29 19:47:35] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230429/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 19:47:35] INFO root fetch - processPackages [pydmclab]: Downloading https://files.pythonhosted.org/packages/34/fc/672db972f7d2aa692677ebae0e648885e352bcb9b2daf065025f70c1c342/pydmclab-0.0.2.tar.gz
+[2023-04-29 19:47:35] INFO root fetch - processPackages [Vulncapture]: Downloading https://files.pythonhosted.org/packages/98/0f/49752f19558f33c7123616958ae8a134bf2b3cb7ccfa0f0151f12286d0e5/Vulncapture-0.0.5.tar.gz
+[2023-04-29 19:47:35] INFO root fetch - processPackages [opencv-stubs]: Downloading https://files.pythonhosted.org/packages/61/e5/ca8edd57ff7fa57c65a7caa3933d676f8efd49964141e116aa705be10ea7/opencv_stubs-0.0.4.tar.gz
+[2023-04-29 19:47:36] INFO root fetch - processPackages [opencv-stubs]: Downloading https://files.pythonhosted.org/packages/5f/3d/e5d54419c2f7b443467600099fe56282770890dbca669b2b6c97f21a868b/opencv_stubs-0.0.5.tar.gz
+[2023-04-29 19:47:36] INFO root fetch - processPackages [opencv-stubs]: executing diffoscope
+[2023-04-29 19:47:36] INFO root fetch - processPackages [opencv-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencv_stubs-0.0.4.tar.gz tmp/opencv_stubs-0.0.5.tar.gz --markdown 20230429/o/opencv-stubs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 19:47:36] INFO root fetch - processPackages [pydmclab]: Downloading https://files.pythonhosted.org/packages/04/f6/b601a7300485ce3355dd359a07b070404f5568fd307dd88f8d6c2ceccd6e/pydmclab-1.0.0.tar.gz
+[2023-04-29 19:47:36] INFO root fetch - processPackages [Vulncapture]: Downloading https://files.pythonhosted.org/packages/18/33/8c269303bf28ff680255720552e4ec45a6171d0e6d79056d29edd67aa707/Vulncapture-1.0.0.tar.gz
+[2023-04-29 19:47:36] INFO root fetch - processPackages [pydmclab]: executing diffoscope
+[2023-04-29 19:47:36] INFO root fetch - processPackages [pydmclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmclab-0.0.2.tar.gz tmp/pydmclab-1.0.0.tar.gz --markdown 20230429/p/pydmclab/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-29 19:47:36] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-29 19:47:37] INFO root fetch - processPackages [Vulncapture]: executing diffoscope
+[2023-04-29 19:47:37] INFO root fetch - processPackages [Vulncapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vulncapture-0.0.5.tar.gz tmp/Vulncapture-1.0.0.tar.gz --markdown 20230429/V/Vulncapture/0.0.5-1.0.0/diff.md --exclude *.pyd
+[2023-04-29 19:47:37] INFO root fetch - main [MainThread]: End processing [opencv-stubs]: success
+[2023-04-29 19:47:37] INFO root fetch - main [MainThread]: End processing [pydmclab]: success
+[2023-04-29 19:47:39] INFO root fetch - main [MainThread]: End processing [Vulncapture]: success
+[2023-04-29 19:47:39] INFO root fetch - main [MainThread]: Store serial: [17911155]
