@@ -9085,3 +9085,63 @@
 [2023-04-29 14:45:38] INFO root fetch - main [MainThread]: End processing [py3dpolys-le]: success
 [2023-04-29 14:45:38] INFO root fetch - main [MainThread]: End processing [py3dpolys-le]: success
 [2023-04-29 14:45:38] INFO root fetch - main [MainThread]: Store serial: [17909044]
+[2023-04-29 14:50:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909044]
+[2023-04-29 14:50:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ext-mongo
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbsite
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acs-axiom
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tryexcept-decorator
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tryexcept-decorator
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yatracker-linker
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyagrum-nightly
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neosca
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dokuwikidumper
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ext-mongo]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-29 14:50:46] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 14:50:46] INFO root fetch - processPackages [tryexcept-decorator]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-29 14:50:46] INFO root fetch - processPackages [neosca]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-04-29 14:50:46] INFO root fetch - processPackages [acs-axiom]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-04-29 14:50:46] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 14:50:46] INFO root fetch - processPackages [tryexcept-decorator]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-29 14:50:46] INFO root fetch - processPackages [nbsite]: New version: [0.8.0rc9] Old Version: [0.8.0rc8]
+[2023-04-29 14:50:46] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-04-29 14:50:46] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230429/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 14:50:46] INFO root fetch - processPackages [tryexcept-decorator]: Downloading https://files.pythonhosted.org/packages/b5/e1/86ef05719951b22216f406eb60bcaea4b0b695be00e58a080db19eb7ad26/tryexcept_decorator-0.1.6.tar.gz
+[2023-04-29 14:50:46] INFO root fetch - processPackages [tryexcept-decorator]: Downloading https://files.pythonhosted.org/packages/b5/e1/86ef05719951b22216f406eb60bcaea4b0b695be00e58a080db19eb7ad26/tryexcept_decorator-0.1.6.tar.gz
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ext-mongo]: Downloading https://files.pythonhosted.org/packages/8a/e2/f485279ac9d57e17c7d13ab87edebeb50c352021d8a8349bb7021f4d6a5a/ext-mongo-0.2.1.tar.gz
+[2023-04-29 14:50:46] INFO root fetch - processPackages [neosca]: Downloading https://files.pythonhosted.org/packages/42/74/d5727ccb42d22173b2de8baee6bc5302431306d616c421bb6de8cd3cb02a/neosca-0.0.41.tar.gz
+[2023-04-29 14:50:46] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/d8/77/7a773de2f4564f3e9b8c5f3550f287afaec9d423d1400de69ed30bcf6770/nbsite-0.8.0rc8.tar.gz
+[2023-04-29 14:50:46] INFO root fetch - processPackages [acs-axiom]: Downloading https://files.pythonhosted.org/packages/32/79/5030c1d9b35d796bf6fec83eca17043a5f592b426d6adac0111d84a89353/acs-axiom-0.1.2.tar.gz
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ext-mongo]: executing diffoscope
+[2023-04-29 14:50:46] INFO root fetch - processPackages [ext-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ext-mongo-0.2.0.tar.gz tmp/ext-mongo-0.2.1.tar.gz --markdown 20230429/e/ext-mongo/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-29 14:50:47] INFO root fetch - processPackages [neosca]: executing diffoscope
+[2023-04-29 14:50:47] INFO root fetch - processPackages [neosca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosca-0.0.40-py3.10.egg tmp/neosca-0.0.41.tar.gz --markdown 20230429/n/neosca/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-04-29 14:50:47] INFO root fetch - processPackages [tryexcept-decorator]: Downloading https://files.pythonhosted.org/packages/16/ab/a4537897b7e19889f74ccd1794824e1422ded2bb243aeaebdbd70878a488/tryexcept_decorator-0.1.7.tar.gz
+[2023-04-29 14:50:47] INFO root fetch - processPackages [tryexcept-decorator]: Downloading https://files.pythonhosted.org/packages/16/ab/a4537897b7e19889f74ccd1794824e1422ded2bb243aeaebdbd70878a488/tryexcept_decorator-0.1.7.tar.gz
+[2023-04-29 14:50:47] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-29 14:50:47] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230429/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 14:50:47] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202304291682766842] Old Version: [1.7.1.9.dev202304291682760403]
+[2023-04-29 14:50:47] INFO root fetch - processPackages [tryexcept-decorator]: executing diffoscope
+[2023-04-29 14:50:47] INFO root fetch - processPackages [tryexcept-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryexcept_decorator-0.1.6.tar.gz tmp/tryexcept_decorator-0.1.7.tar.gz --markdown 20230429/t/tryexcept-decorator/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-29 14:50:47] INFO root fetch - processPackages [tryexcept-decorator]: executing diffoscope
+[2023-04-29 14:50:47] INFO root fetch - processPackages [tryexcept-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryexcept_decorator-0.1.6.tar.gz tmp/tryexcept_decorator-0.1.7.tar.gz --markdown 20230429/t/tryexcept-decorator/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-29 14:50:47] INFO root fetch - processPackages [acs-axiom]: Downloading https://files.pythonhosted.org/packages/82/f3/022e6a353a6cfe426eac9a88fdf8c449cf67593452e3e6c618877318bd38/acs-axiom-0.1.4.tar.gz
+[2023-04-29 14:50:47] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/89/00/df63ef46b2f3732468f4ef3acbe06bcfab442ca275dc0c175fcad6a4cb4c/nbsite-0.8.0rc9.tar.gz
+[2023-04-29 14:50:47] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2023-04-29 14:50:47] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.0rc8.tar.gz tmp/nbsite-0.8.0rc9.tar.gz --markdown 20230429/n/nbsite/0.8.0rc8-0.8.0rc9/diff.md --exclude *.pyd
+[2023-04-29 14:50:47] INFO root fetch - processPackages [acs-axiom]: executing diffoscope
+[2023-04-29 14:50:47] INFO root fetch - processPackages [acs-axiom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acs-axiom-0.1.2.tar.gz tmp/acs-axiom-0.1.4.tar.gz --markdown 20230429/a/acs-axiom/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 14:50:47] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/e0/d5/53ec1a47666a9a4a5a56499bfa35cf2b2ca72822fbcc73539f063ca92409/pyAgrum_nightly-1.7.1.9.dev202304291682760403-cp39-cp39-win_amd64.whl
+[2023-04-29 14:50:47] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/2e/09/9fe37e9ac67350a9f707a959f7f2f82ab379ecd7962b5c10170a182df296/pyAgrum_nightly-1.7.1.9.dev202304291682766842-cp39-cp39-win_amd64.whl
+[2023-04-29 14:50:48] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-04-29 14:50:48] INFO root fetch - main [MainThread]: End processing [ext-mongo]: success
+[2023-04-29 14:50:48] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-04-29 14:50:48] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202304291682760403-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202304291682766842-cp39-cp39-win_amd64.whl.zip --markdown 20230429/p/pyagrum-nightly/1.7.1.9.dev202304291682760403-1.7.1.9.dev202304291682766842/diff.md --exclude *.pyd
+[2023-04-29 14:50:48] INFO root fetch - main [MainThread]: End processing [neosca]: success
+[2023-04-29 14:50:48] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-29 14:50:48] INFO root fetch - main [MainThread]: End processing [tryexcept-decorator]: success
+[2023-04-29 14:50:48] INFO root fetch - main [MainThread]: End processing [tryexcept-decorator]: success
+[2023-04-29 14:50:49] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2023-04-29 14:50:49] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-04-29 14:50:52] INFO root fetch - main [MainThread]: End processing [acs-axiom]: success
+[2023-04-29 14:50:52] INFO root fetch - main [MainThread]: Store serial: [17909088]
