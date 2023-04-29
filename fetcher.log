@@ -8145,3 +8145,44 @@
 [2023-04-29 13:04:56] INFO root fetch - main [MainThread]: End processing [pytest-sqlalchemy-session]: success
 [2023-04-29 13:04:56] INFO root fetch - main [MainThread]: End processing [netbox-initializers]: success
 [2023-04-29 13:04:56] INFO root fetch - main [MainThread]: Store serial: [17908427]
+[2023-04-29 13:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908427]
+[2023-04-29 13:10:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hackycfgparser
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuNet
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wwww
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blankimage
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MKN-third-codes
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oceano-algos
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TsProject
+[2023-04-29 13:10:06] WARNING root fetch - processPackages [hackycfgparser]: Skipping, unable to determine old version
+[2023-04-29 13:10:06] INFO root fetch - main [MainThread]: End processing [hackycfgparser] error
+[2023-04-29 13:10:06] INFO root fetch - processPackages [TsProject]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 13:10:06] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 13:10:06] INFO root fetch - processPackages [blankimage]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 13:10:06] WARNING root fetch - processPackages [wwww]: Skipping, unable to determine old version
+[2023-04-29 13:10:06] INFO root fetch - main [MainThread]: End processing [wwww] error
+[2023-04-29 13:10:06] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-04-29 13:10:06] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ccxt]: New version: [3.0.9] Old Version: [3.0.83]
+[2023-04-29 13:10:06] INFO root fetch - processPackages [TsProject]: executing diffoscope
+[2023-04-29 13:10:06] INFO root fetch - processPackages [TsProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsProject-1.0.0.tar.gz tmp/TsProject-1.0.1.tar.gz --markdown 20230429/T/TsProject/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 13:10:06] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-04-29 13:10:06] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230429/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 13:10:06] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-29 13:10:06] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230429/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 13:10:06] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 13:10:06] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.1.4.tar.gz tmp/MKN_third_codes-0.2.0.tar.gz --markdown 20230429/M/MKN-third-codes/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 13:10:06] INFO root fetch - processPackages [blankimage]: Downloading https://files.pythonhosted.org/packages/97/f8/0ac7578da64715c72dbb18f7795d675c2e63bd47cb17efd9e3657de5b14c/blankimage-0.1.2.tar.gz
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/8e/b9/b0b9a510168dcbb620dcf7b58b53156bb1f9d265c3eb81aa4d53a5a4a61f/ccxt-3.0.83.tar.gz
+[2023-04-29 13:10:06] INFO root fetch - processPackages [blankimage]: executing diffoscope
+[2023-04-29 13:10:06] INFO root fetch - processPackages [blankimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blankimage-0.1.1.tar.gz tmp/blankimage-0.1.2.tar.gz --markdown 20230429/b/blankimage/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-04-29 13:10:06] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.83.tar.gz tmp/ccxt-3.0.9.tar.gz --markdown 20230429/c/ccxt/3.0.83-3.0.9/diff.md --exclude *.pyd
+[2023-04-29 13:10:07] INFO root fetch - main [MainThread]: End processing [TsProject]: success
+[2023-04-29 13:10:07] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 13:10:07] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-04-29 13:10:07] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-29 13:10:07] INFO root fetch - main [MainThread]: End processing [blankimage]: success
+[2023-04-29 13:10:32] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-04-29 13:10:32] INFO root fetch - main [MainThread]: Store serial: [17908453]
