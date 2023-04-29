@@ -12996,3 +12996,27 @@
 [2023-04-29 21:01:32] INFO root fetch - main [MainThread]: End processing [fabric2]: success
 [2023-04-29 21:01:35] INFO root fetch - main [MainThread]: End processing [Poutyne]: success
 [2023-04-29 21:01:35] INFO root fetch - main [MainThread]: Store serial: [17911706]
+[2023-04-29 21:06:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911706]
+[2023-04-29 21:06:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 21:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fpm
+[2023-04-29 21:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fittings
+[2023-04-29 21:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saheffects
+[2023-04-29 21:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TapisCL-ICICLE
+[2023-04-29 21:06:45] WARNING root fetch - processPackages [saheffects]: Skipping, unable to determine old version
+[2023-04-29 21:06:45] INFO root fetch - main [MainThread]: End processing [saheffects] error
+[2023-04-29 21:06:45] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [0.0.4] Old Version: [0.0.31]
+[2023-04-29 21:06:45] INFO root fetch - processPackages [fpm]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-29 21:06:45] INFO root fetch - processPackages [fittings]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-29 21:06:45] INFO root fetch - processPackages [fittings]: Downloading https://files.pythonhosted.org/packages/33/49/f5dc1fb4f0bf227cdc5e770fbd921bb77d6d6465b2fa5d3ef3b3f039f8a1/fittings-2.0.4.tar.gz
+[2023-04-29 21:06:45] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/da/eb/fda1d76dd59db3c3a09da6dd8376b52d3754b68274bfb3c1b962dfd43bad/fpm-0.6.0.tar.gz
+[2023-04-29 21:06:45] INFO root fetch - processPackages [fittings]: executing diffoscope
+[2023-04-29 21:06:45] INFO root fetch - processPackages [fittings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fittings-2.0.3.tar.gz tmp/fittings-2.0.4.tar.gz --markdown 20230429/f/fittings/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-29 21:06:45] INFO root fetch - processPackages [fpm]: executing diffoscope
+[2023-04-29 21:06:45] INFO root fetch - processPackages [fpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpm-0.5.0.tar.gz tmp/fpm-0.6.0.tar.gz --markdown 20230429/f/fpm/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-29 21:06:45] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/5e/64/54196adb900308dd555b76593135edaa8734c40b617f08c9a39a7ee11857/TapisCL-ICICLE-0.0.4.tar.gz
+[2023-04-29 21:06:45] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-04-29 21:06:45] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-0.0.31.tar.gz tmp/TapisCL-ICICLE-0.0.4.tar.gz --markdown 20230429/T/TapisCL-ICICLE/0.0.31-0.0.4/diff.md --exclude *.pyd
+[2023-04-29 21:06:46] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-04-29 21:06:47] INFO root fetch - main [MainThread]: End processing [fittings]: success
+[2023-04-29 21:06:50] INFO root fetch - main [MainThread]: End processing [fpm]: success
+[2023-04-29 21:06:50] INFO root fetch - main [MainThread]: Store serial: [17911738]
