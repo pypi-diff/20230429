@@ -4695,3 +4695,25 @@
 [2023-04-29 04:52:34] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
 [2023-04-29 04:52:34] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
 [2023-04-29 04:52:34] INFO root fetch - main [MainThread]: Store serial: [17906284]
+[2023-04-29 04:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906284]
+[2023-04-29 04:57:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 04:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catgpt
+[2023-04-29 04:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-game-collection
+[2023-04-29 04:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradchat
+[2023-04-29 04:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aixlab.cn
+[2023-04-29 04:57:43] INFO root fetch - processPackages [catgpt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 04:57:43] WARNING root fetch - processPackages [aixlab.cn]: Skipping, unable to determine old version
+[2023-04-29 04:57:43] INFO root fetch - main [MainThread]: End processing [aixlab.cn] error
+[2023-04-29 04:57:43] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-04-29 04:57:43] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-04-29 04:57:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.3] Old Version: [2.1.1]
+[2023-04-29 04:57:43] INFO root fetch - processPackages [catgpt]: Downloading https://files.pythonhosted.org/packages/55/2f/361622c4e99054aae9673930237e4c10afb99ac410cf660dc53c35ba2c8d/catgpt-0.0.1.tar.gz
+[2023-04-29 04:57:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/70/4c/fc18242b2f96fb4bb92899ec4981f75b9f7c36f1675ed65a38e87b971f08/nonebot_plugin_game_collection-2.1.3.tar.gz
+[2023-04-29 04:57:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-04-29 04:57:43] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.1.tar.gz tmp/nonebot_plugin_game_collection-2.1.3.tar.gz --markdown 20230429/n/nonebot-plugin-game-collection/2.1.1-2.1.3/diff.md --exclude *.pyd
+[2023-04-29 04:57:43] INFO root fetch - processPackages [catgpt]: Downloading https://files.pythonhosted.org/packages/e4/1f/b74e0229dda3f28afc9aa2844d177b5b4161b71e7adbb99380d3991cec4f/catgpt-0.0.2.tar.gz
+[2023-04-29 04:57:43] INFO root fetch - processPackages [catgpt]: executing diffoscope
+[2023-04-29 04:57:43] INFO root fetch - processPackages [catgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catgpt-0.0.1.tar.gz tmp/catgpt-0.0.2.tar.gz --markdown 20230429/c/catgpt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 04:57:44] INFO root fetch - main [MainThread]: End processing [catgpt]: success
+[2023-04-29 04:57:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-04-29 04:57:45] INFO root fetch - main [MainThread]: Store serial: [17906298]
