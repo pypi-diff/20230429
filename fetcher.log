@@ -12910,3 +12910,36 @@
 [2023-04-29 20:51:03] INFO root fetch - main [MainThread]: End processing [iguala]: success
 [2023-04-29 20:51:03] INFO root fetch - main [MainThread]: End processing [messageflux]: success
 [2023-04-29 20:51:03] INFO root fetch - main [MainThread]: Store serial: [17911614]
+[2023-04-29 20:56:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911614]
+[2023-04-29 20:56:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 20:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trade-executor
+[2023-04-29 20:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whitespace-format
+[2023-04-29 20:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fpm
+[2023-04-29 20:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tradingview-defi-strategy
+[2023-04-29 20:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fittings
+[2023-04-29 20:56:12] WARNING root fetch - processPackages [tradingview-defi-strategy]: Skipping, unable to determine old version
+[2023-04-29 20:56:12] INFO root fetch - main [MainThread]: End processing [tradingview-defi-strategy] error
+[2023-04-29 20:56:12] INFO root fetch - processPackages [fpm]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-29 20:56:12] INFO root fetch - processPackages [trade-executor]: New version: [0.3] Old Version: [0.2]
+[2023-04-29 20:56:12] INFO root fetch - processPackages [whitespace-format]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 20:56:12] INFO root fetch - processPackages [fittings]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-29 20:56:12] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/4a/e5/596a71993f5316bece33796d2db5cd7c1ca845770d3b96e9e2479c46e17f/fpm-0.5.0.tar.gz
+[2023-04-29 20:56:12] INFO root fetch - processPackages [trade-executor]: Downloading https://files.pythonhosted.org/packages/46/b6/f2583da2e9d22f68157af2c36ee2f5e2ede668f983551c2d41614930e501/trade_executor-0.2.tar.gz
+[2023-04-29 20:56:12] INFO root fetch - processPackages [fittings]: Downloading https://files.pythonhosted.org/packages/6f/e6/b62fe8e5cc756c54ebf472b898557203a532a9367c8ba7e910992ad4862f/fittings-2.0.2.tar.gz
+[2023-04-29 20:56:12] INFO root fetch - processPackages [whitespace-format]: Downloading https://files.pythonhosted.org/packages/97/f1/dae77459d2354459a5c0af174eb5529cdbb93ca04b0e4873ab2676f9db43/whitespace_format-0.0.2.tar.gz
+[2023-04-29 20:56:12] INFO root fetch - processPackages [fpm]: executing diffoscope
+[2023-04-29 20:56:12] INFO root fetch - processPackages [fpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpm-0.4.0.tar.gz tmp/fpm-0.5.0.tar.gz --markdown 20230429/f/fpm/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 20:56:12] INFO root fetch - processPackages [trade-executor]: Downloading https://files.pythonhosted.org/packages/72/60/11d1f8c5768d029564d552af16d8e52b255650848d53541337225d616a9e/trade_executor-0.3.tar.gz
+[2023-04-29 20:56:12] INFO root fetch - processPackages [whitespace-format]: Downloading https://files.pythonhosted.org/packages/2d/d1/ce509860e9eae34e95b0a01ce63091a45925fb07b7cff597a6144d8d6fd7/whitespace_format-0.0.3.tar.gz
+[2023-04-29 20:56:12] INFO root fetch - processPackages [whitespace-format]: executing diffoscope
+[2023-04-29 20:56:12] INFO root fetch - processPackages [whitespace-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whitespace_format-0.0.2.tar.gz tmp/whitespace_format-0.0.3.tar.gz --markdown 20230429/w/whitespace-format/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 20:56:12] INFO root fetch - processPackages [trade-executor]: executing diffoscope
+[2023-04-29 20:56:12] INFO root fetch - processPackages [trade-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trade_executor-0.2.tar.gz tmp/trade_executor-0.3.tar.gz --markdown 20230429/t/trade-executor/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-29 20:56:13] INFO root fetch - processPackages [fittings]: Downloading https://files.pythonhosted.org/packages/ab/ee/ae90e8f58e75af5b3af027f64690e8c395642eb8f3b517c222524dd24c82/fittings-2.0.3.tar.gz
+[2023-04-29 20:56:13] INFO root fetch - processPackages [fittings]: executing diffoscope
+[2023-04-29 20:56:13] INFO root fetch - processPackages [fittings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fittings-2.0.2.tar.gz tmp/fittings-2.0.3.tar.gz --markdown 20230429/f/fittings/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-29 20:56:13] INFO root fetch - main [MainThread]: End processing [whitespace-format]: success
+[2023-04-29 20:56:14] INFO root fetch - main [MainThread]: End processing [fittings]: success
+[2023-04-29 20:56:15] INFO root fetch - main [MainThread]: End processing [trade-executor]: success
+[2023-04-29 20:56:19] INFO root fetch - main [MainThread]: End processing [fpm]: success
+[2023-04-29 20:56:19] INFO root fetch - main [MainThread]: Store serial: [17911678]
