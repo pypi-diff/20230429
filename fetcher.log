@@ -14198,3 +14198,46 @@
 [2023-04-29 23:53:19] INFO root fetch - main [MainThread]: End processing [denmune]: success
 [2023-04-29 23:53:19] INFO root fetch - main [MainThread]: End processing [pyloras]: success
 [2023-04-29 23:53:19] INFO root fetch - main [MainThread]: Store serial: [17912705]
+[2023-04-29 23:58:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912705]
+[2023-04-29 23:58:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 23:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IMDbTraktSyncer
+[2023-04-29 23:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rule-based-model
+[2023-04-29 23:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcal-sync
+[2023-04-29 23:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rp
+[2023-04-29 23:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mia-accounting
+[2023-04-29 23:58:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-sb-socialnetworks
+[2023-04-29 23:58:28] INFO root fetch - processPackages [IMDbTraktSyncer]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 23:58:28] INFO root fetch - processPackages [gcal-sync]: New version: [4.2.0] Old Version: [4.1.4]
+[2023-04-29 23:58:28] INFO root fetch - processPackages [rule-based-model]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 23:58:28] INFO root fetch - processPackages [rp]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-29 23:58:28] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-29 23:58:28] INFO root fetch - processPackages [mia-accounting]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-29 23:58:28] INFO root fetch - processPackages [IMDbTraktSyncer]: Downloading https://files.pythonhosted.org/packages/ec/42/7638430291d0e1630e4b916518d592b132453ed9365f6b4b43d658cf048b/IMDbTraktSyncer-1.0.2.tar.gz
+[2023-04-29 23:58:28] INFO root fetch - processPackages [gcal-sync]: Downloading https://files.pythonhosted.org/packages/7f/1c/6c513ba904d33f49d571b6dba390c810fa51335d1c1c57d6ebc39b6c813b/gcal-sync-4.1.4.tar.gz
+[2023-04-29 23:58:28] INFO root fetch - processPackages [rule-based-model]: Downloading https://files.pythonhosted.org/packages/14/fb/4fc88c605ad760f7ca058454e52d4587dcf5d4a0f3af652d79f6dc3791ce/rule_based_model-0.0.1.tar.gz
+[2023-04-29 23:58:28] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: Downloading https://files.pythonhosted.org/packages/5d/74/6446beb59cd3c1a9f0db7a008764bf472af00baed38ddea1f0995949e0fd/wagtail_sb_socialnetworks-0.5.0.tar.gz
+[2023-04-29 23:58:28] INFO root fetch - processPackages [mia-accounting]: Downloading https://files.pythonhosted.org/packages/22/4a/7d4353ba02963d73a557cdb781591177cc8272f2dafa59790fd24e259540/mia-accounting-1.5.0.tar.gz
+[2023-04-29 23:58:29] INFO root fetch - processPackages [rp]: executing diffoscope
+[2023-04-29 23:58:29] INFO root fetch - processPackages [rp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp-0.1.98.tar.gz tmp/rp-0.1.99.tar.gz --markdown 20230429/r/rp/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-29 23:58:29] INFO root fetch - processPackages [gcal-sync]: Downloading https://files.pythonhosted.org/packages/ea/69/2aa680cabde79c5e91c046fff31f5c8b917eec7e0ab24c21d7c19c1e3a65/gcal-sync-4.2.0.tar.gz
+[2023-04-29 23:58:29] INFO root fetch - processPackages [IMDbTraktSyncer]: Downloading https://files.pythonhosted.org/packages/1b/97/4b6bb9eaff567c7a6232a4336fbc10523e2eb189e1f6f94dcee9d7d40d16/IMDbTraktSyncer-1.0.3.tar.gz
+[2023-04-29 23:58:29] INFO root fetch - processPackages [rule-based-model]: Downloading https://files.pythonhosted.org/packages/d2/b7/9966497c4498b0c3d5e5e9b40779be7cdb5b76507debfba387c998ea6efd/rule_based_model-0.0.2.tar.gz
+[2023-04-29 23:58:29] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: Downloading https://files.pythonhosted.org/packages/7b/c8/2795c22b7c1414bb276a5dda99092195a8d4bb91712f7df238008a7d25e2/wagtail_sb_socialnetworks-0.6.0.tar.gz
+[2023-04-29 23:58:29] INFO root fetch - processPackages [mia-accounting]: Downloading https://files.pythonhosted.org/packages/96/be/ee831beeb98fabc6829660f973a9ebd401f848ab28693956a642ffc12d7e/mia-accounting-1.5.1.tar.gz
+[2023-04-29 23:58:29] INFO root fetch - processPackages [IMDbTraktSyncer]: executing diffoscope
+[2023-04-29 23:58:29] INFO root fetch - processPackages [IMDbTraktSyncer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMDbTraktSyncer-1.0.2.tar.gz tmp/IMDbTraktSyncer-1.0.3.tar.gz --markdown 20230429/I/IMDbTraktSyncer/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 23:58:29] INFO root fetch - processPackages [gcal-sync]: executing diffoscope
+[2023-04-29 23:58:29] INFO root fetch - processPackages [gcal-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcal-sync-4.1.4.tar.gz tmp/gcal-sync-4.2.0.tar.gz --markdown 20230429/g/gcal-sync/4.1.4-4.2.0/diff.md --exclude *.pyd
+[2023-04-29 23:58:29] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: executing diffoscope
+[2023-04-29 23:58:29] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_sb_socialnetworks-0.5.0.tar.gz tmp/wagtail_sb_socialnetworks-0.6.0.tar.gz --markdown 20230429/w/wagtail-sb-socialnetworks/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-29 23:58:29] INFO root fetch - processPackages [rule-based-model]: executing diffoscope
+[2023-04-29 23:58:29] INFO root fetch - processPackages [rule-based-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rule_based_model-0.0.1.tar.gz tmp/rule_based_model-0.0.2.tar.gz --markdown 20230429/r/rule-based-model/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 23:58:29] INFO root fetch - processPackages [mia-accounting]: executing diffoscope
+[2023-04-29 23:58:29] INFO root fetch - processPackages [mia-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia-accounting-1.5.0.tar.gz tmp/mia-accounting-1.5.1.tar.gz --markdown 20230429/m/mia-accounting/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-29 23:58:30] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer]: success
+[2023-04-29 23:58:30] INFO root fetch - main [MainThread]: End processing [wagtail-sb-socialnetworks]: success
+[2023-04-29 23:58:30] INFO root fetch - main [MainThread]: End processing [gcal-sync]: success
+[2023-04-29 23:58:31] INFO root fetch - main [MainThread]: End processing [rp]: success
+[2023-04-29 23:58:31] INFO root fetch - main [MainThread]: End processing [rule-based-model]: success
+[2023-04-29 23:58:35] INFO root fetch - main [MainThread]: End processing [mia-accounting]: success
+[2023-04-29 23:58:35] INFO root fetch - main [MainThread]: Store serial: [17912732]
