@@ -13245,3 +13245,45 @@
 [2023-04-29 21:43:57] INFO root fetch - main [MainThread]: End processing [pycluon]: success
 [2023-04-29 21:44:38] INFO root fetch - main [MainThread]: End processing [pyoxigraph]: success
 [2023-04-29 21:44:38] INFO root fetch - main [MainThread]: Store serial: [17911940]
+[2023-04-29 21:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911940]
+[2023-04-29 21:49:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 21:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tiny-keccak
+[2023-04-29 21:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Quick-Magic
+[2023-04-29 21:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotinst-agent-beta
+[2023-04-29 21:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meddlr
+[2023-04-29 21:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-theme-adminlte3
+[2023-04-29 21:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: relic-engine
+[2023-04-29 21:49:53] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.270] Old Version: [2.2.269]
+[2023-04-29 21:49:53] INFO root fetch - processPackages [Quick-Magic]: New version: [1.5] Old Version: [1.4]
+[2023-04-29 21:49:53] INFO root fetch - processPackages [django-theme-adminlte3]: New version: [3.2.0.7] Old Version: [3.2.0.6]
+[2023-04-29 21:49:53] INFO root fetch - processPackages [meddlr]: New version: [0.0.8a1] Old Version: [0.0.7rc1]
+[2023-04-29 21:49:53] INFO root fetch - processPackages [tiny-keccak]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 21:49:53] INFO root fetch - processPackages [relic-engine]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-29 21:49:53] INFO root fetch - processPackages [tiny-keccak]: Downloading https://files.pythonhosted.org/packages/ed/66/0e9bdf201aff584f254f0af1e8861a60e8657ca65b714b71ab644c0bcde4/tiny_keccak-0.1.0.tar.gz
+[2023-04-29 21:49:53] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/b6/a2/5d871ed882f674c23b9eaf9ba16602cd2bd6af3548cee996766b6fd949dd/spotinst-agent-beta-2.2.269.tar.gz
+[2023-04-29 21:49:54] INFO root fetch - processPackages [django-theme-adminlte3]: Downloading https://files.pythonhosted.org/packages/ab/bd/8462586c4fb4c9f93641591ad127645d58cca99322313f6d8b94723be2d9/django-theme-adminlte3-3.2.0.6.tar.gz
+[2023-04-29 21:49:54] INFO root fetch - processPackages [meddlr]: Downloading https://files.pythonhosted.org/packages/62/89/b7cd948fb5e7616578a0223bf71275e28ba3e4b514df0de0f741f73b18bd/meddlr-0.0.7rc1.tar.gz
+[2023-04-29 21:49:54] INFO root fetch - processPackages [relic-engine]: Downloading https://files.pythonhosted.org/packages/e8/51/963079bfacd03e4e9b19bf4b58e17fab4a123b7b00340045d26d1eccb2a1/relic_engine-0.2.5.tar.gz
+[2023-04-29 21:49:54] INFO root fetch - processPackages [Quick-Magic]: Downloading https://files.pythonhosted.org/packages/6f/60/2b436ef5ab86c6277fbf83fbaf3a9c867c4fa0495763f0c104ddc29bc17a/Quick_Magic-1.5.tar.gz
+[2023-04-29 21:49:54] WARNING root fetch - processPackages [django-theme-adminlte3]: Skipping package: exceeds size limit 21329683>=10485760
+[2023-04-29 21:49:54] INFO root fetch - main [MainThread]: End processing [django-theme-adminlte3] error
+[2023-04-29 21:49:54] INFO root fetch - processPackages [Quick-Magic]: executing diffoscope
+[2023-04-29 21:49:54] INFO root fetch - processPackages [Quick-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quick_Magic-1.4.tar.gz tmp/Quick_Magic-1.5.tar.gz --markdown 20230429/Q/Quick-Magic/1.4-1.5/diff.md --exclude *.pyd
+[2023-04-29 21:49:54] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/16/9d/66f214743f2fe0ec654b77b412814cfbd402e871f3f729e67fee67b093c1/spotinst-agent-beta-2.2.270.tar.gz
+[2023-04-29 21:49:54] INFO root fetch - processPackages [tiny-keccak]: Downloading https://files.pythonhosted.org/packages/9a/d0/fe732c659dc00fb9ab99368c72287e31528baaad2481350e2fc3c8005c90/tiny_keccak-0.2.0.tar.gz
+[2023-04-29 21:49:54] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-29 21:49:54] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.269.tar.gz tmp/spotinst-agent-beta-2.2.270.tar.gz --markdown 20230429/s/spotinst-agent-beta/2.2.269-2.2.270/diff.md --exclude *.pyd
+[2023-04-29 21:49:54] INFO root fetch - processPackages [relic-engine]: Downloading https://files.pythonhosted.org/packages/35/cd/2a2931d28b4118f68dda0861f3fef110489f0090485e29e82c271b188490/relic_engine-0.2.6.tar.gz
+[2023-04-29 21:49:54] INFO root fetch - processPackages [meddlr]: Downloading https://files.pythonhosted.org/packages/51/08/bf07a1e41bb3b25a2341596a6bb17f74ac9dcb46f5d162f88728ebd8a4c0/meddlr-0.0.8a1.tar.gz
+[2023-04-29 21:49:54] INFO root fetch - processPackages [tiny-keccak]: executing diffoscope
+[2023-04-29 21:49:54] INFO root fetch - processPackages [tiny-keccak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny_keccak-0.1.0.tar.gz tmp/tiny_keccak-0.2.0.tar.gz --markdown 20230429/t/tiny-keccak/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 21:49:54] INFO root fetch - processPackages [relic-engine]: executing diffoscope
+[2023-04-29 21:49:54] INFO root fetch - processPackages [relic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relic_engine-0.2.5.tar.gz tmp/relic_engine-0.2.6.tar.gz --markdown 20230429/r/relic-engine/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-29 21:49:54] INFO root fetch - processPackages [meddlr]: executing diffoscope
+[2023-04-29 21:49:54] INFO root fetch - processPackages [meddlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meddlr-0.0.7rc1.tar.gz tmp/meddlr-0.0.8a1.tar.gz --markdown 20230429/m/meddlr/0.0.7rc1-0.0.8a1/diff.md --exclude *.pyd
+[2023-04-29 21:49:55] INFO root fetch - main [MainThread]: End processing [Quick-Magic]: success
+[2023-04-29 21:49:55] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-29 21:49:55] INFO root fetch - main [MainThread]: End processing [tiny-keccak]: success
+[2023-04-29 21:49:55] INFO root fetch - main [MainThread]: End processing [relic-engine]: success
+[2023-04-29 21:49:56] INFO root fetch - main [MainThread]: End processing [meddlr]: success
+[2023-04-29 21:49:56] INFO root fetch - main [MainThread]: Store serial: [17911980]
