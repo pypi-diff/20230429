@@ -12225,3 +12225,39 @@
 [2023-04-29 19:52:50] INFO root fetch - main [MainThread]: End processing [statinf]: success
 [2023-04-29 19:52:50] INFO root fetch - main [MainThread]: End processing [DataRecorder]: success
 [2023-04-29 19:52:50] INFO root fetch - main [MainThread]: Store serial: [17911177]
+[2023-04-29 19:57:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911177]
+[2023-04-29 19:57:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ext-mongo
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tooljob
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toolcli
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofscraper
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medspellchecker
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ofscraper]: New version: [1.85] Old Version: [1.84]
+[2023-04-29 19:57:59] INFO root fetch - processPackages [toolcli]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-29 19:57:59] INFO root fetch - processPackages [medspellchecker]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ext-mongo]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-29 19:57:59] INFO root fetch - processPackages [tooljob]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/1d/f0/feb14a876fdf79979e18c8a641d6d6e7b491b0e98e00c1492a8769098373/ofscraper-1.84.tar.gz
+[2023-04-29 19:57:59] INFO root fetch - processPackages [toolcli]: Downloading https://files.pythonhosted.org/packages/95/0b/ed5c0e9085ae14116c76cb5a71495dfafb295f0eedb990273b6fd1fafe9f/toolcli-0.6.8.tar.gz
+[2023-04-29 19:57:59] INFO root fetch - processPackages [medspellchecker]: Downloading https://files.pythonhosted.org/packages/db/22/fc2d23d64e5963156849cd292e295d829614f351fb7be8e0411790dde9b9/medspellchecker-0.0.2.tar.gz
+[2023-04-29 19:57:59] INFO root fetch - processPackages [tooljob]: Downloading https://files.pythonhosted.org/packages/57/2e/16b35097554552cf0e7eb9269315ecaa6a629c66dd266d6624b6c0adfe80/tooljob-0.1.3.tar.gz
+[2023-04-29 19:57:59] INFO root fetch - processPackages [tooljob]: executing diffoscope
+[2023-04-29 19:57:59] INFO root fetch - processPackages [tooljob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooljob-0.1.2.tar.gz tmp/tooljob-0.1.3.tar.gz --markdown 20230429/t/tooljob/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/aa/8b/b28ae012fdb584f6664d527f4e8fe52a625f09517e7219cc73e374a84b72/ofscraper-1.85.tar.gz
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ext-mongo]: Downloading https://files.pythonhosted.org/packages/a7/e6/7c804c5311f10eabd109db62e35f4baf2766dfe4f7307efcc2f218945e2b/ext-mongo-0.4.0.tar.gz
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-1.84.tar.gz tmp/ofscraper-1.85.tar.gz --markdown 20230429/o/ofscraper/1.84-1.85/diff.md --exclude *.pyd
+[2023-04-29 19:57:59] INFO root fetch - processPackages [medspellchecker]: Downloading https://files.pythonhosted.org/packages/29/5f/4788cbdf6a72931c93418cfd4b0b7310e58754c3aaf03a3084d5434427a0/medspellchecker-0.0.3.tar.gz
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ext-mongo]: executing diffoscope
+[2023-04-29 19:57:59] INFO root fetch - processPackages [ext-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ext-mongo-0.3.0.tar.gz tmp/ext-mongo-0.4.0.tar.gz --markdown 20230429/e/ext-mongo/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 19:57:59] INFO root fetch - processPackages [toolcli]: Downloading https://files.pythonhosted.org/packages/46/36/cf6f9145b26c206c7f50a8bbed886b8b9266c93707abc261dc77530b8cdf/toolcli-0.6.9-py3-none-any.whl
+[2023-04-29 19:57:59] INFO root fetch - processPackages [toolcli]: executing diffoscope
+[2023-04-29 19:57:59] INFO root fetch - processPackages [toolcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolcli-0.6.8.tar.gz tmp/toolcli-0.6.9-py3-none-any.whl.zip --markdown 20230429/t/toolcli/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-29 19:57:59] INFO root fetch - processPackages [medspellchecker]: executing diffoscope
+[2023-04-29 19:57:59] INFO root fetch - processPackages [medspellchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medspellchecker-0.0.2.tar.gz tmp/medspellchecker-0.0.3.tar.gz --markdown 20230429/m/medspellchecker/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 19:58:00] INFO root fetch - main [MainThread]: End processing [tooljob]: success
+[2023-04-29 19:58:00] INFO root fetch - main [MainThread]: End processing [ext-mongo]: success
+[2023-04-29 19:58:00] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-04-29 19:58:00] INFO root fetch - main [MainThread]: End processing [toolcli]: success
+[2023-04-29 19:58:01] INFO root fetch - main [MainThread]: End processing [medspellchecker]: success
+[2023-04-29 19:58:01] INFO root fetch - main [MainThread]: Store serial: [17911204]
