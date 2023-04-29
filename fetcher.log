@@ -6197,3 +6197,34 @@
 [2023-04-29 08:56:22] INFO root fetch - main [MainThread]: End processing [evennia]: success
 [2023-04-29 08:56:23] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-04-29 08:56:23] INFO root fetch - main [MainThread]: Store serial: [17907182]
+[2023-04-29 09:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907182]
+[2023-04-29 09:01:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: findmyorder
+[2023-04-29 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dspawpy
+[2023-04-29 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bayesian-models
+[2023-04-29 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kttool
+[2023-04-29 09:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyoqs-sdk
+[2023-04-29 09:01:32] INFO root fetch - processPackages [bayesian-models]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 09:01:32] WARNING root fetch - processPackages [pyoqs-sdk]: Skipping, unable to determine old version
+[2023-04-29 09:01:32] INFO root fetch - processPackages [kttool]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-04-29 09:01:32] INFO root fetch - main [MainThread]: End processing [pyoqs-sdk] error
+[2023-04-29 09:01:32] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 09:01:32] INFO root fetch - processPackages [dspawpy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-29 09:01:32] INFO root fetch - processPackages [bayesian-models]: Downloading https://files.pythonhosted.org/packages/8a/2d/4ce6b4a58bd863bde0d84a6f0cbedcaf48442c654a4f0c17a9b4414625ff/bayesian-models-0.1.0.tar.gz
+[2023-04-29 09:01:32] INFO root fetch - processPackages [kttool]: Downloading https://files.pythonhosted.org/packages/2e/ed/b2797dc04c012295a769e6d42c5b249fb93392adbd97723886c0bad8facf/kttool-1.3.4.tar.gz
+[2023-04-29 09:01:32] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/d5/8b/3f441f7782718d3196de005ea3554676ee96ea1f188f226bf057d4f90936/dspawpy-0.9.1-py3-none-any.whl
+[2023-04-29 09:01:32] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-29 09:01:32] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230429/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 09:01:32] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-04-29 09:01:32] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-0.9.0-py3-none-any.whl.zip tmp/dspawpy-0.9.1-py3-none-any.whl.zip --markdown 20230429/d/dspawpy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-29 09:01:32] INFO root fetch - processPackages [kttool]: Downloading https://files.pythonhosted.org/packages/e4/fc/c5668fa87db8f759da2c458490dd85e34b8c6801465668c4a28a538f0652/kttool-1.3.5.tar.gz
+[2023-04-29 09:01:32] INFO root fetch - processPackages [bayesian-models]: Downloading https://files.pythonhosted.org/packages/3b/7a/f8cb928a5294d8eb22800186fcd010e7a266ad403cec61e871afc4bcc234/bayesian-models-0.1.1.tar.gz
+[2023-04-29 09:01:32] INFO root fetch - processPackages [kttool]: executing diffoscope
+[2023-04-29 09:01:32] INFO root fetch - processPackages [kttool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kttool-1.3.4.tar.gz tmp/kttool-1.3.5.tar.gz --markdown 20230429/k/kttool/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-04-29 09:01:32] INFO root fetch - processPackages [bayesian-models]: executing diffoscope
+[2023-04-29 09:01:32] INFO root fetch - processPackages [bayesian-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayesian-models-0.1.0.tar.gz tmp/bayesian-models-0.1.1.tar.gz --markdown 20230429/b/bayesian-models/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 09:01:33] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-29 09:01:33] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-04-29 09:01:34] INFO root fetch - main [MainThread]: End processing [kttool]: success
+[2023-04-29 09:01:34] INFO root fetch - main [MainThread]: End processing [bayesian-models]: success
+[2023-04-29 09:01:34] INFO root fetch - main [MainThread]: Store serial: [17907197]
