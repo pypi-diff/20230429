@@ -6603,3 +6603,18 @@
 [2023-04-29 09:59:15] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
 [2023-04-29 09:59:16] INFO root fetch - main [MainThread]: End processing [finalynx]: success
 [2023-04-29 09:59:16] INFO root fetch - main [MainThread]: Store serial: [17907479]
+[2023-04-29 10:04:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907479]
+[2023-04-29 10:04:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-29 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nycu-tdx-py
+[2023-04-29 10:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unfurl
+[2023-04-29 10:04:25] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 10:04:25] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-29 10:04:25] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230429/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 10:04:25] INFO root fetch - processPackages [unfurl]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-29 10:04:26] INFO root fetch - processPackages [unfurl]: Downloading https://files.pythonhosted.org/packages/a2/e2/82eff9a720490537b665acf26510dee4cd793e27360deee70776778a9255/unfurl-0.6.1.tar.gz
+[2023-04-29 10:04:26] INFO root fetch - processPackages [unfurl]: Downloading https://files.pythonhosted.org/packages/0e/96/e73c4691ebab6831c82334b4fb5977565045c3a7da9e45c0a1cfb45356e3/unfurl-0.6.2.tar.gz
+[2023-04-29 10:04:26] INFO root fetch - processPackages [unfurl]: executing diffoscope
+[2023-04-29 10:04:26] INFO root fetch - processPackages [unfurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unfurl-0.6.1.tar.gz tmp/unfurl-0.6.2.tar.gz --markdown 20230429/u/unfurl/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-29 10:04:26] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-29 10:04:30] INFO root fetch - main [MainThread]: End processing [unfurl]: success
+[2023-04-29 10:04:30] INFO root fetch - main [MainThread]: Store serial: [17907485]
