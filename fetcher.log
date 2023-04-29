@@ -6426,3 +6426,30 @@
 [2023-04-29 09:37:54] INFO root fetch - main [MainThread]: End processing [lalsuite] error
 [2023-04-29 09:37:55] INFO root fetch - main [MainThread]: End processing [textual-astview]: success
 [2023-04-29 09:37:55] INFO root fetch - main [MainThread]: Store serial: [17907336]
+[2023-04-29 09:42:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907336]
+[2023-04-29 09:43:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 09:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-server-environment-files-sample
+[2023-04-29 09:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: equasolver
+[2023-04-29 09:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: japan-basic-section
+[2023-04-29 09:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymailers
+[2023-04-29 09:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zxcvb
+[2023-04-29 09:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Bigsansar
+[2023-04-29 09:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: japan-basic-section
+[2023-04-29 09:43:04] WARNING root fetch - processPackages [equasolver]: Skipping, unable to determine old version
+[2023-04-29 09:43:04] INFO root fetch - main [MainThread]: End processing [equasolver] error
+[2023-04-29 09:43:04] WARNING root fetch - processPackages [japan-basic-section]: Skipping, unable to determine old version
+[2023-04-29 09:43:04] INFO root fetch - main [MainThread]: End processing [japan-basic-section] error
+[2023-04-29 09:43:04] WARNING root fetch - processPackages [pymailers]: Skipping, unable to determine old version
+[2023-04-29 09:43:04] INFO root fetch - main [MainThread]: End processing [pymailers] error
+[2023-04-29 09:43:04] WARNING root fetch - processPackages [japan-basic-section]: Skipping, unable to determine old version
+[2023-04-29 09:43:04] INFO root fetch - main [MainThread]: End processing [japan-basic-section] error
+[2023-04-29 09:43:04] WARNING root fetch - processPackages [zxcvb]: Skipping, unable to determine old version
+[2023-04-29 09:43:04] INFO root fetch - main [MainThread]: End processing [zxcvb] error
+[2023-04-29 09:43:04] WARNING root fetch - processPackages [odoo-addon-server-environment-files-sample]: Skipping, unable to determine old version
+[2023-04-29 09:43:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-environment-files-sample] error
+[2023-04-29 09:43:04] INFO root fetch - processPackages [Bigsansar]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-29 09:43:04] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/19/3b/d6472c213718d2a4d76fa9d89a4035176f0c7cc1fed7a531223f2ae33b94/Bigsansar-1.0.7.tar.gz
+[2023-04-29 09:43:04] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-29 09:43:04] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.0.6.tar.gz tmp/Bigsansar-1.0.7.tar.gz --markdown 20230429/B/Bigsansar/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-29 09:43:06] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-29 09:43:06] INFO root fetch - main [MainThread]: Store serial: [17907360]
