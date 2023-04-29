@@ -4803,3 +4803,44 @@
 [2023-04-29 05:08:08] INFO root fetch - main [MainThread]: End processing [zenutils]: success
 [2023-04-29 05:08:27] INFO root fetch - main [MainThread]: End processing [vsgrlir]: success
 [2023-04-29 05:08:27] INFO root fetch - main [MainThread]: Store serial: [17906341]
+[2023-04-29 05:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906341]
+[2023-04-29 05:13:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 05:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-payment-order-grouped-output
+[2023-04-29 05:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-payment-order-grouped-output
+[2023-04-29 05:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysigma-backend-sentinelone
+[2023-04-29 05:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bam-core
+[2023-04-29 05:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duckdb
+[2023-04-29 05:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skeetpy
+[2023-04-29 05:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-04-29 05:13:37] INFO root fetch - processPackages [duckdb]: New version: [0.7.2.dev2675] Old Version: [0.7.2.dev2552]
+[2023-04-29 05:13:37] WARNING root fetch - processPackages [bam-core]: Skipping, unable to determine old version
+[2023-04-29 05:13:37] INFO root fetch - main [MainThread]: End processing [bam-core] error
+[2023-04-29 05:13:37] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230428] Old Version: [0.0.16.dev20230427]
+[2023-04-29 05:13:37] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2023-04-29 05:13:37] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2023-04-29 05:13:37] WARNING root fetch - processPackages [skeetpy]: Skipping, unable to determine old version
+[2023-04-29 05:13:37] INFO root fetch - main [MainThread]: End processing [skeetpy] error
+[2023-04-29 05:13:37] INFO root fetch - processPackages [pysigma-backend-sentinelone]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 05:13:37] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-04-29 05:13:37] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230427.tar.gz tmp/GANDLF-0.0.16.dev20230428.tar.gz --markdown 20230429/G/GANDLF/0.0.16.dev20230427-0.0.16.dev20230428/diff.md --exclude *.pyd
+[2023-04-29 05:13:37] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/05/11/ea8aa39c73d1694c9a738886706194eb1a5594e8e0cb30b330312d6d838f/odoo_addon_account_payment_order_grouped_output-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-29 05:13:37] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/05/11/ea8aa39c73d1694c9a738886706194eb1a5594e8e0cb30b330312d6d838f/odoo_addon_account_payment_order_grouped_output-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-29 05:13:37] INFO root fetch - processPackages [pysigma-backend-sentinelone]: Downloading https://files.pythonhosted.org/packages/79/9a/af3f8599b5e967e9263bdc08658392cd70a826b906354afcfdb7c1d8b9d8/pysigma_backend_sentinelone-0.1.0.tar.gz
+[2023-04-29 05:13:37] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/56/aa/bb75723f020c31629f9fe23860024f522485c48c06ba4cb9427ac2c1e7e6/duckdb-0.7.2.dev2675.tar.gz
+[2023-04-29 05:13:38] INFO root fetch - processPackages [pysigma-backend-sentinelone]: Downloading https://files.pythonhosted.org/packages/a5/02/dc5bb40bff3eb95abe90cc63025c6f5d38830d9a89b8f0fe3a4baa2181af/pysigma_backend_sentinelone-0.1.1.tar.gz
+[2023-04-29 05:13:38] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/70/b5/4b9d72b2c23b3c6ad03c0195875adc01a220420df754a7fa7df1b0abb7b6/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1-py3-none-any.whl
+[2023-04-29 05:13:38] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/70/b5/4b9d72b2c23b3c6ad03c0195875adc01a220420df754a7fa7df1b0abb7b6/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1-py3-none-any.whl
+[2023-04-29 05:13:38] INFO root fetch - processPackages [pysigma-backend-sentinelone]: executing diffoscope
+[2023-04-29 05:13:38] INFO root fetch - processPackages [pysigma-backend-sentinelone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_sentinelone-0.1.0.tar.gz tmp/pysigma_backend_sentinelone-0.1.1.tar.gz --markdown 20230429/p/pysigma-backend-sentinelone/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 05:13:38] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: executing diffoscope
+[2023-04-29 05:13:38] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-account-payment-order-grouped-output/16.0.1.0.0.2-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-04-29 05:13:38] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: executing diffoscope
+[2023-04-29 05:13:38] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-account-payment-order-grouped-output/16.0.1.0.0.2-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-04-29 05:13:39] INFO root fetch - main [MainThread]: End processing [pysigma-backend-sentinelone]: success
+[2023-04-29 05:13:39] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-04-29 05:13:39] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.7.2.dev2552.tar.gz tmp/duckdb-0.7.2.dev2675.tar.gz --markdown 20230429/d/duckdb/0.7.2.dev2552-0.7.2.dev2675/diff.md --exclude *.pyd
+[2023-04-29 05:13:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order-grouped-output]: success
+[2023-04-29 05:13:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order-grouped-output]: success
+[2023-04-29 05:13:39] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-04-29 05:15:59] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-04-29 05:15:59] INFO root fetch - main [MainThread]: Store serial: [17906361]
