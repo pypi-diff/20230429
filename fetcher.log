@@ -7877,3 +7877,57 @@
 [2023-04-29 12:38:46] INFO root fetch - main [MainThread]: End processing [isabelle-client]: success
 [2023-04-29 12:38:47] INFO root fetch - main [MainThread]: End processing [nua-build]: success
 [2023-04-29 12:38:47] INFO root fetch - main [MainThread]: Store serial: [17908210]
+[2023-04-29 12:43:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908210]
+[2023-04-29 12:43:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qgate-graph
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbbb
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cocojamboo
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-pusher-flask
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ffff
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dpytest
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pg-force-execute
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robot-soccer-kit
+[2023-04-29 12:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: html2notion
+[2023-04-29 12:43:56] INFO root fetch - processPackages [cocojamboo]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-04-29 12:43:56] INFO root fetch - processPackages [qgate-graph]: New version: [1.2rc6] Old Version: [1.2rc5]
+[2023-04-29 12:43:56] INFO root fetch - processPackages [robot-soccer-kit]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-29 12:43:56] INFO root fetch - processPackages [xia-pusher-flask]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 12:43:56] INFO root fetch - processPackages [dpytest]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-29 12:43:56] WARNING root fetch - processPackages [bbbb]: Skipping, unable to determine old version
+[2023-04-29 12:43:56] INFO root fetch - main [MainThread]: End processing [bbbb] error
+[2023-04-29 12:43:56] INFO root fetch - processPackages [html2notion]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-29 12:43:56] INFO root fetch - processPackages [pg-force-execute]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 12:43:56] WARNING root fetch - processPackages [ffff]: Skipping, unable to determine old version
+[2023-04-29 12:43:56] INFO root fetch - main [MainThread]: End processing [ffff] error
+[2023-04-29 12:43:56] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/50/9e/78dbe643c0682044c18a7e0bb6fb2c3fc843948feac9a76ec103bc9d9e18/qgate_graph-1.2rc6.tar.gz
+[2023-04-29 12:43:56] INFO root fetch - processPackages [cocojamboo]: Downloading https://files.pythonhosted.org/packages/82/96/e9319c9e8ebba432c18d019b3c86776d3387fdfb07fe307695537e3b90c6/cocojamboo-2.1.2.tar.gz
+[2023-04-29 12:43:56] INFO root fetch - processPackages [pg-force-execute]: Downloading https://files.pythonhosted.org/packages/4e/9f/d9c636916b65408f7f3c948af81ec6d0bc330263fd69c2e258a33b52fa3e/pg_force_execute-0.0.5.tar.gz
+[2023-04-29 12:43:56] INFO root fetch - processPackages [robot-soccer-kit]: Downloading https://files.pythonhosted.org/packages/53/e1/abe72c76fe26ce9e55d0046f42feaa1211b18ab4f248672bbfcc539ca0bf/robot-soccer-kit-2.0.2.tar.gz
+[2023-04-29 12:43:56] INFO root fetch - processPackages [xia-pusher-flask]: Downloading https://files.pythonhosted.org/packages/95/65/3ec687567b0275ccc36cb6a94fbbc55868f3bd61ce4aabc30e896ff45c59/xia_pusher_flask-0.0.4-cp39-none-win_amd64.whl
+[2023-04-29 12:43:56] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-04-29 12:43:56] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.2rc5.tar.gz tmp/qgate_graph-1.2rc6.tar.gz --markdown 20230429/q/qgate-graph/1.2rc5-1.2rc6/diff.md --exclude *.pyd
+[2023-04-29 12:43:56] INFO root fetch - processPackages [cocojamboo]: executing diffoscope
+[2023-04-29 12:43:56] INFO root fetch - processPackages [cocojamboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocojamboo-2.1.1.tar.gz tmp/cocojamboo-2.1.2.tar.gz --markdown 20230429/c/cocojamboo/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-04-29 12:43:56] INFO root fetch - processPackages [pg-force-execute]: executing diffoscope
+[2023-04-29 12:43:56] INFO root fetch - processPackages [pg-force-execute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_force_execute-0.0.4.tar.gz tmp/pg_force_execute-0.0.5.tar.gz --markdown 20230429/p/pg-force-execute/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 12:43:56] INFO root fetch - processPackages [html2notion]: Downloading https://files.pythonhosted.org/packages/43/1f/b1cbc86ca27aae9e4205896d90693d83667e9dcff7da686aa6a0cfa3e38d/html2notion-0.1.7.tar.gz
+[2023-04-29 12:43:56] INFO root fetch - processPackages [html2notion]: executing diffoscope
+[2023-04-29 12:43:56] INFO root fetch - processPackages [html2notion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2notion-0.1.6.tar.gz tmp/html2notion-0.1.7.tar.gz --markdown 20230429/h/html2notion/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-29 12:43:56] INFO root fetch - processPackages [xia-pusher-flask]: Downloading https://files.pythonhosted.org/packages/40/38/c0f2e922888bec7c5ce32519d3e0c927e907775e89e9557d2a5c27c9466e/xia_pusher_flask-0.0.5-cp39-none-win_amd64.whl
+[2023-04-29 12:43:56] INFO root fetch - processPackages [robot-soccer-kit]: Downloading https://files.pythonhosted.org/packages/95/4e/b7d6bc37703436948d17906a24208c94a6b4daedb5dfaab67aa58ecdb321/robot-soccer-kit-2.0.3.tar.gz
+[2023-04-29 12:43:56] INFO root fetch - processPackages [xia-pusher-flask]: executing diffoscope
+[2023-04-29 12:43:56] INFO root fetch - processPackages [xia-pusher-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_pusher_flask-0.0.4-cp39-none-win_amd64.whl.zip tmp/xia_pusher_flask-0.0.5-cp39-none-win_amd64.whl.zip --markdown 20230429/x/xia-pusher-flask/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 12:43:57] INFO root fetch - processPackages [robot-soccer-kit]: executing diffoscope
+[2023-04-29 12:43:57] INFO root fetch - processPackages [robot-soccer-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot-soccer-kit-2.0.2.tar.gz tmp/robot-soccer-kit-2.0.3.tar.gz --markdown 20230429/r/robot-soccer-kit/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-29 12:43:57] INFO root fetch - processPackages [dpytest]: Downloading https://files.pythonhosted.org/packages/b7/07/83599210f0f44d1d7292b2978891763f07f62850dcc22ccbd4fd2f856b58/dpytest-0.6.4.tar.gz
+[2023-04-29 12:43:57] INFO root fetch - processPackages [dpytest]: Downloading https://files.pythonhosted.org/packages/04/2f/0a0bca22f06dfd4bcd0a98bd7578583f8e09e27a91ed0a30dc9f8a65f81f/dpytest-0.6.5.tar.gz
+[2023-04-29 12:43:57] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-04-29 12:43:57] INFO root fetch - main [MainThread]: End processing [pg-force-execute]: success
+[2023-04-29 12:43:57] INFO root fetch - processPackages [dpytest]: executing diffoscope
+[2023-04-29 12:43:57] INFO root fetch - processPackages [dpytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpytest-0.6.4.tar.gz tmp/dpytest-0.6.5.tar.gz --markdown 20230429/d/dpytest/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-04-29 12:43:57] INFO root fetch - main [MainThread]: End processing [cocojamboo]: success
+[2023-04-29 12:43:58] INFO root fetch - main [MainThread]: End processing [xia-pusher-flask]: success
+[2023-04-29 12:43:58] INFO root fetch - main [MainThread]: End processing [html2notion]: success
+[2023-04-29 12:43:58] INFO root fetch - main [MainThread]: End processing [dpytest]: success
+[2023-04-29 12:44:00] INFO root fetch - main [MainThread]: End processing [robot-soccer-kit]: success
+[2023-04-29 12:44:00] INFO root fetch - main [MainThread]: Store serial: [17908247]
