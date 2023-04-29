@@ -11725,3 +11725,30 @@
 [2023-04-29 19:00:05] INFO root fetch - main [MainThread]: End processing [phymmr-tools]: success
 [2023-04-29 19:00:13] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
 [2023-04-29 19:00:13] INFO root fetch - main [MainThread]: Store serial: [17910912]
+[2023-04-29 19:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910912]
+[2023-04-29 19:05:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 19:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtstrap
+[2023-04-29 19:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fgo-api-types
+[2023-04-29 19:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Solarflare
+[2023-04-29 19:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comments-app
+[2023-04-29 19:05:24] INFO root fetch - processPackages [Solarflare]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-29 19:05:24] INFO root fetch - processPackages [qtstrap]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-29 19:05:24] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.4.29.17.3.6] Old Version: [2023.4.27.0.39.38]
+[2023-04-29 19:05:24] WARNING root fetch - processPackages [comments-app]: Skipping, unable to determine old version
+[2023-04-29 19:05:24] INFO root fetch - main [MainThread]: End processing [comments-app] error
+[2023-04-29 19:05:24] INFO root fetch - processPackages [Solarflare]: Downloading https://files.pythonhosted.org/packages/c6/48/d544d548145c852d1521cf2ab4c09d038f23baa6cb4e2565594db3faf225/Solarflare-0.0.5.tar.gz
+[2023-04-29 19:05:24] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/dd/53/0692120c3efd3a26ce0c7c9397c60605b187a9cddcb18cc82c1e5ac33d1b/fgo_api_types-2023.4.27.0.39.38.tar.gz
+[2023-04-29 19:05:24] INFO root fetch - processPackages [qtstrap]: Downloading https://files.pythonhosted.org/packages/18/7b/2e69fbea5746865860dcc7289e405e2627743e0d5d43721677380bb18db9/qtstrap-0.4.1.tar.gz
+[2023-04-29 19:05:25] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/5f/14/2a8193a8d5e9456887b69b8ea6f3dc5885cdb7dd5e4483b6bb53dd4388aa/fgo_api_types-2023.4.29.17.3.6.tar.gz
+[2023-04-29 19:05:25] INFO root fetch - processPackages [qtstrap]: Downloading https://files.pythonhosted.org/packages/9c/08/a75425fc6d3ed0e213f71ff90631fc72e173bcd0d13804d0122df17230ea/qtstrap-0.4.2.tar.gz
+[2023-04-29 19:05:25] INFO root fetch - processPackages [Solarflare]: Downloading https://files.pythonhosted.org/packages/ef/a8/1e9574e01917f9bf450dc4e21f0a6a2a2d1b61cc2020802080e0fe046c3f/Solarflare-0.0.6.tar.gz
+[2023-04-29 19:05:25] INFO root fetch - processPackages [qtstrap]: executing diffoscope
+[2023-04-29 19:05:25] INFO root fetch - processPackages [qtstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtstrap-0.4.1.tar.gz tmp/qtstrap-0.4.2.tar.gz --markdown 20230429/q/qtstrap/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-29 19:05:25] INFO root fetch - processPackages [Solarflare]: executing diffoscope
+[2023-04-29 19:05:25] INFO root fetch - processPackages [Solarflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Solarflare-0.0.5.tar.gz tmp/Solarflare-0.0.6.tar.gz --markdown 20230429/S/Solarflare/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-29 19:05:25] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-04-29 19:05:25] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.4.27.0.39.38.tar.gz tmp/fgo_api_types-2023.4.29.17.3.6.tar.gz --markdown 20230429/f/fgo-api-types/2023.4.27.0.39.38-2023.4.29.17.3.6/diff.md --exclude *.pyd
+[2023-04-29 19:05:26] INFO root fetch - main [MainThread]: End processing [Solarflare]: success
+[2023-04-29 19:05:26] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-04-29 19:05:27] INFO root fetch - main [MainThread]: End processing [qtstrap]: success
+[2023-04-29 19:05:27] INFO root fetch - main [MainThread]: Store serial: [17910927]
