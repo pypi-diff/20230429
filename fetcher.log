@@ -13420,3 +13420,38 @@
 [2023-04-29 22:11:24] INFO root fetch - main [MainThread]: End processing [classy-imaginary]: success
 [2023-04-29 22:11:27] INFO root fetch - main [MainThread]: End processing [fpm]: success
 [2023-04-29 22:11:27] INFO root fetch - main [MainThread]: Store serial: [17912180]
+[2023-04-29 22:16:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912180]
+[2023-04-29 22:16:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 22:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: katalytic-data
+[2023-04-29 22:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mitzu
+[2023-04-29 22:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pibble
+[2023-04-29 22:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QPUIQ
+[2023-04-29 22:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bluetti-mqtt
+[2023-04-29 22:16:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aim-ui
+[2023-04-29 22:16:36] INFO root fetch - processPackages [katalytic-data]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-29 22:16:36] INFO root fetch - processPackages [QPUIQ]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 22:16:36] INFO root fetch - processPackages [mitzu]: New version: [0.6.0rc4] Old Version: [0.6.0rc3]
+[2023-04-29 22:16:36] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev4] Old Version: [4.0.0.dev3]
+[2023-04-29 22:16:36] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/25/11/4059bbf4cab503ac1931586071b233764a39bbc75396c91c8f382fe8f6c9/aim-ui-4.0.0.dev3.tar.gz
+[2023-04-29 22:16:36] WARNING root fetch - processPackages [pibble]: Skipping, unable to determine old version
+[2023-04-29 22:16:36] INFO root fetch - main [MainThread]: End processing [pibble] error
+[2023-04-29 22:16:36] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-04-29 22:16:36] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.1.4.tar.gz tmp/QPUIQ-0.1.5.tar.gz --markdown 20230429/Q/QPUIQ/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 22:16:36] INFO root fetch - processPackages [bluetti-mqtt]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-29 22:16:36] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 27062620>=10485760
+[2023-04-29 22:16:36] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-04-29 22:16:37] INFO root fetch - processPackages [bluetti-mqtt]: Downloading https://files.pythonhosted.org/packages/16/5f/3a6ec665dbf0bff9c5d462ec51e748bf27eae87410085a7ae9b896d7f9cb/bluetti_mqtt-0.9.1.tar.gz
+[2023-04-29 22:16:37] INFO root fetch - processPackages [katalytic-data]: Downloading https://files.pythonhosted.org/packages/e6/3b/d529dbe9b7c866bb0e5a4aeef19bee90c240958fb78eacc88768e8a18cee/katalytic-data-0.6.0.tar.gz
+[2023-04-29 22:16:37] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/9a/f7/0de28013dd5cda40a98c0bbb467fdaf15161ba2a5cf6d0c754c0cac30d3e/mitzu-0.6.0rc4.tar.gz
+[2023-04-29 22:16:37] INFO root fetch - processPackages [katalytic-data]: executing diffoscope
+[2023-04-29 22:16:37] INFO root fetch - processPackages [katalytic-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-data-0.5.1.tar.gz tmp/katalytic-data-0.6.0.tar.gz --markdown 20230429/k/katalytic-data/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-29 22:16:37] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-04-29 22:16:37] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.0rc3.tar.gz tmp/mitzu-0.6.0rc4.tar.gz --markdown 20230429/m/mitzu/0.6.0rc3-0.6.0rc4/diff.md --exclude *.pyd
+[2023-04-29 22:16:37] INFO root fetch - processPackages [bluetti-mqtt]: Downloading https://files.pythonhosted.org/packages/89/9f/9cd483fc6286fd3eebd33d8b5d90a62f9c23240135679f94d3701d9bc430/bluetti_mqtt-0.9.2.tar.gz
+[2023-04-29 22:16:37] INFO root fetch - processPackages [bluetti-mqtt]: executing diffoscope
+[2023-04-29 22:16:37] INFO root fetch - processPackages [bluetti-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetti_mqtt-0.9.1.tar.gz tmp/bluetti_mqtt-0.9.2.tar.gz --markdown 20230429/b/bluetti-mqtt/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-29 22:16:38] INFO root fetch - main [MainThread]: End processing [bluetti-mqtt]: success
+[2023-04-29 22:16:38] INFO root fetch - main [MainThread]: End processing [katalytic-data]: success
+[2023-04-29 22:16:38] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-04-29 22:16:39] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-04-29 22:16:39] INFO root fetch - main [MainThread]: Store serial: [17912203]
