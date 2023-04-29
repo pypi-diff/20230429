@@ -9242,3 +9242,61 @@
 [2023-04-29 15:01:22] INFO root fetch - main [MainThread]: End processing [genno]: success
 [2023-04-29 15:01:24] INFO root fetch - main [MainThread]: End processing [state-space-generator]: success
 [2023-04-29 15:01:24] INFO root fetch - main [MainThread]: Store serial: [17909141]
+[2023-04-29 15:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909141]
+[2023-04-29 15:06:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-object-safety
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ProjZ.py
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: katalytic-data
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-dynamo
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhtools
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torf-cli
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandasai
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ProjZ.py]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [django-object-safety]: New version: [1.2.0] Old Version: [1.1.6]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.4.28] Old Version: [2023.4.27]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [pyhtools]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [pandasai]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [katalytic-data]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [torf-cli]: New version: [5.1.0] Old Version: [5.0.0]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [pydantic-dynamo]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 15:06:33] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-04-29 15:06:33] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.4.27-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.4.28-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230429/f/fbgemm-gpu-nightly-cpu/2023.4.27-2023.4.28/diff.md --exclude *.pyd
+[2023-04-29 15:06:33] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-04-29 15:06:33] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230429/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 15:06:33] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/ba/6a/462a5cd519a8038bb5a28d8fcd6aebd96bf2a6e5007a1c2e4eaf1a241a1e/django_object_safety-1.1.6.tar.gz
+[2023-04-29 15:06:33] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/48/05/2483fb1447e4851f05d2485a40b93eb48e3c6389e09df5600758077d5d4c/ProjZ.py-2.3.6.tar.gz
+[2023-04-29 15:06:33] INFO root fetch - processPackages [pyhtools]: Downloading https://files.pythonhosted.org/packages/b2/c4/e04142c08a919bf1b2b26aac8700d39365c1c2a83a48a89af28e025efa3c/pyhtools-2.2.1.tar.gz
+[2023-04-29 15:06:33] INFO root fetch - processPackages [pydantic-dynamo]: Downloading https://files.pythonhosted.org/packages/4b/36/4ab1525209848f5b1f68a5abb04ea8fad5b743eaa5bca8ad1e8e75ba3e64/pydantic_dynamo-0.2.1.tar.gz
+[2023-04-29 15:06:33] INFO root fetch - processPackages [torf-cli]: Downloading https://files.pythonhosted.org/packages/d0/e6/373c8d1ace09b7bf912fca56a147d807b05c05f244221b5e9a1445c31c48/torf-cli-5.0.0.tar.gz
+[2023-04-29 15:06:33] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/76/b7/90a5605bed04d22326cbd4cece773ee8715ce0bab11f1e7693372810a213/pandasai-0.1.0.tar.gz
+[2023-04-29 15:06:33] INFO root fetch - processPackages [katalytic-data]: Downloading https://files.pythonhosted.org/packages/ce/a6/02910bdd336ae62f635da1ab09e4eb6d180b88e7f933b848dd5feca15831/katalytic-data-0.5.0.tar.gz
+[2023-04-29 15:06:34] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-04-29 15:06:34] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-04-29 15:06:34] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.0.3.tar.gz tmp/pandasai-0.1.0.tar.gz --markdown 20230429/p/pandasai/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 15:06:34] INFO root fetch - processPackages [katalytic-data]: executing diffoscope
+[2023-04-29 15:06:34] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 15:06:34] INFO root fetch - processPackages [katalytic-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-data-0.4.0.tar.gz tmp/katalytic-data-0.5.0.tar.gz --markdown 20230429/k/katalytic-data/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 15:06:34] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.3.5.tar.gz tmp/ProjZ.py-2.3.6.tar.gz --markdown 20230429/P/ProjZ.py/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-04-29 15:06:34] INFO root fetch - processPackages [pyhtools]: executing diffoscope
+[2023-04-29 15:06:34] INFO root fetch - processPackages [pyhtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtools-2.2.0.tar.gz tmp/pyhtools-2.2.1.tar.gz --markdown 20230429/p/pyhtools/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-04-29 15:06:35] INFO root fetch - processPackages [pydantic-dynamo]: Downloading https://files.pythonhosted.org/packages/9c/7f/222265081d2a4c1c990f04ed84b4854640bcbf7b37253ea8ede28c11596f/pydantic_dynamo-0.2.2.tar.gz
+[2023-04-29 15:06:35] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-04-29 15:06:35] INFO root fetch - processPackages [pydantic-dynamo]: executing diffoscope
+[2023-04-29 15:06:35] INFO root fetch - processPackages [pydantic-dynamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_dynamo-0.2.1.tar.gz tmp/pydantic_dynamo-0.2.2.tar.gz --markdown 20230429/p/pydantic-dynamo/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 15:06:35] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/59/fc/20a4a19d008c40fddfc5d1bab48fbdf2fa7cb000669ad7b867bb32ee23c0/django_object_safety-1.2.0.tar.gz
+[2023-04-29 15:06:35] INFO root fetch - processPackages [torf-cli]: Downloading https://files.pythonhosted.org/packages/79/84/d16b4335461d03c5f30c681b45b27b8b0668518996b5e73e58972ba575dd/torf-cli-5.1.0.tar.gz
+[2023-04-29 15:06:35] INFO root fetch - processPackages [django-object-safety]: executing diffoscope
+[2023-04-29 15:06:35] INFO root fetch - processPackages [django-object-safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_object_safety-1.1.6.tar.gz tmp/django_object_safety-1.2.0.tar.gz --markdown 20230429/d/django-object-safety/1.1.6-1.2.0/diff.md --exclude *.pyd
+[2023-04-29 15:06:35] INFO root fetch - processPackages [torf-cli]: executing diffoscope
+[2023-04-29 15:06:35] INFO root fetch - processPackages [torf-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torf-cli-5.0.0.tar.gz tmp/torf-cli-5.1.0.tar.gz --markdown 20230429/t/torf-cli/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2023-04-29 15:06:36] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-04-29 15:06:36] INFO root fetch - main [MainThread]: End processing [katalytic-data]: success
+[2023-04-29 15:06:36] INFO root fetch - main [MainThread]: End processing [pydantic-dynamo]: success
+[2023-04-29 15:06:36] INFO root fetch - main [MainThread]: End processing [torf-cli]: success
+[2023-04-29 15:06:36] INFO root fetch - main [MainThread]: End processing [django-object-safety]: success
+[2023-04-29 15:06:37] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 15:06:37] INFO root fetch - main [MainThread]: End processing [pyhtools]: success
+[2023-04-29 15:06:37] INFO root fetch - main [MainThread]: Store serial: [17909178]
