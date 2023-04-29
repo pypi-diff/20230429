@@ -12181,3 +12181,47 @@
 [2023-04-29 19:47:37] INFO root fetch - main [MainThread]: End processing [pydmclab]: success
 [2023-04-29 19:47:39] INFO root fetch - main [MainThread]: End processing [Vulncapture]: success
 [2023-04-29 19:47:39] INFO root fetch - main [MainThread]: Store serial: [17911155]
+[2023-04-29 19:52:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911155]
+[2023-04-29 19:52:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 19:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msgraphlib
+[2023-04-29 19:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dox-search
+[2023-04-29 19:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinja2-arrow
+[2023-04-29 19:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-04-29 19:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: statinf
+[2023-04-29 19:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DataRecorder
+[2023-04-29 19:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jinja2-inflection
+[2023-04-29 19:52:48] INFO root fetch - processPackages [msgraphlib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 19:52:48] INFO root fetch - processPackages [jinja2-inflection]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 19:52:48] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 19:52:48] INFO root fetch - processPackages [jinja2-arrow]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-04-29 19:52:48] WARNING root fetch - processPackages [dox-search]: Skipping, unable to determine old version
+[2023-04-29 19:52:48] INFO root fetch - main [MainThread]: End processing [dox-search] error
+[2023-04-29 19:52:48] INFO root fetch - processPackages [DataRecorder]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-04-29 19:52:48] INFO root fetch - processPackages [statinf]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-29 19:52:48] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-29 19:52:48] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230429/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 19:52:48] INFO root fetch - processPackages [statinf]: Downloading https://files.pythonhosted.org/packages/58/17/d92f8c2e557d2c930ce8975f8eae3a2b3387b88a29a6039c41f23b02b213/statinf-1.2.2.tar.gz
+[2023-04-29 19:52:48] INFO root fetch - processPackages [msgraphlib]: Downloading https://files.pythonhosted.org/packages/a6/94/78b06d264bf591becdb80268582fef418e83156e02b3e7b0e8fd9ef77419/msgraphlib-0.1.1.tar.gz
+[2023-04-29 19:52:48] INFO root fetch - processPackages [DataRecorder]: Downloading https://files.pythonhosted.org/packages/eb/96/ef71451fecfae7552eb43a684f317c194468b6fa4c892cc551cc8481a6bb/DataRecorder-3.3.1.tar.gz
+[2023-04-29 19:52:48] INFO root fetch - processPackages [jinja2-inflection]: Downloading https://files.pythonhosted.org/packages/e8/59/753f4bf7de325051def6ae8c9debe62200a464686278169fe253ba11502c/jinja2_inflection-0.1.4.tar.gz
+[2023-04-29 19:52:48] INFO root fetch - processPackages [msgraphlib]: Downloading https://files.pythonhosted.org/packages/fd/e7/2256f529de540a1cef4746fc084c945cbc07d65b31ec2f012483d3cf0a7c/msgraphlib-0.1.2.tar.gz
+[2023-04-29 19:52:48] INFO root fetch - processPackages [jinja2-arrow]: Downloading https://files.pythonhosted.org/packages/98/02/b19f47b4dea64abffc35999fd755a6966ac1a41c53d114d7639410bc631a/jinja2-arrow-0.1.5.tar.gz
+[2023-04-29 19:52:48] INFO root fetch - processPackages [msgraphlib]: executing diffoscope
+[2023-04-29 19:52:48] INFO root fetch - processPackages [msgraphlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgraphlib-0.1.1.tar.gz tmp/msgraphlib-0.1.2.tar.gz --markdown 20230429/m/msgraphlib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 19:52:48] INFO root fetch - processPackages [jinja2-arrow]: executing diffoscope
+[2023-04-29 19:52:48] INFO root fetch - processPackages [jinja2-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2-arrow-0.1.3.tar.gz tmp/jinja2-arrow-0.1.5.tar.gz --markdown 20230429/j/jinja2-arrow/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 19:52:48] INFO root fetch - processPackages [jinja2-inflection]: executing diffoscope
+[2023-04-29 19:52:48] INFO root fetch - processPackages [jinja2-inflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_inflection-0.1.3.tar.gz tmp/jinja2_inflection-0.1.4.tar.gz --markdown 20230429/j/jinja2-inflection/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 19:52:48] INFO root fetch - processPackages [statinf]: Downloading https://files.pythonhosted.org/packages/98/d3/3d51cd8d12225b9e59d4e09bfead554bf34294fc113b14e2cfb7a2b66eb2/statinf-1.2.3.tar.gz
+[2023-04-29 19:52:48] INFO root fetch - processPackages [DataRecorder]: Downloading https://files.pythonhosted.org/packages/92/71/ab5e864abacbdf7fe9c06afb31809a4878899d57ec7d92184a2c5d0cf456/DataRecorder-3.3.2.tar.gz
+[2023-04-29 19:52:48] INFO root fetch - processPackages [statinf]: executing diffoscope
+[2023-04-29 19:52:48] INFO root fetch - processPackages [statinf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statinf-1.2.2.tar.gz tmp/statinf-1.2.3.tar.gz --markdown 20230429/s/statinf/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-29 19:52:48] INFO root fetch - processPackages [DataRecorder]: executing diffoscope
+[2023-04-29 19:52:48] INFO root fetch - processPackages [DataRecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataRecorder-3.3.1.tar.gz tmp/DataRecorder-3.3.2.tar.gz --markdown 20230429/D/DataRecorder/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-04-29 19:52:49] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-29 19:52:49] INFO root fetch - main [MainThread]: End processing [msgraphlib]: success
+[2023-04-29 19:52:49] INFO root fetch - main [MainThread]: End processing [jinja2-inflection]: success
+[2023-04-29 19:52:50] INFO root fetch - main [MainThread]: End processing [jinja2-arrow]: success
+[2023-04-29 19:52:50] INFO root fetch - main [MainThread]: End processing [statinf]: success
+[2023-04-29 19:52:50] INFO root fetch - main [MainThread]: End processing [DataRecorder]: success
+[2023-04-29 19:52:50] INFO root fetch - main [MainThread]: Store serial: [17911177]
