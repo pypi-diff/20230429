@@ -9615,3 +9615,48 @@
 [2023-04-29 15:37:56] INFO root fetch - main [MainThread]: End processing [unipipeline]: success
 [2023-04-29 15:37:56] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
 [2023-04-29 15:37:56] INFO root fetch - main [MainThread]: Store serial: [17909386]
+[2023-04-29 15:43:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909386]
+[2023-04-29 15:43:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 15:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bam-core
+[2023-04-29 15:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbbbbbb
+[2023-04-29 15:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SERVIR-Template-CLI
+[2023-04-29 15:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylossless
+[2023-04-29 15:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: daisy-llm
+[2023-04-29 15:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mvc4kivy
+[2023-04-29 15:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EdgeGPT
+[2023-04-29 15:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oatk
+[2023-04-29 15:43:05] WARNING root fetch - processPackages [bbbbbbb]: Skipping, unable to determine old version
+[2023-04-29 15:43:05] INFO root fetch - main [MainThread]: End processing [bbbbbbb] error
+[2023-04-29 15:43:05] INFO root fetch - processPackages [bam-core]: New version: [2023.4.29.1682775537] Old Version: [2023.4.29.1682775214]
+[2023-04-29 15:43:05] WARNING root fetch - processPackages [pylossless]: Skipping, unable to determine old version
+[2023-04-29 15:43:05] INFO root fetch - processPackages [oatk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 15:43:05] INFO root fetch - main [MainThread]: End processing [pylossless] error
+[2023-04-29 15:43:05] INFO root fetch - processPackages [mvc4kivy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 15:43:05] INFO root fetch - processPackages [daisy-llm]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 15:43:05] INFO root fetch - processPackages [SERVIR-Template-CLI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 15:43:05] INFO root fetch - processPackages [EdgeGPT]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-29 15:43:05] INFO root fetch - processPackages [oatk]: executing diffoscope
+[2023-04-29 15:43:05] INFO root fetch - processPackages [oatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oatk-0.0.8.tar.gz tmp/oatk-0.0.9.tar.gz --markdown 20230429/o/oatk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 15:43:05] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/08/eb/00db231a3156d59c6e6830efe8ed32aeed517ca7aa72f4e25c3b8bb82db2/bam-core-2023.4.29.1682775537.tar.gz
+[2023-04-29 15:43:05] INFO root fetch - processPackages [daisy-llm]: Downloading https://files.pythonhosted.org/packages/01/61/60a7d85b2f0e992fbb05e9db7266afa09e25402e63c23d0b0cf90c49b6cf/daisy_llm-0.0.4.tar.gz
+[2023-04-29 15:43:05] INFO root fetch - processPackages [mvc4kivy]: Downloading https://files.pythonhosted.org/packages/bc/0f/79b07242b2b44d5fb1d316adf4e0520e5bd960540a650e501a3afded2eb5/mvc4kivy-0.1.5.tar.gz
+[2023-04-29 15:43:05] INFO root fetch - processPackages [bam-core]: executing diffoscope
+[2023-04-29 15:43:05] INFO root fetch - processPackages [SERVIR-Template-CLI]: Downloading https://files.pythonhosted.org/packages/c0/86/641ecd0e18e3b9c8cf0749371bc944781a476417889866f9a5396d978398/SERVIR_Template_CLI-0.0.8.tar.gz
+[2023-04-29 15:43:05] INFO root fetch - processPackages [bam-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-core-2023.4.29.1682775214.tar.gz tmp/bam-core-2023.4.29.1682775537.tar.gz --markdown 20230429/b/bam-core/2023.4.29.1682775214-2023.4.29.1682775537/diff.md --exclude *.pyd
+[2023-04-29 15:43:05] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/a0/ff/9d9537c0923bec5e39e8fc0047b031e2111cc9d445a8b17add36436d92b9/EdgeGPT-0.3.2.tar.gz
+[2023-04-29 15:43:05] INFO root fetch - processPackages [mvc4kivy]: executing diffoscope
+[2023-04-29 15:43:05] INFO root fetch - processPackages [mvc4kivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvc4kivy-0.1.4.tar.gz tmp/mvc4kivy-0.1.5.tar.gz --markdown 20230429/m/mvc4kivy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 15:43:05] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-04-29 15:43:05] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.3.1.tar.gz tmp/EdgeGPT-0.3.2.tar.gz --markdown 20230429/E/EdgeGPT/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-29 15:43:06] INFO root fetch - processPackages [daisy-llm]: Downloading https://files.pythonhosted.org/packages/6a/18/5dd139a5c48e6030d016adbd3ec40f98e5f6104fdbf2deb3e2ea8211979f/daisy_llm-0.0.5.tar.gz
+[2023-04-29 15:43:06] INFO root fetch - processPackages [SERVIR-Template-CLI]: Downloading https://files.pythonhosted.org/packages/e7/bb/62403f94a2b433b9cab58475fcf16334e7197cdf945a92ed35e9cc471791/SERVIR_Template_CLI-0.0.9.tar.gz
+[2023-04-29 15:43:06] INFO root fetch - processPackages [daisy-llm]: executing diffoscope
+[2023-04-29 15:43:06] INFO root fetch - processPackages [daisy-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisy_llm-0.0.4.tar.gz tmp/daisy_llm-0.0.5.tar.gz --markdown 20230429/d/daisy-llm/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 15:43:06] WARNING root fetch - processPackages [SERVIR-Template-CLI]: Skipping package: exceeds size limit 12760026>=10485760
+[2023-04-29 15:43:06] INFO root fetch - main [MainThread]: End processing [SERVIR-Template-CLI] error
+[2023-04-29 15:43:06] INFO root fetch - main [MainThread]: End processing [bam-core]: success
+[2023-04-29 15:43:06] INFO root fetch - main [MainThread]: End processing [mvc4kivy]: success
+[2023-04-29 15:43:07] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-04-29 15:43:07] INFO root fetch - main [MainThread]: End processing [oatk]: success
+[2023-04-29 15:43:09] INFO root fetch - main [MainThread]: End processing [daisy-llm]: success
+[2023-04-29 15:43:09] INFO root fetch - main [MainThread]: Store serial: [17909412]
