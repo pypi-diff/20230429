@@ -9039,3 +9039,49 @@
 [2023-04-29 14:40:05] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2023-04-29 14:40:26] INFO root fetch - main [MainThread]: End processing [fischer]: success
 [2023-04-29 14:40:26] INFO root fetch - main [MainThread]: Store serial: [17909017]
+[2023-04-29 14:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909017]
+[2023-04-29 14:45:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 14:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: holly
+[2023-04-29 14:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WinTraceroute
+[2023-04-29 14:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3dpolys-le
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tryexcept-decorator
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ProjZ.py
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3dpolys-le
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ext-mongo
+[2023-04-29 14:45:35] INFO root fetch - processPackages [holly]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ext-mongo]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 14:45:35] INFO root fetch - processPackages [WinTraceroute]: New version: [1.1.0] Old Version: [1.0.16]
+[2023-04-29 14:45:35] WARNING root fetch - processPackages [tryexcept-decorator]: Skipping, unable to determine old version
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: New version: [2023.3b0] Old Version: [2023.3]
+[2023-04-29 14:45:35] INFO root fetch - main [MainThread]: End processing [tryexcept-decorator] error
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: New version: [2023.3b0] Old Version: [2023.3]
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ProjZ.py]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: Downloading https://files.pythonhosted.org/packages/61/98/5ab63ae657bf15f51109a300ccd82634eb42acc7f315da7c9fa381494c01/py3dpolys_le-2023.3-py3-none-macosx_10_9_arm64.whl
+[2023-04-29 14:45:35] INFO root fetch - processPackages [holly]: Downloading https://files.pythonhosted.org/packages/d6/42/9e1941f024febdaf40dc2634fb7c0c8ebe002cf2c152e735b359270694ec/holly-1.0.1.tar.gz
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: Downloading https://files.pythonhosted.org/packages/61/98/5ab63ae657bf15f51109a300ccd82634eb42acc7f315da7c9fa381494c01/py3dpolys_le-2023.3-py3-none-macosx_10_9_arm64.whl
+[2023-04-29 14:45:35] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/96/f9/0823e9077b9162f029d7a63b2c8f70953e01ddad5ef43627f6fce08ee3ac/WinTraceroute-1.1.0.tar.gz
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ext-mongo]: Downloading https://files.pythonhosted.org/packages/75/df/9bd897242b169b7348383fc0ec90c0835840182d5409ab60de813aa0b0b8/ext-mongo-0.1.0.tar.gz
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/69/f1/7939cc2fcee5a5db2830721da921072a25924d93a703b7abac070b74ea87/ProjZ.py-2.3.5.tar.gz
+[2023-04-29 14:45:35] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-04-29 14:45:35] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.0.16.tar.gz tmp/WinTraceroute-1.1.0.tar.gz --markdown 20230429/W/WinTraceroute/1.0.16-1.1.0/diff.md --exclude *.pyd
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.3.4.tar.gz tmp/ProjZ.py-2.3.5.tar.gz --markdown 20230429/P/ProjZ.py/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: Downloading https://files.pythonhosted.org/packages/9c/04/befbd0ba67cd5de3c64d5de8d3a4d939dbc2a77000cb938024f575775883/py3dpolys_le-2023.3b0-py3-none-macosx_10_9_arm64.whl
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: Downloading https://files.pythonhosted.org/packages/9c/04/befbd0ba67cd5de3c64d5de8d3a4d939dbc2a77000cb938024f575775883/py3dpolys_le-2023.3b0-py3-none-macosx_10_9_arm64.whl
+[2023-04-29 14:45:35] INFO root fetch - processPackages [holly]: Downloading https://files.pythonhosted.org/packages/0e/73/29f8236b75a3f35d9d9a7cc2b30d13b560c4a54d5551cb80e9fcbd7d0778/holly-2.0.0.tar.gz
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ext-mongo]: Downloading https://files.pythonhosted.org/packages/64/2d/6f6db99f1c24f1beb81936eda28d26dd4102002d833d3325f9c8c5386b84/ext-mongo-0.2.0.tar.gz
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: executing diffoscope
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3dpolys_le-2023.3-py3-none-macosx_10_9_arm64.whl.zip tmp/py3dpolys_le-2023.3b0-py3-none-macosx_10_9_arm64.whl.zip --markdown 20230429/p/py3dpolys-le/2023.3-2023.3b0/diff.md --exclude *.pyd
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: executing diffoscope
+[2023-04-29 14:45:35] INFO root fetch - processPackages [py3dpolys-le]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3dpolys_le-2023.3-py3-none-macosx_10_9_arm64.whl.zip tmp/py3dpolys_le-2023.3b0-py3-none-macosx_10_9_arm64.whl.zip --markdown 20230429/p/py3dpolys-le/2023.3-2023.3b0/diff.md --exclude *.pyd
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ext-mongo]: executing diffoscope
+[2023-04-29 14:45:35] INFO root fetch - processPackages [ext-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ext-mongo-0.1.0.tar.gz tmp/ext-mongo-0.2.0.tar.gz --markdown 20230429/e/ext-mongo/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 14:45:35] INFO root fetch - processPackages [holly]: executing diffoscope
+[2023-04-29 14:45:35] INFO root fetch - processPackages [holly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holly-1.0.1.tar.gz tmp/holly-2.0.0.tar.gz --markdown 20230429/h/holly/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-29 14:45:36] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
+[2023-04-29 14:45:36] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 14:45:36] INFO root fetch - main [MainThread]: End processing [holly]: success
+[2023-04-29 14:45:36] INFO root fetch - main [MainThread]: End processing [ext-mongo]: success
+[2023-04-29 14:45:38] INFO root fetch - main [MainThread]: End processing [py3dpolys-le]: success
+[2023-04-29 14:45:38] INFO root fetch - main [MainThread]: End processing [py3dpolys-le]: success
+[2023-04-29 14:45:38] INFO root fetch - main [MainThread]: Store serial: [17909044]
