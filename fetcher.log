@@ -6323,3 +6323,26 @@
 [2023-04-29 09:22:22] INFO root fetch - processPackages [tryexcept-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryexcept-decorator-0.1.1.tar.gz tmp/tryexcept-decorator-0.1.3.tar.gz --markdown 20230429/t/tryexcept-decorator/0.1.1-0.1.3/diff.md --exclude *.pyd
 [2023-04-29 09:22:23] INFO root fetch - main [MainThread]: End processing [tryexcept-decorator]: success
 [2023-04-29 09:22:23] INFO root fetch - main [MainThread]: Store serial: [17907240]
+[2023-04-29 09:27:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907240]
+[2023-04-29 09:27:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QATLibrary
+[2023-04-29 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bird-ospf-link-db-parser
+[2023-04-29 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gsbg
+[2023-04-29 09:27:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textual-astview
+[2023-04-29 09:27:32] INFO root fetch - processPackages [QATLibrary]: New version: [23.5.2] Old Version: [23.4.1]
+[2023-04-29 09:27:32] INFO root fetch - processPackages [textual-astview]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-29 09:27:32] WARNING root fetch - processPackages [bird-ospf-link-db-parser]: Skipping, unable to determine old version
+[2023-04-29 09:27:32] INFO root fetch - main [MainThread]: End processing [bird-ospf-link-db-parser] error
+[2023-04-29 09:27:32] WARNING root fetch - processPackages [gsbg]: Skipping, unable to determine old version
+[2023-04-29 09:27:32] INFO root fetch - main [MainThread]: End processing [gsbg] error
+[2023-04-29 09:27:32] INFO root fetch - processPackages [QATLibrary]: Downloading https://files.pythonhosted.org/packages/32/61/9263047ff4b2906827bab6cf15584ef95efc04ec91ffc727bba452342f00/QATLibrary-23.4.1.tar.gz
+[2023-04-29 09:27:32] INFO root fetch - processPackages [textual-astview]: Downloading https://files.pythonhosted.org/packages/02/be/822b2508f793c0547d73ad3d4f7e55358e88dece0201b98f532482b49ccf/textual-astview-0.5.0.tar.gz
+[2023-04-29 09:27:32] INFO root fetch - processPackages [QATLibrary]: Downloading https://files.pythonhosted.org/packages/3c/3e/1728111ab4b7d496f4b29c943f34e0b1a630ca1d7895318a068472c894c8/QATLibrary-23.5.2.tar.gz
+[2023-04-29 09:27:32] INFO root fetch - processPackages [QATLibrary]: executing diffoscope
+[2023-04-29 09:27:32] INFO root fetch - processPackages [QATLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QATLibrary-23.4.1.tar.gz tmp/QATLibrary-23.5.2.tar.gz --markdown 20230429/Q/QATLibrary/23.4.1-23.5.2/diff.md --exclude *.pyd
+[2023-04-29 09:27:32] INFO root fetch - processPackages [textual-astview]: Downloading https://files.pythonhosted.org/packages/c3/10/b9aca7dad447bc5b102c20878d95139e21b0ddf9bf437380f21b05b5a054/textual-astview-0.6.0.tar.gz
+[2023-04-29 09:27:32] INFO root fetch - processPackages [textual-astview]: executing diffoscope
+[2023-04-29 09:27:32] INFO root fetch - processPackages [textual-astview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-astview-0.5.0.tar.gz tmp/textual-astview-0.6.0.tar.gz --markdown 20230429/t/textual-astview/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-29 09:27:33] INFO root fetch - main [MainThread]: End processing [QATLibrary]: success
+[2023-04-29 09:27:34] INFO root fetch - main [MainThread]: End processing [textual-astview]: success
+[2023-04-29 09:27:34] INFO root fetch - main [MainThread]: Store serial: [17907257]
