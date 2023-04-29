@@ -13878,3 +13878,74 @@
 [2023-04-29 23:15:52] INFO root fetch - main [MainThread]: End processing [pyNukiBT]: success
 [2023-04-29 23:15:52] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
 [2023-04-29 23:15:52] INFO root fetch - main [MainThread]: Store serial: [17912525]
+[2023-04-29 23:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912525]
+[2023-04-29 23:21:01] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coverage-rich
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minivn
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-distance-calculator
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sweetbean
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kegstand
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kegstandcli
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: betterconfigs
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simulated-bifurcation
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pystorz
+[2023-04-29 23:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyscemu
+[2023-04-29 23:21:01] INFO root fetch - processPackages [coverage-rich]: New version: [0.2.0.dev0] Old Version: [0.1.0.dev1]
+[2023-04-29 23:21:01] WARNING root fetch - processPackages [simple-distance-calculator]: Skipping, unable to determine old version
+[2023-04-29 23:21:01] INFO root fetch - processPackages [simple-distance-calculator]: Start processing: circular-queue
+[2023-04-29 23:21:01] INFO root fetch - main [MainThread]: End processing [simple-distance-calculator] error
+[2023-04-29 23:21:01] INFO root fetch - processPackages [sweetbean]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 23:21:01] WARNING root fetch - processPackages [minivn]: Skipping, unable to determine old version
+[2023-04-29 23:21:01] INFO root fetch - processPackages [kegstandcli]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-29 23:21:01] INFO root fetch - processPackages [minivn]: Start processing: bidimensional
+[2023-04-29 23:21:01] INFO root fetch - processPackages [pyscemu]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 23:21:01] INFO root fetch - processPackages [kegstand]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-29 23:21:01] INFO root fetch - main [MainThread]: End processing [minivn] error
+[2023-04-29 23:21:01] WARNING root fetch - processPackages [simulated-bifurcation]: Skipping, unable to determine old version
+[2023-04-29 23:21:01] INFO root fetch - processPackages [pystorz]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-04-29 23:21:01] INFO root fetch - processPackages [betterconfigs]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 23:21:01] INFO root fetch - main [MainThread]: End processing [simulated-bifurcation] error
+[2023-04-29 23:21:01] INFO root fetch - processPackages [circular-queue]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 23:21:02] INFO root fetch - processPackages [bidimensional]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-29 23:21:02] INFO root fetch - processPackages [coverage-rich]: Downloading https://files.pythonhosted.org/packages/bf/96/ab3d31947fccabbf58df03f837d6f56413d5ac229d6f84d84f4eaa6c5e58/coverage_rich-0.1.0.dev1.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [kegstand]: Downloading https://files.pythonhosted.org/packages/3c/b4/3bf98a083624bd5ec5dc8b7e06125a397852fd1fbca5935512dc5e9f1840/kegstand-0.2.1.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [sweetbean]: Downloading https://files.pythonhosted.org/packages/07/2c/437a85be2499ee3184c5e324b6c7edbcc86b5540bd19db4e52533a1b945f/sweetbean-0.0.8.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/3f/65/5e15589e9a895ae77d66f8459fc4f067392c00efcdef1142168f01c5f8dc/pystorz-0.1.7.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/56/04/d28d92b720779f6b5433b272a6d2b800ba3a597f59fdea0907844833f81f/pyscemu-0.1.2.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [betterconfigs]: Downloading https://files.pythonhosted.org/packages/92/bb/228f546817ac6f7297abc8d8c7eac90d17e121eafad04e9f0d2f10d05720/betterconfigs-0.7-py3-none-any.whl
+[2023-04-29 23:21:02] INFO root fetch - processPackages [circular-queue]: Downloading https://files.pythonhosted.org/packages/cf/9f/f3d4f2f48571fda82a997ddbcf88421dcac42e166e4a98d85e4bbacc31d8/circular_queue-0.0.3.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.1.5.tar.gz tmp/pystorz-0.1.7.tar.gz --markdown 20230429/p/pystorz/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-04-29 23:21:02] INFO root fetch - processPackages [circular-queue]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [kegstandcli]: Downloading https://files.pythonhosted.org/packages/f0/48/11060c16cebb03c44830bbc5c0dfd16ac49b0562dbbae62b94aba4770e29/kegstandcli-0.3.4.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [circular-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circular_queue-0.0.2.tar.gz tmp/circular_queue-0.0.3.tar.gz --markdown 20230429/c/circular-queue/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 23:21:02] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.1.1.tar.gz tmp/pyscemu-0.1.2.tar.gz --markdown 20230429/p/pyscemu/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 23:21:02] INFO root fetch - processPackages [bidimensional]: Downloading https://files.pythonhosted.org/packages/38/f7/18a3847fe1eafa3fd718f456227f9d9fa1e2d1070e12979095111e421acc/bidimensional-1.9.0.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [coverage-rich]: Downloading https://files.pythonhosted.org/packages/08/da/0c51d8b6cc6bac2f96a1deb5e1566822c5b06ba7ef9f7d6df5af5791e433/coverage_rich-0.2.0.dev0.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [kegstand]: Downloading https://files.pythonhosted.org/packages/a0/09/8c0eec811e7e3a8c4881ff53bd96a716c19323d84901b07717f8375261f2/kegstand-0.3.0.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [kegstandcli]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [kegstandcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kegstandcli-0.3.3.tar.gz tmp/kegstandcli-0.3.4.tar.gz --markdown 20230429/k/kegstandcli/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-29 23:21:02] INFO root fetch - processPackages [sweetbean]: Downloading https://files.pythonhosted.org/packages/80/15/2e023185a4cf4af2c832a71a21f1ae443fe022ca970b6baa16f18524fd58/sweetbean-0.0.9.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [betterconfigs]: Downloading https://files.pythonhosted.org/packages/e2/8c/fa260d3f1d098b65d1a192ee2bee5086722e365954f388cca774ad95d895/betterconfigs-0.8-py3-none-any.whl
+[2023-04-29 23:21:02] INFO root fetch - processPackages [coverage-rich]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [coverage-rich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coverage_rich-0.1.0.dev1.tar.gz tmp/coverage_rich-0.2.0.dev0.tar.gz --markdown 20230429/c/coverage-rich/0.1.0.dev1-0.2.0.dev0/diff.md --exclude *.pyd
+[2023-04-29 23:21:02] INFO root fetch - processPackages [kegstand]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [kegstand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kegstand-0.2.1.tar.gz tmp/kegstand-0.3.0.tar.gz --markdown 20230429/k/kegstand/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 23:21:02] INFO root fetch - processPackages [betterconfigs]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [betterconfigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterconfigs-0.7-py3-none-any.whl.zip tmp/betterconfigs-0.8-py3-none-any.whl.zip --markdown 20230429/b/betterconfigs/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 23:21:02] INFO root fetch - processPackages [sweetbean]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [sweetbean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetbean-0.0.8.tar.gz tmp/sweetbean-0.0.9.tar.gz --markdown 20230429/s/sweetbean/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 23:21:02] INFO root fetch - processPackages [bidimensional]: Downloading https://files.pythonhosted.org/packages/ea/c1/e02d2d431b14725cd06c10ef025c263ead735852a6984dc26f49895dc9e4/bidimensional-1.9.1.tar.gz
+[2023-04-29 23:21:02] INFO root fetch - processPackages [bidimensional]: executing diffoscope
+[2023-04-29 23:21:02] INFO root fetch - processPackages [bidimensional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bidimensional-1.9.0.tar.gz tmp/bidimensional-1.9.1.tar.gz --markdown 20230429/b/bidimensional/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-29 23:21:03] INFO root fetch - main [MainThread]: End processing [circular-queue]: success
+[2023-04-29 23:21:03] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-04-29 23:21:03] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-04-29 23:21:04] INFO root fetch - main [MainThread]: End processing [kegstand]: success
+[2023-04-29 23:21:04] INFO root fetch - main [MainThread]: End processing [betterconfigs]: success
+[2023-04-29 23:21:04] INFO root fetch - main [MainThread]: End processing [coverage-rich]: success
+[2023-04-29 23:21:04] INFO root fetch - main [MainThread]: End processing [kegstandcli]: success
+[2023-04-29 23:21:04] INFO root fetch - main [MainThread]: End processing [bidimensional]: success
+[2023-04-29 23:21:04] INFO root fetch - main [MainThread]: End processing [sweetbean]: success
+[2023-04-29 23:21:04] INFO root fetch - main [MainThread]: Store serial: [17912564]
