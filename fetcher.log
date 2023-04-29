@@ -5979,3 +5979,74 @@
 [2023-04-29 08:19:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-memes-api]: success
 [2023-04-29 08:19:41] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-04-29 08:19:41] INFO root fetch - main [MainThread]: Store serial: [17907071]
+[2023-04-29 08:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907071]
+[2023-04-29 08:24:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: portfolio-allocation
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-to-sqlite
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: age3d
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neoaccess
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d2py
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gTTS
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pocsuite3
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fake-bpy-module-latest
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycluon
+[2023-04-29 08:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IPFS-Toolkit
+[2023-04-29 08:24:49] INFO root fetch - processPackages [openai-to-sqlite]: New version: [0.3] Old Version: [0.2]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [gTTS]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [age3d]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [neoaccess]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [d2py]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [pocsuite3]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [pycluon]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [IPFS-Toolkit]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230429] Old Version: [20230428]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [portfolio-allocation]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-29 08:24:49] INFO root fetch - processPackages [gTTS]: Downloading https://files.pythonhosted.org/packages/51/5e/2797084ceb722791528c59ef88edeb6c0fdc5f58a81d0dbe80cf2fb9cccb/gTTS-2.3.1.tar.gz
+[2023-04-29 08:24:49] INFO root fetch - processPackages [IPFS-Toolkit]: Downloading https://files.pythonhosted.org/packages/80/a4/a2b4233752dac79d9a03af4c9828bc9f15921a8aeea528e88b8521b9485b/IPFS-Toolkit-0.5.4.tar.gz
+[2023-04-29 08:24:49] INFO root fetch - processPackages [openai-to-sqlite]: Downloading https://files.pythonhosted.org/packages/12/43/c8cdcfdc4e31223cdc2bc13afe37eccff4bd235540419d7c0085254a602b/openai-to-sqlite-0.2.tar.gz
+[2023-04-29 08:24:49] INFO root fetch - processPackages [pocsuite3]: Downloading https://files.pythonhosted.org/packages/14/6f/bbc4e713b85262cac184dafabd0199a96e1b2101d3f8b3929f5b2327faa6/pocsuite3-2.0.3.tar.gz
+[2023-04-29 08:24:49] INFO root fetch - processPackages [pycluon]: Downloading https://files.pythonhosted.org/packages/b9/73/e431c16093ac8486ab25a835e71f3080f0712e74d18351a029b40776659b/pycluon-0.2.0-cp39-cp39-win_amd64.whl
+[2023-04-29 08:24:49] INFO root fetch - processPackages [age3d]: Downloading https://files.pythonhosted.org/packages/a5/cb/d8668914d16554e015e37b244d9d1243007dc5b993d16e28e02020ed9ff8/age3d-0.1.2.tar.gz
+[2023-04-29 08:24:49] INFO root fetch - processPackages [d2py]: Downloading https://files.pythonhosted.org/packages/5a/a2/c22946d2a829be74e18d382fad92dca39a5f22300e23172684031b5a0795/d2py-0.3.7.tar.gz
+[2023-04-29 08:24:49] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/e8/73/c11a0ae8cd30e1365247eee2114c64fca23717f24ddf68b589366ec777cc/fake-bpy-module-latest-20230429.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [portfolio-allocation]: Downloading https://files.pythonhosted.org/packages/e2/25/d774eaedd43c363969178e83de1744a8575827a427df1ad87a50de060fe0/portfolio_allocation-0.2.0.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [neoaccess]: Downloading https://files.pythonhosted.org/packages/ec/f8/53020fb514c5f562f9b8bf04c7c95ba97fde6889b324b4579ab1a13fc0d1/neoaccess-4.2.0.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [gTTS]: Downloading https://files.pythonhosted.org/packages/8b/63/fd0d51530696af71b17d3d3d8aacf181ae2040065dd8fe54e85c32ca28ec/gTTS-2.3.2.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [IPFS-Toolkit]: Downloading https://files.pythonhosted.org/packages/51/65/5af2686d3897c8d21fd04d1c7cf68a32464df6394be1ac36eff47849e486/IPFS-Toolkit-0.5.5.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [neoaccess]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [neoaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neoaccess-4.1.0.tar.gz tmp/neoaccess-4.2.0.tar.gz --markdown 20230429/n/neoaccess/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230428.tar.gz tmp/fake-bpy-module-latest-20230429.tar.gz --markdown 20230429/f/fake-bpy-module-latest/20230428-20230429/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [age3d]: Downloading https://files.pythonhosted.org/packages/f7/29/45a42896e52bc53a6b7af0e893ea72915f7d7a61fe83aa12cb48f6d7cc77/age3d-0.2.0.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [openai-to-sqlite]: Downloading https://files.pythonhosted.org/packages/fb/02/8b78df0f240d6cea4baadf777208e6cfa82f0e34299b40fc2967a67fc279/openai-to-sqlite-0.3.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [gTTS]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [gTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gTTS-2.3.1.tar.gz tmp/gTTS-2.3.2.tar.gz --markdown 20230429/g/gTTS/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [d2py]: Downloading https://files.pythonhosted.org/packages/09/a7/48f63fc11a913db26e281b49fcf0e470ce7e95b508ccf4fe75976f1af656/d2py-0.3.8.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [pocsuite3]: Downloading https://files.pythonhosted.org/packages/98/9c/ea5c93f0cff8ffbe776ae138569219c2f0c7e43d94c002fe21e607d186e6/pocsuite3-2.0.4.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [IPFS-Toolkit]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [IPFS-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPFS-Toolkit-0.5.4.tar.gz tmp/IPFS-Toolkit-0.5.5.tar.gz --markdown 20230429/I/IPFS-Toolkit/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [openai-to-sqlite]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [openai-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-to-sqlite-0.2.tar.gz tmp/openai-to-sqlite-0.3.tar.gz --markdown 20230429/o/openai-to-sqlite/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [portfolio-allocation]: Downloading https://files.pythonhosted.org/packages/8e/1a/b3692112558abdfe2e1c4b8a52453256018863711cd117c19bb37437b9e8/portfolio_allocation-0.2.1.tar.gz
+[2023-04-29 08:24:50] INFO root fetch - processPackages [d2py]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [d2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2py-0.3.7.tar.gz tmp/d2py-0.3.8.tar.gz --markdown 20230429/d/d2py/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [age3d]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [age3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/age3d-0.1.2.tar.gz tmp/age3d-0.2.0.tar.gz --markdown 20230429/a/age3d/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [pocsuite3]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [pocsuite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocsuite3-2.0.3.tar.gz tmp/pocsuite3-2.0.4.tar.gz --markdown 20230429/p/pocsuite3/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [portfolio-allocation]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [portfolio-allocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolio_allocation-0.2.0.tar.gz tmp/portfolio_allocation-0.2.1.tar.gz --markdown 20230429/p/portfolio-allocation/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-29 08:24:50] INFO root fetch - processPackages [pycluon]: Downloading https://files.pythonhosted.org/packages/11/98/8598537ee414bb5162fde9087acd9f58aa51adc40301af77eb9d6ca7efa0/pycluon-0.2.1-cp39-cp39-win_amd64.whl
+[2023-04-29 08:24:50] INFO root fetch - processPackages [pycluon]: executing diffoscope
+[2023-04-29 08:24:50] INFO root fetch - processPackages [pycluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycluon-0.2.0-cp39-cp39-win_amd64.whl.zip tmp/pycluon-0.2.1-cp39-cp39-win_amd64.whl.zip --markdown 20230429/p/pycluon/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-29 08:24:51] INFO root fetch - main [MainThread]: End processing [neoaccess]: success
+[2023-04-29 08:24:51] INFO root fetch - main [MainThread]: End processing [openai-to-sqlite]: success
+[2023-04-29 08:24:52] INFO root fetch - main [MainThread]: End processing [d2py]: success
+[2023-04-29 08:24:52] INFO root fetch - main [MainThread]: End processing [gTTS]: success
+[2023-04-29 08:24:52] INFO root fetch - main [MainThread]: End processing [age3d]: success
+[2023-04-29 08:24:52] INFO root fetch - main [MainThread]: End processing [portfolio-allocation]: success
+[2023-04-29 08:24:53] INFO root fetch - main [MainThread]: End processing [IPFS-Toolkit]: success
+[2023-04-29 08:24:55] INFO root fetch - main [MainThread]: End processing [pocsuite3]: success
+[2023-04-29 08:24:57] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-29 08:25:06] INFO root fetch - main [MainThread]: End processing [pycluon]: success
+[2023-04-29 08:25:06] INFO root fetch - main [MainThread]: Store serial: [17907118]
