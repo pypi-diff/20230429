@@ -6814,3 +6814,54 @@
 [2023-04-29 10:40:49] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
 [2023-04-29 10:40:49] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
 [2023-04-29 10:40:49] INFO root fetch - main [MainThread]: Store serial: [17907589]
+[2023-04-29 10:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907589]
+[2023-04-29 10:45:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cocojamboo
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RussianLosses
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smarts
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nettle
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbm-agent
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: citizenk
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tfp-nightly
+[2023-04-29 10:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly
+[2023-04-29 10:45:58] WARNING root fetch - processPackages [nettle]: Skipping, unable to determine old version
+[2023-04-29 10:45:58] INFO root fetch - main [MainThread]: End processing [nettle] error
+[2023-04-29 10:45:58] WARNING root fetch - processPackages [RussianLosses]: Skipping, unable to determine old version
+[2023-04-29 10:45:58] INFO root fetch - processPackages [citizenk]: New version: [0.1.26] Old Version: [0.1.25]
+[2023-04-29 10:45:58] INFO root fetch - main [MainThread]: End processing [RussianLosses] error
+[2023-04-29 10:45:58] INFO root fetch - processPackages [smarts]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-29 10:45:58] INFO root fetch - processPackages [cocojamboo]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-04-29 10:45:58] INFO root fetch - processPackages [dbm-agent]: New version: [8.33.3] Old Version: [8.33.0]
+[2023-04-29 10:45:58] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230428] Old Version: [0.0.1.dev20230427]
+[2023-04-29 10:45:58] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-04-29 10:45:58] INFO root fetch - processPackages [tf-nightly]: New version: [2.13.0.dev20230429] Old Version: [2.13.0.dev20230428]
+[2023-04-29 10:45:58] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-04-29 10:45:58] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230427-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230428-py2.py3-none-any.whl.zip --markdown 20230429/t/tff-nightly/0.0.1.dev20230427-0.0.1.dev20230428/diff.md --exclude *.pyd
+[2023-04-29 10:45:58] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-04-29 10:45:58] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230429/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-04-29 10:45:58] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/71/6a/82de187f3c86181745f0fa561a79d79f6fa69de7fcae5283e56072449ad8/citizenk-0.1.26.tar.gz
+[2023-04-29 10:45:58] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/9a/38/458697dee490ac16592aba22cebffca265537fb3d0d2d5eddf6ce59cbdbf/dbm-agent-8.33.0.tar.gz
+[2023-04-29 10:45:58] INFO root fetch - processPackages [cocojamboo]: Downloading https://files.pythonhosted.org/packages/3c/79/06cdda0f4f1ac151d936513aed0c59cae7fd9f6d67969f20988cf651993f/cocojamboo-1.0.0.tar.gz
+[2023-04-29 10:45:58] INFO root fetch - processPackages [smarts]: Downloading https://files.pythonhosted.org/packages/52/f1/6fa25daf6adfee93e27473e75eb52ef05ef63308e5182eb10d177d683c65/smarts-1.0.9-py3-none-any.whl
+[2023-04-29 10:45:58] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-29 10:45:58] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.25.tar.gz tmp/citizenk-0.1.26.tar.gz --markdown 20230429/c/citizenk/0.1.25-0.1.26/diff.md --exclude *.pyd
+[2023-04-29 10:45:59] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/d4/56/fbed9f3865f1e4d4b5d825ddfb6c07309980fb6dbf075c9dbcd87e4cf000/dbm-agent-8.33.3.tar.gz
+[2023-04-29 10:45:59] INFO root fetch - processPackages [dbm-agent]: executing diffoscope
+[2023-04-29 10:45:59] INFO root fetch - processPackages [dbm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm-agent-8.33.0.tar.gz tmp/dbm-agent-8.33.3.tar.gz --markdown 20230429/d/dbm-agent/8.33.0-8.33.3/diff.md --exclude *.pyd
+[2023-04-29 10:45:59] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/98/8c/b1c162177a52da704cf3ddf64d7424a7e1126e9f69753de0491969711714/tf_nightly-2.13.0.dev20230429-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-29 10:45:59] INFO root fetch - processPackages [cocojamboo]: Downloading https://files.pythonhosted.org/packages/d3/76/1da425c9f9f3dd08f81d1f448663989882a7169e93f3c8df5a59c5e60283/cocojamboo-2.0.0.tar.gz
+[2023-04-29 10:45:59] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 524111371>=10485760
+[2023-04-29 10:45:59] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-04-29 10:45:59] INFO root fetch - processPackages [cocojamboo]: executing diffoscope
+[2023-04-29 10:45:59] INFO root fetch - processPackages [cocojamboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocojamboo-1.0.0.tar.gz tmp/cocojamboo-2.0.0.tar.gz --markdown 20230429/c/cocojamboo/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-29 10:46:00] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-29 10:46:00] INFO root fetch - main [MainThread]: End processing [cocojamboo]: success
+[2023-04-29 10:46:01] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-04-29 10:46:02] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
+[2023-04-29 10:46:02] INFO root fetch - processPackages [smarts]: Downloading https://files.pythonhosted.org/packages/87/e8/8e9e9943a9e4d08aec1ca65455e7e0543a17078d6f42fc4948f12d3be25c/smarts-1.1.0-py3-none-any.whl
+[2023-04-29 10:46:02] INFO root fetch - processPackages [smarts]: executing diffoscope
+[2023-04-29 10:46:02] INFO root fetch - processPackages [smarts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smarts-1.0.9-py3-none-any.whl.zip tmp/smarts-1.1.0-py3-none-any.whl.zip --markdown 20230429/s/smarts/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-29 10:46:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-04-29 10:46:48] INFO root fetch - main [MainThread]: End processing [smarts]: success
+[2023-04-29 10:46:48] INFO root fetch - main [MainThread]: Store serial: [17907615]
