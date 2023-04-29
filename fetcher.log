@@ -14061,3 +14061,52 @@
 [2023-04-29 23:37:02] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
 [2023-04-29 23:37:30] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-29 23:37:30] INFO root fetch - main [MainThread]: Store serial: [17912636]
+[2023-04-29 23:42:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912636]
+[2023-04-29 23:42:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 23:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonsdk
+[2023-04-29 23:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-04-29 23:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2023-04-29 23:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-04-29 23:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-seasnake
+[2023-04-29 23:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otdrparser
+[2023-04-29 23:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-engine-terraform
+[2023-04-29 23:42:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AegosPython
+[2023-04-29 23:42:39] INFO root fetch - processPackages [pythonsdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: New version: [1.0.94] Old Version: [1.0.93]
+[2023-04-29 23:42:39] INFO root fetch - processPackages [py-seasnake]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-29 23:42:39] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-29 23:42:39] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-29 23:42:39] WARNING root fetch - processPackages [otdrparser]: Skipping, unable to determine old version
+[2023-04-29 23:42:39] INFO root fetch - main [MainThread]: End processing [otdrparser] error
+[2023-04-29 23:42:39] WARNING root fetch - processPackages [AegosPython]: Skipping, unable to determine old version
+[2023-04-29 23:42:39] INFO root fetch - main [MainThread]: End processing [AegosPython] error
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/0c/ca/41eb294cb2bd7063a36123433c516863905809605a122c7ace570090a0af/mynacode-1.0.93-py3-none-any.whl
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/0c/ca/41eb294cb2bd7063a36123433c516863905809605a122c7ace570090a0af/mynacode-1.0.93-py3-none-any.whl
+[2023-04-29 23:42:39] INFO root fetch - processPackages [pythonsdk]: Downloading https://files.pythonhosted.org/packages/aa/0c/8f9d9e038ae1baa347fc91844cc165b4fd172d27167f7ac7037313af6f7b/pythonsdk-0.4.0.tar.gz
+[2023-04-29 23:42:39] INFO root fetch - processPackages [py-seasnake]: Downloading https://files.pythonhosted.org/packages/26/73/799151d6b301d3ccff54fbf52ecea1452aa13b65e081a058dde351d3fb7d/py_seasnake-0.2.1.tar.gz
+[2023-04-29 23:42:39] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/e7/9d/f465ab8572973406439414b445baf8eec7432451bd949d635f69661a0c57/xia_engine_terraform-0.0.7-cp39-none-win_amd64.whl
+[2023-04-29 23:42:39] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-29 23:42:39] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230429/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/54/6c/17a7898859d15694f3776d0fb981e66c8cee8df52c3503a88f45740550f0/mynacode-1.0.94-py3-none-any.whl
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/54/6c/17a7898859d15694f3776d0fb981e66c8cee8df52c3503a88f45740550f0/mynacode-1.0.94-py3-none-any.whl
+[2023-04-29 23:42:39] INFO root fetch - processPackages [py-seasnake]: Downloading https://files.pythonhosted.org/packages/ba/66/a55c72385d921da1e3136ebf2ba92ffcf3c8bfbd1f8a6937346a7f345c70/py_seasnake-0.3.0.tar.gz
+[2023-04-29 23:42:39] INFO root fetch - processPackages [pythonsdk]: Downloading https://files.pythonhosted.org/packages/c2/d8/f3f96eec7ab4ef99665eefe203703e6a9a35e2a76533d321231cb9bde1f7/pythonsdk-0.5.0.tar.gz
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.93-py3-none-any.whl.zip tmp/mynacode-1.0.94-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 23:42:39] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.93-py3-none-any.whl.zip tmp/mynacode-1.0.94-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.93-1.0.94/diff.md --exclude *.pyd
+[2023-04-29 23:42:39] INFO root fetch - processPackages [py-seasnake]: executing diffoscope
+[2023-04-29 23:42:39] INFO root fetch - processPackages [py-seasnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_seasnake-0.2.1.tar.gz tmp/py_seasnake-0.3.0.tar.gz --markdown 20230429/p/py-seasnake/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 23:42:39] INFO root fetch - processPackages [pythonsdk]: executing diffoscope
+[2023-04-29 23:42:39] INFO root fetch - processPackages [pythonsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonsdk-0.4.0.tar.gz tmp/pythonsdk-0.5.0.tar.gz --markdown 20230429/p/pythonsdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 23:42:39] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/b6/45/04da12f803d60af5e1b2041243db2654d0af084344365ca2fd8a7c66638b/xia_engine_terraform-0.0.9-cp39-none-win_amd64.whl
+[2023-04-29 23:42:39] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-04-29 23:42:39] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230429/x/xia-engine-terraform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 23:42:40] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 23:42:40] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 23:42:40] INFO root fetch - main [MainThread]: End processing [py-seasnake]: success
+[2023-04-29 23:42:40] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-04-29 23:42:41] INFO root fetch - main [MainThread]: End processing [pythonsdk]: success
+[2023-04-29 23:42:44] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-29 23:42:44] INFO root fetch - main [MainThread]: Store serial: [17912663]
