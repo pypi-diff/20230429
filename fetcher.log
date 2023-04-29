@@ -8070,3 +8070,35 @@
 [2023-04-29 12:54:28] INFO root fetch - main [MainThread]: End processing [je-load-density-dev]: success
 [2023-04-29 12:54:34] INFO root fetch - main [MainThread]: End processing [scandir-rs]: success
 [2023-04-29 12:54:34] INFO root fetch - main [MainThread]: Store serial: [17908352]
+[2023-04-29 12:59:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908352]
+[2023-04-29 12:59:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 12:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-web-runner
+[2023-04-29 12:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-web-runner-dev
+[2023-04-29 12:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-sample-data-generator
+[2023-04-29 12:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MKN-third-codes
+[2023-04-29 12:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colortool
+[2023-04-29 12:59:44] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 12:59:44] INFO root fetch - processPackages [colortool]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-29 12:59:44] INFO root fetch - processPackages [je-web-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 12:59:44] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-04-29 12:59:44] INFO root fetch - processPackages [django-sample-data-generator]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 12:59:44] INFO root fetch - processPackages [django-sample-data-generator]: Downloading https://files.pythonhosted.org/packages/cd/83/06c4c36662931b6444a11d2017591a7cec36e1fd0c462b20df4c816cca61/django-sample-data-generator-1.0.3.tar.gz
+[2023-04-29 12:59:44] INFO root fetch - processPackages [colortool]: Downloading https://files.pythonhosted.org/packages/e9/8c/b368fe61b2142891a8e51d20f10a9508754328941979e46faa8b93eb03f5/colortool-0.4.2.tar.gz
+[2023-04-29 12:59:44] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/58/05/c44e03e5662d20f3f95c35045ff181147ff636023daa783bfba5f3bf2777/MKN_third_codes-0.2.0.tar.gz
+[2023-04-29 12:59:44] INFO root fetch - processPackages [colortool]: executing diffoscope
+[2023-04-29 12:59:44] INFO root fetch - processPackages [colortool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colortool-0.4.1.tar.gz tmp/colortool-0.4.2.tar.gz --markdown 20230429/c/colortool/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-29 12:59:44] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 12:59:44] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.1.4.tar.gz tmp/MKN_third_codes-0.2.0.tar.gz --markdown 20230429/M/MKN-third-codes/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 12:59:44] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-04-29 12:59:44] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230429/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:59:44] INFO root fetch - processPackages [je-web-runner]: executing diffoscope
+[2023-04-29 12:59:44] INFO root fetch - processPackages [je-web-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner-0.0.8.tar.gz tmp/je_web_runner-0.0.9.tar.gz --markdown 20230429/j/je-web-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:59:44] INFO root fetch - processPackages [django-sample-data-generator]: Downloading https://files.pythonhosted.org/packages/cc/e9/5bdccf3d4a0926532dd7c97ba690e20a79ba188911286a82730b883c0a2c/django-sample-data-generator-1.0.4.tar.gz
+[2023-04-29 12:59:44] INFO root fetch - processPackages [django-sample-data-generator]: executing diffoscope
+[2023-04-29 12:59:44] INFO root fetch - processPackages [django-sample-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-sample-data-generator-1.0.3.tar.gz tmp/django-sample-data-generator-1.0.4.tar.gz --markdown 20230429/d/django-sample-data-generator/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 12:59:45] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 12:59:45] INFO root fetch - main [MainThread]: End processing [colortool]: success
+[2023-04-29 12:59:46] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-04-29 12:59:46] INFO root fetch - main [MainThread]: End processing [django-sample-data-generator]: success
+[2023-04-29 12:59:46] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
+[2023-04-29 12:59:46] INFO root fetch - main [MainThread]: Store serial: [17908376]
