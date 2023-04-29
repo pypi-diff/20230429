@@ -13996,3 +13996,31 @@
 [2023-04-29 23:26:15] INFO root fetch - main [MainThread]: End processing [forensicface]: success
 [2023-04-29 23:26:16] INFO root fetch - main [MainThread]: End processing [scispacy]: success
 [2023-04-29 23:26:16] INFO root fetch - main [MainThread]: Store serial: [17912597]
+[2023-04-29 23:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912597]
+[2023-04-29 23:31:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 23:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-upsolver
+[2023-04-29 23:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rubpy
+[2023-04-29 23:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Sphinx
+[2023-04-29 23:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skeetpy
+[2023-04-29 23:31:24] INFO root fetch - processPackages [dbt-upsolver]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 23:31:24] INFO root fetch - processPackages [skeetpy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 23:31:24] INFO root fetch - processPackages [rubpy]: New version: [6.1.9] Old Version: [6.1.8]
+[2023-04-29 23:31:24] INFO root fetch - processPackages [Sphinx]: New version: [7.0.0rc1] Old Version: [7.0.0]
+[2023-04-29 23:31:25] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/82/82/0ab8f439550140e5d0ff961d7fac4738a82a1fbfa0b90dee917a41d1eb62/dbt-upsolver-0.1.8.tar.gz
+[2023-04-29 23:31:25] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/0a/41/0c3785bce311f85a6e47b151563fec269676f4abdf1171d310d79e8098bb/Sphinx-7.0.0.tar.gz
+[2023-04-29 23:31:25] INFO root fetch - processPackages [skeetpy]: Downloading https://files.pythonhosted.org/packages/ec/6d/0082880c1a66640dcef38495a8cb3417b98365d6cac411579faae1017bd5/skeetpy-0.1.1.tar.gz
+[2023-04-29 23:31:25] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/5d/04/3094bba356c37c318c7e251d4d174b4ce24788ce5bfb038f1cabeeb9ae4f/rubpy-6.1.9.tar.gz
+[2023-04-29 23:31:25] INFO root fetch - processPackages [skeetpy]: executing diffoscope
+[2023-04-29 23:31:25] INFO root fetch - processPackages [skeetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skeetpy-0.1.0.tar.gz tmp/skeetpy-0.1.1.tar.gz --markdown 20230429/s/skeetpy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 23:31:25] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-04-29 23:31:25] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.1.8.tar.gz tmp/rubpy-6.1.9.tar.gz --markdown 20230429/r/rubpy/6.1.8-6.1.9/diff.md --exclude *.pyd
+[2023-04-29 23:31:25] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/97/7a/63e6fba13f24314b4a0ea553211f07e37607ceb7e927b5e37a69e6b906ac/dbt-upsolver-0.1.9.tar.gz
+[2023-04-29 23:31:25] INFO root fetch - processPackages [dbt-upsolver]: executing diffoscope
+[2023-04-29 23:31:25] INFO root fetch - processPackages [dbt-upsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-upsolver-0.1.8.tar.gz tmp/dbt-upsolver-0.1.9.tar.gz --markdown 20230429/d/dbt-upsolver/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 23:31:26] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2023-04-29 23:31:26] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sphinx-7.0.0.tar.gz tmp/Sphinx-7.0.0rc1.tar.gz --markdown 20230429/S/Sphinx/7.0.0-7.0.0rc1/diff.md --exclude *.pyd
+[2023-04-29 23:31:26] INFO root fetch - main [MainThread]: End processing [skeetpy]: success
+[2023-04-29 23:31:26] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-04-29 23:31:27] INFO root fetch - main [MainThread]: End processing [dbt-upsolver]: success
+[2023-04-29 23:31:49] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2023-04-29 23:31:49] INFO root fetch - main [MainThread]: Store serial: [17912614]
