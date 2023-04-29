@@ -13099,3 +13099,67 @@
 [2023-04-29 21:22:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zyk-music]: success
 [2023-04-29 21:22:55] INFO root fetch - main [MainThread]: End processing [AlgoSolver]: success
 [2023-04-29 21:22:55] INFO root fetch - main [MainThread]: Store serial: [17911859]
+[2023-04-29 21:27:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911859]
+[2023-04-29 21:28:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhtools
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saheffects
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idds-atlas
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idds-client
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idds-common
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idds-doma
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idds-server
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idds-monitor
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idds-website
+[2023-04-29 21:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idds-workflow
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-doma]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-website]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [saheffects]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-common]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-atlas]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [pyhtools]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-workflow]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-monitor]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-client]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-server]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 21:28:04] INFO root fetch - processPackages [saheffects]: Downloading https://files.pythonhosted.org/packages/d5/20/007715b2d16f0713c261c74c449c065ce19d265681b9264d77f02764f71a/saheffects-0.1.0.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/46/2e/440b74b7ce02c71af3286b7eb9d5addd4a75bc792c84d51980d58b1c5a4a/idds-doma-1.2.9.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/e5/99/d5e5981e97968f63c62568fd0357b528e56722aa846b295a05204443e191/idds-client-1.2.9.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [pyhtools]: Downloading https://files.pythonhosted.org/packages/ee/f2/eb355fc8f4d1595845d7064479d2a4c34eca9e9ff54ff5b503801e0d61cb/pyhtools-2.2.2.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/42/99/dc9efd0385463bbb16a14092a5a2d0392566ffaa87db77cc4eb4d3406e91/idds-common-1.2.9.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/18/f6/65e7f7cb381cc4b0daecab9ad3a1c5067aa2ec49fc8d3162ab003c862a21/idds-website-1.2.9.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/57/60/e44dab42e0e687e80f1c7832a39abcea4518f32f18a7ae49c4eed796868b/idds-monitor-1.2.9.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/18/c4/dcc417e088aedd66d0a7c3ecae3baf1d7c8f5f94905ef5dd5bf0340b3fc3/idds-workflow-1.2.9.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/b8/7e/5881206849563f887ab6ccc9076697f6e3140c00366632c2d06fea9c4cf8/idds-atlas-1.2.9.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/03/c0/0b774b3cc75ee63f93cb2271372ab5a96e498650e68297c53112578a771c/idds-server-1.2.9.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-1.2.8.tar.gz tmp/idds-doma-1.2.9.tar.gz --markdown 20230429/i/idds-doma/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-1.2.8.tar.gz tmp/idds-client-1.2.9.tar.gz --markdown 20230429/i/idds-client/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [pyhtools]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-1.2.8.tar.gz tmp/idds-common-1.2.9.tar.gz --markdown 20230429/i/idds-common/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [pyhtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtools-2.2.1.tar.gz tmp/pyhtools-2.2.2.tar.gz --markdown 20230429/p/pyhtools/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-1.2.8.tar.gz tmp/idds-workflow-1.2.9.tar.gz --markdown 20230429/i/idds-workflow/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-1.2.8.tar.gz tmp/idds-atlas-1.2.9.tar.gz --markdown 20230429/i/idds-atlas/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-1.2.8.tar.gz tmp/idds-server-1.2.9.tar.gz --markdown 20230429/i/idds-server/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-1.2.8.tar.gz tmp/idds-monitor-1.2.9.tar.gz --markdown 20230429/i/idds-monitor/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-1.2.8.tar.gz tmp/idds-website-1.2.9.tar.gz --markdown 20230429/i/idds-website/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 21:28:04] INFO root fetch - processPackages [saheffects]: Downloading https://files.pythonhosted.org/packages/ea/63/b4cc7f0413097713946f9ca2a20f7076bb6888ee89d2af65b497cf7580fc/saheffects-0.1.1.tar.gz
+[2023-04-29 21:28:04] INFO root fetch - processPackages [saheffects]: executing diffoscope
+[2023-04-29 21:28:04] INFO root fetch - processPackages [saheffects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saheffects-0.1.0.tar.gz tmp/saheffects-0.1.1.tar.gz --markdown 20230429/s/saheffects/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 21:28:06] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2023-04-29 21:28:06] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2023-04-29 21:28:06] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2023-04-29 21:28:06] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2023-04-29 21:28:06] INFO root fetch - main [MainThread]: End processing [saheffects]: success
+[2023-04-29 21:28:07] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2023-04-29 21:28:07] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2023-04-29 21:28:08] INFO root fetch - main [MainThread]: End processing [pyhtools]: success
+[2023-04-29 21:28:09] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2023-04-29 21:28:13] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2023-04-29 21:28:13] INFO root fetch - main [MainThread]: Store serial: [17911881]
