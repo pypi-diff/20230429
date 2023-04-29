@@ -10552,3 +10552,62 @@
 [2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [types-docutils]: success
 [2023-04-29 17:16:46] INFO root fetch - main [MainThread]: End processing [hikaru]: success
 [2023-04-29 17:16:46] INFO root fetch - main [MainThread]: Store serial: [17910163]
+[2023-04-29 17:21:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910163]
+[2023-04-29 17:21:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rime-sdk
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpxj
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paper-streamfield
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: goxlrutilityapi
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citizenk
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: text-overlay-dataset
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-engine
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-test-migrations
+[2023-04-29 17:21:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unipipeline
+[2023-04-29 17:21:55] INFO root fetch - processPackages [paper-streamfield]: New version: [0.5.0rc1] Old Version: [0.4.0]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.0.0.dev9] Old Version: [1.0.0.dev8]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [mpxj]: New version: [9.8.3] Old Version: [9.8.2]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [unipipeline]: New version: [1.8.9] Old Version: [1.8.7]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [django-test-migrations]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [text-overlay-dataset]: New version: [0.0.8] Old Version: [0.0.10]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [citizenk]: New version: [0.1.32] Old Version: [0.1.31]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc0] Old Version: [2.0.0rc8]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [xia-engine]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-04-29 17:21:55] INFO root fetch - processPackages [unipipeline]: executing diffoscope
+[2023-04-29 17:21:55] INFO root fetch - processPackages [unipipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipipeline-1.8.7.tar.gz tmp/unipipeline-1.8.9.tar.gz --markdown 20230429/u/unipipeline/1.8.7-1.8.9/diff.md --exclude *.pyd
+[2023-04-29 17:21:55] INFO root fetch - processPackages [text-overlay-dataset]: Downloading https://files.pythonhosted.org/packages/94/9b/edbd5cd62dbd1184fc855103f3bc1d4b9f84753400d38046f94eab64f0c7/text-overlay-dataset-0.0.10.tar.gz
+[2023-04-29 17:21:55] INFO root fetch - processPackages [paper-streamfield]: Downloading https://files.pythonhosted.org/packages/a3/0b/dcd70fa169b06d611fd8adc807c8b8ee80d328c1a14fbd45f67d085d586d/paper-streamfield-0.4.0.tar.gz
+[2023-04-29 17:21:55] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/8b/8e/7ba439131ae312fa102b90894d96e3f192458e8a2c9f1beb48fd5ad811bc/rime_sdk-2.1.0rc0.tar.gz
+[2023-04-29 17:21:55] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/96/09/898d7a82877b789cd71f646749bf241e73afc7e22cda92e7cc7117a0e451/goxlrutilityapi-1.0.0.dev9.tar.gz
+[2023-04-29 17:21:55] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/5c/74/23ea10fa666b37be95f79a677c79d0ec786eceb1bda6803e05c928d7165e/citizenk-0.1.32.tar.gz
+[2023-04-29 17:21:55] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/2d/5c/5216b1522a39cc05def3c15d67316b76f510974c570872c0b79fe3ae7af5/xia_engine-0.8.4-cp39-none-win_amd64.whl
+[2023-04-29 17:21:55] INFO root fetch - processPackages [django-test-migrations]: Downloading https://files.pythonhosted.org/packages/52/9c/3c36d2a827497abb82b426b754497beb86b00f4334b5a33eec687a354436/django-test-migrations-1.2.0.tar.gz
+[2023-04-29 17:21:55] INFO root fetch - processPackages [mpxj]: Downloading https://files.pythonhosted.org/packages/39/d0/4e44b7920417d0090990177f4d89ad7335ca83c0adef231d736a31b223c5/mpxj-9.8.2.tar.gz
+[2023-04-29 17:21:55] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-04-29 17:21:55] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.0.0.dev8.tar.gz tmp/goxlrutilityapi-1.0.0.dev9.tar.gz --markdown 20230429/g/goxlrutilityapi/1.0.0.dev8-1.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-29 17:21:55] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-29 17:21:55] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.31.tar.gz tmp/citizenk-0.1.32.tar.gz --markdown 20230429/c/citizenk/0.1.31-0.1.32/diff.md --exclude *.pyd
+[2023-04-29 17:21:55] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-04-29 17:21:55] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.0rc8.tar.gz tmp/rime_sdk-2.1.0rc0.tar.gz --markdown 20230429/r/rime-sdk/2.0.0rc8-2.1.0rc0/diff.md --exclude *.pyd
+[2023-04-29 17:21:55] WARNING root fetch - processPackages [mpxj]: Skipping package: exceeds size limit 16838188>=10485760
+[2023-04-29 17:21:55] INFO root fetch - main [MainThread]: End processing [mpxj] error
+[2023-04-29 17:21:55] INFO root fetch - processPackages [paper-streamfield]: Downloading https://files.pythonhosted.org/packages/a9/5a/22ebcda6a9749583e7d4e1b8ea1bdfcb0f7a2a3c6cd7106de2408d01fc1a/paper-streamfield-0.5.0rc1.tar.gz
+[2023-04-29 17:21:55] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/46/e0/4b74778cd56577653392df36cf4647757e81b5ee64871474e5d4a0b7de5d/xia_engine-0.8.5-cp39-none-macosx_11_0_x86_64.whl
+[2023-04-29 17:21:56] INFO root fetch - processPackages [text-overlay-dataset]: Downloading https://files.pythonhosted.org/packages/73/c8/768e3242252bd137cda17f058c69b5ec3623db8338c44fb61af4fdf8e08c/text-overlay-dataset-0.0.8.tar.gz
+[2023-04-29 17:21:56] INFO root fetch - processPackages [paper-streamfield]: executing diffoscope
+[2023-04-29 17:21:56] INFO root fetch - processPackages [paper-streamfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-streamfield-0.4.0.tar.gz tmp/paper-streamfield-0.5.0rc1.tar.gz --markdown 20230429/p/paper-streamfield/0.4.0-0.5.0rc1/diff.md --exclude *.pyd
+[2023-04-29 17:21:56] INFO root fetch - processPackages [django-test-migrations]: Downloading https://files.pythonhosted.org/packages/66/dc/2252f7c674ea5f8a43415b7a7a5f6b5fee8752f85cbef797e227c2d24733/django_test_migrations-1.3.0.tar.gz
+[2023-04-29 17:21:56] INFO root fetch - processPackages [text-overlay-dataset]: executing diffoscope
+[2023-04-29 17:21:56] INFO root fetch - processPackages [text-overlay-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-overlay-dataset-0.0.10.tar.gz tmp/text-overlay-dataset-0.0.8.tar.gz --markdown 20230429/t/text-overlay-dataset/0.0.10-0.0.8/diff.md --exclude *.pyd
+[2023-04-29 17:21:56] INFO root fetch - processPackages [django-test-migrations]: executing diffoscope
+[2023-04-29 17:21:56] INFO root fetch - processPackages [django-test-migrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-test-migrations-1.2.0.tar.gz tmp/django_test_migrations-1.3.0.tar.gz --markdown 20230429/d/django-test-migrations/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-29 17:21:56] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-04-29 17:21:56] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.4-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.5-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230429/x/xia-engine/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-04-29 17:21:57] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-29 17:21:57] INFO root fetch - main [MainThread]: End processing [text-overlay-dataset]: success
+[2023-04-29 17:21:57] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-04-29 17:21:57] INFO root fetch - main [MainThread]: End processing [django-test-migrations]: success
+[2023-04-29 17:21:57] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-04-29 17:21:57] INFO root fetch - main [MainThread]: End processing [unipipeline]: success
+[2023-04-29 17:21:58] INFO root fetch - main [MainThread]: End processing [paper-streamfield]: success
+[2023-04-29 17:22:00] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-04-29 17:22:00] INFO root fetch - main [MainThread]: Store serial: [17910190]
