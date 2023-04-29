@@ -7177,3 +7177,49 @@
 [2023-04-29 11:23:27] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-04-29 11:23:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-04-29 11:23:33] INFO root fetch - main [MainThread]: Store serial: [17907799]
+[2023-04-29 11:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907799]
+[2023-04-29 11:28:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Bigsansar
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrew
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nycu-tdx-py
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iphub
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipymock
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miniagent
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-ading
+[2023-04-29 11:28:44] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-29 11:28:44] INFO root fetch - processPackages [miniagent]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 11:28:44] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 11:28:44] INFO root fetch - processPackages [Bigsansar]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-29 11:28:44] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 11:28:44] INFO root fetch - processPackages [iphub]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ipymock]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 11:28:44] WARNING root fetch - processPackages [test-ading]: Skipping, unable to determine old version
+[2023-04-29 11:28:44] INFO root fetch - main [MainThread]: End processing [test-ading] error
+[2023-04-29 11:28:44] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-29 11:28:44] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230429/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-29 11:28:44] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-04-29 11:28:44] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230429/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 11:28:44] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/bd/d7/93b7920f4a0d0a06638cb7a988d5fc2f67fc478841891e1a7ed0e437fa06/Bigsansar-1.1.1.tar.gz
+[2023-04-29 11:28:44] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/11/a8/9e48258a6bce949d82cf1b91e959a74cb77aea8d8422ac9615526a4b33f1/miniagent-0.0.5-py3-none-any.whl
+[2023-04-29 11:28:44] INFO root fetch - processPackages [iphub]: Downloading https://files.pythonhosted.org/packages/98/15/65ee1c12ae97570af91584c8e0c51a4f24f8b73ad8e92ea682ed974eb52d/iphub-1.0.2.tar.gz
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ipymock]: Downloading https://files.pythonhosted.org/packages/b5/13/ff8edcec461e68a0c61e312a3daeec2bc844adbe867b4fbbcc02220135e2/ipymock-1.0.3.tar.gz
+[2023-04-29 11:28:44] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-04-29 11:28:44] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.4-py3-none-any.whl.zip tmp/miniagent-0.0.5-py3-none-any.whl.zip --markdown 20230429/m/miniagent/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 11:28:44] INFO root fetch - processPackages [iphub]: executing diffoscope
+[2023-04-29 11:28:44] INFO root fetch - processPackages [iphub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iphub-1.0.1.tar.gz tmp/iphub-1.0.2.tar.gz --markdown 20230429/i/iphub/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ipymock]: executing diffoscope
+[2023-04-29 11:28:44] INFO root fetch - processPackages [ipymock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipymock-1.0.2.tar.gz tmp/ipymock-1.0.3.tar.gz --markdown 20230429/i/ipymock/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 11:28:44] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/a3/c7/86cb12938cec44ea1724c060a6b2b1fb2598828ce6dade676457385f418f/Bigsansar-1.1.2.tar.gz
+[2023-04-29 11:28:44] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-29 11:28:44] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230429/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 11:28:44] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-29 11:28:44] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.1.1.tar.gz tmp/Bigsansar-1.1.2.tar.gz --markdown 20230429/B/Bigsansar/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-29 11:28:45] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-29 11:28:45] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-04-29 11:28:45] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-04-29 11:28:45] INFO root fetch - main [MainThread]: End processing [iphub]: success
+[2023-04-29 11:28:46] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-29 11:28:46] INFO root fetch - main [MainThread]: End processing [ipymock]: success
+[2023-04-29 11:28:46] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-29 11:28:46] INFO root fetch - main [MainThread]: Store serial: [17907825]
