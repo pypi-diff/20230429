@@ -10981,3 +10981,64 @@
 [2023-04-29 17:59:16] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
 [2023-04-29 17:59:17] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-04-29 17:59:17] INFO root fetch - main [MainThread]: Store serial: [17910447]
+[2023-04-29 18:04:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910447]
+[2023-04-29 18:04:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQt5-Frameless-Window
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotbox
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: event-systems
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MKN-third-codes
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyunifiprotect
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quick-magic
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MKN-third-codes
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: api-hunter-cli
+[2023-04-29 18:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: svg.path
+[2023-04-29 18:04:25] INFO root fetch - processPackages [PyQt5-Frameless-Window]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-29 18:04:25] INFO root fetch - processPackages [hotbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 18:04:25] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-29 18:04:25] INFO root fetch - processPackages [svg.path]: New version: [6.3] Old Version: [6.2]
+[2023-04-29 18:04:25] INFO root fetch - processPackages [quick-magic]: New version: [1.1] Old Version: [1.0]
+[2023-04-29 18:04:25] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-29 18:04:25] INFO root fetch - processPackages [event-systems]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-29 18:04:25] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-29 18:04:25] INFO root fetch - processPackages [pyunifiprotect]: New version: [4.8.3] Old Version: [4.8.2]
+[2023-04-29 18:04:26] INFO root fetch - processPackages [hotbox]: executing diffoscope
+[2023-04-29 18:04:26] INFO root fetch - processPackages [hotbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotbox-0.0.8.tar.gz tmp/hotbox-0.0.9.tar.gz --markdown 20230429/h/hotbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 18:04:26] INFO root fetch - processPackages [quick-magic]: Downloading https://files.pythonhosted.org/packages/95/8f/fe17e7feac3f33c3ec5414f9026d3ba5c7cfbaa669d92f49d44205f806c8/quick_magic-1.0.tar.gz
+[2023-04-29 18:04:26] INFO root fetch - processPackages [svg.path]: Downloading https://files.pythonhosted.org/packages/01/56/32f5483faf385e8c3b382159af10ee08414c7f1be1b6da96a1821e7cc431/svg.path-6.2.tar.gz
+[2023-04-29 18:04:26] INFO root fetch - processPackages [PyQt5-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/a8/8a/3631634fc94b11a2e0dc6f03ad03effff9c7e802a207b598cead14a9e1cb/PyQt5-Frameless-Window-0.2.5.tar.gz
+[2023-04-29 18:04:26] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/63/42/f081c153cb7aa5d170b27771f121dec524f3d12c168d83d78562aa023f34/api_hunter_cli-0.1.8.tar.gz
+[2023-04-29 18:04:26] INFO root fetch - processPackages [event-systems]: Downloading https://files.pythonhosted.org/packages/85/52/de44bdca41ae1f2a86ceae0423f92b73f42e52a319ddadb1a799ad5961e6/event-systems-0.0.6.tar.gz
+[2023-04-29 18:04:26] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/0c/2b/8a57045afc516ff108bd292fb5a168cb50767785da9649b481606e8965f7/MKN_third_codes-0.3.2.tar.gz
+[2023-04-29 18:04:26] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/0c/2b/8a57045afc516ff108bd292fb5a168cb50767785da9649b481606e8965f7/MKN_third_codes-0.3.2.tar.gz
+[2023-04-29 18:04:26] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/7b/3c/4f2b9baa41a4267c5d66211d8ee447c9f55f66d87da9ef77c4969ac86bd4/pyunifiprotect-4.8.2.tar.gz
+[2023-04-29 18:04:27] INFO root fetch - main [MainThread]: End processing [hotbox]: success
+[2023-04-29 18:04:27] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 18:04:27] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.1.tar.gz tmp/MKN_third_codes-0.3.2.tar.gz --markdown 20230429/M/MKN-third-codes/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-29 18:04:27] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 18:04:27] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.1.tar.gz tmp/MKN_third_codes-0.3.2.tar.gz --markdown 20230429/M/MKN-third-codes/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-29 18:04:27] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 18:04:27] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_hunter_cli-0.1.7.tar.gz tmp/api_hunter_cli-0.1.8.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-29 18:04:27] INFO root fetch - processPackages [quick-magic]: Downloading https://files.pythonhosted.org/packages/a7/de/780b4252a31829788b1174d41eeec613e89504834fe9fdcc346bbbd9d089/quick_magic-1.1.tar.gz
+[2023-04-29 18:04:27] INFO root fetch - processPackages [quick-magic]: executing diffoscope
+[2023-04-29 18:04:27] INFO root fetch - processPackages [quick-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_magic-1.0.tar.gz tmp/quick_magic-1.1.tar.gz --markdown 20230429/q/quick-magic/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-29 18:04:27] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/f1/da/1e9649928ae1c1e3bb0986402dbf1f1ffd7b81ecb533804699e2eeb647f4/pyunifiprotect-4.8.3.tar.gz
+[2023-04-29 18:04:27] INFO root fetch - processPackages [pyunifiprotect]: executing diffoscope
+[2023-04-29 18:04:27] INFO root fetch - processPackages [pyunifiprotect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunifiprotect-4.8.2.tar.gz tmp/pyunifiprotect-4.8.3.tar.gz --markdown 20230429/p/pyunifiprotect/4.8.2-4.8.3/diff.md --exclude *.pyd
+[2023-04-29 18:04:27] INFO root fetch - processPackages [event-systems]: Downloading https://files.pythonhosted.org/packages/bd/27/d922ef1c189f67873d7cf8fd16d3db25ba3a724cb46ede491bbf90b13b27/event-systems-0.0.7.tar.gz
+[2023-04-29 18:04:27] INFO root fetch - processPackages [svg.path]: Downloading https://files.pythonhosted.org/packages/33/a0/4983cdedf62c3a1dd42b698813312fc51dd159983333fce9ec4189cd83a9/svg.path-6.3.tar.gz
+[2023-04-29 18:04:27] INFO root fetch - processPackages [PyQt5-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/0f/67/03c526daf34b75df8e6df87fe691d59c384277bc5990416e3cf8a1430cd8/PyQt5-Frameless-Window-0.2.6.tar.gz
+[2023-04-29 18:04:27] INFO root fetch - processPackages [event-systems]: executing diffoscope
+[2023-04-29 18:04:27] INFO root fetch - processPackages [event-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event-systems-0.0.6.tar.gz tmp/event-systems-0.0.7.tar.gz --markdown 20230429/e/event-systems/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-29 18:04:27] INFO root fetch - processPackages [svg.path]: executing diffoscope
+[2023-04-29 18:04:27] INFO root fetch - processPackages [svg.path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svg.path-6.2.tar.gz tmp/svg.path-6.3.tar.gz --markdown 20230429/s/svg.path/6.2-6.3/diff.md --exclude *.pyd
+[2023-04-29 18:04:27] INFO root fetch - processPackages [PyQt5-Frameless-Window]: executing diffoscope
+[2023-04-29 18:04:27] INFO root fetch - processPackages [PyQt5-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt5-Frameless-Window-0.2.5.tar.gz tmp/PyQt5-Frameless-Window-0.2.6.tar.gz --markdown 20230429/P/PyQt5-Frameless-Window/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-29 18:04:28] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 18:04:28] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 18:04:28] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 18:04:29] INFO root fetch - main [MainThread]: End processing [quick-magic]: success
+[2023-04-29 18:04:29] INFO root fetch - main [MainThread]: End processing [svg.path]: success
+[2023-04-29 18:04:29] INFO root fetch - main [MainThread]: End processing [event-systems]: success
+[2023-04-29 18:04:29] INFO root fetch - main [MainThread]: End processing [PyQt5-Frameless-Window]: success
+[2023-04-29 18:04:29] INFO root fetch - main [MainThread]: End processing [pyunifiprotect]: success
+[2023-04-29 18:04:29] INFO root fetch - main [MainThread]: Store serial: [17910477]
