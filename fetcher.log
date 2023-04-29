@@ -8102,3 +8102,46 @@
 [2023-04-29 12:59:46] INFO root fetch - main [MainThread]: End processing [django-sample-data-generator]: success
 [2023-04-29 12:59:46] INFO root fetch - main [MainThread]: End processing [je-web-runner]: success
 [2023-04-29 12:59:46] INFO root fetch - main [MainThread]: Store serial: [17908376]
+[2023-04-29 13:04:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908376]
+[2023-04-29 13:04:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gtf
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyiapws
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-initializers
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nnnn
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getchar
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colortool
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: axutils
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gtf
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kkkk
+[2023-04-29 13:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-sqlalchemy-session
+[2023-04-29 13:04:54] WARNING root fetch - processPackages [gtf]: Skipping, unable to determine old version
+[2023-04-29 13:04:54] INFO root fetch - main [MainThread]: End processing [gtf] error
+[2023-04-29 13:04:54] WARNING root fetch - processPackages [pyiapws]: Skipping, unable to determine old version
+[2023-04-29 13:04:54] INFO root fetch - main [MainThread]: End processing [pyiapws] error
+[2023-04-29 13:04:54] INFO root fetch - processPackages [netbox-initializers]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-04-29 13:04:54] WARNING root fetch - processPackages [nnnn]: Skipping, unable to determine old version
+[2023-04-29 13:04:54] INFO root fetch - processPackages [colortool]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-29 13:04:54] INFO root fetch - main [MainThread]: End processing [nnnn] error
+[2023-04-29 13:04:54] WARNING root fetch - processPackages [gtf]: Skipping, unable to determine old version
+[2023-04-29 13:04:54] INFO root fetch - main [MainThread]: End processing [gtf] error
+[2023-04-29 13:04:54] INFO root fetch - processPackages [colortool]: executing diffoscope
+[2023-04-29 13:04:54] INFO root fetch - processPackages [colortool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colortool-0.4.1.tar.gz tmp/colortool-0.4.2.tar.gz --markdown 20230429/c/colortool/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-29 13:04:54] WARNING root fetch - processPackages [axutils]: Skipping, unable to determine old version
+[2023-04-29 13:04:54] INFO root fetch - main [MainThread]: End processing [axutils] error
+[2023-04-29 13:04:54] WARNING root fetch - processPackages [getchar]: Skipping, unable to determine old version
+[2023-04-29 13:04:54] WARNING root fetch - processPackages [kkkk]: Skipping, unable to determine old version
+[2023-04-29 13:04:54] INFO root fetch - main [MainThread]: End processing [getchar] error
+[2023-04-29 13:04:54] INFO root fetch - main [MainThread]: End processing [kkkk] error
+[2023-04-29 13:04:54] INFO root fetch - processPackages [pytest-sqlalchemy-session]: New version: [0.2.0b1] Old Version: [0.1.10b1]
+[2023-04-29 13:04:55] INFO root fetch - processPackages [netbox-initializers]: Downloading https://files.pythonhosted.org/packages/06/20/8e3dfeaa712b13a08511ffb7d9445658ad7853291c2a5907099b4798f875/netbox_initializers-3.4.0.tar.gz
+[2023-04-29 13:04:55] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/dd/da/baa761e508412c1e5d469102cb28e4ef79cd398fe3945c47af0a544865b0/pytest-sqlalchemy-session-0.1.10b1.tar.gz
+[2023-04-29 13:04:55] INFO root fetch - processPackages [netbox-initializers]: Downloading https://files.pythonhosted.org/packages/cb/50/d64b245b030f3ce25dc2b0962c159d479b7b12f4420824c8ae971c9eacf9/netbox_initializers-3.5.0.tar.gz
+[2023-04-29 13:04:55] INFO root fetch - processPackages [pytest-sqlalchemy-session]: Downloading https://files.pythonhosted.org/packages/33/d0/4924188fb8adc4e275c52e807ba80d57eb489327ec379b420dc74fd7d68f/pytest-sqlalchemy-session-0.2.0b1.tar.gz
+[2023-04-29 13:04:55] INFO root fetch - processPackages [netbox-initializers]: executing diffoscope
+[2023-04-29 13:04:55] INFO root fetch - processPackages [netbox-initializers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_initializers-3.4.0.tar.gz tmp/netbox_initializers-3.5.0.tar.gz --markdown 20230429/n/netbox-initializers/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-04-29 13:04:55] INFO root fetch - processPackages [pytest-sqlalchemy-session]: executing diffoscope
+[2023-04-29 13:04:55] INFO root fetch - processPackages [pytest-sqlalchemy-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sqlalchemy-session-0.1.10b1.tar.gz tmp/pytest-sqlalchemy-session-0.2.0b1.tar.gz --markdown 20230429/p/pytest-sqlalchemy-session/0.1.10b1-0.2.0b1/diff.md --exclude *.pyd
+[2023-04-29 13:04:56] INFO root fetch - main [MainThread]: End processing [colortool]: success
+[2023-04-29 13:04:56] INFO root fetch - main [MainThread]: End processing [pytest-sqlalchemy-session]: success
+[2023-04-29 13:04:56] INFO root fetch - main [MainThread]: End processing [netbox-initializers]: success
+[2023-04-29 13:04:56] INFO root fetch - main [MainThread]: Store serial: [17908427]
