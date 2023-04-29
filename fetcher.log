@@ -4442,3 +4442,78 @@
 [2023-04-29 04:25:53] INFO root fetch - main [MainThread]: End processing [gqylpy-dict]: success
 [2023-04-29 04:25:53] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-04-29 04:25:53] INFO root fetch - main [MainThread]: Store serial: [17906156]
+[2023-04-29 04:30:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906156]
+[2023-04-29 04:31:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-24
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hubitatcontrol
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpc-obscodes
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-26
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gerrychain
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-plus-25
+[2023-04-29 04:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-review
+[2023-04-29 04:31:02] INFO root fetch - processPackages [hubitatcontrol]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1682735277] Old Version: [0.1.1682735269]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [mpc-obscodes]: New version: [2023.4.29] Old Version: [2023.4.28]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1682735277] Old Version: [0.1.1682735269]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [gerrychain]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230429] Old Version: [1.2.20230428]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-04-29 04:31:02] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:31:02] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:31:02] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-04-29 04:31:02] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230429/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-04-29 04:31:02] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-04-29 04:31:02] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230429/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-29 04:31:02] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/31/b8/b6280af954c7c9c6025ff377b33cfbf3d833346a27a5ae428e834e4a5980/eia-odin-pkg-rioatmadja2018-0.1.1682735269.tar.gz
+[2023-04-29 04:31:02] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/31/b8/b6280af954c7c9c6025ff377b33cfbf3d833346a27a5ae428e834e4a5980/eia-odin-pkg-rioatmadja2018-0.1.1682735269.tar.gz
+[2023-04-29 04:31:02] INFO root fetch - processPackages [hubitatcontrol]: Downloading https://files.pythonhosted.org/packages/5b/84/f00065c005878fba032c69f7a7cb6311f7e3523a1d9206c8b2857e69345b/hubitatcontrol-2.0.0.tar.gz
+[2023-04-29 04:31:02] INFO root fetch - processPackages [gerrychain]: Downloading https://files.pythonhosted.org/packages/10/09/65e84d56e2d79dda1c2988f23a45ac230d3d65000ebca4839cd2115b8821/gerrychain-0.2.8.tar.gz
+[2023-04-29 04:31:02] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/95/b2/c1589f8c7fbf7513b65682469c31f0f418192d80882756a48e292566f8e0/iam_actions-1.2.20230429.tar.gz
+[2023-04-29 04:31:03] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-04-29 04:31:03] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230428.tar.gz tmp/iam_actions-1.2.20230429.tar.gz --markdown 20230429/i/iam-actions/1.2.20230428-1.2.20230429/diff.md --exclude *.pyd
+[2023-04-29 04:31:03] INFO root fetch - processPackages [mpc-obscodes]: Downloading https://files.pythonhosted.org/packages/3e/81/f3b0d1d912832af909ea6cfc8b6d7e7bcae48cd329c68d325ad931bfd84b/mpc_obscodes-2023.4.29.tar.gz
+[2023-04-29 04:31:03] INFO root fetch - processPackages [mpc-obscodes]: executing diffoscope
+[2023-04-29 04:31:03] INFO root fetch - processPackages [mpc-obscodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_obscodes-2023.4.28.tar.gz tmp/mpc_obscodes-2023.4.29.tar.gz --markdown 20230429/m/mpc-obscodes/2023.4.28-2023.4.29/diff.md --exclude *.pyd
+[2023-04-29 04:31:03] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-04-29 04:31:03] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230429/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-04-29 04:31:03] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/8d/58/5d9485e5eaab4cfdacf84b9e9e6433cf37ece497f1acd630d8833a644160/eia_odin_pkg_rioatmadja2018-0.1.1682735277-py3-none-any.whl
+[2023-04-29 04:31:03] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/8d/58/5d9485e5eaab4cfdacf84b9e9e6433cf37ece497f1acd630d8833a644160/eia_odin_pkg_rioatmadja2018-0.1.1682735277-py3-none-any.whl
+[2023-04-29 04:31:03] INFO root fetch - processPackages [hubitatcontrol]: Downloading https://files.pythonhosted.org/packages/14/40/d35dfa23a49e7324f552d28cfc39d5751b6ab7116037903b1ffcb4fcb5b4/hubitatcontrol-2.1.0.tar.gz
+[2023-04-29 04:31:03] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-04-29 04:31:03] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1682735269.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1682735277-py3-none-any.whl.zip --markdown 20230429/e/eia-odin-pkg-rioatmadja2018/0.1.1682735269-0.1.1682735277/diff.md --exclude *.pyd
+[2023-04-29 04:31:03] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-04-29 04:31:03] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1682735269.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1682735277-py3-none-any.whl.zip --markdown 20230429/e/eia-odin-pkg-rioatmadja2018/0.1.1682735269-0.1.1682735277/diff.md --exclude *.pyd
+[2023-04-29 04:31:03] INFO root fetch - processPackages [hubitatcontrol]: executing diffoscope
+[2023-04-29 04:31:03] INFO root fetch - processPackages [hubitatcontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubitatcontrol-2.0.0.tar.gz tmp/hubitatcontrol-2.1.0.tar.gz --markdown 20230429/h/hubitatcontrol/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-29 04:31:03] INFO root fetch - processPackages [gerrychain]: Downloading https://files.pythonhosted.org/packages/86/15/128d3d8543631486ea0262117a1e69e7e04d7e1d174a13fbfbc5d7990fcb/gerrychain-0.2.9.tar.gz
+[2023-04-29 04:31:03] INFO root fetch - processPackages [gerrychain]: executing diffoscope
+[2023-04-29 04:31:03] INFO root fetch - processPackages [gerrychain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gerrychain-0.2.8.tar.gz tmp/gerrychain-0.2.9.tar.gz --markdown 20230429/g/gerrychain/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-29 04:31:04] INFO root fetch - processPackages [gpt-review]: Start processing: gpt-review
+[2023-04-29 04:31:04] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:31:04] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:31:04] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:31:04] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:31:04] INFO root fetch - processPackages [cdk8s-plus-26]: Start processing: funccache
+[2023-04-29 04:31:04] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-04-29 04:31:04] INFO root fetch - processPackages [funccache]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-04-29 04:31:04] INFO root fetch - main [MainThread]: End processing [mpc-obscodes]: success
+[2023-04-29 04:31:04] INFO root fetch - processPackages [funccache]: Downloading https://files.pythonhosted.org/packages/4a/26/700ebd30523663ec015fc7586bafeb1af6c4cf2bc934982c634b2912bdbe/funccache-1.5.1.tar.gz
+[2023-04-29 04:31:04] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-04-29 04:31:04] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-04-29 04:31:04] INFO root fetch - main [MainThread]: End processing [hubitatcontrol]: success
+[2023-04-29 04:31:04] INFO root fetch - processPackages [funccache]: Downloading https://files.pythonhosted.org/packages/3d/ce/ddb0d520503f41ef724e8f9126d09e6da609fcca577182ec6a8d3091fadf/funccache-1.5.2.tar.gz
+[2023-04-29 04:31:05] INFO root fetch - processPackages [funccache]: executing diffoscope
+[2023-04-29 04:31:05] INFO root fetch - processPackages [funccache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funccache-1.5.1.tar.gz tmp/funccache-1.5.2.tar.gz --markdown 20230429/f/funccache/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-04-29 04:31:05] INFO root fetch - main [MainThread]: End processing [gerrychain]: success
+[2023-04-29 04:31:05] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:31:06] INFO root fetch - main [MainThread]: End processing [funccache]: success
+[2023-04-29 04:31:06] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-04-29 04:31:07] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-04-29 04:31:10] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-04-29 04:31:10] INFO root fetch - main [MainThread]: Store serial: [17906191]
