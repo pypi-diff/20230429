@@ -7931,3 +7931,100 @@
 [2023-04-29 12:43:58] INFO root fetch - main [MainThread]: End processing [dpytest]: success
 [2023-04-29 12:44:00] INFO root fetch - main [MainThread]: End processing [robot-soccer-kit]: success
 [2023-04-29 12:44:00] INFO root fetch - main [MainThread]: Store serial: [17908247]
+[2023-04-29 12:49:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908247]
+[2023-04-29 12:49:09] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocp-vscode
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-auto-control
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-auto-control-dev
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-api-testka
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bayesian-models
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-api-testka-dev
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cppipc-python
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: je-editor
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: je-editor-dev
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grpc-stubs
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ocp-vscode]: New version: [0.93.0] Old Version: [0.91.0]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-api-testka]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-api-testka-dev]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [bayesian-models]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [cppipc-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-auto-control-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [grpc-stubs]: New version: [1.53.0.2] Old Version: [1.53.0.1]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-auto-control]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-api-testka-dev]: Downloading https://files.pythonhosted.org/packages/b0/21/6937ca689561ee5eee489fb8a22602826d238e4ea6ad3a002db51a356397/je_api_testka_dev-0.0.86.tar.gz
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/7b/d0/31ced8d89cbcc3bb69310dc751a2fbe5c4b43adcb6fa435b836dca62e8e4/je_editor-0.0.81.tar.gz
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/53/b4/0a23372dc35c5fb5e59fbfd54febbcedd4119f9e2567eb2e05296ecc154d/je_editor_dev-0.0.81.tar.gz
+[2023-04-29 12:49:09] INFO root fetch - processPackages [bayesian-models]: Downloading https://files.pythonhosted.org/packages/5d/92/8a63e43e1ad13f77f7e92dc5488efb1475a18013c3bec605c76e9ce0d0f9/bayesian-models-0.1.3.tar.gz
+[2023-04-29 12:49:09] INFO root fetch - processPackages [grpc-stubs]: Downloading https://files.pythonhosted.org/packages/5f/37/90c8512fa00d9df747751868616f2db266d3a2e01b83081c8f425b3601db/grpc-stubs-1.53.0.1.tar.gz
+[2023-04-29 12:49:09] INFO root fetch - processPackages [cppipc-python]: Downloading https://files.pythonhosted.org/packages/d8/bd/6c6b34bb6eb1fd9a76a612c7d4e44fba049227acee2349657266ea530a2f/cppipc_python-0.0.1.tar.gz
+[2023-04-29 12:49:09] INFO root fetch - processPackages [bayesian-models]: executing diffoscope
+[2023-04-29 12:49:09] INFO root fetch - processPackages [bayesian-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayesian-models-0.1.2.tar.gz tmp/bayesian-models-0.1.3.tar.gz --markdown 20230429/b/bayesian-models/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-29 12:49:09] INFO root fetch - processPackages [grpc-stubs]: Downloading https://files.pythonhosted.org/packages/c4/43/fe94cc3297d6fbe920f380e8d5cc073163cf916da0f65e72366a76364b64/grpc-stubs-1.53.0.2.tar.gz
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-api-testka]: executing diffoscope
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-api-testka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka-0.0.98.tar.gz tmp/je_api_testka-0.0.99.tar.gz --markdown 20230429/j/je-api-testka/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-api-testka-dev]: executing diffoscope
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-api-testka-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_api_testka_dev-0.0.86.tar.gz tmp/je_api_testka_dev-0.0.9.tar.gz --markdown 20230429/j/je-api-testka-dev/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.81.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230429/j/je-editor/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.81.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230429/j/je-editor-dev/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-auto-control]: executing diffoscope
+[2023-04-29 12:49:09] INFO root fetch - processPackages [je-auto-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control-0.0.97.tar.gz tmp/je_auto_control-0.0.99.tar.gz --markdown 20230429/j/je-auto-control/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 12:49:09] INFO root fetch - processPackages [ocp-vscode]: Downloading https://files.pythonhosted.org/packages/90/94/954663ea22828c96ce951652d2578ea8b58c2bd424c770cfc447956499e8/ocp_vscode-0.91.0.tar.gz
+[2023-04-29 12:49:09] INFO root fetch - processPackages [grpc-stubs]: executing diffoscope
+[2023-04-29 12:49:09] INFO root fetch - processPackages [grpc-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpc-stubs-1.53.0.1.tar.gz tmp/grpc-stubs-1.53.0.2.tar.gz --markdown 20230429/g/grpc-stubs/1.53.0.1-1.53.0.2/diff.md --exclude *.pyd
+[2023-04-29 12:49:10] INFO root fetch - processPackages [ocp-vscode]: Downloading https://files.pythonhosted.org/packages/38/02/7e001886fa06cabee978ba81b4390cb2ec72288bc2a06b19e19b6561898c/ocp_vscode-0.93.0.tar.gz
+[2023-04-29 12:49:10] INFO root fetch - processPackages [ocp-vscode]: executing diffoscope
+[2023-04-29 12:49:10] INFO root fetch - processPackages [ocp-vscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocp_vscode-0.91.0.tar.gz tmp/ocp_vscode-0.93.0.tar.gz --markdown 20230429/o/ocp-vscode/0.91.0-0.93.0/diff.md --exclude *.pyd
+[2023-04-29 12:49:10] INFO root fetch - processPackages [cppipc-python]: Downloading https://files.pythonhosted.org/packages/1d/8f/7f97d72d9819e6c2dd853c23742269ac1cbad292bc789cbeaed59db4c487/cppipc_python-0.0.2.tar.gz
+[2023-04-29 12:49:10] INFO root fetch - processPackages [je-auto-control-dev]: executing diffoscope
+[2023-04-29 12:49:10] INFO root fetch - processPackages [je-auto-control-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_auto_control_dev-0.0.8.tar.gz tmp/je_auto_control_dev-0.0.9.tar.gz --markdown 20230429/j/je-auto-control-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:49:10] INFO root fetch - processPackages [cppipc-python]: executing diffoscope
+[2023-04-29 12:49:10] INFO root fetch - processPackages [cppipc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppipc_python-0.0.1.tar.gz tmp/cppipc_python-0.0.2.tar.gz --markdown 20230429/c/cppipc-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 12:49:11] INFO root fetch - processPackages [je-api-testka-dev]: Start processing: colortool
+[2023-04-29 12:49:11] INFO root fetch - main [MainThread]: End processing [je-api-testka-dev]: success
+[2023-04-29 12:49:11] INFO root fetch - processPackages [colortool]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-29 12:49:11] INFO root fetch - processPackages [grpc-stubs]: Start processing: opentrain
+[2023-04-29 12:49:11] INFO root fetch - main [MainThread]: End processing [grpc-stubs]: success
+[2023-04-29 12:49:11] INFO root fetch - processPackages [opentrain]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-29 12:49:11] INFO root fetch - processPackages [je-editor]: Start processing: apache-airflow
+[2023-04-29 12:49:11] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-04-29 12:49:11] INFO root fetch - processPackages [colortool]: Downloading https://files.pythonhosted.org/packages/1b/2f/0791e8f3e879167f3e70af6d4fbc246fa8b7771943cc74b7bc526ec70b04/colortool-0.3.0.tar.gz
+[2023-04-29 12:49:11] INFO root fetch - processPackages [apache-airflow]: New version: [2.6.0rc5] Old Version: [2.6.0rc4]
+[2023-04-29 12:49:11] INFO root fetch - processPackages [opentrain]: Downloading https://files.pythonhosted.org/packages/c2/a9/1cd95229479ac1d8984a552f53ef26d0a125bb8707f5c6761c2cb5e0bd67/opentrain-0.0.3.tar.gz
+[2023-04-29 12:49:11] INFO root fetch - processPackages [je-auto-control]: Start processing: fil
+[2023-04-29 12:49:11] INFO root fetch - main [MainThread]: End processing [je-auto-control]: success
+[2023-04-29 12:49:11] WARNING root fetch - processPackages [fil]: Skipping, unable to determine old version
+[2023-04-29 12:49:11] INFO root fetch - processPackages [fil]: Start processing: nurses
+[2023-04-29 12:49:11] INFO root fetch - main [MainThread]: End processing [fil] error
+[2023-04-29 12:49:11] WARNING root fetch - processPackages [nurses]: Skipping, unable to determine old version
+[2023-04-29 12:49:11] INFO root fetch - processPackages [nurses]: Start processing: pyagrum-nightly
+[2023-04-29 12:49:11] INFO root fetch - main [MainThread]: End processing [nurses] error
+[2023-04-29 12:49:11] INFO root fetch - processPackages [colortool]: Downloading https://files.pythonhosted.org/packages/d7/ad/dba6c24a98d64f09472c21c51c892f15ac5b82c6a0b4a8176c723ec9af44/colortool-0.4.0.tar.gz
+[2023-04-29 12:49:11] INFO root fetch - processPackages [bayesian-models]: Start processing: gggg
+[2023-04-29 12:49:11] INFO root fetch - main [MainThread]: End processing [bayesian-models]: success
+[2023-04-29 12:49:11] INFO root fetch - main [MainThread]: End processing [je-api-testka]: success
+[2023-04-29 12:49:12] INFO root fetch - main [MainThread]: End processing [ocp-vscode]: success
+[2023-04-29 12:49:12] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202304291682179495] Old Version: [1.7.1.9.dev202304281682179495]
+[2023-04-29 12:49:12] WARNING root fetch - processPackages [gggg]: Skipping, unable to determine old version
+[2023-04-29 12:49:12] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-29 12:49:12] INFO root fetch - main [MainThread]: End processing [gggg] error
+[2023-04-29 12:49:12] INFO root fetch - processPackages [colortool]: executing diffoscope
+[2023-04-29 12:49:12] INFO root fetch - processPackages [colortool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colortool-0.3.0.tar.gz tmp/colortool-0.4.0.tar.gz --markdown 20230429/c/colortool/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 12:49:12] INFO root fetch - processPackages [opentrain]: Downloading https://files.pythonhosted.org/packages/9b/ec/bcf3461eb56f38130e5d7d5477c0b72a8805a948dd664271bfe9edc70493/opentrain-0.0.4.tar.gz
+[2023-04-29 12:49:12] INFO root fetch - main [MainThread]: End processing [je-auto-control-dev]: success
+[2023-04-29 12:49:12] INFO root fetch - processPackages [opentrain]: executing diffoscope
+[2023-04-29 12:49:12] INFO root fetch - processPackages [opentrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrain-0.0.3.tar.gz tmp/opentrain-0.0.4.tar.gz --markdown 20230429/o/opentrain/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-29 12:49:12] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/86/d4/7e35835b520b2ab498ed11c155180dbc13715506e84a3d6e0c6aa2df95d9/pyAgrum_nightly-1.7.1.9.dev202304291682179495-cp39-cp39-win_amd64.whl
+[2023-04-29 12:49:12] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-04-29 12:49:12] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202304281682179495-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202304291682179495-cp39-cp39-win_amd64.whl.zip --markdown 20230429/p/pyagrum-nightly/1.7.1.9.dev202304281682179495-1.7.1.9.dev202304291682179495/diff.md --exclude *.pyd
+[2023-04-29 12:49:13] INFO root fetch - main [MainThread]: End processing [colortool]: success
+[2023-04-29 12:49:13] INFO root fetch - main [MainThread]: End processing [opentrain]: success
+[2023-04-29 12:49:13] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-04-29 12:49:16] INFO root fetch - processPackages [apache-airflow]: Downloading https://files.pythonhosted.org/packages/e1/94/909b5ff35b7aeec4a4fcdc1bff65b55f3ab2d3bb7aee036088112ccf65ed/apache-airflow-2.6.0rc4.tar.gz
+[2023-04-29 12:49:16] WARNING root fetch - processPackages [apache-airflow]: Skipping package: exceeds size limit 11468787>=10485760
+[2023-04-29 12:49:16] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
+[2023-04-29 12:49:18] INFO root fetch - main [MainThread]: End processing [cppipc-python]: success
+[2023-04-29 12:49:18] INFO root fetch - main [MainThread]: Store serial: [17908313]
