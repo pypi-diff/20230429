@@ -6406,3 +6406,23 @@
 [2023-04-29 09:32:45] INFO root fetch - main [MainThread]: End processing [mausy5043-common]: success
 [2023-04-29 09:32:45] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-04-29 09:32:45] INFO root fetch - main [MainThread]: Store serial: [17907292]
+[2023-04-29 09:37:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907292]
+[2023-04-29 09:37:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 09:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymailers
+[2023-04-29 09:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2023-04-29 09:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textual-astview
+[2023-04-29 09:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: japan-basic-section
+[2023-04-29 09:37:54] INFO root fetch - processPackages [textual-astview]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-29 09:37:54] WARNING root fetch - processPackages [pymailers]: Skipping, unable to determine old version
+[2023-04-29 09:37:54] INFO root fetch - main [MainThread]: End processing [pymailers] error
+[2023-04-29 09:37:54] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-04-29 09:37:54] WARNING root fetch - processPackages [japan-basic-section]: Skipping, unable to determine old version
+[2023-04-29 09:37:54] INFO root fetch - main [MainThread]: End processing [japan-basic-section] error
+[2023-04-29 09:37:54] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-29 09:37:54] INFO root fetch - processPackages [textual-astview]: Downloading https://files.pythonhosted.org/packages/8f/4b/a3d065a5bd203d6be080f9d98d4e1e368e7e53e3520532bd9b7432450985/textual-astview-0.6.1.tar.gz
+[2023-04-29 09:37:54] INFO root fetch - processPackages [textual-astview]: executing diffoscope
+[2023-04-29 09:37:54] INFO root fetch - processPackages [textual-astview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-astview-0.6.0.tar.gz tmp/textual-astview-0.6.1.tar.gz --markdown 20230429/t/textual-astview/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-29 09:37:54] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-04-29 09:37:54] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-04-29 09:37:55] INFO root fetch - main [MainThread]: End processing [textual-astview]: success
+[2023-04-29 09:37:55] INFO root fetch - main [MainThread]: Store serial: [17907336]
