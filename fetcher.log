@@ -5909,3 +5909,51 @@
 [2023-04-29 08:09:10] INFO root fetch - main [MainThread]: End processing [gptop]: success
 [2023-04-29 08:09:14] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-04-29 08:09:14] INFO root fetch - main [MainThread]: Store serial: [17907045]
+[2023-04-29 08:14:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907045]
+[2023-04-29 08:14:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 08:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-purchase-stock-secondary-unit
+[2023-04-29 08:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-purchase-order-secondary-unit
+[2023-04-29 08:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-04-29 08:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-memes
+[2023-04-29 08:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphafold-colabfold
+[2023-04-29 08:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryptical
+[2023-04-29 08:14:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyadtpulse
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-order-secondary-unit]: New version: [14.0.2.0.2.dev4] Old Version: [14.0.2.0.2.dev3]
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-04-29 08:14:23] INFO root fetch - processPackages [nonebot-plugin-memes]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-29 08:14:23] INFO root fetch - processPackages [cryptical]: New version: [0.4.1] Old Version: [0.4]
+[2023-04-29 08:14:23] INFO root fetch - processPackages [pyadtpulse]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 08:14:23] INFO root fetch - processPackages [alphafold-colabfold]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230424.0] Old Version: [16.0.20230420.0]
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-order-secondary-unit]: Downloading https://files.pythonhosted.org/packages/25/56/3e9009cfe99f5431ffda1f72a61df25ea19305b0a5af278ef966e642278a/odoo14_addon_purchase_order_secondary_unit-14.0.2.0.2.dev3-py3-none-any.whl
+[2023-04-29 08:14:23] INFO root fetch - processPackages [alphafold-colabfold]: Downloading https://files.pythonhosted.org/packages/b4/4c/76d67a638b450aabd7ad8880f91cfd8736c89bf1b45d943f2d3da4d58204/alphafold-colabfold-2.3.4.tar.gz
+[2023-04-29 08:14:23] INFO root fetch - processPackages [pyadtpulse]: Downloading https://files.pythonhosted.org/packages/28/73/c706211e2b4bbc114bb2565285bf9971de74279a45117e5e7f36c29c9c9d/pyadtpulse-1.0.2-py3-none-any.whl
+[2023-04-29 08:14:23] INFO root fetch - processPackages [cryptical]: Downloading https://files.pythonhosted.org/packages/84/02/f0d9b417a3d4eae5d73140bc2275f134c18761f71efeb4f71ed6249dd0c5/cryptical-0.4.1.tar.gz
+[2023-04-29 08:14:23] INFO root fetch - processPackages [nonebot-plugin-memes]: Downloading https://files.pythonhosted.org/packages/63/6b/8ce7f509cd083daefe6ae9be5f79b01e540163028d68e4dbd03126cd9222/nonebot_plugin_memes-0.4.5.tar.gz
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/b8/c6/2b11043db64ec0aea4846a5c7c6ef5b0a82c15c9cd36b9e89335ed114f73/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-04-29 08:14:23] INFO root fetch - processPackages [cryptical]: executing diffoscope
+[2023-04-29 08:14:23] INFO root fetch - processPackages [cryptical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptical-0.4.tar.gz tmp/cryptical-0.4.1.tar.gz --markdown 20230429/c/cryptical/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-04-29 08:14:23] INFO root fetch - processPackages [pyadtpulse]: Downloading https://files.pythonhosted.org/packages/e5/2e/58f7f70a3b896605095c19d8a5d0b3fead9281fafb308a38e090df43ecc9/pyadtpulse-1.0.3-py3-none-any.whl
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230420.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230424.0-py3-none-any.whl.zip --markdown 20230429/o/odoo-addons-oca-purchase-workflow/16.0.20230420.0-16.0.20230424.0/diff.md --exclude *.pyd
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-order-secondary-unit]: Downloading https://files.pythonhosted.org/packages/c9/6a/25cdd48f247410766ef557d802295a552fa6398cbbe7f4f659c3f62ebe68/odoo14_addon_purchase_order_secondary_unit-14.0.2.0.2.dev4-py3-none-any.whl
+[2023-04-29 08:14:23] INFO root fetch - processPackages [alphafold-colabfold]: Downloading https://files.pythonhosted.org/packages/7e/57/648eb50c3c5f32e33bf2f674e3cfc412fab6282ab4a1df5955d86998d82e/alphafold-colabfold-2.3.5.tar.gz
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: executing diffoscope
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-stock-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_purchase_stock_secondary_unit-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addon-purchase-stock-secondary-unit/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-04-29 08:14:23] INFO root fetch - processPackages [alphafold-colabfold]: executing diffoscope
+[2023-04-29 08:14:23] INFO root fetch - processPackages [alphafold-colabfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold-colabfold-2.3.4.tar.gz tmp/alphafold-colabfold-2.3.5.tar.gz --markdown 20230429/a/alphafold-colabfold/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-04-29 08:14:23] INFO root fetch - processPackages [pyadtpulse]: executing diffoscope
+[2023-04-29 08:14:23] INFO root fetch - processPackages [pyadtpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyadtpulse-1.0.2-py3-none-any.whl.zip tmp/pyadtpulse-1.0.3-py3-none-any.whl.zip --markdown 20230429/p/pyadtpulse/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-order-secondary-unit]: executing diffoscope
+[2023-04-29 08:14:23] INFO root fetch - processPackages [odoo14-addon-purchase-order-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_order_secondary_unit-14.0.2.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_purchase_order_secondary_unit-14.0.2.0.2.dev4-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addon-purchase-order-secondary-unit/14.0.2.0.2.dev3-14.0.2.0.2.dev4/diff.md --exclude *.pyd
+[2023-04-29 08:14:24] INFO root fetch - processPackages [nonebot-plugin-memes]: Downloading https://files.pythonhosted.org/packages/60/5f/d6a49b88de692b26b8316d7671cc04be9b21947709a652ab08dbb041b4f7/nonebot_plugin_memes-0.4.6.tar.gz
+[2023-04-29 08:14:24] INFO root fetch - processPackages [nonebot-plugin-memes]: executing diffoscope
+[2023-04-29 08:14:24] INFO root fetch - processPackages [nonebot-plugin-memes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_memes-0.4.5.tar.gz tmp/nonebot_plugin_memes-0.4.6.tar.gz --markdown 20230429/n/nonebot-plugin-memes/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-29 08:14:24] INFO root fetch - main [MainThread]: End processing [cryptical]: success
+[2023-04-29 08:14:24] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-04-29 08:14:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-stock-secondary-unit]: success
+[2023-04-29 08:14:25] INFO root fetch - main [MainThread]: End processing [pyadtpulse]: success
+[2023-04-29 08:14:25] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-order-secondary-unit]: success
+[2023-04-29 08:14:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-memes]: success
+[2023-04-29 08:14:27] INFO root fetch - main [MainThread]: End processing [alphafold-colabfold]: success
+[2023-04-29 08:14:27] INFO root fetch - main [MainThread]: Store serial: [17907062]
