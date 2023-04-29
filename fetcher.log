@@ -2145,3 +2145,35 @@
 [2023-04-29 03:01:47] INFO root fetch - main [MainThread]: End processing [keepercommander]: success
 [2023-04-29 03:01:49] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-04-29 03:01:49] INFO root fetch - main [MainThread]: Store serial: [17904741]
+[2023-04-29 03:06:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904741]
+[2023-04-29 03:06:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 03:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superpowered-sdk
+[2023-04-29 03:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ytchat
+[2023-04-29 03:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-review
+[2023-04-29 03:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyagrum-nightly
+[2023-04-29 03:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TreeSAK
+[2023-04-29 03:06:59] INFO root fetch - processPackages [ytchat]: New version: [0.1.dev1] Old Version: [0.0.5]
+[2023-04-29 03:06:59] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 03:06:59] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-29 03:06:59] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 03:06:59] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202304281682179495] Old Version: [1.7.1.9.dev202304271682179495]
+[2023-04-29 03:06:59] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 03:06:59] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 03:06:59] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/f1/a4/a80a10c149336ae6c85b500601664d71440c6fbb8f6b552f9eb89126717e/superpowered-sdk-0.0.8.tar.gz
+[2023-04-29 03:06:59] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-04-29 03:06:59] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230429/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-29 03:06:59] INFO root fetch - processPackages [ytchat]: Downloading https://files.pythonhosted.org/packages/78/d5/44d1feada9d3b1abc2df661b9a59bfea88a67b40da6ef2bde32c4b261d8e/ytchat-0.0.5.tar.gz
+[2023-04-29 03:06:59] INFO root fetch - processPackages [ytchat]: Downloading https://files.pythonhosted.org/packages/93/f0/599747724f928a23bf51cfd6d73482ba5b963bea12eea856ee2108fb1e51/ytchat-0.1.dev1.tar.gz
+[2023-04-29 03:06:59] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/0d/63/1e90aca773ff0fd2bf30f526b63a085df3d2d39a90208523e8d826425d4f/pyAgrum_nightly-1.7.1.9.dev202304281682179495-cp39-cp39-win_amd64.whl
+[2023-04-29 03:07:00] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/49/78/26ca71b755b4070621d7b7e3df2b1b074b9887f06a72bd4c856f4e15078d/superpowered-sdk-0.0.9.tar.gz
+[2023-04-29 03:07:00] WARNING root fetch - processPackages [ytchat]: Skipping package: exceeds size limit 12544746>=10485760
+[2023-04-29 03:07:00] INFO root fetch - main [MainThread]: End processing [ytchat] error
+[2023-04-29 03:07:00] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-04-29 03:07:00] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.0.8.tar.gz tmp/superpowered-sdk-0.0.9.tar.gz --markdown 20230429/s/superpowered-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 03:07:00] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-04-29 03:07:00] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202304271682179495-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202304281682179495-cp39-cp39-win_amd64.whl.zip --markdown 20230429/p/pyagrum-nightly/1.7.1.9.dev202304271682179495-1.7.1.9.dev202304281682179495/diff.md --exclude *.pyd
+[2023-04-29 03:07:00] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 03:07:00] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-04-29 03:07:01] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-04-29 03:07:01] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-04-29 03:07:01] INFO root fetch - main [MainThread]: Store serial: [17904776]
