@@ -5506,3 +5506,42 @@
 [2023-04-29 07:06:13] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-04-29 07:06:14] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
 [2023-04-29 07:06:14] INFO root fetch - main [MainThread]: Store serial: [17906736]
+[2023-04-29 07:11:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906736]
+[2023-04-29 07:11:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2023-04-29 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-model-server
+[2023-04-29 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GoogleNews
+[2023-04-29 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hkkang-utils
+[2023-04-29 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: applying-cli
+[2023-04-29 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: io-connect
+[2023-04-29 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-model-maker-nightly
+[2023-04-29 07:11:22] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230429] Old Version: [0.1.1.dev20230428]
+[2023-04-29 07:11:22] WARNING root fetch - processPackages [io-connect]: Skipping, unable to determine old version
+[2023-04-29 07:11:22] INFO root fetch - main [MainThread]: End processing [io-connect] error
+[2023-04-29 07:11:22] INFO root fetch - processPackages [GoogleNews]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-04-29 07:11:22] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202304280512] Old Version: [0.4.3.dev202304200506]
+[2023-04-29 07:11:22] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 07:11:22] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230429] Old Version: [1.1.8b20230428]
+[2023-04-29 07:11:22] WARNING root fetch - processPackages [applying-cli]: Skipping, unable to determine old version
+[2023-04-29 07:11:22] INFO root fetch - main [MainThread]: End processing [applying-cli] error
+[2023-04-29 07:11:22] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-04-29 07:11:22] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202304200506.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202304280512.tar.gz --markdown 20230429/t/tflite-model-maker-nightly/0.4.3.dev202304200506-0.4.3.dev202304280512/diff.md --exclude *.pyd
+[2023-04-29 07:11:23] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-29 07:11:23] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230429/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 07:11:23] INFO root fetch - processPackages [GoogleNews]: Downloading https://files.pythonhosted.org/packages/3d/8a/257778b6ede74716427bc6f006ecc960908a2de2e3910c5b65cb1cbd8484/GoogleNews-1.6.7.tar.gz
+[2023-04-29 07:11:23] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/06/2d/7e7522dfdb347f4786bc48b3c1768a6957de1ee469541e6598eff6a48c1e/multi_model_server-1.1.8b20230428-py2.py3-none-any.whl
+[2023-04-29 07:11:23] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0b/66/688b05b4e5a363810257f1c3be6e8e6d1cbfdfe9dee554e4294545523307/rapid_pe-0.1.1.dev20230429.tar.gz
+[2023-04-29 07:11:23] INFO root fetch - processPackages [GoogleNews]: Downloading https://files.pythonhosted.org/packages/46/12/a216d83efe32bb0082ed7b133451d0c8c0fab057302b09d879e788ce740f/GoogleNews-1.6.8.tar.gz
+[2023-04-29 07:11:23] INFO root fetch - processPackages [GoogleNews]: executing diffoscope
+[2023-04-29 07:11:23] INFO root fetch - processPackages [GoogleNews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GoogleNews-1.6.7.tar.gz tmp/GoogleNews-1.6.8.tar.gz --markdown 20230429/G/GoogleNews/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-04-29 07:11:23] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-04-29 07:11:23] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230428.tar.gz tmp/rapid_pe-0.1.1.dev20230429.tar.gz --markdown 20230429/r/rapid-pe/0.1.1.dev20230428-0.1.1.dev20230429/diff.md --exclude *.pyd
+[2023-04-29 07:11:24] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-29 07:11:24] INFO root fetch - main [MainThread]: End processing [GoogleNews]: success
+[2023-04-29 07:11:24] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-04-29 07:11:24] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/90/ed/a379f1e32cf9524a9ea4530210f2f0f9659ffa1ca8dca1bf13ed8cc32832/multi_model_server-1.1.8b20230429-py2.py3-none-any.whl
+[2023-04-29 07:11:25] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-04-29 07:11:25] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230428-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230429-py2.py3-none-any.whl.zip --markdown 20230429/m/multi-model-server/1.1.8b20230428-1.1.8b20230429/diff.md --exclude *.pyd
+[2023-04-29 07:11:26] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-04-29 07:14:15] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-04-29 07:14:15] INFO root fetch - main [MainThread]: Store serial: [17906770]
