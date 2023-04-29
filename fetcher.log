@@ -7223,3 +7223,50 @@
 [2023-04-29 11:28:46] INFO root fetch - main [MainThread]: End processing [ipymock]: success
 [2023-04-29 11:28:46] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
 [2023-04-29 11:28:46] INFO root fetch - main [MainThread]: Store serial: [17907825]
+[2023-04-29 11:33:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907825]
+[2023-04-29 11:33:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 11:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raindancers-network.raindancers-cdk
+[2023-04-29 11:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cocojamboo
+[2023-04-29 11:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nua
+[2023-04-29 11:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nua-agent
+[2023-04-29 11:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nua-build
+[2023-04-29 11:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nua-orchestrator
+[2023-04-29 11:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Bigsansar
+[2023-04-29 11:33:55] INFO root fetch - processPackages [cocojamboo]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-04-29 11:33:55] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-orchestrator]: New version: [0.5.15] Old Version: [0.5.14]
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-build]: New version: [0.5.15] Old Version: [0.5.14]
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-agent]: New version: [0.5.15] Old Version: [0.5.14]
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua]: New version: [0.5.8] Old Version: [0.5.15]
+[2023-04-29 11:33:55] INFO root fetch - processPackages [Bigsansar]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-29 11:33:55] INFO root fetch - processPackages [cocojamboo]: Downloading https://files.pythonhosted.org/packages/d3/57/593a0bedce2e8e85780ae66a4c41f395b55a3e7a63462d4f608c03516796/cocojamboo-2.0.6.tar.gz
+[2023-04-29 11:33:55] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: Downloading https://files.pythonhosted.org/packages/ea/54/6bf13cb9d57a01641363fc9468f24695092a5666812a549bcd43fa803f56/raindancers-network.raindancers-cdk-1.9.8.tar.gz
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua]: Downloading https://files.pythonhosted.org/packages/f3/ba/792038268b16e542e87d71d60204a41bdc8ab234152dbd2e86011d5fb48b/nua-0.5.15.tar.gz
+[2023-04-29 11:33:55] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/8c/48/3b5214bc641fe4f01d905c2f9b06c9af2695493c94681c5ca5f84b78948e/Bigsansar-1.1.3.tar.gz
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-orchestrator]: Downloading https://files.pythonhosted.org/packages/99/5a/cb6f4076ce1372a4986748262350eeba5ca1145f0c2d9137c1b783ba0f0f/nua_orchestrator-0.5.15.tar.gz
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-build]: Downloading https://files.pythonhosted.org/packages/c1/a9/67e745aa6cfbbdd980b648c8b7c8e164c0659e78c924f10c4888f47b2291/nua_build-0.5.15.tar.gz
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-agent]: Downloading https://files.pythonhosted.org/packages/8b/78/e3af302c563050e455e78775d5a8c7d2b20aca050d01c7b3e8880ce189ea/nua_agent-0.5.15.tar.gz
+[2023-04-29 11:33:55] INFO root fetch - processPackages [cocojamboo]: Downloading https://files.pythonhosted.org/packages/0c/17/bfc127d65b46a9ec44666f30e07e31a81970be143ecaf6fd5dca41cf2e70/cocojamboo-2.0.7.tar.gz
+[2023-04-29 11:33:55] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-29 11:33:55] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.1.2.tar.gz tmp/Bigsansar-1.1.3.tar.gz --markdown 20230429/B/Bigsansar/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-orchestrator]: executing diffoscope
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_orchestrator-0.5.14.tar.gz tmp/nua_orchestrator-0.5.15.tar.gz --markdown 20230429/n/nua-orchestrator/0.5.14-0.5.15/diff.md --exclude *.pyd
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua]: executing diffoscope
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua-0.5.15.tar.gz tmp/nua-0.5.8.tar.gz --markdown 20230429/n/nua/0.5.15-0.5.8/diff.md --exclude *.pyd
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-build]: executing diffoscope
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_build-0.5.14.tar.gz tmp/nua_build-0.5.15.tar.gz --markdown 20230429/n/nua-build/0.5.14-0.5.15/diff.md --exclude *.pyd
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-agent]: executing diffoscope
+[2023-04-29 11:33:55] INFO root fetch - processPackages [nua-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_agent-0.5.14.tar.gz tmp/nua_agent-0.5.15.tar.gz --markdown 20230429/n/nua-agent/0.5.14-0.5.15/diff.md --exclude *.pyd
+[2023-04-29 11:33:55] INFO root fetch - processPackages [cocojamboo]: executing diffoscope
+[2023-04-29 11:33:55] INFO root fetch - processPackages [cocojamboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocojamboo-2.0.6.tar.gz tmp/cocojamboo-2.0.7.tar.gz --markdown 20230429/c/cocojamboo/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-04-29 11:33:55] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: Downloading https://files.pythonhosted.org/packages/9a/d5/818105d18635e2296178505d8da89a15b0b8c0c5ecdae0cbf83882f33347/raindancers-network.raindancers-cdk-1.9.9.tar.gz
+[2023-04-29 11:33:56] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: executing diffoscope
+[2023-04-29 11:33:56] INFO root fetch - processPackages [raindancers-network.raindancers-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindancers-network.raindancers-cdk-1.9.8.tar.gz tmp/raindancers-network.raindancers-cdk-1.9.9.tar.gz --markdown 20230429/r/raindancers-network.raindancers-cdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-29 11:33:57] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-29 11:33:57] INFO root fetch - main [MainThread]: End processing [nua-agent]: success
+[2023-04-29 11:33:57] INFO root fetch - main [MainThread]: End processing [nua-build]: success
+[2023-04-29 11:33:57] INFO root fetch - main [MainThread]: End processing [nua]: success
+[2023-04-29 11:33:57] INFO root fetch - main [MainThread]: End processing [raindancers-network.raindancers-cdk]: success
+[2023-04-29 11:33:57] INFO root fetch - main [MainThread]: End processing [cocojamboo]: success
+[2023-04-29 11:34:00] INFO root fetch - main [MainThread]: End processing [nua-orchestrator]: success
+[2023-04-29 11:34:00] INFO root fetch - main [MainThread]: Store serial: [17907848]
