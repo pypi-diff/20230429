@@ -9803,3 +9803,70 @@
 [2023-04-29 15:58:42] INFO root fetch - main [MainThread]: End processing [pyPhasesML]: success
 [2023-04-29 15:58:43] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
 [2023-04-29 15:58:43] INFO root fetch - main [MainThread]: Store serial: [17909542]
+[2023-04-29 16:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909542]
+[2023-04-29 16:03:52] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chef-helper
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-generation-server
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leetgo-py
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: envoy.base.utils
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: custom-plotly-templates
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fabisschomagut
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySide1-Customized-Window
+[2023-04-29 16:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yatracker-linker
+[2023-04-29 16:03:52] INFO root fetch - processPackages [leetgo-py]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-29 16:03:52] INFO root fetch - processPackages [chef-helper]: New version: [2] Old Version: [1]
+[2023-04-29 16:03:52] INFO root fetch - processPackages [envoy.base.utils]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-04-29 16:03:52] WARNING root fetch - processPackages [fabisschomagut]: Skipping, unable to determine old version
+[2023-04-29 16:03:52] INFO root fetch - processPackages [yeref]: New version: [0.1.48] Old Version: [0.1.47]
+[2023-04-29 16:03:52] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-29 16:03:52] INFO root fetch - processPackages [fabisschomagut]: Start processing: pyplanet-steamworkshop
+[2023-04-29 16:03:52] INFO root fetch - main [MainThread]: End processing [fabisschomagut] error
+[2023-04-29 16:03:52] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-29 16:03:52] INFO root fetch - processPackages [yatracker-linker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 16:03:52] INFO root fetch - processPackages [custom-plotly-templates]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-29 16:03:52] WARNING root fetch - processPackages [PySide1-Customized-Window]: Skipping, unable to determine old version
+[2023-04-29 16:03:52] INFO root fetch - processPackages [PySide1-Customized-Window]: Start processing: PySide2-Customized-Window
+[2023-04-29 16:03:52] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window] error
+[2023-04-29 16:03:52] INFO root fetch - processPackages [chef-helper]: Downloading https://files.pythonhosted.org/packages/0d/26/201c408d524d03195bc429925e37d8cb80d030105ecf72deaa0224cc7626/chef_helper-1.tar.gz
+[2023-04-29 16:03:52] WARNING root fetch - processPackages [pyplanet-steamworkshop]: Skipping, unable to determine old version
+[2023-04-29 16:03:52] INFO root fetch - processPackages [pyplanet-steamworkshop]: Start processing: PySide6-Customized-Window
+[2023-04-29 16:03:52] INFO root fetch - main [MainThread]: End processing [pyplanet-steamworkshop] error
+[2023-04-29 16:03:52] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/24/e4/cc84a4bc4a99298442d43b9fb2045616ebab6576e3a3e86721bf2a13db36/llm_generation_server-0.0.3.tar.gz
+[2023-04-29 16:03:52] WARNING root fetch - processPackages [PySide2-Customized-Window]: Skipping, unable to determine old version
+[2023-04-29 16:03:52] INFO root fetch - main [MainThread]: End processing [PySide2-Customized-Window] error
+[2023-04-29 16:03:52] INFO root fetch - processPackages [envoy.base.utils]: Downloading https://files.pythonhosted.org/packages/23/b1/8a8f4b00d2de22950d4fe7b4b6484fcc7ad12b26a019ac3277ece533833a/envoy.base.utils-0.4.4.tar.gz
+[2023-04-29 16:03:52] WARNING root fetch - processPackages [PySide6-Customized-Window]: Skipping, unable to determine old version
+[2023-04-29 16:03:52] INFO root fetch - main [MainThread]: End processing [PySide6-Customized-Window] error
+[2023-04-29 16:03:52] INFO root fetch - processPackages [custom-plotly-templates]: Downloading https://files.pythonhosted.org/packages/41/15/513c3c16728fbbca1522cbc9781c630a258ab2f847575cd7fcee400a79a2/custom_plotly_templates-2.0.0.tar.gz
+[2023-04-29 16:03:52] INFO root fetch - processPackages [leetgo-py]: Downloading https://files.pythonhosted.org/packages/24/0d/e8eb56f1df845fd9d3e4a32785e013efc7b54e4748190e970cb0fa51e1aa/leetgo_py-0.2.3.tar.gz
+[2023-04-29 16:03:52] INFO root fetch - processPackages [envoy.base.utils]: executing diffoscope
+[2023-04-29 16:03:52] INFO root fetch - processPackages [envoy.base.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoy.base.utils-0.4.3.tar.gz tmp/envoy.base.utils-0.4.4.tar.gz --markdown 20230429/e/envoy.base.utils/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-04-29 16:03:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/84/30/1bfaca55166ee3ee29c26610c3a6c49dbcce69cd144643e04b1bc09d4622/yeref-0.1.48.tar.gz
+[2023-04-29 16:03:52] INFO root fetch - processPackages [chef-helper]: Downloading https://files.pythonhosted.org/packages/1a/bd/aa93257ae474d72f82d8aa21fe0da08c9f2cb19071866fef0ab507ca9325/chef_helper-2.tar.gz
+[2023-04-29 16:03:52] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/73/38/b521aa9f9e1cbaadacf31a41297ddd0eef327304390b2a0fef71754f26be/llm_generation_server-0.0.5.tar.gz
+[2023-04-29 16:03:52] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-04-29 16:03:52] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230429/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-29 16:03:52] INFO root fetch - processPackages [yatracker-linker]: executing diffoscope
+[2023-04-29 16:03:52] INFO root fetch - processPackages [yatracker-linker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yatracker_linker-0.1.8.tar.gz tmp/yatracker_linker-0.1.9.tar.gz --markdown 20230429/y/yatracker-linker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 16:03:52] INFO root fetch - processPackages [leetgo-py]: executing diffoscope
+[2023-04-29 16:03:52] INFO root fetch - processPackages [leetgo-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leetgo-py-0.2.2.tar.gz tmp/leetgo_py-0.2.3.tar.gz --markdown 20230429/l/leetgo-py/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-29 16:03:52] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-04-29 16:03:52] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.47.tar.gz tmp/yeref-0.1.48.tar.gz --markdown 20230429/y/yeref/0.1.47-0.1.48/diff.md --exclude *.pyd
+[2023-04-29 16:03:52] INFO root fetch - processPackages [chef-helper]: executing diffoscope
+[2023-04-29 16:03:52] INFO root fetch - processPackages [chef-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chef_helper-1.tar.gz tmp/chef_helper-2.tar.gz --markdown 20230429/c/chef-helper/1-2/diff.md --exclude *.pyd
+[2023-04-29 16:03:52] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-04-29 16:03:52] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.3.tar.gz tmp/llm_generation_server-0.0.5.tar.gz --markdown 20230429/l/llm-generation-server/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 16:03:52] INFO root fetch - processPackages [custom-plotly-templates]: Downloading https://files.pythonhosted.org/packages/fa/52/c17f195ee4d25b02a534912f2b0c0cbd700ff6d1a72dfbfd53503120f7e9/custom_plotly_templates-2.0.1.tar.gz
+[2023-04-29 16:03:53] INFO root fetch - processPackages [custom-plotly-templates]: executing diffoscope
+[2023-04-29 16:03:53] INFO root fetch - processPackages [custom-plotly-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_plotly_templates-2.0.0.tar.gz tmp/custom_plotly_templates-2.0.1.tar.gz --markdown 20230429/c/custom-plotly-templates/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-29 16:03:54] INFO root fetch - main [MainThread]: End processing [envoy.base.utils]: success
+[2023-04-29 16:03:54] INFO root fetch - main [MainThread]: End processing [yatracker-linker]: success
+[2023-04-29 16:03:54] INFO root fetch - main [MainThread]: End processing [chef-helper]: success
+[2023-04-29 16:03:54] INFO root fetch - main [MainThread]: End processing [leetgo-py]: success
+[2023-04-29 16:03:54] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-04-29 16:03:54] INFO root fetch - main [MainThread]: End processing [custom-plotly-templates]: success
+[2023-04-29 16:03:54] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-04-29 16:03:56] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-04-29 16:03:56] INFO root fetch - main [MainThread]: Store serial: [17909633]
