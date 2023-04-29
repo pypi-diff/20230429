@@ -13194,3 +13194,26 @@
 [2023-04-29 21:33:25] INFO root fetch - main [MainThread]: End processing [remindmail]: success
 [2023-04-29 21:33:26] INFO root fetch - main [MainThread]: End processing [simc-support]: success
 [2023-04-29 21:33:26] INFO root fetch - main [MainThread]: Store serial: [17911897]
+[2023-04-29 21:38:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911897]
+[2023-04-29 21:38:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 21:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roberta-base-en-plant-ner-case-v1
+[2023-04-29 21:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystorz
+[2023-04-29 21:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-bulk-signals
+[2023-04-29 21:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SpectroscopicBinarySystem
+[2023-04-29 21:38:35] INFO root fetch - processPackages [pystorz]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 21:38:35] WARNING root fetch - processPackages [roberta-base-en-plant-ner-case-v1]: Skipping, unable to determine old version
+[2023-04-29 21:38:35] INFO root fetch - main [MainThread]: End processing [roberta-base-en-plant-ner-case-v1] error
+[2023-04-29 21:38:35] INFO root fetch - processPackages [django-bulk-signals]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-29 21:38:35] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.0.18] Old Version: [1.0.17]
+[2023-04-29 21:38:35] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-04-29 21:38:35] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.0.17.tar.gz tmp/SpectroscopicBinarySystem-1.0.18.tar.gz --markdown 20230429/S/SpectroscopicBinarySystem/1.0.17-1.0.18/diff.md --exclude *.pyd
+[2023-04-29 21:38:35] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/ac/ea/5e223e8d08f56cfc67c4953e06dc11b2d1d5cfbb0cd8c5799b5529552442/pystorz-0.1.5.tar.gz
+[2023-04-29 21:38:35] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-04-29 21:38:35] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.1.4.tar.gz tmp/pystorz-0.1.5.tar.gz --markdown 20230429/p/pystorz/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 21:38:35] INFO root fetch - processPackages [django-bulk-signals]: Downloading https://files.pythonhosted.org/packages/dd/d2/3b7f49f3a2521a732ce3767ee0ec966057a97d4a3921bdd0d37dd1623856/django-bulk-signals-0.4.0.tar.gz
+[2023-04-29 21:38:35] INFO root fetch - processPackages [django-bulk-signals]: executing diffoscope
+[2023-04-29 21:38:35] INFO root fetch - processPackages [django-bulk-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bulk-signals-0.3.0.tar.gz tmp/django-bulk-signals-0.4.0.tar.gz --markdown 20230429/d/django-bulk-signals/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 21:38:36] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-04-29 21:38:36] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-04-29 21:38:36] INFO root fetch - main [MainThread]: End processing [django-bulk-signals]: success
+[2023-04-29 21:38:36] INFO root fetch - main [MainThread]: Store serial: [17911910]
