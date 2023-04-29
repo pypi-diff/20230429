@@ -13393,3 +13393,30 @@
 [2023-04-29 22:05:59] INFO root fetch - main [MainThread]: End processing [nadir]: success
 [2023-04-29 22:06:12] INFO root fetch - main [MainThread]: End processing [selectolax]: success
 [2023-04-29 22:06:12] INFO root fetch - main [MainThread]: Store serial: [17912141]
+[2023-04-29 22:11:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912141]
+[2023-04-29 22:11:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 22:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: classy-imaginary
+[2023-04-29 22:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roberta-base-en-plant-ner-case-v1
+[2023-04-29 22:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: characterai
+[2023-04-29 22:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pathier
+[2023-04-29 22:11:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fpm
+[2023-04-29 22:11:21] INFO root fetch - processPackages [pathier]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-29 22:11:21] INFO root fetch - processPackages [fpm]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-29 22:11:21] INFO root fetch - processPackages [classy-imaginary]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-04-29 22:11:22] INFO root fetch - processPackages [characterai]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-29 22:11:22] WARNING root fetch - processPackages [roberta-base-en-plant-ner-case-v1]: Skipping, unable to determine old version
+[2023-04-29 22:11:22] INFO root fetch - main [MainThread]: End processing [roberta-base-en-plant-ner-case-v1] error
+[2023-04-29 22:11:22] INFO root fetch - processPackages [pathier]: executing diffoscope
+[2023-04-29 22:11:22] INFO root fetch - processPackages [pathier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathier-0.8.0.tar.gz tmp/pathier-0.9.0.tar.gz --markdown 20230429/p/pathier/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 22:11:22] INFO root fetch - processPackages [classy-imaginary]: executing diffoscope
+[2023-04-29 22:11:22] INFO root fetch - processPackages [classy-imaginary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classy_imaginary-0.5.6.tar.gz tmp/classy_imaginary-0.5.7.tar.gz --markdown 20230429/c/classy-imaginary/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-04-29 22:11:22] INFO root fetch - processPackages [fpm]: executing diffoscope
+[2023-04-29 22:11:22] INFO root fetch - processPackages [fpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpm-0.6.0.tar.gz tmp/fpm-0.7.0.tar.gz --markdown 20230429/f/fpm/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-29 22:11:22] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/d6/87/e0d8c8c167eb6f54220e2fab5bc9c5bb846bcac5d05ebabc0ccd56d0d231/characterai-0.2.7.tar.gz
+[2023-04-29 22:11:22] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2023-04-29 22:11:22] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.2.6.tar.gz tmp/characterai-0.2.7.tar.gz --markdown 20230429/c/characterai/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-29 22:11:23] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2023-04-29 22:11:23] INFO root fetch - main [MainThread]: End processing [pathier]: success
+[2023-04-29 22:11:24] INFO root fetch - main [MainThread]: End processing [classy-imaginary]: success
+[2023-04-29 22:11:27] INFO root fetch - main [MainThread]: End processing [fpm]: success
+[2023-04-29 22:11:27] INFO root fetch - main [MainThread]: Store serial: [17912180]
