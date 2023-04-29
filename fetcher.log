@@ -6865,3 +6865,44 @@
 [2023-04-29 10:46:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-04-29 10:46:48] INFO root fetch - main [MainThread]: End processing [smarts]: success
 [2023-04-29 10:46:48] INFO root fetch - main [MainThread]: Store serial: [17907615]
+[2023-04-29 10:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907615]
+[2023-04-29 10:52:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: merkleasy
+[2023-04-29 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timelessnesses-typed-env
+[2023-04-29 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webscrapbook
+[2023-04-29 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webscrapbook
+[2023-04-29 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remote-drawing-provider
+[2023-04-29 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyHanko
+[2023-04-29 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nlptoolssna
+[2023-04-29 10:52:11] INFO root fetch - processPackages [remote-drawing-provider]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 10:52:11] WARNING root fetch - processPackages [merkleasy]: Skipping, unable to determine old version
+[2023-04-29 10:52:11] INFO root fetch - main [MainThread]: End processing [merkleasy] error
+[2023-04-29 10:52:11] INFO root fetch - processPackages [pyHanko]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-29 10:52:11] WARNING root fetch - processPackages [timelessnesses-typed-env]: Skipping, unable to determine old version
+[2023-04-29 10:52:11] INFO root fetch - main [MainThread]: End processing [timelessnesses-typed-env] error
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-04-29 10:52:11] INFO root fetch - processPackages [nlptoolssna]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/6d/b8/c6bece5fb59a25e4d30eb65b74d6505d3cd315452e1a818b75591961d3ae/webscrapbook-1.8.3.tar.gz
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/6d/b8/c6bece5fb59a25e4d30eb65b74d6505d3cd315452e1a818b75591961d3ae/webscrapbook-1.8.3.tar.gz
+[2023-04-29 10:52:11] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/c9/80/3b67ffff574c9986e3aaff4150cffe73d99b8ad099519b339a4464b75d45/nlptoolssna-0.3.5.tar.gz
+[2023-04-29 10:52:11] INFO root fetch - processPackages [pyHanko]: executing diffoscope
+[2023-04-29 10:52:11] INFO root fetch - processPackages [pyHanko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyHanko-0.8.0.tar.gz tmp/pyHanko-0.9.0.tar.gz --markdown 20230429/p/pyHanko/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 10:52:11] INFO root fetch - processPackages [remote-drawing-provider]: Downloading https://files.pythonhosted.org/packages/74/83/526691bd55ed699e3f0bf615afa0116fd1947f70ce69aa47ed71cdb866f6/remote-drawing-provider-1.0.1.tar.gz
+[2023-04-29 10:52:11] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/1e/9f/ebdf3c36c74ca67dc7dad2c510596923f3aa4196feb8f10b82a8e60bd34d/nlptoolssna-0.3.6.tar.gz
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/2a/d1/521c8d93b8efe2c485da1fe9428113bf92df0b9a3683f5c0b6ae0c24d099/webscrapbook-1.9.0.tar.gz
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: Downloading https://files.pythonhosted.org/packages/2a/d1/521c8d93b8efe2c485da1fe9428113bf92df0b9a3683f5c0b6ae0c24d099/webscrapbook-1.9.0.tar.gz
+[2023-04-29 10:52:11] INFO root fetch - processPackages [remote-drawing-provider]: executing diffoscope
+[2023-04-29 10:52:11] INFO root fetch - processPackages [remote-drawing-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote-drawing-provider-1.0.0.tar.gz tmp/remote-drawing-provider-1.0.1.tar.gz --markdown 20230429/r/remote-drawing-provider/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 10:52:11] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-04-29 10:52:11] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.3.5.tar.gz tmp/nlptoolssna-0.3.6.tar.gz --markdown 20230429/n/nlptoolssna/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-1.8.3.tar.gz tmp/webscrapbook-1.9.0.tar.gz --markdown 20230429/w/webscrapbook/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-04-29 10:52:11] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-1.8.3.tar.gz tmp/webscrapbook-1.9.0.tar.gz --markdown 20230429/w/webscrapbook/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-04-29 10:52:12] INFO root fetch - main [MainThread]: End processing [remote-drawing-provider]: success
+[2023-04-29 10:52:13] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-04-29 10:52:13] INFO root fetch - main [MainThread]: End processing [pyHanko]: success
+[2023-04-29 10:52:13] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-04-29 10:52:13] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-04-29 10:52:13] INFO root fetch - main [MainThread]: Store serial: [17907646]
