@@ -12333,3 +12333,45 @@
 [2023-04-29 20:08:23] INFO root fetch - main [MainThread]: End processing [napari-clusters-plotter]: success
 [2023-04-29 20:08:23] INFO root fetch - main [MainThread]: End processing [typedspark]: success
 [2023-04-29 20:08:23] INFO root fetch - main [MainThread]: Store serial: [17911247]
+[2023-04-29 20:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911247]
+[2023-04-29 20:13:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 20:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: objectwalker
+[2023-04-29 20:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crossandra
+[2023-04-29 20:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invoke
+[2023-04-29 20:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamineml
+[2023-04-29 20:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-04-29 20:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: envoy.gpg.identity
+[2023-04-29 20:13:32] INFO root fetch - processPackages [crossandra]: New version: [2.0.0] Old Version: [1.3.0]
+[2023-04-29 20:13:32] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 20:13:32] INFO root fetch - processPackages [objectwalker]: New version: [2.1] Old Version: [2.0]
+[2023-04-29 20:13:32] INFO root fetch - processPackages [invoke]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-04-29 20:13:32] INFO root fetch - processPackages [kcli]: New version: [99.0.202304291812] Old Version: [99.0.202304291647]
+[2023-04-29 20:13:32] INFO root fetch - processPackages [envoy.gpg.identity]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 20:13:32] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/c0/b3/24a2ee834e3d82bee3bc595945d5e03a960070cefdeacfd94c8fb7739b30/lamineml-0.7.tar.gz
+[2023-04-29 20:13:32] INFO root fetch - processPackages [crossandra]: Downloading https://files.pythonhosted.org/packages/a3/47/7632cc7c3448d4a0ddd34087dfb5ce1b7adbac1c248b16f7536d59f3f457/crossandra-1.3.0.tar.gz
+[2023-04-29 20:13:32] INFO root fetch - processPackages [invoke]: Downloading https://files.pythonhosted.org/packages/b9/85/81bc06f5ea46fa3b711a28797ff5121be735af94e15a7579b6c7f1c43205/invoke-2.0.1.tar.gz
+[2023-04-29 20:13:32] INFO root fetch - processPackages [envoy.gpg.identity]: Downloading https://files.pythonhosted.org/packages/08/bd/8a430942a6c729ac441ce73e04551133453e5fce378da4691ab93fa1aef4/envoy.gpg.identity-0.1.0.tar.gz
+[2023-04-29 20:13:32] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a2/db/9c4657bf406754c7a3e53531455879fa295dbb67ab37562b6281af44cb4f/kcli-99.0.202304291812-py3-none-any.whl
+[2023-04-29 20:13:32] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-29 20:13:32] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304291647-py3-none-any.whl.zip tmp/kcli-99.0.202304291812-py3-none-any.whl.zip --markdown 20230429/k/kcli/99.0.202304291647-99.0.202304291812/diff.md --exclude *.pyd
+[2023-04-29 20:13:32] INFO root fetch - processPackages [objectwalker]: Downloading https://files.pythonhosted.org/packages/1c/b2/4051a6d4d08b9549042f4bbf70f16de6c336867907f209a1c1e2eabe469e/objectwalker-2.1.tar.gz
+[2023-04-29 20:13:32] INFO root fetch - processPackages [invoke]: executing diffoscope
+[2023-04-29 20:13:32] INFO root fetch - processPackages [invoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invoke-2.0.1.tar.gz tmp/invoke-2.1.0.tar.gz --markdown 20230429/i/invoke/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-04-29 20:13:32] INFO root fetch - processPackages [objectwalker]: executing diffoscope
+[2023-04-29 20:13:32] INFO root fetch - processPackages [objectwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectwalker-2.0.tar.gz tmp/objectwalker-2.1.tar.gz --markdown 20230429/o/objectwalker/2.0-2.1/diff.md --exclude *.pyd
+[2023-04-29 20:13:32] INFO root fetch - processPackages [crossandra]: Downloading https://files.pythonhosted.org/packages/73/fb/e08c8108b6dac3d419a347827ec21294710e5d9436dfa56f113a0e25539d/crossandra-2.0.0.tar.gz
+[2023-04-29 20:13:32] INFO root fetch - processPackages [envoy.gpg.identity]: Downloading https://files.pythonhosted.org/packages/ed/38/8cef329d10086539a978d88792406516b762d475eee646889fcb6341c383/envoy.gpg.identity-0.1.1.tar.gz
+[2023-04-29 20:13:32] INFO root fetch - processPackages [lamineml]: Downloading https://files.pythonhosted.org/packages/ec/b0/93c51873c5127a208b96fec770e3d7781931a74a860622b6e562a5d0a184/lamineml-0.8.tar.gz
+[2023-04-29 20:13:32] INFO root fetch - processPackages [crossandra]: executing diffoscope
+[2023-04-29 20:13:32] INFO root fetch - processPackages [crossandra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossandra-1.3.0.tar.gz tmp/crossandra-2.0.0.tar.gz --markdown 20230429/c/crossandra/1.3.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-29 20:13:32] INFO root fetch - processPackages [envoy.gpg.identity]: executing diffoscope
+[2023-04-29 20:13:32] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-04-29 20:13:32] INFO root fetch - processPackages [envoy.gpg.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoy.gpg.identity-0.1.0.tar.gz tmp/envoy.gpg.identity-0.1.1.tar.gz --markdown 20230429/e/envoy.gpg.identity/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 20:13:32] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230429/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 20:13:33] INFO root fetch - main [MainThread]: End processing [crossandra]: success
+[2023-04-29 20:13:33] INFO root fetch - main [MainThread]: End processing [objectwalker]: success
+[2023-04-29 20:13:34] INFO root fetch - main [MainThread]: End processing [envoy.gpg.identity]: success
+[2023-04-29 20:13:34] INFO root fetch - main [MainThread]: End processing [invoke]: success
+[2023-04-29 20:13:42] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-29 20:13:55] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-04-29 20:13:55] INFO root fetch - main [MainThread]: Store serial: [17911303]
