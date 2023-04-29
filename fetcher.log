@@ -4314,3 +4314,40 @@
 [2023-04-29 03:59:37] INFO root fetch - main [MainThread]: End processing [cluster-colors]: success
 [2023-04-29 03:59:38] INFO root fetch - main [MainThread]: End processing [pysnmp-lextudio]: success
 [2023-04-29 03:59:38] INFO root fetch - main [MainThread]: Store serial: [17906075]
+[2023-04-29 04:04:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906075]
+[2023-04-29 04:04:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gather-scrobble
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Catalyst-Lib
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: microgue
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: askedith
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ofscraper
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gqylpy-log
+[2023-04-29 04:04:47] INFO root fetch - processPackages [microgue]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 04:04:47] INFO root fetch - processPackages [gather-scrobble]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ofscraper]: New version: [1.83] Old Version: [1.82]
+[2023-04-29 04:04:47] INFO root fetch - processPackages [Catalyst-Lib]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 04:04:47] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-29 04:04:47] INFO root fetch - processPackages [gqylpy-log]: New version: [1.1] Old Version: [1.0.4]
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-04-29 04:04:47] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-1.82.tar.gz tmp/ofscraper-1.83.tar.gz --markdown 20230429/o/ofscraper/1.82-1.83/diff.md --exclude *.pyd
+[2023-04-29 04:04:47] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-04-29 04:04:47] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230429/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-29 04:04:47] ERROR root fetch - processPackages [gather-scrobble]: Unable to fetch info: No such project/version 'gather-scrobble' 0.0.2
+[2023-04-29 04:04:47] INFO root fetch - main [MainThread]: End processing [gather-scrobble] error
+[2023-04-29 04:04:47] INFO root fetch - processPackages [gqylpy-log]: Downloading https://files.pythonhosted.org/packages/9f/39/d589682b6fa5c4476ca059e4e37335ce8d51d99aa350bb477d28c2a5b46b/gqylpy_log-1.0.4.tar.gz
+[2023-04-29 04:04:47] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/c7/e9/6c84ee018bbfbfd2f4fc71dec412df98833ba7e063d803534cc531e6f470/Catalyst_Lib-0.1.2.tar.gz
+[2023-04-29 04:04:47] INFO root fetch - processPackages [microgue]: Downloading https://files.pythonhosted.org/packages/87/64/9366b30aac7880ab763fa3432a95093bed79f684fc70c6c56bbc061d4040/microgue-1.0.8.tar.gz
+[2023-04-29 04:04:48] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-04-29 04:04:48] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-04-29 04:04:48] INFO root fetch - processPackages [Catalyst-Lib]: executing diffoscope
+[2023-04-29 04:04:48] INFO root fetch - processPackages [Catalyst-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Catalyst_Lib-0.1.1.tar.gz tmp/Catalyst_Lib-0.1.2.tar.gz --markdown 20230429/C/Catalyst-Lib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 04:04:49] INFO root fetch - processPackages [microgue]: Downloading https://files.pythonhosted.org/packages/96/88/aac988d9a73bfefcffd28e68c295f26f1055fb3435c0a9bac906df3c0fce/microgue-1.0.9.tar.gz
+[2023-04-29 04:04:49] INFO root fetch - processPackages [gqylpy-log]: Downloading https://files.pythonhosted.org/packages/83/79/5d12624642fd6b80eb575ccbf6ff06247ee883b1dbef7ee2323e55f7af1f/gqylpy_log-1.1.tar.gz
+[2023-04-29 04:04:49] INFO root fetch - processPackages [gqylpy-log]: executing diffoscope
+[2023-04-29 04:04:49] INFO root fetch - processPackages [gqylpy-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_log-1.0.4.tar.gz tmp/gqylpy_log-1.1.tar.gz --markdown 20230429/g/gqylpy-log/1.0.4-1.1/diff.md --exclude *.pyd
+[2023-04-29 04:04:49] INFO root fetch - processPackages [microgue]: executing diffoscope
+[2023-04-29 04:04:49] INFO root fetch - processPackages [microgue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microgue-1.0.8.tar.gz tmp/microgue-1.0.9.tar.gz --markdown 20230429/m/microgue/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 04:04:50] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
+[2023-04-29 04:04:50] INFO root fetch - main [MainThread]: End processing [gqylpy-log]: success
+[2023-04-29 04:05:12] INFO root fetch - main [MainThread]: End processing [microgue]: success
+[2023-04-29 04:05:12] INFO root fetch - main [MainThread]: Store serial: [17906101]
