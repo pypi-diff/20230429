@@ -5879,3 +5879,33 @@
 [2023-04-29 08:03:59] INFO root fetch - main [MainThread]: End processing [allianceauth-site-claim]: success
 [2023-04-29 08:04:00] INFO root fetch - main [MainThread]: End processing [meme-generator]: success
 [2023-04-29 08:04:00] INFO root fetch - main [MainThread]: Store serial: [17907029]
+[2023-04-29 08:09:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907029]
+[2023-04-29 08:09:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 08:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bassmap
+[2023-04-29 08:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UzbekLemmatizer
+[2023-04-29 08:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2023-04-29 08:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gptop
+[2023-04-29 08:09:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acs-axiom
+[2023-04-29 08:09:09] INFO root fetch - processPackages [UzbekLemmatizer]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 08:09:09] INFO root fetch - processPackages [gptop]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-29 08:09:09] WARNING root fetch - processPackages [acs-axiom]: Skipping, unable to determine old version
+[2023-04-29 08:09:09] INFO root fetch - main [MainThread]: End processing [acs-axiom] error
+[2023-04-29 08:09:09] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230428] Old Version: [2.4.0.dev20230427]
+[2023-04-29 08:09:09] INFO root fetch - processPackages [bassmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 08:09:09] INFO root fetch - processPackages [bassmap]: executing diffoscope
+[2023-04-29 08:09:09] INFO root fetch - processPackages [bassmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bassmap-0.0.8.tar.gz tmp/bassmap-0.0.9.tar.gz --markdown 20230429/b/bassmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 08:09:09] INFO root fetch - processPackages [gptop]: Downloading https://files.pythonhosted.org/packages/eb/19/4d24cb600bbe2dfcb8fe0f45d0284e87ba6a8b8270016bfc9c62a94f3369/gptop-0.0.6.tar.gz
+[2023-04-29 08:09:09] INFO root fetch - processPackages [UzbekLemmatizer]: Downloading https://files.pythonhosted.org/packages/b2/c5/014de5ed1fbe44f2042901f5866157d942a73a0945bf9b4c18eef274c2da/UzbekLemmatizer-1.0.3.tar.gz
+[2023-04-29 08:09:09] INFO root fetch - processPackages [UzbekLemmatizer]: executing diffoscope
+[2023-04-29 08:09:09] INFO root fetch - processPackages [UzbekLemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzbekLemmatizer-1.0.2.tar.gz tmp/UzbekLemmatizer-1.0.3.tar.gz --markdown 20230429/U/UzbekLemmatizer/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 08:09:09] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/7e/dc/8e442080b7ea4036f7dbfe4db4ef9066c187fa889c8d25423c9a30974807/pyg-nightly-2.4.0.dev20230428.tar.gz
+[2023-04-29 08:09:09] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-04-29 08:09:09] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230427.tar.gz tmp/pyg-nightly-2.4.0.dev20230428.tar.gz --markdown 20230429/p/pyg-nightly/2.4.0.dev20230427-2.4.0.dev20230428/diff.md --exclude *.pyd
+[2023-04-29 08:09:09] INFO root fetch - processPackages [gptop]: Downloading https://files.pythonhosted.org/packages/fa/24/12a05846987bd3da2944850f9fda0456c65976a5755293b50536164264c9/gptop-0.0.7-py3-none-any.whl
+[2023-04-29 08:09:09] INFO root fetch - processPackages [gptop]: executing diffoscope
+[2023-04-29 08:09:09] INFO root fetch - processPackages [gptop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptop-0.0.6.tar.gz tmp/gptop-0.0.7-py3-none-any.whl.zip --markdown 20230429/g/gptop/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-29 08:09:10] INFO root fetch - main [MainThread]: End processing [bassmap]: success
+[2023-04-29 08:09:10] INFO root fetch - main [MainThread]: End processing [UzbekLemmatizer]: success
+[2023-04-29 08:09:10] INFO root fetch - main [MainThread]: End processing [gptop]: success
+[2023-04-29 08:09:14] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-04-29 08:09:14] INFO root fetch - main [MainThread]: Store serial: [17907045]
