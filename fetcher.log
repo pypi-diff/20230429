@@ -8186,3 +8186,46 @@
 [2023-04-29 13:10:07] INFO root fetch - main [MainThread]: End processing [blankimage]: success
 [2023-04-29 13:10:32] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-04-29 13:10:32] INFO root fetch - main [MainThread]: Store serial: [17908453]
+[2023-04-29 13:15:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908453]
+[2023-04-29 13:15:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymailers
+[2023-04-29 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-voice-assistant
+[2023-04-29 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WinTraceroute
+[2023-04-29 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepfloyd-if
+[2023-04-29 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rrrr
+[2023-04-29 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digitalAssistAnt
+[2023-04-29 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: balladeer
+[2023-04-29 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selfetch
+[2023-04-29 13:15:47] INFO root fetch - processPackages [pymailers]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-29 13:15:47] INFO root fetch - processPackages [WinTraceroute]: New version: [1.0.16] Old Version: [1.0.14]
+[2023-04-29 13:15:47] WARNING root fetch - processPackages [rrrr]: Skipping, unable to determine old version
+[2023-04-29 13:15:47] INFO root fetch - main [MainThread]: End processing [rrrr] error
+[2023-04-29 13:15:47] WARNING root fetch - processPackages [python-voice-assistant]: Skipping, unable to determine old version
+[2023-04-29 13:15:47] INFO root fetch - main [MainThread]: End processing [python-voice-assistant] error
+[2023-04-29 13:15:47] INFO root fetch - processPackages [digitalAssistAnt]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 13:15:47] INFO root fetch - processPackages [deepfloyd-if]: New version: [1.0.2rc0] Old Version: [1.0.1rc0]
+[2023-04-29 13:15:47] INFO root fetch - processPackages [balladeer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-29 13:15:47] WARNING root fetch - processPackages [selfetch]: Skipping, unable to determine old version
+[2023-04-29 13:15:47] INFO root fetch - main [MainThread]: End processing [selfetch] error
+[2023-04-29 13:15:47] INFO root fetch - processPackages [deepfloyd-if]: Downloading https://files.pythonhosted.org/packages/70/73/4beda3de2b41b84a5c4ee1a95d2c301b3476ef91279da85b25878d7e215d/deepfloyd_if-1.0.2rc0.tar.gz
+[2023-04-29 13:15:47] INFO root fetch - processPackages [digitalAssistAnt]: Downloading https://files.pythonhosted.org/packages/61/a9/a51ef542a4e3d8ab94f1808a64740683cd77379292a51fd6b89996d3f036/digitalAssistAnt-0.0.3.tar.gz
+[2023-04-29 13:15:47] INFO root fetch - processPackages [balladeer]: Downloading https://files.pythonhosted.org/packages/1f/43/53529d10bdca06dda5752947f24bf67b88cab69c060a37b9f5478ed74e8f/balladeer-0.8.0.tar.gz
+[2023-04-29 13:15:47] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/ac/e1/2d790d3d67d52f35ae0a14a8c2d1ca5dd61ed22222df0d0c38a150c5655d/WinTraceroute-1.0.16.tar.gz
+[2023-04-29 13:15:47] INFO root fetch - processPackages [deepfloyd-if]: executing diffoscope
+[2023-04-29 13:15:47] INFO root fetch - processPackages [deepfloyd-if]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfloyd_if-1.0.1rc0.tar.gz tmp/deepfloyd_if-1.0.2rc0.tar.gz --markdown 20230429/d/deepfloyd-if/1.0.1rc0-1.0.2rc0/diff.md --exclude *.pyd
+[2023-04-29 13:15:47] INFO root fetch - processPackages [digitalAssistAnt]: executing diffoscope
+[2023-04-29 13:15:47] INFO root fetch - processPackages [digitalAssistAnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalAssistAnt-0.0.2.tar.gz tmp/digitalAssistAnt-0.0.3.tar.gz --markdown 20230429/d/digitalAssistAnt/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 13:15:47] INFO root fetch - processPackages [pymailers]: Downloading https://files.pythonhosted.org/packages/59/e6/edc13ca300def2bdb40156728652ff452f2cbed0725d08182d0276c77852/pymailers-1.0.5.tar.gz
+[2023-04-29 13:15:47] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-04-29 13:15:47] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.0.14.tar.gz tmp/WinTraceroute-1.0.16.tar.gz --markdown 20230429/W/WinTraceroute/1.0.14-1.0.16/diff.md --exclude *.pyd
+[2023-04-29 13:15:47] INFO root fetch - processPackages [pymailers]: executing diffoscope
+[2023-04-29 13:15:47] INFO root fetch - processPackages [pymailers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymailers-1.0.4.tar.gz tmp/pymailers-1.0.5.tar.gz --markdown 20230429/p/pymailers/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-29 13:15:48] INFO root fetch - processPackages [balladeer]: Downloading https://files.pythonhosted.org/packages/0f/28/d422c06bc986a4f14c0e70b958a10c6d2d3617f2290ce9d0390ea5b7de2f/balladeer-0.9.0.tar.gz
+[2023-04-29 13:15:48] INFO root fetch - processPackages [balladeer]: executing diffoscope
+[2023-04-29 13:15:48] INFO root fetch - processPackages [balladeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balladeer-0.8.0.tar.gz tmp/balladeer-0.9.0.tar.gz --markdown 20230429/b/balladeer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 13:15:48] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
+[2023-04-29 13:15:48] INFO root fetch - main [MainThread]: End processing [digitalAssistAnt]: success
+[2023-04-29 13:15:49] INFO root fetch - main [MainThread]: End processing [deepfloyd-if]: success
+[2023-04-29 13:15:49] INFO root fetch - main [MainThread]: End processing [pymailers]: success
+[2023-04-29 13:15:49] INFO root fetch - main [MainThread]: End processing [balladeer]: success
+[2023-04-29 13:15:49] INFO root fetch - main [MainThread]: Store serial: [17908484]
