@@ -9355,3 +9355,46 @@
 [2023-04-29 15:11:48] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
 [2023-04-29 15:11:49] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
 [2023-04-29 15:11:49] INFO root fetch - main [MainThread]: Store serial: [17909223]
+[2023-04-29 15:16:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909223]
+[2023-04-29 15:16:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 15:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-04-29 15:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvfinal
+[2023-04-29 15:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expiringsqlitedict
+[2023-04-29 15:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-mylog
+[2023-04-29 15:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-django
+[2023-04-29 15:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-apl
+[2023-04-29 15:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blueskyapi
+[2023-04-29 15:16:58] WARNING root fetch - processPackages [cvfinal]: Skipping, unable to determine old version
+[2023-04-29 15:16:58] INFO root fetch - processPackages [python-mylog]: New version: [0.8.0b1] Old Version: [0.7.0]
+[2023-04-29 15:16:58] INFO root fetch - processPackages [expiringsqlitedict]: New version: [5.0.0] Old Version: [4.1.0]
+[2023-04-29 15:16:58] INFO root fetch - main [MainThread]: End processing [cvfinal] error
+[2023-04-29 15:16:58] INFO root fetch - processPackages [blueskyapi]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.743] Old Version: [0.0.742]
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230429/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230429/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 15:16:58] INFO root fetch - processPackages [expiringsqlitedict]: Downloading https://files.pythonhosted.org/packages/8f/2d/6086fec18b604477092ca0266245c3d7f24cf63cb9cd801c25d6a3f534f0/expiringsqlitedict-4.1.0.tar.gz
+[2023-04-29 15:16:58] INFO root fetch - processPackages [python-mylog]: Downloading https://files.pythonhosted.org/packages/7d/82/8970443de37e1e42ad9f08132ec57e4489b7e6264d8b7bb2862f0214b560/python-mylog-0.7.0.tar.gz
+[2023-04-29 15:16:58] INFO root fetch - processPackages [blueskyapi]: Downloading https://files.pythonhosted.org/packages/2f/27/02a48fad76aa3b3518dccfd002212c37b20e448ca9a9a5f73dd11fc60888/blueskyapi-0.1.5.tar.gz
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1e/38/65f596f8cc4cb08caed9490f9f821f47b5c6ef84f7a4dbae377352212646/nbdev-apl-0.0.743.tar.gz
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-29 15:16:58] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.742.tar.gz tmp/nbdev-apl-0.0.743.tar.gz --markdown 20230429/n/nbdev-apl/0.0.742-0.0.743/diff.md --exclude *.pyd
+[2023-04-29 15:16:58] INFO root fetch - processPackages [python-mylog]: Downloading https://files.pythonhosted.org/packages/1c/4a/1487f8a5309c3b38d8132f826c12ff9e3d5599c16d426b9d735168f5d324/python-mylog-0.8.0b1.tar.gz
+[2023-04-29 15:16:58] INFO root fetch - processPackages [blueskyapi]: Downloading https://files.pythonhosted.org/packages/55/c0/3487e3eb6eab8d4db1915f5fc5d20a330f04d971bc0ac8a8594250529da3/blueskyapi-0.2.0.tar.gz
+[2023-04-29 15:16:58] INFO root fetch - processPackages [expiringsqlitedict]: Downloading https://files.pythonhosted.org/packages/83/63/eb3fc50735c4db054ae91db7b2e4d5a735bea9ffbac095e46efaed277de4/expiringsqlitedict-5.0.0.tar.gz
+[2023-04-29 15:16:58] INFO root fetch - processPackages [blueskyapi]: executing diffoscope
+[2023-04-29 15:16:58] INFO root fetch - processPackages [blueskyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueskyapi-0.1.5.tar.gz tmp/blueskyapi-0.2.0.tar.gz --markdown 20230429/b/blueskyapi/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 15:16:58] INFO root fetch - processPackages [python-mylog]: executing diffoscope
+[2023-04-29 15:16:58] INFO root fetch - processPackages [python-mylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-mylog-0.7.0.tar.gz tmp/python-mylog-0.8.0b1.tar.gz --markdown 20230429/p/python-mylog/0.7.0-0.8.0b1/diff.md --exclude *.pyd
+[2023-04-29 15:16:58] INFO root fetch - processPackages [expiringsqlitedict]: executing diffoscope
+[2023-04-29 15:16:58] INFO root fetch - processPackages [expiringsqlitedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expiringsqlitedict-4.1.0.tar.gz tmp/expiringsqlitedict-5.0.0.tar.gz --markdown 20230429/e/expiringsqlitedict/4.1.0-5.0.0/diff.md --exclude *.pyd
+[2023-04-29 15:16:59] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-29 15:16:59] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-29 15:16:59] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-29 15:17:00] INFO root fetch - main [MainThread]: End processing [python-mylog]: success
+[2023-04-29 15:17:00] INFO root fetch - main [MainThread]: End processing [blueskyapi]: success
+[2023-04-29 15:17:00] INFO root fetch - main [MainThread]: End processing [expiringsqlitedict]: success
+[2023-04-29 15:17:00] INFO root fetch - main [MainThread]: Store serial: [17909248]
