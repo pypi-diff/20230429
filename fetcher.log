@@ -11508,3 +11508,37 @@
 [2023-04-29 18:36:39] INFO root fetch - main [MainThread]: End processing [databind.json]: success
 [2023-04-29 18:36:44] INFO root fetch - main [MainThread]: End processing [ory-kratos-client]: success
 [2023-04-29 18:36:44] INFO root fetch - main [MainThread]: Store serial: [17910761]
+[2023-04-29 18:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910761]
+[2023-04-29 18:41:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 18:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2023-04-29 18:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: highdicom
+[2023-04-29 18:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: malla
+[2023-04-29 18:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdfsyntax
+[2023-04-29 18:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feed-archiver
+[2023-04-29 18:41:53] INFO root fetch - processPackages [highdicom]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-29 18:41:53] INFO root fetch - processPackages [pdfsyntax]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-29 18:41:53] INFO root fetch - processPackages [malla]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 18:41:53] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 18:41:53] INFO root fetch - processPackages [feed-archiver]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-29 18:41:53] INFO root fetch - processPackages [pdfsyntax]: Downloading https://files.pythonhosted.org/packages/3a/99/c8ece0594a06d7656f8803943719914c498f2485054e814749d8b793d73f/pdfsyntax-0.0.5.tar.gz
+[2023-04-29 18:41:53] INFO root fetch - processPackages [highdicom]: Downloading https://files.pythonhosted.org/packages/14/4d/6f7718afc4ff0987ca50c77dd9588d0431f947e0cc7e4dadf2bae361efe2/highdicom-0.9.1.tar.gz
+[2023-04-29 18:41:53] INFO root fetch - processPackages [malla]: Downloading https://files.pythonhosted.org/packages/ff/78/aea819662f8dff5bc8bd386b313bde22d08e83f434431cb411505c3deec4/malla-0.1.2.tar.gz
+[2023-04-29 18:41:53] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-04-29 18:41:53] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230429/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 18:41:53] INFO root fetch - processPackages [malla]: executing diffoscope
+[2023-04-29 18:41:53] INFO root fetch - processPackages [malla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malla-0.1.1.tar.gz tmp/malla-0.1.2.tar.gz --markdown 20230429/m/malla/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 18:41:53] INFO root fetch - processPackages [feed-archiver]: Downloading https://files.pythonhosted.org/packages/95/cd/972cd8afd80e089af071b87a01db7c76497231ef0dcb0ecdc1cf82557392/feed-archiver-2.0.4.tar.gz
+[2023-04-29 18:41:53] INFO root fetch - processPackages [pdfsyntax]: Downloading https://files.pythonhosted.org/packages/0d/ab/3a3f550ef00448ec1062be49518b06ea47479ec33184088f35ad54c0c4b7/pdfsyntax-0.0.6.tar.gz
+[2023-04-29 18:41:53] INFO root fetch - processPackages [pdfsyntax]: executing diffoscope
+[2023-04-29 18:41:53] INFO root fetch - processPackages [pdfsyntax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfsyntax-0.0.5.tar.gz tmp/pdfsyntax-0.0.6.tar.gz --markdown 20230429/p/pdfsyntax/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-29 18:41:53] INFO root fetch - processPackages [highdicom]: Downloading https://files.pythonhosted.org/packages/8e/99/76f92109b11a1c28bbadee281e2a734ffb211198c474a505f7c7fbaf38d1/highdicom-0.9.2.tar.gz
+[2023-04-29 18:41:53] INFO root fetch - processPackages [feed-archiver]: executing diffoscope
+[2023-04-29 18:41:53] INFO root fetch - processPackages [feed-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feed-archiver-2.0.3.tar.gz tmp/feed-archiver-2.0.4.tar.gz --markdown 20230429/f/feed-archiver/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-29 18:41:54] INFO root fetch - processPackages [highdicom]: executing diffoscope
+[2023-04-29 18:41:54] INFO root fetch - processPackages [highdicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highdicom-0.9.1.tar.gz tmp/highdicom-0.9.2.tar.gz --markdown 20230429/h/highdicom/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-29 18:41:54] INFO root fetch - main [MainThread]: End processing [malla]: success
+[2023-04-29 18:41:54] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-04-29 18:41:55] INFO root fetch - main [MainThread]: End processing [pdfsyntax]: success
+[2023-04-29 18:41:56] INFO root fetch - main [MainThread]: End processing [highdicom]: success
+[2023-04-29 18:41:56] INFO root fetch - main [MainThread]: End processing [feed-archiver]: success
+[2023-04-29 18:41:56] INFO root fetch - main [MainThread]: Store serial: [17910780]
