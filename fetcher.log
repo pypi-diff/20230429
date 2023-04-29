@@ -4517,3 +4517,40 @@
 [2023-04-29 04:31:07] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-04-29 04:31:10] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-04-29 04:31:10] INFO root fetch - main [MainThread]: Store serial: [17906191]
+[2023-04-29 04:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906191]
+[2023-04-29 04:36:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SalamHunter
+[2023-04-29 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Catalyst-Lib
+[2023-04-29 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systempath
+[2023-04-29 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-game-collection
+[2023-04-29 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sutools
+[2023-04-29 04:36:19] INFO root fetch - processPackages [Catalyst-Lib]: New version: [0.5] Old Version: [0.4]
+[2023-04-29 04:36:19] INFO root fetch - processPackages [sutools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 04:36:19] INFO root fetch - processPackages [SalamHunter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 04:36:19] INFO root fetch - processPackages [systempath]: New version: [1.0a8] Old Version: [1.0.8]
+[2023-04-29 04:36:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-29 04:36:19] INFO root fetch - processPackages [systempath]: Downloading https://files.pythonhosted.org/packages/62/9a/a0443852c9c98e634af2afaf01e4867615b0396efa3c00cdc33471fbbef5/systempath-1.0.8-py3-none-any.whl
+[2023-04-29 04:36:19] INFO root fetch - processPackages [sutools]: Downloading https://files.pythonhosted.org/packages/0c/81/1b75e5e974e40507afc326310ebf6ef038a1fff9a3e17337ba3233aa73f2/sutools-0.1.1.tar.gz
+[2023-04-29 04:36:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/0d/24/b16baf29671b4dbae9d73360e37c659637e5aaaabc619bde3aa91b0108e4/nonebot_plugin_game_collection-2.1.0.tar.gz
+[2023-04-29 04:36:19] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/07/b6/f1849984e4b76591c415d3211332a25a0b296a845da1b9a2ecb038716013/Catalyst_Lib-0.5.tar.gz
+[2023-04-29 04:36:19] INFO root fetch - processPackages [SalamHunter]: Downloading https://files.pythonhosted.org/packages/ec/3e/8b2c4e7ed400c3556cd6474dfa9153f39573ca275c0f7b309bf69e8a4992/SalamHunter-0.0.8.tar.gz
+[2023-04-29 04:36:19] INFO root fetch - processPackages [Catalyst-Lib]: executing diffoscope
+[2023-04-29 04:36:19] INFO root fetch - processPackages [Catalyst-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Catalyst_Lib-0.4.tar.gz tmp/Catalyst_Lib-0.5.tar.gz --markdown 20230429/C/Catalyst-Lib/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-29 04:36:19] INFO root fetch - processPackages [systempath]: Downloading https://files.pythonhosted.org/packages/5b/bc/611934e160a19307b2fb112a066801478805258d04ba94d63eeac2b835f2/systempath-1.0a8-py3-none-any.whl
+[2023-04-29 04:36:19] INFO root fetch - processPackages [sutools]: Downloading https://files.pythonhosted.org/packages/20/0f/7cb92e9587008e2f77d363d1fc1554efa6342940bc7a2ba79369e621137f/sutools-0.1.2.tar.gz
+[2023-04-29 04:36:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/8e/32/57f660bc772f81865b39bd3e086d76a606064f9febe68d2a240907a3d095/nonebot_plugin_game_collection-2.1.1.tar.gz
+[2023-04-29 04:36:19] INFO root fetch - processPackages [systempath]: executing diffoscope
+[2023-04-29 04:36:19] INFO root fetch - processPackages [systempath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systempath-1.0.8-py3-none-any.whl.zip tmp/systempath-1.0a8-py3-none-any.whl.zip --markdown 20230429/s/systempath/1.0.8-1.0a8/diff.md --exclude *.pyd
+[2023-04-29 04:36:19] INFO root fetch - processPackages [SalamHunter]: Downloading https://files.pythonhosted.org/packages/be/7a/d3fa8204156c21149b20ef3d235c73cf59b2119f541607cb9992874d1764/SalamHunter-0.0.9.tar.gz
+[2023-04-29 04:36:19] INFO root fetch - processPackages [SalamHunter]: executing diffoscope
+[2023-04-29 04:36:19] INFO root fetch - processPackages [SalamHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SalamHunter-0.0.8.tar.gz tmp/SalamHunter-0.0.9.tar.gz --markdown 20230429/S/SalamHunter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 04:36:19] INFO root fetch - processPackages [sutools]: executing diffoscope
+[2023-04-29 04:36:19] INFO root fetch - processPackages [sutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sutools-0.1.1.tar.gz tmp/sutools-0.1.2.tar.gz --markdown 20230429/s/sutools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 04:36:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-04-29 04:36:19] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.0.tar.gz tmp/nonebot_plugin_game_collection-2.1.1.tar.gz --markdown 20230429/n/nonebot-plugin-game-collection/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-29 04:36:20] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
+[2023-04-29 04:36:20] INFO root fetch - main [MainThread]: End processing [SalamHunter]: success
+[2023-04-29 04:36:20] INFO root fetch - main [MainThread]: End processing [systempath]: success
+[2023-04-29 04:36:21] INFO root fetch - main [MainThread]: End processing [sutools]: success
+[2023-04-29 04:36:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-04-29 04:36:21] INFO root fetch - main [MainThread]: Store serial: [17906204]
