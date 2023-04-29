@@ -9300,3 +9300,58 @@
 [2023-04-29 15:06:37] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
 [2023-04-29 15:06:37] INFO root fetch - main [MainThread]: End processing [pyhtools]: success
 [2023-04-29 15:06:37] INFO root fetch - main [MainThread]: Store serial: [17909178]
+[2023-04-29 15:11:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909178]
+[2023-04-29 15:11:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-object-safety
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pandas
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rrrrr
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cv-final-ray
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pawnlib
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pytorch
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: katalytic-data
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ttttt
+[2023-04-29 15:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: WinTraceroute
+[2023-04-29 15:11:46] INFO root fetch - processPackages [pawnlib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 15:11:46] WARNING root fetch - processPackages [rrrrr]: Skipping, unable to determine old version
+[2023-04-29 15:11:46] INFO root fetch - processPackages [rrrrr]: Start processing: nbdev-scipy
+[2023-04-29 15:11:46] INFO root fetch - main [MainThread]: End processing [rrrrr] error
+[2023-04-29 15:11:46] INFO root fetch - processPackages [katalytic-data]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-29 15:11:46] INFO root fetch - processPackages [WinTraceroute]: New version: [1.0.16] Old Version: [1.0.14]
+[2023-04-29 15:11:46] INFO root fetch - processPackages [django-object-safety]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-29 15:11:46] WARNING root fetch - processPackages [cv-final-ray]: Skipping, unable to determine old version
+[2023-04-29 15:11:46] INFO root fetch - main [MainThread]: End processing [cv-final-ray] error
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 15:11:46] WARNING root fetch - processPackages [ttttt]: Skipping, unable to determine old version
+[2023-04-29 15:11:46] INFO root fetch - main [MainThread]: End processing [ttttt] error
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230429/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230429/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230429/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-29 15:11:46] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230429/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 15:11:46] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/8c/6a/a1f9bad87f22f3095882a0e922d5d2ce3776a4f5c8c6191bee21a1522d0e/pawnlib-1.0.4-py3-none-any.whl
+[2023-04-29 15:11:46] INFO root fetch - processPackages [django-object-safety]: Downloading https://files.pythonhosted.org/packages/83/cc/c5b2e8653b98b68eb38bd45e372f63028c67d92ad1de300e0413f46d1570/django_object_safety-1.2.1.tar.gz
+[2023-04-29 15:11:46] INFO root fetch - processPackages [katalytic-data]: Downloading https://files.pythonhosted.org/packages/b1/02/305405f507d2dfc6e1e423f5a35caf2483245fdd6f3fd2f990ff0622081e/katalytic-data-0.5.1.tar.gz
+[2023-04-29 15:11:46] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-04-29 15:11:46] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.0.14.tar.gz tmp/WinTraceroute-1.0.16.tar.gz --markdown 20230429/W/WinTraceroute/1.0.14-1.0.16/diff.md --exclude *.pyd
+[2023-04-29 15:11:46] INFO root fetch - processPackages [django-object-safety]: executing diffoscope
+[2023-04-29 15:11:46] INFO root fetch - processPackages [django-object-safety]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_object_safety-1.2.0.tar.gz tmp/django_object_safety-1.2.1.tar.gz --markdown 20230429/d/django-object-safety/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-29 15:11:46] INFO root fetch - processPackages [katalytic-data]: executing diffoscope
+[2023-04-29 15:11:46] INFO root fetch - processPackages [katalytic-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/katalytic-data-0.5.0.tar.gz tmp/katalytic-data-0.5.1.tar.gz --markdown 20230429/k/katalytic-data/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-29 15:11:46] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-29 15:11:46] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.3-py3-none-any.whl.zip tmp/pawnlib-1.0.4-py3-none-any.whl.zip --markdown 20230429/p/pawnlib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 15:11:47] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-29 15:11:48] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-29 15:11:48] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-29 15:11:48] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
+[2023-04-29 15:11:48] INFO root fetch - main [MainThread]: End processing [django-object-safety]: success
+[2023-04-29 15:11:48] INFO root fetch - main [MainThread]: End processing [katalytic-data]: success
+[2023-04-29 15:11:48] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-29 15:11:49] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-29 15:11:49] INFO root fetch - main [MainThread]: Store serial: [17909223]
