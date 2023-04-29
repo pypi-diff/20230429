@@ -5684,3 +5684,23 @@
 [2023-04-29 07:31:33] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec]: success
 [2023-04-29 07:31:33] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
 [2023-04-29 07:31:33] INFO root fetch - main [MainThread]: Store serial: [17906884]
+[2023-04-29 07:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906884]
+[2023-04-29 07:36:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-29 07:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scinode
+[2023-04-29 07:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bycon
+[2023-04-29 07:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: applying-cli
+[2023-04-29 07:36:41] INFO root fetch - processPackages [applying-cli]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 07:36:41] WARNING root fetch - processPackages [scinode]: Skipping, unable to determine old version
+[2023-04-29 07:36:41] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 07:36:41] INFO root fetch - main [MainThread]: End processing [scinode] error
+[2023-04-29 07:36:42] INFO root fetch - processPackages [applying-cli]: Downloading https://files.pythonhosted.org/packages/34/10/12663327cbfedc5d7c3648aae0a6cf7cd0db668df927b3d04bb8abeeaef9/applying-cli-0.0.2.tar.gz
+[2023-04-29 07:36:42] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-04-29 07:36:42] INFO root fetch - processPackages [applying-cli]: Downloading https://files.pythonhosted.org/packages/95/15/c3376e132a9353192c9b5a1686bd9d20fefcfade01149916ffbda839afea/applying-cli-0.0.3.tar.gz
+[2023-04-29 07:36:42] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-04-29 07:36:42] INFO root fetch - processPackages [applying-cli]: executing diffoscope
+[2023-04-29 07:36:42] INFO root fetch - processPackages [applying-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applying-cli-0.0.2.tar.gz tmp/applying-cli-0.0.3.tar.gz --markdown 20230429/a/applying-cli/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 07:36:42] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-04-29 07:36:42] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230429/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 07:36:43] INFO root fetch - main [MainThread]: End processing [applying-cli]: success
+[2023-04-29 07:36:47] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-04-29 07:36:47] INFO root fetch - main [MainThread]: Store serial: [17906900]
