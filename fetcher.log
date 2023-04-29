@@ -13163,3 +13163,34 @@
 [2023-04-29 21:28:09] INFO root fetch - main [MainThread]: End processing [idds-website]: success
 [2023-04-29 21:28:13] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
 [2023-04-29 21:28:13] INFO root fetch - main [MainThread]: Store serial: [17911881]
+[2023-04-29 21:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911881]
+[2023-04-29 21:33:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 21:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamachine
+[2023-04-29 21:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simc-support
+[2023-04-29 21:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py23crypt
+[2023-04-29 21:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remindmail
+[2023-04-29 21:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gen-odoo-readme
+[2023-04-29 21:33:24] INFO root fetch - processPackages [remindmail]: New version: [2023.4.29.1] Old Version: [2023.4.2.2]
+[2023-04-29 21:33:24] WARNING root fetch - processPackages [py23crypt]: Skipping, unable to determine old version
+[2023-04-29 21:33:24] INFO root fetch - main [MainThread]: End processing [py23crypt] error
+[2023-04-29 21:33:24] INFO root fetch - processPackages [datamachine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 21:33:24] INFO root fetch - processPackages [simc-support]: New version: [9.2.5.3] Old Version: [9.2.5.2]
+[2023-04-29 21:33:24] INFO root fetch - processPackages [gen-odoo-readme]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 21:33:24] INFO root fetch - processPackages [gen-odoo-readme]: executing diffoscope
+[2023-04-29 21:33:24] INFO root fetch - processPackages [gen-odoo-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen-odoo-readme-1.0.8.tar.gz tmp/gen-odoo-readme-1.0.9.tar.gz --markdown 20230429/g/gen-odoo-readme/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 21:33:24] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/e1/0c/1cd678261f3a8aa4dcabfc8e1f136bbffd22de93015aee361d818b7f868f/remindmail-2023.4.2.2.tar.gz
+[2023-04-29 21:33:24] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/f2/2a/7c51939ccb108431387a296bc5c850bc5de94d88f9f5349f20368b0d95e5/simc_support-9.2.5.2.tar.gz
+[2023-04-29 21:33:24] INFO root fetch - processPackages [datamachine]: Downloading https://files.pythonhosted.org/packages/a1/5f/66e116764a58dbdc3920057f9deea6c32eb1d1b63f429442b15e765cccbc/datamachine-0.0.9.tar.gz
+[2023-04-29 21:33:24] INFO root fetch - processPackages [datamachine]: executing diffoscope
+[2023-04-29 21:33:24] INFO root fetch - processPackages [datamachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamachine-0.0.8.tar.gz tmp/datamachine-0.0.9.tar.gz --markdown 20230429/d/datamachine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 21:33:24] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/ba/5c/2d75a53f788e7c4a730c1e2aad2c607e9f6de0ef8f31cedba4cc2b9e497a/remindmail-2023.4.29.1.tar.gz
+[2023-04-29 21:33:24] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-04-29 21:33:24] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.2.2.tar.gz tmp/remindmail-2023.4.29.1.tar.gz --markdown 20230429/r/remindmail/2023.4.2.2-2023.4.29.1/diff.md --exclude *.pyd
+[2023-04-29 21:33:24] INFO root fetch - processPackages [simc-support]: Downloading https://files.pythonhosted.org/packages/7f/f2/94679bd3aff7cfce75541c456a83745c5be1b451e014726a9dceb888be9e/simc_support-9.2.5.3.tar.gz
+[2023-04-29 21:33:24] INFO root fetch - processPackages [simc-support]: executing diffoscope
+[2023-04-29 21:33:24] INFO root fetch - processPackages [simc-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simc_support-9.2.5.2.tar.gz tmp/simc_support-9.2.5.3.tar.gz --markdown 20230429/s/simc-support/9.2.5.2-9.2.5.3/diff.md --exclude *.pyd
+[2023-04-29 21:33:25] INFO root fetch - main [MainThread]: End processing [datamachine]: success
+[2023-04-29 21:33:25] INFO root fetch - main [MainThread]: End processing [gen-odoo-readme]: success
+[2023-04-29 21:33:25] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-04-29 21:33:26] INFO root fetch - main [MainThread]: End processing [simc-support]: success
+[2023-04-29 21:33:26] INFO root fetch - main [MainThread]: Store serial: [17911897]
