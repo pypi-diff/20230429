@@ -10480,3 +10480,75 @@
 [2023-04-29 17:11:31] INFO root fetch - processPackages [batdetect2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batdetect2-1.0.1.tar.gz tmp/batdetect2-1.0.2.tar.gz --markdown 20230429/b/batdetect2/1.0.1-1.0.2/diff.md --exclude *.pyd
 [2023-04-29 17:11:33] INFO root fetch - main [MainThread]: End processing [batdetect2]: success
 [2023-04-29 17:11:33] INFO root fetch - main [MainThread]: Store serial: [17910067]
+[2023-04-29 17:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910067]
+[2023-04-29 17:16:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MKN-third-codes
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cml2
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cogsgpt
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starter-py
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-aiofiles
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-hdbcli
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-chardet
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-docutils
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-beautifulsoup4
+[2023-04-29 17:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vtece4564-websockets
+[2023-04-29 17:16:42] INFO root fetch - processPackages [cogsgpt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 17:16:42] WARNING root fetch - processPackages [django-cml2]: Skipping, unable to determine old version
+[2023-04-29 17:16:42] INFO root fetch - processPackages [django-cml2]: Start processing: python3-cyberfusion-borg-support
+[2023-04-29 17:16:42] INFO root fetch - main [MainThread]: End processing [django-cml2] error
+[2023-04-29 17:16:42] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.3.1] Old Version: [0.2.5]
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-chardet]: New version: [5.0.4.5] Old Version: [5.0.4.4]
+[2023-04-29 17:16:42] WARNING root fetch - processPackages [starter-py]: Skipping, unable to determine old version
+[2023-04-29 17:16:42] INFO root fetch - processPackages [starter-py]: Start processing: hikaru
+[2023-04-29 17:16:42] INFO root fetch - main [MainThread]: End processing [starter-py] error
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-aiofiles]: New version: [23.1.0.2] Old Version: [23.1.0.1]
+[2023-04-29 17:16:42] INFO root fetch - processPackages [vtece4564-websockets]: New version: [11.0.2.post2] Old Version: [11.0.2.post1]
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-hdbcli]: New version: [2.16.0.0] Old Version: [2.15.0.4]
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-beautifulsoup4]: New version: [4.9.4] Old Version: [4.9.3]
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-docutils]: New version: [0.19.1.8] Old Version: [0.19.1.7]
+[2023-04-29 17:16:42] WARNING root fetch - processPackages [python3-cyberfusion-borg-support]: Skipping, unable to determine old version
+[2023-04-29 17:16:42] INFO root fetch - main [MainThread]: End processing [python3-cyberfusion-borg-support] error
+[2023-04-29 17:16:42] INFO root fetch - processPackages [hikaru]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 17:16:42] INFO root fetch - processPackages [cogsgpt]: Downloading https://files.pythonhosted.org/packages/ab/cb/744adee1339467c5a46c6e54208758c3b55041a77d01d12ebf2233466f69/cogsgpt-0.0.5.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-aiofiles]: Downloading https://files.pythonhosted.org/packages/f1/23/f77852509bd45121ffdb80c23a2cb1b71cb0916610e0a7f806123e46f177/types-aiofiles-23.1.0.1.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-chardet]: Downloading https://files.pythonhosted.org/packages/a1/42/67e01604a34af2f90e72fa80572347bec24740f4f2e0fa437068b7f09352/types-chardet-5.0.4.4.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-beautifulsoup4]: Downloading https://files.pythonhosted.org/packages/15/f8/3da169b5dd53dd9d049f73571650290670edcf2e1d8ee7bbf0fa6997dad5/types-beautifulsoup4-4.9.3.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [vtece4564-websockets]: Downloading https://files.pythonhosted.org/packages/ce/12/5b71f95118c0006527a034458c7e7642c76754fdb8e00a75c65b8ad97e3a/vtece4564-websockets-11.0.2.post1.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-docutils]: Downloading https://files.pythonhosted.org/packages/d4/d1/eb1e04486244ab59079fa586796fa790613eae89bbfe8f77313c88b6d9e1/types-docutils-0.19.1.7.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [hikaru]: Downloading https://files.pythonhosted.org/packages/9c/90/5ddeb5d904a28a45286548f2ab06b1b28e9a856efc3907a6748d0e6683b6/hikaru-1.0.0-py3-none-any.whl
+[2023-04-29 17:16:42] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/b5/c1/4161bb987aadae30ab70b57e5b1fbbb677ff001513951f04c3526eb59c34/MKN_third_codes-0.3.1.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [cogsgpt]: executing diffoscope
+[2023-04-29 17:16:42] INFO root fetch - processPackages [cogsgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogsgpt-0.0.4.tar.gz tmp/cogsgpt-0.0.5.tar.gz --markdown 20230429/c/cogsgpt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-hdbcli]: Downloading https://files.pythonhosted.org/packages/85/c9/08e3a943500ba0b38498147b8aff061a25db97bb91e2a7681e1df85c1dcb/types-hdbcli-2.16.0.0.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-chardet]: Downloading https://files.pythonhosted.org/packages/34/1e/f337ce41d6cf2236d7fd11ecd455d5402f16e6f66485c7cd4e028c8f537e/types-chardet-5.0.4.5.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 17:16:42] INFO root fetch - processPackages [vtece4564-websockets]: Downloading https://files.pythonhosted.org/packages/5b/e9/a0f57c48afd389da635cffdd50e95ee4a4f367c09d427fb18bd95b1d9550/vtece4564-websockets-11.0.2.post2.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.2.5.tar.gz tmp/MKN_third_codes-0.3.1.tar.gz --markdown 20230429/M/MKN-third-codes/0.2.5-0.3.1/diff.md --exclude *.pyd
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-aiofiles]: Downloading https://files.pythonhosted.org/packages/3f/9f/2bf6540f140e7d56d4500709add97976b93be990602e332ed722c75daad8/types-aiofiles-23.1.0.2.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-docutils]: Downloading https://files.pythonhosted.org/packages/59/3b/3f08a5fd5ad9aedf7bad0e67f7029cddfca14bcc27b431a9238ad8a5dd37/types-docutils-0.19.1.8.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-hdbcli]: executing diffoscope
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-hdbcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-hdbcli-2.15.0.4.tar.gz tmp/types-hdbcli-2.16.0.0.tar.gz --markdown 20230429/t/types-hdbcli/2.15.0.4-2.16.0.0/diff.md --exclude *.pyd
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-beautifulsoup4]: Downloading https://files.pythonhosted.org/packages/df/c7/11c3c1c5b6d81abb604ab3c208e797821b60876c14633ecbcffc6a3da730/types-beautifulsoup4-4.9.4.tar.gz
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-chardet]: executing diffoscope
+[2023-04-29 17:16:42] INFO root fetch - processPackages [types-chardet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-chardet-5.0.4.4.tar.gz tmp/types-chardet-5.0.4.5.tar.gz --markdown 20230429/t/types-chardet/5.0.4.4-5.0.4.5/diff.md --exclude *.pyd
+[2023-04-29 17:16:43] INFO root fetch - processPackages [vtece4564-websockets]: executing diffoscope
+[2023-04-29 17:16:43] INFO root fetch - processPackages [vtece4564-websockets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-websockets-11.0.2.post1.tar.gz tmp/vtece4564-websockets-11.0.2.post2.tar.gz --markdown 20230429/v/vtece4564-websockets/11.0.2.post1-11.0.2.post2/diff.md --exclude *.pyd
+[2023-04-29 17:16:43] INFO root fetch - processPackages [types-aiofiles]: executing diffoscope
+[2023-04-29 17:16:43] INFO root fetch - processPackages [types-aiofiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiofiles-23.1.0.1.tar.gz tmp/types-aiofiles-23.1.0.2.tar.gz --markdown 20230429/t/types-aiofiles/23.1.0.1-23.1.0.2/diff.md --exclude *.pyd
+[2023-04-29 17:16:43] INFO root fetch - processPackages [types-docutils]: executing diffoscope
+[2023-04-29 17:16:43] INFO root fetch - processPackages [types-docutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docutils-0.19.1.7.tar.gz tmp/types-docutils-0.19.1.8.tar.gz --markdown 20230429/t/types-docutils/0.19.1.7-0.19.1.8/diff.md --exclude *.pyd
+[2023-04-29 17:16:43] INFO root fetch - processPackages [types-beautifulsoup4]: executing diffoscope
+[2023-04-29 17:16:43] INFO root fetch - processPackages [types-beautifulsoup4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-beautifulsoup4-4.9.3.tar.gz tmp/types-beautifulsoup4-4.9.4.tar.gz --markdown 20230429/t/types-beautifulsoup4/4.9.3-4.9.4/diff.md --exclude *.pyd
+[2023-04-29 17:16:43] INFO root fetch - processPackages [hikaru]: Downloading https://files.pythonhosted.org/packages/c6/db/22107d3021599d8fc4c9d0856d39ff2ecda0aaaeed7ebb02c3b36d3f3542/hikaru-1.0.1-py3-none-any.whl
+[2023-04-29 17:16:43] INFO root fetch - processPackages [hikaru]: executing diffoscope
+[2023-04-29 17:16:43] INFO root fetch - processPackages [hikaru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikaru-1.0.0-py3-none-any.whl.zip tmp/hikaru-1.0.1-py3-none-any.whl.zip --markdown 20230429/h/hikaru/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [cogsgpt]: success
+[2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [types-hdbcli]: success
+[2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [types-chardet]: success
+[2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [vtece4564-websockets]: success
+[2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [types-beautifulsoup4]: success
+[2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [types-aiofiles]: success
+[2023-04-29 17:16:44] INFO root fetch - main [MainThread]: End processing [types-docutils]: success
+[2023-04-29 17:16:46] INFO root fetch - main [MainThread]: End processing [hikaru]: success
+[2023-04-29 17:16:46] INFO root fetch - main [MainThread]: Store serial: [17910163]
