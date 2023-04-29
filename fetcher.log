@@ -5026,3 +5026,31 @@
 [2023-04-29 05:42:16] INFO root fetch - processPackages [django-medicio-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-medicio_ds-1.1.0.tar.gz tmp/django-medicio_ds-1.2.0.tar.gz --markdown 20230429/d/django-medicio-ds/1.1.0-1.2.0/diff.md --exclude *.pyd
 [2023-04-29 05:42:19] INFO root fetch - main [MainThread]: End processing [django-medicio-ds]: success
 [2023-04-29 05:42:19] INFO root fetch - main [MainThread]: Store serial: [17906448]
+[2023-04-29 05:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906448]
+[2023-04-29 05:47:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adsb-tools
+[2023-04-29 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xeda
+[2023-04-29 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: requirementslib
+[2023-04-29 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-ddmrp
+[2023-04-29 05:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nycu-tdx-py
+[2023-04-29 05:47:28] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-04-29 05:47:28] INFO root fetch - processPackages [adsb-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 05:47:28] INFO root fetch - processPackages [xeda]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-29 05:47:28] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 05:47:28] INFO root fetch - processPackages [requirementslib]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-04-29 05:47:28] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-04-29 05:47:28] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-04-29 05:47:28] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-29 05:47:28] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230429/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 05:47:28] INFO root fetch - processPackages [requirementslib]: executing diffoscope
+[2023-04-29 05:47:28] INFO root fetch - processPackages [requirementslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirementslib-2.2.5.tar.gz tmp/requirementslib-2.2.6.tar.gz --markdown 20230429/r/requirementslib/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-04-29 05:47:28] INFO root fetch - processPackages [xeda]: Downloading https://files.pythonhosted.org/packages/ba/12/78ddca18a75b9457e3ac65e5df65472164095d16c4115a59579dee1a518e/xeda-0.2.2.tar.gz
+[2023-04-29 05:47:28] INFO root fetch - processPackages [adsb-tools]: executing diffoscope
+[2023-04-29 05:47:28] INFO root fetch - processPackages [adsb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsb_tools-0.1.8.tar.gz tmp/adsb_tools-0.1.9.tar.gz --markdown 20230429/a/adsb-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 05:47:29] WARNING root fetch - processPackages [xeda]: Skipping package: exceeds size limit 35038157>=10485760
+[2023-04-29 05:47:29] INFO root fetch - main [MainThread]: End processing [xeda] error
+[2023-04-29 05:47:29] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-29 05:47:30] INFO root fetch - main [MainThread]: End processing [adsb-tools]: success
+[2023-04-29 05:47:30] INFO root fetch - main [MainThread]: End processing [requirementslib]: success
+[2023-04-29 05:47:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-04-29 05:47:30] INFO root fetch - main [MainThread]: Store serial: [17906464]
