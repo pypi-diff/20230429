@@ -13455,3 +13455,65 @@
 [2023-04-29 22:16:38] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
 [2023-04-29 22:16:39] INFO root fetch - main [MainThread]: End processing [mitzu]: success
 [2023-04-29 22:16:39] INFO root fetch - main [MainThread]: Store serial: [17912203]
+[2023-04-29 22:21:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912203]
+[2023-04-29 22:21:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aim
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tryceratops
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynacode
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: noteslib
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aa-simplewiki
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyosrs
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyosrs
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tappy
+[2023-04-29 22:21:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-04-29 22:21:48] INFO root fetch - processPackages [aa-simplewiki]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-04-29 22:21:48] WARNING root fetch - processPackages [pyosrs]: Skipping, unable to determine old version
+[2023-04-29 22:21:48] INFO root fetch - processPackages [pyosrs]: Start processing: mynacode
+[2023-04-29 22:21:48] INFO root fetch - main [MainThread]: End processing [pyosrs] error
+[2023-04-29 22:21:48] INFO root fetch - processPackages [noteslib]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-29 22:21:48] WARNING root fetch - processPackages [pyosrs]: Skipping, unable to determine old version
+[2023-04-29 22:21:48] INFO root fetch - processPackages [tryceratops]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-04-29 22:21:48] INFO root fetch - main [MainThread]: End processing [pyosrs] error
+[2023-04-29 22:21:48] INFO root fetch - processPackages [mynacode]: New version: [1.0.90] Old Version: [1.0.89]
+[2023-04-29 22:21:48] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev4] Old Version: [4.0.0.dev3]
+[2023-04-29 22:21:48] INFO root fetch - processPackages [mynacode]: New version: [1.0.90] Old Version: [1.0.89]
+[2023-04-29 22:21:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-29 22:21:48] INFO root fetch - processPackages [tappy]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-29 22:21:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-29 22:21:48] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/2c/60/bf1c269e7ad81ccd660761b83fa82ecc4d0fa03ea161d7b3521bebbdc8cc/mynacode-1.0.90-py3-none-any.whl
+[2023-04-29 22:21:48] INFO root fetch - processPackages [tryceratops]: Downloading https://files.pythonhosted.org/packages/0f/44/06781b5706ae3c685bc09fd63528151cf58ce36ee23a120153d07bc681ca/tryceratops-2.0.0.tar.gz
+[2023-04-29 22:21:48] INFO root fetch - processPackages [noteslib]: Downloading https://files.pythonhosted.org/packages/ab/d8/f8161436b0f943819eafe3edd5783d2ff38e740349e8e1a75b187255c24c/noteslib-2.1.0.tar.gz
+[2023-04-29 22:21:48] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/2c/60/bf1c269e7ad81ccd660761b83fa82ecc4d0fa03ea161d7b3521bebbdc8cc/mynacode-1.0.90-py3-none-any.whl
+[2023-04-29 22:21:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-29 22:21:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230429/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-29 22:21:48] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-29 22:21:48] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230429/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-29 22:21:48] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 22:21:48] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 22:21:48] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.89-py3-none-any.whl.zip tmp/mynacode-1.0.90-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.89-1.0.90/diff.md --exclude *.pyd
+[2023-04-29 22:21:48] INFO root fetch - processPackages [tryceratops]: executing diffoscope
+[2023-04-29 22:21:48] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.89-py3-none-any.whl.zip tmp/mynacode-1.0.90-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.89-1.0.90/diff.md --exclude *.pyd
+[2023-04-29 22:21:48] INFO root fetch - processPackages [tryceratops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryceratops-1.2.0.tar.gz tmp/tryceratops-2.0.0.tar.gz --markdown 20230429/t/tryceratops/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-29 22:21:48] INFO root fetch - processPackages [tappy]: Downloading https://files.pythonhosted.org/packages/29/e6/083f9728525134cadc1070a0dec03e803147d17b3e74a38098a7660e735f/tappy-0.9.5.tar.gz
+[2023-04-29 22:21:48] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/06/de/bd820f0cb777fa38383cdbc154df96c8b82b3d4a47d2097796eca64e986f/aa-simplewiki-1.0.0.tar.gz
+[2023-04-29 22:21:48] INFO root fetch - processPackages [aa-simplewiki]: executing diffoscope
+[2023-04-29 22:21:48] INFO root fetch - processPackages [aa-simplewiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-simplewiki-0.0.2.tar.gz tmp/aa-simplewiki-1.0.0.tar.gz --markdown 20230429/a/aa-simplewiki/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-29 22:21:48] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-04-29 22:21:48] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev3.tar.gz tmp/aim-4.0.0.dev4.tar.gz --markdown 20230429/a/aim/4.0.0.dev3-4.0.0.dev4/diff.md --exclude *.pyd
+[2023-04-29 22:21:48] INFO root fetch - processPackages [noteslib]: Downloading https://files.pythonhosted.org/packages/fc/15/cb3e7dc80a7ef432ccd6b1293342c831397316638e9b65666f2d949bb5a7/noteslib-2.1.1.tar.gz
+[2023-04-29 22:21:48] INFO root fetch - processPackages [noteslib]: executing diffoscope
+[2023-04-29 22:21:48] INFO root fetch - processPackages [noteslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteslib-2.1.0.tar.gz tmp/noteslib-2.1.1.tar.gz --markdown 20230429/n/noteslib/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-29 22:21:49] INFO root fetch - processPackages [tappy]: Downloading https://files.pythonhosted.org/packages/65/89/3ad9f2b2eeada5a0c57ec188bd35e313f4e76cea701ed2b23c5336d48403/tappy-0.9.6.tar.gz
+[2023-04-29 22:21:49] INFO root fetch - processPackages [tappy]: executing diffoscope
+[2023-04-29 22:21:49] INFO root fetch - processPackages [tappy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tappy-0.9.5.tar.gz tmp/tappy-0.9.6.tar.gz --markdown 20230429/t/tappy/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-29 22:21:49] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 22:21:50] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 22:21:50] INFO root fetch - main [MainThread]: End processing [noteslib]: success
+[2023-04-29 22:21:50] INFO root fetch - main [MainThread]: End processing [tryceratops]: success
+[2023-04-29 22:21:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-29 22:21:50] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-29 22:21:50] INFO root fetch - main [MainThread]: End processing [tappy]: success
+[2023-04-29 22:21:51] INFO root fetch - main [MainThread]: End processing [aa-simplewiki]: success
+[2023-04-29 22:21:59] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-04-29 22:21:59] INFO root fetch - main [MainThread]: Store serial: [17912246]
