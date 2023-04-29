@@ -6107,3 +6107,30 @@
 [2023-04-29 08:35:30] INFO root fetch - main [MainThread]: End processing [python-weather]: success
 [2023-04-29 08:35:31] INFO root fetch - main [MainThread]: End processing [clueai]: success
 [2023-04-29 08:35:31] INFO root fetch - main [MainThread]: Store serial: [17907145]
+[2023-04-29 08:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907145]
+[2023-04-29 08:40:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 08:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bmkg
+[2023-04-29 08:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-sale-workflow
+[2023-04-29 08:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clueai
+[2023-04-29 08:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qq.py
+[2023-04-29 08:40:40] INFO root fetch - processPackages [bmkg]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 08:40:40] INFO root fetch - processPackages [clueai]: New version: [0.0.2.2.6] Old Version: [0.0.2.2.5]
+[2023-04-29 08:40:40] INFO root fetch - processPackages [qq.py]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-29 08:40:40] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230428.0] Old Version: [16.0.20230420.0]
+[2023-04-29 08:40:41] INFO root fetch - processPackages [qq.py]: executing diffoscope
+[2023-04-29 08:40:41] INFO root fetch - processPackages [qq.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qq.py-1.2.7.tar.gz tmp/qq.py-1.2.8.tar.gz --markdown 20230429/q/qq.py/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 08:40:41] INFO root fetch - processPackages [clueai]: Downloading https://files.pythonhosted.org/packages/7c/9c/67cbbb0b1a0a7d219a5ad957a2d23765a77eb70e80b1168a1a6781869b69/clueai-0.0.2.2.6.tar.gz
+[2023-04-29 08:40:41] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/80/28/80cf0c5abb0fff57b3e7353a878678f6edd7f04ad6bc13e47bb85528f367/odoo_addons_oca_sale_workflow-16.0.20230420.0-py3-none-any.whl
+[2023-04-29 08:40:41] INFO root fetch - processPackages [bmkg]: Downloading https://files.pythonhosted.org/packages/0d/cc/a96e569cfe16ae1255528179c7612aeb94b75c2f28e8945b6e6821c698f5/bmkg-1.0.4.tar.gz
+[2023-04-29 08:40:41] INFO root fetch - processPackages [clueai]: executing diffoscope
+[2023-04-29 08:40:41] INFO root fetch - processPackages [clueai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clueai-0.0.2.2.5.tar.gz tmp/clueai-0.0.2.2.6.tar.gz --markdown 20230429/c/clueai/0.0.2.2.5-0.0.2.2.6/diff.md --exclude *.pyd
+[2023-04-29 08:40:41] INFO root fetch - processPackages [bmkg]: executing diffoscope
+[2023-04-29 08:40:41] INFO root fetch - processPackages [bmkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmkg-1.0.3.tar.gz tmp/bmkg-1.0.4.tar.gz --markdown 20230429/b/bmkg/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 08:40:41] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/bd/67/b199ebcffaf762df44254d441ac8a455d095f7fdb7326da7e5327a3fb951/odoo_addons_oca_sale_workflow-16.0.20230428.0-py3-none-any.whl
+[2023-04-29 08:40:41] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-04-29 08:40:41] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230420.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230428.0-py3-none-any.whl.zip --markdown 20230429/o/odoo-addons-oca-sale-workflow/16.0.20230420.0-16.0.20230428.0/diff.md --exclude *.pyd
+[2023-04-29 08:40:42] INFO root fetch - main [MainThread]: End processing [bmkg]: success
+[2023-04-29 08:40:42] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-04-29 08:40:42] INFO root fetch - main [MainThread]: End processing [clueai]: success
+[2023-04-29 08:40:42] INFO root fetch - main [MainThread]: End processing [qq.py]: success
+[2023-04-29 08:40:42] INFO root fetch - main [MainThread]: Store serial: [17907155]
