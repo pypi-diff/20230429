@@ -12706,3 +12706,30 @@
 [2023-04-29 20:29:52] INFO root fetch - main [MainThread]: End processing [jupyverse]: success
 [2023-04-29 20:30:11] INFO root fetch - main [MainThread]: End processing [fastapi-listing]: success
 [2023-04-29 20:30:11] INFO root fetch - main [MainThread]: Store serial: [17911501]
+[2023-04-29 20:35:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911501]
+[2023-04-29 20:35:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-zyk-novelai
+[2023-04-29 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bogdi
+[2023-04-29 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hhcm-forest
+[2023-04-29 20:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nose2
+[2023-04-29 20:35:21] WARNING root fetch - processPackages [bogdi]: Skipping, unable to determine old version
+[2023-04-29 20:35:21] INFO root fetch - main [MainThread]: End processing [bogdi] error
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nonebot-plugin-zyk-novelai]: New version: [2.9.5.2] Old Version: [2.9.5.1]
+[2023-04-29 20:35:21] INFO root fetch - processPackages [hhcm-forest]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nose2]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nonebot-plugin-zyk-novelai]: Downloading https://files.pythonhosted.org/packages/fa/f9/7ca72c1da40a9879d335a5ae470e71ef98ed03df071656e3b1c0941ddbbd/nonebot_plugin_zyk_novelai-2.9.5.1.tar.gz
+[2023-04-29 20:35:21] INFO root fetch - processPackages [hhcm-forest]: Downloading https://files.pythonhosted.org/packages/f1/be/657b13944e4b6ca615c0656aa7a5b01c3037287ffc876f49d268c8e0b3b1/hhcm_forest-1.1.7.tar.gz
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nose2]: Downloading https://files.pythonhosted.org/packages/65/39/7038f482bfd736dad4d5c0b888bf6b71b02517d098e6c99b11213a49ece3/nose2-0.9.1.tar.gz
+[2023-04-29 20:35:21] INFO root fetch - processPackages [hhcm-forest]: Downloading https://files.pythonhosted.org/packages/1a/b9/9dd0dcf137d50dcbdadfe512e24f3b64783fc563ca598434d18d5eb87089/hhcm_forest-1.1.8.tar.gz
+[2023-04-29 20:35:21] INFO root fetch - processPackages [hhcm-forest]: executing diffoscope
+[2023-04-29 20:35:21] INFO root fetch - processPackages [hhcm-forest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhcm_forest-1.1.7.tar.gz tmp/hhcm_forest-1.1.8.tar.gz --markdown 20230429/h/hhcm-forest/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nonebot-plugin-zyk-novelai]: Downloading https://files.pythonhosted.org/packages/18/d3/058182b4945d0c09f944fa20beb24b5139faa40fb805e2dd2ee8ec163d96/nonebot_plugin_zyk_novelai-2.9.5.2.tar.gz
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nose2]: Downloading https://files.pythonhosted.org/packages/55/5f/503f9e0dfb28f9677288512e4d71e43fbd660cf600cef4d557cdfba3ee1b/nose2-0.9.2.tar.gz
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nonebot-plugin-zyk-novelai]: executing diffoscope
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nonebot-plugin-zyk-novelai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_zyk_novelai-2.9.5.1.tar.gz tmp/nonebot_plugin_zyk_novelai-2.9.5.2.tar.gz --markdown 20230429/n/nonebot-plugin-zyk-novelai/2.9.5.1-2.9.5.2/diff.md --exclude *.pyd
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nose2]: executing diffoscope
+[2023-04-29 20:35:21] INFO root fetch - processPackages [nose2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nose2-0.9.1.tar.gz tmp/nose2-0.9.2.tar.gz --markdown 20230429/n/nose2/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-29 20:35:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zyk-novelai]: success
+[2023-04-29 20:35:22] INFO root fetch - main [MainThread]: End processing [hhcm-forest]: success
+[2023-04-29 20:35:24] INFO root fetch - main [MainThread]: End processing [nose2]: success
+[2023-04-29 20:35:24] INFO root fetch - main [MainThread]: Store serial: [17911515]
