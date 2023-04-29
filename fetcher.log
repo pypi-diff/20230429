@@ -9145,3 +9145,45 @@
 [2023-04-29 14:50:49] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-04-29 14:50:52] INFO root fetch - main [MainThread]: End processing [acs-axiom]: success
 [2023-04-29 14:50:52] INFO root fetch - main [MainThread]: Store serial: [17909088]
+[2023-04-29 14:55:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909088]
+[2023-04-29 14:56:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 14:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inspirare
+[2023-04-29 14:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tryexcept-decorator
+[2023-04-29 14:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rust-udf-example
+[2023-04-29 14:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hordelib
+[2023-04-29 14:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mosparo-api-client
+[2023-04-29 14:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoapi-django
+[2023-04-29 14:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zmemory
+[2023-04-29 14:56:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cv-final
+[2023-04-29 14:56:02] INFO root fetch - processPackages [tryexcept-decorator]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-29 14:56:02] INFO root fetch - processPackages [inspirare]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 14:56:02] INFO root fetch - processPackages [autoapi-django]: New version: [0.9.1] Old Version: [0.9]
+[2023-04-29 14:56:02] WARNING root fetch - processPackages [mosparo-api-client]: Skipping, unable to determine old version
+[2023-04-29 14:56:02] WARNING root fetch - processPackages [rust-udf-example]: Skipping, unable to determine old version
+[2023-04-29 14:56:02] INFO root fetch - main [MainThread]: End processing [mosparo-api-client] error
+[2023-04-29 14:56:02] INFO root fetch - main [MainThread]: End processing [rust-udf-example] error
+[2023-04-29 14:56:02] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-04-29 14:56:02] WARNING root fetch - processPackages [cv-final]: Skipping, unable to determine old version
+[2023-04-29 14:56:02] INFO root fetch - main [MainThread]: End processing [cv-final] error
+[2023-04-29 14:56:02] INFO root fetch - processPackages [zmemory]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 14:56:02] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-29 14:56:02] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230429/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-04-29 14:56:02] INFO root fetch - processPackages [autoapi-django]: executing diffoscope
+[2023-04-29 14:56:02] INFO root fetch - processPackages [autoapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoapi-django-0.9.tar.gz tmp/autoapi-django-0.9.1.tar.gz --markdown 20230429/a/autoapi-django/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-04-29 14:56:02] INFO root fetch - processPackages [tryexcept-decorator]: Downloading https://files.pythonhosted.org/packages/42/51/06ec98502ca00de07eeec0f5b12c456216c33cb58371a0fb4949826f916c/tryexcept_decorator-0.1.8.tar.gz
+[2023-04-29 14:56:02] INFO root fetch - processPackages [inspirare]: Downloading https://files.pythonhosted.org/packages/b8/c8/dd3e7970b5d6f97e2eea726bcc22c371a67055d09df48a3b388b04ce5eab/inspirare-0.1.4.tar.gz
+[2023-04-29 14:56:02] INFO root fetch - processPackages [tryexcept-decorator]: executing diffoscope
+[2023-04-29 14:56:02] INFO root fetch - processPackages [tryexcept-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryexcept_decorator-0.1.7.tar.gz tmp/tryexcept_decorator-0.1.8.tar.gz --markdown 20230429/t/tryexcept-decorator/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-29 14:56:02] INFO root fetch - processPackages [zmemory]: Downloading https://files.pythonhosted.org/packages/3d/0f/0c437a611c31169000bec34b7bf9018e061d7dc3e66e93aab54fe6561c45/zmemory-0.1.0.tar.gz
+[2023-04-29 14:56:02] INFO root fetch - processPackages [inspirare]: Downloading https://files.pythonhosted.org/packages/62/ab/df5415ab17e80610542bd1c6825d0f6d9c4bf67d7fc8d3b663d4c12dfacb/inspirare-0.1.5.tar.gz
+[2023-04-29 14:56:02] INFO root fetch - processPackages [zmemory]: Downloading https://files.pythonhosted.org/packages/6b/1f/7155f182e6b4cc1ca1c8b0d48321b9ae351e65b67a8e2a02e911fed96425/zmemory-0.1.1.tar.gz
+[2023-04-29 14:56:02] INFO root fetch - processPackages [inspirare]: executing diffoscope
+[2023-04-29 14:56:02] INFO root fetch - processPackages [inspirare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspirare-0.1.4.tar.gz tmp/inspirare-0.1.5.tar.gz --markdown 20230429/i/inspirare/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 14:56:02] INFO root fetch - processPackages [zmemory]: executing diffoscope
+[2023-04-29 14:56:02] INFO root fetch - processPackages [zmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmemory-0.1.0.tar.gz tmp/zmemory-0.1.1.tar.gz --markdown 20230429/z/zmemory/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 14:56:03] INFO root fetch - main [MainThread]: End processing [tryexcept-decorator]: success
+[2023-04-29 14:56:03] INFO root fetch - main [MainThread]: End processing [inspirare]: success
+[2023-04-29 14:56:03] INFO root fetch - main [MainThread]: End processing [autoapi-django]: success
+[2023-04-29 14:56:03] INFO root fetch - main [MainThread]: End processing [zmemory]: success
+[2023-04-29 14:56:10] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-29 14:56:10] INFO root fetch - main [MainThread]: Store serial: [17909117]
