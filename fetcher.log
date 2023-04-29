@@ -10921,3 +10921,63 @@
 [2023-04-29 17:53:41] INFO root fetch - main [MainThread]: End processing [semantra]: success
 [2023-04-29 17:54:03] INFO root fetch - main [MainThread]: End processing [update-linux]: success
 [2023-04-29 17:54:03] INFO root fetch - main [MainThread]: Store serial: [17910414]
+[2023-04-29 17:59:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910414]
+[2023-04-29 17:59:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semantra
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfibaro
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rime-sdk
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yamlator
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Bigsansar
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spiralflow
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-web-template
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llm-generation-server
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sahfilters
+[2023-04-29 17:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: skekchess
+[2023-04-29 17:59:12] INFO root fetch - processPackages [pyfibaro]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-29 17:59:12] INFO root fetch - processPackages [yamlator]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-29 17:59:12] INFO root fetch - processPackages [semantra]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-29 17:59:12] INFO root fetch - processPackages [flet-web-template]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 17:59:12] INFO root fetch - processPackages [spiralflow]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-29 17:59:12] WARNING root fetch - processPackages [skekchess]: Skipping, unable to determine old version
+[2023-04-29 17:59:12] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 17:59:12] INFO root fetch - main [MainThread]: End processing [skekchess] error
+[2023-04-29 17:59:12] WARNING root fetch - processPackages [sahfilters]: Skipping, unable to determine old version
+[2023-04-29 17:59:12] INFO root fetch - processPackages [rime-sdk]: New version: [2.1.0rc0] Old Version: [2.0.1]
+[2023-04-29 17:59:12] INFO root fetch - main [MainThread]: End processing [sahfilters] error
+[2023-04-29 17:59:12] INFO root fetch - processPackages [Bigsansar]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-29 17:59:12] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/09/e2/754fc36aa0e7bf5128067ef8f6de2a225e59e6625fae08eb4466412654e8/rime_sdk-2.0.1.tar.gz
+[2023-04-29 17:59:12] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/a3/f7/7db167a711e1aead0e411eb49d91ac7e5e79e5d3621a1b5e7a4af1535da9/Bigsansar-1.1.5.tar.gz
+[2023-04-29 17:59:12] INFO root fetch - processPackages [yamlator]: Downloading https://files.pythonhosted.org/packages/fe/ef/2946c4a42f21c24affd606db5e3713fbccdb68ce942a1b610bea797731e2/yamlator-0.4.0.tar.gz
+[2023-04-29 17:59:12] INFO root fetch - processPackages [spiralflow]: Downloading https://files.pythonhosted.org/packages/bc/20/c4422cbcb9bcc182225b2e8472910a963ef204c7b67c7864b0750d3e6bba/spiralflow-0.0.6.tar.gz
+[2023-04-29 17:59:12] INFO root fetch - processPackages [pyfibaro]: Downloading https://files.pythonhosted.org/packages/8a/a5/73be161f81fa2d517d5775f6e9ae206cb1f2083fc79900791bff4d83e0a9/pyfibaro-0.7.0.tar.gz
+[2023-04-29 17:59:12] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/d7/79/d2a5201af9976eb13abece0c1ddc942db3e35983e6c94707fd1e6b2788d8/llm_generation_server-0.0.8.tar.gz
+[2023-04-29 17:59:12] INFO root fetch - processPackages [flet-web-template]: Downloading https://files.pythonhosted.org/packages/04/c5/f3aeaaed2563aa8f0d4cd9691a28ce7572f9099fd74c02f0412480c88a54/flet-web-template-0.1.2.tar.gz
+[2023-04-29 17:59:12] INFO root fetch - processPackages [spiralflow]: executing diffoscope
+[2023-04-29 17:59:12] INFO root fetch - processPackages [spiralflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiralflow-0.0.5.tar.gz tmp/spiralflow-0.0.6.tar.gz --markdown 20230429/s/spiralflow/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-29 17:59:12] INFO root fetch - processPackages [semantra]: executing diffoscope
+[2023-04-29 17:59:12] INFO root fetch - processPackages [semantra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantra-0.1.5.tar.gz tmp/semantra-0.1.6.tar.gz --markdown 20230429/s/semantra/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-29 17:59:12] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-04-29 17:59:12] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.1.tar.gz tmp/rime_sdk-2.1.0rc0.tar.gz --markdown 20230429/r/rime-sdk/2.0.1-2.1.0rc0/diff.md --exclude *.pyd
+[2023-04-29 17:59:12] INFO root fetch - processPackages [flet-web-template]: executing diffoscope
+[2023-04-29 17:59:12] INFO root fetch - processPackages [flet-web-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-web-template-0.1.1.tar.gz tmp/flet-web-template-0.1.2.tar.gz --markdown 20230429/f/flet-web-template/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 17:59:13] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/6f/0b/634a7da616286a2536c7d675f470f7b2175d893f07303ce334ce2ba2b4c4/Bigsansar-1.1.6.tar.gz
+[2023-04-29 17:59:13] INFO root fetch - processPackages [yamlator]: Downloading https://files.pythonhosted.org/packages/a2/00/720eb58ba029bb68738a22c9967a5a9ca17c09e6cf04cc3592af77aa0439/yamlator-0.4.1.tar.gz
+[2023-04-29 17:59:13] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-29 17:59:13] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.1.5.tar.gz tmp/Bigsansar-1.1.6.tar.gz --markdown 20230429/B/Bigsansar/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-29 17:59:13] INFO root fetch - processPackages [pyfibaro]: Downloading https://files.pythonhosted.org/packages/88/52/9f03fb8659d958bde3f96885f95c6db5f682999bf0225480028299acb7d1/pyfibaro-0.7.1.tar.gz
+[2023-04-29 17:59:13] INFO root fetch - processPackages [yamlator]: executing diffoscope
+[2023-04-29 17:59:13] INFO root fetch - processPackages [yamlator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamlator-0.4.0.tar.gz tmp/yamlator-0.4.1.tar.gz --markdown 20230429/y/yamlator/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-29 17:59:13] INFO root fetch - processPackages [pyfibaro]: executing diffoscope
+[2023-04-29 17:59:13] INFO root fetch - processPackages [pyfibaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfibaro-0.7.0.tar.gz tmp/pyfibaro-0.7.1.tar.gz --markdown 20230429/p/pyfibaro/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-29 17:59:13] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/1b/92/b7a81c1ae09072f32e01c8f4f15a71efb359935e76a2cdba62984beb2ea1/llm_generation_server-0.0.9.tar.gz
+[2023-04-29 17:59:13] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-04-29 17:59:13] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.8.tar.gz tmp/llm_generation_server-0.0.9.tar.gz --markdown 20230429/l/llm-generation-server/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 17:59:14] INFO root fetch - main [MainThread]: End processing [spiralflow]: success
+[2023-04-29 17:59:14] INFO root fetch - main [MainThread]: End processing [flet-web-template]: success
+[2023-04-29 17:59:14] INFO root fetch - main [MainThread]: End processing [pyfibaro]: success
+[2023-04-29 17:59:14] INFO root fetch - main [MainThread]: End processing [semantra]: success
+[2023-04-29 17:59:14] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-29 17:59:15] INFO root fetch - main [MainThread]: End processing [yamlator]: success
+[2023-04-29 17:59:16] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-04-29 17:59:17] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-04-29 17:59:17] INFO root fetch - main [MainThread]: Store serial: [17910447]
