@@ -1814,3 +1814,40 @@
 [2023-04-29 02:34:03] INFO root fetch - main [MainThread]: End processing [sklearn-gbmi]: success
 [2023-04-29 02:34:03] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-04-29 02:34:03] INFO root fetch - main [MainThread]: Store serial: [17904489]
+[2023-04-29 02:39:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904489]
+[2023-04-29 02:39:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 02:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selfcord.py
+[2023-04-29 02:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes
+[2023-04-29 02:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bytez
+[2023-04-29 02:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psd-export
+[2023-04-29 02:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: state-machine-semaphore
+[2023-04-29 02:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qt-custom
+[2023-04-29 02:39:12] INFO root fetch - processPackages [selfcord.py]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 02:39:12] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 02:39:12] INFO root fetch - processPackages [qt-custom]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-29 02:39:12] INFO root fetch - processPackages [psd-export]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 02:39:12] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-04-29 02:39:12] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-29 02:39:12] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-04-29 02:39:12] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230429/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 02:39:12] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-04-29 02:39:12] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230429/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-04-29 02:39:12] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/79/be/bd79e2e66ae9642a3ef983c0b7d12c72224c279c11c0c4a0f441f2c4914c/psd_export-1.0.8.tar.gz
+[2023-04-29 02:39:12] INFO root fetch - processPackages [selfcord.py]: Downloading https://files.pythonhosted.org/packages/94/65/d3a877a5dac02f3f09a81b9c69059ea3a85d250d9c48a07524ef3cd3728b/selfcord.py-0.1.2.tar.gz
+[2023-04-29 02:39:12] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-04-29 02:39:12] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230429/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-29 02:39:12] INFO root fetch - processPackages [qt-custom]: Downloading https://files.pythonhosted.org/packages/66/49/e3aa7aa76978e62abb354dad2b47d4a017bede7ba1cb181da2c113f091d4/qt-custom-0.2.4.tar.gz
+[2023-04-29 02:39:12] INFO root fetch - processPackages [selfcord.py]: executing diffoscope
+[2023-04-29 02:39:12] INFO root fetch - processPackages [selfcord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfcord.py-0.1.1.tar.gz tmp/selfcord.py-0.1.2.tar.gz --markdown 20230429/s/selfcord.py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 02:39:12] INFO root fetch - processPackages [psd-export]: Downloading https://files.pythonhosted.org/packages/b4/2e/3892de4c1b874936438aa08ee9784611755a30d23b291eec2081c04dc15c/psd_export-1.0.9.tar.gz
+[2023-04-29 02:39:12] INFO root fetch - processPackages [psd-export]: executing diffoscope
+[2023-04-29 02:39:12] INFO root fetch - processPackages [psd-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd_export-1.0.8.tar.gz tmp/psd_export-1.0.9.tar.gz --markdown 20230429/p/psd-export/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 02:39:12] INFO root fetch - processPackages [qt-custom]: executing diffoscope
+[2023-04-29 02:39:12] INFO root fetch - processPackages [qt-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-custom-0.2.3.tar.gz tmp/qt-custom-0.2.4.tar.gz --markdown 20230429/q/qt-custom/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-29 02:39:13] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-04-29 02:39:13] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-04-29 02:39:13] INFO root fetch - main [MainThread]: End processing [selfcord.py]: success
+[2023-04-29 02:39:13] INFO root fetch - main [MainThread]: End processing [psd-export]: success
+[2023-04-29 02:39:13] INFO root fetch - main [MainThread]: End processing [qt-custom]: success
+[2023-04-29 02:39:18] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-04-29 02:39:18] INFO root fetch - main [MainThread]: Store serial: [17904511]
