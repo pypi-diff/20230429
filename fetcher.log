@@ -8312,3 +8312,70 @@
 [2023-04-29 13:26:40] INFO root fetch - main [MainThread]: End processing [fastf1]: success
 [2023-04-29 13:26:40] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
 [2023-04-29 13:26:40] INFO root fetch - main [MainThread]: Store serial: [17908569]
+[2023-04-29 13:31:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908569]
+[2023-04-29 13:31:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrec-nightly
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MKN-third-codes
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TrimMCStruct
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentenai
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TsProject
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poetry-plugin-compose
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oatk
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chan127-demo
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchserve-nightly
+[2023-04-29 13:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-model-archiver-nightly
+[2023-04-29 13:31:52] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [TrimMCStruct]: New version: [0.0.5.6] Old Version: [0.0.5.5]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [TsProject]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [oatk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-29 13:31:52] WARNING root fetch - processPackages [poetry-plugin-compose]: Skipping, unable to determine old version
+[2023-04-29 13:31:52] INFO root fetch - processPackages [sentenai]: New version: [1.6.4.6] Old Version: [1.6.4.5]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [chan127-demo]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [poetry-plugin-compose]: Start processing: torch-workflow-archiver-nightly
+[2023-04-29 13:31:52] INFO root fetch - main [MainThread]: End processing [poetry-plugin-compose] error
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.4.9] Old Version: [2023.4.7]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/82/319f3c998c1b886c648e7560fce0ad6d68fa06b6b8807405ce7adbe77519/torchserve_nightly-2023.4.8-py3-none-any.whl
+[2023-04-29 13:31:52] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23695640>=10485760
+[2023-04-29 13:31:52] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230429/t/torch-model-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-29 13:31:52] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/46/17/c7ec13ca34f397d709112172592182aa5baf32d2a29f77ebfc49f086968e/MKN-third-codes-0.2.3.tar.gz
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-04-29 13:31:52] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.4.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.4.9-py39-none-any.whl.zip --markdown 20230429/t/torchrec-nightly/2023.4.7-2023.4.9/diff.md --exclude *.pyd
+[2023-04-29 13:31:53] INFO root fetch - processPackages [chan127-demo]: Downloading https://files.pythonhosted.org/packages/0d/f7/ef748a8b657d3efea91f36aae5f5af11d4b9c0253e4aac3176a7ceea9ceb/chan127-demo-0.0.1.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-04-29 13:31:53] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230429/t/torch-workflow-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-29 13:31:53] INFO root fetch - processPackages [TsProject]: Downloading https://files.pythonhosted.org/packages/b8/7b/eae465baa92f919a1c98513c9d518b84768836d2e4f244e36221595a3270/TsProject-1.0.2.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [oatk]: Downloading https://files.pythonhosted.org/packages/cd/2b/108a875783081593f837a1efd5a858141f993d0a1056b811d13aae64354d/oatk-0.0.8.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [TrimMCStruct]: Downloading https://files.pythonhosted.org/packages/90/bd/f9fc5598667f19613a796830ab946fb0c691560bf0b2a69d059e9a8abc07/TrimMCStruct-0.0.5.5.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [sentenai]: Downloading https://files.pythonhosted.org/packages/4e/d9/dcc5291176823a6563ab96e949f71c0a1ee458af601694b3081b4483beaf/sentenai-1.6.4.6.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [sentenai]: executing diffoscope
+[2023-04-29 13:31:53] INFO root fetch - processPackages [sentenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentenai-1.6.4.5.tar.gz tmp/sentenai-1.6.4.6.tar.gz --markdown 20230429/s/sentenai/1.6.4.5-1.6.4.6/diff.md --exclude *.pyd
+[2023-04-29 13:31:53] INFO root fetch - processPackages [chan127-demo]: Downloading https://files.pythonhosted.org/packages/5f/0c/06853d309b5b94b6ed2ca1f9b4e71cb64f27686e3c7383715fe55a926be4/chan127-demo-0.0.2.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [chan127-demo]: executing diffoscope
+[2023-04-29 13:31:53] INFO root fetch - processPackages [chan127-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chan127-demo-0.0.1.tar.gz tmp/chan127-demo-0.0.2.tar.gz --markdown 20230429/c/chan127-demo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 13:31:53] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/54/1b/370607f2eddeab0e38956f7e39adeb01e7091f142483341fe96ee19eeb33/MKN_third_codes-0.2.4.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [oatk]: Downloading https://files.pythonhosted.org/packages/8d/76/558e9fd516a49558aad05982e48f2dbf21170e7608ebdba7159fd42e46c6/oatk-0.0.9.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [TsProject]: Downloading https://files.pythonhosted.org/packages/75/6f/cdfe87a1e3ce6dbc11037a7757c94c15aff3cd877ef827c66b5178d1a721/TsProject-1.0.3.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [oatk]: executing diffoscope
+[2023-04-29 13:31:53] INFO root fetch - processPackages [oatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oatk-0.0.8.tar.gz tmp/oatk-0.0.9.tar.gz --markdown 20230429/o/oatk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 13:31:53] INFO root fetch - processPackages [TrimMCStruct]: Downloading https://files.pythonhosted.org/packages/7b/43/52ab6b355f9a4bffea42805ff930b3307829c0cee09624b9fa60026f84db/TrimMCStruct-0.0.5.6.tar.gz
+[2023-04-29 13:31:53] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 13:31:53] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN-third-codes-0.2.3.tar.gz tmp/MKN_third_codes-0.2.4.tar.gz --markdown 20230429/M/MKN-third-codes/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-29 13:31:53] INFO root fetch - processPackages [TsProject]: executing diffoscope
+[2023-04-29 13:31:53] INFO root fetch - processPackages [TsProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsProject-1.0.2.tar.gz tmp/TsProject-1.0.3.tar.gz --markdown 20230429/T/TsProject/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 13:31:53] INFO root fetch - processPackages [TrimMCStruct]: executing diffoscope
+[2023-04-29 13:31:53] INFO root fetch - processPackages [TrimMCStruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrimMCStruct-0.0.5.5.tar.gz tmp/TrimMCStruct-0.0.5.6.tar.gz --markdown 20230429/T/TrimMCStruct/0.0.5.5-0.0.5.6/diff.md --exclude *.pyd
+[2023-04-29 13:31:54] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-04-29 13:31:54] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-04-29 13:31:54] INFO root fetch - main [MainThread]: End processing [chan127-demo]: success
+[2023-04-29 13:31:54] INFO root fetch - main [MainThread]: End processing [sentenai]: success
+[2023-04-29 13:31:54] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 13:31:55] INFO root fetch - main [MainThread]: End processing [TsProject]: success
+[2023-04-29 13:31:55] INFO root fetch - main [MainThread]: End processing [TrimMCStruct]: success
+[2023-04-29 13:31:55] INFO root fetch - main [MainThread]: End processing [oatk]: success
+[2023-04-29 13:31:55] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-04-29 13:31:55] INFO root fetch - main [MainThread]: Store serial: [17908600]
