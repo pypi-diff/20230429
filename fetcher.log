@@ -5112,3 +5112,20 @@
 [2023-04-29 05:57:47] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2023-04-29 05:57:48] INFO root fetch - main [MainThread]: End processing [hsuanwu]: success
 [2023-04-29 05:57:48] INFO root fetch - main [MainThread]: Store serial: [17906494]
+[2023-04-29 06:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906494]
+[2023-04-29 06:02:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-29 06:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsonvalue2markdown
+[2023-04-29 06:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ge25519
+[2023-04-29 06:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws
+[2023-04-29 06:02:57] WARNING root fetch - processPackages [jsonvalue2markdown]: Skipping, unable to determine old version
+[2023-04-29 06:02:57] INFO root fetch - main [MainThread]: End processing [jsonvalue2markdown] error
+[2023-04-29 06:02:57] INFO root fetch - processPackages [ge25519]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-29 06:02:57] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-04-29 06:02:57] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-04-29 06:02:57] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230429/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-04-29 06:02:58] INFO root fetch - processPackages [ge25519]: Downloading https://files.pythonhosted.org/packages/5d/6c/b2caade44fabfed59e991e52a7f25db4d415a3d00480448605f9c8525689/ge25519-1.4.3.tar.gz
+[2023-04-29 06:02:58] INFO root fetch - processPackages [ge25519]: executing diffoscope
+[2023-04-29 06:02:58] INFO root fetch - processPackages [ge25519]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ge25519-1.4.2.tar.gz tmp/ge25519-1.4.3.tar.gz --markdown 20230429/g/ge25519/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-29 06:02:59] INFO root fetch - main [MainThread]: End processing [ge25519]: success
+[2023-04-29 06:03:35] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-04-29 06:03:35] INFO root fetch - main [MainThread]: Store serial: [17906505]

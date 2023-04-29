@@ -1,0 +1,127 @@
+# Comparing `tmp/ge25519-1.4.2.tar.gz` & `tmp/ge25519-1.4.3.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "ge25519-1.4.2.tar", last modified: Wed Apr 26 22:41:24 2023, max compression
++gzip compressed data, was "ge25519-1.4.3.tar", last modified: Sat Apr 29 03:58:20 2023, max compression
+```
+
+## Comparing `ge25519-1.4.2.tar` & `ge25519-1.4.3.tar`
+
+### file list
+
+```diff
+@@ -1,18 +1,18 @@
+-drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-26 22:41:24.609966 ge25519-1.4.2/
+--rw-r--r--   0 alapets    (502) staff       (20)     1072 2023-04-25 14:57:02.000000 ge25519-1.4.2/LICENSE
+--rw-r--r--   0 alapets    (502) staff       (20)     5792 2023-04-26 22:41:24.610021 ge25519-1.4.2/PKG-INFO
+--rw-r--r--   0 alapets    (502) staff       (20)     5256 2023-04-26 22:36:48.000000 ge25519-1.4.2/README.rst
+--rw-r--r--   0 alapets    (502) staff       (20)     1034 2023-04-26 22:39:41.000000 ge25519-1.4.2/pyproject.toml
+--rw-r--r--   0 alapets    (502) staff       (20)       38 2023-04-26 22:41:24.610219 ge25519-1.4.2/setup.cfg
+-drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-26 22:41:24.607547 ge25519-1.4.2/src/
+-drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-26 22:41:24.608601 ge25519-1.4.2/src/ge25519/
+--rw-r--r--   0 alapets    (502) staff       (20)      166 2023-04-25 14:57:02.000000 ge25519-1.4.2/src/ge25519/__init__.py
+--rw-r--r--   0 alapets    (502) staff       (20)   121618 2023-04-25 14:57:02.000000 ge25519-1.4.2/src/ge25519/ge25519.py
+-drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-26 22:41:24.609653 ge25519-1.4.2/src/ge25519.egg-info/
+--rw-r--r--   0 alapets    (502) staff       (20)     5792 2023-04-26 22:41:24.000000 ge25519-1.4.2/src/ge25519.egg-info/PKG-INFO
+--rw-r--r--   0 alapets    (502) staff       (20)      285 2023-04-26 22:41:24.000000 ge25519-1.4.2/src/ge25519.egg-info/SOURCES.txt
+--rw-r--r--   0 alapets    (502) staff       (20)        1 2023-04-26 22:41:24.000000 ge25519-1.4.2/src/ge25519.egg-info/dependency_links.txt
+--rw-r--r--   0 alapets    (502) staff       (20)      234 2023-04-26 22:41:24.000000 ge25519-1.4.2/src/ge25519.egg-info/requires.txt
+--rw-r--r--   0 alapets    (502) staff       (20)        8 2023-04-26 22:41:24.000000 ge25519-1.4.2/src/ge25519.egg-info/top_level.txt
+-drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-26 22:41:24.609800 ge25519-1.4.2/test/
+--rw-r--r--   0 alapets    (502) staff       (20)     8605 2023-04-25 14:57:02.000000 ge25519-1.4.2/test/test_ge25519.py
++drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-29 03:58:20.860545 ge25519-1.4.3/
++-rw-r--r--   0 alapets    (502) staff       (20)     1072 2023-04-25 14:57:02.000000 ge25519-1.4.3/LICENSE
++-rw-r--r--   0 alapets    (502) staff       (20)     5792 2023-04-29 03:58:20.860367 ge25519-1.4.3/PKG-INFO
++-rw-r--r--   0 alapets    (502) staff       (20)     5256 2023-04-26 22:36:48.000000 ge25519-1.4.3/README.rst
++-rw-r--r--   0 alapets    (502) staff       (20)     1034 2023-04-29 03:41:57.000000 ge25519-1.4.3/pyproject.toml
++-rw-r--r--   0 alapets    (502) staff       (20)       38 2023-04-29 03:58:20.860586 ge25519-1.4.3/setup.cfg
++drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-29 03:58:20.853856 ge25519-1.4.3/src/
++drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-29 03:58:20.855149 ge25519-1.4.3/src/ge25519/
++-rw-r--r--   0 alapets    (502) staff       (20)      166 2023-04-25 14:57:02.000000 ge25519-1.4.3/src/ge25519/__init__.py
++-rw-r--r--   0 alapets    (502) staff       (20)   121618 2023-04-25 14:57:02.000000 ge25519-1.4.3/src/ge25519/ge25519.py
++drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-29 03:58:20.859960 ge25519-1.4.3/src/ge25519.egg-info/
++-rw-r--r--   0 alapets    (502) staff       (20)     5792 2023-04-29 03:58:20.000000 ge25519-1.4.3/src/ge25519.egg-info/PKG-INFO
++-rw-r--r--   0 alapets    (502) staff       (20)      275 2023-04-29 03:58:20.000000 ge25519-1.4.3/src/ge25519.egg-info/SOURCES.txt
++-rw-r--r--   0 alapets    (502) staff       (20)        1 2023-04-29 03:58:20.000000 ge25519-1.4.3/src/ge25519.egg-info/dependency_links.txt
++-rw-r--r--   0 alapets    (502) staff       (20)      234 2023-04-29 03:58:20.000000 ge25519-1.4.3/src/ge25519.egg-info/requires.txt
++-rw-r--r--   0 alapets    (502) staff       (20)        8 2023-04-29 03:58:20.000000 ge25519-1.4.3/src/ge25519.egg-info/top_level.txt
++drwxr-xr-x   0 alapets    (502) staff       (20)        0 2023-04-29 03:58:20.860086 ge25519-1.4.3/test/
++-rw-r--r--   0 alapets    (502) staff       (20)     8605 2023-04-25 14:57:02.000000 ge25519-1.4.3/test/test_ge25519.py
+```
+
+### Comparing `ge25519-1.4.2/LICENSE` & `ge25519-1.4.3/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `ge25519-1.4.2/PKG-INFO` & `ge25519-1.4.3/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: ge25519
+-Version: 1.4.2
++Version: 1.4.3
+ Summary: Pure-Python data structure for working with Ed25519 (and Ristretto) group elements and operations.
+ Author: Andrei Lapets
+ Author-email: a@lapets.io
+ License: MIT
+ Project-URL: Repository, https://github.com/nthparty/ge25519
+ Project-URL: Documentation, https://ge25519.readthedocs.io
+ Requires-Python: >=3.7
+```
+
+### Comparing `ge25519-1.4.2/README.rst` & `ge25519-1.4.3/README.rst`
+
+ * *Files identical despite different names*
+
+### Comparing `ge25519-1.4.2/pyproject.toml` & `ge25519-1.4.3/pyproject.toml`
+
+ * *Files 11% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [project]
+ name = "ge25519"
+-version = "1.4.2"
++version = "1.4.3"
+ description = """\
+     Pure-Python data structure for working with Ed25519 \
+     (and Ristretto) group elements and operations.\
+     """
+ license = {text = "MIT"}
+ authors = [
+     {name = "Andrei Lapets"},
+```
+
+### Comparing `ge25519-1.4.2/src/ge25519/ge25519.py` & `ge25519-1.4.3/src/ge25519/ge25519.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ge25519-1.4.2/src/ge25519.egg-info/PKG-INFO` & `ge25519-1.4.3/src/ge25519.egg-info/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: ge25519
+-Version: 1.4.2
++Version: 1.4.3
+ Summary: Pure-Python data structure for working with Ed25519 (and Ristretto) group elements and operations.
+ Author: Andrei Lapets
+ Author-email: a@lapets.io
+ License: MIT
+ Project-URL: Repository, https://github.com/nthparty/ge25519
+ Project-URL: Documentation, https://ge25519.readthedocs.io
+ Requires-Python: >=3.7
+```
+
+### Comparing `ge25519-1.4.2/test/test_ge25519.py` & `ge25519-1.4.3/test/test_ge25519.py`
+
+ * *Files identical despite different names*
+
