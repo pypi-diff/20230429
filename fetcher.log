@@ -7270,3 +7270,40 @@
 [2023-04-29 11:33:57] INFO root fetch - main [MainThread]: End processing [cocojamboo]: success
 [2023-04-29 11:34:00] INFO root fetch - main [MainThread]: End processing [nua-orchestrator]: success
 [2023-04-29 11:34:00] INFO root fetch - main [MainThread]: Store serial: [17907848]
+[2023-04-29 11:39:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907848]
+[2023-04-29 11:39:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 11:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WinTraceroute
+[2023-04-29 11:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aassddee
+[2023-04-29 11:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoapi-django
+[2023-04-29 11:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mrdoxmrgt
+[2023-04-29 11:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unifi-protect-backup
+[2023-04-29 11:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reactives
+[2023-04-29 11:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cocojamboo
+[2023-04-29 11:39:09] WARNING root fetch - processPackages [autoapi-django]: Skipping, unable to determine old version
+[2023-04-29 11:39:09] INFO root fetch - main [MainThread]: End processing [autoapi-django] error
+[2023-04-29 11:39:09] WARNING root fetch - processPackages [WinTraceroute]: Skipping, unable to determine old version
+[2023-04-29 11:39:09] INFO root fetch - main [MainThread]: End processing [WinTraceroute] error
+[2023-04-29 11:39:09] INFO root fetch - processPackages [unifi-protect-backup]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-29 11:39:09] INFO root fetch - processPackages [reactives]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-04-29 11:39:09] INFO root fetch - processPackages [mrdoxmrgt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 11:39:09] INFO root fetch - processPackages [cocojamboo]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-04-29 11:39:09] WARNING root fetch - processPackages [aassddee]: Skipping, unable to determine old version
+[2023-04-29 11:39:09] INFO root fetch - main [MainThread]: End processing [aassddee] error
+[2023-04-29 11:39:09] INFO root fetch - processPackages [cocojamboo]: executing diffoscope
+[2023-04-29 11:39:09] INFO root fetch - processPackages [cocojamboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocojamboo-2.0.6.tar.gz tmp/cocojamboo-2.0.7.tar.gz --markdown 20230429/c/cocojamboo/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-04-29 11:39:09] INFO root fetch - processPackages [reactives]: Downloading https://files.pythonhosted.org/packages/04/de/9792a584d3a3ac7807cad1c0bac4abfc25f352a191f708648ad6bf3574b5/reactives-0.4.3.tar.gz
+[2023-04-29 11:39:09] INFO root fetch - processPackages [unifi-protect-backup]: Downloading https://files.pythonhosted.org/packages/65/a5/c870d15fababdeb1e6afa2bc9ee9ae931113d881bb64945f69c552eecbe0/unifi_protect_backup-0.9.0.tar.gz
+[2023-04-29 11:39:09] INFO root fetch - processPackages [mrdoxmrgt]: Downloading https://files.pythonhosted.org/packages/f2/b4/cf94a16ebf7ef49e2ecd347d4217f6ad38dc9ce5e9103d4685bad989ddf1/mrdoxmrgt-0.1.2.tar.gz
+[2023-04-29 11:39:09] INFO root fetch - processPackages [mrdoxmrgt]: executing diffoscope
+[2023-04-29 11:39:09] INFO root fetch - processPackages [mrdoxmrgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrdoxmrgt-0.1.1.tar.gz tmp/mrdoxmrgt-0.1.2.tar.gz --markdown 20230429/m/mrdoxmrgt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 11:39:09] INFO root fetch - processPackages [unifi-protect-backup]: Downloading https://files.pythonhosted.org/packages/06/9f/3c22505698b1ee9fac1e7875452f135100476d0ab0c622b547b888d624d6/unifi_protect_backup-0.9.1.tar.gz
+[2023-04-29 11:39:09] INFO root fetch - processPackages [unifi-protect-backup]: executing diffoscope
+[2023-04-29 11:39:09] INFO root fetch - processPackages [unifi-protect-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifi_protect_backup-0.9.0.tar.gz tmp/unifi_protect_backup-0.9.1.tar.gz --markdown 20230429/u/unifi-protect-backup/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-29 11:39:10] INFO root fetch - processPackages [reactives]: Downloading https://files.pythonhosted.org/packages/68/6b/8ced303ac7dadb5892fb32958f6c8f2f6e702e27579ff9ea36de8d7c37a7/reactives-0.5.0.tar.gz
+[2023-04-29 11:39:10] INFO root fetch - processPackages [reactives]: executing diffoscope
+[2023-04-29 11:39:10] INFO root fetch - processPackages [reactives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactives-0.4.3.tar.gz tmp/reactives-0.5.0.tar.gz --markdown 20230429/r/reactives/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 11:39:10] INFO root fetch - main [MainThread]: End processing [mrdoxmrgt]: success
+[2023-04-29 11:39:10] INFO root fetch - main [MainThread]: End processing [cocojamboo]: success
+[2023-04-29 11:39:11] INFO root fetch - main [MainThread]: End processing [unifi-protect-backup]: success
+[2023-04-29 11:39:33] INFO root fetch - main [MainThread]: End processing [reactives]: success
+[2023-04-29 11:39:33] INFO root fetch - main [MainThread]: Store serial: [17907877]
