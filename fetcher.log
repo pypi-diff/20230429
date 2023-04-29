@@ -9458,3 +9458,41 @@
 [2023-04-29 15:22:11] INFO root fetch - main [MainThread]: End processing [cliboa]: success
 [2023-04-29 15:22:12] INFO root fetch - main [MainThread]: End processing [dlplan]: success
 [2023-04-29 15:22:12] INFO root fetch - main [MainThread]: Store serial: [17909283]
+[2023-04-29 15:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909283]
+[2023-04-29 15:27:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 15:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvfinal
+[2023-04-29 15:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TsProject
+[2023-04-29 15:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ordicanis
+[2023-04-29 15:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmmmm
+[2023-04-29 15:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goxlrutilityapi
+[2023-04-29 15:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rdiffweb
+[2023-04-29 15:27:21] INFO root fetch - processPackages [TsProject]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-29 15:27:21] INFO root fetch - processPackages [ordicanis]: New version: [0.0.0.2] Old Version: [0.0.0.1]
+[2023-04-29 15:27:21] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.0.0.dev8] Old Version: [1.0.0.dev7]
+[2023-04-29 15:27:21] INFO root fetch - processPackages [cvfinal]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 15:27:21] WARNING root fetch - processPackages [mmmmm]: Skipping, unable to determine old version
+[2023-04-29 15:27:21] INFO root fetch - main [MainThread]: End processing [mmmmm] error
+[2023-04-29 15:27:21] INFO root fetch - processPackages [rdiffweb]: New version: [2.7.1] Old Version: [2.7.0a3]
+[2023-04-29 15:27:22] INFO root fetch - processPackages [cvfinal]: Downloading https://files.pythonhosted.org/packages/09/f4/3f687035ead3cc962e16095fb13c976a2f95b3d5238c8ab6fbc54376997a/cvfinal-0.0.1.tar.gz
+[2023-04-29 15:27:22] INFO root fetch - processPackages [TsProject]: Downloading https://files.pythonhosted.org/packages/b6/a1/a83a72866c861f1f4e5e007f337cbbc4f0deb614420ead52a64403e0df06/TsProject-1.0.6.tar.gz
+[2023-04-29 15:27:22] INFO root fetch - processPackages [ordicanis]: Downloading https://files.pythonhosted.org/packages/bd/ff/fcea961ba88c5ab39f0f34f8a8779d7191d06597cb64cdd88c7b864e8530/ordicanis-0.0.0.2.tar.gz
+[2023-04-29 15:27:22] INFO root fetch - processPackages [TsProject]: executing diffoscope
+[2023-04-29 15:27:22] INFO root fetch - processPackages [TsProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsProject-1.0.5.tar.gz tmp/TsProject-1.0.6.tar.gz --markdown 20230429/T/TsProject/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-29 15:27:22] INFO root fetch - processPackages [ordicanis]: executing diffoscope
+[2023-04-29 15:27:22] INFO root fetch - processPackages [ordicanis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordicanis-0.0.0.1.tar.gz tmp/ordicanis-0.0.0.2.tar.gz --markdown 20230429/o/ordicanis/0.0.0.1-0.0.0.2/diff.md --exclude *.pyd
+[2023-04-29 15:27:22] INFO root fetch - processPackages [rdiffweb]: Downloading https://files.pythonhosted.org/packages/0c/68/a137d86e4488211826a2969feea514c507e5a5282f61b3ae3745df0985c6/rdiffweb-2.7.0a3-py3-none-any.whl
+[2023-04-29 15:27:22] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/a7/f3/cadea053b503247fcc6c9382b1573c67227ad9824ed5920b4975fdfa133e/goxlrutilityapi-1.0.0.dev8.tar.gz
+[2023-04-29 15:27:22] INFO root fetch - processPackages [cvfinal]: Downloading https://files.pythonhosted.org/packages/ec/5c/a88fdb63330acc949770252f70c7560884a16946468ccb054735fe33e233/cvfinal-0.0.2.tar.gz
+[2023-04-29 15:27:22] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-04-29 15:27:22] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.0.0.dev7.tar.gz tmp/goxlrutilityapi-1.0.0.dev8.tar.gz --markdown 20230429/g/goxlrutilityapi/1.0.0.dev7-1.0.0.dev8/diff.md --exclude *.pyd
+[2023-04-29 15:27:22] INFO root fetch - processPackages [cvfinal]: executing diffoscope
+[2023-04-29 15:27:22] INFO root fetch - processPackages [cvfinal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvfinal-0.0.1.tar.gz tmp/cvfinal-0.0.2.tar.gz --markdown 20230429/c/cvfinal/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 15:27:23] INFO root fetch - processPackages [rdiffweb]: Downloading https://files.pythonhosted.org/packages/c6/48/bc9e0f315ccac821e531084ae00d8319a5873bc2ea955644432cf2e2b5ec/rdiffweb-2.7.1-py3-none-any.whl
+[2023-04-29 15:27:23] INFO root fetch - main [MainThread]: End processing [TsProject]: success
+[2023-04-29 15:27:23] INFO root fetch - main [MainThread]: End processing [ordicanis]: success
+[2023-04-29 15:27:23] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-04-29 15:27:23] INFO root fetch - main [MainThread]: End processing [cvfinal]: success
+[2023-04-29 15:27:23] INFO root fetch - processPackages [rdiffweb]: executing diffoscope
+[2023-04-29 15:27:23] INFO root fetch - processPackages [rdiffweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdiffweb-2.7.0a3-py3-none-any.whl.zip tmp/rdiffweb-2.7.1-py3-none-any.whl.zip --markdown 20230429/r/rdiffweb/2.7.0a3-2.7.1/diff.md --exclude *.pyd
+[2023-04-29 15:27:30] INFO root fetch - main [MainThread]: End processing [rdiffweb]: success
+[2023-04-29 15:27:30] INFO root fetch - main [MainThread]: Store serial: [17909307]
