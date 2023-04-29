@@ -11227,3 +11227,70 @@
 [2023-04-29 18:15:16] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
 [2023-04-29 18:15:20] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-04-29 18:15:20] INFO root fetch - main [MainThread]: Store serial: [17910572]
+[2023-04-29 18:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910572]
+[2023-04-29 18:20:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MKN-third-codes
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alacorder
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotbox
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-web-template
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MKN-third-codes
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skekchess
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-storer
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tueplots
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: garpy
+[2023-04-29 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gather-scrobble
+[2023-04-29 18:20:29] INFO root fetch - processPackages [hotbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [flet-web-template]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [skekchess]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [gather-scrobble]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [xia-storer]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [garpy]: New version: [0.4.0] Old Version: [0.3.8]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [tueplots]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [alacorder]: New version: [80.0.5] Old Version: [80.0.4]
+[2023-04-29 18:20:29] INFO root fetch - processPackages [hotbox]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [hotbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotbox-0.0.8.tar.gz tmp/hotbox-0.0.9.tar.gz --markdown 20230429/h/hotbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [skekchess]: Downloading https://files.pythonhosted.org/packages/68/68/724e3284075493d94a12b81abc6f4ecf613eadf221962d967543a3c15402/skekchess-0.0.1.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [garpy]: Downloading https://files.pythonhosted.org/packages/d2/da/c356ed8187a351fcfdd992f5088b478f310defcfa69adefd92b593816908/garpy-0.3.8.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [xia-storer]: Downloading https://files.pythonhosted.org/packages/5d/9a/10c1aeaa33aaadc4d65bb1c91b00fbc90a4e89eec268788fe2ba82bfac9a/xia_storer-0.0.6-cp39-none-win_amd64.whl
+[2023-04-29 18:20:29] INFO root fetch - processPackages [tueplots]: Downloading https://files.pythonhosted.org/packages/d5/ac/f38bf478c39d3e894ee6ad5e30ee9fe82183c169f9a58da0ffef4a555f09/tueplots-0.0.7-py3-none-any.whl
+[2023-04-29 18:20:29] INFO root fetch - processPackages [flet-web-template]: Downloading https://files.pythonhosted.org/packages/50/34/09ead36561ef8e191960c77a9bc7b8d576b8ecc8bdf741a2b3eb5bcb5c61/flet-web-template-0.1.5.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/52/83/2b0e9c8ac97ffad44eb41d91173f2e7d686afe4638bf1eb771cb77eaaafd/MKN_third_codes-0.3.3.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/52/83/2b0e9c8ac97ffad44eb41d91173f2e7d686afe4638bf1eb771cb77eaaafd/MKN_third_codes-0.3.3.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [gather-scrobble]: Downloading https://files.pythonhosted.org/packages/61/f5/f831e4039df389fa9088a79c37b3fa2a928e91c4fc6c6a7322c16cdccca2/gather-scrobble-0.0.5.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/6a/32/c4785919dc01ee7f02621811e0668273eb2d1872cd8a7ff2b3efadfaa7b1/alacorder-80.0.4.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [gather-scrobble]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [gather-scrobble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gather-scrobble-0.0.3.tar.gz tmp/gather-scrobble-0.0.5.tar.gz --markdown 20230429/g/gather-scrobble/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [flet-web-template]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [flet-web-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-web-template-0.1.4.tar.gz tmp/flet-web-template-0.1.5.tar.gz --markdown 20230429/f/flet-web-template/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.2.tar.gz tmp/MKN_third_codes-0.3.3.tar.gz --markdown 20230429/M/MKN-third-codes/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.2.tar.gz tmp/MKN_third_codes-0.3.3.tar.gz --markdown 20230429/M/MKN-third-codes/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [tueplots]: Downloading https://files.pythonhosted.org/packages/27/32/375ec453963e5b241b81311c639b7d9a714fba94f44c7610154f9c32a0d9/tueplots-0.0.8-py3-none-any.whl
+[2023-04-29 18:20:29] INFO root fetch - processPackages [skekchess]: Downloading https://files.pythonhosted.org/packages/d5/10/119b19343c6764c4523a96465fa54fe5b015b7d3cacc34936b0ba35c75f6/skekchess-0.0.2.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [tueplots]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [tueplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tueplots-0.0.7-py3-none-any.whl.zip tmp/tueplots-0.0.8-py3-none-any.whl.zip --markdown 20230429/t/tueplots/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [xia-storer]: Downloading https://files.pythonhosted.org/packages/cb/5c/e419b250f2dc02adb79786cd46c64ec355703cd2c87384cbbf766e119065/xia_storer-0.1.0-cp39-none-win_amd64.whl
+[2023-04-29 18:20:29] INFO root fetch - processPackages [garpy]: Downloading https://files.pythonhosted.org/packages/66/2b/be3df45b1fd67c0add4f7e693607b9ad5e267a6b2f41b2afcd8443f457f5/garpy-0.4.0.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [skekchess]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [skekchess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skekchess-0.0.1.tar.gz tmp/skekchess-0.0.2.tar.gz --markdown 20230429/s/skekchess/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/c1/ae/487cad99136ff23414ed42210c7d56990fa82ade66e3dfd65c0aebba7d84/alacorder-80.0.5.tar.gz
+[2023-04-29 18:20:29] INFO root fetch - processPackages [garpy]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [garpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpy-0.3.8.tar.gz tmp/garpy-0.4.0.tar.gz --markdown 20230429/g/garpy/0.3.8-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [xia-storer]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [xia-storer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_storer-0.0.6-cp39-none-win_amd64.whl.zip tmp/xia_storer-0.1.0-cp39-none-win_amd64.whl.zip --markdown 20230429/x/xia-storer/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 18:20:29] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-29 18:20:29] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.0.4.tar.gz tmp/alacorder-80.0.5.tar.gz --markdown 20230429/a/alacorder/80.0.4-80.0.5/diff.md --exclude *.pyd
+[2023-04-29 18:20:30] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 18:20:30] INFO root fetch - main [MainThread]: End processing [hotbox]: success
+[2023-04-29 18:20:31] INFO root fetch - main [MainThread]: End processing [flet-web-template]: success
+[2023-04-29 18:20:31] INFO root fetch - main [MainThread]: End processing [gather-scrobble]: success
+[2023-04-29 18:20:31] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 18:20:31] INFO root fetch - main [MainThread]: End processing [tueplots]: success
+[2023-04-29 18:20:31] INFO root fetch - main [MainThread]: End processing [xia-storer]: success
+[2023-04-29 18:20:31] INFO root fetch - main [MainThread]: End processing [garpy]: success
+[2023-04-29 18:20:31] INFO root fetch - main [MainThread]: End processing [skekchess]: success
+[2023-04-29 18:20:32] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-29 18:20:32] INFO root fetch - main [MainThread]: Store serial: [17910614]
