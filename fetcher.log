@@ -10256,3 +10256,75 @@
 [2023-04-29 16:45:32] INFO root fetch - main [MainThread]: End processing [golem-garden]: success
 [2023-04-29 16:45:33] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
 [2023-04-29 16:45:33] INFO root fetch - main [MainThread]: Store serial: [17909868]
+[2023-04-29 16:50:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909868]
+[2023-04-29 16:50:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyeditorconfig
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bam-core
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epicstore-api
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bam-core
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bam-core
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mrz-surepass
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: citizenk
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sneaksmc
+[2023-04-29 16:50:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypreql
+[2023-04-29 16:50:42] INFO root fetch - processPackages [sneaksmc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-29 16:50:42] WARNING root fetch - processPackages [pyeditorconfig]: Skipping, unable to determine old version
+[2023-04-29 16:50:42] INFO root fetch - processPackages [pyeditorconfig]: Start processing: unipipeline
+[2023-04-29 16:50:42] INFO root fetch - main [MainThread]: End processing [pyeditorconfig] error
+[2023-04-29 16:50:42] INFO root fetch - processPackages [epicstore-api]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [citizenk]: New version: [0.1.31] Old Version: [0.1.30]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: New version: [2023.4.29.1682779659] Old Version: [2023.4.29.1682779611]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [mrz-surepass]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: New version: [2023.4.29.1682779659] Old Version: [2023.4.29.1682779611]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: New version: [2023.4.29.1682779659] Old Version: [2023.4.29.1682779611]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [pypreql]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [alacorder]: New version: [80.0.3] Old Version: [80.0.2]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [unipipeline]: New version: [1.8.9] Old Version: [1.8.7]
+[2023-04-29 16:50:42] INFO root fetch - processPackages [unipipeline]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [unipipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipipeline-1.8.7.tar.gz tmp/unipipeline-1.8.9.tar.gz --markdown 20230429/u/unipipeline/1.8.7-1.8.9/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/2f/fd/eec5df00c134b94ce30db9e5c4259c441500b2ea05cf95dd2d35a32923d6/bam-core-2023.4.29.1682779611.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/2f/fd/eec5df00c134b94ce30db9e5c4259c441500b2ea05cf95dd2d35a32923d6/bam-core-2023.4.29.1682779611.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/2f/fd/eec5df00c134b94ce30db9e5c4259c441500b2ea05cf95dd2d35a32923d6/bam-core-2023.4.29.1682779611.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [mrz-surepass]: Downloading https://files.pythonhosted.org/packages/b2/b4/cdcd2f6b3ca340e77fa2cb0ef6ba1823b53039c78bdccaa05ca96011221d/mrz-surepass-0.6.3.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [sneaksmc]: Downloading https://files.pythonhosted.org/packages/86/09/9fa7adcc8a2916dc0028c42468d805731a5f2e5f3fc5cd1deef4209e9a4b/sneaksmc-0.0.6.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [epicstore-api]: Downloading https://files.pythonhosted.org/packages/bb/99/9b37d37dbc30c873e886a50f51b3d20f73059d8a66e9ed487fc4f3e12a91/epicstore_api-0.1.5.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/91/72/5acf0a2d2983b5f89aeb7a2db80819848bb6ce84f112f9827040252d9e13/citizenk-0.1.31.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/43/b8/2abb29f2547d81aff3f05e6578226b18359897a8e67919d46a46231d0bed/pypreql-0.0.1rc8.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.30.tar.gz tmp/citizenk-0.1.31.tar.gz --markdown 20230429/c/citizenk/0.1.30-0.1.31/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [mrz-surepass]: Downloading https://files.pythonhosted.org/packages/13/4c/e141ae16064ec6f8edca284d21da6b73832bb611ab8076bfe92b8796ed39/mrz-surepass-0.6.4.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/56/93/7694537e50ee1fde133d095e320d4da248636270d313b92671599da923a7/alacorder-80.0.3.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [mrz-surepass]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [mrz-surepass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrz-surepass-0.6.3.tar.gz tmp/mrz-surepass-0.6.4.tar.gz --markdown 20230429/m/mrz-surepass/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/b1/9a/3d4d5580adf445b2b31e82fcf2d8e3c9fe56fef3a485536a7286d2aa857d/bam-core-2023.4.29.1682779659.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/b1/9a/3d4d5580adf445b2b31e82fcf2d8e3c9fe56fef3a485536a7286d2aa857d/bam-core-2023.4.29.1682779659.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/b1/9a/3d4d5580adf445b2b31e82fcf2d8e3c9fe56fef3a485536a7286d2aa857d/bam-core-2023.4.29.1682779659.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.0.2.tar.gz tmp/alacorder-80.0.3.tar.gz --markdown 20230429/a/alacorder/80.0.2-80.0.3/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [sneaksmc]: Downloading https://files.pythonhosted.org/packages/b4/1f/3dda86f72ee608a1dcba9022e61509e47c4d976650637c85f7e72f240aa8/sneaksmc-0.0.7.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [epicstore-api]: Downloading https://files.pythonhosted.org/packages/4c/36/07733007a8da0e51db73ff08ca262a4cc562c6caccc1600df124358e06cd/epicstore_api-0.1.6.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-core-2023.4.29.1682779611.tar.gz tmp/bam-core-2023.4.29.1682779659.tar.gz --markdown 20230429/b/bam-core/2023.4.29.1682779611-2023.4.29.1682779659/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-core-2023.4.29.1682779611.tar.gz tmp/bam-core-2023.4.29.1682779659.tar.gz --markdown 20230429/b/bam-core/2023.4.29.1682779611-2023.4.29.1682779659/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [bam-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-core-2023.4.29.1682779611.tar.gz tmp/bam-core-2023.4.29.1682779659.tar.gz --markdown 20230429/b/bam-core/2023.4.29.1682779611-2023.4.29.1682779659/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [epicstore-api]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [epicstore-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epicstore_api-0.1.5.tar.gz tmp/epicstore_api-0.1.6.tar.gz --markdown 20230429/e/epicstore-api/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/1a/ce/33794a7ef68067e22a883f6d200722a8ccfc530b6b40d7ba9956ed4ff8bf/pypreql-0.0.1rc9.tar.gz
+[2023-04-29 16:50:42] INFO root fetch - processPackages [sneaksmc]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [sneaksmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneaksmc-0.0.6.tar.gz tmp/sneaksmc-0.0.7.tar.gz --markdown 20230429/s/sneaksmc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-29 16:50:42] INFO root fetch - processPackages [pypreql]: executing diffoscope
+[2023-04-29 16:50:42] INFO root fetch - processPackages [pypreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-0.0.1rc8.tar.gz tmp/pypreql-0.0.1rc9.tar.gz --markdown 20230429/p/pypreql/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [unipipeline]: success
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [bam-core]: success
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [bam-core]: success
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [bam-core]: success
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [sneaksmc]: success
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [mrz-surepass]: success
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [epicstore-api]: success
+[2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [pypreql]: success
+[2023-04-29 16:50:45] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-29 16:50:45] INFO root fetch - main [MainThread]: Store serial: [17909905]
