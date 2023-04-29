@@ -8815,3 +8815,37 @@
 [2023-04-29 14:08:46] INFO root fetch - main [MainThread]: End processing [baseweb]: success
 [2023-04-29 14:08:52] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-04-29 14:08:52] INFO root fetch - main [MainThread]: Store serial: [17908880]
+[2023-04-29 14:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908880]
+[2023-04-29 14:14:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pennylane-qrack
+[2023-04-29 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adcc
+[2023-04-29 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkfly
+[2023-04-29 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: passwdgen
+[2023-04-29 14:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mvc4kivy
+[2023-04-29 14:14:01] INFO root fetch - processPackages [adcc]: New version: [0.15.9] Old Version: [0.15.8]
+[2023-04-29 14:14:01] INFO root fetch - processPackages [pennylane-qrack]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-29 14:14:01] INFO root fetch - processPackages [passwdgen]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-04-29 14:14:01] INFO root fetch - processPackages [tkfly]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-04-29 14:14:01] INFO root fetch - processPackages [mvc4kivy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 14:14:01] INFO root fetch - processPackages [mvc4kivy]: executing diffoscope
+[2023-04-29 14:14:01] INFO root fetch - processPackages [mvc4kivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvc4kivy-0.1.0.tar.gz tmp/mvc4kivy-0.1.1.tar.gz --markdown 20230429/m/mvc4kivy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 14:14:01] INFO root fetch - processPackages [pennylane-qrack]: Downloading https://files.pythonhosted.org/packages/f9/40/07f58df7b4b742570f44b538d6b29ca6a10652f029fefb34f9f82ff40f6c/pennylane-qrack-0.4.1.tar.gz
+[2023-04-29 14:14:01] INFO root fetch - processPackages [passwdgen]: Downloading https://files.pythonhosted.org/packages/8d/0c/c497b9753a8f0067347d1af28883630d27345ad60672a8005f459596dd94/passwdgen-0.3.1.tar.gz
+[2023-04-29 14:14:01] INFO root fetch - processPackages [tkfly]: Downloading https://files.pythonhosted.org/packages/97/8d/fd73f75646d67fc08ef8b4f426812bb93a7706f3a630e6b6ae9e889c2d29/tkfly-0.1.0a1.tar.gz
+[2023-04-29 14:14:01] INFO root fetch - processPackages [adcc]: executing diffoscope
+[2023-04-29 14:14:01] INFO root fetch - processPackages [adcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adcc-0.15.8.tar.gz tmp/adcc-0.15.9.tar.gz --markdown 20230429/a/adcc/0.15.8-0.15.9/diff.md --exclude *.pyd
+[2023-04-29 14:14:01] INFO root fetch - processPackages [pennylane-qrack]: Downloading https://files.pythonhosted.org/packages/5f/e6/53773465af2fad8213d030178665800a67fa765d57840bc76947818109c0/pennylane-qrack-0.4.2.tar.gz
+[2023-04-29 14:14:01] INFO root fetch - processPackages [passwdgen]: Downloading https://files.pythonhosted.org/packages/e4/b7/a68f7a2fc1b409aa2e5cbeb8cf3522b87f7b354ba94ad0b730282246e4a1/passwdgen-0.4.0.tar.gz
+[2023-04-29 14:14:01] INFO root fetch - processPackages [pennylane-qrack]: executing diffoscope
+[2023-04-29 14:14:01] INFO root fetch - processPackages [pennylane-qrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-qrack-0.4.1.tar.gz tmp/pennylane-qrack-0.4.2.tar.gz --markdown 20230429/p/pennylane-qrack/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-29 14:14:01] INFO root fetch - processPackages [passwdgen]: executing diffoscope
+[2023-04-29 14:14:01] INFO root fetch - processPackages [passwdgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passwdgen-0.3.1.tar.gz tmp/passwdgen-0.4.0.tar.gz --markdown 20230429/p/passwdgen/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 14:14:01] INFO root fetch - processPackages [tkfly]: Downloading https://files.pythonhosted.org/packages/85/c8/88bea68ec4774cf24a8ceeff02d38dae31bb1afc6667eb87835adcf7117f/tkfly-0.1.0a2.tar.gz
+[2023-04-29 14:14:02] INFO root fetch - processPackages [tkfly]: executing diffoscope
+[2023-04-29 14:14:02] INFO root fetch - processPackages [tkfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkfly-0.1.0a1.tar.gz tmp/tkfly-0.1.0a2.tar.gz --markdown 20230429/t/tkfly/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-04-29 14:14:02] INFO root fetch - main [MainThread]: End processing [mvc4kivy]: success
+[2023-04-29 14:14:03] INFO root fetch - main [MainThread]: End processing [passwdgen]: success
+[2023-04-29 14:14:03] INFO root fetch - main [MainThread]: End processing [pennylane-qrack]: success
+[2023-04-29 14:14:03] INFO root fetch - main [MainThread]: End processing [adcc]: success
+[2023-04-29 14:14:05] INFO root fetch - main [MainThread]: End processing [tkfly]: success
+[2023-04-29 14:14:05] INFO root fetch - main [MainThread]: Store serial: [17908894]
