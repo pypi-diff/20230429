@@ -5776,3 +5776,55 @@
 [2023-04-29 07:47:12] INFO root fetch - main [MainThread]: End processing [pysura]: success
 [2023-04-29 07:48:09] INFO root fetch - main [MainThread]: End processing [pylyzer]: success
 [2023-04-29 07:48:09] INFO root fetch - main [MainThread]: Store serial: [17906989]
+[2023-04-29 07:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906989]
+[2023-04-29 07:53:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 07:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-pos-multiple-control
+[2023-04-29 07:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-pos-cash-move-reason
+[2023-04-29 07:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: structio
+[2023-04-29 07:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-pos-cash-move-reason
+[2023-04-29 07:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-pos-cash-move-reason
+[2023-04-29 07:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UzbekLemmatizer
+[2023-04-29 07:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gemato
+[2023-04-29 07:53:33] INFO root fetch - processPackages [UzbekLemmatizer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 07:53:33] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: New version: [12.0.3.2.1.99.dev3] Old Version: [12.0.3.2.1.99.dev2]
+[2023-04-29 07:53:33] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: New version: [12.0.1.3.1.99.dev6] Old Version: [12.0.1.3.1.99.dev5]
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: New version: [14.0.1.1.2.dev3] Old Version: [14.0.1.1.2.dev2]
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-04-29 07:53:34] INFO root fetch - processPackages [structio]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-29 07:53:34] INFO root fetch - processPackages [gemato]: New version: [9.3] Old Version: [9.2]
+[2023-04-29 07:53:34] INFO root fetch - processPackages [UzbekLemmatizer]: Downloading https://files.pythonhosted.org/packages/3a/f1/d5f75755673c77ab4e5d0f5fb00a1e2fa96928c057c11152e86d118dbb05/UzbekLemmatizer-1.0.0.tar.gz
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: Downloading https://files.pythonhosted.org/packages/7f/12/c6f473c4f6c7a1bab1efe4efb10577831b68a504976b27215c91d8e98204/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev5-py3-none-any.whl
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/e6/35/9e31d49f64019b7acadce328bb612ff9444efbe68f5ef601ee415a0dbee1/odoo14_addon_pos_cash_move_reason-14.0.1.1.2.dev2-py3-none-any.whl
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/57/2f/a05ddd84286485ab02725df345f0694990ba1d7de9e79abbb6c20ceb618a/odoo_addon_pos_cash_move_reason-15.0.1.0.0.4-py3-none-any.whl
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/57/e2/ee5b9fb1830eaa605bbb42ef28b0b34a9bd2949782e721d38f06ee73f1fc/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev2-py3-none-any.whl
+[2023-04-29 07:53:34] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/97/f1/f3b74afe8c58ffb834ad09ce086d1372daa72a2d4c476d82b6522a0a9e15/structio-1.2.0.tar.gz
+[2023-04-29 07:53:34] INFO root fetch - processPackages [gemato]: Downloading https://files.pythonhosted.org/packages/56/28/7c39e4646ac8b94ad9c1113e7c9a0b341c2fa200299b9377f8ebd89981a3/gemato-9.2.tar.gz
+[2023-04-29 07:53:34] INFO root fetch - processPackages [UzbekLemmatizer]: Downloading https://files.pythonhosted.org/packages/d4/c8/51efee7f0ccb9ac44a510eabab4d7ac957c3fece7aacec7c3499fe8ffe70/UzbekLemmatizer-1.0.1.tar.gz
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/01/5c/8965b84caee2d7058fbb353b8c21c3f6334339dc119720a442366eabc7cd/odoo14_addon_pos_cash_move_reason-14.0.1.1.2.dev3-py3-none-any.whl
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/e1/79/ddb7e062b349aedf7f6ef2071350ff57a37eb45f1759067fa5dcbe0c6c25/odoo_addon_pos_cash_move_reason-15.0.1.0.0.5-py3-none-any.whl
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: Downloading https://files.pythonhosted.org/packages/1c/14/cf00541e4c96347e958a0c342993152856335bad2e2e664588c3c843c6dc/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev3-py3-none-any.whl
+[2023-04-29 07:53:34] INFO root fetch - processPackages [structio]: Downloading https://files.pythonhosted.org/packages/f8/d1/2712fd925c177b969bb488b87d7a4bf96df33a8664c63990d6d7daadc42f/structio-1.3.0.tar.gz
+[2023-04-29 07:53:34] INFO root fetch - processPackages [UzbekLemmatizer]: executing diffoscope
+[2023-04-29 07:53:34] INFO root fetch - processPackages [UzbekLemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzbekLemmatizer-1.0.0.tar.gz tmp/UzbekLemmatizer-1.0.1.tar.gz --markdown 20230429/U/UzbekLemmatizer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: executing diffoscope
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo14-addon-pos-cash-move-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_cash_move_reason-14.0.1.1.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_pos_cash_move_reason-14.0.1.1.2.dev3-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addon-pos-cash-move-reason/14.0.1.1.2.dev2-14.0.1.1.2.dev3/diff.md --exclude *.pyd
+[2023-04-29 07:53:34] INFO root fetch - processPackages [gemato]: Downloading https://files.pythonhosted.org/packages/8b/b9/eb7c0e9069c07656a7773e15538d682df2767ee30d5281a3709e64a00aaf/gemato-9.3.tar.gz
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: executing diffoscope
+[2023-04-29 07:53:34] INFO root fetch - processPackages [structio]: executing diffoscope
+[2023-04-29 07:53:34] INFO root fetch - processPackages [structio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structio-1.2.0.tar.gz tmp/structio-1.3.0.tar.gz --markdown 20230429/s/structio/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo12-addon-pos-cash-move-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_pos_cash_move_reason-12.0.3.2.1.99.dev3-py3-none-any.whl.zip --markdown 20230429/o/odoo12-addon-pos-cash-move-reason/12.0.3.2.1.99.dev2-12.0.3.2.1.99.dev3/diff.md --exclude *.pyd
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: Downloading https://files.pythonhosted.org/packages/4d/db/e9e851fc774abd544a1ad060625dfe71eb399997e3c477052861184aeef7/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev6-py3-none-any.whl
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: executing diffoscope
+[2023-04-29 07:53:34] INFO root fetch - processPackages [odoo-addon-pos-cash-move-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_cash_move_reason-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_pos_cash_move_reason-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-pos-cash-move-reason/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-04-29 07:53:34] INFO root fetch - processPackages [gemato]: executing diffoscope
+[2023-04-29 07:53:34] INFO root fetch - processPackages [gemato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemato-9.2.tar.gz tmp/gemato-9.3.tar.gz --markdown 20230429/g/gemato/9.2-9.3/diff.md --exclude *.pyd
+[2023-04-29 07:53:35] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: executing diffoscope
+[2023-04-29 07:53:35] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev6-py3-none-any.whl.zip --markdown 20230429/o/odoo12-addon-pos-multiple-control/12.0.1.3.1.99.dev5-12.0.1.3.1.99.dev6/diff.md --exclude *.pyd
+[2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [UzbekLemmatizer]: success
+[2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [structio]: success
+[2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [gemato]: success
+[2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-cash-move-reason]: success
+[2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-cash-move-reason]: success
+[2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-cash-move-reason]: success
+[2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-multiple-control]: success
+[2023-04-29 07:53:36] INFO root fetch - main [MainThread]: Store serial: [17907006]
