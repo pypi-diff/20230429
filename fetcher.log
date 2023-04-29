@@ -10611,3 +10611,89 @@
 [2023-04-29 17:21:58] INFO root fetch - main [MainThread]: End processing [paper-streamfield]: success
 [2023-04-29 17:22:00] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-04-29 17:22:00] INFO root fetch - main [MainThread]: Store serial: [17910190]
+[2023-04-29 17:27:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910190]
+[2023-04-29 17:27:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ProjZ.py
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcef
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psycopg2-wrappers
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anomalearn
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: media-manager
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiwigrad
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdinterp
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-bot
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skytemple-rust
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stacs
+[2023-04-29 17:27:09] INFO root fetch - processPackages [psycopg2-wrappers]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ProjZ.py]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [anomalearn]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [gpt-bot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [dcef]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [kiwigrad]: New version: [0.24] Old Version: [0.23]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [media-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-29 17:27:09] WARNING root fetch - processPackages [sdinterp]: Skipping, unable to determine old version
+[2023-04-29 17:27:09] INFO root fetch - processPackages [sdinterp]: Start processing: hera
+[2023-04-29 17:27:09] INFO root fetch - main [MainThread]: End processing [sdinterp] error
+[2023-04-29 17:27:09] INFO root fetch - processPackages [skytemple-rust]: New version: [1.5.0] Old Version: [1.4.0a2]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [stacs]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [hera]: New version: [5.1.7] Old Version: [5.1.6]
+[2023-04-29 17:27:09] INFO root fetch - processPackages [psycopg2-wrappers]: Downloading https://files.pythonhosted.org/packages/2e/ab/3e719e9ec60ac35ac65f9a417a1dc4d7a129d7df108678b629984d2c3e44/psycopg2-wrappers-1.0.0.tar.gz
+[2023-04-29 17:27:09] INFO root fetch - processPackages [dcef]: Downloading https://files.pythonhosted.org/packages/15/a8/9519c0009a44393c03fc27fc1ceb8f3f12e02eafc78b3ad776ac2e42a2c9/dcef-0.2.3.tar.gz
+[2023-04-29 17:27:09] INFO root fetch - processPackages [anomalearn]: Downloading https://files.pythonhosted.org/packages/ea/33/2087a6086eba14d5ae68ad8f6d68ae5ad3dba42a58b176a8fea0bdd5fb0a/anomalearn-0.0.1.tar.gz
+[2023-04-29 17:27:09] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/4c/83/a341ec49d612de09b6423aade135d94721fb7ddb427958ce28e629be9353/kiwigrad-0.23.tar.gz
+[2023-04-29 17:27:09] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/5d/e2/7e9f8cacc22dcb397dfd17bf26a1576eb42134f62bc5516e852dea1ad682/ProjZ.py-2.3.9.tar.gz
+[2023-04-29 17:27:10] INFO root fetch - processPackages [media-manager]: Downloading https://files.pythonhosted.org/packages/75/11/acc8a436463477db369c803d9007e03acdd0b43a677cd0cbb78b7ea5b3bb/media_manager-0.8.0-py2.py3-none-any.whl
+[2023-04-29 17:27:10] INFO root fetch - processPackages [skytemple-rust]: Downloading https://files.pythonhosted.org/packages/70/8f/0cae8a00290e5fe1bff456a3a0e34224fabb3e21221effd7538e5b680a8a/skytemple_rust-1.4.0a2-cp39-cp39-win_amd64.whl
+[2023-04-29 17:27:10] INFO root fetch - processPackages [stacs]: Downloading https://files.pythonhosted.org/packages/2b/7b/5924a4b33b4550fe758f42ed991e0b169b525706fbeb82105a9b050fae06/stacs-0.4.9.tar.gz
+[2023-04-29 17:27:10] INFO root fetch - processPackages [gpt-bot]: Downloading https://files.pythonhosted.org/packages/b4/f9/9255b855d292aa7ab3a86ce5af5365b496814928017dee7ef781309adb7f/gpt_bot-0.0.3-py3-none-any.whl
+[2023-04-29 17:27:10] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.3.8.tar.gz tmp/ProjZ.py-2.3.9.tar.gz --markdown 20230429/P/ProjZ.py/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-29 17:27:10] INFO root fetch - processPackages [gpt-bot]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [gpt-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_bot-0.0.2-py3-none-any.whl.zip tmp/gpt_bot-0.0.3-py3-none-any.whl.zip --markdown 20230429/g/gpt-bot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 17:27:10] INFO root fetch - processPackages [psycopg2-wrappers]: Downloading https://files.pythonhosted.org/packages/ea/6b/341bac6fc3ea9eaac1e759a50b39b982fad037038f013a5d6b09b46435eb/psycopg2-wrappers-1.0.1.tar.gz
+[2023-04-29 17:27:10] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/04/c6/d4d338d5f47ccbacd072c3abf66672746b406698f84122dc657081cdbc44/kiwigrad-0.24.tar.gz
+[2023-04-29 17:27:10] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/17/90/e1759585a9585c68fda13449f9abbe150425feea05b6413e6fd090d11650/hera-5.1.7.tar.gz
+[2023-04-29 17:27:10] INFO root fetch - processPackages [anomalearn]: Downloading https://files.pythonhosted.org/packages/f8/ae/6b081d6806619449b4f94268c2fe3407dd885e99055d45c6c0b42a0e159c/anomalearn-0.0.2.tar.gz
+[2023-04-29 17:27:10] INFO root fetch - processPackages [media-manager]: Downloading https://files.pythonhosted.org/packages/9b/a7/1155a373b195bebb88c0274982964c45aecd8d7206b2f4731838007628fd/media_manager-0.9.0-py2.py3-none-any.whl
+[2023-04-29 17:27:10] INFO root fetch - processPackages [psycopg2-wrappers]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [psycopg2-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg2-wrappers-1.0.0.tar.gz tmp/psycopg2-wrappers-1.0.1.tar.gz --markdown 20230429/p/psycopg2-wrappers/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 17:27:10] INFO root fetch - processPackages [kiwigrad]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [kiwigrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwigrad-0.23.tar.gz tmp/kiwigrad-0.24.tar.gz --markdown 20230429/k/kiwigrad/0.23-0.24/diff.md --exclude *.pyd
+[2023-04-29 17:27:10] INFO root fetch - processPackages [stacs]: Downloading https://files.pythonhosted.org/packages/e9/9c/12f7a08ee2251013b48f58a5d33962de1bd9676a979b8b4b171689d3602e/stacs-0.5.0.tar.gz
+[2023-04-29 17:27:10] INFO root fetch - processPackages [hera]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.1.6.tar.gz tmp/hera-5.1.7.tar.gz --markdown 20230429/h/hera/5.1.6-5.1.7/diff.md --exclude *.pyd
+[2023-04-29 17:27:10] INFO root fetch - processPackages [anomalearn]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [anomalearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anomalearn-0.0.1.tar.gz tmp/anomalearn-0.0.2.tar.gz --markdown 20230429/a/anomalearn/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 17:27:10] INFO root fetch - processPackages [media-manager]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [media-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_manager-0.8.0-py2.py3-none-any.whl.zip tmp/media_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20230429/m/media-manager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 17:27:10] INFO root fetch - processPackages [skytemple-rust]: Downloading https://files.pythonhosted.org/packages/a5/b2/af23c3f6cd94c6911995f7df83ac6d6a1972fdefb1f83cf28692d1de6930/skytemple_rust-1.5.0-cp39-cp39-win_amd64.whl
+[2023-04-29 17:27:10] INFO root fetch - processPackages [stacs]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [stacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stacs-0.4.9.tar.gz tmp/stacs-0.5.0.tar.gz --markdown 20230429/s/stacs/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 17:27:10] INFO root fetch - processPackages [dcef]: Downloading https://files.pythonhosted.org/packages/bd/28/cfa5a35ac667d1189138eaa9259b61b64b6dba39eb26b5bfcfa409059095/dcef-0.2.5.tar.gz
+[2023-04-29 17:27:10] INFO root fetch - processPackages [skytemple-rust]: executing diffoscope
+[2023-04-29 17:27:10] INFO root fetch - processPackages [skytemple-rust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytemple_rust-1.4.0a2-cp39-cp39-win_amd64.whl.zip tmp/skytemple_rust-1.5.0-cp39-cp39-win_amd64.whl.zip --markdown 20230429/s/skytemple-rust/1.4.0a2-1.5.0/diff.md --exclude *.pyd
+[2023-04-29 17:27:11] INFO root fetch - processPackages [dcef]: executing diffoscope
+[2023-04-29 17:27:11] INFO root fetch - processPackages [dcef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcef-0.2.3.tar.gz tmp/dcef-0.2.5.tar.gz --markdown 20230429/d/dcef/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-04-29 17:27:11] INFO root fetch - processPackages [gpt-bot]: Start processing: hera-workflows
+[2023-04-29 17:27:11] INFO root fetch - main [MainThread]: End processing [gpt-bot]: success
+[2023-04-29 17:27:11] INFO root fetch - processPackages [hera-workflows]: New version: [5.1.7] Old Version: [5.1.6]
+[2023-04-29 17:27:11] INFO root fetch - processPackages [kiwigrad]: Start processing: django-staticinline
+[2023-04-29 17:27:11] INFO root fetch - main [MainThread]: End processing [kiwigrad]: success
+[2023-04-29 17:27:11] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/b5/38/eeb9532c4bb6d1d15d871484171dd2401029632b83102d28a4aafb98e813/hera_workflows-5.1.7.tar.gz
+[2023-04-29 17:27:11] INFO root fetch - processPackages [django-staticinline]: New version: [1.4] Old Version: [1.3.1]
+[2023-04-29 17:27:11] INFO root fetch - main [MainThread]: End processing [psycopg2-wrappers]: success
+[2023-04-29 17:27:11] INFO root fetch - main [MainThread]: End processing [anomalearn]: success
+[2023-04-29 17:27:12] INFO root fetch - main [MainThread]: End processing [media-manager]: success
+[2023-04-29 17:27:12] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2023-04-29 17:27:12] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.1.6.tar.gz tmp/hera_workflows-5.1.7.tar.gz --markdown 20230429/h/hera-workflows/5.1.6-5.1.7/diff.md --exclude *.pyd
+[2023-04-29 17:27:12] INFO root fetch - processPackages [django-staticinline]: Downloading https://files.pythonhosted.org/packages/8c/de/086b082026126fe6a70a91fc26a3074dfec37ec0fda7cd72e766f44982c6/django-staticinline-1.3.1.tar.gz
+[2023-04-29 17:27:12] INFO root fetch - main [MainThread]: End processing [skytemple-rust]: success
+[2023-04-29 17:27:12] INFO root fetch - processPackages [django-staticinline]: Downloading https://files.pythonhosted.org/packages/46/7c/a6c0b9b4851f4039d2e608a8dcac3c40774525383e30e23f7123046ceae9/django-staticinline-1.4.tar.gz
+[2023-04-29 17:27:12] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 17:27:12] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2023-04-29 17:27:12] INFO root fetch - processPackages [django-staticinline]: executing diffoscope
+[2023-04-29 17:27:12] INFO root fetch - processPackages [django-staticinline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-staticinline-1.3.1.tar.gz tmp/django-staticinline-1.4.tar.gz --markdown 20230429/d/django-staticinline/1.3.1-1.4/diff.md --exclude *.pyd
+[2023-04-29 17:27:12] INFO root fetch - main [MainThread]: End processing [stacs]: success
+[2023-04-29 17:27:13] INFO root fetch - main [MainThread]: End processing [django-staticinline]: success
+[2023-04-29 17:27:13] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2023-04-29 17:27:36] INFO root fetch - main [MainThread]: End processing [dcef]: success
+[2023-04-29 17:27:36] INFO root fetch - main [MainThread]: Store serial: [17910271]
