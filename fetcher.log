@@ -6507,3 +6507,53 @@
 [2023-04-29 09:48:32] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-04-29 09:48:49] INFO root fetch - main [MainThread]: End processing [libfsntfs-python]: success
 [2023-04-29 09:48:49] INFO root fetch - main [MainThread]: Store serial: [17907391]
+[2023-04-29 09:53:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907391]
+[2023-04-29 09:53:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 09:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wanda
+[2023-04-29 09:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxsim
+[2023-04-29 09:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysunday
+[2023-04-29 09:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymailers
+[2023-04-29 09:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyhtools
+[2023-04-29 09:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-cpu
+[2023-04-29 09:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PythonToolsKit
+[2023-04-29 09:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NotifyUI
+[2023-04-29 09:53:59] INFO root fetch - processPackages [pysunday]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-29 09:53:59] INFO root fetch - processPackages [wanda]: New version: [0.61.2] Old Version: [0.61.1]
+[2023-04-29 09:53:59] INFO root fetch - processPackages [onnxsim]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 09:53:59] WARNING root fetch - processPackages [pymailers]: Skipping, unable to determine old version
+[2023-04-29 09:53:59] INFO root fetch - main [MainThread]: End processing [pymailers] error
+[2023-04-29 09:53:59] INFO root fetch - processPackages [pyhtools]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-29 09:53:59] INFO root fetch - processPackages [PythonToolsKit]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-04-29 09:53:59] INFO root fetch - processPackages [NotifyUI]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 09:53:59] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230429] Old Version: [2.13.0.dev20230428]
+[2023-04-29 09:53:59] INFO root fetch - processPackages [pysunday]: Downloading https://files.pythonhosted.org/packages/7d/10/2a2190886568d250be53057cfca5bf8714c854f2a646bcf288307959d6cf/pysunday-0.3.2.tar.gz
+[2023-04-29 09:53:59] INFO root fetch - processPackages [pyhtools]: Downloading https://files.pythonhosted.org/packages/25/5a/48e3a965632e4560bdf5adeeb7799c9c988d7e5075bb721b22f5299777a2/pyhtools-2.1.0.tar.gz
+[2023-04-29 09:53:59] INFO root fetch - processPackages [onnxsim]: Downloading https://files.pythonhosted.org/packages/e7/b9/202cc2584a4ec999caa935e7e0fdb09bedec99bf28f3a8b35455ff6864eb/onnxsim-0.4.8.tar.gz
+[2023-04-29 09:53:59] INFO root fetch - processPackages [PythonToolsKit]: Downloading https://files.pythonhosted.org/packages/8e/ed/fb5a6d2063f28223ca0a3df7969c12baa46ab842b7e930b9523fb02f9703/PythonToolsKit-1.2.3.tar.gz
+[2023-04-29 09:53:59] INFO root fetch - processPackages [wanda]: Downloading https://files.pythonhosted.org/packages/76/6d/b1122cd84caf83920d9cedb69563355833e56befef2747e0f5179fb8eaf1/wanda-0.61.2.tar.gz
+[2023-04-29 09:54:00] WARNING root fetch - processPackages [onnxsim]: Skipping package: exceeds size limit 18121422>=10485760
+[2023-04-29 09:54:00] INFO root fetch - main [MainThread]: End processing [onnxsim] error
+[2023-04-29 09:54:00] INFO root fetch - processPackages [wanda]: executing diffoscope
+[2023-04-29 09:54:00] INFO root fetch - processPackages [wanda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wanda-0.61.1.tar.gz tmp/wanda-0.61.2.tar.gz --markdown 20230429/w/wanda/0.61.1-0.61.2/diff.md --exclude *.pyd
+[2023-04-29 09:54:00] INFO root fetch - processPackages [NotifyUI]: Downloading https://files.pythonhosted.org/packages/c3/3b/0783e593b8ecda37d36a5839d3a4f8aa9f2a7cfd54951eb5ba5f4b86c0cd/NotifyUI-0.0.3.tar.gz
+[2023-04-29 09:54:00] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/2e/ed/615863a0059d3666f6213d4de6364551531b66a855f91421114c31c38f68/tf_nightly_cpu-2.13.0.dev20230429-cp39-cp39-win_amd64.whl
+[2023-04-29 09:54:00] INFO root fetch - processPackages [pysunday]: Downloading https://files.pythonhosted.org/packages/98/b2/21eded7b5d783d9ef2f1e400a0bcae0d73d458c0c8ab4c7a70f0b1ec898a/pysunday-0.3.3.tar.gz
+[2023-04-29 09:54:00] INFO root fetch - processPackages [PythonToolsKit]: Downloading https://files.pythonhosted.org/packages/40/d5/972269c73f87cd7d0f2d6dd74c62f5601881e0dcc3aca61694a360346d12/PythonToolsKit-1.2.4.tar.gz
+[2023-04-29 09:54:00] INFO root fetch - processPackages [pyhtools]: Downloading https://files.pythonhosted.org/packages/aa/3f/af0bb2bc06c6a47c409acf40657d4b33af9594b7f59c1aa61f7b26ce442c/pyhtools-2.2.0.tar.gz
+[2023-04-29 09:54:00] INFO root fetch - processPackages [NotifyUI]: executing diffoscope
+[2023-04-29 09:54:00] INFO root fetch - processPackages [NotifyUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NotifyUI-0.0.2.tar.gz tmp/NotifyUI-0.0.3.tar.gz --markdown 20230429/N/NotifyUI/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 09:54:00] INFO root fetch - processPackages [pysunday]: executing diffoscope
+[2023-04-29 09:54:00] INFO root fetch - processPackages [pysunday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysunday-0.3.2.tar.gz tmp/pysunday-0.3.3.tar.gz --markdown 20230429/p/pysunday/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-29 09:54:00] INFO root fetch - processPackages [PythonToolsKit]: executing diffoscope
+[2023-04-29 09:54:00] INFO root fetch - processPackages [PythonToolsKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonToolsKit-1.2.3.tar.gz tmp/PythonToolsKit-1.2.4.tar.gz --markdown 20230429/P/PythonToolsKit/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-04-29 09:54:00] INFO root fetch - processPackages [pyhtools]: executing diffoscope
+[2023-04-29 09:54:00] INFO root fetch - processPackages [pyhtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtools-2.1.0.tar.gz tmp/pyhtools-2.2.0.tar.gz --markdown 20230429/p/pyhtools/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-29 09:54:00] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-04-29 09:54:00] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230428-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230429-cp39-cp39-win_amd64.whl.zip --markdown 20230429/t/tf-nightly-cpu/2.13.0.dev20230428-2.13.0.dev20230429/diff.md --exclude *.pyd
+[2023-04-29 09:54:01] INFO root fetch - main [MainThread]: End processing [wanda]: success
+[2023-04-29 09:54:01] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-04-29 09:54:01] INFO root fetch - main [MainThread]: End processing [pysunday]: success
+[2023-04-29 09:54:01] INFO root fetch - main [MainThread]: End processing [NotifyUI]: success
+[2023-04-29 09:54:01] INFO root fetch - main [MainThread]: End processing [pyhtools]: success
+[2023-04-29 09:54:02] INFO root fetch - main [MainThread]: End processing [PythonToolsKit]: success
+[2023-04-29 09:54:02] INFO root fetch - main [MainThread]: Store serial: [17907446]
