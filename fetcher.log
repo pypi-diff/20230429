@@ -11351,3 +11351,111 @@
 [2023-04-29 18:25:45] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-04-29 18:25:46] INFO root fetch - main [MainThread]: End processing [cloudfix]: success
 [2023-04-29 18:25:46] INFO root fetch - main [MainThread]: Store serial: [17910644]
+[2023-04-29 18:30:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910644]
+[2023-04-29 18:30:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gather-scrobble
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k8s-audit-filter
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyagrum-nightly
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bulrush
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oresat-dxwifi
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-sb-admin-interface
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hype-html
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SciAssist
+[2023-04-29 18:30:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlalchemy-mock
+[2023-04-29 18:30:56] INFO root fetch - processPackages [gather-scrobble]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [bulrush]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [k8s-audit-filter]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [oresat-dxwifi]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [hype-html]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-29 18:30:56] WARNING root fetch - processPackages [sqlalchemy-mock]: Skipping, unable to determine old version
+[2023-04-29 18:30:56] INFO root fetch - processPackages [wagtail-sb-admin-interface]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [sqlalchemy-mock]: Start processing: feathub-nightly
+[2023-04-29 18:30:56] INFO root fetch - main [MainThread]: End processing [sqlalchemy-mock] error
+[2023-04-29 18:30:56] INFO root fetch - processPackages [SciAssist]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230428] Old Version: [0.1.dev20230427]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [gather-scrobble]: Downloading https://files.pythonhosted.org/packages/58/0e/8a3aadeeaad2dc3bcb6e7192c32fe58808e45542afd392bde2317b5a5b48/gather-scrobble-0.0.6.tar.gz
+[2023-04-29 18:30:56] INFO root fetch - processPackages [SciAssist]: Downloading https://files.pythonhosted.org/packages/03/d6/f45c0c5fb58365223182dc52d310ad06d01a2c932a9ee08d4aae084b3712/SciAssist-0.0.35.tar.gz
+[2023-04-29 18:30:56] INFO root fetch - processPackages [oresat-dxwifi]: Downloading https://files.pythonhosted.org/packages/bd/d7/2346f35a793ac2920c98b0b8dad1296f3c36123b886675d45ecd933a8675/oresat-dxwifi-0.1.0.tar.gz
+[2023-04-29 18:30:56] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202304291682782393] Old Version: [1.7.1.9.dev202304291682774691]
+[2023-04-29 18:30:56] INFO root fetch - processPackages [wagtail-sb-admin-interface]: Downloading https://files.pythonhosted.org/packages/ec/63/0c14584e15af8f0a454741f65a7a3e93a9acf341f7bae323f30d20481f18/wagtail_sb_admin_interface-0.4.0.tar.gz
+[2023-04-29 18:30:56] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/89/ba/3a9b235dc3881daf4d962a637682100ee89c0a3fcecc77b9f2f020024606/hype-html-1.1.3.tar.gz
+[2023-04-29 18:30:56] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/39/9f/2b95b27a8d2ced479acc0d974efc94b8798dbb827ba8de792d8b3d52b840/feathub_nightly-0.1.dev20230428-py3-none-any.whl
+[2023-04-29 18:30:56] INFO root fetch - processPackages [k8s-audit-filter]: Downloading https://files.pythonhosted.org/packages/e4/e1/28d6eabb000f2bd85724592dbca29b0b93f1e42bcf5444ff3ee001a29f5e/k8s_audit_filter-0.4.0-py3-none-any.whl
+[2023-04-29 18:30:56] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/e0/e5/a918d7a3f245a4f007dad00c71f4ac2d3995f4d5c821731a3f21b5fcf536/pyAgrum_nightly-1.7.1.9.dev202304291682774691-cp39-cp39-win_amd64.whl
+[2023-04-29 18:30:56] INFO root fetch - processPackages [bulrush]: Downloading https://files.pythonhosted.org/packages/58/56/310130684ebd0c6796e7d3eed8c748d18466953883a34a9a12cab7b01b5f/bulrush-0.6.3.tar.gz
+[2023-04-29 18:30:56] INFO root fetch - processPackages [gather-scrobble]: Downloading https://files.pythonhosted.org/packages/11/f1/6cf13fe5ec86a43b6fa6841f9a5bdf241dfecb7c5b10fc1e11577e44fdfb/gather-scrobble-0.0.7.tar.gz
+[2023-04-29 18:30:56] INFO root fetch - processPackages [hype-html]: executing diffoscope
+[2023-04-29 18:30:56] INFO root fetch - processPackages [hype-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hype-html-1.1.2.tar.gz tmp/hype-html-1.1.3.tar.gz --markdown 20230429/h/hype-html/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-29 18:30:56] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-29 18:30:56] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230429/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-04-29 18:30:56] INFO root fetch - processPackages [SciAssist]: Downloading https://files.pythonhosted.org/packages/b4/31/51beb0ecabf7c8ccc2e4e8885211782c0897deb9c95d450f642cbca1eb56/SciAssist-0.0.36.tar.gz
+[2023-04-29 18:30:57] INFO root fetch - processPackages [k8s-audit-filter]: executing diffoscope
+[2023-04-29 18:30:57] INFO root fetch - processPackages [k8s-audit-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s_audit_filter-0.3.0-py3-none-any.whl.zip tmp/k8s_audit_filter-0.4.0-py3-none-any.whl.zip --markdown 20230429/k/k8s-audit-filter/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 18:30:57] INFO root fetch - processPackages [oresat-dxwifi]: Downloading https://files.pythonhosted.org/packages/cf/2e/6e5ba1c28894ed096549f704e890282763a148ef079c21a1bdd468e39531/oresat-dxwifi-0.2.0.tar.gz
+[2023-04-29 18:30:57] INFO root fetch - processPackages [gather-scrobble]: executing diffoscope
+[2023-04-29 18:30:57] INFO root fetch - processPackages [gather-scrobble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gather-scrobble-0.0.6.tar.gz tmp/gather-scrobble-0.0.7.tar.gz --markdown 20230429/g/gather-scrobble/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-29 18:30:57] INFO root fetch - processPackages [bulrush]: executing diffoscope
+[2023-04-29 18:30:57] INFO root fetch - processPackages [bulrush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulrush-0.6.2.tar.gz tmp/bulrush-0.6.3.tar.gz --markdown 20230429/b/bulrush/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-29 18:30:57] INFO root fetch - processPackages [wagtail-sb-admin-interface]: Downloading https://files.pythonhosted.org/packages/89/32/8ff27d0816ceb9ff348841ebc7024c49e0fcbb9c0402b5379d7f7eb7557b/wagtail_sb_admin_interface-0.5.0.tar.gz
+[2023-04-29 18:30:57] INFO root fetch - processPackages [SciAssist]: executing diffoscope
+[2023-04-29 18:30:57] INFO root fetch - processPackages [SciAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciAssist-0.0.35.tar.gz tmp/SciAssist-0.0.36.tar.gz --markdown 20230429/S/SciAssist/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-04-29 18:30:57] INFO root fetch - processPackages [oresat-dxwifi]: executing diffoscope
+[2023-04-29 18:30:57] INFO root fetch - processPackages [oresat-dxwifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat-dxwifi-0.1.0.tar.gz tmp/oresat-dxwifi-0.2.0.tar.gz --markdown 20230429/o/oresat-dxwifi/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 18:30:57] INFO root fetch - processPackages [wagtail-sb-admin-interface]: executing diffoscope
+[2023-04-29 18:30:57] INFO root fetch - processPackages [wagtail-sb-admin-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_sb_admin_interface-0.4.0.tar.gz tmp/wagtail_sb_admin_interface-0.5.0.tar.gz --markdown 20230429/w/wagtail-sb-admin-interface/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 18:30:57] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/b8/32/452d14fbb04e4cdded5af4c605486fbbf38811aa654705664c5e4178ed9e/pyAgrum_nightly-1.7.1.9.dev202304291682782393-cp39-cp39-win_amd64.whl
+[2023-04-29 18:30:57] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-04-29 18:30:57] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202304291682774691-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202304291682782393-cp39-cp39-win_amd64.whl.zip --markdown 20230429/p/pyagrum-nightly/1.7.1.9.dev202304291682774691-1.7.1.9.dev202304291682782393/diff.md --exclude *.pyd
+[2023-04-29 18:30:57] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-04-29 18:30:57] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230427-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230428-py3-none-any.whl.zip --markdown 20230429/f/feathub-nightly/0.1.dev20230427-0.1.dev20230428/diff.md --exclude *.pyd
+[2023-04-29 18:30:58] INFO root fetch - processPackages [hype-html]: Start processing: oresat-gps
+[2023-04-29 18:30:58] INFO root fetch - main [MainThread]: End processing [hype-html]: success
+[2023-04-29 18:30:58] INFO root fetch - processPackages [oresat-gps]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-29 18:30:58] INFO root fetch - processPackages [k8s-audit-filter]: Start processing: mappy
+[2023-04-29 18:30:58] INFO root fetch - main [MainThread]: End processing [k8s-audit-filter]: success
+[2023-04-29 18:30:58] INFO root fetch - processPackages [mappy]: New version: [2.9] Old Version: [2.8]
+[2023-04-29 18:30:58] INFO root fetch - processPackages [oresat-gps]: Downloading https://files.pythonhosted.org/packages/f0/41/4ec8b65a2b2e00a02449670660b64382169c1da6a76085658bf8b6fbd70e/oresat-gps-1.1.0.tar.gz
+[2023-04-29 18:30:58] INFO root fetch - processPackages [bulrush]: Start processing: ibmodules
+[2023-04-29 18:30:58] INFO root fetch - main [MainThread]: End processing [bulrush]: success
+[2023-04-29 18:30:58] WARNING root fetch - processPackages [ibmodules]: Skipping, unable to determine old version
+[2023-04-29 18:30:58] INFO root fetch - processPackages [ibmodules]: Start processing: vtece4564-gamelib
+[2023-04-29 18:30:58] INFO root fetch - main [MainThread]: End processing [ibmodules] error
+[2023-04-29 18:30:58] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 18:30:58] INFO root fetch - processPackages [oresat-gps]: Downloading https://files.pythonhosted.org/packages/64/88/0146145a3fd7faa7c5af8ffeec13a04c47fdec4a9df3bd4ba75d98027388/oresat-gps-1.2.0.tar.gz
+[2023-04-29 18:30:58] INFO root fetch - processPackages [gather-scrobble]: Start processing: hkkang-utils
+[2023-04-29 18:30:58] INFO root fetch - main [MainThread]: End processing [gather-scrobble]: success
+[2023-04-29 18:30:58] INFO root fetch - processPackages [mappy]: executing diffoscope
+[2023-04-29 18:30:58] INFO root fetch - processPackages [mappy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mappy-2.8.tar.gz tmp/mappy-2.9.tar.gz --markdown 20230429/m/mappy/2.8-2.9/diff.md --exclude *.pyd
+[2023-04-29 18:30:58] INFO root fetch - processPackages [oresat-dxwifi]: Start processing: citizenk
+[2023-04-29 18:30:58] INFO root fetch - main [MainThread]: End processing [oresat-dxwifi]: success
+[2023-04-29 18:30:58] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 18:30:58] INFO root fetch - processPackages [citizenk]: New version: [0.1.35] Old Version: [0.1.33]
+[2023-04-29 18:30:58] INFO root fetch - processPackages [oresat-gps]: executing diffoscope
+[2023-04-29 18:30:58] INFO root fetch - processPackages [oresat-gps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat-gps-1.1.0.tar.gz tmp/oresat-gps-1.2.0.tar.gz --markdown 20230429/o/oresat-gps/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-29 18:30:59] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-29 18:30:59] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230429/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 18:30:59] ERROR root fetch - processPackages [citizenk]: Unable to fetch info: No such project/version 'citizenk' 0.1.33
+[2023-04-29 18:30:59] INFO root fetch - processPackages [citizenk]: Start processing: Quick-Magic
+[2023-04-29 18:30:59] INFO root fetch - main [MainThread]: End processing [citizenk] error
+[2023-04-29 18:30:59] INFO root fetch - processPackages [Quick-Magic]: New version: [1.2] Old Version: [1.1]
+[2023-04-29 18:30:59] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-29 18:30:59] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230429/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 18:30:59] INFO root fetch - processPackages [wagtail-sb-admin-interface]: Start processing: mdup
+[2023-04-29 18:30:59] INFO root fetch - main [MainThread]: End processing [wagtail-sb-admin-interface]: success
+[2023-04-29 18:30:59] WARNING root fetch - processPackages [mdup]: Skipping, unable to determine old version
+[2023-04-29 18:30:59] INFO root fetch - main [MainThread]: End processing [mdup] error
+[2023-04-29 18:30:59] INFO root fetch - main [MainThread]: End processing [SciAssist]: success
+[2023-04-29 18:30:59] INFO root fetch - processPackages [Quick-Magic]: Downloading https://files.pythonhosted.org/packages/31/bf/a527b1fe7dc64888f9e9ec4916d7b71e56f856844ed02b488718672ec9a3/Quick_Magic-1.2.tar.gz
+[2023-04-29 18:30:59] INFO root fetch - processPackages [Quick-Magic]: executing diffoscope
+[2023-04-29 18:30:59] INFO root fetch - processPackages [Quick-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_magic-1.1.tar.gz tmp/Quick_Magic-1.2.tar.gz --markdown 20230429/Q/Quick-Magic/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-29 18:30:59] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-04-29 18:31:00] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-29 18:31:00] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-29 18:31:00] INFO root fetch - main [MainThread]: End processing [oresat-gps]: success
+[2023-04-29 18:31:00] INFO root fetch - main [MainThread]: End processing [Quick-Magic]: success
+[2023-04-29 18:31:01] INFO root fetch - main [MainThread]: End processing [mappy]: success
+[2023-04-29 18:31:01] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-04-29 18:31:27] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-29 18:31:27] INFO root fetch - main [MainThread]: Store serial: [17910726]
