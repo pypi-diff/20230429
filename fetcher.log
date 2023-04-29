@@ -9660,3 +9660,65 @@
 [2023-04-29 15:43:07] INFO root fetch - main [MainThread]: End processing [oatk]: success
 [2023-04-29 15:43:09] INFO root fetch - main [MainThread]: End processing [daisy-llm]: success
 [2023-04-29 15:43:09] INFO root fetch - main [MainThread]: Store serial: [17909412]
+[2023-04-29 15:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909412]
+[2023-04-29 15:48:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qgate-graph
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccccccc
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metamoth
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddddddd
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hello2
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-intel
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eeeeeee
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bam-core
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: protloc-mex1
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fffffff
+[2023-04-29 15:48:17] WARNING root fetch - processPackages [ccccccc]: Skipping, unable to determine old version
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ccccccc]: Start processing: ukmon-meteortools
+[2023-04-29 15:48:17] INFO root fetch - main [MainThread]: End processing [ccccccc] error
+[2023-04-29 15:48:17] INFO root fetch - processPackages [metamoth]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-29 15:48:17] INFO root fetch - processPackages [qgate-graph]: New version: [1.2rc7] Old Version: [1.2rc6]
+[2023-04-29 15:48:17] WARNING root fetch - processPackages [ddddddd]: Skipping, unable to determine old version
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ddddddd]: Start processing: iiiiiii
+[2023-04-29 15:48:17] INFO root fetch - main [MainThread]: End processing [ddddddd] error
+[2023-04-29 15:48:17] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 15:48:17] INFO root fetch - processPackages [hello2]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-04-29 15:48:17] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.4.18] Old Version: [2023.4.17]
+[2023-04-29 15:48:17] INFO root fetch - processPackages [bam-core]: New version: [2023.4.29.1682775537] Old Version: [2023.4.29.1682775214]
+[2023-04-29 15:48:18] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-04-29 15:48:18] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.4.17.tar.gz tmp/ukmon_meteortools-2023.4.18.tar.gz --markdown 20230429/u/ukmon-meteortools/2023.4.17-2023.4.18/diff.md --exclude *.pyd
+[2023-04-29 15:48:18] INFO root fetch - processPackages [bam-core]: executing diffoscope
+[2023-04-29 15:48:18] WARNING root fetch - processPackages [eeeeeee]: Skipping, unable to determine old version
+[2023-04-29 15:48:18] INFO root fetch - processPackages [bam-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-core-2023.4.29.1682775214.tar.gz tmp/bam-core-2023.4.29.1682775537.tar.gz --markdown 20230429/b/bam-core/2023.4.29.1682775214-2023.4.29.1682775537/diff.md --exclude *.pyd
+[2023-04-29 15:48:18] INFO root fetch - processPackages [eeeeeee]: Start processing: catnapmodule
+[2023-04-29 15:48:18] INFO root fetch - main [MainThread]: End processing [eeeeeee] error
+[2023-04-29 15:48:18] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.13.0.dev20230429] Old Version: [2.13.0.dev20230427]
+[2023-04-29 15:48:18] WARNING root fetch - processPackages [fffffff]: Skipping, unable to determine old version
+[2023-04-29 15:48:18] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-04-29 15:48:18] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.1.tar.gz tmp/protloc_mex1-0.0.2.tar.gz --markdown 20230429/p/protloc-mex1/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 15:48:18] INFO root fetch - main [MainThread]: End processing [fffffff] error
+[2023-04-29 15:48:18] WARNING root fetch - processPackages [iiiiiii]: Skipping, unable to determine old version
+[2023-04-29 15:48:18] INFO root fetch - main [MainThread]: End processing [iiiiiii] error
+[2023-04-29 15:48:18] INFO root fetch - processPackages [metamoth]: Downloading https://files.pythonhosted.org/packages/fc/2f/7399e9e06d2143d17dd9a5f370098c05015c8c48949b2859dabe9f0f60ac/metamoth-1.2.0.tar.gz
+[2023-04-29 15:48:18] INFO root fetch - processPackages [catnapmodule]: New version: [0.2] Old Version: [0.1]
+[2023-04-29 15:48:18] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/3e/4a/8fd84be41ae5a78410db2e86b2062d5ba9966a639b63d88fa8b49edb646c/tf_nightly_intel-2.13.0.dev20230427-cp39-cp39-win_amd64.whl
+[2023-04-29 15:48:18] WARNING root fetch - processPackages [metamoth]: Skipping package: exceeds size limit 49662936>=10485760
+[2023-04-29 15:48:18] INFO root fetch - main [MainThread]: End processing [metamoth] error
+[2023-04-29 15:48:18] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/8a/00/6aef66b7cef413c3af6c2f5abe972be6fc2ceb67c96b39b0fe7e02991226/hello2-1.6.4.tar.gz
+[2023-04-29 15:48:18] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/d3/a0/56620f875d597b0c4f6e6e4457a46bc5934871e898a4743a3d7e321e5086/qgate_graph-1.2rc7.tar.gz
+[2023-04-29 15:48:18] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-04-29 15:48:18] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.6.3.tar.gz tmp/hello2-1.6.4.tar.gz --markdown 20230429/h/hello2/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-04-29 15:48:18] INFO root fetch - processPackages [catnapmodule]: Downloading https://files.pythonhosted.org/packages/6f/26/85b1e64fbb71943c5bc8e79a02e7025e60a9c1cd6c4f7b0db4d507d0ce35/catnapmodule-0.1.tar.gz
+[2023-04-29 15:48:18] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-04-29 15:48:18] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.2rc6.tar.gz tmp/qgate_graph-1.2rc7.tar.gz --markdown 20230429/q/qgate-graph/1.2rc6-1.2rc7/diff.md --exclude *.pyd
+[2023-04-29 15:48:18] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 179267018>=10485760
+[2023-04-29 15:48:18] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-04-29 15:48:18] INFO root fetch - processPackages [catnapmodule]: Downloading https://files.pythonhosted.org/packages/88/29/bd831299ab8c8650357ed6b110a5eec04f9810dee0907a6fe894bfe4bccd/catnapmodule-0.2.tar.gz
+[2023-04-29 15:48:18] INFO root fetch - processPackages [catnapmodule]: executing diffoscope
+[2023-04-29 15:48:18] INFO root fetch - processPackages [catnapmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnapmodule-0.1.tar.gz tmp/catnapmodule-0.2.tar.gz --markdown 20230429/c/catnapmodule/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-29 15:48:19] INFO root fetch - main [MainThread]: End processing [bam-core]: success
+[2023-04-29 15:48:19] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-04-29 15:48:19] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-04-29 15:48:19] INFO root fetch - main [MainThread]: End processing [catnapmodule]: success
+[2023-04-29 15:48:19] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-04-29 15:48:20] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-04-29 15:48:20] INFO root fetch - main [MainThread]: Store serial: [17909463]
