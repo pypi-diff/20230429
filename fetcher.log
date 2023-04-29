@@ -6154,3 +6154,16 @@
 [2023-04-29 08:45:53] INFO root fetch - main [MainThread]: End processing [tempo-api-python-client]: success
 [2023-04-29 08:45:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bottle]: success
 [2023-04-29 08:45:53] INFO root fetch - main [MainThread]: Store serial: [17907165]
+[2023-04-29 08:50:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907165]
+[2023-04-29 08:51:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-29 08:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Selenium-Screenshot
+[2023-04-29 08:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slim-id
+[2023-04-29 08:51:01] WARNING root fetch - processPackages [slim-id]: Skipping, unable to determine old version
+[2023-04-29 08:51:01] INFO root fetch - processPackages [Selenium-Screenshot]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-29 08:51:01] INFO root fetch - main [MainThread]: End processing [slim-id] error
+[2023-04-29 08:51:02] INFO root fetch - processPackages [Selenium-Screenshot]: Downloading https://files.pythonhosted.org/packages/e2/17/8c7c5af9e08069cefabfea5feafa1dfb3ae76a8f5f52396e0be1873363d2/Selenium-Screenshot-2.0.0.tar.gz
+[2023-04-29 08:51:02] INFO root fetch - processPackages [Selenium-Screenshot]: Downloading https://files.pythonhosted.org/packages/61/7a/4c7746b687e07adba89262956996dc5b355ae0fcab6572b660697a139a0b/Selenium-Screenshot-2.1.0.tar.gz
+[2023-04-29 08:51:02] INFO root fetch - processPackages [Selenium-Screenshot]: executing diffoscope
+[2023-04-29 08:51:02] INFO root fetch - processPackages [Selenium-Screenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Selenium-Screenshot-2.0.0.tar.gz tmp/Selenium-Screenshot-2.1.0.tar.gz --markdown 20230429/S/Selenium-Screenshot/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-29 08:51:03] INFO root fetch - main [MainThread]: End processing [Selenium-Screenshot]: success
+[2023-04-29 08:51:03] INFO root fetch - main [MainThread]: Store serial: [17907172]
