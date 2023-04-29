@@ -11459,3 +11459,52 @@
 [2023-04-29 18:31:01] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
 [2023-04-29 18:31:27] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-04-29 18:31:27] INFO root fetch - main [MainThread]: Store serial: [17910726]
+[2023-04-29 18:36:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910726]
+[2023-04-29 18:36:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-web-template
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-logger
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databind
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vtece4564-gamelib
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databind.core
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databind.json
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ory-kratos-client
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.core]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-04-29 18:36:37] INFO root fetch - processPackages [flet-web-template]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.json]: New version: [4.2.5] Old Version: [4.2.4]
+[2023-04-29 18:36:37] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 18:36:37] INFO root fetch - processPackages [xia-logger]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ory-kratos-client]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind]: Downloading https://files.pythonhosted.org/packages/93/e7/7b24a90e1d1e40c8912ea6044d45abceab62cfb0209514f619ad9baba2be/databind-4.2.4.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-04-29 18:36:37] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230429/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.core]: Downloading https://files.pythonhosted.org/packages/5b/6c/e3b3d25b014e3ac964f6c5981c07bd760fb79c1bfab689c5f37f0c9ad8f8/databind.core-4.2.4.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.json]: Downloading https://files.pythonhosted.org/packages/bd/f8/1138a2e062903fb5f8686ee5a3de83d541750c5089bcc0a98bf322418896/databind.json-4.2.4.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ory-kratos-client]: Downloading https://files.pythonhosted.org/packages/f8/d8/e6e6374fe2585bfbb947bd2070e8d9677048b46e5ec9467c7d464ccbbce3/ory-kratos-client-0.9.0a2.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [flet-web-template]: Downloading https://files.pythonhosted.org/packages/25/40/b8043e09a827baab20f4c83cd7db83360fc2ddf4df9931a482d8996d4559/flet-web-template-0.1.7.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [xia-logger]: Downloading https://files.pythonhosted.org/packages/2f/45/c8315eac7607d3ad9bfbb14110f7dcce8b34d4da5c90dc62c02ac8df2e97/xia_logger-0.1.0-cp39-none-win_amd64.whl
+[2023-04-29 18:36:37] INFO root fetch - processPackages [flet-web-template]: executing diffoscope
+[2023-04-29 18:36:37] INFO root fetch - processPackages [flet-web-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-web-template-0.1.6.tar.gz tmp/flet-web-template-0.1.7.tar.gz --markdown 20230429/f/flet-web-template/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind]: Downloading https://files.pythonhosted.org/packages/77/8b/3f30c986de9e90b72f7d42f4f6fff88cbc09f0bbbf94c5bc178926e5abe6/databind-4.2.5.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.core]: Downloading https://files.pythonhosted.org/packages/14/2c/f02270076e012b29d79264ca9e3cad4d5140bf924f93e96105cc9277351a/databind.core-4.2.5.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.json]: Downloading https://files.pythonhosted.org/packages/83/95/d2a4d0aa13d31730efc368bc7c1b85cc6839eb60cf0cbcfd77e0e8f8b1e3/databind.json-4.2.5.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind]: executing diffoscope
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databind-4.2.4.tar.gz tmp/databind-4.2.5.tar.gz --markdown 20230429/d/databind/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.core]: executing diffoscope
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databind.core-4.2.4.tar.gz tmp/databind.core-4.2.5.tar.gz --markdown 20230429/d/databind.core/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.json]: executing diffoscope
+[2023-04-29 18:36:37] INFO root fetch - processPackages [databind.json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databind.json-4.2.4.tar.gz tmp/databind.json-4.2.5.tar.gz --markdown 20230429/d/databind.json/4.2.4-4.2.5/diff.md --exclude *.pyd
+[2023-04-29 18:36:37] INFO root fetch - processPackages [ory-kratos-client]: Downloading https://files.pythonhosted.org/packages/df/35/6b48f06d10cb8147e917a787ab90c95eabbce24c3e9edb6337f3c7458ebd/ory-kratos-client-0.9.0a3.tar.gz
+[2023-04-29 18:36:37] INFO root fetch - processPackages [xia-logger]: Downloading https://files.pythonhosted.org/packages/88/2b/3e4eb346879cd36738803730d03a4e02287224023407063d9c2302425de5/xia_logger-0.1.1-cp39-none-win_amd64.whl
+[2023-04-29 18:36:37] INFO root fetch - processPackages [xia-logger]: executing diffoscope
+[2023-04-29 18:36:37] INFO root fetch - processPackages [xia-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_logger-0.1.0-cp39-none-win_amd64.whl.zip tmp/xia_logger-0.1.1-cp39-none-win_amd64.whl.zip --markdown 20230429/x/xia-logger/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 18:36:38] INFO root fetch - processPackages [ory-kratos-client]: executing diffoscope
+[2023-04-29 18:36:38] INFO root fetch - processPackages [ory-kratos-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-kratos-client-0.9.0a2.tar.gz tmp/ory-kratos-client-0.9.0a3.tar.gz --markdown 20230429/o/ory-kratos-client/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-04-29 18:36:38] INFO root fetch - main [MainThread]: End processing [flet-web-template]: success
+[2023-04-29 18:36:38] INFO root fetch - main [MainThread]: End processing [databind]: success
+[2023-04-29 18:36:38] INFO root fetch - main [MainThread]: End processing [databind.core]: success
+[2023-04-29 18:36:38] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-04-29 18:36:38] INFO root fetch - main [MainThread]: End processing [xia-logger]: success
+[2023-04-29 18:36:39] INFO root fetch - main [MainThread]: End processing [databind.json]: success
+[2023-04-29 18:36:44] INFO root fetch - main [MainThread]: End processing [ory-kratos-client]: success
+[2023-04-29 18:36:44] INFO root fetch - main [MainThread]: Store serial: [17910761]
