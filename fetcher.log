@@ -8447,3 +8447,47 @@
 [2023-04-29 13:37:08] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
 [2023-04-29 13:37:09] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
 [2023-04-29 13:37:09] INFO root fetch - main [MainThread]: Store serial: [17908631]
+[2023-04-29 13:42:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908631]
+[2023-04-29 13:42:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-memcache-status
+[2023-04-29 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elfetch
+[2023-04-29 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Docassemble-Pattern
+[2023-04-29 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cythonbuilder
+[2023-04-29 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharingiscaring
+[2023-04-29 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfontslibv2
+[2023-04-29 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mvc4kivy
+[2023-04-29 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chan127-demo
+[2023-04-29 13:42:19] INFO root fetch - processPackages [django-memcache-status]: New version: [2.3] Old Version: [2.2]
+[2023-04-29 13:42:19] INFO root fetch - processPackages [cythonbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 13:42:19] WARNING root fetch - processPackages [elfetch]: Skipping, unable to determine old version
+[2023-04-29 13:42:19] INFO root fetch - main [MainThread]: End processing [elfetch] error
+[2023-04-29 13:42:19] INFO root fetch - processPackages [Docassemble-Pattern]: New version: [3.6.6] Old Version: [3.6.5]
+[2023-04-29 13:42:19] INFO root fetch - processPackages [mvc4kivy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 13:42:19] WARNING root fetch - processPackages [pyfontslibv2]: Skipping, unable to determine old version
+[2023-04-29 13:42:19] INFO root fetch - main [MainThread]: End processing [pyfontslibv2] error
+[2023-04-29 13:42:19] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-29 13:42:19] INFO root fetch - processPackages [cythonbuilder]: executing diffoscope
+[2023-04-29 13:42:19] INFO root fetch - processPackages [cythonbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cythonbuilder-0.1.8.tar.gz tmp/cythonbuilder-0.1.9.tar.gz --markdown 20230429/c/cythonbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 13:42:19] INFO root fetch - processPackages [chan127-demo]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-29 13:42:19] INFO root fetch - processPackages [django-memcache-status]: Downloading https://files.pythonhosted.org/packages/42/07/93017e6c151e530f7aabc035fd30bb8b21310ebbc3d528f555c962ea55fc/django-memcache-status-2.2.tar.gz
+[2023-04-29 13:42:19] INFO root fetch - processPackages [mvc4kivy]: Downloading https://files.pythonhosted.org/packages/73/d8/f1dc85d48e682c9dc8c38c9ed74045971d6708b0599235586517ddfe98db/mvc4kivy-0.1.0.tar.gz
+[2023-04-29 13:42:19] INFO root fetch - processPackages [Docassemble-Pattern]: Downloading https://files.pythonhosted.org/packages/cd/90/a94f806099a186521f175dc6ef31e01a757707bf10ace5f82f1e89f8c26d/Docassemble-Pattern-3.6.5.tar.gz
+[2023-04-29 13:42:19] WARNING root fetch - processPackages [Docassemble-Pattern]: Skipping package: exceeds size limit 21906396>=10485760
+[2023-04-29 13:42:19] INFO root fetch - main [MainThread]: End processing [Docassemble-Pattern] error
+[2023-04-29 13:42:19] INFO root fetch - processPackages [mvc4kivy]: Downloading https://files.pythonhosted.org/packages/9f/6e/14e11ff3bb51245bbf9e0d2b886ab39cdff24bbaf6f948ea9eef01a23009/mvc4kivy-0.1.1.tar.gz
+[2023-04-29 13:42:19] INFO root fetch - processPackages [mvc4kivy]: executing diffoscope
+[2023-04-29 13:42:19] INFO root fetch - processPackages [mvc4kivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvc4kivy-0.1.0.tar.gz tmp/mvc4kivy-0.1.1.tar.gz --markdown 20230429/m/mvc4kivy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 13:42:19] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-04-29 13:42:19] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230429/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-29 13:42:20] INFO root fetch - processPackages [django-memcache-status]: Downloading https://files.pythonhosted.org/packages/13/57/662839fad07b99efed3725d82dbbfe2a0a266cf0e037dac212e10de4125e/django-memcache-status-2.3.tar.gz
+[2023-04-29 13:42:20] INFO root fetch - processPackages [chan127-demo]: Downloading https://files.pythonhosted.org/packages/b0/da/1e05440a01b39d635041d8276b0d46b9a967345f57c0878c20ada7550213/chan127-demo-0.0.3.tar.gz
+[2023-04-29 13:42:20] INFO root fetch - processPackages [chan127-demo]: executing diffoscope
+[2023-04-29 13:42:20] INFO root fetch - processPackages [chan127-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chan127-demo-0.0.1.tar.gz tmp/chan127-demo-0.0.3.tar.gz --markdown 20230429/c/chan127-demo/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 13:42:20] INFO root fetch - processPackages [django-memcache-status]: executing diffoscope
+[2023-04-29 13:42:20] INFO root fetch - processPackages [django-memcache-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-memcache-status-2.2.tar.gz tmp/django-memcache-status-2.3.tar.gz --markdown 20230429/d/django-memcache-status/2.2-2.3/diff.md --exclude *.pyd
+[2023-04-29 13:42:21] INFO root fetch - main [MainThread]: End processing [mvc4kivy]: success
+[2023-04-29 13:42:21] INFO root fetch - main [MainThread]: End processing [chan127-demo]: success
+[2023-04-29 13:42:21] INFO root fetch - main [MainThread]: End processing [django-memcache-status]: success
+[2023-04-29 13:42:21] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-04-29 13:42:42] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
+[2023-04-29 13:42:42] INFO root fetch - main [MainThread]: Store serial: [17908666]
