@@ -11752,3 +11752,88 @@
 [2023-04-29 19:05:26] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
 [2023-04-29 19:05:27] INFO root fetch - main [MainThread]: End processing [qtstrap]: success
 [2023-04-29 19:05:27] INFO root fetch - main [MainThread]: Store serial: [17910927]
+[2023-04-29 19:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910927]
+[2023-04-29 19:10:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mqtt-thread
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-stt-plugin-fasterwhisper
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: portfolyo
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langflow
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-stt-plugin-fasterwhisper
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: malla
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hkkang-utils
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: homeassistant
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: parsenv
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ibmodules
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [mqtt-thread]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-04-29 19:10:36] WARNING root fetch - processPackages [ibmodules]: Skipping, unable to determine old version
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ibmodules]: Start processing: yeref
+[2023-04-29 19:10:36] INFO root fetch - main [MainThread]: End processing [ibmodules] error
+[2023-04-29 19:10:36] INFO root fetch - processPackages [malla]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [langflow]: New version: [0.0.61] Old Version: [0.0.58]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [portfolyo]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [yeref]: New version: [0.1.48] Old Version: [0.1.47]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [homeassistant]: New version: [2023.5.0b3] Old Version: [2023.5.0b2]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [parsenv]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-29 19:10:36] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230429/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 19:10:36] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-04-29 19:10:36] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.47.tar.gz tmp/yeref-0.1.48.tar.gz --markdown 20230429/y/yeref/0.1.47-0.1.48/diff.md --exclude *.pyd
+[2023-04-29 19:10:36] INFO root fetch - processPackages [mqtt-thread]: Downloading https://files.pythonhosted.org/packages/0c/40/a64672f9037d071589351881701f77a6157c17b7c9307601400b958b2b01/mqtt_thread-1.6.2.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Downloading https://files.pythonhosted.org/packages/3b/a4/d512270d76e80e999977e0386b55d4c0719c7a2cba62f2fcae525151bd68/ovos-stt-plugin-fasterwhisper-0.0.0a1.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Downloading https://files.pythonhosted.org/packages/3b/a4/d512270d76e80e999977e0386b55d4c0719c7a2cba62f2fcae525151bd68/ovos-stt-plugin-fasterwhisper-0.0.0a1.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [malla]: Downloading https://files.pythonhosted.org/packages/72/09/0e44e1bff2778d98a193913dfa6a26944529f6444f4fe4d1a7c95de2f6d1/malla-0.1.4.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [malla]: executing diffoscope
+[2023-04-29 19:10:36] INFO root fetch - processPackages [malla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malla-0.1.3.tar.gz tmp/malla-0.1.4.tar.gz --markdown 20230429/m/malla/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 19:10:36] INFO root fetch - processPackages [parsenv]: Downloading https://files.pythonhosted.org/packages/c1/0c/78379484b2b223cc98c9b824f176afaf4bb9850207f2a1b071390e0f2206/parsenv-0.2.0.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/11/4c/bdff5ba0d215a2c7399a7d5853d2c149ad6b7c2d4b008dabcca02534d877/homeassistant-2023.5.0b2.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/fd/4f/b050e73214733a7ecf521d3f9ccfde09f495e6c4311fbbaff3aacf4459a8/langflow-0.0.61.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [portfolyo]: Downloading https://files.pythonhosted.org/packages/4f/86/619e7b73c02cc60d4bca31d1f06826395b3d9df22865e25ff092fffae260/portfolyo-0.5.1.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [portfolyo]: executing diffoscope
+[2023-04-29 19:10:36] INFO root fetch - processPackages [portfolyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolyo-0.5.0.tar.gz tmp/portfolyo-0.5.1.tar.gz --markdown 20230429/p/portfolyo/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-29 19:10:36] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 13650482>=10485760
+[2023-04-29 19:10:36] INFO root fetch - processPackages [homeassistant]: Start processing: ovos-stt-plugin-fasterwhisper
+[2023-04-29 19:10:36] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-04-29 19:10:36] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-04-29 19:10:36] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.58.tar.gz tmp/langflow-0.0.61.tar.gz --markdown 20230429/l/langflow/0.0.58-0.0.61/diff.md --exclude *.pyd
+[2023-04-29 19:10:36] INFO root fetch - processPackages [mqtt-thread]: Downloading https://files.pythonhosted.org/packages/e8/38/0a072f7d048c9b69b7e6202ca2ec19ce7fef6f82a329933dae44dbb833a3/mqtt_thread-1.6.3.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Downloading https://files.pythonhosted.org/packages/4b/c0/6ce75dcd68003e608e91d8c8bd1c2a7ba6adc772604098e66e5d321be1dd/ovos-stt-plugin-fasterwhisper-0.0.0a2.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Downloading https://files.pythonhosted.org/packages/4b/c0/6ce75dcd68003e608e91d8c8bd1c2a7ba6adc772604098e66e5d321be1dd/ovos-stt-plugin-fasterwhisper-0.0.0a2.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [mqtt-thread]: executing diffoscope
+[2023-04-29 19:10:36] INFO root fetch - processPackages [mqtt-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtt_thread-1.6.2.tar.gz tmp/mqtt_thread-1.6.3.tar.gz --markdown 20230429/m/mqtt-thread/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-29 19:10:36] INFO root fetch - processPackages [parsenv]: Downloading https://files.pythonhosted.org/packages/c7/95/d6ee6a55c403c5bc6fe473df9f86375025455f637cf66360f2560f7ba10c/parsenv-0.2.1.tar.gz
+[2023-04-29 19:10:36] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: Downloading https://files.pythonhosted.org/packages/4b/c0/6ce75dcd68003e608e91d8c8bd1c2a7ba6adc772604098e66e5d321be1dd/ovos-stt-plugin-fasterwhisper-0.0.0a2.tar.gz
+[2023-04-29 19:10:37] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: executing diffoscope
+[2023-04-29 19:10:37] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: executing diffoscope
+[2023-04-29 19:10:37] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-stt-plugin-fasterwhisper-0.0.0a1.tar.gz tmp/ovos-stt-plugin-fasterwhisper-0.0.0a2.tar.gz --markdown 20230429/o/ovos-stt-plugin-fasterwhisper/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-04-29 19:10:37] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: executing diffoscope
+[2023-04-29 19:10:37] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-stt-plugin-fasterwhisper-0.0.0a1.tar.gz tmp/ovos-stt-plugin-fasterwhisper-0.0.0a2.tar.gz --markdown 20230429/o/ovos-stt-plugin-fasterwhisper/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-04-29 19:10:37] INFO root fetch - processPackages [ovos-stt-plugin-fasterwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-stt-plugin-fasterwhisper-0.0.0a1.tar.gz tmp/ovos-stt-plugin-fasterwhisper-0.0.0a2.tar.gz --markdown 20230429/o/ovos-stt-plugin-fasterwhisper/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-04-29 19:10:37] INFO root fetch - processPackages [parsenv]: executing diffoscope
+[2023-04-29 19:10:37] INFO root fetch - processPackages [parsenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsenv-0.2.0.tar.gz tmp/parsenv-0.2.1.tar.gz --markdown 20230429/p/parsenv/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-29 19:10:37] INFO root fetch - processPackages [hkkang-utils]: Start processing: parsenv
+[2023-04-29 19:10:37] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-29 19:10:37] INFO root fetch - processPackages [parsenv]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-29 19:10:37] INFO root fetch - processPackages [parsenv]: executing diffoscope
+[2023-04-29 19:10:37] INFO root fetch - processPackages [parsenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsenv-0.2.0.tar.gz tmp/parsenv-0.2.1.tar.gz --markdown 20230429/p/parsenv/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-29 19:10:38] INFO root fetch - processPackages [malla]: Start processing: pyrosimple
+[2023-04-29 19:10:38] INFO root fetch - main [MainThread]: End processing [malla]: success
+[2023-04-29 19:10:38] INFO root fetch - processPackages [pyrosimple]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-04-29 19:10:38] INFO root fetch - processPackages [pyrosimple]: Downloading https://files.pythonhosted.org/packages/42/3c/3a5cc8e112987ac1570a864beace9528f7f285177b29fcdbebd0e875de14/pyrosimple-2.7.1.tar.gz
+[2023-04-29 19:10:38] INFO root fetch - main [MainThread]: End processing [mqtt-thread]: success
+[2023-04-29 19:10:38] INFO root fetch - main [MainThread]: End processing [ovos-stt-plugin-fasterwhisper]: success
+[2023-04-29 19:10:38] INFO root fetch - main [MainThread]: End processing [ovos-stt-plugin-fasterwhisper]: success
+[2023-04-29 19:10:38] INFO root fetch - main [MainThread]: End processing [ovos-stt-plugin-fasterwhisper]: success
+[2023-04-29 19:10:38] INFO root fetch - main [MainThread]: End processing [parsenv]: success
+[2023-04-29 19:10:38] INFO root fetch - processPackages [pyrosimple]: Downloading https://files.pythonhosted.org/packages/82/a8/9759219eb3372bbb9b9ed70883a6e00ed15251894a94c39d7c75fe6c84ff/pyrosimple-2.8.0.tar.gz
+[2023-04-29 19:10:38] INFO root fetch - processPackages [pyrosimple]: executing diffoscope
+[2023-04-29 19:10:38] INFO root fetch - processPackages [pyrosimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosimple-2.7.1.tar.gz tmp/pyrosimple-2.8.0.tar.gz --markdown 20230429/p/pyrosimple/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-04-29 19:10:38] INFO root fetch - main [MainThread]: End processing [parsenv]: success
+[2023-04-29 19:10:40] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-04-29 19:10:40] INFO root fetch - main [MainThread]: End processing [pyrosimple]: success
+[2023-04-29 19:10:40] INFO root fetch - main [MainThread]: End processing [portfolyo]: success
+[2023-04-29 19:10:54] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-04-29 19:10:54] INFO root fetch - main [MainThread]: Store serial: [17910966]
