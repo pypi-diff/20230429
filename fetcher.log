@@ -5455,3 +5455,27 @@
 [2023-04-29 06:50:35] INFO root fetch - main [MainThread]: End processing [qq.py]: success
 [2023-04-29 06:50:42] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-04-29 06:50:42] INFO root fetch - main [MainThread]: Store serial: [17906696]
+[2023-04-29 06:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906696]
+[2023-04-29 06:55:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 06:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: applying-cli
+[2023-04-29 06:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bassmap
+[2023-04-29 06:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: result
+[2023-04-29 06:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SpectroscopicBinarySystem
+[2023-04-29 06:55:51] WARNING root fetch - processPackages [applying-cli]: Skipping, unable to determine old version
+[2023-04-29 06:55:51] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.0.18] Old Version: [1.0.17]
+[2023-04-29 06:55:51] INFO root fetch - main [MainThread]: End processing [applying-cli] error
+[2023-04-29 06:55:51] INFO root fetch - processPackages [result]: New version: [0.9.0] Old Version: [0.8.0b1]
+[2023-04-29 06:55:51] INFO root fetch - processPackages [bassmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 06:55:51] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/10/31/bb210a5d4cfbd397cb6c11bc1cd780dd79004517dc31a1c2fdc46b82cb04/SpectroscopicBinarySystem-1.0.18.tar.gz
+[2023-04-29 06:55:51] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/7d/82/86e2b39e6c16e534e4f904f54e5f86c160ad29d6fc9a8a32bc3f5f4bb835/result-0.8.0b1.tar.gz
+[2023-04-29 06:55:51] INFO root fetch - processPackages [bassmap]: executing diffoscope
+[2023-04-29 06:55:51] INFO root fetch - processPackages [bassmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bassmap-0.0.8.tar.gz tmp/bassmap-0.0.9.tar.gz --markdown 20230429/b/bassmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 06:55:51] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-04-29 06:55:51] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.0.17.tar.gz tmp/SpectroscopicBinarySystem-1.0.18.tar.gz --markdown 20230429/S/SpectroscopicBinarySystem/1.0.17-1.0.18/diff.md --exclude *.pyd
+[2023-04-29 06:55:51] INFO root fetch - processPackages [result]: Downloading https://files.pythonhosted.org/packages/e1/d2/a6ac37982c8e314f71acd5d4a509dfde718f0c0fc8590b35b7d64101097e/result-0.9.0.tar.gz
+[2023-04-29 06:55:51] INFO root fetch - processPackages [result]: executing diffoscope
+[2023-04-29 06:55:51] INFO root fetch - processPackages [result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/result-0.8.0b1.tar.gz tmp/result-0.9.0.tar.gz --markdown 20230429/r/result/0.8.0b1-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 06:55:52] INFO root fetch - main [MainThread]: End processing [bassmap]: success
+[2023-04-29 06:55:52] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-04-29 06:55:52] INFO root fetch - main [MainThread]: End processing [result]: success
+[2023-04-29 06:55:52] INFO root fetch - main [MainThread]: Store serial: [17906711]
