@@ -1851,3 +1851,86 @@
 [2023-04-29 02:39:13] INFO root fetch - main [MainThread]: End processing [qt-custom]: success
 [2023-04-29 02:39:18] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-04-29 02:39:18] INFO root fetch - main [MainThread]: Store serial: [17904511]
+[2023-04-29 02:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904511]
+[2023-04-29 02:44:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: which-plates
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aligned-text-table
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-roborock
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: absl-extra
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nr-objstore-util
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qt-custom
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brease-sdk
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alacorder
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ezstools
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-comprehend-s3olap
+[2023-04-29 02:44:27] WARNING root fetch - processPackages [which-plates]: Skipping, unable to determine old version
+[2023-04-29 02:44:27] INFO root fetch - processPackages [which-plates]: Start processing: cerebrium
+[2023-04-29 02:44:27] INFO root fetch - main [MainThread]: End processing [which-plates] error
+[2023-04-29 02:44:27] INFO root fetch - processPackages [absl-extra]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [aligned-text-table]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [brease-sdk]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [qt-custom]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [nr-objstore-util]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.8.3]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [ezstools]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [alacorder]: New version: [80.0.0] Old Version: [79.9.1]
+[2023-04-29 02:44:27] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-04-29 02:44:28] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-04-29 02:44:28] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: pulumi-aws
+[2023-04-29 02:44:28] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-04-29 02:44:28] INFO root fetch - processPackages [nr-objstore-util]: Downloading https://files.pythonhosted.org/packages/47/f7/35a3876b21778a679869b03e5757cdc5e57cb5e16523a568c069a656a61d/nr_objstore_util-0.8.0.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [brease-sdk]: Downloading https://files.pythonhosted.org/packages/fb/dc/0185c7e2bddaa1b6fd5a45b6ece94046ab07b7b91ed570b65f1585a6ea12/brease-sdk-1.1.0.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/f5/0a/387ddcd24e1a083b1090d837744524b116a2c6c3c1f98a817401247d0450/absl_extra-0.0.5.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [aligned-text-table]: Downloading https://files.pythonhosted.org/packages/37/69/39df8503af705d8a8c423bf0a94596b16cb96e92ba231be3cfe04c91be9a/aligned_text_table-0.2.0.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [ezstools]: Downloading https://files.pythonhosted.org/packages/ac/ba/84bd6e61629679cde0fe380c80988cba9dc6d0a22ac05ea8c2dcb2cf2646/ezstools-2.5.1.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [qt-custom]: Downloading https://files.pythonhosted.org/packages/a6/e6/949db01a375c6ff3a3266b75a7d4e1555c2faa03cff4be16c0aef77b0ea6/qt-custom-0.2.5.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-04-29 02:44:28] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.4.tar.gz tmp/absl_extra-0.0.5.tar.gz --markdown 20230429/a/absl-extra/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-29 02:44:28] INFO root fetch - processPackages [aligned-text-table]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [aligned-text-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned_text_table-0.1.1.tar.gz tmp/aligned_text_table-0.2.0.tar.gz --markdown 20230429/a/aligned-text-table/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 02:44:28] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.8.3.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230429/p/python-roborock/0.8.3-0.9.0rc0/diff.md --exclude *.pyd
+[2023-04-29 02:44:28] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 02:44:28] INFO root fetch - processPackages [nr-objstore-util]: Downloading https://files.pythonhosted.org/packages/ed/78/99267807e585dfa481ae72bee82bc4e178de51587b15d56d43ed5d883ef9/nr_objstore_util-0.9.0.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [ezstools]: Downloading https://files.pythonhosted.org/packages/8d/51/f852cc63329b1df26556076d40e7d8ae361ac5f6cdaa9f3f48ae17c8eacc/ezstools-2.5.2.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [brease-sdk]: Downloading https://files.pythonhosted.org/packages/15/67/535b60ff16ba76e79b0ad2f4c55596620f74395e5501325649cedc6a69d7/brease-sdk-1.1.1.tar.gz
+[2023-04-29 02:44:28] INFO root fetch - processPackages [nr-objstore-util]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [nr-objstore-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nr_objstore_util-0.8.0.tar.gz tmp/nr_objstore_util-0.9.0.tar.gz --markdown 20230429/n/nr-objstore-util/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 02:44:28] INFO root fetch - processPackages [ezstools]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [ezstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezstools-2.5.1.tar.gz tmp/ezstools-2.5.2.tar.gz --markdown 20230429/e/ezstools/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-04-29 02:44:28] INFO root fetch - processPackages [brease-sdk]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [brease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brease-sdk-1.1.0.tar.gz tmp/brease-sdk-1.1.1.tar.gz --markdown 20230429/b/brease-sdk/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-29 02:44:28] INFO root fetch - processPackages [qt-custom]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [qt-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-custom-0.2.4.tar.gz tmp/qt-custom-0.2.5.tar.gz --markdown 20230429/q/qt-custom/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-29 02:44:28] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-04-29 02:44:28] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230429/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-04-29 02:44:29] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/42/2f/2746f1b24211d9aa0c21267c174ef46449f759cd16bb7d6da60fbe27099c/alacorder-80.0.0.tar.gz
+[2023-04-29 02:44:29] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-29 02:44:29] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.9.1.tar.gz tmp/alacorder-80.0.0.tar.gz --markdown 20230429/a/alacorder/79.9.1-80.0.0/diff.md --exclude *.pyd
+[2023-04-29 02:44:29] INFO root fetch - processPackages [absl-extra]: Start processing: ddtrace
+[2023-04-29 02:44:29] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-04-29 02:44:29] INFO root fetch - processPackages [ddtrace]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-04-29 02:44:29] INFO root fetch - processPackages [aligned-text-table]: Start processing: django-autotask
+[2023-04-29 02:44:29] INFO root fetch - main [MainThread]: End processing [aligned-text-table]: success
+[2023-04-29 02:44:29] INFO root fetch - processPackages [django-autotask]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-04-29 02:44:29] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-04-29 02:44:29] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.5.tar.gz tmp/ddtrace-1.9.6.tar.gz --markdown 20230429/d/ddtrace/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-04-29 02:44:30] INFO root fetch - processPackages [django-autotask]: Downloading https://files.pythonhosted.org/packages/7d/ae/d2357aeb85b5282458ce6b031abe3818007c02bf1c03ced5f25fa77789f0/django-autotask-1.1.1.tar.gz
+[2023-04-29 02:44:30] INFO root fetch - main [MainThread]: End processing [qt-custom]: success
+[2023-04-29 02:44:30] INFO root fetch - main [MainThread]: End processing [nr-objstore-util]: success
+[2023-04-29 02:44:30] INFO root fetch - main [MainThread]: End processing [ezstools]: success
+[2023-04-29 02:44:30] INFO root fetch - processPackages [django-autotask]: executing diffoscope
+[2023-04-29 02:44:30] INFO root fetch - processPackages [django-autotask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autotask-1.0.1.tar.gz tmp/django-autotask-1.1.1.tar.gz --markdown 20230429/d/django-autotask/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-04-29 02:44:30] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-29 02:44:30] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 02:44:30] INFO root fetch - main [MainThread]: End processing [brease-sdk]: success
+[2023-04-29 02:44:30] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-29 02:44:34] INFO root fetch - main [MainThread]: End processing [django-autotask]: success
+[2023-04-29 02:45:08] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-04-29 02:45:38] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-04-29 02:45:38] INFO root fetch - main [MainThread]: Store serial: [17904555]
