@@ -5545,3 +5545,58 @@
 [2023-04-29 07:11:26] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-04-29 07:14:15] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-04-29 07:14:15] INFO root fetch - main [MainThread]: Store serial: [17906770]
+[2023-04-29 07:19:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906770]
+[2023-04-29 07:19:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrew
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feiticeiro-tec
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netron
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nail
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapidpe-rift-pipe
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cramjam
+[2023-04-29 07:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mynacode
+[2023-04-29 07:19:24] WARNING root fetch - processPackages [feiticeiro-tec]: Skipping, unable to determine old version
+[2023-04-29 07:19:24] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec] error
+[2023-04-29 07:19:24] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-29 07:19:24] WARNING root fetch - processPackages [nail]: Skipping, unable to determine old version
+[2023-04-29 07:19:24] INFO root fetch - processPackages [netron]: New version: [6.8.6] Old Version: [6.8.5]
+[2023-04-29 07:19:24] INFO root fetch - main [MainThread]: End processing [nail] error
+[2023-04-29 07:19:24] INFO root fetch - processPackages [mynacode]: New version: [1.0.84] Old Version: [1.0.83]
+[2023-04-29 07:19:24] INFO root fetch - processPackages [mynacode]: New version: [1.0.84] Old Version: [1.0.83]
+[2023-04-29 07:19:24] INFO root fetch - processPackages [mynacode]: New version: [1.0.84] Old Version: [1.0.83]
+[2023-04-29 07:19:24] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230429] Old Version: [0.2.2.dev20230428]
+[2023-04-29 07:19:24] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/24/ee/d13ade37df0396dd4a1e277c42adc1f0fe6990809ba625ca043e126e9e27/netron-6.8.5-py3-none-any.whl
+[2023-04-29 07:19:24] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/92/8c/a3331b5d4dd05cce7c6c1279a06e62ecb657efd6b5fef24a34bd3fbcad71/mynacode-1.0.83-py3-none-any.whl
+[2023-04-29 07:19:24] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/92/8c/a3331b5d4dd05cce7c6c1279a06e62ecb657efd6b5fef24a34bd3fbcad71/mynacode-1.0.83-py3-none-any.whl
+[2023-04-29 07:19:24] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/92/8c/a3331b5d4dd05cce7c6c1279a06e62ecb657efd6b5fef24a34bd3fbcad71/mynacode-1.0.83-py3-none-any.whl
+[2023-04-29 07:19:24] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/45/3d/b3b48a6ba550f0b858080904966d06a1edc8b922da4e2c5332c6fab7a779/rapidpe_rift_pipe-0.2.2.dev20230428.tar.gz
+[2023-04-29 07:19:24] INFO root fetch - processPackages [cramjam]: New version: [2.7.0rc2] Old Version: [2.7.0rc1]
+[2023-04-29 07:19:24] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/42/51/75ca60facfdf213cc9d96563985384711ae079657f2fc72aa555b9c722e5/netron-6.8.6-py3-none-any.whl
+[2023-04-29 07:19:24] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-29 07:19:24] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230429/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/d1/63/8f126447a8fc66cf6abeff0935af56be25d05b85987455d49e2952983be0/mynacode-1.0.84-py3-none-any.whl
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/d1/63/8f126447a8fc66cf6abeff0935af56be25d05b85987455d49e2952983be0/mynacode-1.0.84-py3-none-any.whl
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/d1/63/8f126447a8fc66cf6abeff0935af56be25d05b85987455d49e2952983be0/mynacode-1.0.84-py3-none-any.whl
+[2023-04-29 07:19:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/fc/5a/4aae493fec08330d78d48cde970dc6cfce9f26f0887606a9611812b5fbae/rapidpe_rift_pipe-0.2.2.dev20230429.tar.gz
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.83-py3-none-any.whl.zip tmp/mynacode-1.0.84-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.83-1.0.84/diff.md --exclude *.pyd
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.83-py3-none-any.whl.zip tmp/mynacode-1.0.84-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.83-1.0.84/diff.md --exclude *.pyd
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 07:19:25] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.83-py3-none-any.whl.zip tmp/mynacode-1.0.84-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.83-1.0.84/diff.md --exclude *.pyd
+[2023-04-29 07:19:25] INFO root fetch - processPackages [cramjam]: Downloading https://files.pythonhosted.org/packages/14/5a/97fdb9e512ffedd2591eab379cbf8131e75d5d84c6a1b124aef01c830922/cramjam-2.7.0rc2.tar.gz
+[2023-04-29 07:19:25] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-04-29 07:19:25] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-6.8.5-py3-none-any.whl.zip tmp/netron-6.8.6-py3-none-any.whl.zip --markdown 20230429/n/netron/6.8.5-6.8.6/diff.md --exclude *.pyd
+[2023-04-29 07:19:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-04-29 07:19:25] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230428.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230429.tar.gz --markdown 20230429/r/rapidpe-rift-pipe/0.2.2.dev20230428-0.2.2.dev20230429/diff.md --exclude *.pyd
+[2023-04-29 07:19:25] INFO root fetch - processPackages [cramjam]: executing diffoscope
+[2023-04-29 07:19:25] INFO root fetch - processPackages [cramjam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cramjam-2.7.0rc1.tar.gz tmp/cramjam-2.7.0rc2.tar.gz --markdown 20230429/c/cramjam/2.7.0rc1-2.7.0rc2/diff.md --exclude *.pyd
+[2023-04-29 07:19:26] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-29 07:19:26] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 07:19:26] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 07:19:26] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 07:19:26] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-04-29 07:19:27] INFO root fetch - main [MainThread]: End processing [cramjam]: success
+[2023-04-29 07:21:10] INFO root fetch - main [MainThread]: End processing [netron]: success
+[2023-04-29 07:21:10] INFO root fetch - main [MainThread]: Store serial: [17906851]
