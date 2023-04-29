@@ -7721,3 +7721,47 @@
 [2023-04-29 12:23:10] INFO root fetch - main [MainThread]: End processing [aaaaa]: success
 [2023-04-29 12:23:10] INFO root fetch - main [MainThread]: End processing [nua-orchestrator]: success
 [2023-04-29 12:23:10] INFO root fetch - main [MainThread]: Store serial: [17908121]
+[2023-04-29 12:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908121]
+[2023-04-29 12:28:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QPUIQ
+[2023-04-29 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paddypy
+[2023-04-29 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pocketrockit
+[2023-04-29 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycti
+[2023-04-29 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cccc
+[2023-04-29 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geoviews
+[2023-04-29 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cocojamboo
+[2023-04-29 12:28:20] INFO root fetch - processPackages [paddypy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 12:28:20] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 12:28:20] INFO root fetch - processPackages [cocojamboo]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-29 12:28:20] INFO root fetch - processPackages [pycti]: New version: [5.7.post571] Old Version: [5.7.post570]
+[2023-04-29 12:28:20] INFO root fetch - processPackages [QPUIQ]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 12:28:20] WARNING root fetch - processPackages [cccc]: Skipping, unable to determine old version
+[2023-04-29 12:28:20] INFO root fetch - main [MainThread]: End processing [cccc] error
+[2023-04-29 12:28:20] INFO root fetch - processPackages [geoviews]: New version: [1.9.7a2] Old Version: [1.9.6a5]
+[2023-04-29 12:28:20] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-04-29 12:28:20] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.8.tar.gz tmp/pocketrockit-0.0.9.tar.gz --markdown 20230429/p/pocketrockit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:28:20] INFO root fetch - processPackages [cocojamboo]: Downloading https://files.pythonhosted.org/packages/11/e3/6eff17cc75ba7b5f613b30ac8a09d571e511d2fae69180a849c3af3125b7/cocojamboo-2.1.1.tar.gz
+[2023-04-29 12:28:20] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/17/a8/f63573318304ca89a23e80a3388ea714329a981d2592be5f79b4a24f67da/QPUIQ-0.1.5.tar.gz
+[2023-04-29 12:28:20] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/49/e8/c097e9dc148c99b2e487c087056acb4128cc0eb82357368f1a69b4580632/geoviews-1.9.6a5.tar.gz
+[2023-04-29 12:28:20] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/b7/61/096f1783c65659d17a8580aeafcfd21fba6f723c57b9aee594532ad6f890/pycti-5.7.post570.tar.gz
+[2023-04-29 12:28:20] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/47/94/4963fdd6967d1de2c99479bf1d587362e2bccab3fae7853a86482b3bf78c/paddypy-0.1.0.tar.gz
+[2023-04-29 12:28:20] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-04-29 12:28:20] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.1.4.tar.gz tmp/QPUIQ-0.1.5.tar.gz --markdown 20230429/Q/QPUIQ/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 12:28:20] INFO root fetch - processPackages [cocojamboo]: executing diffoscope
+[2023-04-29 12:28:20] INFO root fetch - processPackages [cocojamboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocojamboo-2.1.0.tar.gz tmp/cocojamboo-2.1.1.tar.gz --markdown 20230429/c/cocojamboo/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-29 12:28:20] INFO root fetch - processPackages [paddypy]: Downloading https://files.pythonhosted.org/packages/58/08/4445482df8df7c953eaee22b10f018eabba4fa6d73c4c219b8f17219eb6e/paddypy-0.1.1.tar.gz
+[2023-04-29 12:28:20] INFO root fetch - processPackages [paddypy]: executing diffoscope
+[2023-04-29 12:28:20] INFO root fetch - processPackages [paddypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddypy-0.1.0.tar.gz tmp/paddypy-0.1.1.tar.gz --markdown 20230429/p/paddypy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 12:28:20] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/77/18/264585e063968be139e7bcd31f7467c4a697507a1c1fce89671f5ca2eab7/pycti-5.7.post571.tar.gz
+[2023-04-29 12:28:20] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/21/52/ed532b7720d007baaef44f3de206988e758a3384dc8984c0dff0f6bdb3d4/geoviews-1.9.7a2.tar.gz
+[2023-04-29 12:28:21] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-04-29 12:28:21] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.7.post570.tar.gz tmp/pycti-5.7.post571.tar.gz --markdown 20230429/p/pycti/5.7.post570-5.7.post571/diff.md --exclude *.pyd
+[2023-04-29 12:28:21] INFO root fetch - processPackages [geoviews]: executing diffoscope
+[2023-04-29 12:28:21] INFO root fetch - processPackages [geoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoviews-1.9.6a5.tar.gz tmp/geoviews-1.9.7a2.tar.gz --markdown 20230429/g/geoviews/1.9.6a5-1.9.7a2/diff.md --exclude *.pyd
+[2023-04-29 12:28:21] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-04-29 12:28:21] INFO root fetch - main [MainThread]: End processing [cocojamboo]: success
+[2023-04-29 12:28:21] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-04-29 12:28:22] INFO root fetch - main [MainThread]: End processing [paddypy]: success
+[2023-04-29 12:28:23] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-04-29 12:28:23] INFO root fetch - main [MainThread]: End processing [geoviews]: success
+[2023-04-29 12:28:23] INFO root fetch - main [MainThread]: Store serial: [17908154]
