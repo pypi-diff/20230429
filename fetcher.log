@@ -7474,3 +7474,47 @@
 [2023-04-29 12:01:22] INFO root fetch - main [MainThread]: End processing [leuci-pol]: success
 [2023-04-29 12:01:26] INFO root fetch - main [MainThread]: End processing [ipython]: success
 [2023-04-29 12:01:26] INFO root fetch - main [MainThread]: Store serial: [17907975]
+[2023-04-29 12:06:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907975]
+[2023-04-29 12:06:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 12:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wildbook-ia
+[2023-04-29 12:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nataili
+[2023-04-29 12:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: favicorn
+[2023-04-29 12:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amrendras
+[2023-04-29 12:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automation-editor
+[2023-04-29 12:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-editor-dev
+[2023-04-29 12:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Tracert
+[2023-04-29 12:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mrdoxmrgt
+[2023-04-29 12:06:34] INFO root fetch - processPackages [nataili]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-29 12:06:34] INFO root fetch - processPackages [amrendras]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 12:06:34] INFO root fetch - processPackages [favicorn]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-29 12:06:34] WARNING root fetch - processPackages [automation-editor]: Skipping, unable to determine old version
+[2023-04-29 12:06:34] INFO root fetch - processPackages [mrdoxmrgt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-29 12:06:34] WARNING root fetch - processPackages [Tracert]: Skipping, unable to determine old version
+[2023-04-29 12:06:34] INFO root fetch - main [MainThread]: End processing [automation-editor] error
+[2023-04-29 12:06:34] WARNING root fetch - processPackages [automation-editor-dev]: Skipping, unable to determine old version
+[2023-04-29 12:06:34] INFO root fetch - main [MainThread]: End processing [Tracert] error
+[2023-04-29 12:06:34] INFO root fetch - main [MainThread]: End processing [automation-editor-dev] error
+[2023-04-29 12:06:35] INFO root fetch - processPackages [wildbook-ia]: New version: [4.0.5.dev9] Old Version: [4.0.5.dev7]
+[2023-04-29 12:06:35] INFO root fetch - processPackages [amrendras]: Downloading https://files.pythonhosted.org/packages/e9/a8/8266e53ecaded121144d4f00cfe9d868ec043353241a0d5031ebcf899d80/amrendras-1.0.0.tar.gz
+[2023-04-29 12:06:35] INFO root fetch - processPackages [favicorn]: Downloading https://files.pythonhosted.org/packages/9f/d5/ef6546718597178dae980f9357b22b4f8a4d3bab9c2d02412783e0529744/favicorn-0.0.3.tar.gz
+[2023-04-29 12:06:35] INFO root fetch - processPackages [nataili]: Downloading https://files.pythonhosted.org/packages/01/b5/83ad9059f8cf3588f98439c266a085f0d4d0e868aa3474d4df53dc3146c7/nataili-0.3.3.tar.gz
+[2023-04-29 12:06:35] INFO root fetch - processPackages [mrdoxmrgt]: Downloading https://files.pythonhosted.org/packages/e1/64/90b3c394e671bd92e8e43ec2731a993d39685607dfd9761b1ee794ec755e/mrdoxmrgt-0.1.6.tar.gz
+[2023-04-29 12:06:35] INFO root fetch - processPackages [mrdoxmrgt]: executing diffoscope
+[2023-04-29 12:06:35] INFO root fetch - processPackages [wildbook-ia]: Downloading https://files.pythonhosted.org/packages/40/85/5b53dde8c23f417276813ab5c417082c46f429e05a65e55774cc6246d065/wildbook_ia-4.0.5.dev7-py3-none-any.whl
+[2023-04-29 12:06:35] INFO root fetch - processPackages [mrdoxmrgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrdoxmrgt-0.1.5.tar.gz tmp/mrdoxmrgt-0.1.6.tar.gz --markdown 20230429/m/mrdoxmrgt/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-29 12:06:35] WARNING root fetch - processPackages [wildbook-ia]: Skipping package: exceeds size limit 66662773>=10485760
+[2023-04-29 12:06:35] INFO root fetch - main [MainThread]: End processing [wildbook-ia] error
+[2023-04-29 12:06:35] INFO root fetch - processPackages [amrendras]: Downloading https://files.pythonhosted.org/packages/c4/d3/889df285599487dc77b9e992819dedbca5557d7933c53726259d0a5fe879/amrendras-1.0.1.tar.gz
+[2023-04-29 12:06:35] INFO root fetch - processPackages [favicorn]: Downloading https://files.pythonhosted.org/packages/24/78/6f5d4e0c46359edb2224be007d5cb1a05646413a02bc5d17f30e1dff3d84/favicorn-0.0.4.tar.gz
+[2023-04-29 12:06:35] INFO root fetch - processPackages [amrendras]: executing diffoscope
+[2023-04-29 12:06:35] INFO root fetch - processPackages [amrendras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amrendras-1.0.0.tar.gz tmp/amrendras-1.0.1.tar.gz --markdown 20230429/a/amrendras/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 12:06:35] INFO root fetch - processPackages [nataili]: Downloading https://files.pythonhosted.org/packages/32/ab/2c5fb86f913ea1939a26be61ba75b1e479eb3b97f12c66ddc6f39aa99dec/nataili-0.3.4.tar.gz
+[2023-04-29 12:06:35] INFO root fetch - processPackages [favicorn]: executing diffoscope
+[2023-04-29 12:06:35] INFO root fetch - processPackages [favicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/favicorn-0.0.3.tar.gz tmp/favicorn-0.0.4.tar.gz --markdown 20230429/f/favicorn/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-29 12:06:35] INFO root fetch - processPackages [nataili]: executing diffoscope
+[2023-04-29 12:06:35] INFO root fetch - processPackages [nataili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nataili-0.3.3.tar.gz tmp/nataili-0.3.4.tar.gz --markdown 20230429/n/nataili/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-29 12:06:36] INFO root fetch - main [MainThread]: End processing [amrendras]: success
+[2023-04-29 12:06:36] INFO root fetch - main [MainThread]: End processing [favicorn]: success
+[2023-04-29 12:06:36] INFO root fetch - main [MainThread]: End processing [mrdoxmrgt]: success
+[2023-04-29 12:06:41] INFO root fetch - main [MainThread]: End processing [nataili]: success
+[2023-04-29 12:06:41] INFO root fetch - main [MainThread]: Store serial: [17908005]
