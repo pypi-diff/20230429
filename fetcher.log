@@ -12553,3 +12553,156 @@
 [2023-04-29 20:24:30] INFO root fetch - main [MainThread]: End processing [fps-auth]: success
 [2023-04-29 20:24:35] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-29 20:24:35] INFO root fetch - main [MainThread]: Store serial: [17911394]
+[2023-04-29 20:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911394]
+[2023-04-29 20:29:45] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fps-auth-fief
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fps-contents
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fps-frontend
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fps-jupyterlab
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fps-kernels
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fps-lab
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fps-nbconvert
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fps-retrolab
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fps-terminals
+[2023-04-29 20:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fps-yjs
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-frontend]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-auth-fief]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-contents]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-retrolab]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-nbconvert]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-lab]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-terminals]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-yjs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-kernels]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-jupyterlab]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-nbconvert]: Downloading https://files.pythonhosted.org/packages/a2/30/3d4af70c9b4f74ce5ce405782ba07cd2110028fd8af6b24523b623654d17/fps_nbconvert-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-frontend]: Downloading https://files.pythonhosted.org/packages/62/a5/cd1b1a2c1f66272cfd799f7184292e736e9262010001db060695c553a22d/fps_frontend-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-auth-fief]: Downloading https://files.pythonhosted.org/packages/40/74/511598241e028a2dfa0cc145b4284905e4159b346a560704685e765acb21/fps_auth_fief-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-contents]: Downloading https://files.pythonhosted.org/packages/5e/55/10a47df203c7bd8e62df971181303132bbad7fe143f6d7a89055251f71d3/fps_contents-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-retrolab]: Downloading https://files.pythonhosted.org/packages/a9/ed/4b0c1236e7943b8430a7a2a2a968866499ce58fd9e1babab146e3e1fe5ef/fps_retrolab-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-lab]: Downloading https://files.pythonhosted.org/packages/ec/24/3bd29648e32dd395c8163fee1bf0fd98f752c1f03c834cbc40b055769c13/fps_lab-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-jupyterlab]: Downloading https://files.pythonhosted.org/packages/c4/ef/cbdcd0be4395680620ef74793dd0a4b71417887aa0f105b51af670321f73/fps_jupyterlab-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-terminals]: Downloading https://files.pythonhosted.org/packages/a6/db/8edba3c4ee708fec9ee6a637f4da315bb0f29b0be53e37e8a70dbaf3c6f7/fps_terminals-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-yjs]: Downloading https://files.pythonhosted.org/packages/87/cc/e0f4fc65b36fbffb4a96ed092a9556b899951e70f0ef1ba25c30244e3adf/fps_yjs-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-kernels]: Downloading https://files.pythonhosted.org/packages/44/2c/5af4ee38f6593461553f08fe4412b52d0eecdd4a1d270d5f54048ce3d926/fps_kernels-0.1.4.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-lab]: Downloading https://files.pythonhosted.org/packages/a3/fb/9e959c6a01e125675729ec931bd82e6721cab0c49f41dd21a659ba8044d6/fps_lab-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-contents]: Downloading https://files.pythonhosted.org/packages/7e/7b/2a998edeeaad1fbf93f2b0bf986b96d389758e9b41759b4942ca49bd4757/fps_contents-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-jupyterlab]: Downloading https://files.pythonhosted.org/packages/42/af/9677b65717bd8efea1d9dc2b1a29d96b36bd7c1b2dd340d07227080f1cee/fps_jupyterlab-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-yjs]: Downloading https://files.pythonhosted.org/packages/13/f8/a002abf3178999cdf34119005caf1072b97c79630e6f80468f968555c75f/fps_yjs-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-retrolab]: Downloading https://files.pythonhosted.org/packages/64/ea/63ef4d450e1036dfa009a5a2fb3db826e10be637b5291b718bf62e380a26/fps_retrolab-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-frontend]: Downloading https://files.pythonhosted.org/packages/e7/c6/be454adcf16c13995790b43c595638f00afd2cc1a38e754863ea246ee2fb/fps_frontend-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-kernels]: Downloading https://files.pythonhosted.org/packages/e4/a2/26c45231a4797b810e53ce616f052111534fe1f283d43139d4bbffad0b9f/fps_kernels-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-auth-fief]: Downloading https://files.pythonhosted.org/packages/8c/6c/3217f578b970f822757b248fb0b2a8a2350072170094bed3595906f7d19e/fps_auth_fief-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-lab]: executing diffoscope
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_lab-0.1.4.tar.gz tmp/fps_lab-0.1.5.tar.gz --markdown 20230429/f/fps-lab/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-terminals]: Downloading https://files.pythonhosted.org/packages/7a/5e/d22054c46f7719622460b9c2dca841cc4d0b19f5a6bdcb718a713ca30843/fps_terminals-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-nbconvert]: Downloading https://files.pythonhosted.org/packages/65/cd/df7b26053efe981125f9f001be04d3fb4a22a8e49e5db9d283e8157c6651/fps_nbconvert-0.1.5.tar.gz
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-contents]: executing diffoscope
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-contents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_contents-0.1.4.tar.gz tmp/fps_contents-0.1.5.tar.gz --markdown 20230429/f/fps-contents/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-jupyterlab]: executing diffoscope
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_jupyterlab-0.1.4.tar.gz tmp/fps_jupyterlab-0.1.5.tar.gz --markdown 20230429/f/fps-jupyterlab/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-retrolab]: executing diffoscope
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-yjs]: executing diffoscope
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-retrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_retrolab-0.1.4.tar.gz tmp/fps_retrolab-0.1.5.tar.gz --markdown 20230429/f/fps-retrolab/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-yjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_yjs-0.1.4.tar.gz tmp/fps_yjs-0.1.5.tar.gz --markdown 20230429/f/fps-yjs/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-kernels]: executing diffoscope
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_kernels-0.1.4.tar.gz tmp/fps_kernels-0.1.5.tar.gz --markdown 20230429/f/fps-kernels/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-frontend]: executing diffoscope
+[2023-04-29 20:29:45] INFO root fetch - processPackages [fps-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_frontend-0.1.4.tar.gz tmp/fps_frontend-0.1.5.tar.gz --markdown 20230429/f/fps-frontend/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:46] INFO root fetch - processPackages [fps-auth-fief]: executing diffoscope
+[2023-04-29 20:29:46] INFO root fetch - processPackages [fps-auth-fief]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth_fief-0.1.4.tar.gz tmp/fps_auth_fief-0.1.5.tar.gz --markdown 20230429/f/fps-auth-fief/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:46] INFO root fetch - processPackages [fps-terminals]: executing diffoscope
+[2023-04-29 20:29:46] INFO root fetch - processPackages [fps-terminals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_terminals-0.1.4.tar.gz tmp/fps_terminals-0.1.5.tar.gz --markdown 20230429/f/fps-terminals/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:46] INFO root fetch - processPackages [fps-nbconvert]: executing diffoscope
+[2023-04-29 20:29:46] INFO root fetch - processPackages [fps-nbconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_nbconvert-0.1.4.tar.gz tmp/fps_nbconvert-0.1.5.tar.gz --markdown 20230429/f/fps-nbconvert/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-contents]: Start processing: fps-resource-usage
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-contents]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-lab]: Start processing: fps-login
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-lab]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-resource-usage]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-login]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-retrolab]: Start processing: lamineml
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-retrolab]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-04-29 20:29:47] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230429/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-resource-usage]: Downloading https://files.pythonhosted.org/packages/23/5c/6e2766bf79876180b423da70394f79a9c36825917fe622f06c9604b33e04/fps_resource_usage-0.1.4.tar.gz
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/cc/15/ff392fd988792bc102fbf5ac6874373035b0d369c5b0ca41ab2eca90f81a/fps_login-0.1.4.tar.gz
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-jupyterlab]: Start processing: jupyverse
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-jupyterlab]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-frontend]: Start processing: tiny-keccak
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-frontend]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [jupyverse]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:29:47] WARNING root fetch - processPackages [tiny-keccak]: Skipping, unable to determine old version
+[2023-04-29 20:29:47] INFO root fetch - processPackages [tiny-keccak]: Start processing: namefactory
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [tiny-keccak] error
+[2023-04-29 20:29:47] WARNING root fetch - processPackages [namefactory]: Skipping, unable to determine old version
+[2023-04-29 20:29:47] INFO root fetch - processPackages [namefactory]: Start processing: archetypesdk
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [namefactory] error
+[2023-04-29 20:29:47] INFO root fetch - processPackages [archetypesdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-auth-fief]: Start processing: cmdify
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-auth-fief]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [cmdify]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-yjs]: Start processing: xia-pusher-flask
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-yjs]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [xia-pusher-flask]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-resource-usage]: Downloading https://files.pythonhosted.org/packages/00/e0/a57325619990d363eb4c71c9ff9e43cf01d340f6a96b55d0e4c8dce636b0/fps_resource_usage-0.1.5.tar.gz
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-nbconvert]: Start processing: pyscemu
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-nbconvert]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-login]: Downloading https://files.pythonhosted.org/packages/03/1c/871533eeed3dea508c6554ad78e67f8aa1b39dc2e38c434c5d7dc1417bec/fps_login-0.1.5.tar.gz
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-terminals]: Start processing: moltemplate
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-terminals]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [jupyverse]: Downloading https://files.pythonhosted.org/packages/7a/17/7348a91c2fec410a1709974eba867ef69393ddf436f811490ec1900de62c/jupyverse-0.1.4.tar.gz
+[2023-04-29 20:29:47] INFO root fetch - processPackages [pyscemu]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-kernels]: Start processing: fpm
+[2023-04-29 20:29:47] INFO root fetch - main [MainThread]: End processing [fps-kernels]: success
+[2023-04-29 20:29:47] INFO root fetch - processPackages [moltemplate]: New version: [2.8.7] Old Version: [2.8.6]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fpm]: New version: [0.3.0] Old Version: [0.0.1]
+[2023-04-29 20:29:47] INFO root fetch - processPackages [cmdify]: Downloading https://files.pythonhosted.org/packages/ed/d2/b9b7ec8de81b7cbfcb416dd73022b5772ea686c0e94afbfe2f8adf590a70/cmdify-0.1.1.tar.gz
+[2023-04-29 20:29:47] INFO root fetch - processPackages [archetypesdk]: Downloading https://files.pythonhosted.org/packages/f2/80/86aea879690e58ee9c131faa140944a17158db664d3fa1effb9fc5d8bb67/archetypesdk-1.0.8.tar.gz
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-resource-usage]: executing diffoscope
+[2023-04-29 20:29:47] INFO root fetch - processPackages [fps-resource-usage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_resource_usage-0.1.4.tar.gz tmp/fps_resource_usage-0.1.5.tar.gz --markdown 20230429/f/fps-resource-usage/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [fps-login]: executing diffoscope
+[2023-04-29 20:29:48] INFO root fetch - processPackages [fps-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_login-0.1.4.tar.gz tmp/fps_login-0.1.5.tar.gz --markdown 20230429/f/fps-login/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [xia-pusher-flask]: Downloading https://files.pythonhosted.org/packages/90/a2/057afda6114ca5e0b2a412a71d96460394778aec026511b4812ef7cb455f/xia_pusher_flask-0.0.6-cp39-none-win_amd64.whl
+[2023-04-29 20:29:48] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/71/3d/6997bcecac02edb16bd468da108417e41eacac1decc092a73c5d9b6570d3/pyscemu-0.1.0.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [jupyverse]: Downloading https://files.pythonhosted.org/packages/f0/53/449d3fa2f59ce550d725d7c8f1640c42afd7929a57795a250b70c98b25cf/jupyverse-0.1.5.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/ef/d5/2ad33f2cc515e816a5de0f52d359fed4013762db7e9dad4e13d22b10f214/fpm-0.0.1.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [moltemplate]: Downloading https://files.pythonhosted.org/packages/32/33/c3065df8828e941b2757772cebd0c4c504043892a00495c15d4b7e42143a/moltemplate-2.8.6.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [cmdify]: Downloading https://files.pythonhosted.org/packages/c3/99/8e4b904fbb017ebbab4ad8b2fd7d79cd3c90dcafca29ae39bd211bd47fb1/cmdify-0.1.2.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [xia-pusher-flask]: executing diffoscope
+[2023-04-29 20:29:48] INFO root fetch - processPackages [xia-pusher-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_pusher_flask-0.0.5-cp39-none-win_amd64.whl.zip tmp/xia_pusher_flask-0.0.6-cp39-none-win_amd64.whl.zip --markdown 20230429/x/xia-pusher-flask/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [jupyverse]: executing diffoscope
+[2023-04-29 20:29:48] INFO root fetch - processPackages [jupyverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse-0.1.4.tar.gz tmp/jupyverse-0.1.5.tar.gz --markdown 20230429/j/jupyverse/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [archetypesdk]: Downloading https://files.pythonhosted.org/packages/18/b1/96c36941950ccbbb712dadf2d1882a2c89e93bbaa4e028b51401d519518b/archetypesdk-1.0.9.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/40/8b/ac0bf37ca5f2c44c6d4837801ed0b3b765923ee303c776d1e144f2269567/pyscemu-0.1.1.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [cmdify]: executing diffoscope
+[2023-04-29 20:29:48] INFO root fetch - processPackages [cmdify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdify-0.1.1.tar.gz tmp/cmdify-0.1.2.tar.gz --markdown 20230429/c/cmdify/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/f5/73/a125f576142aa488cc91c8f9e807cfba6bbeddfc2b1aa94a9996eddabf4c/fpm-0.3.0.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [archetypesdk]: executing diffoscope
+[2023-04-29 20:29:48] INFO root fetch - processPackages [archetypesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archetypesdk-1.0.8.tar.gz tmp/archetypesdk-1.0.9.tar.gz --markdown 20230429/a/archetypesdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [moltemplate]: Downloading https://files.pythonhosted.org/packages/d5/7e/fa92cc2280602192fbf893b8fea82b7a67ee79765f671b6626b1eec18a83/moltemplate-2.8.7.tar.gz
+[2023-04-29 20:29:48] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-04-29 20:29:48] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.1.0.tar.gz tmp/pyscemu-0.1.1.tar.gz --markdown 20230429/p/pyscemu/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [fpm]: executing diffoscope
+[2023-04-29 20:29:48] INFO root fetch - processPackages [fpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpm-0.0.1.tar.gz tmp/fpm-0.3.0.tar.gz --markdown 20230429/f/fpm/0.0.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [moltemplate]: executing diffoscope
+[2023-04-29 20:29:48] INFO root fetch - processPackages [moltemplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltemplate-2.8.6.tar.gz tmp/moltemplate-2.8.7.tar.gz --markdown 20230429/m/moltemplate/2.8.6-2.8.7/diff.md --exclude *.pyd
+[2023-04-29 20:29:48] INFO root fetch - processPackages [lamineml]: Start processing: fastapi-listing
+[2023-04-29 20:29:48] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-04-29 20:29:49] INFO root fetch - processPackages [fastapi-listing]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-29 20:29:49] INFO root fetch - processPackages [fastapi-listing]: Downloading https://files.pythonhosted.org/packages/c5/0b/824f08f46cc91153f5f67705865b9ac271ac913e7b64fa7177f77360bc85/fastapi-listing-0.0.1.tar.gz
+[2023-04-29 20:29:49] INFO root fetch - main [MainThread]: End processing [fps-resource-usage]: success
+[2023-04-29 20:29:49] INFO root fetch - main [MainThread]: End processing [fps-login]: success
+[2023-04-29 20:29:49] INFO root fetch - processPackages [fastapi-listing]: Downloading https://files.pythonhosted.org/packages/d9/a8/c2d6f851c1ae69bbf2df0b91d3d513ef430cf9922ecaa8439ff7aa1071bb/fastapi-listing-0.0.3.tar.gz
+[2023-04-29 20:29:49] INFO root fetch - main [MainThread]: End processing [xia-pusher-flask]: success
+[2023-04-29 20:29:49] INFO root fetch - processPackages [fastapi-listing]: executing diffoscope
+[2023-04-29 20:29:49] INFO root fetch - processPackages [fastapi-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-listing-0.0.1.tar.gz tmp/fastapi-listing-0.0.3.tar.gz --markdown 20230429/f/fastapi-listing/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 20:29:49] INFO root fetch - main [MainThread]: End processing [fpm]: success
+[2023-04-29 20:29:49] INFO root fetch - main [MainThread]: End processing [cmdify]: success
+[2023-04-29 20:29:50] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-04-29 20:29:50] INFO root fetch - main [MainThread]: End processing [archetypesdk]: success
+[2023-04-29 20:29:51] INFO root fetch - main [MainThread]: End processing [moltemplate]: success
+[2023-04-29 20:29:52] INFO root fetch - main [MainThread]: End processing [jupyverse]: success
+[2023-04-29 20:30:11] INFO root fetch - main [MainThread]: End processing [fastapi-listing]: success
+[2023-04-29 20:30:11] INFO root fetch - main [MainThread]: Store serial: [17911501]
