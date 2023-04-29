@@ -8028,3 +8028,45 @@
 [2023-04-29 12:49:16] INFO root fetch - main [MainThread]: End processing [apache-airflow] error
 [2023-04-29 12:49:18] INFO root fetch - main [MainThread]: End processing [cppipc-python]: success
 [2023-04-29 12:49:18] INFO root fetch - main [MainThread]: Store serial: [17908313]
+[2023-04-29 12:54:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908313]
+[2023-04-29 12:54:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: characterai
+[2023-04-29 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: WinTraceroute
+[2023-04-29 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-load-density
+[2023-04-29 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-load-density-dev
+[2023-04-29 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: colortool
+[2023-04-29 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hhhh
+[2023-04-29 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jjjj
+[2023-04-29 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scandir-rs
+[2023-04-29 12:54:27] WARNING root fetch - processPackages [characterai]: Skipping, unable to determine old version
+[2023-04-29 12:54:27] INFO root fetch - main [MainThread]: End processing [characterai] error
+[2023-04-29 12:54:27] INFO root fetch - processPackages [WinTraceroute]: New version: [1.0.15] Old Version: [1.0.14]
+[2023-04-29 12:54:27] INFO root fetch - processPackages [je-load-density-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 12:54:27] INFO root fetch - processPackages [je-load-density]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 12:54:27] INFO root fetch - processPackages [colortool]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-29 12:54:27] WARNING root fetch - processPackages [hhhh]: Skipping, unable to determine old version
+[2023-04-29 12:54:27] INFO root fetch - main [MainThread]: End processing [hhhh] error
+[2023-04-29 12:54:27] WARNING root fetch - processPackages [jjjj]: Skipping, unable to determine old version
+[2023-04-29 12:54:27] INFO root fetch - main [MainThread]: End processing [jjjj] error
+[2023-04-29 12:54:27] INFO root fetch - processPackages [scandir-rs]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-04-29 12:54:27] INFO root fetch - processPackages [colortool]: Downloading https://files.pythonhosted.org/packages/98/97/612f6bcdf4aae8991aafcb0b3798b1e829afb3105c83a979210fa3651404/colortool-0.4.1.tar.gz
+[2023-04-29 12:54:27] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/4a/9e/31d15e5b077e5841a1a59db6501af612ec53e9c719885b368343953f8870/WinTraceroute-1.0.14.tar.gz
+[2023-04-29 12:54:27] INFO root fetch - processPackages [colortool]: executing diffoscope
+[2023-04-29 12:54:27] INFO root fetch - processPackages [colortool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colortool-0.4.0.tar.gz tmp/colortool-0.4.1.tar.gz --markdown 20230429/c/colortool/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-29 12:54:27] INFO root fetch - processPackages [scandir-rs]: Downloading https://files.pythonhosted.org/packages/79/d7/df53a5338ae8e70c9fe35b1da92f30423cccdd6aa83479a0a3e0d1ced0ac/scandir_rs-2.3.4-cp39-cp39-manylinux_2_34_x86_64.whl
+[2023-04-29 12:54:27] INFO root fetch - processPackages [je-load-density-dev]: executing diffoscope
+[2023-04-29 12:54:27] INFO root fetch - processPackages [je-load-density-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density_dev-0.0.8.tar.gz tmp/je_load_density_dev-0.0.9.tar.gz --markdown 20230429/j/je-load-density-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:54:27] INFO root fetch - processPackages [je-load-density]: executing diffoscope
+[2023-04-29 12:54:27] INFO root fetch - processPackages [je-load-density]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_load_density-0.0.8.tar.gz tmp/je_load_density-0.0.9.tar.gz --markdown 20230429/j/je-load-density/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:54:27] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/b9/0e/3e34ce0e2ae42488c3049cf2ec8778d27058ee2af7176a395a563f7b939d/WinTraceroute-1.0.15.tar.gz
+[2023-04-29 12:54:27] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-04-29 12:54:27] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.0.14.tar.gz tmp/WinTraceroute-1.0.15.tar.gz --markdown 20230429/W/WinTraceroute/1.0.14-1.0.15/diff.md --exclude *.pyd
+[2023-04-29 12:54:27] INFO root fetch - processPackages [scandir-rs]: Downloading https://files.pythonhosted.org/packages/60/88/5159a9bfb5fd8fd388354f0fcd225c85c16394fa99059f41407b2e6acf21/scandir_rs-2.3.5-cp311-cp311-manylinux_2_34_x86_64.whl
+[2023-04-29 12:54:28] INFO root fetch - processPackages [scandir-rs]: executing diffoscope
+[2023-04-29 12:54:28] INFO root fetch - processPackages [scandir-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandir_rs-2.3.4-cp39-cp39-manylinux_2_34_x86_64.whl.zip tmp/scandir_rs-2.3.5-cp311-cp311-manylinux_2_34_x86_64.whl.zip --markdown 20230429/s/scandir-rs/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-04-29 12:54:28] INFO root fetch - main [MainThread]: End processing [colortool]: success
+[2023-04-29 12:54:28] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
+[2023-04-29 12:54:28] INFO root fetch - main [MainThread]: End processing [je-load-density]: success
+[2023-04-29 12:54:28] INFO root fetch - main [MainThread]: End processing [je-load-density-dev]: success
+[2023-04-29 12:54:34] INFO root fetch - main [MainThread]: End processing [scandir-rs]: success
+[2023-04-29 12:54:34] INFO root fetch - main [MainThread]: Store serial: [17908352]
