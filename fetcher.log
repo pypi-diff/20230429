@@ -6557,3 +6557,49 @@
 [2023-04-29 09:54:01] INFO root fetch - main [MainThread]: End processing [pyhtools]: success
 [2023-04-29 09:54:02] INFO root fetch - main [MainThread]: End processing [PythonToolsKit]: success
 [2023-04-29 09:54:02] INFO root fetch - main [MainThread]: Store serial: [17907446]
+[2023-04-29 09:59:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907446]
+[2023-04-29 09:59:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finalynx
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sb-codefield
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blankimage
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rolfsen
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sphere-base
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nycu-tdx-py
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-index
+[2023-04-29 09:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qazxsw
+[2023-04-29 09:59:12] INFO root fetch - processPackages [gpt-index]: New version: [0.6.0a1] Old Version: [0.5.9]
+[2023-04-29 09:59:12] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 09:59:12] WARNING root fetch - processPackages [django-sb-codefield]: Skipping, unable to determine old version
+[2023-04-29 09:59:12] INFO root fetch - main [MainThread]: End processing [django-sb-codefield] error
+[2023-04-29 09:59:12] WARNING root fetch - processPackages [rolfsen]: Skipping, unable to determine old version
+[2023-04-29 09:59:12] INFO root fetch - main [MainThread]: End processing [rolfsen] error
+[2023-04-29 09:59:12] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-04-29 09:59:12] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.5.9.tar.gz tmp/gpt_index-0.6.0a1.tar.gz --markdown 20230429/g/gpt-index/0.5.9-0.6.0a1/diff.md --exclude *.pyd
+[2023-04-29 09:59:12] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-04-29 09:59:12] WARNING root fetch - processPackages [qazxsw]: Skipping, unable to determine old version
+[2023-04-29 09:59:12] INFO root fetch - main [MainThread]: End processing [qazxsw] error
+[2023-04-29 09:59:12] INFO root fetch - processPackages [blankimage]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 09:59:12] INFO root fetch - processPackages [sphere-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 09:59:12] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-29 09:59:12] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230429/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 09:59:12] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-04-29 09:59:12] INFO root fetch - processPackages [blankimage]: Downloading https://files.pythonhosted.org/packages/bd/6b/d0411c73ba01c172bd0beed26a2b11ac3b616d94c9dfe0aeb47f5a59b6a3/blankimage-0.1.0.tar.gz
+[2023-04-29 09:59:13] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2023-04-29 09:59:13] INFO root fetch - processPackages [sphere-base]: executing diffoscope
+[2023-04-29 09:59:13] INFO root fetch - processPackages [sphere-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphere_base-0.1.8.tar.gz tmp/sphere_base-0.1.9.tar.gz --markdown 20230429/s/sphere-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 09:59:13] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-04-29 09:59:13] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230429/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-04-29 09:59:13] INFO root fetch - processPackages [blankimage]: Downloading https://files.pythonhosted.org/packages/ef/3e/81b1c5c95af4cb831326ac1ccea0d1ff811dfbe409fb20c09a98034164c3/blankimage-0.1.1.tar.gz
+[2023-04-29 09:59:13] INFO root fetch - processPackages [blankimage]: executing diffoscope
+[2023-04-29 09:59:13] INFO root fetch - processPackages [blankimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blankimage-0.1.0.tar.gz tmp/blankimage-0.1.1.tar.gz --markdown 20230429/b/blankimage/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 09:59:13] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2023-04-29 09:59:13] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-04-29 09:59:13] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230429/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-04-29 09:59:13] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-29 09:59:14] INFO root fetch - main [MainThread]: End processing [blankimage]: success
+[2023-04-29 09:59:14] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-04-29 09:59:15] INFO root fetch - main [MainThread]: End processing [sphere-base]: success
+[2023-04-29 09:59:15] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-04-29 09:59:16] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-04-29 09:59:16] INFO root fetch - main [MainThread]: Store serial: [17907479]
