@@ -12859,3 +12859,54 @@
 [2023-04-29 20:45:48] INFO root fetch - main [MainThread]: End processing [ovos-skill-filebrowser]: success
 [2023-04-29 20:45:50] INFO root fetch - main [MainThread]: End processing [fpm]: success
 [2023-04-29 20:45:50] INFO root fetch - main [MainThread]: Store serial: [17911580]
+[2023-04-29 20:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911580]
+[2023-04-29 20:51:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guify
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objectwalker
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-tts-plugin-piper
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: messageflux
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iguala
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rpp
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-logstash-tradingstrategy
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spectresc
+[2023-04-29 20:51:00] INFO root fetch - processPackages [python-logstash-tradingstrategy]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-29 20:51:00] WARNING root fetch - processPackages [guify]: Skipping, unable to determine old version
+[2023-04-29 20:51:00] INFO root fetch - main [MainThread]: End processing [guify] error
+[2023-04-29 20:51:00] INFO root fetch - processPackages [rpp]: New version: [0.5] Old Version: [0.4]
+[2023-04-29 20:51:00] INFO root fetch - processPackages [ovos-tts-plugin-piper]: New version: [0.0.0a4] Old Version: [0.0.0a3]
+[2023-04-29 20:51:00] INFO root fetch - processPackages [iguala]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-29 20:51:00] INFO root fetch - processPackages [messageflux]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 20:51:00] INFO root fetch - processPackages [objectwalker]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-04-29 20:51:00] INFO root fetch - processPackages [spectresc]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-29 20:51:00] INFO root fetch - processPackages [rpp]: Downloading https://files.pythonhosted.org/packages/cc/ac/8e37e630ea396273c5ee728fb2a96373bab89ff7048bc7213058016a6eb7/rpp-0.4.tar.gz
+[2023-04-29 20:51:00] INFO root fetch - processPackages [iguala]: Downloading https://files.pythonhosted.org/packages/4e/ac/8b9dd265053ac48a5c1ac1c17b793eda971492d10a98b61061850a0bd946/iguala-0.4.0.tar.gz
+[2023-04-29 20:51:00] INFO root fetch - processPackages [python-logstash-tradingstrategy]: Downloading https://files.pythonhosted.org/packages/2d/49/48da021cc12ec06581c68965a51e7540796514ffad1847cfffcfa411aaeb/python_logstash_tradingstrategy-0.5.0-py3-none-any.whl
+[2023-04-29 20:51:00] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/e7/4d/c66890257b40a576a52271eeaf82b661fb7faf909dca8214198fbe8e17f3/messageflux-0.2.1.tar.gz
+[2023-04-29 20:51:00] INFO root fetch - processPackages [objectwalker]: Downloading https://files.pythonhosted.org/packages/7b/b3/c8052924fcb65b4f953593c35b15d0d973af281eed76b5f2e01e73d26371/objectwalker-2.1.3.tar.gz
+[2023-04-29 20:51:00] INFO root fetch - processPackages [objectwalker]: executing diffoscope
+[2023-04-29 20:51:00] INFO root fetch - processPackages [objectwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectwalker-2.1.2.tar.gz tmp/objectwalker-2.1.3.tar.gz --markdown 20230429/o/objectwalker/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-04-29 20:51:00] INFO root fetch - processPackages [spectresc]: Downloading https://files.pythonhosted.org/packages/5e/b2/56b6a604bce9b757fe9f0aec6a2eed42d474d5be416ddece3dd83e1518d2/spectresc-1.0.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-29 20:51:00] INFO root fetch - processPackages [rpp]: Downloading https://files.pythonhosted.org/packages/f6/36/6534b9c984718b3a26fcd42e6d21d6f3a6d95bddf014df0c8f2ba30555e0/rpp-0.5.tar.gz
+[2023-04-29 20:51:00] INFO root fetch - processPackages [python-logstash-tradingstrategy]: Downloading https://files.pythonhosted.org/packages/15/93/066168e695b831ecc6cab9b6601ad67549d123171aa2129742184c32fad0/python-logstash-tradingstrategy-0.5.1.tar.gz
+[2023-04-29 20:51:00] INFO root fetch - processPackages [messageflux]: Downloading https://files.pythonhosted.org/packages/30/26/6421f45d0402704c1365676062fd1205ca2d8fb36baa166bfd165b5e1506/messageflux-0.2.2.tar.gz
+[2023-04-29 20:51:00] INFO root fetch - processPackages [iguala]: Downloading https://files.pythonhosted.org/packages/9a/4d/1c4928e5bda51f158e86b793a5bbeccf5d54b0663541e3065b441632d5e8/iguala-0.5.0.tar.gz
+[2023-04-29 20:51:00] INFO root fetch - processPackages [spectresc]: executing diffoscope
+[2023-04-29 20:51:00] INFO root fetch - processPackages [spectresc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectresc-1.0.1.tar.gz tmp/spectresc-1.0.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230429/s/spectresc/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-29 20:51:01] INFO root fetch - processPackages [rpp]: executing diffoscope
+[2023-04-29 20:51:01] INFO root fetch - processPackages [rpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpp-0.4.tar.gz tmp/rpp-0.5.tar.gz --markdown 20230429/r/rpp/0.4-0.5/diff.md --exclude *.pyd
+[2023-04-29 20:51:01] INFO root fetch - processPackages [messageflux]: executing diffoscope
+[2023-04-29 20:51:01] INFO root fetch - processPackages [messageflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messageflux-0.2.1.tar.gz tmp/messageflux-0.2.2.tar.gz --markdown 20230429/m/messageflux/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 20:51:01] INFO root fetch - processPackages [python-logstash-tradingstrategy]: executing diffoscope
+[2023-04-29 20:51:01] INFO root fetch - processPackages [python-logstash-tradingstrategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_logstash_tradingstrategy-0.5.0-py3-none-any.whl.zip tmp/python-logstash-tradingstrategy-0.5.1.tar.gz --markdown 20230429/p/python-logstash-tradingstrategy/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-29 20:51:01] INFO root fetch - processPackages [iguala]: executing diffoscope
+[2023-04-29 20:51:01] INFO root fetch - processPackages [iguala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iguala-0.4.0.tar.gz tmp/iguala-0.5.0.tar.gz --markdown 20230429/i/iguala/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 20:51:01] INFO root fetch - processPackages [ovos-tts-plugin-piper]: executing diffoscope
+[2023-04-29 20:51:01] INFO root fetch - processPackages [ovos-tts-plugin-piper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_tts_plugin_piper-0.0.0a3-py3-none-any.whl.zip tmp/ovos_tts_plugin_piper-0.0.0a4-py3-none-any.whl.zip --markdown 20230429/o/ovos-tts-plugin-piper/0.0.0a3-0.0.0a4/diff.md --exclude *.pyd
+[2023-04-29 20:51:02] INFO root fetch - main [MainThread]: End processing [spectresc]: success
+[2023-04-29 20:51:02] INFO root fetch - main [MainThread]: End processing [objectwalker]: success
+[2023-04-29 20:51:02] INFO root fetch - main [MainThread]: End processing [python-logstash-tradingstrategy]: success
+[2023-04-29 20:51:02] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-piper]: success
+[2023-04-29 20:51:02] INFO root fetch - main [MainThread]: End processing [rpp]: success
+[2023-04-29 20:51:03] INFO root fetch - main [MainThread]: End processing [iguala]: success
+[2023-04-29 20:51:03] INFO root fetch - main [MainThread]: End processing [messageflux]: success
+[2023-04-29 20:51:03] INFO root fetch - main [MainThread]: Store serial: [17911614]
