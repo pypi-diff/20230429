@@ -4186,3 +4186,36 @@
 [2023-04-29 03:41:13] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-04-29 03:41:33] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2023-04-29 03:41:33] INFO root fetch - main [MainThread]: Store serial: [17906001]
+[2023-04-29 03:46:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906001]
+[2023-04-29 03:46:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 03:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proactive
+[2023-04-29 03:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-apl
+[2023-04-29 03:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proactive-jupyter-kernel
+[2023-04-29 03:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cerebrium
+[2023-04-29 03:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IMDbTraktSyncer
+[2023-04-29 03:46:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeassistant-stubs
+[2023-04-29 03:46:42] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 03:46:42] WARNING root fetch - processPackages [IMDbTraktSyncer]: Skipping, unable to determine old version
+[2023-04-29 03:46:42] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer] error
+[2023-04-29 03:46:42] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-04-29 03:46:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-04-29 03:46:42] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.5.0b2] Old Version: [2023.5.0b1]
+[2023-04-29 03:46:42] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.742] Old Version: [0.0.741]
+[2023-04-29 03:46:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-04-29 03:46:42] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230429/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-04-29 03:46:42] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-04-29 03:46:42] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/1f/7e/202270ee270c7a280f28cefaf8b40d0b12cd1d7f3169082b33299113cdbd/homeassistant_stubs-2023.5.0b2.tar.gz
+[2023-04-29 03:46:42] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/c7/9d/47e7c540decf075c740fa20fe089d05948b3b0c738dc7b22edac2f7375ed/nbdev-apl-0.0.742.tar.gz
+[2023-04-29 03:46:42] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-29 03:46:42] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.741.tar.gz tmp/nbdev-apl-0.0.742.tar.gz --markdown 20230429/n/nbdev-apl/0.0.741-0.0.742/diff.md --exclude *.pyd
+[2023-04-29 03:46:42] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 03:46:42] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 03:46:42] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-04-29 03:46:42] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-04-29 03:46:42] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-04-29 03:46:42] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.5.0b1.tar.gz tmp/homeassistant_stubs-2023.5.0b2.tar.gz --markdown 20230429/h/homeassistant-stubs/2023.5.0b1-2023.5.0b2/diff.md --exclude *.pyd
+[2023-04-29 03:46:43] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-29 03:46:43] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-04-29 03:46:43] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 03:47:29] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-04-29 03:47:29] INFO root fetch - main [MainThread]: Store serial: [17906019]
