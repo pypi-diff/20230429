@@ -10328,3 +10328,58 @@
 [2023-04-29 16:50:44] INFO root fetch - main [MainThread]: End processing [pypreql]: success
 [2023-04-29 16:50:45] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-29 16:50:45] INFO root fetch - main [MainThread]: Store serial: [17909905]
+[2023-04-29 16:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909905]
+[2023-04-29 16:55:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iGetMusic
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decentralizedroutines
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unipipeline
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: golem-garden
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vtece4564-websockets
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frascii
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyagrum-nightly
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SciAssist
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llm-generation-server
+[2023-04-29 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: darkmixer
+[2023-04-29 16:55:54] INFO root fetch - processPackages [golem-garden]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-29 16:55:54] INFO root fetch - processPackages [unipipeline]: New version: [1.8.9] Old Version: [1.8.7]
+[2023-04-29 16:55:54] INFO root fetch - processPackages [iGetMusic]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-29 16:55:54] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.0.0] Old Version: [1.4.4]
+[2023-04-29 16:55:54] INFO root fetch - processPackages [frascii]: New version: [3.4] Old Version: [3.3]
+[2023-04-29 16:55:54] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-29 16:55:54] INFO root fetch - processPackages [SciAssist]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-04-29 16:55:54] WARNING root fetch - processPackages [vtece4564-websockets]: Skipping, unable to determine old version
+[2023-04-29 16:55:54] INFO root fetch - main [MainThread]: End processing [vtece4564-websockets] error
+[2023-04-29 16:55:54] WARNING root fetch - processPackages [darkmixer]: Skipping, unable to determine old version
+[2023-04-29 16:55:54] INFO root fetch - main [MainThread]: End processing [darkmixer] error
+[2023-04-29 16:55:54] INFO root fetch - processPackages [unipipeline]: executing diffoscope
+[2023-04-29 16:55:54] INFO root fetch - processPackages [unipipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipipeline-1.8.7.tar.gz tmp/unipipeline-1.8.9.tar.gz --markdown 20230429/u/unipipeline/1.8.7-1.8.9/diff.md --exclude *.pyd
+[2023-04-29 16:55:54] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.7.1.9.dev202304291682766842] Old Version: [1.7.1.9.dev202304291682760403]
+[2023-04-29 16:55:54] INFO root fetch - processPackages [iGetMusic]: Downloading https://files.pythonhosted.org/packages/d3/77/24e72a82f7ee233902f3500be64f3b26fd62e44897150441dcd96cdc683c/iGetMusic-0.0.6.tar.gz
+[2023-04-29 16:55:54] INFO root fetch - processPackages [golem-garden]: Downloading https://files.pythonhosted.org/packages/61/d8/92524922b61e05a6ccc67e391b4c17e1de26fb5e11736d0e614432d7486d/golem_garden-0.5.3.tar.gz
+[2023-04-29 16:55:54] INFO root fetch - processPackages [frascii]: Downloading https://files.pythonhosted.org/packages/b5/e3/576655fd060e862780dd8640a6cd08d5221c813486e224a00ed4af46180c/frascii-3.4.tar.gz
+[2023-04-29 16:55:54] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/39/9a/f5a40c515b7db89f5bd39cf046b9dc7bcd2f7b0eb008c274191c310445c3/decentralizedroutines-1.4.4.tar.gz
+[2023-04-29 16:55:54] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/f1/3b/8c88af35fe1a731ca56289430c41093d4913661d08bb9b6d32b6ab428ae7/llm_generation_server-0.0.7.tar.gz
+[2023-04-29 16:55:54] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-04-29 16:55:54] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.7.1.9.dev202304291682760403-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.7.1.9.dev202304291682766842-cp39-cp39-win_amd64.whl.zip --markdown 20230429/p/pyagrum-nightly/1.7.1.9.dev202304291682760403-1.7.1.9.dev202304291682766842/diff.md --exclude *.pyd
+[2023-04-29 16:55:54] INFO root fetch - processPackages [golem-garden]: executing diffoscope
+[2023-04-29 16:55:54] INFO root fetch - processPackages [golem-garden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/golem_garden-0.5.2.tar.gz tmp/golem_garden-0.5.3.tar.gz --markdown 20230429/g/golem-garden/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-29 16:55:54] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-04-29 16:55:54] INFO root fetch - processPackages [frascii]: executing diffoscope
+[2023-04-29 16:55:54] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.6.tar.gz tmp/llm_generation_server-0.0.7.tar.gz --markdown 20230429/l/llm-generation-server/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-29 16:55:54] INFO root fetch - processPackages [frascii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frascii-3.3.tar.gz tmp/frascii-3.4.tar.gz --markdown 20230429/f/frascii/3.3-3.4/diff.md --exclude *.pyd
+[2023-04-29 16:55:54] INFO root fetch - processPackages [SciAssist]: Downloading https://files.pythonhosted.org/packages/4c/44/117b2c22577e3e0559d4dcbc16f6c4530cde087c4a823539654d39b839d8/SciAssist-0.0.34.tar.gz
+[2023-04-29 16:55:54] INFO root fetch - processPackages [SciAssist]: executing diffoscope
+[2023-04-29 16:55:54] INFO root fetch - processPackages [SciAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciAssist-0.0.33.tar.gz tmp/SciAssist-0.0.34.tar.gz --markdown 20230429/S/SciAssist/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-04-29 16:55:54] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/95/95/b11b2fc222b689d939ceaa631213c5ece7a322f300b1495e7b660a56edca/decentralizedroutines-2.0.0.tar.gz
+[2023-04-29 16:55:54] ERROR root fetch - processPackages [iGetMusic]: Unable to fetch info: No such project/version 'iGetMusic' 0.0.7
+[2023-04-29 16:55:54] INFO root fetch - main [MainThread]: End processing [iGetMusic] error
+[2023-04-29 16:55:54] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-04-29 16:55:54] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-1.4.4.tar.gz tmp/decentralizedroutines-2.0.0.tar.gz --markdown 20230429/d/decentralizedroutines/1.4.4-2.0.0/diff.md --exclude *.pyd
+[2023-04-29 16:55:55] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-04-29 16:55:55] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-04-29 16:55:55] INFO root fetch - main [MainThread]: End processing [golem-garden]: success
+[2023-04-29 16:55:56] INFO root fetch - main [MainThread]: End processing [frascii]: success
+[2023-04-29 16:55:56] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-04-29 16:55:56] INFO root fetch - main [MainThread]: End processing [SciAssist]: success
+[2023-04-29 16:55:56] INFO root fetch - main [MainThread]: End processing [unipipeline]: success
+[2023-04-29 16:55:56] INFO root fetch - main [MainThread]: Store serial: [17910003]
