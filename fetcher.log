@@ -4742,3 +4742,64 @@
 [2023-04-29 05:02:54] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
 [2023-04-29 05:02:55] INFO root fetch - main [MainThread]: End processing [tuneSurvey]: success
 [2023-04-29 05:02:55] INFO root fetch - main [MainThread]: Store serial: [17906311]
+[2023-04-29 05:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906311]
+[2023-04-29 05:08:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bam-core
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plotguy
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zenutils
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bridgecrew
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tradchat
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vsgrlir
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pc-zap-scrapper
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pc-zap-scrapper
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pc-zap-scrapper
+[2023-04-29 05:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alacorder
+[2023-04-29 05:08:03] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-04-29 05:08:03] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-04-29 05:08:03] INFO root fetch - processPackages [alacorder]: New version: [80.0.0] Old Version: [79.9.1]
+[2023-04-29 05:08:03] INFO root fetch - processPackages [plotguy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-29 05:08:03] WARNING root fetch - processPackages [bam-core]: Skipping, unable to determine old version
+[2023-04-29 05:08:03] INFO root fetch - main [MainThread]: End processing [bam-core] error
+[2023-04-29 05:08:03] INFO root fetch - processPackages [zenutils]: New version: [0.4.8] Old Version: [0.3.9]
+[2023-04-29 05:08:03] INFO root fetch - processPackages [pc-zap-scrapper]: New version: [1.0.2rc0] Old Version: [1.0.2.dev1]
+[2023-04-29 05:08:03] INFO root fetch - processPackages [pc-zap-scrapper]: New version: [1.0.2rc0] Old Version: [1.0.2.dev1]
+[2023-04-29 05:08:03] INFO root fetch - processPackages [vsgrlir]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-29 05:08:03] INFO root fetch - processPackages [pc-zap-scrapper]: New version: [1.0.2rc0] Old Version: [1.0.2.dev1]
+[2023-04-29 05:08:03] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-29 05:08:03] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.9.1.tar.gz tmp/alacorder-80.0.0.tar.gz --markdown 20230429/a/alacorder/79.9.1-80.0.0/diff.md --exclude *.pyd
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: Downloading https://files.pythonhosted.org/packages/f4/4b/a994f3989fcdb064b2dc6daeecb6995fed7de24cea79fece6ad556578cdf/pc_zap_scrapper-1.0.2.dev1.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/c9/19/5ddd0cf8c6f1b2d0d98d683ca980114dead1d5794134051497664dcc239d/plotguy-1.0.5.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: Downloading https://files.pythonhosted.org/packages/f4/4b/a994f3989fcdb064b2dc6daeecb6995fed7de24cea79fece6ad556578cdf/pc_zap_scrapper-1.0.2.dev1.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [zenutils]: Downloading https://files.pythonhosted.org/packages/72/a0/8c7d8643f68fe9b4cb07752d09be715095cd22670e480e8868f7126e7e9d/zenutils-0.3.9.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: Downloading https://files.pythonhosted.org/packages/f4/4b/a994f3989fcdb064b2dc6daeecb6995fed7de24cea79fece6ad556578cdf/pc_zap_scrapper-1.0.2.dev1.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [vsgrlir]: Downloading https://files.pythonhosted.org/packages/53/ca/c1f57915c7bf4efc065aa8672a232653db736a0f0e0b6d74f67c40658950/vsgrlir-1.1.0-py3-none-any.whl
+[2023-04-29 05:08:04] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: Downloading https://files.pythonhosted.org/packages/08/03/959597b9b5fed15a6d831cd0b3da05083597a3ac03402848665bd40837e6/pc_zap_scrapper-1.0.2rc0.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: Downloading https://files.pythonhosted.org/packages/08/03/959597b9b5fed15a6d831cd0b3da05083597a3ac03402848665bd40837e6/pc_zap_scrapper-1.0.2rc0.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: Downloading https://files.pythonhosted.org/packages/08/03/959597b9b5fed15a6d831cd0b3da05083597a3ac03402848665bd40837e6/pc_zap_scrapper-1.0.2rc0.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/87/3f/b75aa497c211ba29367de54d7da4b1c67cf6cc93dd333f4c07e43aaaf22d/plotguy-1.0.6.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [vsgrlir]: Downloading https://files.pythonhosted.org/packages/89/9e/9cb4e28a15baaf6f2497f37144722bd3c57ffd7ee5bfa9a62a1f335f9111/vsgrlir-1.1.1-py3-none-any.whl
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: executing diffoscope
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pc_zap_scrapper-1.0.2.dev1.tar.gz tmp/pc_zap_scrapper-1.0.2rc0.tar.gz --markdown 20230429/p/pc-zap-scrapper/1.0.2.dev1-1.0.2rc0/diff.md --exclude *.pyd
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: executing diffoscope
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pc_zap_scrapper-1.0.2.dev1.tar.gz tmp/pc_zap_scrapper-1.0.2rc0.tar.gz --markdown 20230429/p/pc-zap-scrapper/1.0.2.dev1-1.0.2rc0/diff.md --exclude *.pyd
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: executing diffoscope
+[2023-04-29 05:08:04] INFO root fetch - processPackages [pc-zap-scrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pc_zap_scrapper-1.0.2.dev1.tar.gz tmp/pc_zap_scrapper-1.0.2rc0.tar.gz --markdown 20230429/p/pc-zap-scrapper/1.0.2.dev1-1.0.2rc0/diff.md --exclude *.pyd
+[2023-04-29 05:08:04] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-04-29 05:08:04] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.0.5.tar.gz tmp/plotguy-1.0.6.tar.gz --markdown 20230429/p/plotguy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-29 05:08:04] INFO root fetch - processPackages [vsgrlir]: executing diffoscope
+[2023-04-29 05:08:04] INFO root fetch - processPackages [vsgrlir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsgrlir-1.1.0-py3-none-any.whl.zip tmp/vsgrlir-1.1.1-py3-none-any.whl.zip --markdown 20230429/v/vsgrlir/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-29 05:08:04] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-29 05:08:04] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230429/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-29 05:08:04] INFO root fetch - processPackages [zenutils]: Downloading https://files.pythonhosted.org/packages/70/28/94d3b08553618cd6da09d05859c00dfea9699f345aef8f86c149e0dc263a/zenutils-0.4.8.tar.gz
+[2023-04-29 05:08:04] INFO root fetch - processPackages [zenutils]: executing diffoscope
+[2023-04-29 05:08:04] INFO root fetch - processPackages [zenutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenutils-0.3.9.tar.gz tmp/zenutils-0.4.8.tar.gz --markdown 20230429/z/zenutils/0.3.9-0.4.8/diff.md --exclude *.pyd
+[2023-04-29 05:08:05] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-29 05:08:05] INFO root fetch - main [MainThread]: End processing [pc-zap-scrapper]: success
+[2023-04-29 05:08:05] INFO root fetch - main [MainThread]: End processing [pc-zap-scrapper]: success
+[2023-04-29 05:08:05] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-29 05:08:06] INFO root fetch - main [MainThread]: End processing [pc-zap-scrapper]: success
+[2023-04-29 05:08:06] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-04-29 05:08:08] INFO root fetch - main [MainThread]: End processing [zenutils]: success
+[2023-04-29 05:08:27] INFO root fetch - main [MainThread]: End processing [vsgrlir]: success
+[2023-04-29 05:08:27] INFO root fetch - main [MainThread]: Store serial: [17906341]
