@@ -1308,3 +1308,85 @@
 [2023-04-29 02:06:27] INFO root fetch - main [MainThread]: End processing [e2eAIOK]: success
 [2023-04-29 02:06:30] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-04-29 02:06:30] INFO root fetch - main [MainThread]: Store serial: [17904210]
+[2023-04-29 02:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904210]
+[2023-04-29 02:11:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-29 02:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aligned-text-table
+[2023-04-29 02:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchlayers-nightly
+[2023-04-29 02:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-vat-book
+[2023-04-29 02:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-redis
+[2023-04-29 02:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-website-sale-b2x-alt-price
+[2023-04-29 02:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-aws-discord-notifiers
+[2023-04-29 02:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openbb-nightly
+[2023-04-29 02:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cerebrium
+[2023-04-29 02:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: covalent-cloud
+[2023-04-29 02:11:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: e2eAIOK-denas
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0.1]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-website-sale-b2x-alt-price]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.2]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [aligned-text-table]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.1.0]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [e2eAIOK-denas]: New version: [1.1.1b2023042900] Old Version: [1.1.1b2023042803]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.0rc2.dev20230426] Old Version: [3.0.0rc2.dev20230425]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1682640451] Old Version: [1682554018]
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.8.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230429/c/cdk-aws-discord-notifiers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.0rc2.dev20230425.tar.gz tmp/openbb_nightly-3.0.0rc2.dev20230426.tar.gz --markdown 20230429/o/openbb-nightly/3.0.0rc2.dev20230425-3.0.0rc2.dev20230426/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230429/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1682554018.tar.gz tmp/torchlayers-nightly-1682640451.tar.gz --markdown 20230429/t/torchlayers-nightly/1682554018-1682640451/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/05/7d/83d0119aa548ae87b33090caa932349d66e23ef9098abf355da5900ece5c/odoo_addon_l10n_es_vat_book-16.0.1.2.0.1-py3-none-any.whl
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-website-sale-b2x-alt-price]: Downloading https://files.pythonhosted.org/packages/f7/2b/41db9af27611b6c89107e22dd245e1a11b9b68db8e81d9560abaf53c28c9/odoo_addon_website_sale_b2x_alt_price-15.0.1.0.0.2-py3-none-any.whl
+[2023-04-29 02:11:39] INFO root fetch - processPackages [e2eAIOK-denas]: Downloading https://files.pythonhosted.org/packages/4b/e2/b3429d38e34b2f3cce5df414b6c7bccf48ce9e3e8724abadc33c50cfd25d/e2eAIOK_denas-1.1.1b2023042900-py3-none-any.whl
+[2023-04-29 02:11:39] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/49/ed/6588150c6dca077865b4942faad49f455c143ab988480888621b0ccc7535/covalent-cloud-0.1.0.tar.gz
+[2023-04-29 02:11:39] INFO root fetch - processPackages [aligned-text-table]: Downloading https://files.pythonhosted.org/packages/fd/81/ed730081c4f549aa5d53ee2bfc6d5217ebfaa9cc4c81ef58f6f2e262cd91/aligned_text_table-0.1.0.tar.gz
+[2023-04-29 02:11:39] INFO root fetch - processPackages [e2eAIOK-denas]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [e2eAIOK-denas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK_denas-1.1.1b2023042803-py3-none-any.whl.zip tmp/e2eAIOK_denas-1.1.1b2023042900-py3-none-any.whl.zip --markdown 20230429/e/e2eAIOK-denas/1.1.1b2023042803-1.1.1b2023042900/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2023-04-29 02:11:39] INFO root fetch - processPackages [aligned-text-table]: Downloading https://files.pythonhosted.org/packages/23/a3/c3d0776f5f3d3eb74cebf26f073edca349ab42387010074a989d3d35a125/aligned_text_table-0.1.1.tar.gz
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/a6/85/739cfb7bf03bc0ef40b75a01d34c01662692060e31bfb9d01097a35a59e5/odoo_addon_l10n_es_vat_book-16.0.1.3.0-py3-none-any.whl
+[2023-04-29 02:11:39] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.1.0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20230429/c/covalent-cloud/0.1.0-0.8.0rc0/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [aligned-text-table]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [aligned-text-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned_text_table-0.1.0.tar.gz tmp/aligned_text_table-0.1.1.tar.gz --markdown 20230429/a/aligned-text-table/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-website-sale-b2x-alt-price]: Downloading https://files.pythonhosted.org/packages/54/23/9850283c4b5a910461e81378164de36babd9e9214cc5a88f294f3696ace4/odoo_addon_website_sale_b2x_alt_price-15.0.1.1.0-py3-none-any.whl
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_vat_book-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_vat_book-16.0.1.3.0-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-l10n-es-vat-book/16.0.1.2.0.1-16.0.1.3.0/diff.md --exclude *.pyd
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-website-sale-b2x-alt-price]: executing diffoscope
+[2023-04-29 02:11:39] INFO root fetch - processPackages [odoo-addon-website-sale-b2x-alt-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_b2x_alt_price-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_website_sale_b2x_alt_price-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-website-sale-b2x-alt-price/15.0.1.0.0.2-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-29 02:11:40] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: speakeasy-client-sdk-python
+[2023-04-29 02:11:40] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-04-29 02:11:40] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-29 02:11:40] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2023-04-29 02:11:40] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-1.9.0.tar.gz tmp/speakeasy-client-sdk-python-1.9.1.tar.gz --markdown 20230429/s/speakeasy-client-sdk-python/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-29 02:11:40] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Start processing: constructs
+[2023-04-29 02:11:40] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-04-29 02:11:40] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-04-29 02:11:41] INFO root fetch - processPackages [cerebrium]: Start processing: cdk-common
+[2023-04-29 02:11:41] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 02:11:41] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-29 02:11:41] INFO root fetch - processPackages [covalent-cloud]: Start processing: jurebes
+[2023-04-29 02:11:41] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2023-04-29 02:11:41] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-04-29 02:11:41] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230429/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-04-29 02:11:41] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a7] Old Version: [0.1.1a6]
+[2023-04-29 02:11:41] INFO root fetch - main [MainThread]: End processing [aligned-text-table]: success
+[2023-04-29 02:11:41] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-04-29 02:11:41] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230429/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-29 02:11:41] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-29 02:11:41] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a6-py3-none-any.whl.zip tmp/jurebes-0.1.1a7-py3-none-any.whl.zip --markdown 20230429/j/jurebes/0.1.1a6-0.1.1a7/diff.md --exclude *.pyd
+[2023-04-29 02:11:41] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-04-29 02:11:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-b2x-alt-price]: success
+[2023-04-29 02:11:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-vat-book]: success
+[2023-04-29 02:11:41] INFO root fetch - main [MainThread]: End processing [e2eAIOK-denas]: success
+[2023-04-29 02:11:42] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-04-29 02:11:42] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-29 02:11:42] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2023-04-29 02:11:43] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-04-29 02:11:56] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-04-29 02:11:56] INFO root fetch - main [MainThread]: Store serial: [17904248]
