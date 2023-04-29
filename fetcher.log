@@ -12021,3 +12021,51 @@
 [2023-04-29 19:26:38] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2023-04-29 19:26:39] INFO root fetch - main [MainThread]: End processing [gaphor]: success
 [2023-04-29 19:26:39] INFO root fetch - main [MainThread]: Store serial: [17911052]
+[2023-04-29 19:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911052]
+[2023-04-29 19:31:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ext-mongo
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyobsplot
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-web-template
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphene-django
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tokenization-scorer
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ukmon-meteortools
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanoatp
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ext-mongo]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-29 19:31:49] WARNING root fetch - processPackages [tokenization-scorer]: Skipping, unable to determine old version
+[2023-04-29 19:31:49] INFO root fetch - processPackages [nanoatp]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-29 19:31:49] INFO root fetch - main [MainThread]: End processing [tokenization-scorer] error
+[2023-04-29 19:31:49] INFO root fetch - processPackages [graphene-django]: New version: [3.0.1] Old Version: [3.0.0b9]
+[2023-04-29 19:31:49] INFO root fetch - processPackages [flet-web-template]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 19:31:49] INFO root fetch - processPackages [pyobsplot]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.4.23] Old Version: [2023.4.22]
+[2023-04-29 19:31:49] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.4.9.1] Old Version: [2023.4.9.0]
+[2023-04-29 19:31:49] INFO root fetch - processPackages [flet-web-template]: executing diffoscope
+[2023-04-29 19:31:49] INFO root fetch - processPackages [flet-web-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-web-template-0.1.8.tar.gz tmp/flet-web-template-0.1.9.tar.gz --markdown 20230429/f/flet-web-template/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 19:31:49] INFO root fetch - processPackages [pyobsplot]: Downloading https://files.pythonhosted.org/packages/cc/f0/fde4790568c465f054dc59e52951adcdd3fedf41d3d23437f34eabb7f219/pyobsplot-0.3.3.tar.gz
+[2023-04-29 19:31:49] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-04-29 19:31:49] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.4.9.0.tar.gz tmp/crazy-thursday-2023.4.9.1.tar.gz --markdown 20230429/c/crazy-thursday/2023.4.9.0-2023.4.9.1/diff.md --exclude *.pyd
+[2023-04-29 19:31:49] INFO root fetch - processPackages [nanoatp]: Downloading https://files.pythonhosted.org/packages/33/c4/823d2d3e3bcc13fc6cc4804796490ea2d96dde0aa5d0b1c8814870a07524/nanoatp-0.3.4.tar.gz
+[2023-04-29 19:31:49] INFO root fetch - processPackages [graphene-django]: Downloading https://files.pythonhosted.org/packages/82/a5/718818010d11268273a8de790f808ab7f200867a51073d2fc022a577fea3/graphene-django-3.0.0b9.tar.gz
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/a8/7f/257278f3a1e02ede6198a6d7e9fdb8a8c517e16ca58841b4376453f89ac7/ukmon_meteortools-2023.4.23.tar.gz
+[2023-04-29 19:31:49] INFO root fetch - processPackages [nanoatp]: executing diffoscope
+[2023-04-29 19:31:49] INFO root fetch - processPackages [nanoatp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoatp-0.3.3.tar.gz tmp/nanoatp-0.3.4.tar.gz --markdown 20230429/n/nanoatp/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ext-mongo]: Downloading https://files.pythonhosted.org/packages/94/68/e90f996d1f0d3aa4acc9a32b19944e29d9643771296fd5ad767aa56b862a/ext-mongo-0.3.0.tar.gz
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ext-mongo]: executing diffoscope
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ext-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ext-mongo-0.2.1.tar.gz tmp/ext-mongo-0.3.0.tar.gz --markdown 20230429/e/ext-mongo/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-04-29 19:31:49] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.4.22.tar.gz tmp/ukmon_meteortools-2023.4.23.tar.gz --markdown 20230429/u/ukmon-meteortools/2023.4.22-2023.4.23/diff.md --exclude *.pyd
+[2023-04-29 19:31:49] INFO root fetch - processPackages [pyobsplot]: Downloading https://files.pythonhosted.org/packages/9a/89/77d1c9fd005045dd9bb81ff19b0663b060ccc110a180a9296531991b2bf2/pyobsplot-0.3.4.tar.gz
+[2023-04-29 19:31:49] INFO root fetch - processPackages [pyobsplot]: executing diffoscope
+[2023-04-29 19:31:49] INFO root fetch - processPackages [pyobsplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobsplot-0.3.3.tar.gz tmp/pyobsplot-0.3.4.tar.gz --markdown 20230429/p/pyobsplot/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-29 19:31:49] INFO root fetch - processPackages [graphene-django]: Downloading https://files.pythonhosted.org/packages/93/25/9c82a218248235ba5e73b1701873a1b3d6a9bb8f170c79e8da6cff798e3c/graphene-django-3.0.1.tar.gz
+[2023-04-29 19:31:50] INFO root fetch - processPackages [graphene-django]: executing diffoscope
+[2023-04-29 19:31:50] INFO root fetch - processPackages [graphene-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene-django-3.0.0b9.tar.gz tmp/graphene-django-3.0.1.tar.gz --markdown 20230429/g/graphene-django/3.0.0b9-3.0.1/diff.md --exclude *.pyd
+[2023-04-29 19:31:50] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-04-29 19:31:50] INFO root fetch - main [MainThread]: End processing [nanoatp]: success
+[2023-04-29 19:31:50] INFO root fetch - main [MainThread]: End processing [flet-web-template]: success
+[2023-04-29 19:31:50] INFO root fetch - main [MainThread]: End processing [ext-mongo]: success
+[2023-04-29 19:31:51] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-04-29 19:31:51] INFO root fetch - main [MainThread]: End processing [graphene-django]: success
+[2023-04-29 19:32:03] INFO root fetch - main [MainThread]: End processing [pyobsplot]: success
+[2023-04-29 19:32:03] INFO root fetch - main [MainThread]: Store serial: [17911088]
