@@ -7121,3 +7121,59 @@
 [2023-04-29 11:18:14] INFO root fetch - main [MainThread]: End processing [cocojamboo]: success
 [2023-04-29 11:18:14] INFO root fetch - main [MainThread]: End processing [gigapixel]: success
 [2023-04-29 11:18:14] INFO root fetch - main [MainThread]: Store serial: [17907763]
+[2023-04-29 11:23:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907763]
+[2023-04-29 11:23:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu-aws
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cocojamboo
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tbp-nightly
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyshotgrid
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aassdd
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlalchemy-window
+[2023-04-29 11:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MakePdfEasily
+[2023-04-29 11:23:24] INFO root fetch - processPackages [cocojamboo]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-29 11:23:24] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-04-29 11:23:24] INFO root fetch - processPackages [MakePdfEasily]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 11:23:24] INFO root fetch - processPackages [kcli]: New version: [99.0.202304290919] Old Version: [99.0.202304290906]
+[2023-04-29 11:23:25] WARNING root fetch - processPackages [aassdd]: Skipping, unable to determine old version
+[2023-04-29 11:23:25] INFO root fetch - processPackages [pyshotgrid]: New version: [0.9.1] Old Version: [0.8.0]
+[2023-04-29 11:23:25] INFO root fetch - main [MainThread]: End processing [aassdd] error
+[2023-04-29 11:23:25] INFO root fetch - processPackages [sqlalchemy-window]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 11:23:25] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.13.0.dev20230429] Old Version: [2.13.0.dev20230427]
+[2023-04-29 11:23:25] INFO root fetch - processPackages [cocojamboo]: executing diffoscope
+[2023-04-29 11:23:25] INFO root fetch - processPackages [cocojamboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocojamboo-2.0.4.tar.gz tmp/cocojamboo-2.0.5.tar.gz --markdown 20230429/c/cocojamboo/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-29 11:23:25] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-29 11:23:25] INFO root fetch - processPackages [MakePdfEasily]: executing diffoscope
+[2023-04-29 11:23:25] INFO root fetch - processPackages [MakePdfEasily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MakePdfEasily-0.0.8.tar.gz tmp/MakePdfEasily-0.0.9.tar.gz --markdown 20230429/M/MakePdfEasily/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 11:23:25] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-04-29 11:23:25] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230429/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-04-29 11:23:25] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-29 11:23:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/be/07/c6efa0fd9200099447fee4b03ad163e0b4e1dcbccc20c8a11d0b6d67b551/kcli-99.0.202304290919-py3-none-any.whl
+[2023-04-29 11:23:25] INFO root fetch - processPackages [sqlalchemy-window]: Downloading https://files.pythonhosted.org/packages/fd/67/584e6ead30b8b17d4886fc101ef8992cd2d985f0affa1eb193bc5dda80e2/sqlalchemy_window-0.1.3.tar.gz
+[2023-04-29 11:23:25] INFO root fetch - processPackages [pyshotgrid]: Downloading https://files.pythonhosted.org/packages/27/22/ae3be0569e3d85b11eef1e0840632a4ac70a182490bf8ed9f6920022acab/pyshotgrid-0.8.0.tar.gz
+[2023-04-29 11:23:25] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/2d/7a/1aff55c71b78344eedd72f3c1a9742ae6e08bda516aa1329de9a29a4b516/tf_nightly_cpu_aws-2.13.0.dev20230427-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-04-29 11:23:25] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-29 11:23:25] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230429/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-29 11:23:25] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-29 11:23:25] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230429/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-29 11:23:25] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-29 11:23:25] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304290906-py3-none-any.whl.zip tmp/kcli-99.0.202304290919-py3-none-any.whl.zip --markdown 20230429/k/kcli/99.0.202304290906-99.0.202304290919/diff.md --exclude *.pyd
+[2023-04-29 11:23:25] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 248696012>=10485760
+[2023-04-29 11:23:25] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-04-29 11:23:25] INFO root fetch - processPackages [sqlalchemy-window]: Downloading https://files.pythonhosted.org/packages/30/31/27d7a8330f18398f713c4f261a5d27d7047ca77f5e916c72c7d257ad9c6d/sqlalchemy_window-0.1.4.tar.gz
+[2023-04-29 11:23:25] INFO root fetch - processPackages [sqlalchemy-window]: executing diffoscope
+[2023-04-29 11:23:25] INFO root fetch - processPackages [sqlalchemy-window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_window-0.1.3.tar.gz tmp/sqlalchemy_window-0.1.4.tar.gz --markdown 20230429/s/sqlalchemy-window/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 11:23:25] INFO root fetch - processPackages [pyshotgrid]: Downloading https://files.pythonhosted.org/packages/90/ac/be5f42b77d7b62281a3a0657468ed95ae795c2005a6010a30978e72200d0/pyshotgrid-0.9.1.tar.gz
+[2023-04-29 11:23:25] INFO root fetch - processPackages [pyshotgrid]: executing diffoscope
+[2023-04-29 11:23:25] INFO root fetch - processPackages [pyshotgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshotgrid-0.8.0.tar.gz tmp/pyshotgrid-0.9.1.tar.gz --markdown 20230429/p/pyshotgrid/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-29 11:23:26] INFO root fetch - main [MainThread]: End processing [MakePdfEasily]: success
+[2023-04-29 11:23:26] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-29 11:23:26] INFO root fetch - main [MainThread]: End processing [sqlalchemy-window]: success
+[2023-04-29 11:23:27] INFO root fetch - main [MainThread]: End processing [pyshotgrid]: success
+[2023-04-29 11:23:27] INFO root fetch - main [MainThread]: End processing [cocojamboo]: success
+[2023-04-29 11:23:27] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-29 11:23:27] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-04-29 11:23:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-29 11:23:33] INFO root fetch - main [MainThread]: Store serial: [17907799]
