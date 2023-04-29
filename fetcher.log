@@ -12475,3 +12475,81 @@
 [2023-04-29 20:19:09] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-04-29 20:19:17] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-04-29 20:19:17] INFO root fetch - main [MainThread]: Store serial: [17911357]
+[2023-04-29 20:24:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911357]
+[2023-04-29 20:24:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-29 20:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: objectwalker
+[2023-04-29 20:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unipipeline
+[2023-04-29 20:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rocketsim
+[2023-04-29 20:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tox-backtocks
+[2023-04-29 20:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discord-qalib
+[2023-04-29 20:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voxelfarm
+[2023-04-29 20:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hordelib
+[2023-04-29 20:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lamineml
+[2023-04-29 20:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tryceratops
+[2023-04-29 20:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyverse-api
+[2023-04-29 20:24:27] INFO root fetch - processPackages [objectwalker]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [unipipeline]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [discord-qalib]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tox-backtocks]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [rocketsim]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tryceratops]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [jupyverse-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [voxelfarm]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 20:24:27] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230429/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230429/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [objectwalker]: Downloading https://files.pythonhosted.org/packages/41/d7/db48a07170e39b0b242cc667d14b6af0457e4156f02f35e58150659ab5e3/objectwalker-2.1.2.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tox-backtocks]: Downloading https://files.pythonhosted.org/packages/ea/80/77d6363eada81c46992da4913f0bc40242c7c93a099995ecff1599910240/tox_backtocks-0.3.2.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [unipipeline]: Downloading https://files.pythonhosted.org/packages/12/ba/03c43c7d2d5c63b0ea5ed742f5d03810129216505a53c9c412317cc97883/unipipeline-1.9.0.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tryceratops]: Downloading https://files.pythonhosted.org/packages/0a/90/b3a89ba966e6f01c1b1c32def4699055a0e4d49052b8f3c0b7a36ac381de/tryceratops-1.1.0.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [jupyverse-api]: Downloading https://files.pythonhosted.org/packages/8e/d7/f3359aca1ee686a80b0361987b91e47513c2ecb2c512aba6c50a499beec3/jupyverse_api-0.1.4.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [rocketsim]: Downloading https://files.pythonhosted.org/packages/e8/bb/e7a5085d755583545758a22a57c8c3b24d6d73630249727984b21214923a/rocketsim-0.2.4.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [discord-qalib]: Downloading https://files.pythonhosted.org/packages/33/70/bfb53f5e9fbffa083b378778084a470dfc6d1ef65c71a87b692411bb46cc/discord-qalib-2.2.1.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [objectwalker]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [objectwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectwalker-2.1.1.tar.gz tmp/objectwalker-2.1.2.tar.gz --markdown 20230429/o/objectwalker/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [discord-qalib]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [discord-qalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord-qalib-2.2.0.tar.gz tmp/discord-qalib-2.2.1.tar.gz --markdown 20230429/d/discord-qalib/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [unipipeline]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [unipipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipipeline-1.8.9.tar.gz tmp/unipipeline-1.9.0.tar.gz --markdown 20230429/u/unipipeline/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [jupyverse-api]: Downloading https://files.pythonhosted.org/packages/4d/86/c92d63a312db725c9de4246c4cca081d3c90b985d0e9b83976bcc217746f/jupyverse_api-0.1.5.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tryceratops]: Downloading https://files.pythonhosted.org/packages/9a/00/af2748cf26d8962456d43f55d90e8f9e8765b1e05c817ca241b130e1d7eb/tryceratops-1.2.0.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [rocketsim]: Downloading https://files.pythonhosted.org/packages/ce/13/dcc5b3870659bb87c4d9fd560d434ceb7cf2da62449b2ad8ea80cb0468d3/rocketsim-0.3.0.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tox-backtocks]: Downloading https://files.pythonhosted.org/packages/f0/ae/8844adb49e86222fbc63d9caa05d83a40247d285e2dfbbb09a5281ecb1f0/tox_backtocks-0.4.0.tar.gz
+[2023-04-29 20:24:27] INFO root fetch - processPackages [voxelfarm]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [voxelfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelfarm-0.0.98.tar.gz tmp/voxelfarm-0.0.99.tar.gz --markdown 20230429/v/voxelfarm/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tryceratops]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tryceratops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryceratops-1.1.0.tar.gz tmp/tryceratops-1.2.0.tar.gz --markdown 20230429/t/tryceratops/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [jupyverse-api]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [jupyverse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyverse_api-0.1.4.tar.gz tmp/jupyverse_api-0.1.5.tar.gz --markdown 20230429/j/jupyverse-api/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [rocketsim]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [rocketsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketsim-0.2.4.tar.gz tmp/rocketsim-0.3.0.tar.gz --markdown 20230429/r/rocketsim/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tox-backtocks]: executing diffoscope
+[2023-04-29 20:24:27] INFO root fetch - processPackages [tox-backtocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox_backtocks-0.3.2.tar.gz tmp/tox_backtocks-0.4.0.tar.gz --markdown 20230429/t/tox-backtocks/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 20:24:28] INFO root fetch - processPackages [lamineml]: Start processing: fps-noauth
+[2023-04-29 20:24:28] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-04-29 20:24:28] INFO root fetch - processPackages [fps-noauth]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:24:28] INFO root fetch - processPackages [fps-noauth]: Downloading https://files.pythonhosted.org/packages/c9/b3/ac5a3e1feb6e50340ee577e9749dab0771882f9bcc874effdba5b8806964/fps_noauth-0.1.4.tar.gz
+[2023-04-29 20:24:29] INFO root fetch - processPackages [fps-noauth]: Downloading https://files.pythonhosted.org/packages/f7/cc/960b60acf34446786dde92aaff0e9f820c82e2af3d610aa057eb9b99f09c/fps_noauth-0.1.5.tar.gz
+[2023-04-29 20:24:29] INFO root fetch - processPackages [rocketsim]: Start processing: fps-auth
+[2023-04-29 20:24:29] INFO root fetch - main [MainThread]: End processing [rocketsim]: success
+[2023-04-29 20:24:29] INFO root fetch - processPackages [fps-auth]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 20:24:29] INFO root fetch - main [MainThread]: End processing [tox-backtocks]: success
+[2023-04-29 20:24:29] INFO root fetch - main [MainThread]: End processing [voxelfarm]: success
+[2023-04-29 20:24:29] INFO root fetch - processPackages [fps-noauth]: executing diffoscope
+[2023-04-29 20:24:29] INFO root fetch - processPackages [fps-noauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_noauth-0.1.4.tar.gz tmp/fps_noauth-0.1.5.tar.gz --markdown 20230429/f/fps-noauth/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:24:29] INFO root fetch - processPackages [fps-auth]: Downloading https://files.pythonhosted.org/packages/e5/62/9e19b2a2fac33a95e15ab8847349cd190b4f91acdbd87aec6c92fb9d2c95/fps_auth-0.1.4.tar.gz
+[2023-04-29 20:24:29] INFO root fetch - main [MainThread]: End processing [jupyverse-api]: success
+[2023-04-29 20:24:29] INFO root fetch - main [MainThread]: End processing [objectwalker]: success
+[2023-04-29 20:24:29] INFO root fetch - main [MainThread]: End processing [discord-qalib]: success
+[2023-04-29 20:24:29] INFO root fetch - processPackages [fps-auth]: Downloading https://files.pythonhosted.org/packages/32/e8/dfdda281fcf341058421e4cf2a4a1ba7eeaa021af9528c262930e21cdb10/fps_auth-0.1.5.tar.gz
+[2023-04-29 20:24:29] INFO root fetch - main [MainThread]: End processing [tryceratops]: success
+[2023-04-29 20:24:29] INFO root fetch - processPackages [fps-auth]: executing diffoscope
+[2023-04-29 20:24:29] INFO root fetch - processPackages [fps-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fps_auth-0.1.4.tar.gz tmp/fps_auth-0.1.5.tar.gz --markdown 20230429/f/fps-auth/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 20:24:30] INFO root fetch - main [MainThread]: End processing [unipipeline]: success
+[2023-04-29 20:24:30] INFO root fetch - main [MainThread]: End processing [fps-noauth]: success
+[2023-04-29 20:24:30] INFO root fetch - main [MainThread]: End processing [fps-auth]: success
+[2023-04-29 20:24:35] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-29 20:24:35] INFO root fetch - main [MainThread]: Store serial: [17911394]
