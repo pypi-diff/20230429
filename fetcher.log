@@ -13517,3 +13517,29 @@
 [2023-04-29 22:21:51] INFO root fetch - main [MainThread]: End processing [aa-simplewiki]: success
 [2023-04-29 22:21:59] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-04-29 22:21:59] INFO root fetch - main [MainThread]: Store serial: [17912246]
+[2023-04-29 22:27:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912246]
+[2023-04-29 22:27:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 22:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meddlr
+[2023-04-29 22:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotinst-agent-beta
+[2023-04-29 22:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-zyk-music
+[2023-04-29 22:27:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: felupe
+[2023-04-29 22:27:08] INFO root fetch - processPackages [meddlr]: New version: [0.0.8a2] Old Version: [0.0.8a1]
+[2023-04-29 22:27:08] INFO root fetch - processPackages [nonebot-plugin-zyk-music]: New version: [0.1.7.1] Old Version: [0.1.7]
+[2023-04-29 22:27:09] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.271] Old Version: [2.2.270]
+[2023-04-29 22:27:09] INFO root fetch - processPackages [nonebot-plugin-zyk-music]: executing diffoscope
+[2023-04-29 22:27:09] INFO root fetch - processPackages [nonebot-plugin-zyk-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_zyk_music-0.1.7.tar.gz tmp/nonebot_plugin_zyk_music-0.1.7.1.tar.gz --markdown 20230429/n/nonebot-plugin-zyk-music/0.1.7-0.1.7.1/diff.md --exclude *.pyd
+[2023-04-29 22:27:09] INFO root fetch - processPackages [felupe]: New version: [7.4.0] Old Version: [7.3.0]
+[2023-04-29 22:27:09] INFO root fetch - processPackages [meddlr]: Downloading https://files.pythonhosted.org/packages/80/4e/cd833d3a9b91f67ddd78c47a2ed71be1ae2e234fc9129a9b835c01200093/meddlr-0.0.8a2.tar.gz
+[2023-04-29 22:27:09] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/0f/18/0ea2caf3c28620dce4b46d8509ce9e9f7a0ec9b6a58767d35d5de93c26b7/spotinst-agent-beta-2.2.271.tar.gz
+[2023-04-29 22:27:09] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-04-29 22:27:09] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.270.tar.gz tmp/spotinst-agent-beta-2.2.271.tar.gz --markdown 20230429/s/spotinst-agent-beta/2.2.270-2.2.271/diff.md --exclude *.pyd
+[2023-04-29 22:27:09] INFO root fetch - processPackages [meddlr]: executing diffoscope
+[2023-04-29 22:27:09] INFO root fetch - processPackages [meddlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meddlr-0.0.8a1.tar.gz tmp/meddlr-0.0.8a2.tar.gz --markdown 20230429/m/meddlr/0.0.8a1-0.0.8a2/diff.md --exclude *.pyd
+[2023-04-29 22:27:09] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/e5/ef/dd42a0aeac017afa19bb80d56bb1481035510142e6499c7c5d6bcf8beb0d/felupe-7.4.0.tar.gz
+[2023-04-29 22:27:09] INFO root fetch - processPackages [felupe]: executing diffoscope
+[2023-04-29 22:27:09] INFO root fetch - processPackages [felupe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felupe-7.3.0.tar.gz tmp/felupe-7.4.0.tar.gz --markdown 20230429/f/felupe/7.3.0-7.4.0/diff.md --exclude *.pyd
+[2023-04-29 22:27:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zyk-music]: success
+[2023-04-29 22:27:10] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-04-29 22:27:11] INFO root fetch - main [MainThread]: End processing [meddlr]: success
+[2023-04-29 22:27:11] INFO root fetch - main [MainThread]: End processing [felupe]: success
+[2023-04-29 22:27:11] INFO root fetch - main [MainThread]: Store serial: [17912256]
