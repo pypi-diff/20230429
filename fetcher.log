@@ -13564,3 +13564,28 @@
 [2023-04-29 22:32:21] INFO root fetch - main [MainThread]: End processing [insights-extractor]: success
 [2023-04-29 22:32:21] INFO root fetch - main [MainThread]: End processing [invenio-alma]: success
 [2023-04-29 22:32:21] INFO root fetch - main [MainThread]: Store serial: [17912274]
+[2023-04-29 22:37:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912274]
+[2023-04-29 22:37:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 22:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytchat
+[2023-04-29 22:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow
+[2023-04-29 22:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SpectroscopicBinarySystem
+[2023-04-29 22:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meddlr
+[2023-04-29 22:37:31] INFO root fetch - processPackages [meddlr]: New version: [0.0.8a2] Old Version: [0.0.8a1]
+[2023-04-29 22:37:31] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-29 22:37:31] INFO root fetch - processPackages [langflow]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-04-29 22:37:31] INFO root fetch - processPackages [ytchat]: New version: [0.1.dev1] Old Version: [0.0.8]
+[2023-04-29 22:37:31] INFO root fetch - processPackages [meddlr]: executing diffoscope
+[2023-04-29 22:37:31] INFO root fetch - processPackages [meddlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meddlr-0.0.8a1.tar.gz tmp/meddlr-0.0.8a2.tar.gz --markdown 20230429/m/meddlr/0.0.8a1-0.0.8a2/diff.md --exclude *.pyd
+[2023-04-29 22:37:31] INFO root fetch - processPackages [ytchat]: Downloading https://files.pythonhosted.org/packages/88/9d/ae9717823878f625577d44228d124e4cf3d4cf9f8bc614e1ce12391c843c/ytchat-0.0.8.tar.gz
+[2023-04-29 22:37:31] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/f0/2d/35cf51f5b77902ceecb364fdfb4742a1880f220fa5ef57cddad91974da43/SpectroscopicBinarySystem-1.1.3.tar.gz
+[2023-04-29 22:37:31] WARNING root fetch - processPackages [ytchat]: Skipping package: exceeds size limit 12544265>=10485760
+[2023-04-29 22:37:31] INFO root fetch - main [MainThread]: End processing [ytchat] error
+[2023-04-29 22:37:31] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b8/a1/2ca4b1100b52db28be00c4c4f0efe86b7d974545f8df61df3423936368d5/langflow-0.0.62.tar.gz
+[2023-04-29 22:37:31] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-04-29 22:37:31] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.1.2.tar.gz tmp/SpectroscopicBinarySystem-1.1.3.tar.gz --markdown 20230429/S/SpectroscopicBinarySystem/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-29 22:37:31] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-04-29 22:37:31] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.61.tar.gz tmp/langflow-0.0.62.tar.gz --markdown 20230429/l/langflow/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-04-29 22:37:32] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-04-29 22:37:33] INFO root fetch - main [MainThread]: End processing [meddlr]: success
+[2023-04-29 22:39:11] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-04-29 22:39:11] INFO root fetch - main [MainThread]: Store serial: [17912290]
