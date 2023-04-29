@@ -13634,3 +13634,54 @@
 [2023-04-29 22:44:23] INFO root fetch - main [MainThread]: End processing [typedpy]: success
 [2023-04-29 22:44:26] INFO root fetch - main [MainThread]: End processing [FairDynamicRec]: success
 [2023-04-29 22:44:26] INFO root fetch - main [MainThread]: Store serial: [17912308]
+[2023-04-29 22:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912308]
+[2023-04-29 22:49:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fpm
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyproject-generator
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frogmouth
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frozendict
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastai-datasets
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NNetEn
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: movie-quote-api-python-sdk
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discovery-transition-ds
+[2023-04-29 22:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roberta-base-en-plant-ner-case-v1
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frogmouth]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-29 22:49:35] INFO root fetch - processPackages [pyproject-generator]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fpm]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-29 22:49:35] WARNING root fetch - processPackages [movie-quote-api-python-sdk]: Skipping, unable to determine old version
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fastai-datasets]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-29 22:49:35] INFO root fetch - main [MainThread]: End processing [movie-quote-api-python-sdk] error
+[2023-04-29 22:49:35] INFO root fetch - processPackages [NNetEn]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frozendict]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-04-29 22:49:35] WARNING root fetch - processPackages [roberta-base-en-plant-ner-case-v1]: Skipping, unable to determine old version
+[2023-04-29 22:49:35] INFO root fetch - main [MainThread]: End processing [roberta-base-en-plant-ner-case-v1] error
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/4e/56/e00d87a54062a8f1302498c2bde38b1cce09bf088e77d09c5026e9f4f93c/frogmouth-0.3.0.tar.gz
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/c5/a1/8d0ac2db5e9438366a041f282c50872333297d7fcf5b3a2ab4c8457ae47c/fpm-0.8.0.tar.gz
+[2023-04-29 22:49:35] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-04-29 22:49:35] INFO root fetch - processPackages [NNetEn]: Downloading https://files.pythonhosted.org/packages/79/94/acc1edbd9b8ed2771abb73589689e6405d27a6973435e9fed046af1ddd19/NNetEn-1.0.1.tar.gz
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frozendict]: Downloading https://files.pythonhosted.org/packages/08/7c/a200d7dec1810f104f7bd08d12ff2fa22a1f024906c81b05856d8a12fc1e/frozendict-2.3.7.tar.gz
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frogmouth]: executing diffoscope
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frogmouth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogmouth-0.2.1.tar.gz tmp/frogmouth-0.3.0.tar.gz --markdown 20230429/f/frogmouth/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fastai-datasets]: Downloading https://files.pythonhosted.org/packages/4f/b1/66bceb539bd6649d0d3caff95ecd51d60f023494722189947d31440fc083/fastai-datasets-0.0.4.tar.gz
+[2023-04-29 22:49:35] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/dc/15/b11cb87a6c8ffd7ae62379e30336b3af8e8e9bb48bf976cf04274e26f25d/pyproject-generator-0.0.7.tar.gz
+[2023-04-29 22:49:35] WARNING root fetch - processPackages [NNetEn]: Skipping package: exceeds size limit 11676462>=10485760
+[2023-04-29 22:49:35] INFO root fetch - main [MainThread]: End processing [NNetEn] error
+[2023-04-29 22:49:35] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-04-29 22:49:35] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.0.6.tar.gz tmp/pyproject-generator-0.0.7.tar.gz --markdown 20230429/p/pyproject-generator/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fastai-datasets]: executing diffoscope
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fastai-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastai-datasets-0.0.3.tar.gz tmp/fastai-datasets-0.0.4.tar.gz --markdown 20230429/f/fastai-datasets/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frozendict]: Downloading https://files.pythonhosted.org/packages/09/73/e3a2f0181a25b189429796f1d33d35658b68c22ec4792fa22d3caebcfc45/frozendict-2.3.8.tar.gz
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/7f/c8/4142e86f3b4f55da918f7ff98d8846b351f1fc9e4e2deb2654a3d02f04f1/fpm-0.8.1.tar.gz
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frozendict]: executing diffoscope
+[2023-04-29 22:49:35] INFO root fetch - processPackages [frozendict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frozendict-2.3.7.tar.gz tmp/frozendict-2.3.8.tar.gz --markdown 20230429/f/frozendict/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-04-29 22:49:35] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-04-29 22:49:35] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230429/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fpm]: executing diffoscope
+[2023-04-29 22:49:35] INFO root fetch - processPackages [fpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpm-0.8.0.tar.gz tmp/fpm-0.8.1.tar.gz --markdown 20230429/f/fpm/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-29 22:49:36] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-04-29 22:49:36] INFO root fetch - main [MainThread]: End processing [fastai-datasets]: success
+[2023-04-29 22:49:36] INFO root fetch - main [MainThread]: End processing [frogmouth]: success
+[2023-04-29 22:49:37] INFO root fetch - main [MainThread]: End processing [frozendict]: success
+[2023-04-29 22:49:39] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-04-29 22:49:42] INFO root fetch - main [MainThread]: End processing [fpm]: success
+[2023-04-29 22:49:42] INFO root fetch - main [MainThread]: Store serial: [17912388]
