@@ -6050,3 +6050,23 @@
 [2023-04-29 08:24:57] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-29 08:25:06] INFO root fetch - main [MainThread]: End processing [pycluon]: success
 [2023-04-29 08:25:06] INFO root fetch - main [MainThread]: Store serial: [17907118]
+[2023-04-29 08:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907118]
+[2023-04-29 08:30:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-29 08:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-coupon-multiplier-free-product
+[2023-04-29 08:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptcache
+[2023-04-29 08:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-04-29 08:30:18] INFO root fetch - processPackages [odoo-addon-sale-coupon-multiplier-free-product]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-04-29 08:30:18] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 08:30:18] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-29 08:30:18] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-29 08:30:18] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230429/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-29 08:30:18] INFO root fetch - processPackages [odoo-addon-sale-coupon-multiplier-free-product]: Downloading https://files.pythonhosted.org/packages/7b/99/4c361bdb9985c7b07ddebcd9eb4b1e641c212732e3f2c0d378b0d04c25aa/odoo_addon_sale_coupon_multiplier_free_product-15.0.1.0.0.3-py3-none-any.whl
+[2023-04-29 08:30:18] INFO root fetch - processPackages [odoo-addon-sale-coupon-multiplier-free-product]: Downloading https://files.pythonhosted.org/packages/a7/a4/268d8e5a899eca3ed19b4b78da77c506028d53d59c31f1b8e69236a267da/odoo_addon_sale_coupon_multiplier_free_product-15.0.1.0.0.4-py3-none-any.whl
+[2023-04-29 08:30:18] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-04-29 08:30:18] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230429/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 08:30:19] INFO root fetch - processPackages [odoo-addon-sale-coupon-multiplier-free-product]: executing diffoscope
+[2023-04-29 08:30:19] INFO root fetch - processPackages [odoo-addon-sale-coupon-multiplier-free-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_coupon_multiplier_free_product-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_coupon_multiplier_free_product-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-sale-coupon-multiplier-free-product/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-29 08:30:19] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-29 08:30:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-coupon-multiplier-free-product]: success
+[2023-04-29 08:30:20] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-04-29 08:30:20] INFO root fetch - main [MainThread]: Store serial: [17907126]
