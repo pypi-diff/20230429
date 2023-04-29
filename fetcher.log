@@ -5256,3 +5256,41 @@
 [2023-04-29 06:24:41] INFO root fetch - main [MainThread]: End processing [pycep-parser]: success
 [2023-04-29 06:24:41] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-04-29 06:24:41] INFO root fetch - main [MainThread]: Store serial: [17906566]
+[2023-04-29 06:29:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906566]
+[2023-04-29 06:29:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 06:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synthaze
+[2023-04-29 06:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mynacode
+[2023-04-29 06:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-sls-lambda-toolkit
+[2023-04-29 06:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aipha-geo-solutions
+[2023-04-29 06:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dpipes
+[2023-04-29 06:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellmap
+[2023-04-29 06:29:50] INFO root fetch - processPackages [dpipes]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 06:29:50] INFO root fetch - processPackages [mynacode]: New version: [1.0.82] Old Version: [1.0.81]
+[2023-04-29 06:29:50] WARNING root fetch - processPackages [synthaze]: Skipping, unable to determine old version
+[2023-04-29 06:29:50] INFO root fetch - processPackages [aipha-geo-solutions]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 06:29:50] INFO root fetch - main [MainThread]: End processing [synthaze] error
+[2023-04-29 06:29:50] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304290429] Old Version: [1.0.1.dev202304281103]
+[2023-04-29 06:29:50] INFO root fetch - processPackages [py-sls-lambda-toolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 06:29:50] INFO root fetch - processPackages [dpipes]: Downloading https://files.pythonhosted.org/packages/0f/25/cfaa0e653740638be3a1b2dc14c55b5dd75963bf0a9dda24735b53816521/dpipes-0.1.0.tar.gz
+[2023-04-29 06:29:50] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/88/8d/f8c59cd3cfa501b25b0ac333972e7c763a36d607f58ffd2daf2cca3ceae4/cellmap-1.0.1.dev202304290429-py3-none-any.whl
+[2023-04-29 06:29:50] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/cf/59/3647e5a4c64142c92c416a2dc3e62dc44144eaf85e536484f891862a8b6a/mynacode-1.0.82-py3-none-any.whl
+[2023-04-29 06:29:50] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/00/55/fc141535c2a263e8107953f824d76e6173722662c1c66ab4b69b3a1e28f5/py-sls-lambda-toolkit-0.0.8.tar.gz
+[2023-04-29 06:29:50] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 06:29:50] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.81-py3-none-any.whl.zip tmp/mynacode-1.0.82-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.81-1.0.82/diff.md --exclude *.pyd
+[2023-04-29 06:29:50] INFO root fetch - processPackages [aipha-geo-solutions]: Downloading https://files.pythonhosted.org/packages/cb/c8/937f481bdc98284eb81f7b271cae9b4629af7a97a0b5e7f3610a365f78d2/aipha_geo_solutions-0.1.9.tar.gz
+[2023-04-29 06:29:50] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-29 06:29:50] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304281103-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304290429-py3-none-any.whl.zip --markdown 20230429/c/cellmap/1.0.1.dev202304281103-1.0.1.dev202304290429/diff.md --exclude *.pyd
+[2023-04-29 06:29:51] INFO root fetch - processPackages [aipha-geo-solutions]: executing diffoscope
+[2023-04-29 06:29:51] INFO root fetch - processPackages [aipha-geo-solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipha_geo_solutions-0.1.8.tar.gz tmp/aipha_geo_solutions-0.1.9.tar.gz --markdown 20230429/a/aipha-geo-solutions/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 06:29:51] INFO root fetch - processPackages [dpipes]: Downloading https://files.pythonhosted.org/packages/6c/51/0074eb7c34cf32d99558e7700279ac3483eef898e6c66385b336bc8dee2f/dpipes-0.1.1.tar.gz
+[2023-04-29 06:29:51] INFO root fetch - processPackages [py-sls-lambda-toolkit]: Downloading https://files.pythonhosted.org/packages/4b/21/1aa1160ac33ac55391ef545c5839138bc7b44645df4447304c86fa8d6121/py-sls-lambda-toolkit-0.0.9.tar.gz
+[2023-04-29 06:29:51] INFO root fetch - processPackages [py-sls-lambda-toolkit]: executing diffoscope
+[2023-04-29 06:29:51] INFO root fetch - processPackages [py-sls-lambda-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-sls-lambda-toolkit-0.0.8.tar.gz tmp/py-sls-lambda-toolkit-0.0.9.tar.gz --markdown 20230429/p/py-sls-lambda-toolkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 06:29:51] INFO root fetch - processPackages [dpipes]: executing diffoscope
+[2023-04-29 06:29:51] INFO root fetch - processPackages [dpipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpipes-0.1.0.tar.gz tmp/dpipes-0.1.1.tar.gz --markdown 20230429/d/dpipes/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 06:29:51] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 06:29:52] INFO root fetch - main [MainThread]: End processing [aipha-geo-solutions]: success
+[2023-04-29 06:29:52] INFO root fetch - main [MainThread]: End processing [dpipes]: success
+[2023-04-29 06:29:52] INFO root fetch - main [MainThread]: End processing [py-sls-lambda-toolkit]: success
+[2023-04-29 06:29:52] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-29 06:29:52] INFO root fetch - main [MainThread]: Store serial: [17906586]
