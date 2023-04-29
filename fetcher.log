@@ -8754,3 +8754,64 @@
 [2023-04-29 14:03:31] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
 [2023-04-29 14:03:34] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-04-29 14:03:34] INFO root fetch - main [MainThread]: Store serial: [17908835]
+[2023-04-29 14:08:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908835]
+[2023-04-29 14:08:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TsProject
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-agents-nightly
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kkkkk
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docstring-auditor
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iiiii
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poetry-docker-plugin
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: filter-stations
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ooooo
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goxlrutilityapi
+[2023-04-29 14:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: baseweb
+[2023-04-29 14:08:43] WARNING root fetch - processPackages [iiiii]: Skipping, unable to determine old version
+[2023-04-29 14:08:43] INFO root fetch - processPackages [iiiii]: Start processing: jjjjj
+[2023-04-29 14:08:43] INFO root fetch - main [MainThread]: End processing [iiiii] error
+[2023-04-29 14:08:43] INFO root fetch - processPackages [TsProject]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 14:08:43] INFO root fetch - processPackages [docstring-auditor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 14:08:43] WARNING root fetch - processPackages [kkkkk]: Skipping, unable to determine old version
+[2023-04-29 14:08:43] INFO root fetch - processPackages [kkkkk]: Start processing: llm-generation-server
+[2023-04-29 14:08:43] INFO root fetch - processPackages [baseweb]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 14:08:43] INFO root fetch - main [MainThread]: End processing [kkkkk] error
+[2023-04-29 14:08:43] INFO root fetch - processPackages [filter-stations]: New version: [0.3.0] Old Version: [0.1.7]
+[2023-04-29 14:08:43] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.0.0.dev7] Old Version: [1.0.0.dev6]
+[2023-04-29 14:08:43] INFO root fetch - processPackages [poetry-docker-plugin]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-29 14:08:43] WARNING root fetch - processPackages [ooooo]: Skipping, unable to determine old version
+[2023-04-29 14:08:43] INFO root fetch - main [MainThread]: End processing [ooooo] error
+[2023-04-29 14:08:43] WARNING root fetch - processPackages [llm-generation-server]: Skipping, unable to determine old version
+[2023-04-29 14:08:43] INFO root fetch - main [MainThread]: End processing [llm-generation-server] error
+[2023-04-29 14:08:43] INFO root fetch - processPackages [docstring-auditor]: executing diffoscope
+[2023-04-29 14:08:43] INFO root fetch - processPackages [docstring-auditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstring_auditor-0.1.8.tar.gz tmp/docstring_auditor-0.1.9.tar.gz --markdown 20230429/d/docstring-auditor/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 14:08:43] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-04-29 14:08:43] WARNING root fetch - processPackages [jjjjj]: Skipping, unable to determine old version
+[2023-04-29 14:08:43] INFO root fetch - main [MainThread]: End processing [jjjjj] error
+[2023-04-29 14:08:43] INFO root fetch - processPackages [baseweb]: Downloading https://files.pythonhosted.org/packages/5f/20/69eeae12696ac2fbe038adb69c91329dba085b6df9ff2e6f9597beaffe60/baseweb-0.1.3.tar.gz
+[2023-04-29 14:08:43] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/4d/01/3c6e5071321899846457b17056d9bda89977e60b49bd850e33adba0241e8/filter_stations-0.1.7.tar.gz
+[2023-04-29 14:08:43] INFO root fetch - processPackages [poetry-docker-plugin]: Downloading https://files.pythonhosted.org/packages/0a/7d/b4fa56adc8200c51e15ed123007f5b9d95740c5abe3989f325c8de9c072b/poetry_docker_plugin-0.4.0.tar.gz
+[2023-04-29 14:08:43] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/93/be/47671e63ea46e68b4f5089b21d9daa675999a98b73ddfe4c0988cd8f7345/goxlrutilityapi-1.0.0.dev7.tar.gz
+[2023-04-29 14:08:43] INFO root fetch - processPackages [TsProject]: Downloading https://files.pythonhosted.org/packages/69/04/8e4048fe0d80dacf8f30c15da9dbd3b49b2a3f98e21fd1f133a38f9ec5e5/TsProject-1.0.4.tar.gz
+[2023-04-29 14:08:43] INFO root fetch - processPackages [TsProject]: executing diffoscope
+[2023-04-29 14:08:43] INFO root fetch - processPackages [TsProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsProject-1.0.3.tar.gz tmp/TsProject-1.0.4.tar.gz --markdown 20230429/T/TsProject/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 14:08:43] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-04-29 14:08:43] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.0.0.dev6.tar.gz tmp/goxlrutilityapi-1.0.0.dev7.tar.gz --markdown 20230429/g/goxlrutilityapi/1.0.0.dev6-1.0.0.dev7/diff.md --exclude *.pyd
+[2023-04-29 14:08:43] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-04-29 14:08:43] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230429/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-04-29 14:08:43] INFO root fetch - processPackages [poetry-docker-plugin]: Downloading https://files.pythonhosted.org/packages/a3/02/951bffb8e82e0e909205ded7b312abdce1590f9e060f2800e47f45a6927a/poetry_docker_plugin-0.5.0.tar.gz
+[2023-04-29 14:08:43] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/e3/62/792a17cabda65d1a306700da54a6102853116164355df751ccbd3671668b/filter_stations-0.3.0.tar.gz
+[2023-04-29 14:08:43] INFO root fetch - processPackages [baseweb]: Downloading https://files.pythonhosted.org/packages/95/d7/e85a731448619304426d9af67eea6a92384931b3f042c46c51c5b9d584a2/baseweb-0.1.4.tar.gz
+[2023-04-29 14:08:43] INFO root fetch - processPackages [poetry-docker-plugin]: executing diffoscope
+[2023-04-29 14:08:43] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-04-29 14:08:43] INFO root fetch - processPackages [poetry-docker-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_docker_plugin-0.4.0.tar.gz tmp/poetry_docker_plugin-0.5.0.tar.gz --markdown 20230429/p/poetry-docker-plugin/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 14:08:43] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.1.7.tar.gz tmp/filter_stations-0.3.0.tar.gz --markdown 20230429/f/filter-stations/0.1.7-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 14:08:43] INFO root fetch - processPackages [baseweb]: executing diffoscope
+[2023-04-29 14:08:43] INFO root fetch - processPackages [baseweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseweb-0.1.3.tar.gz tmp/baseweb-0.1.4.tar.gz --markdown 20230429/b/baseweb/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 14:08:44] INFO root fetch - main [MainThread]: End processing [TsProject]: success
+[2023-04-29 14:08:45] INFO root fetch - main [MainThread]: End processing [docstring-auditor]: success
+[2023-04-29 14:08:45] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-04-29 14:08:45] INFO root fetch - main [MainThread]: End processing [poetry-docker-plugin]: success
+[2023-04-29 14:08:45] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-04-29 14:08:46] INFO root fetch - main [MainThread]: End processing [baseweb]: success
+[2023-04-29 14:08:52] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-04-29 14:08:52] INFO root fetch - main [MainThread]: Store serial: [17908880]
