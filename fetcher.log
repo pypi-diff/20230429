@@ -8491,3 +8491,61 @@
 [2023-04-29 13:42:21] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
 [2023-04-29 13:42:42] INFO root fetch - main [MainThread]: End processing [cythonbuilder]: success
 [2023-04-29 13:42:42] INFO root fetch - main [MainThread]: Store serial: [17908666]
+[2023-04-29 13:47:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908666]
+[2023-04-29 13:47:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: katlas
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tryexcept-decorator
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-plugin-compose
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oceano-algos
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pct
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-dllib
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-orca
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-friesian
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl
+[2023-04-29 13:47:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-dllib-spark2
+[2023-04-29 13:47:51] WARNING root fetch - processPackages [katlas]: Skipping, unable to determine old version
+[2023-04-29 13:47:51] INFO root fetch - main [MainThread]: End processing [katlas] error
+[2023-04-29 13:47:51] INFO root fetch - processPackages [tryexcept-decorator]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [poetry-plugin-compose]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230428] Old Version: [2.4.0b20230427]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [pct]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230428] Old Version: [2.4.0b20230427]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230428] Old Version: [2.4.0b20230427]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230428] Old Version: [2.4.0b20230427]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230428] Old Version: [2.4.0b20230427]
+[2023-04-29 13:47:51] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-29 13:47:51] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230429/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 13:47:51] INFO root fetch - processPackages [poetry-plugin-compose]: Downloading https://files.pythonhosted.org/packages/15/b6/182c0b0202d4b41a763e96dd47d1df7186864a624954bcf567b387e6c081/poetry_plugin_compose-0.1.0.tar.gz
+[2023-04-29 13:47:51] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/03/40/f163f1490666ad7bb2440507acb14cf3b1dd31575324b3809a6defd3fa95/bigdl-dllib-spark2-2.4.0b20230427.tar.gz
+[2023-04-29 13:47:51] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/55/21/132bc4375554da4547d136cbe09a7bfd0d91b5e32dbfbb7a973c235e9da9/bigdl-dllib-2.4.0b20230427.tar.gz
+[2023-04-29 13:47:51] INFO root fetch - processPackages [tryexcept-decorator]: Downloading https://files.pythonhosted.org/packages/f5/61/6dbafb8f16ae4b5c5dd1a136c2cfdc0f61a212d164c30d25c1c0e9a7e7b6/tryexcept-decorator-0.1.4.tar.gz
+[2023-04-29 13:47:51] INFO root fetch - processPackages [pct]: Downloading https://files.pythonhosted.org/packages/6c/ca/2b8761b59112f4ba499e36bf7387a40fed8820af939d06bfd4bdfbe9ad0b/pct-0.0.8.tar.gz
+[2023-04-29 13:47:51] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/8b/98/3b736fe8941e60abb8e7e15867f9276f9ae63cc5c109e5ac05abf10696db/bigdl_orca-2.4.0b20230427-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:47:52] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560048>=10485760
+[2023-04-29 13:47:52] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-04-29 13:47:52] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559972>=10485760
+[2023-04-29 13:47:52] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369224>=10485760
+[2023-04-29 13:47:52] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-04-29 13:47:52] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-04-29 13:47:52] INFO root fetch - processPackages [tryexcept-decorator]: executing diffoscope
+[2023-04-29 13:47:52] INFO root fetch - processPackages [tryexcept-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryexcept-decorator-0.1.3.tar.gz tmp/tryexcept-decorator-0.1.4.tar.gz --markdown 20230429/t/tryexcept-decorator/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 13:47:52] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/4d/44/0e93c6cf0875f65136de838c8e0aafb6998b4256a829c265ae152b566f53/bigdl-2.4.0b20230428-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:47:52] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/51/46/972ea9d7527dd95af80fe631fa783a723c7686b158edf45bbf6691bcbe91/bigdl_friesian-2.4.0b20230428-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:47:52] INFO root fetch - processPackages [poetry-plugin-compose]: Downloading https://files.pythonhosted.org/packages/94/57/c9bb345d8d0bd4f351d8f247a406340ecde579e83b36226121e1068ef4bc/poetry_plugin_compose-0.1.1.tar.gz
+[2023-04-29 13:47:52] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-04-29 13:47:52] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230428-py3-none-manylinux1_x86_64.whl.zip --markdown 20230429/b/bigdl/2.4.0b20230427-2.4.0b20230428/diff.md --exclude *.pyd
+[2023-04-29 13:47:52] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-04-29 13:47:52] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230427-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230428-py3-none-manylinux1_x86_64.whl.zip --markdown 20230429/b/bigdl-friesian/2.4.0b20230427-2.4.0b20230428/diff.md --exclude *.pyd
+[2023-04-29 13:47:52] INFO root fetch - processPackages [poetry-plugin-compose]: executing diffoscope
+[2023-04-29 13:47:52] INFO root fetch - processPackages [poetry-plugin-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_compose-0.1.0.tar.gz tmp/poetry_plugin_compose-0.1.1.tar.gz --markdown 20230429/p/poetry-plugin-compose/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 13:47:52] INFO root fetch - processPackages [pct]: Downloading https://files.pythonhosted.org/packages/15/05/9898f8df9a082ca4ee1749a6b523592f567cbaf423046ca9c806d529d457/pct-0.0.9.tar.gz
+[2023-04-29 13:47:52] INFO root fetch - processPackages [pct]: executing diffoscope
+[2023-04-29 13:47:52] INFO root fetch - processPackages [pct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pct-0.0.8.tar.gz tmp/pct-0.0.9.tar.gz --markdown 20230429/p/pct/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 13:47:53] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-29 13:47:53] INFO root fetch - main [MainThread]: End processing [tryexcept-decorator]: success
+[2023-04-29 13:47:53] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-04-29 13:47:53] INFO root fetch - main [MainThread]: End processing [pct]: success
+[2023-04-29 13:47:54] INFO root fetch - main [MainThread]: End processing [poetry-plugin-compose]: success
+[2023-04-29 13:47:55] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-04-29 13:47:55] INFO root fetch - main [MainThread]: Store serial: [17908707]
