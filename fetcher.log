@@ -8645,3 +8645,43 @@
 [2023-04-29 13:53:07] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
 [2023-04-29 13:53:07] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
 [2023-04-29 13:53:07] INFO root fetch - main [MainThread]: Store serial: [17908754]
+[2023-04-29 13:58:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908754]
+[2023-04-29 13:58:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: issue-db-api
+[2023-04-29 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xapi-python
+[2023-04-29 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hhhhh
+[2023-04-29 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddddd
+[2023-04-29 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fffff
+[2023-04-29 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-users
+[2023-04-29 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oking
+[2023-04-29 13:58:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eeeee
+[2023-04-29 13:58:17] INFO root fetch - processPackages [issue-db-api]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-29 13:58:17] INFO root fetch - processPackages [xapi-python]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-04-29 13:58:17] WARNING root fetch - processPackages [hhhhh]: Skipping, unable to determine old version
+[2023-04-29 13:58:17] INFO root fetch - main [MainThread]: End processing [hhhhh] error
+[2023-04-29 13:58:17] WARNING root fetch - processPackages [ddddd]: Skipping, unable to determine old version
+[2023-04-29 13:58:17] INFO root fetch - main [MainThread]: End processing [ddddd] error
+[2023-04-29 13:58:17] WARNING root fetch - processPackages [fffff]: Skipping, unable to determine old version
+[2023-04-29 13:58:17] INFO root fetch - main [MainThread]: End processing [fffff] error
+[2023-04-29 13:58:17] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-04-29 13:58:17] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-04-29 13:58:17] WARNING root fetch - processPackages [eeeee]: Skipping, unable to determine old version
+[2023-04-29 13:58:17] INFO root fetch - main [MainThread]: End processing [eeeee] error
+[2023-04-29 13:58:17] INFO root fetch - processPackages [fastapi-users]: New version: [9.3.2] Old Version: [9.3.1]
+[2023-04-29 13:58:17] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-04-29 13:58:17] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-04-29 13:58:17] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/28/5c/853d138c3f4f0da5aaa916133a7aab64a68752f490aab9b622628dd6fa5a/issue_db_api-0.6.0.tar.gz
+[2023-04-29 13:58:17] INFO root fetch - processPackages [fastapi-users]: Downloading https://files.pythonhosted.org/packages/30/79/8ce8a86bb910bae7df60af339cd1dcea553b7cd7963b2e0ebb1682348808/fastapi-users-9.3.1.tar.gz
+[2023-04-29 13:58:17] INFO root fetch - processPackages [xapi-python]: Downloading https://files.pythonhosted.org/packages/28/8f/1c02a0344d1a9ecb081b00d6c7f71463f5172efbb190f83ea035609aba36/xapi-python-0.1.0.tar.gz
+[2023-04-29 13:58:17] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/c6/4c/b2154c47d2d04123bba264df2e5ec31120507c969ef3f76854ae6c09d283/issue_db_api-0.6.1.tar.gz
+[2023-04-29 13:58:17] INFO root fetch - processPackages [xapi-python]: executing diffoscope
+[2023-04-29 13:58:17] INFO root fetch - processPackages [xapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xapi-python-0.0.3.tar.gz tmp/xapi-python-0.1.0.tar.gz --markdown 20230429/x/xapi-python/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 13:58:17] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-04-29 13:58:17] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.6.0.tar.gz tmp/issue_db_api-0.6.1.tar.gz --markdown 20230429/i/issue-db-api/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-29 13:58:18] INFO root fetch - processPackages [fastapi-users]: Downloading https://files.pythonhosted.org/packages/c7/49/f4c3b8ea528a686b4eed537634d2b96190bcebe9df019dbf90b820f9cdcd/fastapi-users-9.3.2.tar.gz
+[2023-04-29 13:58:18] INFO root fetch - processPackages [fastapi-users]: executing diffoscope
+[2023-04-29 13:58:18] INFO root fetch - processPackages [fastapi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-users-9.3.1.tar.gz tmp/fastapi-users-9.3.2.tar.gz --markdown 20230429/f/fastapi-users/9.3.1-9.3.2/diff.md --exclude *.pyd
+[2023-04-29 13:58:18] INFO root fetch - main [MainThread]: End processing [xapi-python]: success
+[2023-04-29 13:58:19] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-04-29 13:58:20] INFO root fetch - main [MainThread]: End processing [fastapi-users]: success
+[2023-04-29 13:58:20] INFO root fetch - main [MainThread]: Store serial: [17908789]
