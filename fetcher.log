@@ -12069,3 +12069,50 @@
 [2023-04-29 19:31:51] INFO root fetch - main [MainThread]: End processing [graphene-django]: success
 [2023-04-29 19:32:03] INFO root fetch - main [MainThread]: End processing [pyobsplot]: success
 [2023-04-29 19:32:03] INFO root fetch - main [MainThread]: Store serial: [17911088]
+[2023-04-29 19:37:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911088]
+[2023-04-29 19:37:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 19:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinyshap
+[2023-04-29 19:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightbulb-ext-hecate
+[2023-04-29 19:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hkkang-utils
+[2023-04-29 19:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amino.api
+[2023-04-29 19:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jurebes
+[2023-04-29 19:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scioer-builder
+[2023-04-29 19:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serl
+[2023-04-29 19:37:12] INFO root fetch - processPackages [lightbulb-ext-hecate]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-29 19:37:12] INFO root fetch - processPackages [tinyshap]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-29 19:37:12] INFO root fetch - processPackages [amino.api]: New version: [1.2b5] Old Version: [1.2b4]
+[2023-04-29 19:37:12] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 19:37:12] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-04-29 19:37:12] INFO root fetch - processPackages [serl]: New version: [0.2.2b0] Old Version: [0.2.1b0]
+[2023-04-29 19:37:12] INFO root fetch - processPackages [scioer-builder]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-29 19:37:12] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-29 19:37:12] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230429/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 19:37:12] INFO root fetch - processPackages [amino.api]: Downloading https://files.pythonhosted.org/packages/30/a5/e8f1d47d573885192b776c6c8d516b0744119693a17412695c2039e78f5e/amino.api-1.2b4.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-29 19:37:12] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a8-py3-none-any.whl.zip tmp/jurebes-0.1.1a9-py3-none-any.whl.zip --markdown 20230429/j/jurebes/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-04-29 19:37:12] INFO root fetch - processPackages [lightbulb-ext-hecate]: Downloading https://files.pythonhosted.org/packages/2f/8e/64b251a9819cb08425e9537079dc46fdc11e5cd75a35e06afe22cc977937/lightbulb_ext_hecate-0.1.5.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [scioer-builder]: Downloading https://files.pythonhosted.org/packages/da/72/bdb8d3013570096eff7fe2a374adb60154248c8d3c8f909aa1184e5c67fd/scioer-builder-0.9.0.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [serl]: Downloading https://files.pythonhosted.org/packages/97/30/ac24faffd1ce4d3acadffac3f57a34f2ae5f024b403341861d82231986d7/serl-0.2.1b0.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [tinyshap]: Downloading https://files.pythonhosted.org/packages/07/d0/d411ba438759da0e1e879c15d42ff7db2c8747c39f6a794c3fdb66dbdd13/tinyshap-0.0.3.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [tinyshap]: executing diffoscope
+[2023-04-29 19:37:12] INFO root fetch - processPackages [tinyshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyshap-0.0.1.tar.gz tmp/tinyshap-0.0.3.tar.gz --markdown 20230429/t/tinyshap/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 19:37:12] INFO root fetch - processPackages [amino.api]: Downloading https://files.pythonhosted.org/packages/04/c8/8c9cc3fe38cfdefdf113c26aff566ce1547770fed7724149d81f91ce703c/amino.api-1.2b5.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [lightbulb-ext-hecate]: Downloading https://files.pythonhosted.org/packages/23/a9/4703c93fde49706498462e21a150d05f0926eb71170b880f2b9ee7fab3ad/lightbulb_ext_hecate-0.1.6.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [serl]: Downloading https://files.pythonhosted.org/packages/5e/89/d58991808ff783b050d30884fae24eb2162d1e595d63124b6a005ccf6664/serl-0.2.2b0.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [lightbulb-ext-hecate]: executing diffoscope
+[2023-04-29 19:37:12] INFO root fetch - processPackages [lightbulb-ext-hecate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightbulb_ext_hecate-0.1.5.tar.gz tmp/lightbulb_ext_hecate-0.1.6.tar.gz --markdown 20230429/l/lightbulb-ext-hecate/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-29 19:37:12] INFO root fetch - processPackages [scioer-builder]: Downloading https://files.pythonhosted.org/packages/4e/37/f810cfde694a176fc90e637c7f875746a999213421fe55e41680c16c71d9/scioer-builder-0.9.1.tar.gz
+[2023-04-29 19:37:12] INFO root fetch - processPackages [amino.api]: executing diffoscope
+[2023-04-29 19:37:12] INFO root fetch - processPackages [amino.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.api-1.2b4.tar.gz tmp/amino.api-1.2b5.tar.gz --markdown 20230429/a/amino.api/1.2b4-1.2b5/diff.md --exclude *.pyd
+[2023-04-29 19:37:12] INFO root fetch - processPackages [serl]: executing diffoscope
+[2023-04-29 19:37:12] INFO root fetch - processPackages [serl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serl-0.2.1b0.tar.gz tmp/serl-0.2.2b0.tar.gz --markdown 20230429/s/serl/0.2.1b0-0.2.2b0/diff.md --exclude *.pyd
+[2023-04-29 19:37:12] INFO root fetch - processPackages [scioer-builder]: executing diffoscope
+[2023-04-29 19:37:12] INFO root fetch - processPackages [scioer-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scioer-builder-0.9.0.tar.gz tmp/scioer-builder-0.9.1.tar.gz --markdown 20230429/s/scioer-builder/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-29 19:37:13] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-29 19:37:13] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-29 19:37:13] INFO root fetch - main [MainThread]: End processing [tinyshap]: success
+[2023-04-29 19:37:13] INFO root fetch - main [MainThread]: End processing [lightbulb-ext-hecate]: success
+[2023-04-29 19:37:14] INFO root fetch - main [MainThread]: End processing [scioer-builder]: success
+[2023-04-29 19:37:14] INFO root fetch - main [MainThread]: End processing [serl]: success
+[2023-04-29 19:37:14] INFO root fetch - main [MainThread]: End processing [amino.api]: success
+[2023-04-29 19:37:14] INFO root fetch - main [MainThread]: Store serial: [17911110]
