@@ -10123,3 +10123,90 @@
 [2023-04-29 16:35:03] INFO root fetch - main [MainThread]: End processing [flopsy]: success
 [2023-04-29 16:35:05] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-04-29 16:35:05] INFO root fetch - main [MainThread]: Store serial: [17909807]
+[2023-04-29 16:40:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909807]
+[2023-04-29 16:40:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rime-sdk
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NegoTools
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: darkmix
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sahfilters
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: locusdb
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idds-atlas
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idds-client
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idds-common
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idds-doma
+[2023-04-29 16:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idds-server
+[2023-04-29 16:40:14] WARNING root fetch - processPackages [darkmix]: Skipping, unable to determine old version
+[2023-04-29 16:40:14] INFO root fetch - processPackages [darkmix]: Start processing: idds-monitor
+[2023-04-29 16:40:14] INFO root fetch - main [MainThread]: End processing [darkmix] error
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-atlas]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [rime-sdk]: New version: [2.0.0rc8] Old Version: [2.0.0rc7]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [locusdb]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-client]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [NegoTools]: New version: [0.9] Old Version: [0.8]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-server]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-04-29 16:40:14] WARNING root fetch - processPackages [sahfilters]: Skipping, unable to determine old version
+[2023-04-29 16:40:14] INFO root fetch - processPackages [sahfilters]: Start processing: idds-website
+[2023-04-29 16:40:14] INFO root fetch - main [MainThread]: End processing [sahfilters] error
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-doma]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-monitor]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-common]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-website]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-04-29 16:40:14] INFO root fetch - processPackages [locusdb]: Downloading https://files.pythonhosted.org/packages/1f/92/6b9612afdcc900372ec206a602566141db0a639864da43abc841c96dc882/locusdb-0.2.0.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [NegoTools]: Downloading https://files.pythonhosted.org/packages/dd/36/8029fef7063aff96a3d76a83b44365b3590d8658129c8f4714feca76469b/NegoTools-0.9.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [NegoTools]: executing diffoscope
+[2023-04-29 16:40:14] INFO root fetch - processPackages [NegoTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NegoTools-0.8.tar.gz tmp/NegoTools-0.9.tar.gz --markdown 20230429/N/NegoTools/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/ae/17/d4cc4ad78010b950ebdf28cdaa3414e2be7739577d2f775d16ac9b1e9430/idds-server-1.2.8.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/0b/14/12b9890d6805464fc3f8e7b1b7bb31d9c1bb1b81f6800ae57abdf6e6bf53/idds-atlas-1.2.8.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/25/45/f6bd0e27c652d34faf707f9fff65e10a97d4965fa3f9840298e71daed434/idds-monitor-1.2.8.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/68/81/47bc45fecd09f4408c42e22eb4f7025ad73afc5a2f90eaa0ff2c613f3488/idds-common-1.2.8.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/85/04/ee213e4eb1265b5626fb2d9c7d6617aae782d2f27ba7a703895d9606b1f2/idds-client-1.2.8.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/0c/02/63bc3556b49d3487535cbb865b71eb584a5b27b5ef4255a055feaaf9c89d/idds-website-1.2.8.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/40/7e/975673496b7dcf7598b04cebe07c7c139e495b9b29d1dadcb95f2136ef79/idds-doma-1.2.8.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-04-29 16:40:14] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.0.0rc7.tar.gz tmp/rime_sdk-2.0.0rc8.tar.gz --markdown 20230429/r/rime-sdk/2.0.0rc7-2.0.0rc8/diff.md --exclude *.pyd
+[2023-04-29 16:40:14] INFO root fetch - processPackages [locusdb]: Downloading https://files.pythonhosted.org/packages/e3/a2/be03cf4263a95fad8d90dc343732fc517c00913dee940c623e62cc2fb446/locusdb-0.3.0.tar.gz
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-1.2.5.tar.gz tmp/idds-server-1.2.8.tar.gz --markdown 20230429/i/idds-server/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-1.2.5.tar.gz tmp/idds-atlas-1.2.8.tar.gz --markdown 20230429/i/idds-atlas/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-1.2.5.tar.gz tmp/idds-common-1.2.8.tar.gz --markdown 20230429/i/idds-common/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-1.2.5.tar.gz tmp/idds-client-1.2.8.tar.gz --markdown 20230429/i/idds-client/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2023-04-29 16:40:14] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-1.2.5.tar.gz tmp/idds-doma-1.2.8.tar.gz --markdown 20230429/i/idds-doma/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 16:40:14] INFO root fetch - processPackages [locusdb]: executing diffoscope
+[2023-04-29 16:40:14] INFO root fetch - processPackages [locusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locusdb-0.2.0.tar.gz tmp/locusdb-0.3.0.tar.gz --markdown 20230429/l/locusdb/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 16:40:15] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2023-04-29 16:40:15] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-1.2.5.tar.gz tmp/idds-website-1.2.8.tar.gz --markdown 20230429/i/idds-website/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 16:40:15] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2023-04-29 16:40:15] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-1.2.5.tar.gz tmp/idds-monitor-1.2.8.tar.gz --markdown 20230429/i/idds-monitor/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 16:40:15] INFO root fetch - processPackages [NegoTools]: Start processing: idds-workflow
+[2023-04-29 16:40:15] INFO root fetch - main [MainThread]: End processing [NegoTools]: success
+[2023-04-29 16:40:15] INFO root fetch - processPackages [idds-workflow]: New version: [1.2.8] Old Version: [1.2.5]
+[2023-04-29 16:40:16] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/7b/64/8ea4b6c1cae461a40a5d2bccd6fd586840c3035e794c251f5782542fd0d6/idds-workflow-1.2.8.tar.gz
+[2023-04-29 16:40:16] INFO root fetch - processPackages [idds-common]: Start processing: mdutils
+[2023-04-29 16:40:16] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2023-04-29 16:40:16] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2023-04-29 16:40:16] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-1.2.5.tar.gz tmp/idds-workflow-1.2.8.tar.gz --markdown 20230429/i/idds-workflow/1.2.5-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 16:40:16] INFO root fetch - processPackages [mdutils]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-04-29 16:40:16] INFO root fetch - processPackages [locusdb]: Start processing: extr
+[2023-04-29 16:40:16] INFO root fetch - main [MainThread]: End processing [locusdb]: success
+[2023-04-29 16:40:16] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2023-04-29 16:40:16] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 16:40:16] INFO root fetch - processPackages [mdutils]: Downloading https://files.pythonhosted.org/packages/ac/39/16adbee1eb68340f282abae5a089747fcd2e2bb98c98cee6307d26734435/mdutils-1.5.1.tar.gz
+[2023-04-29 16:40:16] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2023-04-29 16:40:16] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2023-04-29 16:40:16] INFO root fetch - processPackages [mdutils]: Downloading https://files.pythonhosted.org/packages/b1/ec/6240f147530a2c8d362ed3f2f7985aca92cda68c25ffc2fc216504b17148/mdutils-1.6.0.tar.gz
+[2023-04-29 16:40:16] INFO root fetch - processPackages [mdutils]: executing diffoscope
+[2023-04-29 16:40:16] INFO root fetch - processPackages [mdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdutils-1.5.1.tar.gz tmp/mdutils-1.6.0.tar.gz --markdown 20230429/m/mdutils/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-04-29 16:40:16] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-29 16:40:16] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230429/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 16:40:17] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2023-04-29 16:40:17] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2023-04-29 16:40:18] INFO root fetch - main [MainThread]: End processing [mdutils]: success
+[2023-04-29 16:40:18] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-29 16:40:20] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2023-04-29 16:40:20] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-04-29 16:40:20] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2023-04-29 16:40:20] INFO root fetch - main [MainThread]: Store serial: [17909842]
