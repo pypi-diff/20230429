@@ -5129,3 +5129,32 @@
 [2023-04-29 06:02:59] INFO root fetch - main [MainThread]: End processing [ge25519]: success
 [2023-04-29 06:03:35] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-04-29 06:03:35] INFO root fetch - main [MainThread]: Store serial: [17906505]
+[2023-04-29 06:08:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906505]
+[2023-04-29 06:08:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 06:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reasoner-validator
+[2023-04-29 06:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiderx
+[2023-04-29 06:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grepexercises
+[2023-04-29 06:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bubblemsg
+[2023-04-29 06:08:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: screcode
+[2023-04-29 06:08:45] INFO root fetch - processPackages [reasoner-validator]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-04-29 06:08:45] INFO root fetch - processPackages [bubblemsg]: New version: [3.1] Old Version: [3.0]
+[2023-04-29 06:08:45] WARNING root fetch - processPackages [grepexercises]: Skipping, unable to determine old version
+[2023-04-29 06:08:45] INFO root fetch - main [MainThread]: End processing [grepexercises] error
+[2023-04-29 06:08:45] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-04-29 06:08:46] INFO root fetch - processPackages [screcode]: New version: [0.1.2.dev202304290408] Old Version: [0.1.2.dev202304200535]
+[2023-04-29 06:08:46] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/f5/ef/c46231463d05fd99f2f536f905b17c9a3d0aa38a0480aecd0ce831a94cf5/screcode-0.1.2.dev202304200535-py3-none-any.whl
+[2023-04-29 06:08:46] INFO root fetch - processPackages [bubblemsg]: Downloading https://files.pythonhosted.org/packages/80/3b/584db859145ad1aafbeaa4c49313707e62e3f08860c9dc305d754494a3a7/bubblemsg-3.1.tar.gz
+[2023-04-29 06:08:46] INFO root fetch - processPackages [bubblemsg]: executing diffoscope
+[2023-04-29 06:08:46] INFO root fetch - processPackages [bubblemsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bubblemsg-3.0.tar.gz tmp/bubblemsg-3.1.tar.gz --markdown 20230429/b/bubblemsg/3.0-3.1/diff.md --exclude *.pyd
+[2023-04-29 06:08:46] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-04-29 06:08:46] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.4.8.tar.gz tmp/reasoner_validator-3.4.9.tar.gz --markdown 20230429/r/reasoner-validator/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-04-29 06:08:46] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-04-29 06:08:46] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230429/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-04-29 06:08:46] INFO root fetch - processPackages [screcode]: Downloading https://files.pythonhosted.org/packages/11/cc/df476a8d15e4872099dc44f005b76ac91076d7da27eeba9759b1f522d245/screcode-0.1.2.dev202304290408-py3-none-any.whl
+[2023-04-29 06:08:46] INFO root fetch - processPackages [screcode]: executing diffoscope
+[2023-04-29 06:08:46] INFO root fetch - processPackages [screcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screcode-0.1.2.dev202304200535-py3-none-any.whl.zip tmp/screcode-0.1.2.dev202304290408-py3-none-any.whl.zip --markdown 20230429/s/screcode/0.1.2.dev202304200535-0.1.2.dev202304290408/diff.md --exclude *.pyd
+[2023-04-29 06:08:47] INFO root fetch - main [MainThread]: End processing [bubblemsg]: success
+[2023-04-29 06:08:47] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-04-29 06:08:47] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-04-29 06:08:47] INFO root fetch - main [MainThread]: End processing [screcode]: success
+[2023-04-29 06:08:47] INFO root fetch - main [MainThread]: Store serial: [17906523]
