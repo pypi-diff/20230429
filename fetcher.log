@@ -12261,3 +12261,37 @@
 [2023-04-29 19:58:00] INFO root fetch - main [MainThread]: End processing [toolcli]: success
 [2023-04-29 19:58:01] INFO root fetch - main [MainThread]: End processing [medspellchecker]: success
 [2023-04-29 19:58:01] INFO root fetch - main [MainThread]: Store serial: [17911204]
+[2023-04-29 20:03:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911204]
+[2023-04-29 20:03:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-mptt2
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssh-audit
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperfetch
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: k8s-audit-filter
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bam-core
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gen-odoo-readme
+[2023-04-29 20:03:10] INFO root fetch - processPackages [k8s-audit-filter]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-29 20:03:10] WARNING root fetch - processPackages [django-mptt2]: Skipping, unable to determine old version
+[2023-04-29 20:03:10] INFO root fetch - main [MainThread]: End processing [django-mptt2] error
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ssh-audit]: New version: [2.9.0] Old Version: [2.5.0]
+[2023-04-29 20:03:10] INFO root fetch - processPackages [hyperfetch]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 20:03:10] INFO root fetch - processPackages [bam-core]: New version: [2023.4.29.1682779659] Old Version: [2023.4.29.1682779611]
+[2023-04-29 20:03:10] INFO root fetch - processPackages [gen-odoo-readme]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 20:03:10] INFO root fetch - processPackages [bam-core]: executing diffoscope
+[2023-04-29 20:03:10] INFO root fetch - processPackages [bam-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-core-2023.4.29.1682779611.tar.gz tmp/bam-core-2023.4.29.1682779659.tar.gz --markdown 20230429/b/bam-core/2023.4.29.1682779611-2023.4.29.1682779659/diff.md --exclude *.pyd
+[2023-04-29 20:03:10] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-04-29 20:03:10] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.0.8.tar.gz tmp/hyperfetch-1.0.9.tar.gz --markdown 20230429/h/hyperfetch/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 20:03:10] INFO root fetch - processPackages [k8s-audit-filter]: Downloading https://files.pythonhosted.org/packages/ba/57/2aae3fb572d83a4f630f73e668514dc9b3befebd6eb4eb2a64ecb0a51fb5/k8s_audit_filter-0.5.0-py3-none-any.whl
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ssh-audit]: Downloading https://files.pythonhosted.org/packages/ae/72/44b29342575dee57470a11b92b12430b3afb63a963aa356c356b0b747522/ssh-audit-2.5.0.tar.gz
+[2023-04-29 20:03:10] INFO root fetch - processPackages [k8s-audit-filter]: executing diffoscope
+[2023-04-29 20:03:10] INFO root fetch - processPackages [k8s-audit-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s_audit_filter-0.4.0-py3-none-any.whl.zip tmp/k8s_audit_filter-0.5.0-py3-none-any.whl.zip --markdown 20230429/k/k8s-audit-filter/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ssh-audit]: Downloading https://files.pythonhosted.org/packages/09/71/aa82438fa0660fc0bc63fd84bcc4be8c3f7456752ce31d4fd1221bd63b4c/ssh-audit-2.9.0.tar.gz
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ssh-audit]: executing diffoscope
+[2023-04-29 20:03:10] INFO root fetch - processPackages [ssh-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh-audit-2.5.0.tar.gz tmp/ssh-audit-2.9.0.tar.gz --markdown 20230429/s/ssh-audit/2.5.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-29 20:03:10] INFO root fetch - processPackages [gen-odoo-readme]: executing diffoscope
+[2023-04-29 20:03:10] INFO root fetch - processPackages [gen-odoo-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen-odoo-readme-1.0.8.tar.gz tmp/gen-odoo-readme-1.0.9.tar.gz --markdown 20230429/g/gen-odoo-readme/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 20:03:11] INFO root fetch - main [MainThread]: End processing [bam-core]: success
+[2023-04-29 20:03:11] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-04-29 20:03:11] INFO root fetch - main [MainThread]: End processing [k8s-audit-filter]: success
+[2023-04-29 20:03:11] INFO root fetch - main [MainThread]: End processing [gen-odoo-readme]: success
+[2023-04-29 20:03:11] INFO root fetch - main [MainThread]: End processing [ssh-audit]: success
+[2023-04-29 20:03:11] INFO root fetch - main [MainThread]: Store serial: [17911225]
