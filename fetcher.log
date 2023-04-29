@@ -7583,3 +7583,64 @@
 [2023-04-29 12:11:55] INFO root fetch - main [MainThread]: End processing [dlplan]: success
 [2023-04-29 12:12:46] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-04-29 12:12:46] INFO root fetch - main [MainThread]: Store serial: [17908045]
+[2023-04-29 12:17:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908045]
+[2023-04-29 12:17:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dokuwikidumper
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyopenfigi
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-sb-codefield
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qgate-graph
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-observer
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyperfast-python-template
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QPUIQ
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: saliency-maps-metrics
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: local-recruitment-employer-python-backend
+[2023-04-29 12:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tonic
+[2023-04-29 12:17:55] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 12:17:55] INFO root fetch - processPackages [django-sb-codefield]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 12:17:55] INFO root fetch - processPackages [qgate-graph]: New version: [1.2rc5] Old Version: [1.2rc4]
+[2023-04-29 12:17:55] INFO root fetch - processPackages [python-observer]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-29 12:17:55] INFO root fetch - processPackages [local-recruitment-employer-python-backend]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 12:17:55] INFO root fetch - processPackages [QPUIQ]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 12:17:55] INFO root fetch - processPackages [saliency-maps-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 12:17:55] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-29 12:17:55] INFO root fetch - processPackages [tonic]: New version: [1.2.7.dev9] Old Version: [1.2.7.dev6]
+[2023-04-29 12:17:55] WARNING root fetch - processPackages [pyopenfigi]: Skipping, unable to determine old version
+[2023-04-29 12:17:55] INFO root fetch - main [MainThread]: End processing [pyopenfigi] error
+[2023-04-29 12:17:55] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-04-29 12:17:55] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230429/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 12:17:55] INFO root fetch - processPackages [saliency-maps-metrics]: executing diffoscope
+[2023-04-29 12:17:55] INFO root fetch - processPackages [saliency-maps-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saliency_maps_metrics-0.0.8.tar.gz tmp/saliency_maps_metrics-0.0.9.tar.gz --markdown 20230429/s/saliency-maps-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:17:55] INFO root fetch - processPackages [django-sb-codefield]: Downloading https://files.pythonhosted.org/packages/43/27/ebeb892023f3598702b968ba8af3f126030bdda6e9d9ca8e6dc6287cb0dd/django_sb_codefield-0.1.0.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [python-observer]: Downloading https://files.pythonhosted.org/packages/19/fc/5f62282c3d6bc1df5adc71a36fcdd20c1a90b3a65898711a3a10a177e454/python_observer-0.3.2.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/f2/1c/6872b7f8b4500fd8e5267eaac6054fd88f0e9a0f72773dafaa993aeaa0df/qgate_graph-1.2rc5.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/16/9c/6b65c01d0da42562081d6a8ae0a56ebf3da5f6d5c54e13d06fbe627cd62f/QPUIQ-0.1.3.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [local-recruitment-employer-python-backend]: Downloading https://files.pythonhosted.org/packages/24/fa/2af7e3c53606a0940400610a3f3e79ec6cf9bd5afe1b81fabc964cef37bf/local-recruitment-employer-python-backend-0.0.2.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [python-observer]: executing diffoscope
+[2023-04-29 12:17:55] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/0e/70/a792c6ade03ebdc74dce2fe25ddbac608f05418cec7977ff0e5ea97e416c/hyperfast_python_template-0.4.5.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [python-observer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-observer-0.3.1.tar.gz tmp/python_observer-0.3.2.tar.gz --markdown 20230429/p/python-observer/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-29 12:17:55] INFO root fetch - processPackages [django-sb-codefield]: Downloading https://files.pythonhosted.org/packages/81/e6/5c5331516ca9023cb9b080dd68210da98ab2a081cd951a8a4814d44cb04c/django_sb_codefield-0.2.0.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-04-29 12:17:55] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.2rc4.tar.gz tmp/qgate_graph-1.2rc5.tar.gz --markdown 20230429/q/qgate-graph/1.2rc4-1.2rc5/diff.md --exclude *.pyd
+[2023-04-29 12:17:55] INFO root fetch - processPackages [django-sb-codefield]: executing diffoscope
+[2023-04-29 12:17:55] INFO root fetch - processPackages [django-sb-codefield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sb_codefield-0.1.0.tar.gz tmp/django_sb_codefield-0.2.0.tar.gz --markdown 20230429/d/django-sb-codefield/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 12:17:55] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/26/ed/cfe0b762da01fd8303d4ed9caf895ccf02cbfc37a2a68e031fd2acfb6547/hyperfast_python_template-0.4.6.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-04-29 12:17:55] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.2.7.dev6.tar.gz tmp/tonic-1.2.7.dev9.tar.gz --markdown 20230429/t/tonic/1.2.7.dev6-1.2.7.dev9/diff.md --exclude *.pyd
+[2023-04-29 12:17:55] INFO root fetch - processPackages [local-recruitment-employer-python-backend]: Downloading https://files.pythonhosted.org/packages/b0/ce/92589935edbc10ba64645c05680be1482a39b8595c6c030de82c085bec14/local-recruitment-employer-python-backend-0.0.3.tar.gz
+[2023-04-29 12:17:55] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-04-29 12:17:55] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.4.5.tar.gz tmp/hyperfast_python_template-0.4.6.tar.gz --markdown 20230429/h/hyperfast-python-template/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-29 12:17:56] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/72/8f/9ead1f27fcc9907abcc9756a5825be1b19a8dd073579e2c1a4015515a08a/QPUIQ-0.1.4.tar.gz
+[2023-04-29 12:17:56] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-04-29 12:17:56] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.1.3.tar.gz tmp/QPUIQ-0.1.4.tar.gz --markdown 20230429/Q/QPUIQ/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 12:17:56] INFO root fetch - processPackages [local-recruitment-employer-python-backend]: executing diffoscope
+[2023-04-29 12:17:56] INFO root fetch - processPackages [local-recruitment-employer-python-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local-recruitment-employer-python-backend-0.0.2.tar.gz tmp/local-recruitment-employer-python-backend-0.0.3.tar.gz --markdown 20230429/l/local-recruitment-employer-python-backend/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [python-observer]: success
+[2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [saliency-maps-metrics]: success
+[2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [django-sb-codefield]: success
+[2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [local-recruitment-employer-python-backend]: success
+[2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-04-29 12:17:58] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-04-29 12:17:58] INFO root fetch - main [MainThread]: Store serial: [17908079]
