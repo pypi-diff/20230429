@@ -2100,3 +2100,48 @@
 [2023-04-29 02:56:34] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-04-29 02:56:36] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-04-29 02:56:36] INFO root fetch - main [MainThread]: Store serial: [17904721]
+[2023-04-29 03:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904721]
+[2023-04-29 03:01:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 03:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aemcmc-nightly
+[2023-04-29 03:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keepercommander
+[2023-04-29 03:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-04-29 03:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: structure-py
+[2023-04-29 03:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2023-04-29 03:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rumex
+[2023-04-29 03:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cerebrium
+[2023-04-29 03:01:45] INFO root fetch - processPackages [structure-py]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-29 03:01:45] INFO root fetch - processPackages [rumex]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-29 03:01:45] INFO root fetch - processPackages [keepercommander]: New version: [4.9] Old Version: [4.88]
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-29 03:01:45] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230429] Old Version: [0.0.8.dev20230428]
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230429/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230429/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-29 03:01:45] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/2d/f8/9d6d65ca24d4f04d53a89626c78f684531a67b4900e6110b82773c2edc44/structure_py-0.6.0.tar.gz
+[2023-04-29 03:01:45] INFO root fetch - processPackages [rumex]: Downloading https://files.pythonhosted.org/packages/06/ba/b3e0004885221291f3212a39a2f9811b5f8d0d7025575f35861bd5bc2bcc/rumex-0.3.3.tar.gz
+[2023-04-29 03:01:45] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/16/91/5a24b372408888daef4a70bb214157f171e35ef268f1a3904fd190336343/keepercommander-4.88.tar.gz
+[2023-04-29 03:01:45] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/6a/9b/4bd0be5a252acdb5044c4221ee9ad6a6fe7b6c3f69db3e7e138884532061/structure_py-0.6.1.tar.gz
+[2023-04-29 03:01:45] INFO root fetch - processPackages [rumex]: Downloading https://files.pythonhosted.org/packages/0f/ff/3fe8f720620d41b6b3a37ab40ba64bf15f7cf950eca429511d0fefab7a36/rumex-0.4.0.tar.gz
+[2023-04-29 03:01:45] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-04-29 03:01:45] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.6.0.tar.gz tmp/structure_py-0.6.1.tar.gz --markdown 20230429/s/structure-py/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-29 03:01:45] INFO root fetch - processPackages [rumex]: executing diffoscope
+[2023-04-29 03:01:45] INFO root fetch - processPackages [rumex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rumex-0.3.3.tar.gz tmp/rumex-0.4.0.tar.gz --markdown 20230429/r/rumex/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 03:01:45] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/0b/11/5dcf60d2272ff08e7f5848d9f46d28fc5bb8e57520545a9702cc2e82536f/aemcmc-nightly-0.0.8.dev20230429.tar.gz
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-04-29 03:01:45] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230429/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-29 03:01:46] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-04-29 03:01:46] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230428.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230429.tar.gz --markdown 20230429/a/aemcmc-nightly/0.0.8.dev20230428-0.0.8.dev20230429/diff.md --exclude *.pyd
+[2023-04-29 03:01:46] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/81/36/49b1c4234938830448040dbce4a33041541130d80e9ff959c80a7863be75/keepercommander-4.9.tar.gz
+[2023-04-29 03:01:46] INFO root fetch - processPackages [keepercommander]: executing diffoscope
+[2023-04-29 03:01:46] INFO root fetch - processPackages [keepercommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepercommander-4.88.tar.gz tmp/keepercommander-4.9.tar.gz --markdown 20230429/k/keepercommander/4.88-4.9/diff.md --exclude *.pyd
+[2023-04-29 03:01:47] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-04-29 03:01:47] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-04-29 03:01:47] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-04-29 03:01:47] INFO root fetch - main [MainThread]: End processing [rumex]: success
+[2023-04-29 03:01:47] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-04-29 03:01:47] INFO root fetch - main [MainThread]: End processing [keepercommander]: success
+[2023-04-29 03:01:49] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-04-29 03:01:49] INFO root fetch - main [MainThread]: Store serial: [17904741]
