@@ -10079,3 +10079,47 @@
 [2023-04-29 16:29:53] INFO root fetch - main [MainThread]: End processing [bulrush]: success
 [2023-04-29 16:29:53] INFO root fetch - main [MainThread]: End processing [inverse]: success
 [2023-04-29 16:29:53] INFO root fetch - main [MainThread]: Store serial: [17909772]
+[2023-04-29 16:34:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909772]
+[2023-04-29 16:35:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytchat
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extr-ds
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catnapmodule
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: citizenk
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flopsy
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ProjZ.py
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ytchat]: New version: [0.1.dev1] Old Version: [0.0.6]
+[2023-04-29 16:35:02] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 16:35:02] INFO root fetch - processPackages [flopsy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ProjZ.py]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-04-29 16:35:02] INFO root fetch - processPackages [citizenk]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-04-29 16:35:02] INFO root fetch - processPackages [catnapmodule]: New version: [0.21] Old Version: [0.2]
+[2023-04-29 16:35:02] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-04-29 16:35:02] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-29 16:35:02] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230429/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ytchat]: Downloading https://files.pythonhosted.org/packages/36/86/d2c0568b7f30c5094c52e282e6801e09925d7937c8e72dc445d90249270d/ytchat-0.0.6.tar.gz
+[2023-04-29 16:35:02] WARNING root fetch - processPackages [ytchat]: Skipping package: exceeds size limit 12544287>=10485760
+[2023-04-29 16:35:02] INFO root fetch - main [MainThread]: End processing [ytchat] error
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/ab/f0/5b0280f73c150ece617dfa4a037845a6d1cf45c2c0d0654eb69700ae9ea0/ProjZ.py-2.3.8.tar.gz
+[2023-04-29 16:35:02] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/c0/2c/ec21d67aa4d654499400ec4ee36098e12c3a43dd47818e456146777c7cd7/citizenk-0.1.29.tar.gz
+[2023-04-29 16:35:02] INFO root fetch - processPackages [catnapmodule]: Downloading https://files.pythonhosted.org/packages/ca/6c/f7539acd2ac59bb0b7fb02732267d7f29ea3ee200a81d3deac8bba26b653/catnapmodule-0.21.tar.gz
+[2023-04-29 16:35:02] INFO root fetch - processPackages [flopsy]: Downloading https://files.pythonhosted.org/packages/df/e5/633bbf9a86299986b57f876671f87c3370019c7bdd207df6de746d09dc45/flopsy-0.0.1.tar.gz
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 16:35:02] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.3.7.tar.gz tmp/ProjZ.py-2.3.8.tar.gz --markdown 20230429/P/ProjZ.py/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-04-29 16:35:02] INFO root fetch - processPackages [catnapmodule]: executing diffoscope
+[2023-04-29 16:35:02] INFO root fetch - processPackages [catnapmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnapmodule-0.2.tar.gz tmp/catnapmodule-0.21.tar.gz --markdown 20230429/c/catnapmodule/0.2-0.21/diff.md --exclude *.pyd
+[2023-04-29 16:35:02] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/1d/41/cea1c7874fa0adaa563c9c01083f2add11ecc079b19fa69b072485396b0a/citizenk-0.1.30.tar.gz
+[2023-04-29 16:35:02] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-29 16:35:02] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.29.tar.gz tmp/citizenk-0.1.30.tar.gz --markdown 20230429/c/citizenk/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-04-29 16:35:02] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-04-29 16:35:02] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230429/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-04-29 16:35:02] INFO root fetch - processPackages [flopsy]: Downloading https://files.pythonhosted.org/packages/ac/1e/69e94d888dc2ba7ce85b0c85bda72d59821fa98af4c8a1ebfc6a849882b0/flopsy-0.0.2.tar.gz
+[2023-04-29 16:35:02] INFO root fetch - processPackages [flopsy]: executing diffoscope
+[2023-04-29 16:35:02] INFO root fetch - processPackages [flopsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flopsy-0.0.1.tar.gz tmp/flopsy-0.0.2.tar.gz --markdown 20230429/f/flopsy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 16:35:03] INFO root fetch - main [MainThread]: End processing [catnapmodule]: success
+[2023-04-29 16:35:03] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-29 16:35:03] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-29 16:35:03] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 16:35:03] INFO root fetch - main [MainThread]: End processing [flopsy]: success
+[2023-04-29 16:35:05] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-04-29 16:35:05] INFO root fetch - main [MainThread]: Store serial: [17909807]
