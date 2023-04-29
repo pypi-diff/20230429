@@ -1246,3 +1246,65 @@
 [2023-04-29 02:01:11] INFO root fetch - main [MainThread]: End processing [bcipy]: success
 [2023-04-29 02:01:12] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-04-29 02:01:12] INFO root fetch - main [MainThread]: Store serial: [17904182]
+[2023-04-29 02:06:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904182]
+[2023-04-29 02:06:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paraphase
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: space-invaders
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2eAIOK
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: e2eAIOK-sda
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-nightly
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aligned-text-table
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RockyRoad
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-banking-mandate
+[2023-04-29 02:06:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jageocoder
+[2023-04-29 02:06:22] INFO root fetch - processPackages [paraphase]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-29 02:06:22] INFO root fetch - processPackages [space-invaders]: New version: [0.1.68] Old Version: [0.1.67]
+[2023-04-29 02:06:22] INFO root fetch - processPackages [e2eAIOK-sda]: New version: [1.1.1b2023042900] Old Version: [1.1.1b2023042803]
+[2023-04-29 02:06:22] INFO root fetch - processPackages [e2eAIOK]: New version: [1.1.1b2023042900] Old Version: [1.1.1b2023042803]
+[2023-04-29 02:06:22] WARNING root fetch - processPackages [aligned-text-table]: Skipping, unable to determine old version
+[2023-04-29 02:06:22] INFO root fetch - processPackages [aligned-text-table]: Start processing: aligned-text-table
+[2023-04-29 02:06:22] INFO root fetch - main [MainThread]: End processing [aligned-text-table] error
+[2023-04-29 02:06:22] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1682640191] Old Version: [1682553772]
+[2023-04-29 02:06:22] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-04-29 02:06:22] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-04-29 02:06:22] WARNING root fetch - processPackages [aligned-text-table]: Skipping, unable to determine old version
+[2023-04-29 02:06:22] INFO root fetch - main [MainThread]: End processing [aligned-text-table] error
+[2023-04-29 02:06:23] INFO root fetch - processPackages [jageocoder]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-29 02:06:23] INFO root fetch - processPackages [RockyRoad]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 02:06:23] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [odoo-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-account-banking-mandate/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-29 02:06:23] INFO root fetch - processPackages [paraphase]: Downloading https://files.pythonhosted.org/packages/54/f8/4684a679f94dfb7132aec0c0ec40f92b78dfcf91e4e8712e5bbf78e0f409/paraphase-2.1.0.tar.gz
+[2023-04-29 02:06:23] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230429/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-04-29 02:06:23] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/c5/92/1b897a11cd63b44430832e20e770af1671acfa9c107f39b56cc92f338aa6/space-invaders-0.1.68.tar.gz
+[2023-04-29 02:06:23] INFO root fetch - processPackages [e2eAIOK-sda]: Downloading https://files.pythonhosted.org/packages/ed/84/7e7522e743c598e674326b16e9ea64be849d0a89bd3a04e7ef9b9ecd123a/e2eAIOK_sda-1.1.1b2023042900-py3-none-any.whl
+[2023-04-29 02:06:23] INFO root fetch - processPackages [e2eAIOK]: Downloading https://files.pythonhosted.org/packages/99/0e/64bc11281f3dfc47adfba21f2d92848066908abfbf451c11d24cf0ce327f/e2eAIOK-1.1.1b2023042900.tar.gz
+[2023-04-29 02:06:23] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/26/cf/990c551f97841a8c2afb2597e8ab7d37688decbe2091231f90ba42acac65/jageocoder-2.0.0.tar.gz
+[2023-04-29 02:06:23] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/ac/22/ffd569d8f9d5fd44150be283827c8bbdeafaf60fbd9b281b79f674065c2b/torchdatasets-nightly-1682640191.tar.gz
+[2023-04-29 02:06:23] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.67.tar.gz tmp/space-invaders-0.1.68.tar.gz --markdown 20230429/s/space-invaders/0.1.67-0.1.68/diff.md --exclude *.pyd
+[2023-04-29 02:06:23] INFO root fetch - processPackages [e2eAIOK-sda]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [e2eAIOK-sda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK_sda-1.1.1b2023042803-py3-none-any.whl.zip tmp/e2eAIOK_sda-1.1.1b2023042900-py3-none-any.whl.zip --markdown 20230429/e/e2eAIOK-sda/1.1.1b2023042803-1.1.1b2023042900/diff.md --exclude *.pyd
+[2023-04-29 02:06:23] INFO root fetch - processPackages [e2eAIOK]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [e2eAIOK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK-1.1.1b2023042803.tar.gz tmp/e2eAIOK-1.1.1b2023042900.tar.gz --markdown 20230429/e/e2eAIOK/1.1.1b2023042803-1.1.1b2023042900/diff.md --exclude *.pyd
+[2023-04-29 02:06:23] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1682553772.tar.gz tmp/torchdatasets-nightly-1682640191.tar.gz --markdown 20230429/t/torchdatasets-nightly/1682553772-1682640191/diff.md --exclude *.pyd
+[2023-04-29 02:06:23] INFO root fetch - processPackages [RockyRoad]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [RockyRoad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RockyRoad-0.0.98-py3-none-any.whl.zip tmp/RockyRoad-0.0.99-py3-none-any.whl.zip --markdown 20230429/R/RockyRoad/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 02:06:23] INFO root fetch - processPackages [jageocoder]: Downloading https://files.pythonhosted.org/packages/bf/9d/2a36464ff48208bbdce99dbe76ded530f6975fa12153153557069a02783d/jageocoder-2.0.1.tar.gz
+[2023-04-29 02:06:23] INFO root fetch - processPackages [jageocoder]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [jageocoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jageocoder-2.0.0.tar.gz tmp/jageocoder-2.0.1.tar.gz --markdown 20230429/j/jageocoder/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-29 02:06:23] INFO root fetch - processPackages [paraphase]: Downloading https://files.pythonhosted.org/packages/91/4a/4b58ad5b094c1977ab4fe4eb9a79d889bd9330fee6ed8aac5b55b710b02e/paraphase-2.2.0.tar.gz
+[2023-04-29 02:06:23] INFO root fetch - processPackages [paraphase]: executing diffoscope
+[2023-04-29 02:06:23] INFO root fetch - processPackages [paraphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paraphase-2.1.0.tar.gz tmp/paraphase-2.2.0.tar.gz --markdown 20230429/p/paraphase/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-29 02:06:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate]: success
+[2023-04-29 02:06:24] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-04-29 02:06:24] INFO root fetch - main [MainThread]: End processing [RockyRoad]: success
+[2023-04-29 02:06:24] INFO root fetch - main [MainThread]: End processing [e2eAIOK-sda]: success
+[2023-04-29 02:06:25] INFO root fetch - main [MainThread]: End processing [jageocoder]: success
+[2023-04-29 02:06:26] INFO root fetch - main [MainThread]: End processing [paraphase]: success
+[2023-04-29 02:06:26] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-29 02:06:27] INFO root fetch - main [MainThread]: End processing [e2eAIOK]: success
+[2023-04-29 02:06:30] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-04-29 02:06:30] INFO root fetch - main [MainThread]: Store serial: [17904210]
