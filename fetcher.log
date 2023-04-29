@@ -4617,3 +4617,57 @@
 [2023-04-29 04:41:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-04-29 04:42:13] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-29 04:42:13] INFO root fetch - main [MainThread]: Store serial: [17906235]
+[2023-04-29 04:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906235]
+[2023-04-29 04:47:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yizhan
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Catalyst-Lib
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-review
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-review
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamachine
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-review
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openai-rev
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Catalyst-Lib
+[2023-04-29 04:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FindSystemFontsFilename
+[2023-04-29 04:47:22] INFO root fetch - processPackages [datamachine]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-29 04:47:22] INFO root fetch - processPackages [openai-rev]: New version: [1.2] Old Version: [1.1]
+[2023-04-29 04:47:22] WARNING root fetch - processPackages [yizhan]: Skipping, unable to determine old version
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 04:47:22] INFO root fetch - main [MainThread]: End processing [yizhan] error
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:47:22] INFO root fetch - processPackages [FindSystemFontsFilename]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/eb/d4/b500e93d7c6c25f60f69d0925e9fe96339026070a80d94f3acf4dcb7a2bb/Catalyst_Lib-0.7.tar.gz
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/eb/d4/b500e93d7c6c25f60f69d0925e9fe96339026070a80d94f3acf4dcb7a2bb/Catalyst_Lib-0.7.tar.gz
+[2023-04-29 04:47:22] INFO root fetch - processPackages [openai-rev]: Downloading https://files.pythonhosted.org/packages/ac/69/2ec5d0721bc0ca01233777b87cd5768246ba5cd18579af0a2bcd0d8e38cf/openai_rev-1.2.tar.gz
+[2023-04-29 04:47:22] INFO root fetch - processPackages [datamachine]: Downloading https://files.pythonhosted.org/packages/21/75/c294ed73c545cdd8620b1ca836b21bb429f249b81b9dee2c6d09f369788a/datamachine-0.0.8.tar.gz
+[2023-04-29 04:47:22] INFO root fetch - processPackages [FindSystemFontsFilename]: Downloading https://files.pythonhosted.org/packages/62/f2/9d19600ffeb639eb023f72aff2ef48e4ecb7ddbec47c485015f488adb5d9/FindSystemFontsFilename-0.0.1.tar.gz
+[2023-04-29 04:47:22] INFO root fetch - processPackages [datamachine]: executing diffoscope
+[2023-04-29 04:47:22] INFO root fetch - processPackages [datamachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamachine-0.0.7.tar.gz tmp/datamachine-0.0.8.tar.gz --markdown 20230429/d/datamachine/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-29 04:47:22] INFO root fetch - processPackages [openai-rev]: executing diffoscope
+[2023-04-29 04:47:22] INFO root fetch - processPackages [openai-rev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_rev-1.1.tar.gz tmp/openai_rev-1.2.tar.gz --markdown 20230429/o/openai-rev/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:47:22] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/e0/c6/f2d7680acbe72a1b6a20fb0d5363bbd3a85ef79117ad9afbee425052ccaa/Catalyst_Lib-0.8.tar.gz
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/e0/c6/f2d7680acbe72a1b6a20fb0d5363bbd3a85ef79117ad9afbee425052ccaa/Catalyst_Lib-0.8.tar.gz
+[2023-04-29 04:47:22] INFO root fetch - processPackages [FindSystemFontsFilename]: Downloading https://files.pythonhosted.org/packages/47/6e/45c67f927713ee023ac40a948592dc0269192c3aa8987958f7304cc0342f/FindSystemFontsFilename-0.0.2.tar.gz
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: executing diffoscope
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Catalyst_Lib-0.7.tar.gz tmp/Catalyst_Lib-0.8.tar.gz --markdown 20230429/C/Catalyst-Lib/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: executing diffoscope
+[2023-04-29 04:47:22] INFO root fetch - processPackages [Catalyst-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Catalyst_Lib-0.7.tar.gz tmp/Catalyst_Lib-0.8.tar.gz --markdown 20230429/C/Catalyst-Lib/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 04:47:22] INFO root fetch - processPackages [FindSystemFontsFilename]: executing diffoscope
+[2023-04-29 04:47:22] INFO root fetch - processPackages [FindSystemFontsFilename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindSystemFontsFilename-0.0.1.tar.gz tmp/FindSystemFontsFilename-0.0.2.tar.gz --markdown 20230429/F/FindSystemFontsFilename/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 04:47:23] INFO root fetch - main [MainThread]: End processing [openai-rev]: success
+[2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [datamachine]: success
+[2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
+[2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
+[2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [FindSystemFontsFilename]: success
+[2023-04-29 04:47:24] INFO root fetch - main [MainThread]: Store serial: [17906261]
