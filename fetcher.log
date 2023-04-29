@@ -14024,3 +14024,40 @@
 [2023-04-29 23:31:27] INFO root fetch - main [MainThread]: End processing [dbt-upsolver]: success
 [2023-04-29 23:31:49] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2023-04-29 23:31:49] INFO root fetch - main [MainThread]: Store serial: [17912614]
+[2023-04-29 23:36:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912614]
+[2023-04-29 23:36:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 23:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-generation-server
+[2023-04-29 23:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skeetpy
+[2023-04-29 23:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetbean
+[2023-04-29 23:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dev-dependencies
+[2023-04-29 23:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-04-29 23:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mynacode
+[2023-04-29 23:36:58] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 23:36:58] INFO root fetch - processPackages [sweetbean]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 23:36:58] INFO root fetch - processPackages [dev-dependencies]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-04-29 23:36:58] INFO root fetch - processPackages [skeetpy]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-04-29 23:36:58] INFO root fetch - processPackages [mynacode]: New version: [1.0.92] Old Version: [1.0.91]
+[2023-04-29 23:36:58] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-04-29 23:36:58] INFO root fetch - processPackages [sweetbean]: executing diffoscope
+[2023-04-29 23:36:58] INFO root fetch - processPackages [sweetbean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetbean-0.0.8.tar.gz tmp/sweetbean-0.0.9.tar.gz --markdown 20230429/s/sweetbean/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 23:36:58] INFO root fetch - processPackages [dev-dependencies]: Downloading https://files.pythonhosted.org/packages/d0/af/71de5e3e25b5f9756e2937d6f112de4938a36b5cff5eacf16c22748a1c7b/dev-dependencies-0.0.2.tar.gz
+[2023-04-29 23:36:58] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-04-29 23:36:58] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.8.tar.gz tmp/llm_generation_server-0.0.9.tar.gz --markdown 20230429/l/llm-generation-server/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 23:36:58] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-04-29 23:36:58] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230429/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-04-29 23:36:58] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/8f/91/ad05940bd254f5fbe3d137e722c38f6555875854e0f9e00af66d78323678/mynacode-1.0.91-py3-none-any.whl
+[2023-04-29 23:36:58] INFO root fetch - processPackages [dev-dependencies]: executing diffoscope
+[2023-04-29 23:36:58] INFO root fetch - processPackages [dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-dependencies-0.0.2.tar.gz tmp/dev-dependencies-0.1.1.tar.gz --markdown 20230429/d/dev-dependencies/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 23:36:58] INFO root fetch - processPackages [skeetpy]: Downloading https://files.pythonhosted.org/packages/39/83/41fe9a1781534edfdeb427ccba4821aef00c6111bf2ad6dfaf4f8003472b/skeetpy-0.1.3.tar.gz
+[2023-04-29 23:36:59] INFO root fetch - processPackages [skeetpy]: executing diffoscope
+[2023-04-29 23:36:59] INFO root fetch - processPackages [skeetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skeetpy-0.1.1.tar.gz tmp/skeetpy-0.1.3.tar.gz --markdown 20230429/s/skeetpy/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-04-29 23:36:59] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/24/81/fba7297360e968a74a6389da4617e3b111837c4fdfe8a1018935ffa50b4b/mynacode-1.0.92-py3-none-any.whl
+[2023-04-29 23:36:59] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 23:36:59] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.91-py3-none-any.whl.zip tmp/mynacode-1.0.92-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.91-1.0.92/diff.md --exclude *.pyd
+[2023-04-29 23:36:59] INFO root fetch - main [MainThread]: End processing [sweetbean]: success
+[2023-04-29 23:37:00] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 23:37:00] INFO root fetch - main [MainThread]: End processing [dev-dependencies]: success
+[2023-04-29 23:37:00] INFO root fetch - main [MainThread]: End processing [skeetpy]: success
+[2023-04-29 23:37:02] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-04-29 23:37:30] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-04-29 23:37:30] INFO root fetch - main [MainThread]: Store serial: [17912636]
