@@ -2020,3 +2020,83 @@
 [2023-04-29 02:50:56] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2023-04-29 02:51:01] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-04-29 02:51:01] INFO root fetch - main [MainThread]: Store serial: [17904671]
+[2023-04-29 02:56:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904671]
+[2023-04-29 02:56:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-ember-mug
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyberdrop-dl
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: projen
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RubAmin
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reasoner-validator
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crosscompute
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: paraphase
+[2023-04-29 02:56:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: space-invaders
+[2023-04-29 02:56:12] INFO root fetch - processPackages [RubAmin]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [python-ember-mug]: New version: [0.7.0b5] Old Version: [0.7.0b4]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.1.24] Old Version: [4.1.23]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [paraphase]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-29 02:56:12] WARNING root fetch - processPackages [space-invaders]: Skipping, unable to determine old version
+[2023-04-29 02:56:12] INFO root fetch - processPackages [space-invaders]: Start processing: cdk-lambda-layer-wget
+[2023-04-29 02:56:12] INFO root fetch - main [MainThread]: End processing [space-invaders] error
+[2023-04-29 02:56:12] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [crosscompute]: New version: [0.9.4.3] Old Version: [0.9.4.2]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [reasoner-validator]: New version: [3.4.9] Old Version: [3.4.8]
+[2023-04-29 02:56:12] INFO root fetch - processPackages [python-ember-mug]: executing diffoscope
+[2023-04-29 02:56:12] INFO root fetch - processPackages [python-ember-mug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ember_mug-0.7.0b4.tar.gz tmp/python_ember_mug-0.7.0b5.tar.gz --markdown 20230429/p/python-ember-mug/0.7.0b4-0.7.0b5/diff.md --exclude *.pyd
+[2023-04-29 02:56:12] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-04-29 02:56:12] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230429/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-04-29 02:56:12] INFO root fetch - processPackages [RubAmin]: Downloading https://files.pythonhosted.org/packages/46/d4/e42cf84456450af0f879d9a956441652d6e8dce04576f8f7e2359124c28b/RubAmin-0.0.6.tar.gz
+[2023-04-29 02:56:12] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-04-29 02:56:12] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230429/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 02:56:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-04-29 02:56:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230429/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-04-29 02:56:12] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/ab/74/47a638a2a95877a074c22ce0f8d1f5bb883757a39bc8728b5de89511e924/cyberdrop-dl-4.1.24.tar.gz
+[2023-04-29 02:56:12] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-04-29 02:56:12] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230429/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-04-29 02:56:13] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-04-29 02:56:13] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.1.23.tar.gz tmp/cyberdrop-dl-4.1.24.tar.gz --markdown 20230429/c/cyberdrop-dl/4.1.23-4.1.24/diff.md --exclude *.pyd
+[2023-04-29 02:56:13] WARNING root fetch - processPackages [paraphase]: fallback to get urls: [2.2.0]
+[2023-04-29 02:56:13] WARNING root fetch - processPackages [paraphase]: None
+[2023-04-29 02:56:13] WARNING root fetch - processPackages [paraphase]: None
+[2023-04-29 02:56:13] INFO root fetch - processPackages [crosscompute]: Downloading https://files.pythonhosted.org/packages/24/b0/9422bea5b56ddeabe7645c8f55f151f5dc1334fd8f2521db6fde8f466844/crosscompute-0.9.4.3.tar.gz
+[2023-04-29 02:56:13] WARNING root fetch - processPackages [paraphase]: unable to get url for both version [2.2.0]
+[2023-04-29 02:56:13] WARNING root fetch - processPackages [paraphase]: None
+[2023-04-29 02:56:13] INFO root fetch - processPackages [paraphase]: Start processing: SAPsim
+[2023-04-29 02:56:13] INFO root fetch - main [MainThread]: End processing [paraphase] error
+[2023-04-29 02:56:13] INFO root fetch - processPackages [reasoner-validator]: executing diffoscope
+[2023-04-29 02:56:13] INFO root fetch - processPackages [reasoner-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasoner_validator-3.4.8.tar.gz tmp/reasoner_validator-3.4.9.tar.gz --markdown 20230429/r/reasoner-validator/3.4.8-3.4.9/diff.md --exclude *.pyd
+[2023-04-29 02:56:13] INFO root fetch - processPackages [crosscompute]: executing diffoscope
+[2023-04-29 02:56:13] INFO root fetch - processPackages [crosscompute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosscompute-0.9.4.2.tar.gz tmp/crosscompute-0.9.4.3.tar.gz --markdown 20230429/c/crosscompute/0.9.4.2-0.9.4.3/diff.md --exclude *.pyd
+[2023-04-29 02:56:13] INFO root fetch - processPackages [RubAmin]: executing diffoscope
+[2023-04-29 02:56:13] INFO root fetch - processPackages [RubAmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RubAmin-0.0.6.tar.gz tmp/RubAmin-0.1.0.tar.gz --markdown 20230429/R/RubAmin/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 02:56:13] INFO root fetch - processPackages [SAPsim]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 02:56:13] INFO root fetch - processPackages [SAPsim]: Downloading https://files.pythonhosted.org/packages/35/35/da683f1633807d2f02f3dad88781c3c5a637193cd9015bed304790ba182c/SAPsim-1.0.3.tar.gz
+[2023-04-29 02:56:13] INFO root fetch - processPackages [SAPsim]: executing diffoscope
+[2023-04-29 02:56:13] INFO root fetch - processPackages [SAPsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAPsim-1.0.2.tar.gz tmp/SAPsim-1.0.3.tar.gz --markdown 20230429/S/SAPsim/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 02:56:14] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: getdaft
+[2023-04-29 02:56:14] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-04-29 02:56:14] INFO root fetch - processPackages [getdaft]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-29 02:56:14] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/bf/06/a2e982d53ae1a630dacce819899b99cd2ee6f7030691643178740be869d9/getdaft-0.0.9.tar.gz
+[2023-04-29 02:56:14] INFO root fetch - processPackages [cyberdrop-dl]: Start processing: estimenergy
+[2023-04-29 02:56:14] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-04-29 02:56:14] INFO root fetch - processPackages [estimenergy]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-04-29 02:56:14] INFO root fetch - processPackages [estimenergy]: executing diffoscope
+[2023-04-29 02:56:14] INFO root fetch - processPackages [estimenergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estimenergy-2.0.5.tar.gz tmp/estimenergy-2.0.6.tar.gz --markdown 20230429/e/estimenergy/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-04-29 02:56:14] INFO root fetch - main [MainThread]: End processing [python-ember-mug]: success
+[2023-04-29 02:56:14] INFO root fetch - main [MainThread]: End processing [RubAmin]: success
+[2023-04-29 02:56:14] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/db/ba/9389e02c5722faf7f7a194f81ad11f47a384592a9c1e6332dbe2d7ed77c5/getdaft-0.1.0.tar.gz
+[2023-04-29 02:56:15] INFO root fetch - processPackages [getdaft]: executing diffoscope
+[2023-04-29 02:56:15] INFO root fetch - processPackages [getdaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getdaft-0.0.9.tar.gz tmp/getdaft-0.1.0.tar.gz --markdown 20230429/g/getdaft/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 02:56:15] INFO root fetch - main [MainThread]: End processing [crosscompute]: success
+[2023-04-29 02:56:15] INFO root fetch - main [MainThread]: End processing [SAPsim]: success
+[2023-04-29 02:56:15] INFO root fetch - main [MainThread]: End processing [reasoner-validator]: success
+[2023-04-29 02:56:16] INFO root fetch - main [MainThread]: End processing [estimenergy]: success
+[2023-04-29 02:56:16] INFO root fetch - main [MainThread]: End processing [getdaft]: success
+[2023-04-29 02:56:17] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-04-29 02:56:34] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-04-29 02:56:36] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-04-29 02:56:36] INFO root fetch - main [MainThread]: Store serial: [17904721]
