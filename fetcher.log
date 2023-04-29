@@ -9568,3 +9568,50 @@
 [2023-04-29 15:32:43] INFO root fetch - main [MainThread]: End processing [mvc4kivy]: success
 [2023-04-29 15:32:44] INFO root fetch - main [MainThread]: End processing [stuphos]: success
 [2023-04-29 15:32:44] INFO root fetch - main [MainThread]: Store serial: [17909363]
+[2023-04-29 15:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909363]
+[2023-04-29 15:37:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 15:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zzzzz
+[2023-04-29 15:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selfetch
+[2023-04-29 15:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ukmon-meteortools
+[2023-04-29 15:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bam-core
+[2023-04-29 15:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FindSystemFontsFilename
+[2023-04-29 15:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycrossgate
+[2023-04-29 15:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unipipeline
+[2023-04-29 15:37:53] INFO root fetch - processPackages [pycrossgate]: New version: [0.0.0.1] Old Version: [0.0.0.0]
+[2023-04-29 15:37:53] INFO root fetch - processPackages [FindSystemFontsFilename]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 15:37:53] INFO root fetch - processPackages [selfetch]: New version: [0.0.0.1] Old Version: [0.0.0.0]
+[2023-04-29 15:37:53] INFO root fetch - processPackages [ukmon-meteortools]: New version: [2023.4.18] Old Version: [2023.4.17]
+[2023-04-29 15:37:53] WARNING root fetch - processPackages [zzzzz]: Skipping, unable to determine old version
+[2023-04-29 15:37:53] INFO root fetch - main [MainThread]: End processing [zzzzz] error
+[2023-04-29 15:37:53] INFO root fetch - processPackages [bam-core]: New version: [2023.4.29.1682775214] Old Version: [2023.4.28.1682737714]
+[2023-04-29 15:37:53] INFO root fetch - processPackages [unipipeline]: New version: [1.8.9] Old Version: [1.8.7]
+[2023-04-29 15:37:54] INFO root fetch - processPackages [pycrossgate]: Downloading https://files.pythonhosted.org/packages/b3/6f/71ff451937c91b0be61952d1e388b5b34d855c72ffbf670864777fcac466/pycrossgate-0.0.0.0.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/36/ad/adc9488554e72c98160746783b5988be01016f73b741435b5ee72544b00b/bam-core-2023.4.28.1682737714.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [selfetch]: Downloading https://files.pythonhosted.org/packages/37/62/b11d43c2991abda2320ecc33260e9ed85c8be291fc537da906c9105b047b/selfetch-0.0.0.0.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [FindSystemFontsFilename]: Downloading https://files.pythonhosted.org/packages/ce/b8/49633af723cfb1832e67a55462e734b1122be550ade84b03a0b319460532/FindSystemFontsFilename-0.0.3.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [unipipeline]: Downloading https://files.pythonhosted.org/packages/49/b9/87f7d99498bbcf168dc9deb365ea86dc92e1a8cddced0eff8cbc855a1497/unipipeline-1.8.7.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/86/fa/ddaccea40058ec08c18965cc6b6e8b3ec915a3bc9d203b456b2e8151636b/ukmon_meteortools-2023.4.17.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [FindSystemFontsFilename]: executing diffoscope
+[2023-04-29 15:37:54] INFO root fetch - processPackages [FindSystemFontsFilename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindSystemFontsFilename-0.0.2.tar.gz tmp/FindSystemFontsFilename-0.0.3.tar.gz --markdown 20230429/F/FindSystemFontsFilename/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 15:37:54] INFO root fetch - processPackages [selfetch]: Downloading https://files.pythonhosted.org/packages/67/88/6aeecde9b1411e8571027a3cc48c7b40e16ddec6156543e996b032232355/selfetch-0.0.0.1.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [bam-core]: Downloading https://files.pythonhosted.org/packages/59/83/d146ca33ec1850a8db14dac13e5f7d522aaee238305fea2363b6d635dc3d/bam-core-2023.4.29.1682775214.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [selfetch]: executing diffoscope
+[2023-04-29 15:37:54] INFO root fetch - processPackages [selfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfetch-0.0.0.0.tar.gz tmp/selfetch-0.0.0.1.tar.gz --markdown 20230429/s/selfetch/0.0.0.0-0.0.0.1/diff.md --exclude *.pyd
+[2023-04-29 15:37:54] INFO root fetch - processPackages [ukmon-meteortools]: Downloading https://files.pythonhosted.org/packages/cf/8c/c14a92df2975dee45012880cc82474204f1a38d6734c8b96fcb65b0a6586/ukmon_meteortools-2023.4.18.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [pycrossgate]: Downloading https://files.pythonhosted.org/packages/2e/0d/a18e68aeb8992d3a9235992b9c74a97fb3a5908383f37dc42e8d19d4c8af/pycrossgate-0.0.0.1.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [pycrossgate]: executing diffoscope
+[2023-04-29 15:37:54] INFO root fetch - processPackages [pycrossgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrossgate-0.0.0.0.tar.gz tmp/pycrossgate-0.0.0.1.tar.gz --markdown 20230429/p/pycrossgate/0.0.0.0-0.0.0.1/diff.md --exclude *.pyd
+[2023-04-29 15:37:54] INFO root fetch - processPackages [unipipeline]: Downloading https://files.pythonhosted.org/packages/b5/3f/776c5cd8c3a33e5d279810b7ab19f833e132a1e97244f2f8331d951a657c/unipipeline-1.8.9.tar.gz
+[2023-04-29 15:37:54] INFO root fetch - processPackages [bam-core]: executing diffoscope
+[2023-04-29 15:37:54] INFO root fetch - processPackages [bam-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-core-2023.4.28.1682737714.tar.gz tmp/bam-core-2023.4.29.1682775214.tar.gz --markdown 20230429/b/bam-core/2023.4.28.1682737714-2023.4.29.1682775214/diff.md --exclude *.pyd
+[2023-04-29 15:37:54] INFO root fetch - processPackages [unipipeline]: executing diffoscope
+[2023-04-29 15:37:54] INFO root fetch - processPackages [unipipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipipeline-1.8.7.tar.gz tmp/unipipeline-1.8.9.tar.gz --markdown 20230429/u/unipipeline/1.8.7-1.8.9/diff.md --exclude *.pyd
+[2023-04-29 15:37:54] INFO root fetch - processPackages [ukmon-meteortools]: executing diffoscope
+[2023-04-29 15:37:54] INFO root fetch - processPackages [ukmon-meteortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukmon_meteortools-2023.4.17.tar.gz tmp/ukmon_meteortools-2023.4.18.tar.gz --markdown 20230429/u/ukmon-meteortools/2023.4.17-2023.4.18/diff.md --exclude *.pyd
+[2023-04-29 15:37:55] INFO root fetch - main [MainThread]: End processing [FindSystemFontsFilename]: success
+[2023-04-29 15:37:55] INFO root fetch - main [MainThread]: End processing [selfetch]: success
+[2023-04-29 15:37:56] INFO root fetch - main [MainThread]: End processing [pycrossgate]: success
+[2023-04-29 15:37:56] INFO root fetch - main [MainThread]: End processing [bam-core]: success
+[2023-04-29 15:37:56] INFO root fetch - main [MainThread]: End processing [unipipeline]: success
+[2023-04-29 15:37:56] INFO root fetch - main [MainThread]: End processing [ukmon-meteortools]: success
+[2023-04-29 15:37:56] INFO root fetch - main [MainThread]: Store serial: [17909386]
