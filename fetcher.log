@@ -11837,3 +11837,74 @@
 [2023-04-29 19:10:40] INFO root fetch - main [MainThread]: End processing [portfolyo]: success
 [2023-04-29 19:10:54] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-04-29 19:10:54] INFO root fetch - main [MainThread]: Store serial: [17910966]
+[2023-04-29 19:15:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910966]
+[2023-04-29 19:16:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrosimple
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exam-analyzer
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xcpcio-board-spider
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhard
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trainerbase
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xcpcio-board-spider
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parsenv
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: d3graph
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: worky
+[2023-04-29 19:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jinja2-async-environment
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 19:16:04] INFO root fetch - processPackages [trainerbase]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-29 19:16:04] INFO root fetch - processPackages [exam-analyzer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-29 19:16:04] INFO root fetch - processPackages [parsenv]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 19:16:04] INFO root fetch - processPackages [pyhard]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-29 19:16:04] INFO root fetch - processPackages [pyrosimple]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-04-29 19:16:04] WARNING root fetch - processPackages [jinja2-async-environment]: Skipping, unable to determine old version
+[2023-04-29 19:16:04] INFO root fetch - processPackages [d3graph]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-04-29 19:16:04] INFO root fetch - processPackages [jinja2-async-environment]: Start processing: wagtail-sb-fontawesome
+[2023-04-29 19:16:04] INFO root fetch - processPackages [worky]: New version: [1.0.0] Old Version: [0.1.8]
+[2023-04-29 19:16:04] INFO root fetch - main [MainThread]: End processing [jinja2-async-environment] error
+[2023-04-29 19:16:04] INFO root fetch - processPackages [wagtail-sb-fontawesome]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 19:16:04] INFO root fetch - processPackages [trainerbase]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [trainerbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrainerBase-2.9.8.tar.gz tmp/TrainerBase-2.9.9.tar.gz --markdown 20230429/t/trainerbase/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: Downloading https://files.pythonhosted.org/packages/3a/ce/55b11b9870f0db2d74a0c11dd628d3c5b18605417950a750655f9ae49e89/xcpcio_board_spider-0.0.1.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: Downloading https://files.pythonhosted.org/packages/3a/ce/55b11b9870f0db2d74a0c11dd628d3c5b18605417950a750655f9ae49e89/xcpcio_board_spider-0.0.1.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [exam-analyzer]: Downloading https://files.pythonhosted.org/packages/52/90/5aa012906e76bdf2c79c286abd524e731bed1690c651e342bf6946d97b87/exam_analyzer-0.0.5-py3-none-any.whl
+[2023-04-29 19:16:04] INFO root fetch - processPackages [parsenv]: Downloading https://files.pythonhosted.org/packages/ed/80/0f3f5dee6774a129e61f82d1e3643e629f573f03a21cd3247bf870f95674/parsenv-0.2.2.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/da/22/e7f3098492d1a287b035ebe57ed16952223e2c5e12b0a08613bd2519f557/worky-0.1.8.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [d3graph]: Downloading https://files.pythonhosted.org/packages/57/e4/dff9ea9aeb85c1a025957225ec3d88c9e157771219300c7f044619676936/d3graph-2.4.3.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [pyhard]: Downloading https://files.pythonhosted.org/packages/91/7e/f6b332e9555645ba3b26c804520c2cc7e156719c0860f451cb2112714132/pyhard-2.1.4.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [wagtail-sb-fontawesome]: Downloading https://files.pythonhosted.org/packages/2d/cf/7dff683f9c1ca8de36c6126264fcdcfd3ad18d748e0a5011d2b27410b220/wagtail_sb_fontawesome-0.1.0.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [parsenv]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [parsenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsenv-0.2.1.tar.gz tmp/parsenv-0.2.2.tar.gz --markdown 20230429/p/parsenv/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: Downloading https://files.pythonhosted.org/packages/c2/38/63af6a7504d50af47cc80eafb32ba31efa02040f0e436ce16b266c5c5461/xcpcio_board_spider-0.0.2.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: Downloading https://files.pythonhosted.org/packages/c2/38/63af6a7504d50af47cc80eafb32ba31efa02040f0e436ce16b266c5c5461/xcpcio_board_spider-0.0.2.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [exam-analyzer]: Downloading https://files.pythonhosted.org/packages/aa/ef/1895880ea05d28a74e6311f9d707202d68f04296fff8ec3c3bd6c26d518e/exam_analyzer-0.0.6-py3-none-any.whl
+[2023-04-29 19:16:04] INFO root fetch - processPackages [pyrosimple]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [pyrosimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrosimple-2.7.1.tar.gz tmp/pyrosimple-2.8.0.tar.gz --markdown 20230429/p/pyrosimple/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.1.tar.gz tmp/xcpcio_board_spider-0.0.2.tar.gz --markdown 20230429/x/xcpcio-board-spider/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.1.tar.gz tmp/xcpcio_board_spider-0.0.2.tar.gz --markdown 20230429/x/xcpcio-board-spider/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [exam-analyzer]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [exam-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exam_analyzer-0.0.5-py3-none-any.whl.zip tmp/exam_analyzer-0.0.6-py3-none-any.whl.zip --markdown 20230429/e/exam-analyzer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [worky]: Downloading https://files.pythonhosted.org/packages/c2/d0/99e9fd283102b74160466f67cf33e0c718487b4c223dd21eb3968c9c8155/worky-1.0.0.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [worky]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [worky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worky-0.1.8.tar.gz tmp/worky-1.0.0.tar.gz --markdown 20230429/w/worky/0.1.8-1.0.0/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [d3graph]: Downloading https://files.pythonhosted.org/packages/fe/64/f6e1896e23e912ba8113a544f8b68fb3366ec805d3c3d9ec1e0fd53a01fe/d3graph-2.4.4.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [wagtail-sb-fontawesome]: Downloading https://files.pythonhosted.org/packages/45/f7/aebc32fae72e1abad57478d45b37f317985ffd9e94f2258baf0debc81af1/wagtail_sb_fontawesome-0.2.0.tar.gz
+[2023-04-29 19:16:04] INFO root fetch - processPackages [d3graph]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [d3graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3graph-2.4.3.tar.gz tmp/d3graph-2.4.4.tar.gz --markdown 20230429/d/d3graph/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [wagtail-sb-fontawesome]: executing diffoscope
+[2023-04-29 19:16:04] INFO root fetch - processPackages [wagtail-sb-fontawesome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_sb_fontawesome-0.1.0.tar.gz tmp/wagtail_sb_fontawesome-0.2.0.tar.gz --markdown 20230429/w/wagtail-sb-fontawesome/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 19:16:04] INFO root fetch - processPackages [pyhard]: Downloading https://files.pythonhosted.org/packages/5c/ad/27db9a62e4e983610ced1080b22ec5746627afd2576eefa012781f8526cb/pyhard-2.1.5.tar.gz
+[2023-04-29 19:16:05] INFO root fetch - processPackages [pyhard]: executing diffoscope
+[2023-04-29 19:16:05] INFO root fetch - processPackages [pyhard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhard-2.1.4.tar.gz tmp/pyhard-2.1.5.tar.gz --markdown 20230429/p/pyhard/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-29 19:16:05] INFO root fetch - main [MainThread]: End processing [trainerbase]: success
+[2023-04-29 19:16:05] INFO root fetch - main [MainThread]: End processing [parsenv]: success
+[2023-04-29 19:16:06] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-04-29 19:16:06] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-04-29 19:16:06] INFO root fetch - main [MainThread]: End processing [exam-analyzer]: success
+[2023-04-29 19:16:06] INFO root fetch - main [MainThread]: End processing [pyrosimple]: success
+[2023-04-29 19:16:06] INFO root fetch - main [MainThread]: End processing [worky]: success
+[2023-04-29 19:16:06] INFO root fetch - main [MainThread]: End processing [d3graph]: success
+[2023-04-29 19:16:07] INFO root fetch - main [MainThread]: End processing [pyhard]: success
+[2023-04-29 19:16:07] INFO root fetch - main [MainThread]: End processing [wagtail-sb-fontawesome]: success
+[2023-04-29 19:16:07] INFO root fetch - main [MainThread]: Store serial: [17911001]
