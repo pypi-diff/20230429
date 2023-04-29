@@ -7644,3 +7644,80 @@
 [2023-04-29 12:17:57] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
 [2023-04-29 12:17:58] INFO root fetch - main [MainThread]: End processing [tonic]: success
 [2023-04-29 12:17:58] INFO root fetch - main [MainThread]: Store serial: [17908079]
+[2023-04-29 12:23:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908079]
+[2023-04-29 12:23:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doc-to-readme
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyfi-template
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citecheck
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nua-lib
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nua
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nua-agent
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nua-build
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nua-orchestrator
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aaaaa
+[2023-04-29 12:23:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: streamsync
+[2023-04-29 12:23:07] INFO root fetch - processPackages [hyfi-template]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [streamsync]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [citecheck]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua]: New version: [0.5.8] Old Version: [0.5.16]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-orchestrator]: New version: [0.5.16] Old Version: [0.5.15]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-lib]: New version: [0.5.9] Old Version: [0.5.16]
+[2023-04-29 12:23:07] WARNING root fetch - processPackages [aaaaa]: Skipping, unable to determine old version
+[2023-04-29 12:23:07] INFO root fetch - processPackages [doc-to-readme]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [aaaaa]: Start processing: extr-ds
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-build]: New version: [0.5.16] Old Version: [0.5.15]
+[2023-04-29 12:23:07] INFO root fetch - main [MainThread]: End processing [aaaaa] error
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-agent]: New version: [0.5.16] Old Version: [0.5.15]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230429/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua]: Downloading https://files.pythonhosted.org/packages/29/41/ef1f5d34f2556f951d95b898210291f118b1ab035c6b8e31e8445ad9de8a/nua-0.5.16.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-lib]: Downloading https://files.pythonhosted.org/packages/89/7e/68bff6b7c32739376fb2df0858e1d067fca8e3a2315aeda260dc5a5f0dd5/nua_lib-0.5.16.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [streamsync]: Downloading https://files.pythonhosted.org/packages/d8/7d/262a6b0799bfa691aceca924b0a084e16da451b2e556606a431de6ab67ad/streamsync-0.1.4.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-build]: Downloading https://files.pythonhosted.org/packages/26/43/0378cf1aeb6ae2f7bbda5415a4b89d8441e762a1b586d1d919938d7a8faf/nua_build-0.5.16.tar.gz
+[2023-04-29 12:23:07] WARNING root fetch - processPackages [streamsync]: Skipping package: exceeds size limit 21380777>=10485760
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-orchestrator]: Downloading https://files.pythonhosted.org/packages/f4/0b/f22bfa35a21f68a96273b21df214a8687d458103a10cbf1088102b634fb9/nua_orchestrator-0.5.16.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [streamsync]: Start processing: qgate-graph
+[2023-04-29 12:23:07] INFO root fetch - main [MainThread]: End processing [streamsync] error
+[2023-04-29 12:23:07] INFO root fetch - processPackages [citecheck]: Downloading https://files.pythonhosted.org/packages/b0/8f/14c5de14422ee4e8c6f80c3029783b3300742e1ff1381c6f47f74921c54f/citecheck-0.2.0.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-agent]: Downloading https://files.pythonhosted.org/packages/41/ba/71b289934b45f0db0d8defc25fe2cfff68801fe1758ae8f976f7bc159d85/nua_agent-0.5.16.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [qgate-graph]: New version: [1.2rc5] Old Version: [1.2rc4]
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-build]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_build-0.5.15.tar.gz tmp/nua_build-0.5.16.tar.gz --markdown 20230429/n/nua-build/0.5.15-0.5.16/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-orchestrator]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_orchestrator-0.5.15.tar.gz tmp/nua_orchestrator-0.5.16.tar.gz --markdown 20230429/n/nua-orchestrator/0.5.15-0.5.16/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua-0.5.16.tar.gz tmp/nua-0.5.8.tar.gz --markdown 20230429/n/nua/0.5.16-0.5.8/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-agent]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_agent-0.5.15.tar.gz tmp/nua_agent-0.5.16.tar.gz --markdown 20230429/n/nua-agent/0.5.15-0.5.16/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/2a/fe/4b64ef1e2f3cd2c71631e23b73493db9005a255c8ca0d84656b35141c381/hyfi_template-0.2.0.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [doc-to-readme]: Downloading https://files.pythonhosted.org/packages/17/56/a13356461d5d1f380dc25138848405ae60972e9b004a40e737958bc94f90/doc-to-readme-1.1.0.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.2rc4.tar.gz tmp/qgate_graph-1.2rc5.tar.gz --markdown 20230429/q/qgate-graph/1.2rc4-1.2rc5/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-lib]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [nua-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_lib-0.5.16.tar.gz tmp/nua_lib-0.5.9.tar.gz --markdown 20230429/n/nua-lib/0.5.16-0.5.9/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.1.9.tar.gz tmp/hyfi_template-0.2.0.tar.gz --markdown 20230429/h/hyfi-template/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [doc-to-readme]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [doc-to-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc-to-readme-1.0.1.tar.gz tmp/doc-to-readme-1.1.0.tar.gz --markdown 20230429/d/doc-to-readme/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-29 12:23:07] INFO root fetch - processPackages [citecheck]: Downloading https://files.pythonhosted.org/packages/9d/04/48441ee3270ad66d83f60f38774337a5dff13313d93fa5557b5331b21855/citecheck-0.3.0.tar.gz
+[2023-04-29 12:23:07] INFO root fetch - processPackages [citecheck]: executing diffoscope
+[2023-04-29 12:23:07] INFO root fetch - processPackages [citecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citecheck-0.2.0.tar.gz tmp/citecheck-0.3.0.tar.gz --markdown 20230429/c/citecheck/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-29 12:23:08] INFO root fetch - processPackages [extr-ds]: Start processing: aaaaa
+[2023-04-29 12:23:08] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-29 12:23:08] INFO root fetch - processPackages [aaaaa]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-29 12:23:08] INFO root fetch - processPackages [aaaaa]: Downloading https://files.pythonhosted.org/packages/50/c7/b04da8c13e34ba8b643d88c0ea23df633e2c7c8811db0ff57c549a295318/aaaaa-1.0.tar.gz
+[2023-04-29 12:23:09] INFO root fetch - processPackages [aaaaa]: Downloading https://files.pythonhosted.org/packages/fc/54/812758cb7a312c887944b045dc31ec00c4ac6565c3ccbbec6a3333957b75/aaaaa-1.0.1.tar.gz
+[2023-04-29 12:23:09] INFO root fetch - main [MainThread]: End processing [nua-agent]: success
+[2023-04-29 12:23:09] INFO root fetch - processPackages [aaaaa]: executing diffoscope
+[2023-04-29 12:23:09] INFO root fetch - processPackages [aaaaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaaaa-1.0.tar.gz tmp/aaaaa-1.0.1.tar.gz --markdown 20230429/a/aaaaa/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 12:23:09] INFO root fetch - main [MainThread]: End processing [nua]: success
+[2023-04-29 12:23:09] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-04-29 12:23:09] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-04-29 12:23:09] INFO root fetch - main [MainThread]: End processing [nua-build]: success
+[2023-04-29 12:23:09] INFO root fetch - main [MainThread]: End processing [doc-to-readme]: success
+[2023-04-29 12:23:09] INFO root fetch - main [MainThread]: End processing [nua-lib]: success
+[2023-04-29 12:23:10] INFO root fetch - main [MainThread]: End processing [citecheck]: success
+[2023-04-29 12:23:10] INFO root fetch - main [MainThread]: End processing [aaaaa]: success
+[2023-04-29 12:23:10] INFO root fetch - main [MainThread]: End processing [nua-orchestrator]: success
+[2023-04-29 12:23:10] INFO root fetch - main [MainThread]: Store serial: [17908121]
