@@ -12295,3 +12295,41 @@
 [2023-04-29 20:03:11] INFO root fetch - main [MainThread]: End processing [gen-odoo-readme]: success
 [2023-04-29 20:03:11] INFO root fetch - main [MainThread]: End processing [ssh-audit]: success
 [2023-04-29 20:03:11] INFO root fetch - main [MainThread]: Store serial: [17911225]
+[2023-04-29 20:08:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911225]
+[2023-04-29 20:08:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 20:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typedspark
+[2023-04-29 20:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-pusher
+[2023-04-29 20:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-clusters-plotter
+[2023-04-29 20:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snakemd
+[2023-04-29 20:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netconf-tool
+[2023-04-29 20:08:21] INFO root fetch - processPackages [typedspark]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 20:08:21] INFO root fetch - processPackages [xia-pusher]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-04-29 20:08:21] INFO root fetch - processPackages [snakemd]: New version: [2.1.0] Old Version: [2.0.0b2]
+[2023-04-29 20:08:21] INFO root fetch - processPackages [napari-clusters-plotter]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-04-29 20:08:21] INFO root fetch - processPackages [netconf-tool]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 20:08:21] INFO root fetch - processPackages [snakemd]: Downloading https://files.pythonhosted.org/packages/c5/7b/626c3a6454a6a79061dfe9102859b2575c3957716735e7e9f0b6e6d22b06/SnakeMD-2.0.0b2.tar.gz
+[2023-04-29 20:08:21] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/63/08/48ec95e540fd1d04815e1338e5c3e6aeba3ab96bc702377cf655454b8c8c/typedspark-1.0.2.tar.gz
+[2023-04-29 20:08:21] INFO root fetch - processPackages [xia-pusher]: Downloading https://files.pythonhosted.org/packages/6e/3b/e783a0b3b1a4b9daf04cd14436a6cfe7d51fbcadee27298833e45171d9c4/xia_pusher-0.0.7-cp39-none-win_amd64.whl
+[2023-04-29 20:08:21] INFO root fetch - processPackages [netconf-tool]: Downloading https://files.pythonhosted.org/packages/4b/60/4dc587193cdaa70c8fec5f47ff06554e008af5bcdb6a9c4589b8a672bd54/netconf_tool-0.0.1.tar.gz
+[2023-04-29 20:08:21] INFO root fetch - processPackages [napari-clusters-plotter]: Downloading https://files.pythonhosted.org/packages/9a/fe/447d9c2b93d3aa889349cb4341f707509ada121d8b7cf49d1157ada18443/napari-clusters-plotter-0.6.2.tar.gz
+[2023-04-29 20:08:21] INFO root fetch - processPackages [snakemd]: Downloading https://files.pythonhosted.org/packages/30/51/0ed8fcee085820c3f66917b793f3e26ffcc5fc9832fc8d44a6f3b7c79611/snakemd-2.1.0.tar.gz
+[2023-04-29 20:08:21] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/c4/9a/1db89c035c2f7e19666ec2ca1baac610c5e54af0a55bd3c05704682c6462/typedspark-1.0.3.tar.gz
+[2023-04-29 20:08:21] INFO root fetch - processPackages [netconf-tool]: Downloading https://files.pythonhosted.org/packages/65/9f/8c524666452cdf052dc0cfbe7df43669a2d3a230e00dbbe525bdd349a069/netconf_tool-0.0.2.tar.gz
+[2023-04-29 20:08:21] INFO root fetch - processPackages [snakemd]: executing diffoscope
+[2023-04-29 20:08:21] INFO root fetch - processPackages [snakemd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SnakeMD-2.0.0b2.tar.gz tmp/snakemd-2.1.0.tar.gz --markdown 20230429/s/snakemd/2.0.0b2-2.1.0/diff.md --exclude *.pyd
+[2023-04-29 20:08:21] INFO root fetch - processPackages [xia-pusher]: Downloading https://files.pythonhosted.org/packages/06/85/225cd30f4290fd62c032a59405c6970e6be1ebe887f488a4d7a91aaa8624/xia_pusher-0.1.0-cp39-none-win_amd64.whl
+[2023-04-29 20:08:21] INFO root fetch - processPackages [napari-clusters-plotter]: Downloading https://files.pythonhosted.org/packages/ee/18/d3daab7e8def679cd21a4c2a55a8d2563ecff2dd87dd6d2dd17369f9dc45/napari-clusters-plotter-0.7.0.tar.gz
+[2023-04-29 20:08:21] INFO root fetch - processPackages [netconf-tool]: executing diffoscope
+[2023-04-29 20:08:21] INFO root fetch - processPackages [netconf-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netconf_tool-0.0.1.tar.gz tmp/netconf_tool-0.0.2.tar.gz --markdown 20230429/n/netconf-tool/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 20:08:21] INFO root fetch - processPackages [napari-clusters-plotter]: executing diffoscope
+[2023-04-29 20:08:21] INFO root fetch - processPackages [napari-clusters-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-clusters-plotter-0.6.2.tar.gz tmp/napari-clusters-plotter-0.7.0.tar.gz --markdown 20230429/n/napari-clusters-plotter/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-04-29 20:08:21] INFO root fetch - processPackages [xia-pusher]: executing diffoscope
+[2023-04-29 20:08:21] INFO root fetch - processPackages [xia-pusher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_pusher-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_pusher-0.1.0-cp39-none-win_amd64.whl.zip --markdown 20230429/x/xia-pusher/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 20:08:21] INFO root fetch - processPackages [typedspark]: executing diffoscope
+[2023-04-29 20:08:21] INFO root fetch - processPackages [typedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedspark-1.0.2.tar.gz tmp/typedspark-1.0.3.tar.gz --markdown 20230429/t/typedspark/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 20:08:22] INFO root fetch - main [MainThread]: End processing [xia-pusher]: success
+[2023-04-29 20:08:22] INFO root fetch - main [MainThread]: End processing [netconf-tool]: success
+[2023-04-29 20:08:22] INFO root fetch - main [MainThread]: End processing [snakemd]: success
+[2023-04-29 20:08:23] INFO root fetch - main [MainThread]: End processing [napari-clusters-plotter]: success
+[2023-04-29 20:08:23] INFO root fetch - main [MainThread]: End processing [typedspark]: success
+[2023-04-29 20:08:23] INFO root fetch - main [MainThread]: Store serial: [17911247]
