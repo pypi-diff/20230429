@@ -4671,3 +4671,27 @@
 [2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
 [2023-04-29 04:47:24] INFO root fetch - main [MainThread]: End processing [FindSystemFontsFilename]: success
 [2023-04-29 04:47:24] INFO root fetch - main [MainThread]: Store serial: [17906261]
+[2023-04-29 04:52:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906261]
+[2023-04-29 04:52:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 04:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfoundt
+[2023-04-29 04:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-04-29 04:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-review
+[2023-04-29 04:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-review
+[2023-04-29 04:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: catgpt
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:52:33] WARNING root fetch - processPackages [catgpt]: Skipping, unable to determine old version
+[2023-04-29 04:52:33] WARNING root fetch - processPackages [pyfoundt]: Skipping, unable to determine old version
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:52:33] INFO root fetch - main [MainThread]: End processing [catgpt] error
+[2023-04-29 04:52:33] INFO root fetch - main [MainThread]: End processing [pyfoundt] error
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:52:33] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:52:34] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:52:34] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:52:34] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:52:34] INFO root fetch - main [MainThread]: Store serial: [17906284]
