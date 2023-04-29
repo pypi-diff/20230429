@@ -11542,3 +11542,41 @@
 [2023-04-29 18:41:56] INFO root fetch - main [MainThread]: End processing [highdicom]: success
 [2023-04-29 18:41:56] INFO root fetch - main [MainThread]: End processing [feed-archiver]: success
 [2023-04-29 18:41:56] INFO root fetch - main [MainThread]: Store serial: [17910780]
+[2023-04-29 18:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910780]
+[2023-04-29 18:47:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 18:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-web-template
+[2023-04-29 18:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pin
+[2023-04-29 18:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdup
+[2023-04-29 18:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyFunceble-dev
+[2023-04-29 18:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-mock
+[2023-04-29 18:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-poe-chat
+[2023-04-29 18:47:05] INFO root fetch - processPackages [flet-web-template]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-29 18:47:05] INFO root fetch - processPackages [pin]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-04-29 18:47:05] INFO root fetch - processPackages [mdup]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 18:47:05] INFO root fetch - processPackages [nonebot-poe-chat]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-29 18:47:05] INFO root fetch - processPackages [PyFunceble-dev]: New version: [4.2.0a8] Old Version: [4.2.0a7]
+[2023-04-29 18:47:05] WARNING root fetch - processPackages [sqlalchemy-mock]: Skipping, unable to determine old version
+[2023-04-29 18:47:05] INFO root fetch - main [MainThread]: End processing [sqlalchemy-mock] error
+[2023-04-29 18:47:05] INFO root fetch - processPackages [mdup]: Downloading https://files.pythonhosted.org/packages/a0/1e/c25a1b9875eeb5b9af62fcacda90f0d057b12ad0803f2b003f38b831c0f7/mdup-0.2.1.tar.gz
+[2023-04-29 18:47:05] INFO root fetch - processPackages [pin]: Downloading https://files.pythonhosted.org/packages/29/c1/7c8ce8b0325cc8790f8f18401c2f852986334a2d6d65a928b51634cd2de8/pin-2.6.3-2-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-04-29 18:47:05] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/d0/83/00cfa142f376850fab9fa4d6d95f91dde49d6942874971ce212d73ace1a1/nonebot_poe_chat-1.1.2.tar.gz
+[2023-04-29 18:47:05] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping package: exceeds size limit 13493809>=10485760
+[2023-04-29 18:47:05] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-04-29 18:47:05] INFO root fetch - processPackages [flet-web-template]: Downloading https://files.pythonhosted.org/packages/7f/3e/6632ecd828f0d6be59e12f1c897c478f6049a10f63fa1148de987d32e668/flet-web-template-0.1.8.tar.gz
+[2023-04-29 18:47:06] INFO root fetch - processPackages [PyFunceble-dev]: Downloading https://files.pythonhosted.org/packages/91/db/dec1ec18cf70357808f228f7914b2ef78eb9519078b0307898e2dd14bca6/PyFunceble-dev-4.2.0a7.tar.gz
+[2023-04-29 18:47:06] INFO root fetch - processPackages [flet-web-template]: executing diffoscope
+[2023-04-29 18:47:06] INFO root fetch - processPackages [flet-web-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-web-template-0.1.7.tar.gz tmp/flet-web-template-0.1.8.tar.gz --markdown 20230429/f/flet-web-template/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-29 18:47:06] INFO root fetch - processPackages [mdup]: Downloading https://files.pythonhosted.org/packages/73/2c/c936a5c86fbfeae8a98c75d2885f3189ddcabe15106b6bee80aae655cd77/mdup-0.2.2.tar.gz
+[2023-04-29 18:47:06] INFO root fetch - processPackages [mdup]: executing diffoscope
+[2023-04-29 18:47:06] INFO root fetch - processPackages [mdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdup-0.2.1.tar.gz tmp/mdup-0.2.2.tar.gz --markdown 20230429/m/mdup/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 18:47:06] INFO root fetch - processPackages [PyFunceble-dev]: Downloading https://files.pythonhosted.org/packages/ef/81/fc1cdeacccb82c209b5eb7dbd7601ef34225576f23e6ca77635cc009df22/PyFunceble-dev-4.2.0a8.tar.gz
+[2023-04-29 18:47:06] INFO root fetch - processPackages [PyFunceble-dev]: executing diffoscope
+[2023-04-29 18:47:06] INFO root fetch - processPackages [PyFunceble-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFunceble-dev-4.2.0a7.tar.gz tmp/PyFunceble-dev-4.2.0a8.tar.gz --markdown 20230429/P/PyFunceble-dev/4.2.0a7-4.2.0a8/diff.md --exclude *.pyd
+[2023-04-29 18:47:06] INFO root fetch - processPackages [pin]: Downloading https://files.pythonhosted.org/packages/77/8c/65e121770e9a9b05f14af81bc01865324d61be7593d94093d705f7680ddb/pin-2.6.4-1-cp39-cp39-manylinux_2_24_x86_64.whl
+[2023-04-29 18:47:07] INFO root fetch - main [MainThread]: End processing [flet-web-template]: success
+[2023-04-29 18:47:07] INFO root fetch - main [MainThread]: End processing [mdup]: success
+[2023-04-29 18:47:07] INFO root fetch - processPackages [pin]: executing diffoscope
+[2023-04-29 18:47:07] INFO root fetch - processPackages [pin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pin-2.6.3-2-cp39-cp39-manylinux_2_24_x86_64.whl.zip tmp/pin-2.6.4-1-cp39-cp39-manylinux_2_24_x86_64.whl.zip --markdown 20230429/p/pin/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-04-29 18:47:09] INFO root fetch - main [MainThread]: End processing [PyFunceble-dev]: success
+[2023-04-29 18:49:00] INFO root fetch - main [MainThread]: End processing [pin]: success
+[2023-04-29 18:49:00] INFO root fetch - main [MainThread]: Store serial: [17910833]
