@@ -6746,3 +6746,43 @@
 [2023-04-29 10:30:19] INFO root fetch - main [MainThread]: End processing [recoverpy]: success
 [2023-04-29 10:30:20] INFO root fetch - main [MainThread]: End processing [deepthulac]: success
 [2023-04-29 10:30:20] INFO root fetch - main [MainThread]: Store serial: [17907544]
+[2023-04-29 10:35:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907544]
+[2023-04-29 10:35:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custardpy
+[2023-04-29 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Bigsansar
+[2023-04-29 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nycu-tdx-py
+[2023-04-29 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hordelib
+[2023-04-29 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: httpdbg
+[2023-04-29 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voxx-cli
+[2023-04-29 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TsProject
+[2023-04-29 10:35:28] INFO root fetch - processPackages [Bigsansar]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 10:35:28] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 10:35:28] WARNING root fetch - processPackages [voxx-cli]: Skipping, unable to determine old version
+[2023-04-29 10:35:28] INFO root fetch - main [MainThread]: End processing [voxx-cli] error
+[2023-04-29 10:35:28] INFO root fetch - processPackages [httpdbg]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-04-29 10:35:28] INFO root fetch - processPackages [TsProject]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 10:35:28] INFO root fetch - processPackages [custardpy]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-29 10:35:28] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-04-29 10:35:28] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-29 10:35:28] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230429/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 10:35:28] INFO root fetch - processPackages [TsProject]: Downloading https://files.pythonhosted.org/packages/83/c8/0155ea66d2c7b911bbf14eb8b3fd301323fcb381dae4bfd2b2fa0c5b7222/TsProject-1.0.0.tar.gz
+[2023-04-29 10:35:29] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/d6/8d/a0a1dd4fd7fadf16e6b7c3c30084f51db495a55d624959b9138519ebffa4/Bigsansar-1.0.9.tar.gz
+[2023-04-29 10:35:29] INFO root fetch - processPackages [custardpy]: Downloading https://files.pythonhosted.org/packages/68/82/793ee7a4ee98602b0e01e6da2c787dc3c499784f460a11fad9e17e66c802/custardpy-0.3.7-py3-none-any.whl
+[2023-04-29 10:35:29] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-29 10:35:29] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.0.8.tar.gz tmp/Bigsansar-1.0.9.tar.gz --markdown 20230429/B/Bigsansar/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 10:35:29] INFO root fetch - processPackages [custardpy]: executing diffoscope
+[2023-04-29 10:35:29] INFO root fetch - processPackages [custardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custardpy-0.3.6-py3-none-any.whl.zip tmp/custardpy-0.3.7-py3-none-any.whl.zip --markdown 20230429/c/custardpy/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-29 10:35:29] INFO root fetch - processPackages [TsProject]: Downloading https://files.pythonhosted.org/packages/17/b8/7e7930cdc1f79974f9fbd57c848680050c3f08bcb61b6cbf30ae0ee5a7c1/TsProject-1.0.1.tar.gz
+[2023-04-29 10:35:29] INFO root fetch - processPackages [httpdbg]: executing diffoscope
+[2023-04-29 10:35:29] INFO root fetch - processPackages [httpdbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpdbg-0.8.5.tar.gz tmp/httpdbg-0.9.0.tar.gz --markdown 20230429/h/httpdbg/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 10:35:29] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-29 10:35:29] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230429/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-04-29 10:35:29] INFO root fetch - processPackages [TsProject]: executing diffoscope
+[2023-04-29 10:35:29] INFO root fetch - processPackages [TsProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsProject-1.0.0.tar.gz tmp/TsProject-1.0.1.tar.gz --markdown 20230429/T/TsProject/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 10:35:30] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-29 10:35:30] INFO root fetch - main [MainThread]: End processing [custardpy]: success
+[2023-04-29 10:35:30] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-29 10:35:30] INFO root fetch - main [MainThread]: End processing [TsProject]: success
+[2023-04-29 10:35:31] INFO root fetch - main [MainThread]: End processing [httpdbg]: success
+[2023-04-29 10:35:37] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-29 10:35:37] INFO root fetch - main [MainThread]: Store serial: [17907565]
