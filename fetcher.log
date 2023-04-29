@@ -5828,3 +5828,29 @@
 [2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-cash-move-reason]: success
 [2023-04-29 07:53:36] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-multiple-control]: success
 [2023-04-29 07:53:36] INFO root fetch - main [MainThread]: Store serial: [17907006]
+[2023-04-29 07:58:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907006]
+[2023-04-29 07:58:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 07:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gemato
+[2023-04-29 07:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-product-secondary-unit
+[2023-04-29 07:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UzbekLemmatizer
+[2023-04-29 07:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2023-04-29 07:58:45] INFO root fetch - processPackages [gemato]: New version: [9.3] Old Version: [9.2]
+[2023-04-29 07:58:45] INFO root fetch - processPackages [UzbekLemmatizer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-29 07:58:45] INFO root fetch - processPackages [domain-admin]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-29 07:58:45] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: New version: [14.0.1.0.4.dev5] Old Version: [14.0.1.0.4.dev4]
+[2023-04-29 07:58:46] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/da/6e/b9c92e56f694222947177b8c2061d4962a43830c2392edd40daf4d724814/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev4-py3-none-any.whl
+[2023-04-29 07:58:46] INFO root fetch - processPackages [UzbekLemmatizer]: Downloading https://files.pythonhosted.org/packages/b8/c6/d85c4ad6d0256b8dcc17c8c02a527ef694bc7a60ca3c353170a8c3e32f51/UzbekLemmatizer-1.0.2.tar.gz
+[2023-04-29 07:58:46] INFO root fetch - processPackages [UzbekLemmatizer]: executing diffoscope
+[2023-04-29 07:58:46] INFO root fetch - processPackages [UzbekLemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UzbekLemmatizer-1.0.1.tar.gz tmp/UzbekLemmatizer-1.0.2.tar.gz --markdown 20230429/U/UzbekLemmatizer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-29 07:58:46] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-04-29 07:58:46] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.2.8.tar.gz tmp/domain-admin-1.2.9.tar.gz --markdown 20230429/d/domain-admin/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-29 07:58:46] INFO root fetch - processPackages [gemato]: executing diffoscope
+[2023-04-29 07:58:46] INFO root fetch - processPackages [gemato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemato-9.2.tar.gz tmp/gemato-9.3.tar.gz --markdown 20230429/g/gemato/9.2-9.3/diff.md --exclude *.pyd
+[2023-04-29 07:58:46] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/22/f6/169a4e7c0dedd22c54a39d62681126a8590e43a78171a999c288465e342e/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev5-py3-none-any.whl
+[2023-04-29 07:58:46] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: executing diffoscope
+[2023-04-29 07:58:46] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev4-py3-none-any.whl.zip tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev5-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addon-product-secondary-unit/14.0.1.0.4.dev4-14.0.1.0.4.dev5/diff.md --exclude *.pyd
+[2023-04-29 07:58:47] INFO root fetch - main [MainThread]: End processing [UzbekLemmatizer]: success
+[2023-04-29 07:58:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-secondary-unit]: success
+[2023-04-29 07:58:47] INFO root fetch - main [MainThread]: End processing [gemato]: success
+[2023-04-29 07:58:48] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-04-29 07:58:48] INFO root fetch - main [MainThread]: Store serial: [17907018]
