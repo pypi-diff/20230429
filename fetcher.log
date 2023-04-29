@@ -13949,3 +13949,50 @@
 [2023-04-29 23:21:04] INFO root fetch - main [MainThread]: End processing [bidimensional]: success
 [2023-04-29 23:21:04] INFO root fetch - main [MainThread]: End processing [sweetbean]: success
 [2023-04-29 23:21:04] INFO root fetch - main [MainThread]: Store serial: [17912564]
+[2023-04-29 23:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912564]
+[2023-04-29 23:26:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Docassemble-Pattern
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdgd-tools
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scispacy
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forensicface
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raitracker
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checker-SaGaF
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cheeseshop
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansar-encode
+[2023-04-29 23:26:13] INFO root fetch - processPackages [scispacy]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-29 23:26:13] WARNING root fetch - processPackages [checker-SaGaF]: Skipping, unable to determine old version
+[2023-04-29 23:26:13] INFO root fetch - processPackages [Docassemble-Pattern]: New version: [3.6.7] Old Version: [3.6.6]
+[2023-04-29 23:26:13] INFO root fetch - main [MainThread]: End processing [checker-SaGaF] error
+[2023-04-29 23:26:13] INFO root fetch - processPackages [raitracker]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 23:26:13] INFO root fetch - processPackages [bdgd-tools]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-04-29 23:26:13] INFO root fetch - processPackages [forensicface]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 23:26:13] WARNING root fetch - processPackages [cheeseshop]: Skipping, unable to determine old version
+[2023-04-29 23:26:13] INFO root fetch - main [MainThread]: End processing [cheeseshop] error
+[2023-04-29 23:26:13] INFO root fetch - processPackages [ansar-encode]: New version: [0.1.71] Old Version: [0.1.63]
+[2023-04-29 23:26:14] INFO root fetch - processPackages [bdgd-tools]: Downloading https://files.pythonhosted.org/packages/64/ca/aed9d3f4d95f095f865e3ccffeb6d125a3c2a169def75e50907064cab83c/bdgd_tools-1.0.2.tar.gz
+[2023-04-29 23:26:14] INFO root fetch - processPackages [Docassemble-Pattern]: Downloading https://files.pythonhosted.org/packages/55/aa/cb91309f744a8de88788d3ff2ccd4a0fdbba0a98896b38d82971da8ce90a/Docassemble-Pattern-3.6.6.tar.gz
+[2023-04-29 23:26:14] INFO root fetch - processPackages [scispacy]: Downloading https://files.pythonhosted.org/packages/28/6c/22a983e9964c6e28d14f4210daea81f35142625fff4ef0a65d16cdcc0dc0/scispacy-0.5.1.tar.gz
+[2023-04-29 23:26:14] INFO root fetch - processPackages [raitracker]: Downloading https://files.pythonhosted.org/packages/c2/a2/b981e32fe89498f31180f0a5857709e3ed7132874f84229559b3a6eb00d4/raitracker-0.1.1.tar.gz
+[2023-04-29 23:26:14] WARNING root fetch - processPackages [Docassemble-Pattern]: Skipping package: exceeds size limit 21907754>=10485760
+[2023-04-29 23:26:14] INFO root fetch - main [MainThread]: End processing [Docassemble-Pattern] error
+[2023-04-29 23:26:14] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/ba/8d/10e3730824bcc023ddbab8678e5a0ff1cabd40f30dea33a9b9d6bb0e2885/ansar-encode-0.1.63.tar.gz
+[2023-04-29 23:26:14] INFO root fetch - processPackages [forensicface]: Downloading https://files.pythonhosted.org/packages/c0/61/825b33685f6b7b2d6acd4504acfcf92ab90008de5e4df755bc556ebf6048/forensicface-0.1.8.tar.gz
+[2023-04-29 23:26:14] WARNING root fetch - processPackages [raitracker]: Skipping package: exceeds size limit 78660421>=10485760
+[2023-04-29 23:26:14] INFO root fetch - main [MainThread]: End processing [raitracker] error
+[2023-04-29 23:26:14] INFO root fetch - processPackages [bdgd-tools]: Downloading https://files.pythonhosted.org/packages/14/4c/d8f4a04766bd7ee92b45bb301a27b5a1cd54a1d9b756d96809e05594089f/bdgd_tools-1.0.4.tar.gz
+[2023-04-29 23:26:14] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/c8/31/5709b59a964dcb019fc72a7719699e3ce8af45ec97b3377d416bb5de3d5d/ansar-encode-0.1.71.tar.gz
+[2023-04-29 23:26:14] INFO root fetch - processPackages [scispacy]: Downloading https://files.pythonhosted.org/packages/cf/a4/dc038a18f5c7d46099201ffd8e93c7eeaa426db54ce4901591c9dab26c6a/scispacy-0.5.2.tar.gz
+[2023-04-29 23:26:14] INFO root fetch - processPackages [bdgd-tools]: executing diffoscope
+[2023-04-29 23:26:14] INFO root fetch - processPackages [bdgd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdgd_tools-1.0.2.tar.gz tmp/bdgd_tools-1.0.4.tar.gz --markdown 20230429/b/bdgd-tools/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 23:26:14] INFO root fetch - processPackages [forensicface]: Downloading https://files.pythonhosted.org/packages/c5/dd/55dc579a6e64de940cffcaec162b78654b599217a9fc66308ee76bec47b8/forensicface-0.1.9.tar.gz
+[2023-04-29 23:26:14] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2023-04-29 23:26:14] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.63.tar.gz tmp/ansar-encode-0.1.71.tar.gz --markdown 20230429/a/ansar-encode/0.1.63-0.1.71/diff.md --exclude *.pyd
+[2023-04-29 23:26:14] INFO root fetch - processPackages [scispacy]: executing diffoscope
+[2023-04-29 23:26:14] INFO root fetch - processPackages [scispacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scispacy-0.5.1.tar.gz tmp/scispacy-0.5.2.tar.gz --markdown 20230429/s/scispacy/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-29 23:26:14] INFO root fetch - processPackages [forensicface]: executing diffoscope
+[2023-04-29 23:26:14] INFO root fetch - processPackages [forensicface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forensicface-0.1.8.tar.gz tmp/forensicface-0.1.9.tar.gz --markdown 20230429/f/forensicface/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 23:26:15] INFO root fetch - main [MainThread]: End processing [bdgd-tools]: success
+[2023-04-29 23:26:15] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2023-04-29 23:26:15] INFO root fetch - main [MainThread]: End processing [forensicface]: success
+[2023-04-29 23:26:16] INFO root fetch - main [MainThread]: End processing [scispacy]: success
+[2023-04-29 23:26:16] INFO root fetch - main [MainThread]: Store serial: [17912597]
