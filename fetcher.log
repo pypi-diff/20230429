@@ -9986,3 +9986,50 @@
 [2023-04-29 16:19:28] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
 [2023-04-29 16:19:28] INFO root fetch - main [MainThread]: End processing [frascii]: success
 [2023-04-29 16:19:28] INFO root fetch - main [MainThread]: Store serial: [17909698]
+[2023-04-29 16:24:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909698]
+[2023-04-29 16:24:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ProjZ
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inverse
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kkkkkkk
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fil
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nnnnnnn
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: custard
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: caveclient
+[2023-04-29 16:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ProjZ
+[2023-04-29 16:24:37] WARNING root fetch - processPackages [inverse]: Skipping, unable to determine old version
+[2023-04-29 16:24:37] INFO root fetch - main [MainThread]: End processing [inverse] error
+[2023-04-29 16:24:37] WARNING root fetch - processPackages [nnnnnnn]: Skipping, unable to determine old version
+[2023-04-29 16:24:37] WARNING root fetch - processPackages [kkkkkkk]: Skipping, unable to determine old version
+[2023-04-29 16:24:37] INFO root fetch - processPackages [fil]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 16:24:37] INFO root fetch - processPackages [caveclient]: New version: [5.4.0] Old Version: [5.3.2]
+[2023-04-29 16:24:37] INFO root fetch - main [MainThread]: End processing [nnnnnnn] error
+[2023-04-29 16:24:37] INFO root fetch - main [MainThread]: End processing [kkkkkkk] error
+[2023-04-29 16:24:37] INFO root fetch - processPackages [custard]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-29 16:24:37] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-29 16:24:37] ERROR root fetch - processPackages [ProjZ]: Unable to get metadata: No such project 'ProjZ'
+[2023-04-29 16:24:37] ERROR root fetch - processPackages [ProjZ]: Unable to get metadata: No such project 'ProjZ'
+[2023-04-29 16:24:37] INFO root fetch - main [MainThread]: End processing [ProjZ] error
+[2023-04-29 16:24:37] INFO root fetch - main [MainThread]: End processing [ProjZ] error
+[2023-04-29 16:24:37] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-29 16:24:37] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-29 16:24:37] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230429/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-29 16:24:37] INFO root fetch - processPackages [fil]: Downloading https://files.pythonhosted.org/packages/cb/80/b5f9fe982731aa1db7348431ab60797b6a50580f980e6e9c974093d7907c/fil-0.1.0.tar.gz
+[2023-04-29 16:24:37] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-29 16:24:37] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230429/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-29 16:24:37] INFO root fetch - processPackages [caveclient]: Downloading https://files.pythonhosted.org/packages/b5/94/4940983b78c5c03d8f2cd7b233e81a3e118effbe3a498c9968eecef2ce2f/caveclient-5.4.0.tar.gz
+[2023-04-29 16:24:37] INFO root fetch - processPackages [custard]: Downloading https://files.pythonhosted.org/packages/c1/30/dac2c47741193b8d98d224c3467dd6ff16cd27a1f1278077bdc1e5fdfb43/custard-1.1.3.tar.gz
+[2023-04-29 16:24:37] INFO root fetch - processPackages [caveclient]: executing diffoscope
+[2023-04-29 16:24:37] INFO root fetch - processPackages [caveclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caveclient-5.3.2.tar.gz tmp/caveclient-5.4.0.tar.gz --markdown 20230429/c/caveclient/5.3.2-5.4.0/diff.md --exclude *.pyd
+[2023-04-29 16:24:37] INFO root fetch - processPackages [custard]: executing diffoscope
+[2023-04-29 16:24:37] INFO root fetch - processPackages [custard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custard-1.1.2.tar.gz tmp/custard-1.1.3.tar.gz --markdown 20230429/c/custard/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-29 16:24:37] INFO root fetch - processPackages [fil]: Downloading https://files.pythonhosted.org/packages/a2/7b/4bbdb29fc0a79ccef332de6da5268e72bd5395f0e468f4b8273c8f27ecf1/fil-0.2.0.tar.gz
+[2023-04-29 16:24:37] INFO root fetch - processPackages [fil]: executing diffoscope
+[2023-04-29 16:24:37] INFO root fetch - processPackages [fil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fil-0.1.0.tar.gz tmp/fil-0.2.0.tar.gz --markdown 20230429/f/fil/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 16:24:38] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-29 16:24:38] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-29 16:24:38] INFO root fetch - main [MainThread]: End processing [fil]: success
+[2023-04-29 16:24:38] INFO root fetch - main [MainThread]: End processing [caveclient]: success
+[2023-04-29 16:24:41] INFO root fetch - main [MainThread]: End processing [custard]: success
+[2023-04-29 16:24:41] INFO root fetch - main [MainThread]: Store serial: [17909738]
