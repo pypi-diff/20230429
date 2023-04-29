@@ -13740,3 +13740,63 @@
 [2023-04-29 23:00:14] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
 [2023-04-29 23:00:15] INFO root fetch - main [MainThread]: End processing [pymwp]: success
 [2023-04-29 23:00:15] INFO root fetch - main [MainThread]: Store serial: [17912429]
+[2023-04-29 23:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912429]
+[2023-04-29 23:05:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcsctl
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pibble
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotfish2
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: growmax
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roberta-base-en-plant-ner-case
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipenv
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyproject-generator
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sopel-modules.twitter
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alpha-filter
+[2023-04-29 23:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pruebasdemalware
+[2023-04-29 23:05:23] INFO root fetch - processPackages [tcsctl]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-29 23:05:23] INFO root fetch - processPackages [growmax]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-29 23:05:23] WARNING root fetch - processPackages [roberta-base-en-plant-ner-case]: Skipping, unable to determine old version
+[2023-04-29 23:05:23] INFO root fetch - processPackages [plotfish2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 23:05:23] INFO root fetch - processPackages [pibble]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-29 23:05:23] INFO root fetch - main [MainThread]: End processing [roberta-base-en-plant-ner-case] error
+[2023-04-29 23:05:23] WARNING root fetch - processPackages [alpha-filter]: Skipping, unable to determine old version
+[2023-04-29 23:05:23] INFO root fetch - main [MainThread]: End processing [alpha-filter] error
+[2023-04-29 23:05:23] INFO root fetch - processPackages [pyproject-generator]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-29 23:05:23] INFO root fetch - processPackages [sopel-modules.twitter]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 23:05:23] INFO root fetch - processPackages [pipenv]: New version: [9.1.0] Old Version: [9.0.3]
+[2023-04-29 23:05:24] WARNING root fetch - processPackages [pruebasdemalware]: Skipping, unable to determine old version
+[2023-04-29 23:05:24] INFO root fetch - main [MainThread]: End processing [pruebasdemalware] error
+[2023-04-29 23:05:24] INFO root fetch - processPackages [growmax]: Downloading https://files.pythonhosted.org/packages/b3/c1/131128b6fee7b2700fe94904aa1aaee0ff126c009e78e83654a9d04766d5/growmax-1.1.8.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [tcsctl]: Downloading https://files.pythonhosted.org/packages/96/e4/7b48bd2bd48a0fbeeaa6ff7363f9d31b097f724fd738b8ecd36ec02c1f83/tcsctl-0.1.6.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [pyproject-generator]: Downloading https://files.pythonhosted.org/packages/f4/a6/0c4532e0ff79df93cd0b20b91669176c408d734dc9389e546fe13d5a6361/pyproject-generator-0.0.8.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [plotfish2]: Downloading https://files.pythonhosted.org/packages/69/d3/deec003200de2f53a6aa25f6d0931d9e821ea1ef29577b014f67f7cb1a89/plotfish2-0.1.0.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [sopel-modules.twitter]: Downloading https://files.pythonhosted.org/packages/77/62/67d728280ad798fee6536c2acdfec64f0f38270cc217577f5fdc1e3f28fc/sopel_modules.twitter-1.0.0.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/6b/a3/a04cee07413c9ef1fb51d203334bb5abfb612dad4bef8b8d1871704a7d43/pibble-0.4.1.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/df/eb/d796f85bc65969569a250c896c8b7d7aacb25a6857914c08cf4ed9bfc7f6/pipenv-9.0.3.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [pyproject-generator]: executing diffoscope
+[2023-04-29 23:05:24] INFO root fetch - processPackages [pyproject-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-generator-0.0.7.tar.gz tmp/pyproject-generator-0.0.8.tar.gz --markdown 20230429/p/pyproject-generator/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-29 23:05:24] INFO root fetch - processPackages [plotfish2]: Downloading https://files.pythonhosted.org/packages/d7/68/a5647d68f7f51964e47a4f46832ce1641000772e45fe0ccf6ee4df2800d4/plotfish2-0.1.1.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/09/64/dc060805da7310ca3e23c717c673b62d798f75583db64ab1f41e1a3e9643/pibble-0.4.2.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [plotfish2]: executing diffoscope
+[2023-04-29 23:05:24] INFO root fetch - processPackages [plotfish2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotfish2-0.1.0.tar.gz tmp/plotfish2-0.1.1.tar.gz --markdown 20230429/p/plotfish2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 23:05:24] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-04-29 23:05:24] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.4.1.tar.gz tmp/pibble-0.4.2.tar.gz --markdown 20230429/p/pibble/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-29 23:05:24] INFO root fetch - processPackages [tcsctl]: Downloading https://files.pythonhosted.org/packages/79/f6/f5bdb086008ce908ee2c3f5e50b54eefb8dd9daf4d63a570c02c856f1ded/tcsctl-0.1.7.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [sopel-modules.twitter]: Downloading https://files.pythonhosted.org/packages/9c/1e/f8357b1652e052bf5d8e6e565dbca6bcdfb3c67b09143b179975c56c05ff/sopel_modules.twitter-1.0.1.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [tcsctl]: executing diffoscope
+[2023-04-29 23:05:24] INFO root fetch - processPackages [sopel-modules.twitter]: executing diffoscope
+[2023-04-29 23:05:24] INFO root fetch - processPackages [tcsctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcsctl-0.1.6.tar.gz tmp/tcsctl-0.1.7.tar.gz --markdown 20230429/t/tcsctl/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-29 23:05:24] INFO root fetch - processPackages [sopel-modules.twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel_modules.twitter-1.0.0.tar.gz tmp/sopel_modules.twitter-1.0.1.tar.gz --markdown 20230429/s/sopel-modules.twitter/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 23:05:24] INFO root fetch - processPackages [growmax]: Downloading https://files.pythonhosted.org/packages/9e/f9/58e1d306101caba46d6b0c1f0b6201a47a7fce9fea4a11c0b66d2277b7d5/growmax-1.1.9.tar.gz
+[2023-04-29 23:05:24] INFO root fetch - processPackages [growmax]: executing diffoscope
+[2023-04-29 23:05:24] INFO root fetch - processPackages [growmax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/growmax-1.1.8.tar.gz tmp/growmax-1.1.9.tar.gz --markdown 20230429/g/growmax/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-29 23:05:25] INFO root fetch - processPackages [pipenv]: Downloading https://files.pythonhosted.org/packages/53/66/3f7451f27ce52b194f289c5b3ceb6b159ba177a932bea1fef8e1885ccf92/pipenv-9.1.0.tar.gz
+[2023-04-29 23:05:25] INFO root fetch - main [MainThread]: End processing [plotfish2]: success
+[2023-04-29 23:05:25] INFO root fetch - main [MainThread]: End processing [pyproject-generator]: success
+[2023-04-29 23:05:25] INFO root fetch - main [MainThread]: End processing [sopel-modules.twitter]: success
+[2023-04-29 23:05:25] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-04-29 23:05:25] INFO root fetch - main [MainThread]: End processing [tcsctl]: success
+[2023-04-29 23:05:25] INFO root fetch - processPackages [pipenv]: executing diffoscope
+[2023-04-29 23:05:25] INFO root fetch - processPackages [pipenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-9.0.3.tar.gz tmp/pipenv-9.1.0.tar.gz --markdown 20230429/p/pipenv/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2023-04-29 23:05:26] INFO root fetch - main [MainThread]: End processing [growmax]: success
+[2023-04-29 23:05:31] INFO root fetch - main [MainThread]: End processing [pipenv]: success
+[2023-04-29 23:05:31] INFO root fetch - main [MainThread]: Store serial: [17912466]
