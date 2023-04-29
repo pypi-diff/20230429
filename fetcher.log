@@ -8849,3 +8849,37 @@
 [2023-04-29 14:14:03] INFO root fetch - main [MainThread]: End processing [adcc]: success
 [2023-04-29 14:14:05] INFO root fetch - main [MainThread]: End processing [tkfly]: success
 [2023-04-29 14:14:05] INFO root fetch - main [MainThread]: Store serial: [17908894]
+[2023-04-29 14:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908894]
+[2023-04-29 14:19:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptoparser
+[2023-04-29 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ReportAnalysis
+[2023-04-29 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scribber
+[2023-04-29 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scribber
+[2023-04-29 14:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-plugin-manager
+[2023-04-29 14:19:14] INFO root fetch - processPackages [scribber]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-04-29 14:19:14] INFO root fetch - processPackages [scribber]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-04-29 14:19:14] WARNING root fetch - processPackages [ReportAnalysis]: Skipping, unable to determine old version
+[2023-04-29 14:19:14] INFO root fetch - main [MainThread]: End processing [ReportAnalysis] error
+[2023-04-29 14:19:14] INFO root fetch - processPackages [cryptoparser]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-04-29 14:19:14] INFO root fetch - processPackages [ovos-plugin-manager]: New version: [0.0.9] Old Version: [0.0.8a3]
+[2023-04-29 14:19:15] INFO root fetch - processPackages [scribber]: Downloading https://files.pythonhosted.org/packages/8c/5c/195d16550d1dbbc85885bef6d23b20fc94fd3824a43b897cc05e29a1d4f7/scribber-0.1.17.tar.gz
+[2023-04-29 14:19:15] INFO root fetch - processPackages [scribber]: Downloading https://files.pythonhosted.org/packages/8c/5c/195d16550d1dbbc85885bef6d23b20fc94fd3824a43b897cc05e29a1d4f7/scribber-0.1.17.tar.gz
+[2023-04-29 14:19:15] INFO root fetch - processPackages [cryptoparser]: Downloading https://files.pythonhosted.org/packages/2a/c2/ef4cb5432abaac1bc36400c7215639aed30fe297fd65f97c1724b4c1b01c/cryptoparser-0.8.5.tar.gz
+[2023-04-29 14:19:15] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/b2/37/1a222e9f15849fb1ebcafce5a7ba00f48fc94ba80438f3c9e243ce6b66c3/ovos_plugin_manager-0.0.8a3-py3-none-any.whl
+[2023-04-29 14:19:15] INFO root fetch - processPackages [scribber]: Downloading https://files.pythonhosted.org/packages/6d/43/b3052929847d9b1fc610c1ba129d1b2372e7b9e824013c2da8e67e63aecd/scribber-0.1.18.tar.gz
+[2023-04-29 14:19:15] INFO root fetch - processPackages [scribber]: Downloading https://files.pythonhosted.org/packages/6d/43/b3052929847d9b1fc610c1ba129d1b2372e7b9e824013c2da8e67e63aecd/scribber-0.1.18.tar.gz
+[2023-04-29 14:19:15] INFO root fetch - processPackages [cryptoparser]: Downloading https://files.pythonhosted.org/packages/3d/df/9f58b2db53b5684d5a815aa265a97047745a4e0375ef2c5221e6c73b7f76/cryptoparser-0.9.0.tar.gz
+[2023-04-29 14:19:15] INFO root fetch - processPackages [cryptoparser]: executing diffoscope
+[2023-04-29 14:19:15] INFO root fetch - processPackages [cryptoparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoparser-0.8.5.tar.gz tmp/cryptoparser-0.9.0.tar.gz --markdown 20230429/c/cryptoparser/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 14:19:15] INFO root fetch - processPackages [ovos-plugin-manager]: Downloading https://files.pythonhosted.org/packages/52/e2/f57129caaddb3c7ec480ea84cd54a36c5f47dec4dff4add3d7d3eea6e6a8/ovos_plugin_manager-0.0.9-py3-none-any.whl
+[2023-04-29 14:19:15] INFO root fetch - processPackages [scribber]: executing diffoscope
+[2023-04-29 14:19:15] INFO root fetch - processPackages [scribber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scribber-0.1.17.tar.gz tmp/scribber-0.1.18.tar.gz --markdown 20230429/s/scribber/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-04-29 14:19:15] INFO root fetch - processPackages [scribber]: executing diffoscope
+[2023-04-29 14:19:15] INFO root fetch - processPackages [scribber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scribber-0.1.17.tar.gz tmp/scribber-0.1.18.tar.gz --markdown 20230429/s/scribber/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-04-29 14:19:15] INFO root fetch - processPackages [ovos-plugin-manager]: executing diffoscope
+[2023-04-29 14:19:15] INFO root fetch - processPackages [ovos-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_manager-0.0.8a3-py3-none-any.whl.zip tmp/ovos_plugin_manager-0.0.9-py3-none-any.whl.zip --markdown 20230429/o/ovos-plugin-manager/0.0.8a3-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 14:19:16] INFO root fetch - main [MainThread]: End processing [scribber]: success
+[2023-04-29 14:19:16] INFO root fetch - main [MainThread]: End processing [scribber]: success
+[2023-04-29 14:19:16] INFO root fetch - main [MainThread]: End processing [cryptoparser]: success
+[2023-04-29 14:19:17] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
+[2023-04-29 14:19:17] INFO root fetch - main [MainThread]: Store serial: [17908920]
