@@ -5224,3 +5224,35 @@
 [2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [tuneflow-py]: success
 [2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [project-2023]: success
 [2023-04-29 06:19:31] INFO root fetch - main [MainThread]: Store serial: [17906553]
+[2023-04-29 06:24:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906553]
+[2023-04-29 06:24:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 06:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2023-04-29 06:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycep-parser
+[2023-04-29 06:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nycu-tdx-py
+[2023-04-29 06:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdup
+[2023-04-29 06:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-04-29 06:24:40] INFO root fetch - processPackages [fastdup]: New version: [0.925] Old Version: [0.924]
+[2023-04-29 06:24:40] INFO root fetch - processPackages [pycep-parser]: New version: [0.3.9a3] Old Version: [0.3.9a2]
+[2023-04-29 06:24:40] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 06:24:40] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-04-29 06:24:40] INFO root fetch - processPackages [alacorder]: New version: [80.0.2] Old Version: [80.0.1]
+[2023-04-29 06:24:40] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-29 06:24:40] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230429/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 06:24:40] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/e5/ed/3067a8e3162012e2f9a35df0b0e2cee4e9d518a9a72d95207b8587e1f6fb/fastdup-0.924-cp39-cp39-win_amd64.whl
+[2023-04-29 06:24:40] INFO root fetch - processPackages [pycep-parser]: Downloading https://files.pythonhosted.org/packages/ee/0a/57b45cde366f2a24b448e3557fd88a587ed69b0d98fdb208abddfefaff54/pycep-parser-0.3.9a2.tar.gz
+[2023-04-29 06:24:40] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/3d/56/6f7b26598ed455e95e080490ae4e7b8a1b9b479e8a625c3fd68fc7a53ccb/alacorder-80.0.1.tar.gz
+[2023-04-29 06:24:40] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/6b/6a/c7df342558fa12331f9e1be585808be601c9b4a890cedb9feb0aaac4e0e8/cdktf-cdktf-provider-azurerm-7.0.1.tar.gz
+[2023-04-29 06:24:40] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 35395162>=10485760
+[2023-04-29 06:24:40] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-04-29 06:24:40] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 84072175>=10485760
+[2023-04-29 06:24:40] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-04-29 06:24:40] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/87/46/16a123f8461dc9448dec01869038298e0a6d6e7f7c849e656ff060d7a34d/alacorder-80.0.2.tar.gz
+[2023-04-29 06:24:40] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-29 06:24:40] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.0.1.tar.gz tmp/alacorder-80.0.2.tar.gz --markdown 20230429/a/alacorder/80.0.1-80.0.2/diff.md --exclude *.pyd
+[2023-04-29 06:24:40] INFO root fetch - processPackages [pycep-parser]: Downloading https://files.pythonhosted.org/packages/98/bb/2073bfc63045e4f78ff49541a2702ad631b2b95931e75fe37a49bf9e8518/pycep-parser-0.3.9a3.tar.gz
+[2023-04-29 06:24:40] INFO root fetch - processPackages [pycep-parser]: executing diffoscope
+[2023-04-29 06:24:40] INFO root fetch - processPackages [pycep-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycep-parser-0.3.9a2.tar.gz tmp/pycep-parser-0.3.9a3.tar.gz --markdown 20230429/p/pycep-parser/0.3.9a2-0.3.9a3/diff.md --exclude *.pyd
+[2023-04-29 06:24:41] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-29 06:24:41] INFO root fetch - main [MainThread]: End processing [pycep-parser]: success
+[2023-04-29 06:24:41] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-29 06:24:41] INFO root fetch - main [MainThread]: Store serial: [17906566]
