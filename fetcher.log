@@ -5600,3 +5600,67 @@
 [2023-04-29 07:19:27] INFO root fetch - main [MainThread]: End processing [cramjam]: success
 [2023-04-29 07:21:10] INFO root fetch - main [MainThread]: End processing [netron]: success
 [2023-04-29 07:21:10] INFO root fetch - main [MainThread]: Store serial: [17906851]
+[2023-04-29 07:26:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906851]
+[2023-04-29 07:26:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feiticeiro-tec
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrew
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mynacode
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyift
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mynacode
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-product-category-company
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-multi-company
+[2023-04-29 07:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mynacode
+[2023-04-29 07:26:20] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: New version: [1.0.89] Old Version: [1.0.88]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: New version: [1.0.89] Old Version: [1.0.88]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: New version: [1.0.89] Old Version: [1.0.88]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [feiticeiro-tec]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: New version: [16.0.20230428.0] Old Version: [16.0.20230419.0]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addon-product-category-company]: New version: [16.0.1.0.0.13] Old Version: [16.0.1.0.0.12]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: New version: [1.0.89] Old Version: [1.0.88]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [pyift]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/14/67/f721fbe1d5d869af9ca28ce8863bfda0610784f08d6677f7da71654d7a5c/mynacode-1.0.88-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/14/67/f721fbe1d5d869af9ca28ce8863bfda0610784f08d6677f7da71654d7a5c/mynacode-1.0.88-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/14/67/f721fbe1d5d869af9ca28ce8863bfda0610784f08d6677f7da71654d7a5c/mynacode-1.0.88-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/cb/80/e340dcc7bc0e04af85cdb7e5bfbddb8f8c6c21c9a5d25e9b43b43282cd2b/feiticeiro_tec-1.0.0.tar.gz
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/14/67/f721fbe1d5d869af9ca28ce8863bfda0610784f08d6677f7da71654d7a5c/mynacode-1.0.88-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/63/61/526625dced587812f1c2a578eed5fcdfe85dcd8603f7ad8478b6302ad034/odoo_addons_oca_multi_company-16.0.20230419.0-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addon-product-category-company]: Downloading https://files.pythonhosted.org/packages/f0/2e/95bc0bfa952aba2e226e88528ae8c483265be213ddd1b3c2750dbecc3836/odoo_addon_product_category_company-16.0.1.0.0.12-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [pyift]: Downloading https://files.pythonhosted.org/packages/67/0a/457ac29c0b1ede5d56f6891bd37da0732d6215a19fb99ef7799e0be6a268/pyift-0.0.6.tar.gz
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/6e/ca/5ca0a4cf75aa27197f3465e80a19cfe4464415a40b42ed844acbeb98fd89/mynacode-1.0.89-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-04-29 07:26:20] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230429/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/6e/ca/5ca0a4cf75aa27197f3465e80a19cfe4464415a40b42ed844acbeb98fd89/mynacode-1.0.89-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/6e/ca/5ca0a4cf75aa27197f3465e80a19cfe4464415a40b42ed844acbeb98fd89/mynacode-1.0.89-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addon-product-category-company]: Downloading https://files.pythonhosted.org/packages/24/89/002c1411010e4755f033177b71101d156c75966b8034d847f8b18dc8ff00/odoo_addon_product_category_company-16.0.1.0.0.13-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/6e/ca/5ca0a4cf75aa27197f3465e80a19cfe4464415a40b42ed844acbeb98fd89/mynacode-1.0.89-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/32/8d/67aa24e7fb98148a8fcf4c5c60cf6312e146fe58fd9db514c49edd225661/feiticeiro_tec-1.0.1.tar.gz
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: Downloading https://files.pythonhosted.org/packages/e9/5b/a00c58cbcb0b200f03aa8c829361032baee34cd26e434844c5bf2009373b/odoo_addons_oca_multi_company-16.0.20230428.0-py3-none-any.whl
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.88-py3-none-any.whl.zip tmp/mynacode-1.0.89-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.88-1.0.89/diff.md --exclude *.pyd
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.88-py3-none-any.whl.zip tmp/mynacode-1.0.89-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.88-1.0.89/diff.md --exclude *.pyd
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addon-product-category-company]: executing diffoscope
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addon-product-category-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_category_company-16.0.1.0.0.12-py3-none-any.whl.zip tmp/odoo_addon_product_category_company-16.0.1.0.0.13-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-product-category-company/16.0.1.0.0.12-16.0.1.0.0.13/diff.md --exclude *.pyd
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.88-py3-none-any.whl.zip tmp/mynacode-1.0.89-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.88-1.0.89/diff.md --exclude *.pyd
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-04-29 07:26:20] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.88-py3-none-any.whl.zip tmp/mynacode-1.0.89-py3-none-any.whl.zip --markdown 20230429/m/mynacode/1.0.88-1.0.89/diff.md --exclude *.pyd
+[2023-04-29 07:26:20] INFO root fetch - processPackages [feiticeiro-tec]: executing diffoscope
+[2023-04-29 07:26:20] INFO root fetch - processPackages [feiticeiro-tec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feiticeiro_tec-1.0.0.tar.gz tmp/feiticeiro_tec-1.0.1.tar.gz --markdown 20230429/f/feiticeiro-tec/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: executing diffoscope
+[2023-04-29 07:26:20] INFO root fetch - processPackages [odoo-addons-oca-multi-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_multi_company-16.0.20230419.0-py3-none-any.whl.zip tmp/odoo_addons_oca_multi_company-16.0.20230428.0-py3-none-any.whl.zip --markdown 20230429/o/odoo-addons-oca-multi-company/16.0.20230419.0-16.0.20230428.0/diff.md --exclude *.pyd
+[2023-04-29 07:26:20] INFO root fetch - processPackages [pyift]: Downloading https://files.pythonhosted.org/packages/e2/be/de8a2953bc42b58e01ed9b45d6f2b3be220a652e4bdee5630c314484c0c9/pyift-0.1.0.tar.gz
+[2023-04-29 07:26:21] INFO root fetch - processPackages [pyift]: executing diffoscope
+[2023-04-29 07:26:21] INFO root fetch - processPackages [pyift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyift-0.0.6.tar.gz tmp/pyift-0.1.0.tar.gz --markdown 20230429/p/pyift/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 07:26:22] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-04-29 07:26:22] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 07:26:22] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 07:26:22] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 07:26:22] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-multi-company]: success
+[2023-04-29 07:26:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-category-company]: success
+[2023-04-29 07:26:22] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-04-29 07:26:22] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec]: success
+[2023-04-29 07:26:23] INFO root fetch - main [MainThread]: End processing [pyift]: success
+[2023-04-29 07:26:23] INFO root fetch - main [MainThread]: Store serial: [17906872]
