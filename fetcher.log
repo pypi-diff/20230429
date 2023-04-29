@@ -12733,3 +12733,42 @@
 [2023-04-29 20:35:22] INFO root fetch - main [MainThread]: End processing [hhcm-forest]: success
 [2023-04-29 20:35:24] INFO root fetch - main [MainThread]: End processing [nose2]: success
 [2023-04-29 20:35:24] INFO root fetch - main [MainThread]: Store serial: [17911515]
+[2023-04-29 20:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911515]
+[2023-04-29 20:40:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 20:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentient-switchblade
+[2023-04-29 20:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gridworks-atn
+[2023-04-29 20:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamineml
+[2023-04-29 20:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vents
+[2023-04-29 20:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: characterai
+[2023-04-29 20:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lamineml
+[2023-04-29 20:40:33] INFO root fetch - processPackages [sentient-switchblade]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 20:40:33] INFO root fetch - processPackages [vents]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-29 20:40:33] INFO root fetch - processPackages [characterai]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-29 20:40:33] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 20:40:33] INFO root fetch - processPackages [gridworks-atn]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-29 20:40:33] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 20:40:33] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-04-29 20:40:33] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230429/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 20:40:33] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-04-29 20:40:33] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230429/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 20:40:33] INFO root fetch - processPackages [vents]: Downloading https://files.pythonhosted.org/packages/db/ac/6482f335a799d6138f0696873cce11688827622dd5c0878a905f6547a267/vents-0.0.3.tar.gz
+[2023-04-29 20:40:33] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/c2/9e/111a9303a9839978055afae542f8e16702b6f2bccf65b3b4cc02fcaec0d8/characterai-0.2.6.tar.gz
+[2023-04-29 20:40:33] INFO root fetch - processPackages [gridworks-atn]: Downloading https://files.pythonhosted.org/packages/da/a2/2ac88246fe5b5353362b06ac5811636f827b3f5c2d2b8f9427635269c219/gridworks_atn-0.2.3.tar.gz
+[2023-04-29 20:40:33] INFO root fetch - processPackages [sentient-switchblade]: Downloading https://files.pythonhosted.org/packages/03/26/e56e39063b3bddbb1afacf077adfc29c3ae4b8a8edbb573561fee42a7d79/sentient_switchblade-0.2.2.tar.gz
+[2023-04-29 20:40:34] INFO root fetch - processPackages [sentient-switchblade]: executing diffoscope
+[2023-04-29 20:40:34] INFO root fetch - processPackages [sentient-switchblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentient_switchblade-0.2.1.tar.gz tmp/sentient_switchblade-0.2.2.tar.gz --markdown 20230429/s/sentient-switchblade/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 20:40:34] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2023-04-29 20:40:34] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.2.5.tar.gz tmp/characterai-0.2.6.tar.gz --markdown 20230429/c/characterai/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-29 20:40:34] INFO root fetch - processPackages [vents]: Downloading https://files.pythonhosted.org/packages/bd/81/285d95800a17648b440c9c7561826acc966137f6ce3a71ebce39827b1bdd/vents-0.0.4.tar.gz
+[2023-04-29 20:40:34] INFO root fetch - processPackages [gridworks-atn]: Downloading https://files.pythonhosted.org/packages/06/f3/4ef5f566954e92d474591edf962b7e2e6b8d05adb02f3f5a4fdd81a136a5/gridworks_atn-0.2.4.tar.gz
+[2023-04-29 20:40:34] INFO root fetch - processPackages [gridworks-atn]: executing diffoscope
+[2023-04-29 20:40:34] INFO root fetch - processPackages [gridworks-atn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_atn-0.2.3.tar.gz tmp/gridworks_atn-0.2.4.tar.gz --markdown 20230429/g/gridworks-atn/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-29 20:40:34] INFO root fetch - processPackages [vents]: executing diffoscope
+[2023-04-29 20:40:34] INFO root fetch - processPackages [vents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vents-0.0.3.tar.gz tmp/vents-0.0.4.tar.gz --markdown 20230429/v/vents/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-29 20:40:34] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-04-29 20:40:35] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-04-29 20:40:35] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2023-04-29 20:40:35] INFO root fetch - main [MainThread]: End processing [sentient-switchblade]: success
+[2023-04-29 20:40:35] INFO root fetch - main [MainThread]: End processing [gridworks-atn]: success
+[2023-04-29 20:40:36] INFO root fetch - main [MainThread]: End processing [vents]: success
+[2023-04-29 20:40:36] INFO root fetch - main [MainThread]: Store serial: [17911532]
