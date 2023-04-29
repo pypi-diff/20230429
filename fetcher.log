@@ -4717,3 +4717,28 @@
 [2023-04-29 04:57:44] INFO root fetch - main [MainThread]: End processing [catgpt]: success
 [2023-04-29 04:57:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
 [2023-04-29 04:57:45] INFO root fetch - main [MainThread]: Store serial: [17906298]
+[2023-04-29 05:02:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906298]
+[2023-04-29 05:02:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuneSurvey
+[2023-04-29 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alignem
+[2023-04-29 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sktime
+[2023-04-29 05:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-review
+[2023-04-29 05:02:53] INFO root fetch - processPackages [alignem]: New version: [0.5.436] Old Version: [0.5.435]
+[2023-04-29 05:02:53] INFO root fetch - processPackages [tuneSurvey]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 05:02:53] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 05:02:53] INFO root fetch - processPackages [sktime]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-29 05:02:53] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 05:02:53] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 05:02:54] INFO root fetch - processPackages [alignem]: Downloading https://files.pythonhosted.org/packages/eb/cc/a34e9275e8936a96b09664c100f878dda692af8418d6cfafd3d1abd29eae/alignem-0.5.435.tar.gz
+[2023-04-29 05:02:54] WARNING root fetch - processPackages [alignem]: Skipping package: exceeds size limit 42502256>=10485760
+[2023-04-29 05:02:54] INFO root fetch - main [MainThread]: End processing [alignem] error
+[2023-04-29 05:02:54] INFO root fetch - processPackages [tuneSurvey]: Downloading https://files.pythonhosted.org/packages/ac/fe/f842cae39a72b14f8547047d35b40defca7efff9cab8778a8fe8261102e5/tunesurvey-0.0.2.tar.gz
+[2023-04-29 05:02:54] INFO root fetch - processPackages [sktime]: Downloading https://files.pythonhosted.org/packages/14/3c/02b40dd3133f7607421dcc3c5b44747f5bc0f6af14cc7a14e83b686f1ed1/sktime-0.8.1.tar.gz
+[2023-04-29 05:02:54] INFO root fetch - processPackages [tuneSurvey]: Downloading https://files.pythonhosted.org/packages/0e/63/2afba713f1542694587a60c47c3801d0577536cbff26ea6549f8f0f4e2e8/tunesurvey-0.0.3.tar.gz
+[2023-04-29 05:02:54] INFO root fetch - processPackages [tuneSurvey]: executing diffoscope
+[2023-04-29 05:02:54] INFO root fetch - processPackages [tuneSurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tunesurvey-0.0.2.tar.gz tmp/tunesurvey-0.0.3.tar.gz --markdown 20230429/t/tuneSurvey/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 05:02:54] WARNING root fetch - processPackages [sktime]: Skipping package: exceeds size limit 11076866>=10485760
+[2023-04-29 05:02:54] INFO root fetch - main [MainThread]: End processing [sktime] error
+[2023-04-29 05:02:54] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 05:02:55] INFO root fetch - main [MainThread]: End processing [tuneSurvey]: success
+[2023-04-29 05:02:55] INFO root fetch - main [MainThread]: Store serial: [17906311]
