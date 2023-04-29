@@ -4413,3 +4413,32 @@
 [2023-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
 [2023-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
 [2023-04-29 04:20:43] INFO root fetch - main [MainThread]: Store serial: [17906142]
+[2023-04-29 04:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906142]
+[2023-04-29 04:25:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 04:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bfactory
+[2023-04-29 04:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IMDbTraktSyncer
+[2023-04-29 04:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-04-29 04:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gqylpy-dict
+[2023-04-29 04:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-24
+[2023-04-29 04:25:51] WARNING root fetch - processPackages [IMDbTraktSyncer]: Skipping, unable to determine old version
+[2023-04-29 04:25:51] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer] error
+[2023-04-29 04:25:51] INFO root fetch - processPackages [bfactory]: New version: [0.4.1] Old Version: [0.4]
+[2023-04-29 04:25:52] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-29 04:25:52] INFO root fetch - processPackages [gqylpy-dict]: New version: [1.2.1] Old Version: [1.2]
+[2023-04-29 04:25:52] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-29 04:25:52] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230429/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-29 04:25:52] INFO root fetch - processPackages [gqylpy-dict]: Downloading https://files.pythonhosted.org/packages/f4/71/c77a0384bf19d8c915b042fb29e337f64a07187d089d37c2866cdf773c68/gqylpy_dict-1.2.tar.gz
+[2023-04-29 04:25:52] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-04-29 04:25:52] INFO root fetch - processPackages [bfactory]: Downloading https://files.pythonhosted.org/packages/9f/38/33b1851f910cf180d77d70f58d4f42591b343a477ba9f5e781c6fb08e3cd/bfactory-0.4.1.tar.gz
+[2023-04-29 04:25:52] INFO root fetch - processPackages [bfactory]: executing diffoscope
+[2023-04-29 04:25:52] INFO root fetch - processPackages [bfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfactory-0.4.tar.gz tmp/bfactory-0.4.1.tar.gz --markdown 20230429/b/bfactory/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-04-29 04:25:52] INFO root fetch - processPackages [gqylpy-dict]: Downloading https://files.pythonhosted.org/packages/c4/7e/80fa70b69edb4c63e0e75e4ae843b6566b9cf160bbd2d20cfa6ff39256f2/gqylpy_dict-1.2.1.tar.gz
+[2023-04-29 04:25:52] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-04-29 04:25:52] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230429/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-04-29 04:25:52] INFO root fetch - processPackages [gqylpy-dict]: executing diffoscope
+[2023-04-29 04:25:52] INFO root fetch - processPackages [gqylpy-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_dict-1.2.tar.gz tmp/gqylpy_dict-1.2.1.tar.gz --markdown 20230429/g/gqylpy-dict/1.2-1.2.1/diff.md --exclude *.pyd
+[2023-04-29 04:25:53] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-29 04:25:53] INFO root fetch - main [MainThread]: End processing [bfactory]: success
+[2023-04-29 04:25:53] INFO root fetch - main [MainThread]: End processing [gqylpy-dict]: success
+[2023-04-29 04:25:53] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-04-29 04:25:53] INFO root fetch - main [MainThread]: Store serial: [17906156]
