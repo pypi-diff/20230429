@@ -4383,3 +4383,12 @@
 [2023-04-29 04:10:22] INFO root fetch - main [MainThread]: End processing [ipyflow]: success
 [2023-04-29 04:10:22] INFO root fetch - main [MainThread]: End processing [raster-tools]: success
 [2023-04-29 04:10:22] INFO root fetch - main [MainThread]: Store serial: [17906116]
+[2023-04-29 04:15:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906116]
+[2023-04-29 04:15:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-04-29 04:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Catalyst-Lib
+[2023-04-29 04:15:31] INFO root fetch - processPackages [Catalyst-Lib]: New version: [0.2] Old Version: [0.1]
+[2023-04-29 04:15:32] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/72/55/2a6d1839c4875294b34bf5a444751ecb521df407b08238921cb5ec3c57b3/Catalyst_Lib-0.2.tar.gz
+[2023-04-29 04:15:32] INFO root fetch - processPackages [Catalyst-Lib]: executing diffoscope
+[2023-04-29 04:15:32] INFO root fetch - processPackages [Catalyst-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Catalyst_Lib-0.1.tar.gz tmp/Catalyst_Lib-0.2.tar.gz --markdown 20230429/C/Catalyst-Lib/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-29 04:15:33] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
+[2023-04-29 04:15:33] INFO root fetch - main [MainThread]: Store serial: [17906124]
