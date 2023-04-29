@@ -10033,3 +10033,49 @@
 [2023-04-29 16:24:38] INFO root fetch - main [MainThread]: End processing [caveclient]: success
 [2023-04-29 16:24:41] INFO root fetch - main [MainThread]: End processing [custard]: success
 [2023-04-29 16:24:41] INFO root fetch - main [MainThread]: Store serial: [17909738]
+[2023-04-29 16:29:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909738]
+[2023-04-29 16:29:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 16:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inverse
+[2023-04-29 16:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trainerbase
+[2023-04-29 16:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-generation-server
+[2023-04-29 16:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extr-ds
+[2023-04-29 16:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ark-toml
+[2023-04-29 16:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bulrush
+[2023-04-29 16:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psycopg2-wrappers
+[2023-04-29 16:29:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qgate-graph
+[2023-04-29 16:29:51] INFO root fetch - processPackages [inverse]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 16:29:51] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-29 16:29:51] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 16:29:51] WARNING root fetch - processPackages [psycopg2-wrappers]: Skipping, unable to determine old version
+[2023-04-29 16:29:51] INFO root fetch - main [MainThread]: End processing [psycopg2-wrappers] error
+[2023-04-29 16:29:51] INFO root fetch - processPackages [trainerbase]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-04-29 16:29:51] WARNING root fetch - processPackages [ark-toml]: Skipping, unable to determine old version
+[2023-04-29 16:29:51] INFO root fetch - main [MainThread]: End processing [ark-toml] error
+[2023-04-29 16:29:51] INFO root fetch - processPackages [qgate-graph]: New version: [1.2rc9] Old Version: [1.2rc8]
+[2023-04-29 16:29:51] INFO root fetch - processPackages [bulrush]: New version: [0.6.2] Old Version: [0.5.2]
+[2023-04-29 16:29:51] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-29 16:29:51] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230429/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 16:29:51] INFO root fetch - processPackages [inverse]: Downloading https://files.pythonhosted.org/packages/7a/90/8db790c901acd33ab5fd25c12f745c8ca4feac933918d2fb1e606cf25c22/inverse-0.0.1-py2.py3-none-any.whl
+[2023-04-29 16:29:51] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/94/8e/809127919c5950d183105011d712319ea8a0bfdfdb826a57f36273e8e5cf/llm_generation_server-0.0.6.tar.gz
+[2023-04-29 16:29:51] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/b6/d8/1a991beafb159b11f649174f2c506183c91ca0b7a8d6fc6bdf1f24942706/qgate_graph-1.2rc8.tar.gz
+[2023-04-29 16:29:51] INFO root fetch - processPackages [bulrush]: Downloading https://files.pythonhosted.org/packages/32/a8/07b43843648a91bd8291d8200d974789ef9aef6466aa53198896c88eac0d/bulrush-0.5.2.tar.gz
+[2023-04-29 16:29:51] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-04-29 16:29:51] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.5.tar.gz tmp/llm_generation_server-0.0.6.tar.gz --markdown 20230429/l/llm-generation-server/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-29 16:29:51] INFO root fetch - processPackages [trainerbase]: executing diffoscope
+[2023-04-29 16:29:51] INFO root fetch - processPackages [trainerbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrainerBase-2.9.8.tar.gz tmp/TrainerBase-2.9.9.tar.gz --markdown 20230429/t/trainerbase/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-04-29 16:29:51] INFO root fetch - processPackages [inverse]: Downloading https://files.pythonhosted.org/packages/48/30/90441f12f8e0882473a1d00c791099031724cd19f494e52abe5e8ba2f07e/inverse-0.0.2-py2.py3-none-any.whl
+[2023-04-29 16:29:51] INFO root fetch - processPackages [qgate-graph]: Downloading https://files.pythonhosted.org/packages/8f/e2/2c400a98e3307136bb063216f0700c7a4346239e4d7337b7e37b9e910a64/qgate_graph-1.2rc9.tar.gz
+[2023-04-29 16:29:51] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-04-29 16:29:51] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.1-py2.py3-none-any.whl.zip tmp/inverse-0.0.2-py2.py3-none-any.whl.zip --markdown 20230429/i/inverse/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 16:29:51] INFO root fetch - processPackages [bulrush]: Downloading https://files.pythonhosted.org/packages/0b/02/6842eb151519f931585271f070da05b38f142094a9d223e03143169a2f57/bulrush-0.6.2.tar.gz
+[2023-04-29 16:29:51] INFO root fetch - processPackages [bulrush]: executing diffoscope
+[2023-04-29 16:29:51] INFO root fetch - processPackages [bulrush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulrush-0.5.2.tar.gz tmp/bulrush-0.6.2.tar.gz --markdown 20230429/b/bulrush/0.5.2-0.6.2/diff.md --exclude *.pyd
+[2023-04-29 16:29:51] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-04-29 16:29:51] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.2rc8.tar.gz tmp/qgate_graph-1.2rc9.tar.gz --markdown 20230429/q/qgate-graph/1.2rc8-1.2rc9/diff.md --exclude *.pyd
+[2023-04-29 16:29:52] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-29 16:29:52] INFO root fetch - main [MainThread]: End processing [trainerbase]: success
+[2023-04-29 16:29:52] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-04-29 16:29:53] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-04-29 16:29:53] INFO root fetch - main [MainThread]: End processing [bulrush]: success
+[2023-04-29 16:29:53] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-04-29 16:29:53] INFO root fetch - main [MainThread]: Store serial: [17909772]
