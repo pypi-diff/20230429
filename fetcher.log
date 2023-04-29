@@ -8549,3 +8549,99 @@
 [2023-04-29 13:47:54] INFO root fetch - main [MainThread]: End processing [poetry-plugin-compose]: success
 [2023-04-29 13:47:55] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
 [2023-04-29 13:47:55] INFO root fetch - main [MainThread]: Store serial: [17908707]
+[2023-04-29 13:52:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908707]
+[2023-04-29 13:53:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-orca-spark2
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-friesian-spark2
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-chronos-spark2
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: envoy.base.utils
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-spark2
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodekloud-downloader
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyOfficeRobot
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psgtest
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: characterai
+[2023-04-29 13:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: selfetch
+[2023-04-29 13:53:04] INFO root fetch - processPackages [envoy.base.utils]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [kodekloud-downloader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230429] Old Version: [2.4.0b20230428]
+[2023-04-29 13:53:04] WARNING root fetch - processPackages [selfetch]: Skipping, unable to determine old version
+[2023-04-29 13:53:04] INFO root fetch - processPackages [selfetch]: Start processing: turbo-chat
+[2023-04-29 13:53:04] INFO root fetch - processPackages [characterai]: New version: [0.2.4] Old Version: [0.2.1]
+[2023-04-29 13:53:04] INFO root fetch - main [MainThread]: End processing [selfetch] error
+[2023-04-29 13:53:04] INFO root fetch - processPackages [psgtest]: New version: [3.4] Old Version: [3.2]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230429] Old Version: [2.4.0b20230428]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [PyOfficeRobot]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230429] Old Version: [2.4.0b20230428]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230429] Old Version: [2.4.0b20230428]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [turbo-chat]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/df/6c/b5654b1b07ac0620c2f965ecb362f20d34223b5260c755696cf8d79a8d45/bigdl_orca_spark2-2.4.0b20230428-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:53:04] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/96/64/e180e8986e7a4eaa2635264c232c926607789b67b6a011e7862f32515fba/characterai-0.2.1.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/6b/b4/20168274e1830d25a25f89174996e4b4328f46734491d8551dc9e8190da8/bigdl_friesian_spark2-2.4.0b20230428-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:53:04] INFO root fetch - processPackages [envoy.base.utils]: Downloading https://files.pythonhosted.org/packages/d1/98/a5c8070c5f674744db5a96712ca013b4ba13cfb55e4ca906faf03ea5c1e4/envoy.base.utils-0.4.2-py3-none-any.whl
+[2023-04-29 13:53:04] INFO root fetch - processPackages [kodekloud-downloader]: Downloading https://files.pythonhosted.org/packages/7c/d6/c652d8ed3b461a6500c8e2eca4073827325f5369817d28685f98d026fe5b/kodekloud-downloader-0.1.1.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [psgtest]: Downloading https://files.pythonhosted.org/packages/d5/e0/d1ad9c38ab6923b5b1add46b5cd065a6f72fa6ad2ccb9462711bb38fbfb1/psgtest-3.2.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/e2/7f/bfe286cf90505431221d0df894b507f4f3455386e6dcb9bdd0fcf2afc6b4/bigdl_chronos_spark2-2.4.0b20230428-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/e9/4c/079e111f0dd5459da5cc7b178d1353ce8a90a1b3d87e32885dbd3b00a4a9/bigdl_spark2-2.4.0b20230428-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:53:04] INFO root fetch - processPackages [kodekloud-downloader]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [kodekloud-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodekloud-downloader-0.1.0.tar.gz tmp/kodekloud-downloader-0.1.1.tar.gz --markdown 20230429/k/kodekloud-downloader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [turbo-chat]: Downloading https://files.pythonhosted.org/packages/56/71/79c48791cd08570765f46fd601cab7d8480536901a71ac0861306b6223f9/turbo_chat-0.3.8.tar.gz
+[2023-04-29 13:53:04] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369250>=10485760
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: weibo-poster
+[2023-04-29 13:53:04] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-04-29 13:53:04] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/a8/89/5fb07fbcc5edf8080271a355cd249ad73cef0d811c743814cbd7e184a229/PyOfficeRobot-0.1.6.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [weibo-poster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 13:53:04] INFO root fetch - processPackages [PyOfficeRobot]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [PyOfficeRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOfficeRobot-0.1.5.tar.gz tmp/PyOfficeRobot-0.1.6.tar.gz --markdown 20230429/P/PyOfficeRobot/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [psgtest]: Downloading https://files.pythonhosted.org/packages/50/ef/c92867043fb8ff472aec87ca46c23bf38d52280055a2e7d4e57a5ad0edb6/psgtest-3.4.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/0e/91/3e34bde15fbb6761b5f18c34fffc2f1c414399d07489b1887377c7f4f67a/characterai-0.2.4.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [envoy.base.utils]: Downloading https://files.pythonhosted.org/packages/63/64/e48a52bceb711ff15be8d947d94d08c1e0eaf2001c254672e44ea2a1456d/envoy.base.utils-0.4.3.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/5e/22/87a438d72672581b61bdabaac5caccbbeada1c0b61c1309b3ef28a8cab01/bigdl_spark2-2.4.0b20230429-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/a7/a1/d920fc233954d9f251d0150bcfbe6e88baeaf9d07c929877795ff4469a71/bigdl_friesian_spark2-2.4.0b20230429-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:53:04] INFO root fetch - processPackages [psgtest]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [psgtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgtest-3.2.tar.gz tmp/psgtest-3.4.tar.gz --markdown 20230429/p/psgtest/3.2-3.4/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.2.1.tar.gz tmp/characterai-0.2.4.tar.gz --markdown 20230429/c/characterai/0.2.1-0.2.4/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [turbo-chat]: Downloading https://files.pythonhosted.org/packages/ef/f7/7e1724b71429c08279d0e48d4fe638edcc0dab93308d3d9503e1e65f5a11/turbo_chat-0.3.9.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [envoy.base.utils]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [envoy.base.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoy.base.utils-0.4.2-py3-none-any.whl.zip tmp/envoy.base.utils-0.4.3.tar.gz --markdown 20230429/e/envoy.base.utils/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/af/85/374fe08c4e774945b43c44ca767e2a077373fe496a82a98df8e05911735d/bigdl_chronos_spark2-2.4.0b20230429-py3-none-manylinux1_x86_64.whl
+[2023-04-29 13:53:04] INFO root fetch - processPackages [weibo-poster]: Downloading https://files.pythonhosted.org/packages/ea/ad/cab75f69dbd2aaeab730676807f33e834eab3de40c9e425fb5d4825053aa/weibo-poster-0.0.8.tar.gz
+[2023-04-29 13:53:04] INFO root fetch - processPackages [turbo-chat]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [turbo-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_chat-0.3.8.tar.gz tmp/turbo_chat-0.3.9.tar.gz --markdown 20230429/t/turbo-chat/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230428-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230429-py3-none-manylinux1_x86_64.whl.zip --markdown 20230429/b/bigdl-spark2/2.4.0b20230428-2.4.0b20230429/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230428-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230429-py3-none-manylinux1_x86_64.whl.zip --markdown 20230429/b/bigdl-friesian-spark2/2.4.0b20230428-2.4.0b20230429/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-04-29 13:53:04] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230428-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230429-py3-none-manylinux1_x86_64.whl.zip --markdown 20230429/b/bigdl-chronos-spark2/2.4.0b20230428-2.4.0b20230429/diff.md --exclude *.pyd
+[2023-04-29 13:53:04] INFO root fetch - processPackages [weibo-poster]: Downloading https://files.pythonhosted.org/packages/2d/8e/2454f54d936fb31485f52dfbb5afc0d5f76c36dd111d93134d013e02d842/weibo-poster-0.0.9.tar.gz
+[2023-04-29 13:53:05] INFO root fetch - processPackages [weibo-poster]: executing diffoscope
+[2023-04-29 13:53:05] INFO root fetch - processPackages [weibo-poster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weibo-poster-0.0.8.tar.gz tmp/weibo-poster-0.0.9.tar.gz --markdown 20230429/w/weibo-poster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 13:53:05] INFO root fetch - processPackages [kodekloud-downloader]: Start processing: characterai
+[2023-04-29 13:53:05] INFO root fetch - main [MainThread]: End processing [kodekloud-downloader]: success
+[2023-04-29 13:53:05] INFO root fetch - processPackages [characterai]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-29 13:53:05] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/d4/8d/c3a935114851e40caf4b4b263ef45fe1d1ccdc51a9465b1de1312f188f7a/characterai-0.2.5.tar.gz
+[2023-04-29 13:53:06] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2023-04-29 13:53:06] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.2.4.tar.gz tmp/characterai-0.2.5.tar.gz --markdown 20230429/c/characterai/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-29 13:53:06] INFO root fetch - processPackages [envoy.base.utils]: Start processing: oceano-algos
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [envoy.base.utils]: success
+[2023-04-29 13:53:06] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 13:53:06] INFO root fetch - processPackages [characterai]: Start processing: llm-generation-server
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2023-04-29 13:53:06] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-29 13:53:06] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230429/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 13:53:06] INFO root fetch - processPackages [bigdl-spark2]: Start processing: amlctor
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-04-29 13:53:06] WARNING root fetch - processPackages [llm-generation-server]: Skipping, unable to determine old version
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [llm-generation-server] error
+[2023-04-29 13:53:06] WARNING root fetch - processPackages [amlctor]: Skipping, unable to determine old version
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [amlctor] error
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [psgtest]: success
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [PyOfficeRobot]: success
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [turbo-chat]: success
+[2023-04-29 13:53:06] INFO root fetch - main [MainThread]: End processing [weibo-poster]: success
+[2023-04-29 13:53:07] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-04-29 13:53:07] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2023-04-29 13:53:07] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-29 13:53:07] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-04-29 13:53:07] INFO root fetch - main [MainThread]: Store serial: [17908754]
