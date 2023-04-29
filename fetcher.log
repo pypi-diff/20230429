@@ -12772,3 +12772,90 @@
 [2023-04-29 20:40:35] INFO root fetch - main [MainThread]: End processing [gridworks-atn]: success
 [2023-04-29 20:40:36] INFO root fetch - main [MainThread]: End processing [vents]: success
 [2023-04-29 20:40:36] INFO root fetch - main [MainThread]: Store serial: [17911532]
+[2023-04-29 20:45:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911532]
+[2023-04-29 20:45:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awc-cli
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmdify
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: goxlrutilityapi
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: namefactory
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: budgetcli
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyecotrend-ista
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: can-explorer
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fpm
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Quick-Magic
+[2023-04-29 20:45:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gen-odoo-readme
+[2023-04-29 20:45:44] INFO root fetch - processPackages [namefactory]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [gen-odoo-readme]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [awc-cli]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [Quick-Magic]: New version: [1.4] Old Version: [1.3]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [fpm]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [cmdify]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.0.0.dev9] Old Version: [1.0.0.dev8]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [can-explorer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [budgetcli]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [pyecotrend-ista]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-29 20:45:44] INFO root fetch - processPackages [namefactory]: Downloading https://files.pythonhosted.org/packages/67/35/2bb8a8dff54fc28eb34bdb554a145d85e4695651d2615d6ef0a319520df9/namefactory-1.0.1.tar.gz
+[2023-04-29 20:45:44] INFO root fetch - processPackages [gen-odoo-readme]: executing diffoscope
+[2023-04-29 20:45:44] INFO root fetch - processPackages [gen-odoo-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen-odoo-readme-1.0.8.tar.gz tmp/gen-odoo-readme-1.0.9.tar.gz --markdown 20230429/g/gen-odoo-readme/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 20:45:44] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-04-29 20:45:44] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.0.0.dev8.tar.gz tmp/goxlrutilityapi-1.0.0.dev9.tar.gz --markdown 20230429/g/goxlrutilityapi/1.0.0.dev8-1.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-29 20:45:44] INFO root fetch - processPackages [awc-cli]: Downloading https://files.pythonhosted.org/packages/05/db/0d5439a562dc0cdab04d4ff7f781d3327616e0114985324e68d18ee5fd12/awc_cli-1.0.2-py2.py3-none-any.whl
+[2023-04-29 20:45:44] INFO root fetch - processPackages [can-explorer]: Downloading https://files.pythonhosted.org/packages/4b/9b/84524fa0b8cb59c205041b622835466a48f404a95438a29eba662524b4e3/can_explorer-0.1.2.tar.gz
+[2023-04-29 20:45:44] INFO root fetch - processPackages [cmdify]: Downloading https://files.pythonhosted.org/packages/8e/a6/ed2490d6697987891861fe651f06ae9bc591bc2bf49d14e0be724f8d619c/cmdify-0.1.3.tar.gz
+[2023-04-29 20:45:44] INFO root fetch - processPackages [fpm]: Downloading https://files.pythonhosted.org/packages/f4/c6/82df5af77121f1104b5132c541c7b7e43a40d5300d6aed7671ae15a8a8f9/fpm-0.4.0.tar.gz
+[2023-04-29 20:45:44] INFO root fetch - processPackages [Quick-Magic]: Downloading https://files.pythonhosted.org/packages/e8/a1/7be61825b134bb4d426f374567d838533c62f6d2556959223bc4ad81d1f5/Quick_Magic-1.4.tar.gz
+[2023-04-29 20:45:45] INFO root fetch - processPackages [Quick-Magic]: executing diffoscope
+[2023-04-29 20:45:45] INFO root fetch - processPackages [Quick-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quick_Magic-1.3.tar.gz tmp/Quick_Magic-1.4.tar.gz --markdown 20230429/Q/Quick-Magic/1.3-1.4/diff.md --exclude *.pyd
+[2023-04-29 20:45:45] INFO root fetch - processPackages [fpm]: executing diffoscope
+[2023-04-29 20:45:45] INFO root fetch - processPackages [fpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpm-0.3.0.tar.gz tmp/fpm-0.4.0.tar.gz --markdown 20230429/f/fpm/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 20:45:45] WARNING root fetch - processPackages [can-explorer]: Skipping package: exceeds size limit 19651063>=10485760
+[2023-04-29 20:45:45] INFO root fetch - processPackages [can-explorer]: Start processing: bandersnatch
+[2023-04-29 20:45:45] INFO root fetch - main [MainThread]: End processing [can-explorer] error
+[2023-04-29 20:45:45] INFO root fetch - processPackages [cmdify]: executing diffoscope
+[2023-04-29 20:45:45] INFO root fetch - processPackages [cmdify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdify-0.1.2.tar.gz tmp/cmdify-0.1.3.tar.gz --markdown 20230429/c/cmdify/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-29 20:45:45] INFO root fetch - processPackages [bandersnatch]: New version: [6.3.0] Old Version: [6.2.0]
+[2023-04-29 20:45:45] INFO root fetch - processPackages [budgetcli]: Downloading https://files.pythonhosted.org/packages/31/97/dc2ef492dc8307c6386dfa62c693ad436fcb1dc57068bc7fba49f0a5af71/budgetcli-1.0.4.tar.gz
+[2023-04-29 20:45:45] INFO root fetch - processPackages [budgetcli]: executing diffoscope
+[2023-04-29 20:45:45] INFO root fetch - processPackages [budgetcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgetcli-1.0.3.tar.gz tmp/budgetcli-1.0.4.tar.gz --markdown 20230429/b/budgetcli/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 20:45:45] INFO root fetch - processPackages [namefactory]: Downloading https://files.pythonhosted.org/packages/a1/3a/a8046e035a13402ba87ff364f496e84a0502c544625c1870ff42be57be96/namefactory-1.0.2.tar.gz
+[2023-04-29 20:45:45] INFO root fetch - processPackages [bandersnatch]: Downloading https://files.pythonhosted.org/packages/89/91/4c6fe66cdba48b9755e8c95cf729cd6366be773fe365ca4bd8b55664497a/bandersnatch-6.2.0.tar.gz
+[2023-04-29 20:45:45] INFO root fetch - processPackages [awc-cli]: Downloading https://files.pythonhosted.org/packages/2d/12/34da9358f21eaa1ac662be1e0e76dacb59428dc49c352695411d7a600013/awc_cli-1.0.3-py2.py3-none-any.whl
+[2023-04-29 20:45:45] INFO root fetch - processPackages [namefactory]: executing diffoscope
+[2023-04-29 20:45:45] INFO root fetch - processPackages [namefactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namefactory-1.0.1.tar.gz tmp/namefactory-1.0.2.tar.gz --markdown 20230429/n/namefactory/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-29 20:45:45] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2023-04-29 20:45:45] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-2.0.8.tar.gz tmp/pyecotrend-ista-2.0.9.tar.gz --markdown 20230429/p/pyecotrend-ista/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-29 20:45:45] INFO root fetch - processPackages [awc-cli]: executing diffoscope
+[2023-04-29 20:45:45] INFO root fetch - processPackages [awc-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awc_cli-1.0.2-py2.py3-none-any.whl.zip tmp/awc_cli-1.0.3-py2.py3-none-any.whl.zip --markdown 20230429/a/awc-cli/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 20:45:45] INFO root fetch - processPackages [bandersnatch]: Downloading https://files.pythonhosted.org/packages/f4/3a/5ab09d852955a1acae22d6ce79b4a91eca7f8684e3b2fa953d6b7d750348/bandersnatch-6.3.0.tar.gz
+[2023-04-29 20:45:45] INFO root fetch - processPackages [bandersnatch]: executing diffoscope
+[2023-04-29 20:45:45] INFO root fetch - processPackages [bandersnatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandersnatch-6.2.0.tar.gz tmp/bandersnatch-6.3.0.tar.gz --markdown 20230429/b/bandersnatch/6.2.0-6.3.0/diff.md --exclude *.pyd
+[2023-04-29 20:45:46] INFO root fetch - processPackages [goxlrutilityapi]: Start processing: lamineml
+[2023-04-29 20:45:46] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-04-29 20:45:46] INFO root fetch - processPackages [lamineml]: New version: [0.8] Old Version: [0.7]
+[2023-04-29 20:45:46] INFO root fetch - processPackages [Quick-Magic]: Start processing: ovos-skill-filebrowser
+[2023-04-29 20:45:46] INFO root fetch - main [MainThread]: End processing [Quick-Magic]: success
+[2023-04-29 20:45:46] INFO root fetch - processPackages [ovos-skill-filebrowser]: New version: [0.0.3a2] Old Version: [0.0.3a1]
+[2023-04-29 20:45:46] INFO root fetch - processPackages [lamineml]: executing diffoscope
+[2023-04-29 20:45:46] INFO root fetch - processPackages [lamineml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamineml-0.7.tar.gz tmp/lamineml-0.8.tar.gz --markdown 20230429/l/lamineml/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-29 20:45:46] INFO root fetch - processPackages [gen-odoo-readme]: Start processing: pyxdi
+[2023-04-29 20:45:46] INFO root fetch - main [MainThread]: End processing [gen-odoo-readme]: success
+[2023-04-29 20:45:46] INFO root fetch - processPackages [ovos-skill-filebrowser]: Downloading https://files.pythonhosted.org/packages/1f/27/b428f45dded390157ee1134b093a883658e8db10dd12fc6a1b1309b996b1/ovos_skill_filebrowser-0.0.3a1-py3-none-any.whl
+[2023-04-29 20:45:46] INFO root fetch - main [MainThread]: End processing [cmdify]: success
+[2023-04-29 20:45:46] INFO root fetch - processPackages [pyxdi]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-29 20:45:46] INFO root fetch - main [MainThread]: End processing [namefactory]: success
+[2023-04-29 20:45:46] INFO root fetch - main [MainThread]: End processing [awc-cli]: success
+[2023-04-29 20:45:46] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/9b/35/c9c05a54ae536d05f8b12cdbc2d5bc0c13e928a1cc4587d8ce0618855686/pyxdi-0.6.2.tar.gz
+[2023-04-29 20:45:46] INFO root fetch - main [MainThread]: End processing [budgetcli]: success
+[2023-04-29 20:45:47] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2023-04-29 20:45:47] INFO root fetch - processPackages [ovos-skill-filebrowser]: Downloading https://files.pythonhosted.org/packages/05/04/8f9d5fb980d5fd34991893b2f7494dc40586eb747253ce45a126893d6779/ovos_skill_filebrowser-0.0.3a2-py3-none-any.whl
+[2023-04-29 20:45:47] INFO root fetch - processPackages [pyxdi]: Downloading https://files.pythonhosted.org/packages/56/46/578ebd97960553507b9da7588a7a34ceb1f0baefd0fbb6fecdc76bf78261/pyxdi-0.6.3.tar.gz
+[2023-04-29 20:45:47] INFO root fetch - processPackages [pyxdi]: executing diffoscope
+[2023-04-29 20:45:47] INFO root fetch - processPackages [pyxdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxdi-0.6.2.tar.gz tmp/pyxdi-0.6.3.tar.gz --markdown 20230429/p/pyxdi/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-29 20:45:47] INFO root fetch - processPackages [ovos-skill-filebrowser]: executing diffoscope
+[2023-04-29 20:45:47] INFO root fetch - processPackages [ovos-skill-filebrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_skill_filebrowser-0.0.3a1-py3-none-any.whl.zip tmp/ovos_skill_filebrowser-0.0.3a2-py3-none-any.whl.zip --markdown 20230429/o/ovos-skill-filebrowser/0.0.3a1-0.0.3a2/diff.md --exclude *.pyd
+[2023-04-29 20:45:47] INFO root fetch - main [MainThread]: End processing [lamineml]: success
+[2023-04-29 20:45:48] INFO root fetch - main [MainThread]: End processing [pyxdi]: success
+[2023-04-29 20:45:48] INFO root fetch - main [MainThread]: End processing [bandersnatch]: success
+[2023-04-29 20:45:48] INFO root fetch - main [MainThread]: End processing [ovos-skill-filebrowser]: success
+[2023-04-29 20:45:50] INFO root fetch - main [MainThread]: End processing [fpm]: success
+[2023-04-29 20:45:50] INFO root fetch - main [MainThread]: Store serial: [17911580]
