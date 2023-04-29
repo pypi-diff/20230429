@@ -10383,3 +10383,44 @@
 [2023-04-29 16:55:56] INFO root fetch - main [MainThread]: End processing [SciAssist]: success
 [2023-04-29 16:55:56] INFO root fetch - main [MainThread]: End processing [unipipeline]: success
 [2023-04-29 16:55:56] INFO root fetch - main [MainThread]: Store serial: [17910003]
+[2023-04-29 17:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910003]
+[2023-04-29 17:01:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 17:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frogmouth
+[2023-04-29 17:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iGetMusic
+[2023-04-29 17:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jionlp
+[2023-04-29 17:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fakeredis
+[2023-04-29 17:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nebulae
+[2023-04-29 17:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frogmouth
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-29 17:01:05] INFO root fetch - processPackages [iGetMusic]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-04-29 17:01:05] INFO root fetch - processPackages [jionlp]: New version: [1.4.7] Old Version: [1.4.38]
+[2023-04-29 17:01:05] INFO root fetch - processPackages [fakeredis]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-29 17:01:05] INFO root fetch - processPackages [nebulae]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-29 17:01:05] INFO root fetch - processPackages [jionlp]: Downloading https://files.pythonhosted.org/packages/f6/09/85bb41043739358f360a963447730536a2a62da0a50f90fbd1fad303bc8e/jionlp-1.4.38-py2.py3-none-any.whl
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/32/84/108db5e626c0eafb55e0ffc60b742f4fc52497444a91609633ffaf53c39f/frogmouth-0.2.0.tar.gz
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/32/84/108db5e626c0eafb55e0ffc60b742f4fc52497444a91609633ffaf53c39f/frogmouth-0.2.0.tar.gz
+[2023-04-29 17:01:05] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/27/c5/a8bb6a94bad96b40a7e760bbbac99c73a6868017ab58c54a66bf62d6041d/fakeredis-2.9.1.tar.gz
+[2023-04-29 17:01:05] INFO root fetch - processPackages [nebulae]: Downloading https://files.pythonhosted.org/packages/6c/5b/1212891ab4fd81df6b998d352a1e5b9374ebae0f8efe864f4da2851a9940/nebulae-0.6.6.tar.gz
+[2023-04-29 17:01:05] WARNING root fetch - processPackages [jionlp]: Skipping package: exceeds size limit 19029888>=10485760
+[2023-04-29 17:01:05] INFO root fetch - main [MainThread]: End processing [jionlp] error
+[2023-04-29 17:01:05] INFO root fetch - processPackages [nebulae]: executing diffoscope
+[2023-04-29 17:01:05] INFO root fetch - processPackages [nebulae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebulae-0.6.5.tar.gz tmp/nebulae-0.6.6.tar.gz --markdown 20230429/n/nebulae/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-29 17:01:05] INFO root fetch - processPackages [iGetMusic]: Downloading https://files.pythonhosted.org/packages/86/52/47f92d9e8b0e8ceb44d8c3edba467b7d0a4249fda9cd0b1349dc823927a8/iGetMusic-0.1.0.tar.gz
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/a4/ed/85000b6ef5d20b8a9a2466e5a13512d34a4a43c64f9ee908e36fde2c3b6d/frogmouth-0.2.1.tar.gz
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/a4/ed/85000b6ef5d20b8a9a2466e5a13512d34a4a43c64f9ee908e36fde2c3b6d/frogmouth-0.2.1.tar.gz
+[2023-04-29 17:01:05] INFO root fetch - processPackages [iGetMusic]: executing diffoscope
+[2023-04-29 17:01:05] INFO root fetch - processPackages [iGetMusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iGetMusic-0.0.6.tar.gz tmp/iGetMusic-0.1.0.tar.gz --markdown 20230429/i/iGetMusic/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: executing diffoscope
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogmouth-0.2.0.tar.gz tmp/frogmouth-0.2.1.tar.gz --markdown 20230429/f/frogmouth/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: executing diffoscope
+[2023-04-29 17:01:05] INFO root fetch - processPackages [frogmouth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogmouth-0.2.0.tar.gz tmp/frogmouth-0.2.1.tar.gz --markdown 20230429/f/frogmouth/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-29 17:01:05] INFO root fetch - processPackages [fakeredis]: Downloading https://files.pythonhosted.org/packages/c9/d0/063259876691b0c48dfa578a01777c92875d9f234e1ac49900f305c4a9aa/fakeredis-2.9.2.tar.gz
+[2023-04-29 17:01:06] INFO root fetch - processPackages [fakeredis]: executing diffoscope
+[2023-04-29 17:01:06] INFO root fetch - processPackages [fakeredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakeredis-2.9.1.tar.gz tmp/fakeredis-2.9.2.tar.gz --markdown 20230429/f/fakeredis/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-04-29 17:01:06] INFO root fetch - main [MainThread]: End processing [iGetMusic]: success
+[2023-04-29 17:01:06] INFO root fetch - main [MainThread]: End processing [frogmouth]: success
+[2023-04-29 17:01:07] INFO root fetch - main [MainThread]: End processing [frogmouth]: success
+[2023-04-29 17:01:07] INFO root fetch - main [MainThread]: End processing [nebulae]: success
+[2023-04-29 17:01:07] INFO root fetch - main [MainThread]: End processing [fakeredis]: success
+[2023-04-29 17:01:07] INFO root fetch - main [MainThread]: Store serial: [17910026]
