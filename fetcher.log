@@ -6656,3 +6656,26 @@
 [2023-04-29 10:09:42] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-04-29 10:09:42] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
 [2023-04-29 10:09:42] INFO root fetch - main [MainThread]: Store serial: [17907497]
+[2023-04-29 10:14:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907497]
+[2023-04-29 10:14:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-29 10:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymailers
+[2023-04-29 10:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rabe-cridlib
+[2023-04-29 10:14:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rolfsen
+[2023-04-29 10:14:50] INFO root fetch - processPackages [rolfsen]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 10:14:50] INFO root fetch - processPackages [pymailers]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 10:14:50] INFO root fetch - processPackages [rabe-cridlib]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-29 10:14:50] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/70/f9/e8a94fc9251251d6af4f816f3617db68e0dd2e2a35b3987578cafea4e434/rabe_cridlib-0.6.0.tar.gz
+[2023-04-29 10:14:50] INFO root fetch - processPackages [rolfsen]: Downloading https://files.pythonhosted.org/packages/4e/48/4abf75f4fb2c4ba5318fe0bc33ee871d726d7f011fa9e6867c11aa14772b/rolfsen-0.0.1.tar.gz
+[2023-04-29 10:14:51] INFO root fetch - processPackages [pymailers]: Downloading https://files.pythonhosted.org/packages/7f/91/cb73c54444e9cda46985b248a2e2a56db6d272c7979360adcb7d87d960cd/pymailers-1.0.4.tar.gz
+[2023-04-29 10:14:51] INFO root fetch - processPackages [pymailers]: executing diffoscope
+[2023-04-29 10:14:51] INFO root fetch - processPackages [pymailers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymailers-1.0.3.tar.gz tmp/pymailers-1.0.4.tar.gz --markdown 20230429/p/pymailers/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 10:14:51] INFO root fetch - processPackages [rolfsen]: Downloading https://files.pythonhosted.org/packages/be/2d/57ce433c6d751496aef65210db1ecfd728695cc63ceef5603a3c70e7b4dd/rolfsen-0.0.2.tar.gz
+[2023-04-29 10:14:51] INFO root fetch - processPackages [rolfsen]: executing diffoscope
+[2023-04-29 10:14:51] INFO root fetch - processPackages [rolfsen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rolfsen-0.0.1.tar.gz tmp/rolfsen-0.0.2.tar.gz --markdown 20230429/r/rolfsen/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 10:14:51] INFO root fetch - processPackages [rabe-cridlib]: Downloading https://files.pythonhosted.org/packages/ed/42/2d7e42b1deb2b9b6e35fb2c98f23757013d8ee585858b642ec22d7a2492e/rabe_cridlib-0.7.0.tar.gz
+[2023-04-29 10:14:51] INFO root fetch - processPackages [rabe-cridlib]: executing diffoscope
+[2023-04-29 10:14:51] INFO root fetch - processPackages [rabe-cridlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabe_cridlib-0.6.0.tar.gz tmp/rabe_cridlib-0.7.0.tar.gz --markdown 20230429/r/rabe-cridlib/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-29 10:14:52] INFO root fetch - main [MainThread]: End processing [pymailers]: success
+[2023-04-29 10:14:52] INFO root fetch - main [MainThread]: End processing [rolfsen]: success
+[2023-04-29 10:14:52] INFO root fetch - main [MainThread]: End processing [rabe-cridlib]: success
+[2023-04-29 10:14:52] INFO root fetch - main [MainThread]: Store serial: [17907506]
