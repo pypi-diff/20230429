@@ -10777,3 +10777,54 @@
 [2023-04-29 17:37:59] INFO root fetch - main [MainThread]: End processing [munin-plot]: success
 [2023-04-29 17:38:05] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-04-29 17:38:05] INFO root fetch - main [MainThread]: Store serial: [17910327]
+[2023-04-29 17:43:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910327]
+[2023-04-29 17:43:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-todo-nlp
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jurebes
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ProjZ.py
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amino.api
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-shelly-certoraclibeta
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citizenk
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SciAssist
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pystacker
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alacorder
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ProjZ.py]: New version: [2.4.0] Old Version: [2.3.9]
+[2023-04-29 17:43:16] INFO root fetch - processPackages [amino.api]: New version: [1.2b3] Old Version: [1.2b1]
+[2023-04-29 17:43:16] INFO root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: New version: [20230428.22.25.601887] Old Version: [20230428.18.32.408351]
+[2023-04-29 17:43:16] INFO root fetch - processPackages [pystacker]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-04-29 17:43:16] INFO root fetch - processPackages [citizenk]: New version: [0.1.32] Old Version: [0.1.31]
+[2023-04-29 17:43:16] INFO root fetch - processPackages [SciAssist]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-04-29 17:43:16] INFO root fetch - processPackages [alacorder]: New version: [80.0.3] Old Version: [80.0.2]
+[2023-04-29 17:43:16] INFO root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Downloading https://files.pythonhosted.org/packages/04/f7/2df3a81adea3967b57195b7b14146d6925845ddb3ae6496de655c3303b55/certora-cli-alpha-shelly-certoraclibeta-20230428.18.32.408351.tar.gz
+[2023-04-29 17:43:16] INFO root fetch - processPackages [nonebot-plugin-todo-nlp]: New version: [0.1.9] Old Version: [0.1.8rc0]
+[2023-04-29 17:43:16] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-04-29 17:43:16] WARNING root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Skipping package: exceeds size limit 38050960>=10485760
+[2023-04-29 17:43:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-certoraclibeta] error
+[2023-04-29 17:43:16] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-29 17:43:16] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.31.tar.gz tmp/citizenk-0.1.32.tar.gz --markdown 20230429/c/citizenk/0.1.31-0.1.32/diff.md --exclude *.pyd
+[2023-04-29 17:43:16] INFO root fetch - processPackages [amino.api]: executing diffoscope
+[2023-04-29 17:43:16] INFO root fetch - processPackages [amino.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.api-1.2b1.tar.gz tmp/amino.api-1.2b3.tar.gz --markdown 20230429/a/amino.api/1.2b1-1.2b3/diff.md --exclude *.pyd
+[2023-04-29 17:43:16] INFO root fetch - processPackages [pystacker]: executing diffoscope
+[2023-04-29 17:43:16] INFO root fetch - processPackages [pystacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystacker-1.2.4.tar.gz tmp/pystacker-1.2.5.tar.gz --markdown 20230429/p/pystacker/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-04-29 17:43:16] INFO root fetch - processPackages [SciAssist]: executing diffoscope
+[2023-04-29 17:43:16] INFO root fetch - processPackages [SciAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SciAssist-0.0.33.tar.gz tmp/SciAssist-0.0.34.tar.gz --markdown 20230429/S/SciAssist/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-04-29 17:43:16] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-29 17:43:16] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.0.2.tar.gz tmp/alacorder-80.0.3.tar.gz --markdown 20230429/a/alacorder/80.0.2-80.0.3/diff.md --exclude *.pyd
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/33/f7/9056d57a5ea738bdd098676cf3bb262a89c70573568131bcb685da44e217/ProjZ.py-2.4.0.tar.gz
+[2023-04-29 17:43:16] INFO root fetch - processPackages [nonebot-plugin-todo-nlp]: Downloading https://files.pythonhosted.org/packages/2a/dc/03530937acf2a7536ef434696ad6659218160adc11266014c388b56afcc2/nonebot_plugin_todo_nlp-0.1.8rc0.tar.gz
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 17:43:16] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.3.9.tar.gz tmp/ProjZ.py-2.4.0.tar.gz --markdown 20230429/P/ProjZ.py/2.3.9-2.4.0/diff.md --exclude *.pyd
+[2023-04-29 17:43:16] INFO root fetch - processPackages [nonebot-plugin-todo-nlp]: Downloading https://files.pythonhosted.org/packages/cd/be/bf6328750424c76bf42d88e00eb3053f4faae0ba4f8318a5b5a25ec42f6a/nonebot_plugin_todo_nlp-0.1.9.tar.gz
+[2023-04-29 17:43:17] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-29 17:43:17] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a8-py3-none-any.whl.zip tmp/jurebes-0.1.1a9-py3-none-any.whl.zip --markdown 20230429/j/jurebes/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-04-29 17:43:17] INFO root fetch - processPackages [nonebot-plugin-todo-nlp]: executing diffoscope
+[2023-04-29 17:43:17] INFO root fetch - processPackages [nonebot-plugin-todo-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_todo_nlp-0.1.8rc0.tar.gz tmp/nonebot_plugin_todo_nlp-0.1.9.tar.gz --markdown 20230429/n/nonebot-plugin-todo-nlp/0.1.8rc0-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 17:43:17] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-29 17:43:18] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-29 17:43:18] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 17:43:18] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-29 17:43:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-todo-nlp]: success
+[2023-04-29 17:43:18] INFO root fetch - main [MainThread]: End processing [pystacker]: success
+[2023-04-29 17:43:18] INFO root fetch - main [MainThread]: End processing [amino.api]: success
+[2023-04-29 17:43:19] INFO root fetch - main [MainThread]: End processing [SciAssist]: success
+[2023-04-29 17:43:19] INFO root fetch - main [MainThread]: Store serial: [17910353]
