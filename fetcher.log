@@ -6703,3 +6703,46 @@
 [2023-04-29 10:25:09] INFO root fetch - main [MainThread]: End processing [mdup]: success
 [2023-04-29 10:25:09] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
 [2023-04-29 10:25:09] INFO root fetch - main [MainThread]: Store serial: [17907516]
+[2023-04-29 10:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907516]
+[2023-04-29 10:30:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 10:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telepotpro
+[2023-04-29 10:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Bigsansar
+[2023-04-29 10:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recoverpy
+[2023-04-29 10:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TsProject
+[2023-04-29 10:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CVAugmentor
+[2023-04-29 10:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asdzxc
+[2023-04-29 10:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepthulac
+[2023-04-29 10:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nycu-tdx-py
+[2023-04-29 10:30:18] INFO root fetch - processPackages [recoverpy]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-04-29 10:30:18] INFO root fetch - processPackages [telepotpro]: New version: [13.5] Old Version: [13.4]
+[2023-04-29 10:30:18] INFO root fetch - processPackages [Bigsansar]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-29 10:30:18] WARNING root fetch - processPackages [TsProject]: Skipping, unable to determine old version
+[2023-04-29 10:30:18] INFO root fetch - main [MainThread]: End processing [TsProject] error
+[2023-04-29 10:30:18] WARNING root fetch - processPackages [asdzxc]: Skipping, unable to determine old version
+[2023-04-29 10:30:18] INFO root fetch - main [MainThread]: End processing [asdzxc] error
+[2023-04-29 10:30:18] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 10:30:18] INFO root fetch - processPackages [deepthulac]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-29 10:30:18] WARNING root fetch - processPackages [CVAugmentor]: Skipping, unable to determine old version
+[2023-04-29 10:30:18] INFO root fetch - main [MainThread]: End processing [CVAugmentor] error
+[2023-04-29 10:30:18] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-29 10:30:18] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230429/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 10:30:18] INFO root fetch - processPackages [recoverpy]: Downloading https://files.pythonhosted.org/packages/13/fb/44f3b70d5996fa39d18686cccf70f38b243ef187ce0129e0a18178f496f4/recoverpy-2.0.5.tar.gz
+[2023-04-29 10:30:18] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/59/29/4172349bb7451228384bdcb9136fd0128642978cc5a76b80c9e077bafda0/Bigsansar-1.0.8.tar.gz
+[2023-04-29 10:30:18] INFO root fetch - processPackages [deepthulac]: Downloading https://files.pythonhosted.org/packages/05/c5/f00222b9f20e199650f474fc453c2bc371f152d6069093eea93506545459/deepthulac-0.0.7.tar.gz
+[2023-04-29 10:30:18] INFO root fetch - processPackages [telepotpro]: Downloading https://files.pythonhosted.org/packages/e6/51/bdde80177e5bbd05de94ee8d58ae6adcc2f04fbe0366c25c7fe663335cd4/telepotpro-13.5.tar.gz
+[2023-04-29 10:30:18] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-29 10:30:18] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.0.7.tar.gz tmp/Bigsansar-1.0.8.tar.gz --markdown 20230429/B/Bigsansar/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-29 10:30:18] INFO root fetch - processPackages [telepotpro]: executing diffoscope
+[2023-04-29 10:30:18] INFO root fetch - processPackages [telepotpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telepotpro-13.4.tar.gz tmp/telepotpro-13.5.tar.gz --markdown 20230429/t/telepotpro/13.4-13.5/diff.md --exclude *.pyd
+[2023-04-29 10:30:18] INFO root fetch - processPackages [deepthulac]: Downloading https://files.pythonhosted.org/packages/03/bb/b5f992bf0971097e2078bd006218134d5089a5a7f0f60f69296781a8f0cb/deepthulac-0.0.8.tar.gz
+[2023-04-29 10:30:18] INFO root fetch - processPackages [recoverpy]: Downloading https://files.pythonhosted.org/packages/88/3c/724d708637d28e5c97759df51e7742e950dc3c61d2485c5d799e120d802f/recoverpy-2.0.6.tar.gz
+[2023-04-29 10:30:18] INFO root fetch - processPackages [deepthulac]: executing diffoscope
+[2023-04-29 10:30:18] INFO root fetch - processPackages [deepthulac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepthulac-0.0.7.tar.gz tmp/deepthulac-0.0.8.tar.gz --markdown 20230429/d/deepthulac/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-29 10:30:18] INFO root fetch - processPackages [recoverpy]: executing diffoscope
+[2023-04-29 10:30:18] INFO root fetch - processPackages [recoverpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recoverpy-2.0.5.tar.gz tmp/recoverpy-2.0.6.tar.gz --markdown 20230429/r/recoverpy/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-04-29 10:30:19] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-29 10:30:19] INFO root fetch - main [MainThread]: End processing [telepotpro]: success
+[2023-04-29 10:30:19] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-29 10:30:19] INFO root fetch - main [MainThread]: End processing [recoverpy]: success
+[2023-04-29 10:30:20] INFO root fetch - main [MainThread]: End processing [deepthulac]: success
+[2023-04-29 10:30:20] INFO root fetch - main [MainThread]: Store serial: [17907544]
