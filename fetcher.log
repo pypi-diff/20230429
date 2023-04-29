@@ -9005,3 +9005,37 @@
 [2023-04-29 14:34:52] INFO root fetch - main [MainThread]: End processing [multikeygraph]: success
 [2023-04-29 14:34:54] INFO root fetch - main [MainThread]: End processing [itkwasm]: success
 [2023-04-29 14:34:54] INFO root fetch - main [MainThread]: Store serial: [17909001]
+[2023-04-29 14:39:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909001]
+[2023-04-29 14:40:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 14:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fischer
+[2023-04-29 14:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lentille
+[2023-04-29 14:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorcircuit-nightly
+[2023-04-29 14:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProjZ.py
+[2023-04-29 14:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlm8s
+[2023-04-29 14:40:03] INFO root fetch - processPackages [fischer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-29 14:40:03] INFO root fetch - processPackages [ProjZ.py]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-04-29 14:40:03] WARNING root fetch - processPackages [lentille]: Skipping, unable to determine old version
+[2023-04-29 14:40:03] INFO root fetch - main [MainThread]: End processing [lentille] error
+[2023-04-29 14:40:03] INFO root fetch - processPackages [mlm8s]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 14:40:03] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.8.0.dev20230429] Old Version: [0.8.0.dev20230427]
+[2023-04-29 14:40:03] INFO root fetch - processPackages [fischer]: Downloading https://files.pythonhosted.org/packages/57/84/9ebaf02e4b43f1a0ebac2c0ed82613b54e6b102794c706993ba016ba36cb/fischer-0.1.1.tar.gz
+[2023-04-29 14:40:03] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/94/e5/d47a631f03d46979f1a87fade8997f1d69c72d8e9f056ff44120ac058db4/ProjZ.py-2.3.3.tar.gz
+[2023-04-29 14:40:03] INFO root fetch - processPackages [mlm8s]: Downloading https://files.pythonhosted.org/packages/ce/f0/c5bc011b3fb61629c71c5f4d56fb26f9edbac6d84fe0eb9faf60c843afa7/mlm8s-1.0.0.tar.gz
+[2023-04-29 14:40:03] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2b/12/ecd7fc98cce033675a648c369b70872075d293ef807fa3a44ce0527a2065/tensorcircuit-nightly-0.8.0.dev20230427.tar.gz
+[2023-04-29 14:40:03] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/b6/87/083b0b5fda5bcb96d19a30c2f4664df784700c8982af1ce4d3cdb65e6e39/ProjZ.py-2.3.4.tar.gz
+[2023-04-29 14:40:03] INFO root fetch - processPackages [fischer]: Downloading https://files.pythonhosted.org/packages/85/54/65b5ec0392d25d3fca5b6eea938ca5fb8da7e14135d70d69e0bfae21d77a/fischer-0.1.2.tar.gz
+[2023-04-29 14:40:03] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 14:40:03] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.3.3.tar.gz tmp/ProjZ.py-2.3.4.tar.gz --markdown 20230429/P/ProjZ.py/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-04-29 14:40:03] INFO root fetch - processPackages [mlm8s]: Downloading https://files.pythonhosted.org/packages/b3/11/ea76cadf04339572e7e700178961609f12b97d08947092a42f7611e54584/mlm8s-1.0.1.tar.gz
+[2023-04-29 14:40:03] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/c6/f1/2d22691a341a9ed75d92c977caf46959bb013cd26f548f9ca5d1e66b40f3/tensorcircuit-nightly-0.8.0.dev20230429.tar.gz
+[2023-04-29 14:40:03] INFO root fetch - processPackages [fischer]: executing diffoscope
+[2023-04-29 14:40:03] INFO root fetch - processPackages [fischer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fischer-0.1.1.tar.gz tmp/fischer-0.1.2.tar.gz --markdown 20230429/f/fischer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 14:40:03] INFO root fetch - processPackages [mlm8s]: executing diffoscope
+[2023-04-29 14:40:03] INFO root fetch - processPackages [mlm8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlm8s-1.0.0.tar.gz tmp/mlm8s-1.0.1.tar.gz --markdown 20230429/m/mlm8s/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 14:40:03] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-04-29 14:40:03] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.8.0.dev20230427.tar.gz tmp/tensorcircuit-nightly-0.8.0.dev20230429.tar.gz --markdown 20230429/t/tensorcircuit-nightly/0.8.0.dev20230427-0.8.0.dev20230429/diff.md --exclude *.pyd
+[2023-04-29 14:40:04] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 14:40:05] INFO root fetch - main [MainThread]: End processing [mlm8s]: success
+[2023-04-29 14:40:05] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-04-29 14:40:26] INFO root fetch - main [MainThread]: End processing [fischer]: success
+[2023-04-29 14:40:26] INFO root fetch - main [MainThread]: Store serial: [17909017]
