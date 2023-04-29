@@ -6618,3 +6618,41 @@
 [2023-04-29 10:04:26] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
 [2023-04-29 10:04:30] INFO root fetch - main [MainThread]: End processing [unfurl]: success
 [2023-04-29 10:04:30] INFO root fetch - main [MainThread]: Store serial: [17907485]
+[2023-04-29 10:09:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907485]
+[2023-04-29 10:09:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 10:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymailers
+[2023-04-29 10:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-04-29 10:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CLIbrary
+[2023-04-29 10:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-Ayiin
+[2023-04-29 10:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymailers
+[2023-04-29 10:09:39] INFO root fetch - processPackages [CLIbrary]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-29 10:09:39] INFO root fetch - processPackages [py-Ayiin]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230429] Old Version: [0.3.1.dev20230428]
+[2023-04-29 10:09:39] INFO root fetch - processPackages [CLIbrary]: Downloading https://files.pythonhosted.org/packages/a3/73/c499bcbe98cc3fd4c0d6f5fe755b8cbf55ff9196e0aa4395e12a4ddf2cbf/clibrary-1.8.1.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: Downloading https://files.pythonhosted.org/packages/ff/52/5c699b3af7ee2cdcbf45939ce41c539546ec6b4bc8dbbcaa8fa6830065a0/pymailers-1.0.2.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/aa/ac/991ff0e7a429f2948c3f418734dbceafef1056698a747adebdcc4dfeb178/pyglove-0.3.1.dev20230428.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/36/8d/fd934ca56e9612d893097dc10fd9c113e53e763f3c2bb83955b4d4d979b1/py-Ayiin-0.2.3.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: Downloading https://files.pythonhosted.org/packages/ff/52/5c699b3af7ee2cdcbf45939ce41c539546ec6b4bc8dbbcaa8fa6830065a0/pymailers-1.0.2.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [CLIbrary]: Downloading https://files.pythonhosted.org/packages/29/b0/a09b986f02791d31056d61f304326931e60809922b26e58c5090abc99b8c/clibrary-1.9.0.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: Downloading https://files.pythonhosted.org/packages/27/2f/fd5733719184ba75b8e16a6262ded115247a87e1f789ba570ff4fdee12c7/pymailers-1.0.3.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: Downloading https://files.pythonhosted.org/packages/27/2f/fd5733719184ba75b8e16a6262ded115247a87e1f789ba570ff4fdee12c7/pymailers-1.0.3.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [CLIbrary]: executing diffoscope
+[2023-04-29 10:09:39] INFO root fetch - processPackages [CLIbrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clibrary-1.8.1.tar.gz tmp/clibrary-1.9.0.tar.gz --markdown 20230429/C/CLIbrary/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-29 10:09:39] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/72/20/a7370b27e38dd8a6beb55cd3c17eae4673dba009b9d0156c2a1878d794e7/py-Ayiin-0.2.4.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/36/d9/8b8f4f4e7b96d48c417078a0b7c9ea5baf4a35b7eb7497a1679d261a93ef/pyglove-0.3.1.dev20230429.tar.gz
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: executing diffoscope
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymailers-1.0.2.tar.gz tmp/pymailers-1.0.3.tar.gz --markdown 20230429/p/pymailers/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: executing diffoscope
+[2023-04-29 10:09:39] INFO root fetch - processPackages [pymailers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymailers-1.0.2.tar.gz tmp/pymailers-1.0.3.tar.gz --markdown 20230429/p/pymailers/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-29 10:09:39] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2023-04-29 10:09:39] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.2.3.tar.gz tmp/py-Ayiin-0.2.4.tar.gz --markdown 20230429/p/py-Ayiin/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-29 10:09:40] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-04-29 10:09:40] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230428.tar.gz tmp/pyglove-0.3.1.dev20230429.tar.gz --markdown 20230429/p/pyglove/0.3.1.dev20230428-0.3.1.dev20230429/diff.md --exclude *.pyd
+[2023-04-29 10:09:41] INFO root fetch - main [MainThread]: End processing [CLIbrary]: success
+[2023-04-29 10:09:41] INFO root fetch - main [MainThread]: End processing [pymailers]: success
+[2023-04-29 10:09:41] INFO root fetch - main [MainThread]: End processing [pymailers]: success
+[2023-04-29 10:09:42] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-04-29 10:09:42] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2023-04-29 10:09:42] INFO root fetch - main [MainThread]: Store serial: [17907497]
