@@ -4144,3 +4144,45 @@
 [2023-04-29 03:36:01] INFO root fetch - main [MainThread]: End processing [IMDb-Trakt-Syncer]: success
 [2023-04-29 03:36:01] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-04-29 03:36:01] INFO root fetch - main [MainThread]: Store serial: [17905966]
+[2023-04-29 03:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17905966]
+[2023-04-29 03:41:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofscraper
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smart-cell
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pytorch
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IMDbTraktSyncer
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-sphinx
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arabica
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ofscraper]: New version: [1.83] Old Version: [1.82]
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 03:41:10] WARNING root fetch - processPackages [smart-cell]: Skipping, unable to determine old version
+[2023-04-29 03:41:10] WARNING root fetch - processPackages [IMDbTraktSyncer]: Skipping, unable to determine old version
+[2023-04-29 03:41:10] INFO root fetch - main [MainThread]: End processing [smart-cell] error
+[2023-04-29 03:41:10] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer] error
+[2023-04-29 03:41:10] INFO root fetch - processPackages [arabica]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230429/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230429/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230429/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/df/1f/d4474696a071e4e1105111db8db8f8245541ede3c3eef87fdcd56d59274c/ofscraper-1.83.tar.gz
+[2023-04-29 03:41:10] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/3a/9b/e80e55d1a3b97647d51a6491eb6945cece0731990344a191b294d4d511dc/arabica-1.4.7.tar.gz
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-29 03:41:10] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230429/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-04-29 03:41:10] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-1.82.tar.gz tmp/ofscraper-1.83.tar.gz --markdown 20230429/o/ofscraper/1.82-1.83/diff.md --exclude *.pyd
+[2023-04-29 03:41:11] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/eb/2c/d9924a231fecc304e6a72eb04a73a5136990a71c94fdf481f96f0d3612ea/arabica-1.4.8.tar.gz
+[2023-04-29 03:41:11] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-04-29 03:41:11] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.4.7.tar.gz tmp/arabica-1.4.8.tar.gz --markdown 20230429/a/arabica/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-04-29 03:41:11] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-29 03:41:12] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-29 03:41:12] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-29 03:41:12] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-04-29 03:41:13] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-29 03:41:33] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-04-29 03:41:33] INFO root fetch - main [MainThread]: Store serial: [17906001]
