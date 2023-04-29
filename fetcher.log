@@ -5488,3 +5488,21 @@
 [2023-04-29 07:01:02] INFO root fetch - processPackages [trove-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove-classifiers-2023.4.25.tar.gz tmp/trove-classifiers-2023.4.29.tar.gz --markdown 20230429/t/trove-classifiers/2023.4.25-2023.4.29/diff.md --exclude *.pyd
 [2023-04-29 07:01:03] INFO root fetch - main [MainThread]: End processing [trove-classifiers]: success
 [2023-04-29 07:01:03] INFO root fetch - main [MainThread]: Store serial: [17906717]
+[2023-04-29 07:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906717]
+[2023-04-29 07:06:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-29 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-runtime-nightly
+[2023-04-29 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dask-cuda
+[2023-04-29 07:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stitchtoon
+[2023-04-29 07:06:12] WARNING root fetch - processPackages [stitchtoon]: Skipping, unable to determine old version
+[2023-04-29 07:06:12] INFO root fetch - main [MainThread]: End processing [stitchtoon] error
+[2023-04-29 07:06:12] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.13.0.dev20230427] Old Version: [2.13.0.dev20230426]
+[2023-04-29 07:06:12] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230428] Old Version: [23.6.0a230425]
+[2023-04-29 07:06:12] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/39/24/86c947562cbbbc283f93a68e81a6b0fc2f8235ac59aac904168cf4e6977d/tflite_runtime_nightly-2.13.0.dev20230427-cp39-cp39-manylinux2014_x86_64.whl
+[2023-04-29 07:06:12] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/82/72/9c44dc9dc8fe9392668c9ef25111f9322536d62505432eb5db484889b033/dask-cuda-23.6.0a230428.tar.gz
+[2023-04-29 07:06:12] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-04-29 07:06:12] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230425.tar.gz tmp/dask-cuda-23.6.0a230428.tar.gz --markdown 20230429/d/dask-cuda/23.6.0a230425-23.6.0a230428/diff.md --exclude *.pyd
+[2023-04-29 07:06:13] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-04-29 07:06:13] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.13.0.dev20230426-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.13.0.dev20230427-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230429/t/tflite-runtime-nightly/2.13.0.dev20230426-2.13.0.dev20230427/diff.md --exclude *.pyd
+[2023-04-29 07:06:13] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-04-29 07:06:14] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-04-29 07:06:14] INFO root fetch - main [MainThread]: Store serial: [17906736]
