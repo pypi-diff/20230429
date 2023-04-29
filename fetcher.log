@@ -11580,3 +11580,61 @@
 [2023-04-29 18:47:09] INFO root fetch - main [MainThread]: End processing [PyFunceble-dev]: success
 [2023-04-29 18:49:00] INFO root fetch - main [MainThread]: End processing [pin]: success
 [2023-04-29 18:49:00] INFO root fetch - main [MainThread]: Store serial: [17910833]
+[2023-04-29 18:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910833]
+[2023-04-29 18:54:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdup
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audioldm-eval
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: powerhub
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: malla
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xiot
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-agent
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adsystemaiogram
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: classy-imaginary
+[2023-04-29 18:54:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Vulncapture
+[2023-04-29 18:54:30] INFO root fetch - processPackages [mdup]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-04-29 18:54:30] INFO root fetch - processPackages [powerhub]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-29 18:54:30] WARNING root fetch - processPackages [audioldm-eval]: Skipping, unable to determine old version
+[2023-04-29 18:54:30] INFO root fetch - main [MainThread]: End processing [audioldm-eval] error
+[2023-04-29 18:54:30] INFO root fetch - processPackages [malla]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-29 18:54:30] WARNING root fetch - processPackages [Vulncapture]: Skipping, unable to determine old version
+[2023-04-29 18:54:30] INFO root fetch - main [MainThread]: End processing [Vulncapture] error
+[2023-04-29 18:54:30] WARNING root fetch - processPackages [adsystemaiogram]: Skipping, unable to determine old version
+[2023-04-29 18:54:30] INFO root fetch - processPackages [xiot]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-04-29 18:54:30] INFO root fetch - main [MainThread]: End processing [adsystemaiogram] error
+[2023-04-29 18:54:30] INFO root fetch - processPackages [classy-imaginary]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-04-29 18:54:30] INFO root fetch - processPackages [xia-agent]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 18:54:30] INFO root fetch - processPackages [kcli]: New version: [99.0.202304291647] Old Version: [99.0.202304290919]
+[2023-04-29 18:54:30] INFO root fetch - processPackages [powerhub]: Downloading https://files.pythonhosted.org/packages/10/f6/0345b82d34eb4dac7dcfd484eada0705176f20136110563639d8cc9cdfab/powerhub-2.0.4.tar.gz
+[2023-04-29 18:54:30] INFO root fetch - processPackages [malla]: Downloading https://files.pythonhosted.org/packages/72/8c/a55103730595a7ed9171c13b09bbc9fb16ca0c4f7c7997b360efd861073b/malla-0.1.3.tar.gz
+[2023-04-29 18:54:30] INFO root fetch - processPackages [xiot]: Downloading https://files.pythonhosted.org/packages/81/ba/edbc4330abf8e478ef14e6eb68941c51ebb57194feadcf88ce0172bc3426/xiot-1.7.2.tar.gz
+[2023-04-29 18:54:30] INFO root fetch - processPackages [classy-imaginary]: Downloading https://files.pythonhosted.org/packages/ef/80/ae86cb7ec16db567d9a0487ba7ebee7ec742c4e0b62ba6b311fc3fbf93e6/classy_imaginary-0.5.6.tar.gz
+[2023-04-29 18:54:30] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/b7/f3/8f2a61002300c1d7d2acb5d3af23a150951b1053cfbc9ff0b409593b1dfa/xia_agent-0.1.0-cp39-none-win_amd64.whl
+[2023-04-29 18:54:30] INFO root fetch - processPackages [mdup]: Downloading https://files.pythonhosted.org/packages/f7/f8/a6561e00c6fd8ec291ef0b355e7d11d05d9c8295538ea638c1e9070ff292/mdup-0.2.3.tar.gz
+[2023-04-29 18:54:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/96/e6/99be8aecdad790b37b014145f91135f4139e6df56244e0639d7b590bb868/kcli-99.0.202304291647-py3-none-any.whl
+[2023-04-29 18:54:30] INFO root fetch - processPackages [malla]: executing diffoscope
+[2023-04-29 18:54:30] INFO root fetch - processPackages [malla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malla-0.1.2.tar.gz tmp/malla-0.1.3.tar.gz --markdown 20230429/m/malla/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-29 18:54:30] INFO root fetch - processPackages [mdup]: executing diffoscope
+[2023-04-29 18:54:30] INFO root fetch - processPackages [mdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdup-0.2.1.tar.gz tmp/mdup-0.2.3.tar.gz --markdown 20230429/m/mdup/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-04-29 18:54:30] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-29 18:54:30] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304290919-py3-none-any.whl.zip tmp/kcli-99.0.202304291647-py3-none-any.whl.zip --markdown 20230429/k/kcli/99.0.202304290919-99.0.202304291647/diff.md --exclude *.pyd
+[2023-04-29 18:54:30] INFO root fetch - processPackages [xia-agent]: Downloading https://files.pythonhosted.org/packages/21/3f/b520cf809129ec6622ae6d1bd8523d91461d9527757697717ddec2da8938/xia_agent-0.1.1-cp39-none-win_amd64.whl
+[2023-04-29 18:54:30] INFO root fetch - processPackages [xiot]: Downloading https://files.pythonhosted.org/packages/37/d9/5409eb095bcf31f4bf0b68cc1095c8cf52d684001c4b82f6e6389474291f/xiot-1.7.3.tar.gz
+[2023-04-29 18:54:31] INFO root fetch - processPackages [xiot]: executing diffoscope
+[2023-04-29 18:54:31] INFO root fetch - processPackages [xiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiot-1.7.2.tar.gz tmp/xiot-1.7.3.tar.gz --markdown 20230429/x/xiot/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-04-29 18:54:31] INFO root fetch - processPackages [xia-agent]: executing diffoscope
+[2023-04-29 18:54:31] INFO root fetch - processPackages [xia-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_agent-0.1.0-cp39-none-win_amd64.whl.zip tmp/xia_agent-0.1.1-cp39-none-win_amd64.whl.zip --markdown 20230429/x/xia-agent/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 18:54:31] INFO root fetch - processPackages [powerhub]: Downloading https://files.pythonhosted.org/packages/2a/c9/ea5d56b3271943da00a2b2e8e4a2a54b522e1244899713df69a68120d22b/powerhub-2.0.5.tar.gz
+[2023-04-29 18:54:31] INFO root fetch - processPackages [powerhub]: executing diffoscope
+[2023-04-29 18:54:31] INFO root fetch - processPackages [powerhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerhub-2.0.4.tar.gz tmp/powerhub-2.0.5.tar.gz --markdown 20230429/p/powerhub/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-29 18:54:31] INFO root fetch - processPackages [classy-imaginary]: Downloading https://files.pythonhosted.org/packages/10/9b/1402ca7d834800a89ef22e31784c1629e22233a75b92db0aa9de49daff16/classy_imaginary-0.5.7.tar.gz
+[2023-04-29 18:54:31] INFO root fetch - main [MainThread]: End processing [malla]: success
+[2023-04-29 18:54:31] INFO root fetch - processPackages [classy-imaginary]: executing diffoscope
+[2023-04-29 18:54:31] INFO root fetch - processPackages [classy-imaginary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classy_imaginary-0.5.6.tar.gz tmp/classy_imaginary-0.5.7.tar.gz --markdown 20230429/c/classy-imaginary/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-04-29 18:54:31] INFO root fetch - main [MainThread]: End processing [mdup]: success
+[2023-04-29 18:54:32] INFO root fetch - main [MainThread]: End processing [xia-agent]: success
+[2023-04-29 18:54:32] INFO root fetch - main [MainThread]: End processing [xiot]: success
+[2023-04-29 18:54:34] INFO root fetch - main [MainThread]: End processing [classy-imaginary]: success
+[2023-04-29 18:54:37] INFO root fetch - main [MainThread]: End processing [powerhub]: success
+[2023-04-29 18:54:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-04-29 18:54:40] INFO root fetch - main [MainThread]: Store serial: [17910869]
