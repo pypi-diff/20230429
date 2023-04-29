@@ -4247,3 +4247,70 @@
 [2023-04-29 03:52:47] INFO root fetch - main [MainThread]: End processing [openram]: success
 [2023-04-29 03:54:24] INFO root fetch - main [MainThread]: End processing [jericho]: success
 [2023-04-29 03:54:24] INFO root fetch - main [MainThread]: Store serial: [17906041]
+[2023-04-29 03:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906041]
+[2023-04-29 03:59:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysnmp-lextudio
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jurebes
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-photography
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IMDbTraktSyncer
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gqylpy-command
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cluster-colors
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gqylpy-ssh
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gqylpy-datastruct
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goxlrutilityapi
+[2023-04-29 03:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: IMDbTraktSyncer
+[2023-04-29 03:59:34] INFO root fetch - processPackages [pysnmp-lextudio]: New version: [5.0.27] Old Version: [5.0.26]
+[2023-04-29 03:59:34] WARNING root fetch - processPackages [wagtail-photography]: Skipping, unable to determine old version
+[2023-04-29 03:59:34] INFO root fetch - processPackages [wagtail-photography]: Start processing: jurebes
+[2023-04-29 03:59:34] INFO root fetch - main [MainThread]: End processing [wagtail-photography] error
+[2023-04-29 03:59:34] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-04-29 03:59:34] INFO root fetch - processPackages [gqylpy-command]: New version: [1.1.1] Old Version: [1.1]
+[2023-04-29 03:59:34] INFO root fetch - processPackages [gqylpy-ssh]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-04-29 03:59:34] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.0.0.dev6] Old Version: [1.0.0.dev5]
+[2023-04-29 03:59:34] WARNING root fetch - processPackages [IMDbTraktSyncer]: Skipping, unable to determine old version
+[2023-04-29 03:59:34] WARNING root fetch - processPackages [IMDbTraktSyncer]: Skipping, unable to determine old version
+[2023-04-29 03:59:34] INFO root fetch - processPackages [cluster-colors]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-29 03:59:34] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer] error
+[2023-04-29 03:59:34] INFO root fetch - processPackages [gqylpy-datastruct]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-04-29 03:59:34] INFO root fetch - main [MainThread]: End processing [IMDbTraktSyncer] error
+[2023-04-29 03:59:34] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-04-29 03:59:34] INFO root fetch - processPackages [pysnmp-lextudio]: Downloading https://files.pythonhosted.org/packages/f0/35/cb74fbc31e3e0e7eba194a4a6a33783e84c6494624dbaee57b5fdaae7f6e/pysnmp_lextudio-5.0.26.tar.gz
+[2023-04-29 03:59:34] INFO root fetch - processPackages [gqylpy-ssh]: Downloading https://files.pythonhosted.org/packages/55/1f/0d2f80aa71f559582555c111c87dae439f42713d4b569f9692de48658964/gqylpy_ssh-1.2.4-py3-none-any.whl
+[2023-04-29 03:59:34] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/3b/fa/23d63f56bd089d0315eb1188321fec2fbce438e0e987570105c6404e1a92/jurebes-0.1.1a8-py3-none-any.whl
+[2023-04-29 03:59:34] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/3b/fa/23d63f56bd089d0315eb1188321fec2fbce438e0e987570105c6404e1a92/jurebes-0.1.1a8-py3-none-any.whl
+[2023-04-29 03:59:34] INFO root fetch - processPackages [goxlrutilityapi]: Downloading https://files.pythonhosted.org/packages/24/bc/a1dffd4114dba2579da739473b944d2998463025237b6f8b835bd348ce70/goxlrutilityapi-1.0.0.dev6.tar.gz
+[2023-04-29 03:59:34] INFO root fetch - processPackages [gqylpy-command]: Downloading https://files.pythonhosted.org/packages/69/63/1e73b82c87b5d18619b4482052cbb9c3d9cbe73ed764c16085925565c8d6/gqylpy_command-1.1.tar.gz
+[2023-04-29 03:59:34] INFO root fetch - processPackages [cluster-colors]: Downloading https://files.pythonhosted.org/packages/46/fe/2e6953ec0189f4219de06abfc2f741c6a576f5f6e44c5737ae8d4ebbbf10/cluster_colors-0.9.1.tar.gz
+[2023-04-29 03:59:34] INFO root fetch - processPackages [gqylpy-datastruct]: Downloading https://files.pythonhosted.org/packages/2c/37/c5cdef525a81d0a85839b41cf42c078932806d47e96a03d803030b7479f0/gqylpy_datastruct-2.2.4-py3-none-any.whl
+[2023-04-29 03:59:35] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-04-29 03:59:35] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.0.0.dev5.tar.gz tmp/goxlrutilityapi-1.0.0.dev6.tar.gz --markdown 20230429/g/goxlrutilityapi/1.0.0.dev5-1.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-29 03:59:35] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/78/7b/6c117d0f2ecb2ad2abb3d964df36a231686ab8288a863785b3a8dc529a83/jurebes-0.1.1a9-py3-none-any.whl
+[2023-04-29 03:59:35] INFO root fetch - processPackages [jurebes]: Downloading https://files.pythonhosted.org/packages/78/7b/6c117d0f2ecb2ad2abb3d964df36a231686ab8288a863785b3a8dc529a83/jurebes-0.1.1a9-py3-none-any.whl
+[2023-04-29 03:59:35] INFO root fetch - processPackages [pysnmp-lextudio]: Downloading https://files.pythonhosted.org/packages/97/ba/fbd4a03b3717114aee89ca3622a781358ab59cf02b033dfea89236e5b418/pysnmp_lextudio-5.0.27.tar.gz
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-ssh]: Downloading https://files.pythonhosted.org/packages/79/a9/eea17dacc1101b1b8190d6a3aa2601257047fefe4ae69e7b20edc8e9ec80/gqylpy_ssh-1.2.5-py3-none-any.whl
+[2023-04-29 03:59:35] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-29 03:59:35] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a8-py3-none-any.whl.zip tmp/jurebes-0.1.1a9-py3-none-any.whl.zip --markdown 20230429/j/jurebes/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-04-29 03:59:35] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-29 03:59:35] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a8-py3-none-any.whl.zip tmp/jurebes-0.1.1a9-py3-none-any.whl.zip --markdown 20230429/j/jurebes/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-datastruct]: Downloading https://files.pythonhosted.org/packages/68/20/93f311ddfa0d520078ef63c4cffc0b3aaadffe9ce7c85a174fc33a9fc162/gqylpy_datastruct-2.2.5-py3-none-any.whl
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-command]: Downloading https://files.pythonhosted.org/packages/43/4d/1f98836963069615463489601494e81e2158822ce396b2265fc957252ca2/gqylpy_command-1.1.1.tar.gz
+[2023-04-29 03:59:35] INFO root fetch - processPackages [cluster-colors]: Downloading https://files.pythonhosted.org/packages/1c/de/bbe5181e6acd248f8ff079545c1e3aa071ac11248eea0e8f09416a57f8da/cluster_colors-0.9.2.tar.gz
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-ssh]: executing diffoscope
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_ssh-1.2.4-py3-none-any.whl.zip tmp/gqylpy_ssh-1.2.5-py3-none-any.whl.zip --markdown 20230429/g/gqylpy-ssh/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-04-29 03:59:35] INFO root fetch - processPackages [pysnmp-lextudio]: executing diffoscope
+[2023-04-29 03:59:35] INFO root fetch - processPackages [pysnmp-lextudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysnmp_lextudio-5.0.26.tar.gz tmp/pysnmp_lextudio-5.0.27.tar.gz --markdown 20230429/p/pysnmp-lextudio/5.0.26-5.0.27/diff.md --exclude *.pyd
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-command]: executing diffoscope
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_command-1.1.tar.gz tmp/gqylpy_command-1.1.1.tar.gz --markdown 20230429/g/gqylpy-command/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-datastruct]: executing diffoscope
+[2023-04-29 03:59:35] INFO root fetch - processPackages [gqylpy-datastruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_datastruct-2.2.4-py3-none-any.whl.zip tmp/gqylpy_datastruct-2.2.5-py3-none-any.whl.zip --markdown 20230429/g/gqylpy-datastruct/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-04-29 03:59:35] INFO root fetch - processPackages [cluster-colors]: executing diffoscope
+[2023-04-29 03:59:35] INFO root fetch - processPackages [cluster-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_colors-0.9.1.tar.gz tmp/cluster_colors-0.9.2.tar.gz --markdown 20230429/c/cluster-colors/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-29 03:59:36] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-04-29 03:59:36] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-29 03:59:36] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-29 03:59:36] INFO root fetch - main [MainThread]: End processing [gqylpy-ssh]: success
+[2023-04-29 03:59:36] INFO root fetch - main [MainThread]: End processing [gqylpy-datastruct]: success
+[2023-04-29 03:59:36] INFO root fetch - main [MainThread]: End processing [gqylpy-command]: success
+[2023-04-29 03:59:37] INFO root fetch - main [MainThread]: End processing [cluster-colors]: success
+[2023-04-29 03:59:38] INFO root fetch - main [MainThread]: End processing [pysnmp-lextudio]: success
+[2023-04-29 03:59:38] INFO root fetch - main [MainThread]: Store serial: [17906075]
