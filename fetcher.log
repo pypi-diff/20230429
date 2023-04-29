@@ -6946,3 +6946,12 @@
 [2023-04-29 10:57:24] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
 [2023-04-29 10:57:25] INFO root fetch - main [MainThread]: End processing [pytorch-optimizer]: success
 [2023-04-29 10:57:25] INFO root fetch - main [MainThread]: Store serial: [17907664]
+[2023-04-29 11:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907664]
+[2023-04-29 11:02:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-04-29 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyaipersonality
+[2023-04-29 11:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aazzxx
+[2023-04-29 11:02:34] WARNING root fetch - processPackages [pyaipersonality]: Skipping, unable to determine old version
+[2023-04-29 11:02:34] INFO root fetch - main [MainThread]: End processing [pyaipersonality] error
+[2023-04-29 11:02:34] WARNING root fetch - processPackages [aazzxx]: Skipping, unable to determine old version
+[2023-04-29 11:02:34] INFO root fetch - main [MainThread]: End processing [aazzxx] error
+[2023-04-29 11:02:34] INFO root fetch - main [MainThread]: Store serial: [17907675]
