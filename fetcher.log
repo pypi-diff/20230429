@@ -5380,3 +5380,78 @@
 [2023-04-29 06:45:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-reverse-charge]: success
 [2023-04-29 06:45:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-fatturapa-out]: success
 [2023-04-29 06:45:21] INFO root fetch - main [MainThread]: Store serial: [17906651]
+[2023-04-29 06:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906651]
+[2023-04-29 06:50:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mage-ai
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qq.py
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-it-withholding-tax
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calicode
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addons-oca-l10n-italy
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylabel
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-l10n-it-withholding-tax
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nodered.py
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-universal-paginator
+[2023-04-29 06:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotbox
+[2023-04-29 06:50:31] WARNING root fetch - processPackages [calicode]: Skipping, unable to determine old version
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: New version: [14.0.20230428.0] Old Version: [14.0.20230407.0]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [calicode]: Start processing: tuneflow-devkit-py
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: New version: [16.0.1.1.1.3] Old Version: [16.0.1.1.1.2]
+[2023-04-29 06:50:31] INFO root fetch - main [MainThread]: End processing [calicode] error
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax]: New version: [14.0.1.1.4.dev6] Old Version: [14.0.1.1.4.dev5]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [qq.py]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [hotbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [django-universal-paginator]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [nodered.py]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [pylabel]: New version: [0.1a12] Old Version: [0.1.9]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [tuneflow-devkit-py]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-04-29 06:50:31] INFO root fetch - processPackages [hotbox]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [hotbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotbox-0.0.8.tar.gz tmp/hotbox-0.0.9.tar.gz --markdown 20230429/h/hotbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/ea/e0/112511deebf2f68fab366f2aa8d88fb83805f7edc331f41eccc307c4a3d3/nodered.py-0.1.0.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/68/0f/f3f7358b03d4933dd095a7b9071186b82664a5d784fe437d7e7d158850fd/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.2-py3-none-any.whl
+[2023-04-29 06:50:31] INFO root fetch - processPackages [pylabel]: Downloading https://files.pythonhosted.org/packages/72/a5/98b5111370df7ce6263ebbe58d4637317f6b6910a0416ba5247c7d597dcf/pylabel-0.1.9.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/d9/7c/9b60e13270ec66fe7d7026afd4b3298360862718facede575930b607f474/odoo14_addon_l10n_it_withholding_tax-14.0.1.1.4.dev5-py3-none-any.whl
+[2023-04-29 06:50:31] INFO root fetch - processPackages [django-universal-paginator]: Downloading https://files.pythonhosted.org/packages/f8/b5/398b857c20ecc8cd8dd1c1261af6c7116ae727e57008a548391c5f706bf7/django_universal_paginator-1.2.0.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/e2/00/6aa5441f28e9b9eb932c72db7c79def419e3746d1a047966b2265b384526/odoo14_addons_oca_l10n_italy-14.0.20230407.0-py3-none-any.whl
+[2023-04-29 06:50:31] INFO root fetch - processPackages [qq.py]: Downloading https://files.pythonhosted.org/packages/1a/38/f28f558411bd2c03273daf9c886f06f76f841f5e011cfeb2ed59d75f3db2/qq.py-1.2.7.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [tuneflow-devkit-py]: Downloading https://files.pythonhosted.org/packages/d8/f6/e8330ecd8d9c2520ae1f8c252318f7f5ffeaeb6535b7f54ad3bed349727a/tuneflow-devkit-py-0.6.0.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230429/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/8c/f5/fb4b331cb30e66f65e02835086d51700988b2333ccfe71e3a5c318371fce/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.3-py3-none-any.whl
+[2023-04-29 06:50:31] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/45/c9/0f57cf6f1e523079169334b5a08bcfad5a3c5b6f2d0dd826242556c78ad0/nodered.py-0.1.1.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [tuneflow-devkit-py]: Downloading https://files.pythonhosted.org/packages/1c/4b/77b0ce904f9d8730e799f381c730d82a4965b281e66caf83065482f873a9/tuneflow-devkit-py-0.7.0.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/bb/c0/371d7d0878d03d777d9083da0e458ddb92d65f2786c5b3d874e1724618f5/odoo14_addons_oca_l10n_italy-14.0.20230428.0-py3-none-any.whl
+[2023-04-29 06:50:31] INFO root fetch - processPackages [nodered.py]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/33/7a/a819cb86ab3570bac5ee899a2d8b7c3c844cee8cefbc8ac94acc81410e46/odoo14_addon_l10n_it_withholding_tax-14.0.1.1.4.dev6-py3-none-any.whl
+[2023-04-29 06:50:31] INFO root fetch - processPackages [nodered.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodered.py-0.1.0.tar.gz tmp/nodered.py-0.1.1.tar.gz --markdown 20230429/n/nodered.py/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [django-universal-paginator]: Downloading https://files.pythonhosted.org/packages/1d/ca/906ea30ed0e1ee5f97f4865fcae9756f9ac708a0c42d8965a72e9c80b8ee/django_universal_paginator-1.3.0.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [tuneflow-devkit-py]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [tuneflow-devkit-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneflow-devkit-py-0.6.0.tar.gz tmp/tuneflow-devkit-py-0.7.0.tar.gz --markdown 20230429/t/tuneflow-devkit-py/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_withholding_tax-16.0.1.1.1.3-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-l10n-it-withholding-tax/16.0.1.1.1.2-16.0.1.1.1.3/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [qq.py]: Downloading https://files.pythonhosted.org/packages/0a/d9/8a472afa91013ce6bfe61b225d088b676508a5c2bc19dea28be199bbadd1/qq.py-1.2.8.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [pylabel]: Downloading https://files.pythonhosted.org/packages/05/6a/002b3a9216c113eead172a41914d74e6b73a7f5a9d7e8675195698e22079/pylabel-0.1a12.tar.gz
+[2023-04-29 06:50:31] INFO root fetch - processPackages [django-universal-paginator]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [django-universal-paginator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_universal_paginator-1.2.0.tar.gz tmp/django_universal_paginator-1.3.0.tar.gz --markdown 20230429/d/django-universal-paginator/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_italy-14.0.20230407.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_italy-14.0.20230428.0-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addons-oca-l10n-italy/14.0.20230407.0-14.0.20230428.0/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [odoo14-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_withholding_tax-14.0.1.1.4.dev5-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_withholding_tax-14.0.1.1.4.dev6-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addon-l10n-it-withholding-tax/14.0.1.1.4.dev5-14.0.1.1.4.dev6/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [pylabel]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [qq.py]: executing diffoscope
+[2023-04-29 06:50:31] INFO root fetch - processPackages [pylabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylabel-0.1.9.tar.gz tmp/pylabel-0.1a12.tar.gz --markdown 20230429/p/pylabel/0.1.9-0.1a12/diff.md --exclude *.pyd
+[2023-04-29 06:50:31] INFO root fetch - processPackages [qq.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qq.py-1.2.7.tar.gz tmp/qq.py-1.2.8.tar.gz --markdown 20230429/q/qq.py/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-04-29 06:50:32] INFO root fetch - processPackages [hotbox]: Start processing: SqrtS
+[2023-04-29 06:50:32] INFO root fetch - main [MainThread]: End processing [hotbox]: success
+[2023-04-29 06:50:32] WARNING root fetch - processPackages [SqrtS]: Skipping, unable to determine old version
+[2023-04-29 06:50:32] INFO root fetch - main [MainThread]: End processing [SqrtS] error
+[2023-04-29 06:50:33] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-italy]: success
+[2023-04-29 06:50:33] INFO root fetch - main [MainThread]: End processing [django-universal-paginator]: success
+[2023-04-29 06:50:33] INFO root fetch - main [MainThread]: End processing [pylabel]: success
+[2023-04-29 06:50:33] INFO root fetch - main [MainThread]: End processing [tuneflow-devkit-py]: success
+[2023-04-29 06:50:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-withholding-tax]: success
+[2023-04-29 06:50:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-withholding-tax]: success
+[2023-04-29 06:50:33] INFO root fetch - main [MainThread]: End processing [nodered.py]: success
+[2023-04-29 06:50:35] INFO root fetch - main [MainThread]: End processing [qq.py]: success
+[2023-04-29 06:50:42] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-04-29 06:50:42] INFO root fetch - main [MainThread]: Store serial: [17906696]
