@@ -8883,3 +8883,69 @@
 [2023-04-29 14:19:16] INFO root fetch - main [MainThread]: End processing [cryptoparser]: success
 [2023-04-29 14:19:17] INFO root fetch - main [MainThread]: End processing [ovos-plugin-manager]: success
 [2023-04-29 14:19:17] INFO root fetch - main [MainThread]: Store serial: [17908920]
+[2023-04-29 14:24:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908920]
+[2023-04-29 14:24:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TsProject
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turbo-chat
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algokit-utils
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ProjZ.py
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pybet
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrefact
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tryexcept-decorator
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plugwise
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ASCIIcli
+[2023-04-29 14:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-04-29 14:24:26] INFO root fetch - processPackages [pybet]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [TsProject]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: New version: [2.3.1] Old Version: [1.8.3]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [turbo-chat]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [pyrefact]: New version: [9] Old Version: [8]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230428.23.45.535557] Old Version: [20230428.21.49.673454]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [tryexcept-decorator]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/f1/e8/7fa69fe6a62d10ab8816090cc9f6b9f5d51068edbd5064db0b4ff847501f/certora-cli-alpha-master-20230428.21.49.673454.tar.gz
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ASCIIcli]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [tryexcept-decorator]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [tryexcept-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryexcept-decorator-0.1.3.tar.gz tmp/tryexcept-decorator-0.1.4.tar.gz --markdown 20230429/t/tryexcept-decorator/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] INFO root fetch - processPackages [pyrefact]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [pyrefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefact-8.tar.gz tmp/pyrefact-9.tar.gz --markdown 20230429/p/pyrefact/8-9/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38009369>=10485760
+[2023-04-29 14:24:26] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: ProjZ.py
+[2023-04-29 14:24:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-04-29 14:24:26] INFO root fetch - processPackages [turbo-chat]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [turbo-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_chat-0.3.8.tar.gz tmp/turbo_chat-0.3.9.tar.gz --markdown 20230429/t/turbo-chat/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-04-29 14:24:26] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/3c/b2/bf454f75c7a3939c20fc3994e8b37bf8bd4843585c4631df983b79863137/algokit_utils-1.1.0b2-py3-none-any.whl
+[2023-04-29 14:24:26] INFO root fetch - processPackages [TsProject]: Downloading https://files.pythonhosted.org/packages/22/a0/d27b59cf585fd42353b2e8f3e1c8f0c5e9aa515e44df37c8b9f4045ef492/TsProject-1.0.5.tar.gz
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/e0/9a/b58d0d7e5a7259bf1e2dad109a53d91e19373f3567f2d5127f42a210d505/ProjZ.py-1.8.3.tar.gz
+[2023-04-29 14:24:26] INFO root fetch - processPackages [TsProject]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [TsProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsProject-1.0.4.tar.gz tmp/TsProject-1.0.5.tar.gz --markdown 20230429/T/TsProject/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] INFO root fetch - processPackages [pybet]: Downloading https://files.pythonhosted.org/packages/76/e4/8a056c0d233d8efc96378436daacb98c9ef45b7d198fc5867a5966a61b7c/pybet-0.6.0.tar.gz
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/f9/04/18e07737aa662fe9d56093758b03d250a1b3f5952e76e708ea02f4ac6fcb/ProjZ.py-2.3.1.tar.gz
+[2023-04-29 14:24:26] INFO root fetch - processPackages [pybet]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [pybet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybet-0.5.0.tar.gz tmp/pybet-0.6.0.tar.gz --markdown 20230429/p/pybet/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-1.8.3.tar.gz tmp/ProjZ.py-2.3.1.tar.gz --markdown 20230429/P/ProjZ.py/1.8.3-2.3.1/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ASCIIcli]: Downloading https://files.pythonhosted.org/packages/2b/64/edbbf389e20ec1978a7d7971f8e8e417c1f82097e785bd20df85fc76ad8e/ASCIIcli-0.1.0.tar.gz
+[2023-04-29 14:24:26] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/2f/cb/7f9f06d643d6c48021cc09a982b010ff2843b5890d06041dad13b42f21d1/algokit_utils-1.1.0b3-py3-none-any.whl
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/bb/d5/5349c2f0d640ee58f4e834786e3a969da502bb94e53454e4bf29f6b9cdef/ProjZ.py-2.3.2.tar.gz
+[2023-04-29 14:24:26] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230429/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ASCIIcli]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ASCIIcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ASCIIcli-0.0.9.tar.gz tmp/ASCIIcli-0.1.0.tar.gz --markdown 20230429/A/ASCIIcli/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.1.0b2-py3-none-any.whl.zip tmp/algokit_utils-1.1.0b3-py3-none-any.whl.zip --markdown 20230429/a/algokit-utils/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 14:24:26] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.3.1.tar.gz tmp/ProjZ.py-2.3.2.tar.gz --markdown 20230429/P/ProjZ.py/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-04-29 14:24:27] INFO root fetch - main [MainThread]: End processing [tryexcept-decorator]: success
+[2023-04-29 14:24:27] INFO root fetch - main [MainThread]: End processing [TsProject]: success
+[2023-04-29 14:24:27] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 14:24:27] INFO root fetch - main [MainThread]: End processing [pyrefact]: success
+[2023-04-29 14:24:28] INFO root fetch - main [MainThread]: End processing [pybet]: success
+[2023-04-29 14:24:28] INFO root fetch - main [MainThread]: End processing [ASCIIcli]: success
+[2023-04-29 14:24:28] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 14:24:28] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-04-29 14:24:29] INFO root fetch - main [MainThread]: End processing [turbo-chat]: success
+[2023-04-29 14:24:29] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-04-29 14:24:29] INFO root fetch - main [MainThread]: Store serial: [17908948]
