@@ -1,0 +1,454 @@
+# Comparing `tmp/pymailers-1.1.5.tar.gz` & `tmp/pymailers-1.1.6.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "pymailers-1.1.5.tar", last modified: Sat Apr 29 14:12:08 2023, max compression
++gzip compressed data, was "pymailers-1.1.6.tar", last modified: Sat Apr 29 14:38:40 2023, max compression
+```
+
+## Comparing `pymailers-1.1.5.tar` & `pymailers-1.1.6.tar`
+
+### file list
+
+```diff
+@@ -1,13 +1,13 @@
+-drwxrwx---   0 root         (0) permagrp2  (9997)        0 2023-04-29 14:12:08.260001 pymailers-1.1.5/
+--rw-rw----   0 root         (0) permagrp2  (9997)     2229 2023-04-29 14:12:08.244001 pymailers-1.1.5/PKG-INFO
+--rw-rw----   0 root         (0) permagrp2  (9997)     1107 2023-04-29 13:19:31.000000 pymailers-1.1.5/README.md
+-drwxrwx---   0 root         (0) permagrp2  (9997)        0 2023-04-29 14:12:08.108000 pymailers-1.1.5/pymailers/
+--rw-rw----   0 root         (0) permagrp2  (9997)     1749 2023-04-29 14:06:03.000000 pymailers-1.1.5/pymailers/PyMailer.py
+--rw-rw----   0 root         (0) permagrp2  (9997)        0 2023-04-29 13:19:31.000000 pymailers-1.1.5/pymailers/__init__.py
+-drwxrwx---   0 root         (0) permagrp2  (9997)        0 2023-04-29 14:12:08.224001 pymailers-1.1.5/pymailers.egg-info/
+--rw-rw----   0 root         (0) permagrp2  (9997)     2229 2023-04-29 14:12:07.000000 pymailers-1.1.5/pymailers.egg-info/PKG-INFO
+--rw-rw----   0 root         (0) permagrp2  (9997)      194 2023-04-29 14:12:07.000000 pymailers-1.1.5/pymailers.egg-info/SOURCES.txt
+--rw-rw----   0 root         (0) permagrp2  (9997)        1 2023-04-29 14:12:07.000000 pymailers-1.1.5/pymailers.egg-info/dependency_links.txt
+--rw-rw----   0 root         (0) permagrp2  (9997)       10 2023-04-29 14:12:07.000000 pymailers-1.1.5/pymailers.egg-info/top_level.txt
+--rw-rw----   0 root         (0) permagrp2  (9997)       38 2023-04-29 14:12:08.260001 pymailers-1.1.5/setup.cfg
+--rw-rw----   0 root         (0) permagrp2  (9997)     1034 2023-04-29 14:07:57.000000 pymailers-1.1.5/setup.py
++drwxrwx---   0 root         (0) permagrp2  (9997)        0 2023-04-29 14:38:40.760001 pymailers-1.1.6/
++-rw-rw----   0 root         (0) permagrp2  (9997)     2211 2023-04-29 14:38:40.744001 pymailers-1.1.6/PKG-INFO
++-rw-rw----   0 root         (0) permagrp2  (9997)     1089 2023-04-29 14:35:59.000000 pymailers-1.1.6/README.md
++drwxrwx---   0 root         (0) permagrp2  (9997)        0 2023-04-29 14:38:40.600000 pymailers-1.1.6/pymailers/
++-rw-rw----   0 root         (0) permagrp2  (9997)     1749 2023-04-29 14:06:03.000000 pymailers-1.1.6/pymailers/PyMailer.py
++-rw-rw----   0 root         (0) permagrp2  (9997)        0 2023-04-29 13:19:31.000000 pymailers-1.1.6/pymailers/__init__.py
++drwxrwx---   0 root         (0) permagrp2  (9997)        0 2023-04-29 14:38:40.720001 pymailers-1.1.6/pymailers.egg-info/
++-rw-rw----   0 root         (0) permagrp2  (9997)     2211 2023-04-29 14:38:39.000000 pymailers-1.1.6/pymailers.egg-info/PKG-INFO
++-rw-rw----   0 root         (0) permagrp2  (9997)      194 2023-04-29 14:38:40.000000 pymailers-1.1.6/pymailers.egg-info/SOURCES.txt
++-rw-rw----   0 root         (0) permagrp2  (9997)        1 2023-04-29 14:38:39.000000 pymailers-1.1.6/pymailers.egg-info/dependency_links.txt
++-rw-rw----   0 root         (0) permagrp2  (9997)       10 2023-04-29 14:38:39.000000 pymailers-1.1.6/pymailers.egg-info/top_level.txt
++-rw-rw----   0 root         (0) permagrp2  (9997)       38 2023-04-29 14:38:40.760001 pymailers-1.1.6/setup.cfg
++-rw-rw----   0 root         (0) permagrp2  (9997)     1034 2023-04-29 14:37:08.000000 pymailers-1.1.6/setup.py
+```
+
+### Comparing `pymailers-1.1.5/PKG-INFO` & `pymailers-1.1.6/PKG-INFO`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310a 4e61 6d65 3a20 7079 6d61  : 2.1.Name: pyma
+ 00000020: 696c 6572 730a 5665 7273 696f 6e3a 2031  ilers.Version: 1
+-00000030: 2e31 2e35 0a53 756d 6d61 7279 3a20 5468  .1.5.Summary: Th
++00000030: 2e31 2e36 0a53 756d 6d61 7279 3a20 5468  .1.6.Summary: Th
+ 00000040: 6520 636c 6173 7369 6320 656d 6169 6c20  e classic email 
+ 00000050: 7365 6e64 696e 6720 6c69 6272 6172 7920  sending library 
+ 00000060: 666f 7220 5079 7468 6f6e 2e0a 486f 6d65  for Python..Home
+ 00000070: 2d70 6167 653a 2068 7474 7073 3a2f 2f67  -page: https://g
+ 00000080: 6974 6875 622e 636f 6d2f 7269 6f61 6775  ithub.com/rioagu
+ 00000090: 6e67 7075 726e 6f6d 6f2f 7079 6d61 696c  ngpurnomo/pymail
+ 000000a0: 6572 730a 4175 7468 6f72 3a20 5269 6f20  ers.Author: Rio 
+@@ -69,72 +69,71 @@
+ 00000440: 2020 2020 2020 2020 2020 2764 6973 706c            'displ
+ 00000450: 6179 273a 2054 7275 650a 2020 2020 2020  ay': True.      
+ 00000460: 2020 7d29 0a20 2020 2020 2020 200a 2020    }).        .  
+ 00000470: 2020 2020 2020 7079 6d61 696c 6572 2e73        pymailer.s
+ 00000480: 656e 6428 290a 2020 2020 2020 2020 6060  end().        ``
+ 00000490: 600a 2020 2020 2020 2020 0a20 2020 2020  `.        .     
+ 000004a0: 2020 2023 2320 446f 6e61 7465 0a20 2020     ## Donate.   
+-000004b0: 2020 2020 2048 656c 7020 6d65 2074 6f20       Help me to 
+-000004c0: 6275 7920 6120 6c61 7074 6f70 2062 6563  buy a laptop bec
+-000004d0: 6175 7365 206d 7920 6c61 7074 6f70 2069  ause my laptop i
+-000004e0: 7320 6272 6f6b 656e 2061 6e64 2049 2064  s broken and I d
+-000004f0: 6f6e 2774 2068 6176 6520 6120 6c61 7074  on't have a lapt
+-00000500: 6f70 2c20 4920 6f6e 6c79 2075 7365 2061  op, I only use a
+-00000510: 6e20 416e 6472 6f69 6420 7068 6f6e 6520  n Android phone 
+-00000520: 746f 206d 616b 6520 776f 726b 7320 6c69  to make works li
+-00000530: 6b65 2074 6869 7320 6576 656e 2074 686f  ke this even tho
+-00000540: 7567 6820 6974 2773 2064 6966 6669 6375  ugh it's difficu
+-00000550: 6c74 2c20 796f 7572 2068 656c 7020 616e  lt, your help an
+-00000560: 6420 646f 6e61 7469 6f6e 7320 6172 6520  d donations are 
+-00000570: 6120 6772 6561 7420 656e 636f 7572 6167  a great encourag
+-00000580: 656d 656e 7420 666f 7220 6d65 2074 6f20  ement for me to 
+-00000590: 636f 6e74 696e 7565 2077 6f72 6b69 6e67  continue working
+-000005a0: 2e0a 2020 2020 2020 2020 0a20 2020 2020  ..        .     
+-000005b0: 2020 204c 696e 6b20 3a20 2a2a 5b44 6f6e     Link : **[Don
+-000005c0: 6174 655d 2868 7474 7073 3a2f 2f74 7261  ate](https://tra
+-000005d0: 6b74 6565 722e 6964 2f72 696f 6167 756e  kteer.id/rioagun
+-000005e0: 6770 7572 6e6f 6d6f 292a 2a0a 2020 2020  gpurnomo)**.    
+-000005f0: 2020 2020 0a20 2020 2020 2020 2023 2320      .        ## 
+-00000600: 436f 6e74 6163 7420 6d65 0a20 2020 2020  Contact me.     
+-00000610: 2020 2043 6f6e 7461 6374 206d 6520 7669     Contact me vi
+-00000620: 6120 656d 6169 6c3a 2072 696f 6167 756e  a email: rioagun
+-00000630: 6770 7572 6e6f 6d6f 2e61 6b40 676d 6169  gpurnomo.ak@gmai
+-00000640: 6c2e 636f 6d2c 2049 276d 2077 6169 7469  l.com, I'm waiti
+-00000650: 6e67 2066 6f72 2079 6f75 7220 696e 7075  ng for your inpu
+-00000660: 7420 6f72 2073 7567 6765 7374 696f 6e73  t or suggestions
+-00000670: 2e0a 2020 2020 2020 2020 0a50 6c61 7466  ..        .Platf
+-00000680: 6f72 6d3a 2055 4e4b 4e4f 574e 0a43 6c61  orm: UNKNOWN.Cla
+-00000690: 7373 6966 6965 723a 2044 6576 656c 6f70  ssifier: Develop
+-000006a0: 6d65 6e74 2053 7461 7475 7320 3a3a 2033  ment Status :: 3
+-000006b0: 202d 2041 6c70 6861 0a43 6c61 7373 6966   - Alpha.Classif
+-000006c0: 6965 723a 2049 6e74 656e 6465 6420 4175  ier: Intended Au
+-000006d0: 6469 656e 6365 203a 3a20 4465 7665 6c6f  dience :: Develo
+-000006e0: 7065 7273 0a43 6c61 7373 6966 6965 723a  pers.Classifier:
+-000006f0: 204c 6963 656e 7365 203a 3a20 4f53 4920   License :: OSI 
+-00000700: 4170 7072 6f76 6564 203a 3a20 4d49 5420  Approved :: MIT 
+-00000710: 4c69 6365 6e73 650a 436c 6173 7369 6669  License.Classifi
+-00000720: 6572 3a20 5072 6f67 7261 6d6d 696e 6720  er: Programming 
+-00000730: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
+-00000740: 6f6e 203a 3a20 330a 436c 6173 7369 6669  on :: 3.Classifi
+-00000750: 6572 3a20 5072 6f67 7261 6d6d 696e 6720  er: Programming 
+-00000760: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
+-00000770: 6f6e 203a 3a20 332e 360a 436c 6173 7369  on :: 3.6.Classi
+-00000780: 6669 6572 3a20 5072 6f67 7261 6d6d 696e  fier: Programmin
+-00000790: 6720 4c61 6e67 7561 6765 203a 3a20 5079  g Language :: Py
+-000007a0: 7468 6f6e 203a 3a20 332e 370a 436c 6173  thon :: 3.7.Clas
+-000007b0: 7369 6669 6572 3a20 5072 6f67 7261 6d6d  sifier: Programm
+-000007c0: 696e 6720 4c61 6e67 7561 6765 203a 3a20  ing Language :: 
+-000007d0: 5079 7468 6f6e 203a 3a20 332e 380a 436c  Python :: 3.8.Cl
+-000007e0: 6173 7369 6669 6572 3a20 5072 6f67 7261  assifier: Progra
+-000007f0: 6d6d 696e 6720 4c61 6e67 7561 6765 203a  mming Language :
+-00000800: 3a20 5079 7468 6f6e 203a 3a20 332e 390a  : Python :: 3.9.
+-00000810: 436c 6173 7369 6669 6572 3a20 5072 6f67  Classifier: Prog
+-00000820: 7261 6d6d 696e 6720 4c61 6e67 7561 6765  ramming Language
+-00000830: 203a 3a20 5079 7468 6f6e 203a 3a20 332e   :: Python :: 3.
+-00000840: 3130 0a43 6c61 7373 6966 6965 723a 2050  10.Classifier: P
+-00000850: 726f 6772 616d 6d69 6e67 204c 616e 6775  rogramming Langu
+-00000860: 6167 6520 3a3a 2050 7974 686f 6e20 3a3a  age :: Python ::
+-00000870: 2033 2e31 310a 5265 7175 6972 6573 2d50   3.11.Requires-P
+-00000880: 7974 686f 6e3a 203e 3d33 2e36 0a44 6573  ython: >=3.6.Des
+-00000890: 6372 6970 7469 6f6e 2d43 6f6e 7465 6e74  cription-Content
+-000008a0: 2d54 7970 653a 2074 6578 742f 6d61 726b  -Type: text/mark
+-000008b0: 646f 776e 0a                             down.
++000004b0: 2020 2020 203c 6120 6872 6566 3d22 6874       <a href="ht
++000004c0: 7470 733a 2f2f 7472 616b 7465 6572 2e69  tps://trakteer.i
++000004d0: 642f 7269 6f61 6775 6e67 7075 726e 6f6d  d/rioagungpurnom
++000004e0: 6f22 2074 6172 6765 743d 225f 626c 616e  o" target="_blan
++000004f0: 6b22 3e3c 696d 6720 6964 3d22 7773 652d  k"><img id="wse-
++00000500: 6275 7474 6f6e 732d 7072 6576 6965 7722  buttons-preview"
++00000510: 2073 7263 3d22 6874 7470 733a 2f2f 6364   src="https://cd
++00000520: 6e2e 7472 616b 7465 6572 2e69 642f 696d  n.trakteer.id/im
++00000530: 6167 6573 2f65 6d62 6564 2f74 7262 746e  ages/embed/trbtn
++00000540: 2d72 6564 2d36 2e70 6e67 2220 6865 6967  -red-6.png" heig
++00000550: 6874 3d22 3430 2220 7374 796c 653d 2262  ht="40" style="b
++00000560: 6f72 6465 723a 3070 783b 6865 6967 6874  order:0px;height
++00000570: 3a34 3070 783b 2220 616c 743d 2254 7261  :40px;" alt="Tra
++00000580: 6b74 6565 7220 5361 7961 223e 3c2f 613e  kteer Saya"></a>
++00000590: 0a20 2020 2020 2020 200a 2020 2020 2020  .        .      
++000005a0: 2020 5061 7970 616c 203a 202a 2a5b 5375    Paypal : **[Su
++000005b0: 7070 6f72 7420 6d65 5d28 6874 7470 733a  pport me](https:
++000005c0: 2f2f 7777 772e 7061 7970 616c 2e6d 652f  //www.paypal.me/
++000005d0: 5269 6f44 6576 292a 2a0a 2020 2020 2020  RioDev)**.      
++000005e0: 2020 0a20 2020 2020 2020 2023 2320 436f    .        ## Co
++000005f0: 6e74 6163 7420 6d65 0a20 2020 2020 2020  ntact me.       
++00000600: 2043 6f6e 7461 6374 206d 6520 7669 6120   Contact me via 
++00000610: 656d 6169 6c3a 2072 696f 6167 756e 6770  email: rioagungp
++00000620: 7572 6e6f 6d6f 2e61 6b40 676d 6169 6c2e  urnomo.ak@gmail.
++00000630: 636f 6d2c 2049 276d 2077 6169 7469 6e67  com, I'm waiting
++00000640: 2066 6f72 2079 6f75 7220 696e 7075 7420   for your input 
++00000650: 6f72 2073 7567 6765 7374 696f 6e73 2e0a  or suggestions..
++00000660: 2020 2020 2020 2020 0a50 6c61 7466 6f72          .Platfor
++00000670: 6d3a 2055 4e4b 4e4f 574e 0a43 6c61 7373  m: UNKNOWN.Class
++00000680: 6966 6965 723a 2044 6576 656c 6f70 6d65  ifier: Developme
++00000690: 6e74 2053 7461 7475 7320 3a3a 2033 202d  nt Status :: 3 -
++000006a0: 2041 6c70 6861 0a43 6c61 7373 6966 6965   Alpha.Classifie
++000006b0: 723a 2049 6e74 656e 6465 6420 4175 6469  r: Intended Audi
++000006c0: 656e 6365 203a 3a20 4465 7665 6c6f 7065  ence :: Develope
++000006d0: 7273 0a43 6c61 7373 6966 6965 723a 204c  rs.Classifier: L
++000006e0: 6963 656e 7365 203a 3a20 4f53 4920 4170  icense :: OSI Ap
++000006f0: 7072 6f76 6564 203a 3a20 4d49 5420 4c69  proved :: MIT Li
++00000700: 6365 6e73 650a 436c 6173 7369 6669 6572  cense.Classifier
++00000710: 3a20 5072 6f67 7261 6d6d 696e 6720 4c61  : Programming La
++00000720: 6e67 7561 6765 203a 3a20 5079 7468 6f6e  nguage :: Python
++00000730: 203a 3a20 330a 436c 6173 7369 6669 6572   :: 3.Classifier
++00000740: 3a20 5072 6f67 7261 6d6d 696e 6720 4c61  : Programming La
++00000750: 6e67 7561 6765 203a 3a20 5079 7468 6f6e  nguage :: Python
++00000760: 203a 3a20 332e 360a 436c 6173 7369 6669   :: 3.6.Classifi
++00000770: 6572 3a20 5072 6f67 7261 6d6d 696e 6720  er: Programming 
++00000780: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
++00000790: 6f6e 203a 3a20 332e 370a 436c 6173 7369  on :: 3.7.Classi
++000007a0: 6669 6572 3a20 5072 6f67 7261 6d6d 696e  fier: Programmin
++000007b0: 6720 4c61 6e67 7561 6765 203a 3a20 5079  g Language :: Py
++000007c0: 7468 6f6e 203a 3a20 332e 380a 436c 6173  thon :: 3.8.Clas
++000007d0: 7369 6669 6572 3a20 5072 6f67 7261 6d6d  sifier: Programm
++000007e0: 696e 6720 4c61 6e67 7561 6765 203a 3a20  ing Language :: 
++000007f0: 5079 7468 6f6e 203a 3a20 332e 390a 436c  Python :: 3.9.Cl
++00000800: 6173 7369 6669 6572 3a20 5072 6f67 7261  assifier: Progra
++00000810: 6d6d 696e 6720 4c61 6e67 7561 6765 203a  mming Language :
++00000820: 3a20 5079 7468 6f6e 203a 3a20 332e 3130  : Python :: 3.10
++00000830: 0a43 6c61 7373 6966 6965 723a 2050 726f  .Classifier: Pro
++00000840: 6772 616d 6d69 6e67 204c 616e 6775 6167  gramming Languag
++00000850: 6520 3a3a 2050 7974 686f 6e20 3a3a 2033  e :: Python :: 3
++00000860: 2e31 310a 5265 7175 6972 6573 2d50 7974  .11.Requires-Pyt
++00000870: 686f 6e3a 203e 3d33 2e36 0a44 6573 6372  hon: >=3.6.Descr
++00000880: 6970 7469 6f6e 2d43 6f6e 7465 6e74 2d54  iption-Content-T
++00000890: 7970 653a 2074 6578 742f 6d61 726b 646f  ype: text/markdo
++000008a0: 776e 0a                                  wn.
+```
+
+### Comparing `pymailers-1.1.5/README.md` & `pymailers-1.1.6/README.md`
+
+ * *Files 18% similar despite different names*
+
+```diff
+@@ -37,34 +37,33 @@
+ 00000240: 7878 4067 6d61 696c 2e63 6f6d 272c 0a20  xx@gmail.com',. 
+ 00000250: 2027 7375 626a 6563 7427 3a20 2748 656c   'subject': 'Hel
+ 00000260: 6c6f 2057 6f72 6c64 272c 0a20 2027 626f  lo World',.  'bo
+ 00000270: 6479 273a 2027 3c70 3e48 6920 696d 2052  dy': '<p>Hi im R
+ 00000280: 696f 3c2f 703e 272c 0a20 2027 6469 7370  io</p>',.  'disp
+ 00000290: 6c61 7927 3a20 5472 7565 0a7d 290a 0a70  lay': True.})..p
+ 000002a0: 796d 6169 6c65 722e 7365 6e64 2829 0a60  ymailer.send().`
+-000002b0: 6060 0a0a 2323 2044 6f6e 6174 650a 4865  ``..## Donate.He
+-000002c0: 6c70 206d 6520 746f 2062 7579 2061 206c  lp me to buy a l
+-000002d0: 6170 746f 7020 6265 6361 7573 6520 6d79  aptop because my
+-000002e0: 206c 6170 746f 7020 6973 2062 726f 6b65   laptop is broke
+-000002f0: 6e20 616e 6420 4920 646f 6e27 7420 6861  n and I don't ha
+-00000300: 7665 2061 206c 6170 746f 702c 2049 206f  ve a laptop, I o
+-00000310: 6e6c 7920 7573 6520 616e 2041 6e64 726f  nly use an Andro
+-00000320: 6964 2070 686f 6e65 2074 6f20 6d61 6b65  id phone to make
+-00000330: 2077 6f72 6b73 206c 696b 6520 7468 6973   works like this
+-00000340: 2065 7665 6e20 7468 6f75 6768 2069 7427   even though it'
+-00000350: 7320 6469 6666 6963 756c 742c 2079 6f75  s difficult, you
+-00000360: 7220 6865 6c70 2061 6e64 2064 6f6e 6174  r help and donat
+-00000370: 696f 6e73 2061 7265 2061 2067 7265 6174  ions are a great
+-00000380: 2065 6e63 6f75 7261 6765 6d65 6e74 2066   encouragement f
+-00000390: 6f72 206d 6520 746f 2063 6f6e 7469 6e75  or me to continu
+-000003a0: 6520 776f 726b 696e 672e 0a0a 4c69 6e6b  e working...Link
+-000003b0: 203a 202a 2a5b 446f 6e61 7465 5d28 6874   : **[Donate](ht
+-000003c0: 7470 733a 2f2f 7472 616b 7465 6572 2e69  tps://trakteer.i
+-000003d0: 642f 7269 6f61 6775 6e67 7075 726e 6f6d  d/rioagungpurnom
+-000003e0: 6f29 2a2a 0a0a 2323 2043 6f6e 7461 6374  o)**..## Contact
+-000003f0: 206d 650a 436f 6e74 6163 7420 6d65 2076   me.Contact me v
+-00000400: 6961 2065 6d61 696c 3a20 7269 6f61 6775  ia email: rioagu
+-00000410: 6e67 7075 726e 6f6d 6f2e 616b 4067 6d61  ngpurnomo.ak@gma
+-00000420: 696c 2e63 6f6d 2c20 4927 6d20 7761 6974  il.com, I'm wait
+-00000430: 696e 6720 666f 7220 796f 7572 2069 6e70  ing for your inp
+-00000440: 7574 206f 7220 7375 6767 6573 7469 6f6e  ut or suggestion
+-00000450: 732e 0a                                  s..
++000002b0: 6060 0a0a 2323 2044 6f6e 6174 650a 3c61  ``..## Donate.<a
++000002c0: 2068 7265 663d 2268 7474 7073 3a2f 2f74   href="https://t
++000002d0: 7261 6b74 6565 722e 6964 2f72 696f 6167  rakteer.id/rioag
++000002e0: 756e 6770 7572 6e6f 6d6f 2220 7461 7267  ungpurnomo" targ
++000002f0: 6574 3d22 5f62 6c61 6e6b 223e 3c69 6d67  et="_blank"><img
++00000300: 2069 643d 2277 7365 2d62 7574 746f 6e73   id="wse-buttons
++00000310: 2d70 7265 7669 6577 2220 7372 633d 2268  -preview" src="h
++00000320: 7474 7073 3a2f 2f63 646e 2e74 7261 6b74  ttps://cdn.trakt
++00000330: 6565 722e 6964 2f69 6d61 6765 732f 656d  eer.id/images/em
++00000340: 6265 642f 7472 6274 6e2d 7265 642d 362e  bed/trbtn-red-6.
++00000350: 706e 6722 2068 6569 6768 743d 2234 3022  png" height="40"
++00000360: 2073 7479 6c65 3d22 626f 7264 6572 3a30   style="border:0
++00000370: 7078 3b68 6569 6768 743a 3430 7078 3b22  px;height:40px;"
++00000380: 2061 6c74 3d22 5472 616b 7465 6572 2053   alt="Trakteer S
++00000390: 6179 6122 3e3c 2f61 3e0a 0a50 6179 7061  aya"></a>..Paypa
++000003a0: 6c20 3a20 2a2a 5b53 7570 706f 7274 206d  l : **[Support m
++000003b0: 655d 2868 7474 7073 3a2f 2f77 7777 2e70  e](https://www.p
++000003c0: 6179 7061 6c2e 6d65 2f52 696f 4465 7629  aypal.me/RioDev)
++000003d0: 2a2a 0a0a 2323 2043 6f6e 7461 6374 206d  **..## Contact m
++000003e0: 650a 436f 6e74 6163 7420 6d65 2076 6961  e.Contact me via
++000003f0: 2065 6d61 696c 3a20 7269 6f61 6775 6e67   email: rioagung
++00000400: 7075 726e 6f6d 6f2e 616b 4067 6d61 696c  purnomo.ak@gmail
++00000410: 2e63 6f6d 2c20 4927 6d20 7761 6974 696e  .com, I'm waitin
++00000420: 6720 666f 7220 796f 7572 2069 6e70 7574  g for your input
++00000430: 206f 7220 7375 6767 6573 7469 6f6e 732e   or suggestions.
++00000440: 0a                                       .
+```
+
+### Comparing `pymailers-1.1.5/pymailers/PyMailer.py` & `pymailers-1.1.6/pymailers/PyMailer.py`
+
+ * *Files identical despite different names*
+
+### Comparing `pymailers-1.1.5/pymailers.egg-info/PKG-INFO` & `pymailers-1.1.6/pymailers.egg-info/PKG-INFO`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310a 4e61 6d65 3a20 7079 6d61  : 2.1.Name: pyma
+ 00000020: 696c 6572 730a 5665 7273 696f 6e3a 2031  ilers.Version: 1
+-00000030: 2e31 2e35 0a53 756d 6d61 7279 3a20 5468  .1.5.Summary: Th
++00000030: 2e31 2e36 0a53 756d 6d61 7279 3a20 5468  .1.6.Summary: Th
+ 00000040: 6520 636c 6173 7369 6320 656d 6169 6c20  e classic email 
+ 00000050: 7365 6e64 696e 6720 6c69 6272 6172 7920  sending library 
+ 00000060: 666f 7220 5079 7468 6f6e 2e0a 486f 6d65  for Python..Home
+ 00000070: 2d70 6167 653a 2068 7474 7073 3a2f 2f67  -page: https://g
+ 00000080: 6974 6875 622e 636f 6d2f 7269 6f61 6775  ithub.com/rioagu
+ 00000090: 6e67 7075 726e 6f6d 6f2f 7079 6d61 696c  ngpurnomo/pymail
+ 000000a0: 6572 730a 4175 7468 6f72 3a20 5269 6f20  ers.Author: Rio 
+@@ -69,72 +69,71 @@
+ 00000440: 2020 2020 2020 2020 2020 2764 6973 706c            'displ
+ 00000450: 6179 273a 2054 7275 650a 2020 2020 2020  ay': True.      
+ 00000460: 2020 7d29 0a20 2020 2020 2020 200a 2020    }).        .  
+ 00000470: 2020 2020 2020 7079 6d61 696c 6572 2e73        pymailer.s
+ 00000480: 656e 6428 290a 2020 2020 2020 2020 6060  end().        ``
+ 00000490: 600a 2020 2020 2020 2020 0a20 2020 2020  `.        .     
+ 000004a0: 2020 2023 2320 446f 6e61 7465 0a20 2020     ## Donate.   
+-000004b0: 2020 2020 2048 656c 7020 6d65 2074 6f20       Help me to 
+-000004c0: 6275 7920 6120 6c61 7074 6f70 2062 6563  buy a laptop bec
+-000004d0: 6175 7365 206d 7920 6c61 7074 6f70 2069  ause my laptop i
+-000004e0: 7320 6272 6f6b 656e 2061 6e64 2049 2064  s broken and I d
+-000004f0: 6f6e 2774 2068 6176 6520 6120 6c61 7074  on't have a lapt
+-00000500: 6f70 2c20 4920 6f6e 6c79 2075 7365 2061  op, I only use a
+-00000510: 6e20 416e 6472 6f69 6420 7068 6f6e 6520  n Android phone 
+-00000520: 746f 206d 616b 6520 776f 726b 7320 6c69  to make works li
+-00000530: 6b65 2074 6869 7320 6576 656e 2074 686f  ke this even tho
+-00000540: 7567 6820 6974 2773 2064 6966 6669 6375  ugh it's difficu
+-00000550: 6c74 2c20 796f 7572 2068 656c 7020 616e  lt, your help an
+-00000560: 6420 646f 6e61 7469 6f6e 7320 6172 6520  d donations are 
+-00000570: 6120 6772 6561 7420 656e 636f 7572 6167  a great encourag
+-00000580: 656d 656e 7420 666f 7220 6d65 2074 6f20  ement for me to 
+-00000590: 636f 6e74 696e 7565 2077 6f72 6b69 6e67  continue working
+-000005a0: 2e0a 2020 2020 2020 2020 0a20 2020 2020  ..        .     
+-000005b0: 2020 204c 696e 6b20 3a20 2a2a 5b44 6f6e     Link : **[Don
+-000005c0: 6174 655d 2868 7474 7073 3a2f 2f74 7261  ate](https://tra
+-000005d0: 6b74 6565 722e 6964 2f72 696f 6167 756e  kteer.id/rioagun
+-000005e0: 6770 7572 6e6f 6d6f 292a 2a0a 2020 2020  gpurnomo)**.    
+-000005f0: 2020 2020 0a20 2020 2020 2020 2023 2320      .        ## 
+-00000600: 436f 6e74 6163 7420 6d65 0a20 2020 2020  Contact me.     
+-00000610: 2020 2043 6f6e 7461 6374 206d 6520 7669     Contact me vi
+-00000620: 6120 656d 6169 6c3a 2072 696f 6167 756e  a email: rioagun
+-00000630: 6770 7572 6e6f 6d6f 2e61 6b40 676d 6169  gpurnomo.ak@gmai
+-00000640: 6c2e 636f 6d2c 2049 276d 2077 6169 7469  l.com, I'm waiti
+-00000650: 6e67 2066 6f72 2079 6f75 7220 696e 7075  ng for your inpu
+-00000660: 7420 6f72 2073 7567 6765 7374 696f 6e73  t or suggestions
+-00000670: 2e0a 2020 2020 2020 2020 0a50 6c61 7466  ..        .Platf
+-00000680: 6f72 6d3a 2055 4e4b 4e4f 574e 0a43 6c61  orm: UNKNOWN.Cla
+-00000690: 7373 6966 6965 723a 2044 6576 656c 6f70  ssifier: Develop
+-000006a0: 6d65 6e74 2053 7461 7475 7320 3a3a 2033  ment Status :: 3
+-000006b0: 202d 2041 6c70 6861 0a43 6c61 7373 6966   - Alpha.Classif
+-000006c0: 6965 723a 2049 6e74 656e 6465 6420 4175  ier: Intended Au
+-000006d0: 6469 656e 6365 203a 3a20 4465 7665 6c6f  dience :: Develo
+-000006e0: 7065 7273 0a43 6c61 7373 6966 6965 723a  pers.Classifier:
+-000006f0: 204c 6963 656e 7365 203a 3a20 4f53 4920   License :: OSI 
+-00000700: 4170 7072 6f76 6564 203a 3a20 4d49 5420  Approved :: MIT 
+-00000710: 4c69 6365 6e73 650a 436c 6173 7369 6669  License.Classifi
+-00000720: 6572 3a20 5072 6f67 7261 6d6d 696e 6720  er: Programming 
+-00000730: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
+-00000740: 6f6e 203a 3a20 330a 436c 6173 7369 6669  on :: 3.Classifi
+-00000750: 6572 3a20 5072 6f67 7261 6d6d 696e 6720  er: Programming 
+-00000760: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
+-00000770: 6f6e 203a 3a20 332e 360a 436c 6173 7369  on :: 3.6.Classi
+-00000780: 6669 6572 3a20 5072 6f67 7261 6d6d 696e  fier: Programmin
+-00000790: 6720 4c61 6e67 7561 6765 203a 3a20 5079  g Language :: Py
+-000007a0: 7468 6f6e 203a 3a20 332e 370a 436c 6173  thon :: 3.7.Clas
+-000007b0: 7369 6669 6572 3a20 5072 6f67 7261 6d6d  sifier: Programm
+-000007c0: 696e 6720 4c61 6e67 7561 6765 203a 3a20  ing Language :: 
+-000007d0: 5079 7468 6f6e 203a 3a20 332e 380a 436c  Python :: 3.8.Cl
+-000007e0: 6173 7369 6669 6572 3a20 5072 6f67 7261  assifier: Progra
+-000007f0: 6d6d 696e 6720 4c61 6e67 7561 6765 203a  mming Language :
+-00000800: 3a20 5079 7468 6f6e 203a 3a20 332e 390a  : Python :: 3.9.
+-00000810: 436c 6173 7369 6669 6572 3a20 5072 6f67  Classifier: Prog
+-00000820: 7261 6d6d 696e 6720 4c61 6e67 7561 6765  ramming Language
+-00000830: 203a 3a20 5079 7468 6f6e 203a 3a20 332e   :: Python :: 3.
+-00000840: 3130 0a43 6c61 7373 6966 6965 723a 2050  10.Classifier: P
+-00000850: 726f 6772 616d 6d69 6e67 204c 616e 6775  rogramming Langu
+-00000860: 6167 6520 3a3a 2050 7974 686f 6e20 3a3a  age :: Python ::
+-00000870: 2033 2e31 310a 5265 7175 6972 6573 2d50   3.11.Requires-P
+-00000880: 7974 686f 6e3a 203e 3d33 2e36 0a44 6573  ython: >=3.6.Des
+-00000890: 6372 6970 7469 6f6e 2d43 6f6e 7465 6e74  cription-Content
+-000008a0: 2d54 7970 653a 2074 6578 742f 6d61 726b  -Type: text/mark
+-000008b0: 646f 776e 0a                             down.
++000004b0: 2020 2020 203c 6120 6872 6566 3d22 6874       <a href="ht
++000004c0: 7470 733a 2f2f 7472 616b 7465 6572 2e69  tps://trakteer.i
++000004d0: 642f 7269 6f61 6775 6e67 7075 726e 6f6d  d/rioagungpurnom
++000004e0: 6f22 2074 6172 6765 743d 225f 626c 616e  o" target="_blan
++000004f0: 6b22 3e3c 696d 6720 6964 3d22 7773 652d  k"><img id="wse-
++00000500: 6275 7474 6f6e 732d 7072 6576 6965 7722  buttons-preview"
++00000510: 2073 7263 3d22 6874 7470 733a 2f2f 6364   src="https://cd
++00000520: 6e2e 7472 616b 7465 6572 2e69 642f 696d  n.trakteer.id/im
++00000530: 6167 6573 2f65 6d62 6564 2f74 7262 746e  ages/embed/trbtn
++00000540: 2d72 6564 2d36 2e70 6e67 2220 6865 6967  -red-6.png" heig
++00000550: 6874 3d22 3430 2220 7374 796c 653d 2262  ht="40" style="b
++00000560: 6f72 6465 723a 3070 783b 6865 6967 6874  order:0px;height
++00000570: 3a34 3070 783b 2220 616c 743d 2254 7261  :40px;" alt="Tra
++00000580: 6b74 6565 7220 5361 7961 223e 3c2f 613e  kteer Saya"></a>
++00000590: 0a20 2020 2020 2020 200a 2020 2020 2020  .        .      
++000005a0: 2020 5061 7970 616c 203a 202a 2a5b 5375    Paypal : **[Su
++000005b0: 7070 6f72 7420 6d65 5d28 6874 7470 733a  pport me](https:
++000005c0: 2f2f 7777 772e 7061 7970 616c 2e6d 652f  //www.paypal.me/
++000005d0: 5269 6f44 6576 292a 2a0a 2020 2020 2020  RioDev)**.      
++000005e0: 2020 0a20 2020 2020 2020 2023 2320 436f    .        ## Co
++000005f0: 6e74 6163 7420 6d65 0a20 2020 2020 2020  ntact me.       
++00000600: 2043 6f6e 7461 6374 206d 6520 7669 6120   Contact me via 
++00000610: 656d 6169 6c3a 2072 696f 6167 756e 6770  email: rioagungp
++00000620: 7572 6e6f 6d6f 2e61 6b40 676d 6169 6c2e  urnomo.ak@gmail.
++00000630: 636f 6d2c 2049 276d 2077 6169 7469 6e67  com, I'm waiting
++00000640: 2066 6f72 2079 6f75 7220 696e 7075 7420   for your input 
++00000650: 6f72 2073 7567 6765 7374 696f 6e73 2e0a  or suggestions..
++00000660: 2020 2020 2020 2020 0a50 6c61 7466 6f72          .Platfor
++00000670: 6d3a 2055 4e4b 4e4f 574e 0a43 6c61 7373  m: UNKNOWN.Class
++00000680: 6966 6965 723a 2044 6576 656c 6f70 6d65  ifier: Developme
++00000690: 6e74 2053 7461 7475 7320 3a3a 2033 202d  nt Status :: 3 -
++000006a0: 2041 6c70 6861 0a43 6c61 7373 6966 6965   Alpha.Classifie
++000006b0: 723a 2049 6e74 656e 6465 6420 4175 6469  r: Intended Audi
++000006c0: 656e 6365 203a 3a20 4465 7665 6c6f 7065  ence :: Develope
++000006d0: 7273 0a43 6c61 7373 6966 6965 723a 204c  rs.Classifier: L
++000006e0: 6963 656e 7365 203a 3a20 4f53 4920 4170  icense :: OSI Ap
++000006f0: 7072 6f76 6564 203a 3a20 4d49 5420 4c69  proved :: MIT Li
++00000700: 6365 6e73 650a 436c 6173 7369 6669 6572  cense.Classifier
++00000710: 3a20 5072 6f67 7261 6d6d 696e 6720 4c61  : Programming La
++00000720: 6e67 7561 6765 203a 3a20 5079 7468 6f6e  nguage :: Python
++00000730: 203a 3a20 330a 436c 6173 7369 6669 6572   :: 3.Classifier
++00000740: 3a20 5072 6f67 7261 6d6d 696e 6720 4c61  : Programming La
++00000750: 6e67 7561 6765 203a 3a20 5079 7468 6f6e  nguage :: Python
++00000760: 203a 3a20 332e 360a 436c 6173 7369 6669   :: 3.6.Classifi
++00000770: 6572 3a20 5072 6f67 7261 6d6d 696e 6720  er: Programming 
++00000780: 4c61 6e67 7561 6765 203a 3a20 5079 7468  Language :: Pyth
++00000790: 6f6e 203a 3a20 332e 370a 436c 6173 7369  on :: 3.7.Classi
++000007a0: 6669 6572 3a20 5072 6f67 7261 6d6d 696e  fier: Programmin
++000007b0: 6720 4c61 6e67 7561 6765 203a 3a20 5079  g Language :: Py
++000007c0: 7468 6f6e 203a 3a20 332e 380a 436c 6173  thon :: 3.8.Clas
++000007d0: 7369 6669 6572 3a20 5072 6f67 7261 6d6d  sifier: Programm
++000007e0: 696e 6720 4c61 6e67 7561 6765 203a 3a20  ing Language :: 
++000007f0: 5079 7468 6f6e 203a 3a20 332e 390a 436c  Python :: 3.9.Cl
++00000800: 6173 7369 6669 6572 3a20 5072 6f67 7261  assifier: Progra
++00000810: 6d6d 696e 6720 4c61 6e67 7561 6765 203a  mming Language :
++00000820: 3a20 5079 7468 6f6e 203a 3a20 332e 3130  : Python :: 3.10
++00000830: 0a43 6c61 7373 6966 6965 723a 2050 726f  .Classifier: Pro
++00000840: 6772 616d 6d69 6e67 204c 616e 6775 6167  gramming Languag
++00000850: 6520 3a3a 2050 7974 686f 6e20 3a3a 2033  e :: Python :: 3
++00000860: 2e31 310a 5265 7175 6972 6573 2d50 7974  .11.Requires-Pyt
++00000870: 686f 6e3a 203e 3d33 2e36 0a44 6573 6372  hon: >=3.6.Descr
++00000880: 6970 7469 6f6e 2d43 6f6e 7465 6e74 2d54  iption-Content-T
++00000890: 7970 653a 2074 6578 742f 6d61 726b 646f  ype: text/markdo
++000008a0: 776e 0a                                  wn.
+```
+
+### Comparing `pymailers-1.1.5/setup.py` & `pymailers-1.1.6/setup.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,15 +1,15 @@
+ from setuptools import setup
+ 
+ with open("README.md", "r") as fh:
+     long_description = fh.read()
+ 
+ setup(
+     name='pymailers',
+-    version='1.1.5',
++    version='1.1.6',
+     description='The classic email sending library for Python.',
+     long_description=long_description,
+     long_description_content_type="text/markdown",
+     author='Rio Agung Purnomo',
+     author_email='rioagungpurnomo.ak@gmail.com',
+     url='https://github.com/rioagungpurnomo/pymailers',
+     packages=['pymailers'],
+```
+

@@ -10210,3 +10210,49 @@
 [2023-04-29 16:40:20] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-04-29 16:40:20] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
 [2023-04-29 16:40:20] INFO root fetch - main [MainThread]: Store serial: [17909842]
+[2023-04-29 16:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909842]
+[2023-04-29 16:45:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extr
+[2023-04-29 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymailers
+[2023-04-29 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mrz-surepass
+[2023-04-29 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extr-ds
+[2023-04-29 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: golem-garden
+[2023-04-29 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OctoBot-Commons
+[2023-04-29 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bam-core
+[2023-04-29 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-bottle
+[2023-04-29 16:45:30] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 16:45:30] WARNING root fetch - processPackages [mrz-surepass]: Skipping, unable to determine old version
+[2023-04-29 16:45:30] INFO root fetch - main [MainThread]: End processing [mrz-surepass] error
+[2023-04-29 16:45:30] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 16:45:30] INFO root fetch - processPackages [golem-garden]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-04-29 16:45:30] INFO root fetch - processPackages [pymailers]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-29 16:45:30] INFO root fetch - processPackages [bam-core]: New version: [2023.4.29.1682776540] Old Version: [2023.4.29.1682776341]
+[2023-04-29 16:45:30] INFO root fetch - processPackages [nonebot-plugin-bottle]: New version: [1.0.0.1] Old Version: [1.0.0]
+[2023-04-29 16:45:30] INFO root fetch - processPackages [OctoBot-Commons]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-04-29 16:45:30] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-29 16:45:30] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230429/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 16:45:30] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-29 16:45:30] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230429/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 16:45:30] INFO root fetch - processPackages [bam-core]: executing diffoscope
+[2023-04-29 16:45:30] INFO root fetch - processPackages [bam-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bam-core-2023.4.29.1682776341.tar.gz tmp/bam-core-2023.4.29.1682776540.tar.gz --markdown 20230429/b/bam-core/2023.4.29.1682776341-2023.4.29.1682776540/diff.md --exclude *.pyd
+[2023-04-29 16:45:30] INFO root fetch - processPackages [nonebot-plugin-bottle]: executing diffoscope
+[2023-04-29 16:45:30] INFO root fetch - processPackages [nonebot-plugin-bottle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bottle-1.0.0-py3-none-any.whl.zip tmp/nonebot_plugin_bottle-1.0.0.1-py3-none-any.whl.zip --markdown 20230429/n/nonebot-plugin-bottle/1.0.0-1.0.0.1/diff.md --exclude *.pyd
+[2023-04-29 16:45:30] INFO root fetch - processPackages [golem-garden]: Downloading https://files.pythonhosted.org/packages/6b/75/04f1ded30ec0c64d8e6adaedf899a8bf9351ce658bc3141c8bcf0548fbf2/golem_garden-0.5.1.tar.gz
+[2023-04-29 16:45:30] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/6f/d9/8d4bd3a0d37a723860fc064483a4e7d7aed42f7ddb54e1ad51d4e91ddcbb/OctoBot-Commons-1.8.8.tar.gz
+[2023-04-29 16:45:30] INFO root fetch - processPackages [pymailers]: Downloading https://files.pythonhosted.org/packages/85/0a/8d8e258def0d5dcb881391f775371f15cd9c849549c6966127094e1d8ba6/pymailers-1.1.6.tar.gz
+[2023-04-29 16:45:30] INFO root fetch - processPackages [golem-garden]: Downloading https://files.pythonhosted.org/packages/cb/fe/48f13b7b8ca9b7f0a402dc8ca68a0e898ff59b8c0dc6233862ddd66b2eb2/golem_garden-0.5.2.tar.gz
+[2023-04-29 16:45:30] INFO root fetch - processPackages [pymailers]: executing diffoscope
+[2023-04-29 16:45:30] INFO root fetch - processPackages [pymailers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymailers-1.1.5.tar.gz tmp/pymailers-1.1.6.tar.gz --markdown 20230429/p/pymailers/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-29 16:45:30] INFO root fetch - processPackages [golem-garden]: executing diffoscope
+[2023-04-29 16:45:30] INFO root fetch - processPackages [golem-garden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/golem_garden-0.5.1.tar.gz tmp/golem_garden-0.5.2.tar.gz --markdown 20230429/g/golem-garden/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-04-29 16:45:31] INFO root fetch - processPackages [OctoBot-Commons]: Downloading https://files.pythonhosted.org/packages/e8/ab/3df46536d1225eecd6a8fe675ab5168b3592bb4d4e108bbeec7388299c48/OctoBot-Commons-1.8.9.tar.gz
+[2023-04-29 16:45:31] INFO root fetch - processPackages [OctoBot-Commons]: executing diffoscope
+[2023-04-29 16:45:31] INFO root fetch - processPackages [OctoBot-Commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Commons-1.8.8.tar.gz tmp/OctoBot-Commons-1.8.9.tar.gz --markdown 20230429/O/OctoBot-Commons/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-04-29 16:45:31] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-29 16:45:31] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-29 16:45:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bottle]: success
+[2023-04-29 16:45:31] INFO root fetch - main [MainThread]: End processing [pymailers]: success
+[2023-04-29 16:45:31] INFO root fetch - main [MainThread]: End processing [bam-core]: success
+[2023-04-29 16:45:32] INFO root fetch - main [MainThread]: End processing [golem-garden]: success
+[2023-04-29 16:45:33] INFO root fetch - main [MainThread]: End processing [OctoBot-Commons]: success
+[2023-04-29 16:45:33] INFO root fetch - main [MainThread]: Store serial: [17909868]
