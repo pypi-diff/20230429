@@ -9187,3 +9187,58 @@
 [2023-04-29 14:56:03] INFO root fetch - main [MainThread]: End processing [zmemory]: success
 [2023-04-29 14:56:10] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-29 14:56:10] INFO root fetch - main [MainThread]: Store serial: [17909117]
+[2023-04-29 15:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909117]
+[2023-04-29 15:01:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ordicanis
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devcontainer-manager
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WinTraceroute
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genno
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zdatabase
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ReportAnalysis
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: state-space-generator
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuNet
+[2023-04-29 15:01:19] INFO root fetch - processPackages [state-space-generator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-29 15:01:19] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ordicanis]: New version: [0.0.0.1] Old Version: [0.0.0.0]
+[2023-04-29 15:01:19] INFO root fetch - processPackages [genno]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-29 15:01:19] INFO root fetch - processPackages [WinTraceroute]: New version: [1.1.1] Old Version: [1.0.16]
+[2023-04-29 15:01:19] INFO root fetch - processPackages [zdatabase]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ReportAnalysis]: New version: [0.2] Old Version: [0.1]
+[2023-04-29 15:01:19] INFO root fetch - processPackages [devcontainer-manager]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-29 15:01:19] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-04-29 15:01:19] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230429/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 15:01:19] INFO root fetch - processPackages [devcontainer-manager]: Downloading https://files.pythonhosted.org/packages/01/df/40491c4227a40999557f5893a6c9dd22ee753ffd0a86b3aca7baa0174879/devcontainer_manager-1.3.1.tar.gz
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ReportAnalysis]: Downloading https://files.pythonhosted.org/packages/fb/cb/75dbd7ec32ed03d512472e2ae6ef6d7c434b8fcc4067c7422c73ed729ede/ReportAnalysis-0.1.tar.gz
+[2023-04-29 15:01:19] INFO root fetch - processPackages [genno]: Downloading https://files.pythonhosted.org/packages/4e/1a/f24898465582d455bbee2e601887ed1057f7a0f458ca58074decb350ec13/genno-1.9.1.tar.gz
+[2023-04-29 15:01:19] INFO root fetch - processPackages [ordicanis]: Downloading https://files.pythonhosted.org/packages/a3/7c/824e2bbc6f7712b98c5417c7f3adde0a817f5fb10c2c95b6c5a9a517f91b/ordicanis-0.0.0.0-py2.py3-none-any.whl
+[2023-04-29 15:01:20] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/ad/29/a522dbfde989b7c34333b32b39f4cef094786dd8cffca15e777e380440cf/WinTraceroute-1.1.1.tar.gz
+[2023-04-29 15:01:20] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/23/ad/e36bd367c4e63b0f977b8e5a9dd3dcf4cced8efde5a4ecf6e3f9cd6c98aa/zdatabase-0.2.8.tar.gz
+[2023-04-29 15:01:20] INFO root fetch - processPackages [state-space-generator]: Downloading https://files.pythonhosted.org/packages/95/5c/b160a8b0cf82c23c7af84fef0133f26572b077d6fb0bddb88768eab9ec8f/state_space_generator-0.1.5.tar.gz
+[2023-04-29 15:01:20] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-04-29 15:01:20] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.0.16.tar.gz tmp/WinTraceroute-1.1.1.tar.gz --markdown 20230429/W/WinTraceroute/1.0.16-1.1.1/diff.md --exclude *.pyd
+[2023-04-29 15:01:20] INFO root fetch - processPackages [ReportAnalysis]: Downloading https://files.pythonhosted.org/packages/2c/7d/4c3fc0a042e3ffcc5e1c83ada45d3bc9d0f2fd79137aed7e1038470082e5/ReportAnalysis-0.2.tar.gz
+[2023-04-29 15:01:20] INFO root fetch - processPackages [ordicanis]: Downloading https://files.pythonhosted.org/packages/d9/6b/42052375f1ccdb10e86ccb2f4a8bd93152733d7df49be7f7e8b5e960d539/ordicanis-0.0.0.1.tar.gz
+[2023-04-29 15:01:20] INFO root fetch - processPackages [devcontainer-manager]: Downloading https://files.pythonhosted.org/packages/2a/62/ff727139022e04d9deab338182cd4a0956c1cb61d16ffceb72539379c5db/devcontainer_manager-1.3.2.tar.gz
+[2023-04-29 15:01:20] INFO root fetch - processPackages [state-space-generator]: executing diffoscope
+[2023-04-29 15:01:20] INFO root fetch - processPackages [state-space-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state_space_generator-0.1.4.tar.gz tmp/state_space_generator-0.1.5.tar.gz --markdown 20230429/s/state-space-generator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-29 15:01:20] INFO root fetch - processPackages [ReportAnalysis]: executing diffoscope
+[2023-04-29 15:01:20] INFO root fetch - processPackages [ReportAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReportAnalysis-0.1.tar.gz tmp/ReportAnalysis-0.2.tar.gz --markdown 20230429/R/ReportAnalysis/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-29 15:01:20] INFO root fetch - processPackages [zdatabase]: Downloading https://files.pythonhosted.org/packages/1a/81/fcaeba07f671611dbb9259d524885d329846bea3b1bc62ecfb7a5bc4afff/zdatabase-0.2.9.tar.gz
+[2023-04-29 15:01:20] INFO root fetch - processPackages [devcontainer-manager]: executing diffoscope
+[2023-04-29 15:01:20] INFO root fetch - processPackages [devcontainer-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devcontainer_manager-1.3.1.tar.gz tmp/devcontainer_manager-1.3.2.tar.gz --markdown 20230429/d/devcontainer-manager/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-29 15:01:20] INFO root fetch - processPackages [ordicanis]: executing diffoscope
+[2023-04-29 15:01:20] INFO root fetch - processPackages [ordicanis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordicanis-0.0.0.0-py2.py3-none-any.whl.zip tmp/ordicanis-0.0.0.1.tar.gz --markdown 20230429/o/ordicanis/0.0.0.0-0.0.0.1/diff.md --exclude *.pyd
+[2023-04-29 15:01:20] INFO root fetch - processPackages [zdatabase]: executing diffoscope
+[2023-04-29 15:01:20] INFO root fetch - processPackages [zdatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zdatabase-0.2.8.tar.gz tmp/zdatabase-0.2.9.tar.gz --markdown 20230429/z/zdatabase/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-29 15:01:20] INFO root fetch - processPackages [genno]: Downloading https://files.pythonhosted.org/packages/d4/a4/a3955017f52b438a5c292c9eef737823159bfcd0918949735f142c332146/genno-1.9.2.tar.gz
+[2023-04-29 15:01:20] INFO root fetch - processPackages [genno]: executing diffoscope
+[2023-04-29 15:01:20] INFO root fetch - processPackages [genno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genno-1.9.1.tar.gz tmp/genno-1.9.2.tar.gz --markdown 20230429/g/genno/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-29 15:01:21] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-04-29 15:01:21] INFO root fetch - main [MainThread]: End processing [ReportAnalysis]: success
+[2023-04-29 15:01:21] INFO root fetch - main [MainThread]: End processing [ordicanis]: success
+[2023-04-29 15:01:21] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
+[2023-04-29 15:01:21] INFO root fetch - main [MainThread]: End processing [zdatabase]: success
+[2023-04-29 15:01:22] INFO root fetch - main [MainThread]: End processing [devcontainer-manager]: success
+[2023-04-29 15:01:22] INFO root fetch - main [MainThread]: End processing [genno]: success
+[2023-04-29 15:01:24] INFO root fetch - main [MainThread]: End processing [state-space-generator]: success
+[2023-04-29 15:01:24] INFO root fetch - main [MainThread]: Store serial: [17909141]
