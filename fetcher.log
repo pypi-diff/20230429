@@ -14110,3 +14110,44 @@
 [2023-04-29 23:42:41] INFO root fetch - main [MainThread]: End processing [pythonsdk]: success
 [2023-04-29 23:42:44] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-04-29 23:42:44] INFO root fetch - main [MainThread]: Store serial: [17912663]
+[2023-04-29 23:47:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912663]
+[2023-04-29 23:47:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 23:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jello
+[2023-04-29 23:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esi-client
+[2023-04-29 23:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LordNzb
+[2023-04-29 23:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prosemble
+[2023-04-29 23:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goxlrutilityapi
+[2023-04-29 23:47:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-gui
+[2023-04-29 23:47:53] INFO root fetch - processPackages [esi-client]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-04-29 23:47:53] INFO root fetch - processPackages [prosemble]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-29 23:47:53] INFO root fetch - processPackages [jello]: New version: [1.6.0] Old Version: [1.5.5]
+[2023-04-29 23:47:53] INFO root fetch - processPackages [LordNzb]: New version: [2023.4.29] Old Version: [2023.3.11]
+[2023-04-29 23:47:53] INFO root fetch - processPackages [goxlrutilityapi]: New version: [1.0.0.dev9] Old Version: [1.0.0.dev8]
+[2023-04-29 23:47:53] INFO root fetch - processPackages [ovos-gui]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-04-29 23:47:53] INFO root fetch - processPackages [goxlrutilityapi]: executing diffoscope
+[2023-04-29 23:47:53] INFO root fetch - processPackages [goxlrutilityapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlrutilityapi-1.0.0.dev8.tar.gz tmp/goxlrutilityapi-1.0.0.dev9.tar.gz --markdown 20230429/g/goxlrutilityapi/1.0.0.dev8-1.0.0.dev9/diff.md --exclude *.pyd
+[2023-04-29 23:47:53] INFO root fetch - processPackages [prosemble]: Downloading https://files.pythonhosted.org/packages/9a/a3/65d2c8b12e75c77c141046cd0c9f429edc7f803a7f1aa933f74b8c7f675d/prosemble-0.5.0.tar.gz
+[2023-04-29 23:47:53] INFO root fetch - processPackages [esi-client]: Downloading https://files.pythonhosted.org/packages/64/ee/6f6656ae959fe2be444057107477fed479f85c08fe18a501ec2638693f77/esi_client-0.1.0a1.tar.gz
+[2023-04-29 23:47:53] INFO root fetch - processPackages [LordNzb]: Downloading https://files.pythonhosted.org/packages/0a/de/3edac0d791e646a98708b4bcc68be7d2f96961f738c2e212a007cfab424b/LordNzb-2023.3.11.tar.gz
+[2023-04-29 23:47:54] INFO root fetch - processPackages [jello]: Downloading https://files.pythonhosted.org/packages/03/a7/1d48279706b63a5928cfb0dda5152bd27ce914da05d31008b2fc252165e1/jello-1.5.5.tar.gz
+[2023-04-29 23:47:54] INFO root fetch - processPackages [ovos-gui]: executing diffoscope
+[2023-04-29 23:47:54] INFO root fetch - processPackages [ovos-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_gui-0.0.2a8-py3-none-any.whl.zip tmp/ovos_gui-0.0.2a9-py3-none-any.whl.zip --markdown 20230429/o/ovos-gui/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-04-29 23:47:55] INFO root fetch - main [MainThread]: End processing [goxlrutilityapi]: success
+[2023-04-29 23:47:55] INFO root fetch - main [MainThread]: End processing [ovos-gui]: success
+[2023-04-29 23:47:55] INFO root fetch - processPackages [prosemble]: Downloading https://files.pythonhosted.org/packages/0d/12/63293c621deaa48ce89eb8aee7d8f6b891f4345f8edc7916f6218f570955/prosemble-0.6.0.tar.gz
+[2023-04-29 23:47:55] INFO root fetch - processPackages [LordNzb]: Downloading https://files.pythonhosted.org/packages/56/c4/bb15fa9b1c0cc36f595cb41b719d0629bc9f09139736ab162d1a31d8ea07/LordNzb-2023.4.29.tar.gz
+[2023-04-29 23:47:55] INFO root fetch - processPackages [jello]: Downloading https://files.pythonhosted.org/packages/8a/1d/25e13e337f0c5c8076a4fc42db02b726529b611a69d816b71f8d591cf0f5/jello-1.6.0.tar.gz
+[2023-04-29 23:47:55] INFO root fetch - processPackages [esi-client]: Downloading https://files.pythonhosted.org/packages/f7/e8/90a3351b51bda622f1af5f2ae893a2d0f6c6f9caf1adf052c6fe58f2c619/esi_client-0.1.0a2.tar.gz
+[2023-04-29 23:47:55] INFO root fetch - processPackages [prosemble]: executing diffoscope
+[2023-04-29 23:47:55] INFO root fetch - processPackages [prosemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosemble-0.5.0.tar.gz tmp/prosemble-0.6.0.tar.gz --markdown 20230429/p/prosemble/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-29 23:47:55] INFO root fetch - processPackages [jello]: executing diffoscope
+[2023-04-29 23:47:55] INFO root fetch - processPackages [jello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jello-1.5.5.tar.gz tmp/jello-1.6.0.tar.gz --markdown 20230429/j/jello/1.5.5-1.6.0/diff.md --exclude *.pyd
+[2023-04-29 23:47:55] INFO root fetch - processPackages [LordNzb]: executing diffoscope
+[2023-04-29 23:47:55] INFO root fetch - processPackages [LordNzb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LordNzb-2023.3.11.tar.gz tmp/LordNzb-2023.4.29.tar.gz --markdown 20230429/L/LordNzb/2023.3.11-2023.4.29/diff.md --exclude *.pyd
+[2023-04-29 23:47:55] INFO root fetch - processPackages [esi-client]: executing diffoscope
+[2023-04-29 23:47:55] INFO root fetch - processPackages [esi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esi_client-0.1.0a1.tar.gz tmp/esi_client-0.1.0a2.tar.gz --markdown 20230429/e/esi-client/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-04-29 23:47:56] INFO root fetch - main [MainThread]: End processing [prosemble]: success
+[2023-04-29 23:47:56] INFO root fetch - main [MainThread]: End processing [jello]: success
+[2023-04-29 23:47:56] INFO root fetch - main [MainThread]: End processing [LordNzb]: success
+[2023-04-29 23:48:08] INFO root fetch - main [MainThread]: End processing [esi-client]: success
+[2023-04-29 23:48:08] INFO root fetch - main [MainThread]: Store serial: [17912685]
