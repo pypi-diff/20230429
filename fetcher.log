@@ -9930,3 +9930,59 @@
 [2023-04-29 16:14:17] INFO root fetch - main [MainThread]: End processing [pymailers]: success
 [2023-04-29 16:14:17] INFO root fetch - main [MainThread]: End processing [unipipeline]: success
 [2023-04-29 16:14:17] INFO root fetch - main [MainThread]: Store serial: [17909669]
+[2023-04-29 16:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17909669]
+[2023-04-29 16:19:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: extr-ds
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-json-config
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chef-helper
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grafiks
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jurebes
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asgi-context
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frascii
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-sql
+[2023-04-29 16:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neosca
+[2023-04-29 16:19:26] INFO root fetch - processPackages [grafiks]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [mo-json-config]: New version: [4.372.23119] Old Version: [3.77.20190]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [neosca]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [jurebes]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [asgi-context]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [fastapi-sql]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [chef-helper]: New version: [4] Old Version: [3]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [fastapi-sql]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [fastapi-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_sql-0.1.6.tar.gz tmp/fastapi_sql-0.2.0.tar.gz --markdown 20230429/f/fastapi-sql/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 16:19:26] INFO root fetch - processPackages [frascii]: New version: [3.3] Old Version: [3.2]
+[2023-04-29 16:19:26] INFO root fetch - processPackages [neosca]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [neosca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neosca-0.0.40-py3.10.egg tmp/neosca-0.0.41.tar.gz --markdown 20230429/n/neosca/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-04-29 16:19:26] INFO root fetch - processPackages [jurebes]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [jurebes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurebes-0.1.1a8-py3-none-any.whl.zip tmp/jurebes-0.1.1a9-py3-none-any.whl.zip --markdown 20230429/j/jurebes/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-04-29 16:19:26] INFO root fetch - processPackages [grafiks]: Downloading https://files.pythonhosted.org/packages/60/11/6dba45da026306971ee47294ebc8a4c243b52e35a4e1772886ecb778fa69/grafiks-0.1.0.tar.gz
+[2023-04-29 16:19:26] INFO root fetch - processPackages [chef-helper]: Downloading https://files.pythonhosted.org/packages/44/98/cace584a8232ec12c4b6582720e385d29082aa4ebfbaea943c9c93a1d82d/chef_helper-3.tar.gz
+[2023-04-29 16:19:26] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/d5/5b/9c18b21f5237a21631281af9d4a777b1c872d3df1aec8313c59ef2191de3/mo-json-config-3.77.20190.tar.gz
+[2023-04-29 16:19:26] INFO root fetch - processPackages [asgi-context]: Downloading https://files.pythonhosted.org/packages/ff/ef/36a3e2866db063073a20c05afa45f6df29b6c79d43ba12a73294bd8f3837/asgi_context-0.2.0.tar.gz
+[2023-04-29 16:19:26] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230429/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 16:19:26] INFO root fetch - processPackages [chef-helper]: Downloading https://files.pythonhosted.org/packages/a2/b3/515849e0bce35ed184f54ce6808508f1144950cb518fc0282e474ecc8a06/chef_helper-4.tar.gz
+[2023-04-29 16:19:26] INFO root fetch - processPackages [frascii]: Downloading https://files.pythonhosted.org/packages/6d/fc/12023dd14166b722604692a333e3cf17769c030e7c0b032424d40b65f7ef/frascii-3.3.tar.gz
+[2023-04-29 16:19:26] INFO root fetch - processPackages [grafiks]: Downloading https://files.pythonhosted.org/packages/e3/94/8b94409d997fe34e9105b3c24ec39849acc3e95fd552b78b0a192522bf97/grafiks-0.2.0.tar.gz
+[2023-04-29 16:19:26] INFO root fetch - processPackages [asgi-context]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [asgi-context]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgi_context-0.1.1.tar.gz tmp/asgi_context-0.2.0.tar.gz --markdown 20230429/a/asgi-context/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 16:19:26] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/54/53/5c25fd7c3eb1e8b6f8cb705183b3b8709373b7c33e8e959439f19bbc7578/mo_json_config-4.372.23119-py2.py3-none-any.whl
+[2023-04-29 16:19:26] INFO root fetch - processPackages [chef-helper]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [chef-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chef_helper-3.tar.gz tmp/chef_helper-4.tar.gz --markdown 20230429/c/chef-helper/3-4/diff.md --exclude *.pyd
+[2023-04-29 16:19:26] INFO root fetch - processPackages [frascii]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [frascii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frascii-3.2.tar.gz tmp/frascii-3.3.tar.gz --markdown 20230429/f/frascii/3.2-3.3/diff.md --exclude *.pyd
+[2023-04-29 16:19:26] INFO root fetch - processPackages [grafiks]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [grafiks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafiks-0.1.0.tar.gz tmp/grafiks-0.2.0.tar.gz --markdown 20230429/g/grafiks/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 16:19:26] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2023-04-29 16:19:26] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-json-config-3.77.20190.tar.gz tmp/mo_json_config-4.372.23119-py2.py3-none-any.whl.zip --markdown 20230429/m/mo-json-config/3.77.20190-4.372.23119/diff.md --exclude *.pyd
+[2023-04-29 16:19:27] INFO root fetch - main [MainThread]: End processing [fastapi-sql]: success
+[2023-04-29 16:19:27] INFO root fetch - main [MainThread]: End processing [jurebes]: success
+[2023-04-29 16:19:27] INFO root fetch - main [MainThread]: End processing [neosca]: success
+[2023-04-29 16:19:27] INFO root fetch - main [MainThread]: End processing [asgi-context]: success
+[2023-04-29 16:19:27] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-04-29 16:19:27] INFO root fetch - main [MainThread]: End processing [grafiks]: success
+[2023-04-29 16:19:28] INFO root fetch - main [MainThread]: End processing [chef-helper]: success
+[2023-04-29 16:19:28] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2023-04-29 16:19:28] INFO root fetch - main [MainThread]: End processing [frascii]: success
+[2023-04-29 16:19:28] INFO root fetch - main [MainThread]: Store serial: [17909698]
