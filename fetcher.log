@@ -13589,3 +13589,48 @@
 [2023-04-29 22:37:33] INFO root fetch - main [MainThread]: End processing [meddlr]: success
 [2023-04-29 22:39:11] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2023-04-29 22:39:11] INFO root fetch - main [MainThread]: Store serial: [17912290]
+[2023-04-29 22:44:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912290]
+[2023-04-29 22:44:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 22:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skeetpy
+[2023-04-29 22:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataknobs
+[2023-04-29 22:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FairDynamicRec
+[2023-04-29 22:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wnnet
+[2023-04-29 22:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typedpy
+[2023-04-29 22:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latexplotlib
+[2023-04-29 22:44:21] INFO root fetch - processPackages [dataknobs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-29 22:44:21] INFO root fetch - processPackages [skeetpy]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-29 22:44:21] INFO root fetch - processPackages [wnnet]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-29 22:44:21] INFO root fetch - processPackages [latexplotlib]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-29 22:44:21] INFO root fetch - processPackages [FairDynamicRec]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 22:44:21] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-04-29 22:44:21] INFO root fetch - processPackages [dataknobs]: Downloading https://files.pythonhosted.org/packages/33/71/592a4c0fd3edb842ec2262a2449fb3c693d7c28b1f015f24c7de5f084971/dataknobs-0.0.3.tar.gz
+[2023-04-29 22:44:21] INFO root fetch - processPackages [wnnet]: Downloading https://files.pythonhosted.org/packages/cd/7f/8cd51e0f3d25719d518f3ff4588876b826f6e9e4c6d095343a2a25764d05/wnnet-1.0.3.tar.gz
+[2023-04-29 22:44:21] INFO root fetch - processPackages [latexplotlib]: Downloading https://files.pythonhosted.org/packages/8d/6d/d1b180ceb1ea277d69b8b9d7e981a461ac5b2a554a275bc2603e6d717d01/latexplotlib-0.6.0.tar.gz
+[2023-04-29 22:44:21] INFO root fetch - processPackages [FairDynamicRec]: Downloading https://files.pythonhosted.org/packages/5d/b7/0a6c7ebde474948885ba888d63dc08a38814d289f5ec95dc9a06d7ff1e8a/FairDynamicRec-0.0.98.tar.gz
+[2023-04-29 22:44:21] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-04-29 22:44:21] INFO root fetch - processPackages [skeetpy]: Downloading https://files.pythonhosted.org/packages/20/20/f50065cdd94d9714b7376428e09fabc7273b8b93994f178087389f6c1d9b/skeetpy-0.0.1.tar.gz
+[2023-04-29 22:44:22] INFO root fetch - processPackages [dataknobs]: Downloading https://files.pythonhosted.org/packages/5b/36/ffbdaa1781cd5ac9d2e5dc6b2861d073c3c4291ae11c3f79e2ddb468ea95/dataknobs-0.0.4.tar.gz
+[2023-04-29 22:44:22] INFO root fetch - processPackages [latexplotlib]: Downloading https://files.pythonhosted.org/packages/24/fe/701079b778a30e3bd995123388e1eed5632ba6a82a53748ab84e13ba5b50/latexplotlib-0.6.1.tar.gz
+[2023-04-29 22:44:22] INFO root fetch - processPackages [wnnet]: Downloading https://files.pythonhosted.org/packages/2b/bb/63a592800bbabae90ace0c290f659ddd3c00a9fcdaf3a9a38df3d7209181/wnnet-1.1.0.tar.gz
+[2023-04-29 22:44:22] INFO root fetch - processPackages [dataknobs]: executing diffoscope
+[2023-04-29 22:44:22] INFO root fetch - processPackages [dataknobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataknobs-0.0.3.tar.gz tmp/dataknobs-0.0.4.tar.gz --markdown 20230429/d/dataknobs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-29 22:44:22] INFO root fetch - processPackages [skeetpy]: Downloading https://files.pythonhosted.org/packages/d2/b2/67821bfd3dcf580a94ee5d04a2238935e524542277c7f777747645eacca6/skeetpy-0.1.0.tar.gz
+[2023-04-29 22:44:22] INFO root fetch - processPackages [wnnet]: executing diffoscope
+[2023-04-29 22:44:22] INFO root fetch - processPackages [wnnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wnnet-1.0.3.tar.gz tmp/wnnet-1.1.0.tar.gz --markdown 20230429/w/wnnet/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-29 22:44:22] INFO root fetch - processPackages [skeetpy]: executing diffoscope
+[2023-04-29 22:44:22] INFO root fetch - processPackages [skeetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skeetpy-0.0.1.tar.gz tmp/skeetpy-0.1.0.tar.gz --markdown 20230429/s/skeetpy/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-29 22:44:22] INFO root fetch - processPackages [latexplotlib]: executing diffoscope
+[2023-04-29 22:44:22] INFO root fetch - processPackages [latexplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latexplotlib-0.6.0.tar.gz tmp/latexplotlib-0.6.1.tar.gz --markdown 20230429/l/latexplotlib/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-29 22:44:22] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-04-29 22:44:22] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-04-29 22:44:22] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230429/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-04-29 22:44:22] INFO root fetch - processPackages [FairDynamicRec]: Downloading https://files.pythonhosted.org/packages/83/63/c6137ab0913afef21e2751c395ace9e2696ac32c771145c8a208c41bbfe1/FairDynamicRec-0.0.99.tar.gz
+[2023-04-29 22:44:23] INFO root fetch - main [MainThread]: End processing [skeetpy]: success
+[2023-04-29 22:44:23] INFO root fetch - main [MainThread]: End processing [wnnet]: success
+[2023-04-29 22:44:23] INFO root fetch - main [MainThread]: End processing [dataknobs]: success
+[2023-04-29 22:44:23] INFO root fetch - main [MainThread]: End processing [latexplotlib]: success
+[2023-04-29 22:44:23] INFO root fetch - processPackages [FairDynamicRec]: executing diffoscope
+[2023-04-29 22:44:23] INFO root fetch - processPackages [FairDynamicRec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FairDynamicRec-0.0.98.tar.gz tmp/FairDynamicRec-0.0.99.tar.gz --markdown 20230429/F/FairDynamicRec/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 22:44:23] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-04-29 22:44:26] INFO root fetch - main [MainThread]: End processing [FairDynamicRec]: success
+[2023-04-29 22:44:26] INFO root fetch - main [MainThread]: Store serial: [17912308]
