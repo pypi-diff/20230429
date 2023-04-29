@@ -7820,3 +7820,60 @@
 [2023-04-29 12:33:34] INFO root fetch - main [MainThread]: End processing [flag-identification]: success
 [2023-04-29 12:33:35] INFO root fetch - main [MainThread]: End processing [automation-editor]: success
 [2023-04-29 12:33:35] INFO root fetch - main [MainThread]: Store serial: [17908184]
+[2023-04-29 12:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908184]
+[2023-04-29 12:38:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalAssistAnt
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isabelle-client
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nua-lib
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nua
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nua-agent
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nua-build
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oceano-algos
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nua-orchestrator
+[2023-04-29 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: citizenk
+[2023-04-29 12:38:44] INFO root fetch - processPackages [digitalAssistAnt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-lib]: New version: [0.5.9] Old Version: [0.5.17]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua]: New version: [0.5.8] Old Version: [0.5.17]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [citizenk]: New version: [0.1.28] Old Version: [0.1.27]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-agent]: New version: [0.5.17] Old Version: [0.5.16]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [isabelle-client]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-orchestrator]: New version: [0.5.17] Old Version: [0.5.16]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-build]: New version: [0.5.17] Old Version: [0.5.16]
+[2023-04-29 12:38:44] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.27.tar.gz tmp/citizenk-0.1.28.tar.gz --markdown 20230429/c/citizenk/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2023-04-29 12:38:44] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230429/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-lib]: Downloading https://files.pythonhosted.org/packages/34/01/3a4b78bec8255d8fd2f454323d983f5eeda349df1f94e516b83c4f7ca63b/nua_lib-0.5.17.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua]: Downloading https://files.pythonhosted.org/packages/a2/57/26a939f0e73841693c30a91e4e0edf6160e60c4778bf71f188e5d942cab4/nua-0.5.17.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [digitalAssistAnt]: Downloading https://files.pythonhosted.org/packages/7f/61/14d33047e700946677afb4ce952793af5486cff70855c9344c60fa9e9a63/digitalAssistAnt-0.0.1.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [isabelle-client]: Downloading https://files.pythonhosted.org/packages/f6/0a/ec8bcf777206059ba51c46ea8f3ac9d801ec7e82915ddd2c493ed8bb875f/isabelle-client-0.3.8.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-agent]: Downloading https://files.pythonhosted.org/packages/71/23/947e3a67884dd363aa33844eb49885340e2b7aae044db6368f2442135db1/nua_agent-0.5.17.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-orchestrator]: Downloading https://files.pythonhosted.org/packages/76/1c/f93289e6d1ef8578d3fcfa7d93147de2006327efb722f2adef33f20ab8b1/nua_orchestrator-0.5.17.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-build]: Downloading https://files.pythonhosted.org/packages/a9/2d/d5d99aea09bb86ebdd9808ca2cea9c03a2f03491b80bdf68b1457e91cd30/nua_build-0.5.17.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [digitalAssistAnt]: Downloading https://files.pythonhosted.org/packages/a3/f1/64c14c46336f7f023f1bb60b7ba32fb24e79675bb473112c4c70ec6d96d3/digitalAssistAnt-0.0.2.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-agent]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_agent-0.5.16.tar.gz tmp/nua_agent-0.5.17.tar.gz --markdown 20230429/n/nua-agent/0.5.16-0.5.17/diff.md --exclude *.pyd
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-orchestrator]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-orchestrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_orchestrator-0.5.16.tar.gz tmp/nua_orchestrator-0.5.17.tar.gz --markdown 20230429/n/nua-orchestrator/0.5.16-0.5.17/diff.md --exclude *.pyd
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-lib]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-build]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_lib-0.5.17.tar.gz tmp/nua_lib-0.5.9.tar.gz --markdown 20230429/n/nua-lib/0.5.17-0.5.9/diff.md --exclude *.pyd
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua_build-0.5.16.tar.gz tmp/nua_build-0.5.17.tar.gz --markdown 20230429/n/nua-build/0.5.16-0.5.17/diff.md --exclude *.pyd
+[2023-04-29 12:38:44] INFO root fetch - processPackages [digitalAssistAnt]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [digitalAssistAnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalAssistAnt-0.0.1.tar.gz tmp/digitalAssistAnt-0.0.2.tar.gz --markdown 20230429/d/digitalAssistAnt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [nua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nua-0.5.17.tar.gz tmp/nua-0.5.8.tar.gz --markdown 20230429/n/nua/0.5.17-0.5.8/diff.md --exclude *.pyd
+[2023-04-29 12:38:44] INFO root fetch - processPackages [isabelle-client]: Downloading https://files.pythonhosted.org/packages/a9/60/2ef798369857ed7529b3f15c82498c3671ae358a4c3447038994a475a4ec/isabelle-client-0.3.9.tar.gz
+[2023-04-29 12:38:44] INFO root fetch - processPackages [isabelle-client]: executing diffoscope
+[2023-04-29 12:38:44] INFO root fetch - processPackages [isabelle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isabelle-client-0.3.8.tar.gz tmp/isabelle-client-0.3.9.tar.gz --markdown 20230429/i/isabelle-client/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-29 12:38:45] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-29 12:38:45] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-04-29 12:38:46] INFO root fetch - main [MainThread]: End processing [digitalAssistAnt]: success
+[2023-04-29 12:38:46] INFO root fetch - main [MainThread]: End processing [nua]: success
+[2023-04-29 12:38:46] INFO root fetch - main [MainThread]: End processing [nua-agent]: success
+[2023-04-29 12:38:46] INFO root fetch - main [MainThread]: End processing [nua-lib]: success
+[2023-04-29 12:38:46] INFO root fetch - main [MainThread]: End processing [nua-orchestrator]: success
+[2023-04-29 12:38:46] INFO root fetch - main [MainThread]: End processing [isabelle-client]: success
+[2023-04-29 12:38:47] INFO root fetch - main [MainThread]: End processing [nua-build]: success
+[2023-04-29 12:38:47] INFO root fetch - main [MainThread]: Store serial: [17908210]
