@@ -8229,3 +8229,41 @@
 [2023-04-29 13:15:49] INFO root fetch - main [MainThread]: End processing [pymailers]: success
 [2023-04-29 13:15:49] INFO root fetch - main [MainThread]: End processing [balladeer]: success
 [2023-04-29 13:15:49] INFO root fetch - main [MainThread]: Store serial: [17908484]
+[2023-04-29 13:20:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908484]
+[2023-04-29 13:20:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 13:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpgi
+[2023-04-29 13:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yyyy
+[2023-04-29 13:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalAssistAnt
+[2023-04-29 13:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tb-nightly
+[2023-04-29 13:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kiam-astro
+[2023-04-29 13:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoop-template-engine
+[2023-04-29 13:20:58] WARNING root fetch - processPackages [yyyy]: Skipping, unable to determine old version
+[2023-04-29 13:20:58] INFO root fetch - main [MainThread]: End processing [yyyy] error
+[2023-04-29 13:20:58] INFO root fetch - processPackages [kiam-astro]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-04-29 13:20:58] INFO root fetch - processPackages [gpgi]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-29 13:20:58] INFO root fetch - processPackages [digitalAssistAnt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-29 13:20:58] INFO root fetch - processPackages [scoop-template-engine]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-04-29 13:20:58] INFO root fetch - processPackages [scoop-template-engine]: Downloading https://files.pythonhosted.org/packages/31/9d/8f6ad6d2694c16920d161f9d394c9a25a3c6b274d085d509605bb48bf5a8/scoop-template-engine-1.0.4.tar.gz
+[2023-04-29 13:20:58] INFO root fetch - processPackages [gpgi]: Downloading https://files.pythonhosted.org/packages/82/ac/3f1a576e84a4782e7c0e2ba4f3804759979d1b7ce0431e564af7b3f58452/gpgi-0.8.0.tar.gz
+[2023-04-29 13:20:58] INFO root fetch - processPackages [kiam-astro]: Downloading https://files.pythonhosted.org/packages/b7/21/f5155fbb9dd0fa2fca6259119d24190b6ceff6abba7fcbdfc9f970abe370/kiam_astro-3.1.0.tar.gz
+[2023-04-29 13:20:58] INFO root fetch - processPackages [digitalAssistAnt]: Downloading https://files.pythonhosted.org/packages/7f/04/adf5e003780a2c37764d6998c02c2f6ed0015dfe3a987b67262e57bea239/digitalAssistAnt-0.0.4.tar.gz
+[2023-04-29 13:20:59] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-04-29 13:20:59] INFO root fetch - processPackages [digitalAssistAnt]: executing diffoscope
+[2023-04-29 13:20:59] INFO root fetch - processPackages [digitalAssistAnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalAssistAnt-0.0.3.tar.gz tmp/digitalAssistAnt-0.0.4.tar.gz --markdown 20230429/d/digitalAssistAnt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-29 13:20:59] WARNING root fetch - processPackages [kiam-astro]: Skipping package: exceeds size limit 30607123>=10485760
+[2023-04-29 13:20:59] INFO root fetch - main [MainThread]: End processing [kiam-astro] error
+[2023-04-29 13:20:59] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-04-29 13:20:59] INFO root fetch - processPackages [scoop-template-engine]: Downloading https://files.pythonhosted.org/packages/06/7e/e3bcea41d44f551301fb32e8184c57f4ad64289adcf204a65140e16926c0/scoop-template-engine-1.1.0.tar.gz
+[2023-04-29 13:20:59] INFO root fetch - processPackages [gpgi]: Downloading https://files.pythonhosted.org/packages/29/b9/3370a5b0452ffc05508351fcc1ddca65ccfd476c70d3c6d6320a14277c75/gpgi-0.9.0.tar.gz
+[2023-04-29 13:20:59] INFO root fetch - processPackages [gpgi]: executing diffoscope
+[2023-04-29 13:20:59] INFO root fetch - processPackages [gpgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpgi-0.8.0.tar.gz tmp/gpgi-0.9.0.tar.gz --markdown 20230429/g/gpgi/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-29 13:20:59] INFO root fetch - processPackages [scoop-template-engine]: executing diffoscope
+[2023-04-29 13:20:59] INFO root fetch - processPackages [scoop-template-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoop-template-engine-1.0.4.tar.gz tmp/scoop-template-engine-1.1.0.tar.gz --markdown 20230429/s/scoop-template-engine/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-04-29 13:21:00] INFO root fetch - main [MainThread]: End processing [digitalAssistAnt]: success
+[2023-04-29 13:21:00] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-04-29 13:21:01] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-04-29 13:21:01] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230429/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-04-29 13:21:01] INFO root fetch - main [MainThread]: End processing [gpgi]: success
+[2023-04-29 13:21:06] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-04-29 13:21:26] INFO root fetch - main [MainThread]: End processing [scoop-template-engine]: success
+[2023-04-29 13:21:26] INFO root fetch - main [MainThread]: Store serial: [17908514]
