@@ -6070,3 +6070,40 @@
 [2023-04-29 08:30:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-coupon-multiplier-free-product]: success
 [2023-04-29 08:30:20] INFO root fetch - main [MainThread]: End processing [gptcache]: success
 [2023-04-29 08:30:20] INFO root fetch - main [MainThread]: Store serial: [17907126]
+[2023-04-29 08:35:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907126]
+[2023-04-29 08:35:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-29 08:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repcmd
+[2023-04-29 08:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-weather
+[2023-04-29 08:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lg-april-permissions
+[2023-04-29 08:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-macos
+[2023-04-29 08:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clueai
+[2023-04-29 08:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-sale-order-secondary-unit
+[2023-04-29 08:35:29] WARNING root fetch - processPackages [repcmd]: Skipping, unable to determine old version
+[2023-04-29 08:35:29] INFO root fetch - main [MainThread]: End processing [repcmd] error
+[2023-04-29 08:35:29] INFO root fetch - processPackages [lg-april-permissions]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 08:35:29] INFO root fetch - processPackages [python-weather]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-29 08:35:29] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230428] Old Version: [2.13.0.dev20230427]
+[2023-04-29 08:35:29] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-04-29 08:35:29] INFO root fetch - processPackages [clueai]: New version: [0.0.2.2.5] Old Version: [0.0.2.2.4]
+[2023-04-29 08:35:29] INFO root fetch - processPackages [lg-april-permissions]: Downloading https://files.pythonhosted.org/packages/76/90/7e25c22d3cb70940f3e2efca1cb2045fde09b0bbd8140f0c53ccddba2f4d/lg_april_permissions-0.1.8.tar.gz
+[2023-04-29 08:35:29] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/1b/6c/65ec6974d161fdfa98a928d8d26cd89e9d7cf77b22f30fd7a14dbc94a6f0/tf_nightly_macos-2.13.0.dev20230427-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-29 08:35:29] INFO root fetch - processPackages [clueai]: Downloading https://files.pythonhosted.org/packages/c5/05/7acf197297fa692f3adf6110085cd78bebc17fa35fcf870e484b2af84868/clueai-0.0.2.2.4.tar.gz
+[2023-04-29 08:35:29] INFO root fetch - processPackages [python-weather]: Downloading https://files.pythonhosted.org/packages/08/25/e75452ac19c042a14920be2d44c4d294fa00b90a2d3e60cc725d692af742/python-weather-1.0.1.tar.gz
+[2023-04-29 08:35:29] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: Downloading https://files.pythonhosted.org/packages/00/07/989a471b983ea850f6f00705cf30ff0b5c9b0c58989321222db458f00fd0/odoo14_addon_sale_order_secondary_unit-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-29 08:35:29] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 189178315>=10485760
+[2023-04-29 08:35:29] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-29 08:35:29] INFO root fetch - processPackages [lg-april-permissions]: Downloading https://files.pythonhosted.org/packages/12/f4/aff8a613d3ea9214c0d0da72045c81cb625ca6c2d08bda976fce2e802975/lg_april_permissions-0.1.9.tar.gz
+[2023-04-29 08:35:29] INFO root fetch - processPackages [python-weather]: executing diffoscope
+[2023-04-29 08:35:29] INFO root fetch - processPackages [python-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-weather-1.0.0.tar.gz tmp/python-weather-1.0.1.tar.gz --markdown 20230429/p/python-weather/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-29 08:35:29] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: executing diffoscope
+[2023-04-29 08:35:29] INFO root fetch - processPackages [odoo14-addon-sale-order-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_secondary_unit-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_secondary_unit-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addon-sale-order-secondary-unit/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-29 08:35:29] INFO root fetch - processPackages [clueai]: Downloading https://files.pythonhosted.org/packages/c2/f1/bcf713fcc37505176e92e2a7038142f014de3fb264f43ad04cf187961bc0/clueai-0.0.2.2.5.tar.gz
+[2023-04-29 08:35:29] INFO root fetch - processPackages [lg-april-permissions]: executing diffoscope
+[2023-04-29 08:35:29] INFO root fetch - processPackages [lg-april-permissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lg_april_permissions-0.1.8.tar.gz tmp/lg_april_permissions-0.1.9.tar.gz --markdown 20230429/l/lg-april-permissions/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 08:35:29] INFO root fetch - processPackages [clueai]: executing diffoscope
+[2023-04-29 08:35:29] INFO root fetch - processPackages [clueai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clueai-0.0.2.2.4.tar.gz tmp/clueai-0.0.2.2.5.tar.gz --markdown 20230429/c/clueai/0.0.2.2.4-0.0.2.2.5/diff.md --exclude *.pyd
+[2023-04-29 08:35:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-secondary-unit]: success
+[2023-04-29 08:35:30] INFO root fetch - main [MainThread]: End processing [lg-april-permissions]: success
+[2023-04-29 08:35:30] INFO root fetch - main [MainThread]: End processing [python-weather]: success
+[2023-04-29 08:35:31] INFO root fetch - main [MainThread]: End processing [clueai]: success
+[2023-04-29 08:35:31] INFO root fetch - main [MainThread]: Store serial: [17907145]
