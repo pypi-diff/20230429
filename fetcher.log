@@ -13217,3 +13217,31 @@
 [2023-04-29 21:38:36] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
 [2023-04-29 21:38:36] INFO root fetch - main [MainThread]: End processing [django-bulk-signals]: success
 [2023-04-29 21:38:36] INFO root fetch - main [MainThread]: Store serial: [17911910]
+[2023-04-29 21:43:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911910]
+[2023-04-29 21:43:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-29 21:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gen-odoo-readme
+[2023-04-29 21:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycluon
+[2023-04-29 21:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gast
+[2023-04-29 21:43:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyoxigraph
+[2023-04-29 21:43:44] INFO root fetch - processPackages [gen-odoo-readme]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-29 21:43:44] INFO root fetch - processPackages [pycluon]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 21:43:44] INFO root fetch - processPackages [gast]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-29 21:43:44] INFO root fetch - processPackages [pyoxigraph]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-29 21:43:45] INFO root fetch - processPackages [gen-odoo-readme]: executing diffoscope
+[2023-04-29 21:43:45] INFO root fetch - processPackages [gen-odoo-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen-odoo-readme-1.0.8.tar.gz tmp/gen-odoo-readme-1.0.9.tar.gz --markdown 20230429/g/gen-odoo-readme/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-29 21:43:45] INFO root fetch - processPackages [pyoxigraph]: Downloading https://files.pythonhosted.org/packages/f2/0a/0360a3dd26d3b41f087523180e898f000545d5b274f0be56f18e19a4b655/pyoxigraph-0.3.8.tar.gz
+[2023-04-29 21:43:45] INFO root fetch - processPackages [pycluon]: Downloading https://files.pythonhosted.org/packages/59/d6/7815a4067707f28263f00de7edcfd220b3510b1c59d6a0373f5936e2de9b/pycluon-0.2.2-cp39-cp39-win_amd64.whl
+[2023-04-29 21:43:45] INFO root fetch - processPackages [gast]: Downloading https://files.pythonhosted.org/packages/48/a3/0bd844c54ae8141642088b7ae09dd38fec2ec7faa9b7d25bb6a23c1f266f/gast-0.5.3.tar.gz
+[2023-04-29 21:43:45] INFO root fetch - processPackages [pycluon]: executing diffoscope
+[2023-04-29 21:43:45] INFO root fetch - processPackages [pycluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycluon-0.2.1-cp39-cp39-win_amd64.whl.zip tmp/pycluon-0.2.2-cp39-cp39-win_amd64.whl.zip --markdown 20230429/p/pycluon/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 21:43:45] INFO root fetch - processPackages [gast]: Downloading https://files.pythonhosted.org/packages/e4/41/f26f62ebef1a80148e20951a6e9ef4d0ebbe2090124bc143da26e12a934c/gast-0.5.4.tar.gz
+[2023-04-29 21:43:45] INFO root fetch - processPackages [gast]: executing diffoscope
+[2023-04-29 21:43:45] INFO root fetch - processPackages [gast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gast-0.5.3.tar.gz tmp/gast-0.5.4.tar.gz --markdown 20230429/g/gast/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-29 21:43:46] INFO root fetch - main [MainThread]: End processing [gen-odoo-readme]: success
+[2023-04-29 21:43:46] INFO root fetch - main [MainThread]: End processing [gast]: success
+[2023-04-29 21:43:48] INFO root fetch - processPackages [pyoxigraph]: Downloading https://files.pythonhosted.org/packages/b0/47/b4e91d5e4c9dcb0ea03414c92752445cc268c440bcc5ff64a159ce91a064/pyoxigraph-0.3.9.tar.gz
+[2023-04-29 21:43:51] INFO root fetch - processPackages [pyoxigraph]: executing diffoscope
+[2023-04-29 21:43:51] INFO root fetch - processPackages [pyoxigraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxigraph-0.3.8.tar.gz tmp/pyoxigraph-0.3.9.tar.gz --markdown 20230429/p/pyoxigraph/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-29 21:43:57] INFO root fetch - main [MainThread]: End processing [pycluon]: success
+[2023-04-29 21:44:38] INFO root fetch - main [MainThread]: End processing [pyoxigraph]: success
+[2023-04-29 21:44:38] INFO root fetch - main [MainThread]: Store serial: [17911940]
