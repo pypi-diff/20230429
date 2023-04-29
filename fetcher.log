@@ -5479,3 +5479,12 @@
 [2023-04-29 06:55:52] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
 [2023-04-29 06:55:52] INFO root fetch - main [MainThread]: End processing [result]: success
 [2023-04-29 06:55:52] INFO root fetch - main [MainThread]: Store serial: [17906711]
+[2023-04-29 07:00:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906711]
+[2023-04-29 07:01:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-04-29 07:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trove-classifiers
+[2023-04-29 07:01:01] INFO root fetch - processPackages [trove-classifiers]: New version: [2023.4.29] Old Version: [2023.4.25]
+[2023-04-29 07:01:02] INFO root fetch - processPackages [trove-classifiers]: Downloading https://files.pythonhosted.org/packages/c8/9b/8e1a88794d21abb90349c7d0decbee3efe31b4b74987c51d815fc5784c81/trove-classifiers-2023.4.29.tar.gz
+[2023-04-29 07:01:02] INFO root fetch - processPackages [trove-classifiers]: executing diffoscope
+[2023-04-29 07:01:02] INFO root fetch - processPackages [trove-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove-classifiers-2023.4.25.tar.gz tmp/trove-classifiers-2023.4.29.tar.gz --markdown 20230429/t/trove-classifiers/2023.4.25-2023.4.29/diff.md --exclude *.pyd
+[2023-04-29 07:01:03] INFO root fetch - main [MainThread]: End processing [trove-classifiers]: success
+[2023-04-29 07:01:03] INFO root fetch - main [MainThread]: Store serial: [17906717]
