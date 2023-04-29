@@ -13685,3 +13685,26 @@
 [2023-04-29 22:49:39] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-04-29 22:49:42] INFO root fetch - main [MainThread]: End processing [fpm]: success
 [2023-04-29 22:49:42] INFO root fetch - main [MainThread]: Store serial: [17912388]
+[2023-04-29 22:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912388]
+[2023-04-29 22:54:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 22:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: learninghouse
+[2023-04-29 22:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roberta-base-en-plant-ner-case
+[2023-04-29 22:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alpha-filter
+[2023-04-29 22:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hordelib
+[2023-04-29 22:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydefendermalware123
+[2023-04-29 22:54:52] WARNING root fetch - processPackages [alpha-filter]: Skipping, unable to determine old version
+[2023-04-29 22:54:52] INFO root fetch - main [MainThread]: End processing [alpha-filter] error
+[2023-04-29 22:54:52] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-04-29 22:54:52] INFO root fetch - processPackages [learninghouse]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-04-29 22:54:52] WARNING root fetch - processPackages [roberta-base-en-plant-ner-case]: Skipping, unable to determine old version
+[2023-04-29 22:54:52] INFO root fetch - main [MainThread]: End processing [roberta-base-en-plant-ner-case] error
+[2023-04-29 22:54:52] WARNING root fetch - processPackages [pydefendermalware123]: Skipping, unable to determine old version
+[2023-04-29 22:54:52] INFO root fetch - main [MainThread]: End processing [pydefendermalware123] error
+[2023-04-29 22:54:52] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-29 22:54:52] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230429/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-04-29 22:54:52] INFO root fetch - processPackages [learninghouse]: Downloading https://files.pythonhosted.org/packages/2c/fa/c0f09dd8b7f6a796aaeca5b283f5b97cb22848e5a859a780727a825d89b9/learninghouse-1.8.1.tar.gz
+[2023-04-29 22:54:52] INFO root fetch - processPackages [learninghouse]: executing diffoscope
+[2023-04-29 22:54:52] INFO root fetch - processPackages [learninghouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learninghouse-1.8.0.tar.gz tmp/learninghouse-1.8.1.tar.gz --markdown 20230429/l/learninghouse/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-04-29 22:55:01] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-29 22:55:03] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
+[2023-04-29 22:55:03] INFO root fetch - main [MainThread]: Store serial: [17912410]
