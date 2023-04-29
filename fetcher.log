@@ -11148,3 +11148,82 @@
 [2023-04-29 18:09:44] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-04-29 18:10:04] INFO root fetch - main [MainThread]: End processing [gptq-triton]: success
 [2023-04-29 18:10:04] INFO root fetch - main [MainThread]: Store serial: [17910531]
+[2023-04-29 18:15:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910531]
+[2023-04-29 18:15:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: api-hunter-cli
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyfit
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MKN-third-codes
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: z4d-certified-devices
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-ember-mug
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mitm
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-web-template
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hype-html
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MKN-third-codes
+[2023-04-29 18:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MKN-third-codes
+[2023-04-29 18:15:13] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 18:15:13] WARNING root fetch - processPackages [easyfit]: Skipping, unable to determine old version
+[2023-04-29 18:15:13] INFO root fetch - processPackages [easyfit]: Start processing: hype-html
+[2023-04-29 18:15:13] INFO root fetch - main [MainThread]: End processing [easyfit] error
+[2023-04-29 18:15:13] INFO root fetch - processPackages [hype-html]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.3.2.9] Old Version: [0.3.2.8]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.55] Old Version: [2.54]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [mitm]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [flet-web-template]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.3.2.9] Old Version: [0.3.2.8]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [hype-html]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.3.2.9] Old Version: [0.3.2.8]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [python-ember-mug]: New version: [0.7.0b6] Old Version: [0.7.0b5]
+[2023-04-29 18:15:13] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/bc/e9/57ffd43eb9214fa3d0e3fc01e390c68ca1867c5504672fea643c07932e11/MKN_third_codes-0.3.2.8.tar.gz
+[2023-04-29 18:15:13] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/bc/e9/57ffd43eb9214fa3d0e3fc01e390c68ca1867c5504672fea643c07932e11/MKN_third_codes-0.3.2.8.tar.gz
+[2023-04-29 18:15:13] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/bc/e9/57ffd43eb9214fa3d0e3fc01e390c68ca1867c5504672fea643c07932e11/MKN_third_codes-0.3.2.8.tar.gz
+[2023-04-29 18:15:13] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/70/67/7315b8633684b0915c2b00070da77ee59d423c5bd834b44ebe84a0f62913/hype-html-1.1.1.tar.gz
+[2023-04-29 18:15:13] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/70/67/7315b8633684b0915c2b00070da77ee59d423c5bd834b44ebe84a0f62913/hype-html-1.1.1.tar.gz
+[2023-04-29 18:15:13] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/15/b4/ab7d448c6a3f70f818b881a56a694dd4429ff5d5cc4abafa91eb9064154b/z4d-certified-devices-2.54.tar.gz
+[2023-04-29 18:15:13] INFO root fetch - processPackages [flet-web-template]: Downloading https://files.pythonhosted.org/packages/12/e1/410f3ad1a53cf2d29063ac62a49bbf65475780019e32260225e017cbca5e/flet-web-template-0.1.4.tar.gz
+[2023-04-29 18:15:13] INFO root fetch - processPackages [python-ember-mug]: Downloading https://files.pythonhosted.org/packages/95/e4/fcc0c1015aae388085bd942763ad62b45ef42508a3b78f556f495aed1db0/python_ember_mug-0.7.0b6.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [mitm]: Downloading https://files.pythonhosted.org/packages/aa/5c/4e72e2bd213a6fb469aaf527be350b848973426f6f6728bf290a0ea132a6/mitm-1.4.2.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [flet-web-template]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [flet-web-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-web-template-0.1.3.tar.gz tmp/flet-web-template-0.1.4.tar.gz --markdown 20230429/f/flet-web-template/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/74/67/a25765cc15d68e493ecb3b616c0375c9a243fd6432242f82ecaead0c6a74/hype-html-1.1.2.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/6c/58/a8da408058b2d1dacbd7f5598c3b3c2d9ba5712dae7ca1df2bce139a6e37/MKN_third_codes-0.3.2.9.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/6c/58/a8da408058b2d1dacbd7f5598c3b3c2d9ba5712dae7ca1df2bce139a6e37/MKN_third_codes-0.3.2.9.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [python-ember-mug]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/6c/58/a8da408058b2d1dacbd7f5598c3b3c2d9ba5712dae7ca1df2bce139a6e37/MKN_third_codes-0.3.2.9.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [python-ember-mug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_ember_mug-0.7.0b5.tar.gz tmp/python_ember_mug-0.7.0b6.tar.gz --markdown 20230429/p/python-ember-mug/0.7.0b5-0.7.0b6/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [hype-html]: Downloading https://files.pythonhosted.org/packages/74/67/a25765cc15d68e493ecb3b616c0375c9a243fd6432242f82ecaead0c6a74/hype-html-1.1.2.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [hype-html]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [hype-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hype-html-1.1.1.tar.gz tmp/hype-html-1.1.2.tar.gz --markdown 20230429/h/hype-html/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.2.8.tar.gz tmp/MKN_third_codes-0.3.2.9.tar.gz --markdown 20230429/M/MKN-third-codes/0.3.2.8-0.3.2.9/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.2.8.tar.gz tmp/MKN_third_codes-0.3.2.9.tar.gz --markdown 20230429/M/MKN-third-codes/0.3.2.8-0.3.2.9/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/8d/b4/04109d5b0d771f088fcc86046d21b965b1af12a825b0c66c5f475aadd122/api_hunter_cli-0.1.9.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.2.8.tar.gz tmp/MKN_third_codes-0.3.2.9.tar.gz --markdown 20230429/M/MKN-third-codes/0.3.2.8-0.3.2.9/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [hype-html]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [hype-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hype-html-1.1.1.tar.gz tmp/hype-html-1.1.2.tar.gz --markdown 20230429/h/hype-html/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_hunter_cli-0.1.8.tar.gz tmp/api_hunter_cli-0.1.9.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/dd/ed/d0b728dc356de154521f8a2b830de4cc75950b8d5101f6606b3f426effba/z4d-certified-devices-2.55.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [mitm]: Downloading https://files.pythonhosted.org/packages/5a/fe/ec6357bd7971c26035e75006a1711c3f9d80d3828724b2d23e6f1da44a82/mitm-1.4.3.tar.gz
+[2023-04-29 18:15:14] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.54.tar.gz tmp/z4d-certified-devices-2.55.tar.gz --markdown 20230429/z/z4d-certified-devices/2.54-2.55/diff.md --exclude *.pyd
+[2023-04-29 18:15:14] INFO root fetch - processPackages [mitm]: executing diffoscope
+[2023-04-29 18:15:14] INFO root fetch - processPackages [mitm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitm-1.4.2.tar.gz tmp/mitm-1.4.3.tar.gz --markdown 20230429/m/mitm/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-04-29 18:15:15] INFO root fetch - processPackages [flet-web-template]: Start processing: api-hunter-cli
+[2023-04-29 18:15:15] INFO root fetch - main [MainThread]: End processing [flet-web-template]: success
+[2023-04-29 18:15:15] INFO root fetch - processPackages [api-hunter-cli]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-04-29 18:15:15] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 18:15:15] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 18:15:15] INFO root fetch - processPackages [api-hunter-cli]: Downloading https://files.pythonhosted.org/packages/f7/3a/02dbffd91eeba0898a93dee72825a58962d48a11e16ea13529c8ab523065/api_hunter_cli-0.2.0.tar.gz
+[2023-04-29 18:15:15] INFO root fetch - main [MainThread]: End processing [hype-html]: success
+[2023-04-29 18:15:15] INFO root fetch - processPackages [api-hunter-cli]: executing diffoscope
+[2023-04-29 18:15:15] INFO root fetch - processPackages [api-hunter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_hunter_cli-0.1.9.tar.gz tmp/api_hunter_cli-0.2.0.tar.gz --markdown 20230429/a/api-hunter-cli/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 18:15:15] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 18:15:16] INFO root fetch - main [MainThread]: End processing [hype-html]: success
+[2023-04-29 18:15:16] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 18:15:16] INFO root fetch - main [MainThread]: End processing [python-ember-mug]: success
+[2023-04-29 18:15:16] INFO root fetch - main [MainThread]: End processing [mitm]: success
+[2023-04-29 18:15:16] INFO root fetch - main [MainThread]: End processing [api-hunter-cli]: success
+[2023-04-29 18:15:20] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-04-29 18:15:20] INFO root fetch - main [MainThread]: Store serial: [17910572]
