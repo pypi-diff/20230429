@@ -8267,3 +8267,48 @@
 [2023-04-29 13:21:06] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-04-29 13:21:26] INFO root fetch - main [MainThread]: End processing [scoop-template-engine]: success
 [2023-04-29 13:21:26] INFO root fetch - main [MainThread]: Store serial: [17908514]
+[2023-04-29 13:26:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17908514]
+[2023-04-29 13:26:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 13:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Musicreater
+[2023-04-29 13:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MKN-third-codes
+[2023-04-29 13:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchtnt-nightly
+[2023-04-29 13:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastf1
+[2023-04-29 13:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VDBforGenAI
+[2023-04-29 13:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bbbbb
+[2023-04-29 13:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chan127-demo
+[2023-04-29 13:26:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MKN-third-codes
+[2023-04-29 13:26:38] WARNING root fetch - processPackages [VDBforGenAI]: Skipping, unable to determine old version
+[2023-04-29 13:26:38] INFO root fetch - main [MainThread]: End processing [VDBforGenAI] error
+[2023-04-29 13:26:38] INFO root fetch - processPackages [fastf1]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-04-29 13:26:38] WARNING root fetch - processPackages [bbbbb]: Skipping, unable to determine old version
+[2023-04-29 13:26:38] INFO root fetch - processPackages [Musicreater]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-29 13:26:38] INFO root fetch - main [MainThread]: End processing [bbbbb] error
+[2023-04-29 13:26:38] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-29 13:26:38] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 13:26:38] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-29 13:26:38] WARNING root fetch - processPackages [chan127-demo]: Skipping, unable to determine old version
+[2023-04-29 13:26:38] INFO root fetch - main [MainThread]: End processing [chan127-demo] error
+[2023-04-29 13:26:38] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-04-29 13:26:38] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.4.8.tar.gz tmp/torchtnt-nightly-2023.4.9.tar.gz --markdown 20230429/t/torchtnt-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-29 13:26:38] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/4a/b7/3c4dd83577ddc2cb1e20e5dc58faa67c74e60bbd8654c85c40e33ac205f6/Musicreater-0.4.0.tar.gz
+[2023-04-29 13:26:38] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/9a/a2/f888b4b1ae94491ee8cfb21f7c29bce5476d96d09f3b9317538fab6c33b9/MKN_third_codes-0.2.1.tar.gz
+[2023-04-29 13:26:38] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/9a/a2/f888b4b1ae94491ee8cfb21f7c29bce5476d96d09f3b9317538fab6c33b9/MKN_third_codes-0.2.1.tar.gz
+[2023-04-29 13:26:38] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/13/30/eb35272d9a1242bea169cd96793262f5dbf7362e8390b557955a23fe7d82/fastf1-2.3.2.tar.gz
+[2023-04-29 13:26:39] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/eb/ec/5eb0b5c4ab31c25ccaba4da6cc1e7f013aeecdcc644adb81530ff35a5a8a/Musicreater-0.5.0.tar.gz
+[2023-04-29 13:26:39] INFO root fetch - processPackages [Musicreater]: executing diffoscope
+[2023-04-29 13:26:39] INFO root fetch - processPackages [Musicreater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Musicreater-0.4.0.tar.gz tmp/Musicreater-0.5.0.tar.gz --markdown 20230429/M/Musicreater/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-29 13:26:39] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/dd/f9/c4ea8101590e9aa7622dc18352871ef46dc1e8cde06d2dda2ec75e55debc/fastf1-2.3.3.tar.gz
+[2023-04-29 13:26:39] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/63/3f/2825b543c36ad2235a9dd13947d49353ee0e4d14882bc939cf19d3c30050/MKN_third_codes-0.2.2.tar.gz
+[2023-04-29 13:26:39] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/63/3f/2825b543c36ad2235a9dd13947d49353ee0e4d14882bc939cf19d3c30050/MKN_third_codes-0.2.2.tar.gz
+[2023-04-29 13:26:39] INFO root fetch - processPackages [fastf1]: executing diffoscope
+[2023-04-29 13:26:39] INFO root fetch - processPackages [fastf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastf1-2.3.2.tar.gz tmp/fastf1-2.3.3.tar.gz --markdown 20230429/f/fastf1/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-04-29 13:26:39] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 13:26:39] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.2.1.tar.gz tmp/MKN_third_codes-0.2.2.tar.gz --markdown 20230429/M/MKN-third-codes/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 13:26:39] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-04-29 13:26:39] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.2.1.tar.gz tmp/MKN_third_codes-0.2.2.tar.gz --markdown 20230429/M/MKN-third-codes/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-29 13:26:40] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 13:26:40] INFO root fetch - main [MainThread]: End processing [Musicreater]: success
+[2023-04-29 13:26:40] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-04-29 13:26:40] INFO root fetch - main [MainThread]: End processing [fastf1]: success
+[2023-04-29 13:26:40] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-04-29 13:26:40] INFO root fetch - main [MainThread]: Store serial: [17908569]
