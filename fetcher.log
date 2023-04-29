@@ -13708,3 +13708,35 @@
 [2023-04-29 22:55:01] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-29 22:55:03] INFO root fetch - main [MainThread]: End processing [learninghouse]: success
 [2023-04-29 22:55:03] INFO root fetch - main [MainThread]: Store serial: [17912410]
+[2023-04-29 23:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17912410]
+[2023-04-29 23:00:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 23:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvivc
+[2023-04-29 23:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-engine
+[2023-04-29 23:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymwp
+[2023-04-29 23:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oking
+[2023-04-29 23:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-patch
+[2023-04-29 23:00:13] WARNING root fetch - processPackages [pyvivc]: Skipping, unable to determine old version
+[2023-04-29 23:00:13] INFO root fetch - main [MainThread]: End processing [pyvivc] error
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pytest-patch]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pymwp]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-29 23:00:13] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-04-29 23:00:13] INFO root fetch - processPackages [xia-engine]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pymwp]: Downloading https://files.pythonhosted.org/packages/7b/67/b3ebf77a6212a4a9a7d06612aaf21839143dc6b8d6e2423e6f715cd40a26/pymwp-0.3.0.tar.gz
+[2023-04-29 23:00:13] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-04-29 23:00:13] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/cf/0d/ac8a8a2377f54cc263213000986c9ee12d801a612f3c7380ccc70a2023dd/xia_engine-0.8.5-cp39-none-win_amd64.whl
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pytest-patch]: Downloading https://files.pythonhosted.org/packages/d4/86/7413088ebbe103e566f70641f27b95a081d7a7a82b6e87b2c0fe8d3adff8/pytest-patch-0.1.0.tar.gz
+[2023-04-29 23:00:13] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-04-29 23:00:13] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pytest-patch]: Downloading https://files.pythonhosted.org/packages/56/1c/e01f8ba5902cf51e6b3dfb61a779e864b848ff0c30b74cca4f896687a8f1/pytest-patch-0.2.0.tar.gz
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pytest-patch]: executing diffoscope
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pytest-patch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-patch-0.1.0.tar.gz tmp/pytest-patch-0.2.0.tar.gz --markdown 20230429/p/pytest-patch/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-29 23:00:13] INFO root fetch - processPackages [xia-engine]: Downloading https://files.pythonhosted.org/packages/db/e7/80b2f2e49a9d02b315b7cc5ab2af3f6a06856f4a42524ce4d0ddb3134cd2/xia_engine-0.8.6-cp39-none-macosx_11_0_x86_64.whl
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pymwp]: Downloading https://files.pythonhosted.org/packages/15/4a/3634fd0b44895950188af887507063902e736fe4aa99e3e08eef8590cbaa/pymwp-0.4.0.tar.gz
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pymwp]: executing diffoscope
+[2023-04-29 23:00:13] INFO root fetch - processPackages [pymwp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymwp-0.3.0.tar.gz tmp/pymwp-0.4.0.tar.gz --markdown 20230429/p/pymwp/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-29 23:00:13] INFO root fetch - processPackages [xia-engine]: executing diffoscope
+[2023-04-29 23:00:13] INFO root fetch - processPackages [xia-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine-0.8.5-cp39-none-win_amd64.whl.zip tmp/xia_engine-0.8.6-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230429/x/xia-engine/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-04-29 23:00:14] INFO root fetch - main [MainThread]: End processing [pytest-patch]: success
+[2023-04-29 23:00:14] INFO root fetch - main [MainThread]: End processing [xia-engine]: success
+[2023-04-29 23:00:15] INFO root fetch - main [MainThread]: End processing [pymwp]: success
+[2023-04-29 23:00:15] INFO root fetch - main [MainThread]: Store serial: [17912429]
