@@ -11908,3 +11908,61 @@
 [2023-04-29 19:16:07] INFO root fetch - main [MainThread]: End processing [pyhard]: success
 [2023-04-29 19:16:07] INFO root fetch - main [MainThread]: End processing [wagtail-sb-fontawesome]: success
 [2023-04-29 19:16:07] INFO root fetch - main [MainThread]: Store serial: [17911001]
+[2023-04-29 19:21:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911001]
+[2023-04-29 19:21:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanoatp
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-web-template
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycobertura
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SAPsim
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xcpcio-board-spider
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cli-command-parser
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ProjZ.py
+[2023-04-29 19:21:16] INFO root fetch - processPackages [flet-web-template]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [SAPsim]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [pycobertura]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [nanoatp]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ProjZ.py]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [cli-command-parser]: New version: [2023.4.8] Old Version: [2023.4.7]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-04-29 19:21:16] INFO root fetch - processPackages [xcpcio-board-spider]: Downloading https://files.pythonhosted.org/packages/38/57/bc2d12258901045f2a11af9c36892615c1466e98f9d7585400034b5589a8/xcpcio_board_spider-0.0.3.tar.gz
+[2023-04-29 19:21:16] INFO root fetch - processPackages [SAPsim]: Downloading https://files.pythonhosted.org/packages/e0/47/06761b9333b1dbbad1728d0f3d02147ea84358dff8e8ccfeeace1a4a5934/SAPsim-1.0.4.tar.gz
+[2023-04-29 19:21:16] INFO root fetch - processPackages [nanoatp]: Downloading https://files.pythonhosted.org/packages/37/bf/7d86a6b27c9fa1f01db462dae5ee86e928ba6c13ddc2bc64c6c3887a5823/nanoatp-0.3.2.tar.gz
+[2023-04-29 19:21:16] INFO root fetch - processPackages [pycobertura]: Downloading https://files.pythonhosted.org/packages/5e/aa/fa8271b3671ce0147452f9f7287422e8f062afd45ae5a2eb020693703822/pycobertura-3.0.0.tar.gz
+[2023-04-29 19:21:16] INFO root fetch - processPackages [flet-web-template]: Downloading https://files.pythonhosted.org/packages/62/48/d7ebb8d09926f5cd276b3bdcda12c74ce956ae56964c987579972e24067a/flet-web-template-0.1.9.tar.gz
+[2023-04-29 19:21:16] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-04-29 19:21:16] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.2.tar.gz tmp/xcpcio_board_spider-0.0.3.tar.gz --markdown 20230429/x/xcpcio-board-spider/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-29 19:21:16] INFO root fetch - processPackages [SAPsim]: executing diffoscope
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/59/ab/561abfa27860e1737bee8e2d6fdad65c628d1d4b7057147ebc2bf98b95a9/ProjZ.py-2.4.1.tar.gz
+[2023-04-29 19:21:16] INFO root fetch - processPackages [SAPsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAPsim-1.0.3.tar.gz tmp/SAPsim-1.0.4.tar.gz --markdown 20230429/S/SAPsim/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-29 19:21:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-29 19:21:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230429/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-29 19:21:16] INFO root fetch - processPackages [flet-web-template]: executing diffoscope
+[2023-04-29 19:21:16] INFO root fetch - processPackages [flet-web-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-web-template-0.1.8.tar.gz tmp/flet-web-template-0.1.9.tar.gz --markdown 20230429/f/flet-web-template/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 19:21:16] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/97/5a/c3583a3e784ab5e09515e5edeb1c8282c90db7b4cdc85a494cbdcd61f927/cli_command_parser-2023.4.7.tar.gz
+[2023-04-29 19:21:16] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-04-29 19:21:16] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230429/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-04-29 19:21:16] INFO root fetch - processPackages [nanoatp]: Downloading https://files.pythonhosted.org/packages/5f/b6/1e87971db4bd84deb18416c01b69b35b61827edb85c2ec6856f76f0d5d27/nanoatp-0.3.3.tar.gz
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-04-29 19:21:16] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.4.0.tar.gz tmp/ProjZ.py-2.4.1.tar.gz --markdown 20230429/P/ProjZ.py/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-29 19:21:16] INFO root fetch - processPackages [nanoatp]: executing diffoscope
+[2023-04-29 19:21:16] INFO root fetch - processPackages [nanoatp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoatp-0.3.2.tar.gz tmp/nanoatp-0.3.3.tar.gz --markdown 20230429/n/nanoatp/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-29 19:21:17] INFO root fetch - processPackages [pycobertura]: Downloading https://files.pythonhosted.org/packages/50/06/0d75e2bc900493a51893067bb3101e800e53e573af5b44e968deb05d7b92/pycobertura-3.1.0.tar.gz
+[2023-04-29 19:21:17] INFO root fetch - processPackages [pycobertura]: executing diffoscope
+[2023-04-29 19:21:17] INFO root fetch - processPackages [pycobertura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycobertura-3.0.0.tar.gz tmp/pycobertura-3.1.0.tar.gz --markdown 20230429/p/pycobertura/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-04-29 19:21:17] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/ce/11/16ec4fc2821f0ec0db8de45132901bf20798f9707e5331c8de6bb39aa91b/cli_command_parser-2023.4.8.tar.gz
+[2023-04-29 19:21:17] INFO root fetch - processPackages [cli-command-parser]: executing diffoscope
+[2023-04-29 19:21:17] INFO root fetch - processPackages [cli-command-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_command_parser-2023.4.7.tar.gz tmp/cli_command_parser-2023.4.8.tar.gz --markdown 20230429/c/cli-command-parser/2023.4.7-2023.4.8/diff.md --exclude *.pyd
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [flet-web-template]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [nanoatp]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [SAPsim]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: End processing [pycobertura]: success
+[2023-04-29 19:21:18] INFO root fetch - main [MainThread]: Store serial: [17911027]
