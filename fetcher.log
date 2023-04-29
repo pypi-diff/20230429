@@ -12943,3 +12943,56 @@
 [2023-04-29 20:56:15] INFO root fetch - main [MainThread]: End processing [trade-executor]: success
 [2023-04-29 20:56:19] INFO root fetch - main [MainThread]: End processing [fpm]: success
 [2023-04-29 20:56:19] INFO root fetch - main [MainThread]: Store serial: [17911678]
+[2023-04-29 21:01:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911678]
+[2023-04-29 21:01:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-29 21:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: davtelepot
+[2023-04-29 21:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Poutyne
+[2023-04-29 21:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-pusher-flask
+[2023-04-29 21:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: x-transformers
+[2023-04-29 21:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: storedict
+[2023-04-29 21:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: objectwalker
+[2023-04-29 21:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabric2
+[2023-04-29 21:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fabric
+[2023-04-29 21:01:29] INFO root fetch - processPackages [Poutyne]: New version: [1.9] Old Version: [1.8]
+[2023-04-29 21:01:29] INFO root fetch - processPackages [xia-pusher-flask]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-29 21:01:29] INFO root fetch - processPackages [x-transformers]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-29 21:01:29] INFO root fetch - processPackages [davtelepot]: New version: [2.9.1] Old Version: [2.8.9]
+[2023-04-29 21:01:29] ERROR root fetch - processPackages [storedict]: Unable to get metadata: No such project 'storedict'
+[2023-04-29 21:01:29] INFO root fetch - main [MainThread]: End processing [storedict] error
+[2023-04-29 21:01:29] INFO root fetch - processPackages [fabric2]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-29 21:01:29] INFO root fetch - processPackages [objectwalker]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-04-29 21:01:29] INFO root fetch - processPackages [fabric]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-04-29 21:01:30] INFO root fetch - processPackages [Poutyne]: Downloading https://files.pythonhosted.org/packages/a7/57/b166b30ce6a881c1a112c5cfc9a06bfe81ffaed796d3a7ec5687e00893eb/Poutyne-1.8.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [objectwalker]: Downloading https://files.pythonhosted.org/packages/6b/e4/78ea9f4ec4e894f99a850c18f2fc866f1b60e95c5a59ebc8a8ac4759275f/objectwalker-2.1.4.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [davtelepot]: Downloading https://files.pythonhosted.org/packages/fa/1f/b4ed5a3d9de60223f0c6ef4802855979e0358f46ea10b31e545741b0dffa/davtelepot-2.8.9.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/4c/e4/1f4432d217a1facf7a79aa2e2a08ffdbcf411f13bef9bd9bd3307a99a1af/x-transformers-1.9.1.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [fabric]: Downloading https://files.pythonhosted.org/packages/2f/84/dbcbc78055397a783134f56b30c70a61a645fae568d73ec7aa301f5f93fd/fabric-3.0.0.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [fabric2]: Downloading https://files.pythonhosted.org/packages/39/ec/865aa4a92d5982361c07b0caff913ee3f398b40158870fd76c57d42ec212/fabric2-3.0.0.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [objectwalker]: executing diffoscope
+[2023-04-29 21:01:30] INFO root fetch - processPackages [objectwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectwalker-2.1.3.tar.gz tmp/objectwalker-2.1.4.tar.gz --markdown 20230429/o/objectwalker/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-04-29 21:01:30] INFO root fetch - processPackages [xia-pusher-flask]: Downloading https://files.pythonhosted.org/packages/20/fe/cf2292007f9285095e2181be16ef7f4246bde6d134ff47bd57d5a2042de7/xia_pusher_flask-0.0.7-cp39-none-win_amd64.whl
+[2023-04-29 21:01:30] INFO root fetch - processPackages [fabric]: Downloading https://files.pythonhosted.org/packages/bb/5a/21c5e4684dd56cddcecbc36d60f51d3744320d7b95bf02462e86f753404c/fabric-3.0.1.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [xia-pusher-flask]: executing diffoscope
+[2023-04-29 21:01:30] INFO root fetch - processPackages [xia-pusher-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_pusher_flask-0.0.6-cp39-none-win_amd64.whl.zip tmp/xia_pusher_flask-0.0.7-cp39-none-win_amd64.whl.zip --markdown 20230429/x/xia-pusher-flask/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-29 21:01:30] INFO root fetch - processPackages [fabric]: executing diffoscope
+[2023-04-29 21:01:30] INFO root fetch - processPackages [fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-3.0.0.tar.gz tmp/fabric-3.0.1.tar.gz --markdown 20230429/f/fabric/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-29 21:01:30] INFO root fetch - processPackages [davtelepot]: Downloading https://files.pythonhosted.org/packages/de/d8/f7edf6e6bb5f120fe7f34afa6eb97b34cb8639796989e27283da4deaab1d/davtelepot-2.9.1.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [fabric2]: Downloading https://files.pythonhosted.org/packages/36/49/d1937bd2a2cfea0f3882ec670d5f5e1e56a270400a2ba07cc00d26a7833e/fabric2-3.0.1.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [Poutyne]: Downloading https://files.pythonhosted.org/packages/3c/53/3791e4804a49adb8b209bae011bac2ac60c5afd40a17cbbd87706adbf918/Poutyne-1.9.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [x-transformers]: Downloading https://files.pythonhosted.org/packages/ce/c4/a338a8fcfd77c21d7b28960180987b186017522eb0ad53cfdce2ad6c59f5/x-transformers-1.9.2.tar.gz
+[2023-04-29 21:01:30] INFO root fetch - processPackages [fabric2]: executing diffoscope
+[2023-04-29 21:01:30] INFO root fetch - processPackages [fabric2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric2-3.0.0.tar.gz tmp/fabric2-3.0.1.tar.gz --markdown 20230429/f/fabric2/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-04-29 21:01:30] INFO root fetch - processPackages [davtelepot]: executing diffoscope
+[2023-04-29 21:01:30] INFO root fetch - processPackages [davtelepot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/davtelepot-2.8.9.tar.gz tmp/davtelepot-2.9.1.tar.gz --markdown 20230429/d/davtelepot/2.8.9-2.9.1/diff.md --exclude *.pyd
+[2023-04-29 21:01:30] INFO root fetch - processPackages [x-transformers]: executing diffoscope
+[2023-04-29 21:01:30] INFO root fetch - processPackages [x-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x-transformers-1.9.1.tar.gz tmp/x-transformers-1.9.2.tar.gz --markdown 20230429/x/x-transformers/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-29 21:01:30] INFO root fetch - processPackages [Poutyne]: executing diffoscope
+[2023-04-29 21:01:30] INFO root fetch - processPackages [Poutyne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Poutyne-1.8.tar.gz tmp/Poutyne-1.9.tar.gz --markdown 20230429/P/Poutyne/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-29 21:01:31] INFO root fetch - main [MainThread]: End processing [xia-pusher-flask]: success
+[2023-04-29 21:01:31] INFO root fetch - main [MainThread]: End processing [objectwalker]: success
+[2023-04-29 21:01:31] INFO root fetch - main [MainThread]: End processing [x-transformers]: success
+[2023-04-29 21:01:32] INFO root fetch - main [MainThread]: End processing [fabric]: success
+[2023-04-29 21:01:32] INFO root fetch - main [MainThread]: End processing [davtelepot]: success
+[2023-04-29 21:01:32] INFO root fetch - main [MainThread]: End processing [fabric2]: success
+[2023-04-29 21:01:35] INFO root fetch - main [MainThread]: End processing [Poutyne]: success
+[2023-04-29 21:01:35] INFO root fetch - main [MainThread]: Store serial: [17911706]
