@@ -4554,3 +4554,66 @@
 [2023-04-29 04:36:21] INFO root fetch - main [MainThread]: End processing [sutools]: success
 [2023-04-29 04:36:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
 [2023-04-29 04:36:21] INFO root fetch - main [MainThread]: Store serial: [17906204]
+[2023-04-29 04:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906204]
+[2023-04-29 04:41:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-review
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azure
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Catalyst-Lib
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkov
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ytdl-sub
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-rev
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfoundt
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-review
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-rev
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyautd3
+[2023-04-29 04:41:31] INFO root fetch - processPackages [Catalyst-Lib]: New version: [0.6] Old Version: [0.5]
+[2023-04-29 04:41:31] WARNING root fetch - processPackages [pyfoundt]: Skipping, unable to determine old version
+[2023-04-29 04:41:31] INFO root fetch - processPackages [pyfoundt]: Start processing: gpt-review
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: New version: [1.1] Old Version: [1.0]
+[2023-04-29 04:41:31] INFO root fetch - main [MainThread]: End processing [pyfoundt] error
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: New version: [1.1] Old Version: [1.0]
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ytdl-sub]: New version: [2023.4.5.post1] Old Version: [2023.4.5]
+[2023-04-29 04:41:31] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-04-29 04:41:31] INFO root fetch - processPackages [pyautd3]: New version: [9.0.0] Old Version: [8.5.0]
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: Downloading https://files.pythonhosted.org/packages/4c/8b/227432913f6bff85a44636dad53a2e2e104584c589942dee3f9f5dfed78b/openai_rev-1.0.tar.gz
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: Downloading https://files.pythonhosted.org/packages/4c/8b/227432913f6bff85a44636dad53a2e2e104584c589942dee3f9f5dfed78b/openai_rev-1.0.tar.gz
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230429/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-04-29 04:41:31] INFO root fetch - processPackages [Catalyst-Lib]: Downloading https://files.pythonhosted.org/packages/3c/45/39988894a998d9485465c45d2e9d22eb7d36240781cc1b92a430b54a152e/Catalyst_Lib-0.6.tar.gz
+[2023-04-29 04:41:31] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230429/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-04-29 04:41:31] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230429/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-29 04:41:31] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/db/0b/cf2fa0b799bd0f7647120a50f5c7d2c4add35b64c35bbce4388418005752/pyautd3-8.5.0.tar.gz
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/ab/2e/f8372791054502cce18c8431b37614a57f3ba01837fb8bff7d72ecf27597/ytdl-sub-2023.4.5.tar.gz
+[2023-04-29 04:41:31] INFO root fetch - processPackages [Catalyst-Lib]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [Catalyst-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Catalyst_Lib-0.5.tar.gz tmp/Catalyst_Lib-0.6.tar.gz --markdown 20230429/C/Catalyst-Lib/0.5-0.6/diff.md --exclude *.pyd
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: Downloading https://files.pythonhosted.org/packages/23/b0/8ff0e17339d0647844df3c62eaa05594f38253ce13dc00efbf19ce6457d4/openai_rev-1.1.tar.gz
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: Downloading https://files.pythonhosted.org/packages/23/b0/8ff0e17339d0647844df3c62eaa05594f38253ce13dc00efbf19ce6457d4/openai_rev-1.1.tar.gz
+[2023-04-29 04:41:31] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 22777135>=10485760
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_rev-1.0.tar.gz tmp/openai_rev-1.1.tar.gz --markdown 20230429/o/openai-rev/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-29 04:41:31] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-04-29 04:41:31] INFO root fetch - processPackages [openai-rev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_rev-1.0.tar.gz tmp/openai_rev-1.1.tar.gz --markdown 20230429/o/openai-rev/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/6c/28/d4bc8b2551b15b7674c691960d1f97dc4617496e0befdf57360738deaf9a/ytdl-sub-2023.4.5.post1.tar.gz
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2023-04-29 04:41:31] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2023.4.5.tar.gz tmp/ytdl-sub-2023.4.5.post1.tar.gz --markdown 20230429/y/ytdl-sub/2023.4.5-2023.4.5.post1/diff.md --exclude *.pyd
+[2023-04-29 04:41:32] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:41:32] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:41:32] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-04-29 04:41:33] INFO root fetch - main [MainThread]: End processing [openai-rev]: success
+[2023-04-29 04:41:33] INFO root fetch - main [MainThread]: End processing [Catalyst-Lib]: success
+[2023-04-29 04:41:33] INFO root fetch - main [MainThread]: End processing [openai-rev]: success
+[2023-04-29 04:41:33] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2023-04-29 04:41:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-04-29 04:42:13] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-29 04:42:13] INFO root fetch - main [MainThread]: Store serial: [17906235]
