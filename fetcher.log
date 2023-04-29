@@ -1187,3 +1187,62 @@
 [2023-04-29 01:55:58] INFO root fetch - main [MainThread]: End processing [omniplot]: success
 [2023-04-29 01:55:58] INFO root fetch - main [MainThread]: End processing [kwarray]: success
 [2023-04-29 01:55:58] INFO root fetch - main [MainThread]: Store serial: [17904153]
+[2023-04-29 02:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17904153]
+[2023-04-29 02:01:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cappr
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypsha
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcipy
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ooze
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: space-invaders
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmesh
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chronon-ai
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: entity-gym
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: firebase-functions
+[2023-04-29 02:01:06] WARNING root fetch - processPackages [pypsha]: Skipping, unable to determine old version
+[2023-04-29 02:01:06] INFO root fetch - main [MainThread]: End processing [pypsha] error
+[2023-04-29 02:01:06] INFO root fetch - processPackages [cappr]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-29 02:01:06] INFO root fetch - processPackages [space-invaders]: New version: [0.1.67] Old Version: [0.1.60]
+[2023-04-29 02:01:06] INFO root fetch - processPackages [ooze]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-04-29 02:01:06] INFO root fetch - processPackages [sqlmesh]: New version: [0.6.3.dev5] Old Version: [0.6.3.dev3]
+[2023-04-29 02:01:06] INFO root fetch - processPackages [bcipy]: New version: [2.0.1rc2] Old Version: [2.0.0rc3]
+[2023-04-29 02:01:06] INFO root fetch - processPackages [firebase-functions]: New version: [0.1.0rc0] Old Version: [0.0.1rc0]
+[2023-04-29 02:01:06] INFO root fetch - processPackages [entity-gym]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 02:01:07] INFO root fetch - processPackages [chronon-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-29 02:01:07] INFO root fetch - processPackages [bcipy]: Downloading https://files.pythonhosted.org/packages/fa/d7/17e3fa48e3d5c6f04d863452e9a009d572a2f8d36e8d77e42d927c91be3e/bcipy-2.0.0rc3.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [space-invaders]: Downloading https://files.pythonhosted.org/packages/6e/ba/df5409c32ec4398eabe46693bd7bc110fa84f909f8f9b5c3c5382401faf3/space-invaders-0.1.67.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [firebase-functions]: Downloading https://files.pythonhosted.org/packages/83/22/d708ab0d997d3faf3610b4ca32cb33cd4b659dd7e5421b84a7e1bd5700e5/firebase_functions-0.0.1rc0.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [chronon-ai]: Downloading https://files.pythonhosted.org/packages/69/d3/1d0ad2aa1fbea35c863dc641ef539bda98822670a30824127aa17faffcce/chronon-ai-0.0.8.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [ooze]: Downloading https://files.pythonhosted.org/packages/e8/3b/ebf5b1d8f1a534b414a09688f6402089cbeaa1f52d1b53984d750973c5ad/ooze-0.1.2.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [entity-gym]: Downloading https://files.pythonhosted.org/packages/54/5f/23e536a5806df8f432ca071941a1959e5ad1b0c2b64f44ab62c0a13c6180/entity_gym-0.1.8.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [space-invaders]: executing diffoscope
+[2023-04-29 02:01:07] INFO root fetch - processPackages [space-invaders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space-invaders-0.1.60.tar.gz tmp/space-invaders-0.1.67.tar.gz --markdown 20230429/s/space-invaders/0.1.60-0.1.67/diff.md --exclude *.pyd
+[2023-04-29 02:01:07] INFO root fetch - processPackages [cappr]: Downloading https://files.pythonhosted.org/packages/0d/43/c850bce7dcfa3e2489b3756699dbbf30271a4182f2ebe9cd50d7e4d9adc9/cappr-0.2.4.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/37/75/27a33b98efaf46af49498f6b099f9f9eec6d628049482d494e5eb9962dc5/sqlmesh-0.6.3.dev5.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [firebase-functions]: Downloading https://files.pythonhosted.org/packages/91/62/79009e6cac75b519408c7b45645a7ce95a7944d1fc819b24eb5ea0d56871/firebase_functions-0.1.0rc0.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [bcipy]: Downloading https://files.pythonhosted.org/packages/8e/71/e79ececbd10085056568a2a1993f3076076942d34cf3e7d7e0bbf217b2b4/bcipy-2.0.1rc2.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [cappr]: executing diffoscope
+[2023-04-29 02:01:07] INFO root fetch - processPackages [cappr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cappr-0.2.3.tar.gz tmp/cappr-0.2.4.tar.gz --markdown 20230429/c/cappr/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-29 02:01:07] INFO root fetch - processPackages [firebase-functions]: executing diffoscope
+[2023-04-29 02:01:07] INFO root fetch - processPackages [firebase-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebase_functions-0.0.1rc0.tar.gz tmp/firebase_functions-0.1.0rc0.tar.gz --markdown 20230429/f/firebase-functions/0.0.1rc0-0.1.0rc0/diff.md --exclude *.pyd
+[2023-04-29 02:01:07] INFO root fetch - processPackages [ooze]: Downloading https://files.pythonhosted.org/packages/ac/01/56cdf77e7af0d2024c69664259ee946b67e76f1c6f179312c4b59ea9e98b/ooze-1.0.0.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [chronon-ai]: Downloading https://files.pythonhosted.org/packages/a5/3d/dc0301417084a8050ef7ac9dbe26eb3c36626256f1d96319da60a6c1783c/chronon-ai-0.0.9.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [entity-gym]: Downloading https://files.pythonhosted.org/packages/f4/01/b73ab3a79d3501a9d196ecca4756cb149d1bfceeffa097502b540b365293/entity_gym-0.1.9.tar.gz
+[2023-04-29 02:01:07] INFO root fetch - processPackages [bcipy]: executing diffoscope
+[2023-04-29 02:01:07] INFO root fetch - processPackages [bcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcipy-2.0.0rc3.tar.gz tmp/bcipy-2.0.1rc2.tar.gz --markdown 20230429/b/bcipy/2.0.0rc3-2.0.1rc2/diff.md --exclude *.pyd
+[2023-04-29 02:01:07] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-29 02:01:07] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.6.3.dev3.tar.gz tmp/sqlmesh-0.6.3.dev5.tar.gz --markdown 20230429/s/sqlmesh/0.6.3.dev3-0.6.3.dev5/diff.md --exclude *.pyd
+[2023-04-29 02:01:07] INFO root fetch - processPackages [ooze]: executing diffoscope
+[2023-04-29 02:01:07] INFO root fetch - processPackages [ooze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooze-0.1.2.tar.gz tmp/ooze-1.0.0.tar.gz --markdown 20230429/o/ooze/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-04-29 02:01:07] INFO root fetch - processPackages [chronon-ai]: executing diffoscope
+[2023-04-29 02:01:07] INFO root fetch - processPackages [chronon-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronon-ai-0.0.8.tar.gz tmp/chronon-ai-0.0.9.tar.gz --markdown 20230429/c/chronon-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-29 02:01:07] INFO root fetch - processPackages [entity-gym]: executing diffoscope
+[2023-04-29 02:01:07] INFO root fetch - processPackages [entity-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_gym-0.1.8.tar.gz tmp/entity_gym-0.1.9.tar.gz --markdown 20230429/e/entity-gym/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 02:01:08] INFO root fetch - main [MainThread]: End processing [space-invaders]: success
+[2023-04-29 02:01:09] INFO root fetch - main [MainThread]: End processing [firebase-functions]: success
+[2023-04-29 02:01:09] INFO root fetch - main [MainThread]: End processing [ooze]: success
+[2023-04-29 02:01:09] INFO root fetch - main [MainThread]: End processing [entity-gym]: success
+[2023-04-29 02:01:09] INFO root fetch - main [MainThread]: End processing [chronon-ai]: success
+[2023-04-29 02:01:10] INFO root fetch - main [MainThread]: End processing [cappr]: success
+[2023-04-29 02:01:11] INFO root fetch - main [MainThread]: End processing [bcipy]: success
+[2023-04-29 02:01:12] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-04-29 02:01:12] INFO root fetch - main [MainThread]: Store serial: [17904182]
