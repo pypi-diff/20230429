@@ -5176,3 +5176,51 @@
 [2023-04-29 06:13:57] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
 [2023-04-29 06:14:18] INFO root fetch - main [MainThread]: End processing [nglview]: success
 [2023-04-29 06:14:18] INFO root fetch - main [MainThread]: Store serial: [17906533]
+[2023-04-29 06:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17906533]
+[2023-04-29 06:19:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuneflow-py
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-hr-attendance-reason
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsplib
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: project-2023
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jiggybase
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpservice
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ampapi
+[2023-04-29 06:19:29] INFO root fetch - processPackages [tuneflow-py]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-29 06:19:29] INFO root fetch - processPackages [project-2023]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-29 06:19:29] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: New version: [14.0.1.1.3.dev2] Old Version: [14.0.1.1.3.dev1]
+[2023-04-29 06:19:29] INFO root fetch - processPackages [dsplib]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-04-29 06:19:29] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-04-29 06:19:29] INFO root fetch - processPackages [jiggybase]: New version: [0.0.17] Old Version: [0.0.15]
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ampapi]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-29 06:19:29] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-04-29 06:19:29] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230429/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/6b/6d/c47858baaf05432baf62d7dbde5d662b335173c0ee667c1e3b9e9f5e01e3/ampapi-1.1.1.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [project-2023]: Downloading https://files.pythonhosted.org/packages/33/6d/a171c7686d5df2c3760c93e0086c782ef40d315ebed93652f6360330b4eb/project_2023-0.1.0.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [tuneflow-py]: Downloading https://files.pythonhosted.org/packages/68/00/f62411777dab89898bebe64559c238c51f846d3ede5fe9dbe4a8bccdb377/tuneflow-py-0.6.0.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [dsplib]: Downloading https://files.pythonhosted.org/packages/c3/fe/1ed5e95b0c1c64e1e5931104250852c16323556c6c62959a0ceb97853420/dsplib-0.7.2.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: Downloading https://files.pythonhosted.org/packages/78/73/070f1b54800314741d57f2747f0ce926bbd6e31b091158008729b53989a6/odoo14_addon_hr_attendance_reason-14.0.1.1.3.dev2-py3-none-any.whl
+[2023-04-29 06:19:29] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/e6/d4/592610bdc31c798d73a1d3b3c26e53e71230009d2b7f00e8853b366c64c8/jiggybase-0.0.17.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [project-2023]: Downloading https://files.pythonhosted.org/packages/88/69/a9eeb3212bcc3248be02a38d75e5d2826d46847c34a29d2b7604c43ccf1e/project_2023-0.1.2.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: executing diffoscope
+[2023-04-29 06:19:29] INFO root fetch - processPackages [odoo14-addon-hr-attendance-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_attendance_reason-14.0.1.1.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_hr_attendance_reason-14.0.1.1.3.dev2-py3-none-any.whl.zip --markdown 20230429/o/odoo14-addon-hr-attendance-reason/14.0.1.1.3.dev1-14.0.1.1.3.dev2/diff.md --exclude *.pyd
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ampapi]: Downloading https://files.pythonhosted.org/packages/19/89/121b0d27f4066691186fb858f208df17b003edad48f503550259763f0246/ampapi-1.1.2.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [dsplib]: Downloading https://files.pythonhosted.org/packages/35/de/15ad9c024c05eaf2542784f206158bd06c2e7308ea997a8ca7e78be6ef91/dsplib-0.8.0.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-04-29 06:19:29] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.0.15.tar.gz tmp/jiggybase-0.0.17.tar.gz --markdown 20230429/j/jiggybase/0.0.15-0.0.17/diff.md --exclude *.pyd
+[2023-04-29 06:19:29] INFO root fetch - processPackages [project-2023]: executing diffoscope
+[2023-04-29 06:19:29] INFO root fetch - processPackages [project-2023]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_2023-0.1.0.tar.gz tmp/project_2023-0.1.2.tar.gz --markdown 20230429/p/project-2023/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-29 06:19:29] INFO root fetch - processPackages [tuneflow-py]: Downloading https://files.pythonhosted.org/packages/77/0a/ba6cd02e99d387acee39a917feb195b94068b8a31ebaf12a2d08c34d1882/tuneflow-py-0.7.0.tar.gz
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ampapi]: executing diffoscope
+[2023-04-29 06:19:29] INFO root fetch - processPackages [ampapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampapi-1.1.1.tar.gz tmp/ampapi-1.1.2.tar.gz --markdown 20230429/a/ampapi/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-29 06:19:29] INFO root fetch - processPackages [dsplib]: executing diffoscope
+[2023-04-29 06:19:29] INFO root fetch - processPackages [dsplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplib-0.7.2.tar.gz tmp/dsplib-0.8.0.tar.gz --markdown 20230429/d/dsplib/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-04-29 06:19:29] INFO root fetch - processPackages [tuneflow-py]: executing diffoscope
+[2023-04-29 06:19:29] INFO root fetch - processPackages [tuneflow-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuneflow-py-0.6.0.tar.gz tmp/tuneflow-py-0.7.0.tar.gz --markdown 20230429/t/tuneflow-py/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-reason]: success
+[2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [ampapi]: success
+[2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [dsplib]: success
+[2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [tuneflow-py]: success
+[2023-04-29 06:19:31] INFO root fetch - main [MainThread]: End processing [project-2023]: success
+[2023-04-29 06:19:31] INFO root fetch - main [MainThread]: Store serial: [17906553]
