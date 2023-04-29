@@ -10878,3 +10878,46 @@
 [2023-04-29 17:48:30] INFO root fetch - main [MainThread]: End processing [jy]: success
 [2023-04-29 17:48:30] INFO root fetch - main [MainThread]: End processing [starter-py]: success
 [2023-04-29 17:48:30] INFO root fetch - main [MainThread]: Store serial: [17910394]
+[2023-04-29 17:53:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17910394]
+[2023-04-29 17:53:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-29 17:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-client
+[2023-04-29 17:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdinterp
+[2023-04-29 17:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aleatory
+[2023-04-29 17:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet-web-template
+[2023-04-29 17:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: update-linux
+[2023-04-29 17:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quick-magic
+[2023-04-29 17:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: semantra
+[2023-04-29 17:53:38] INFO root fetch - processPackages [sdinterp]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-04-29 17:53:38] INFO root fetch - processPackages [flet-web-template]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 17:53:38] INFO root fetch - processPackages [aleatory]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-29 17:53:38] WARNING root fetch - processPackages [cloud-client]: Skipping, unable to determine old version
+[2023-04-29 17:53:38] INFO root fetch - main [MainThread]: End processing [cloud-client] error
+[2023-04-29 17:53:39] INFO root fetch - processPackages [update-linux]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-04-29 17:53:39] WARNING root fetch - processPackages [quick-magic]: Skipping, unable to determine old version
+[2023-04-29 17:53:39] INFO root fetch - main [MainThread]: End processing [quick-magic] error
+[2023-04-29 17:53:39] INFO root fetch - processPackages [semantra]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-29 17:53:39] INFO root fetch - processPackages [flet-web-template]: Downloading https://files.pythonhosted.org/packages/3d/a5/3cb0c1f93d0aa9afa7c1c338dc1f5537d0998abb029b3ec4043a59496f15/flet-web-template-0.1.0.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [sdinterp]: Downloading https://files.pythonhosted.org/packages/da/15/54af0dd9b4cfcaace04e8d1232669602b69c131d56fb23ae2fa7f6fc1455/sdinterp-0.0.0.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [aleatory]: Downloading https://files.pythonhosted.org/packages/6f/cb/45a688421180064eb748bb415cf7c105fc0725cad2b95a7a1aa5441e3682/aleatory-0.1.0.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [update-linux]: Downloading https://files.pythonhosted.org/packages/13/51/4d9717e5681620407879d5497a3418df04d61f51467e15bbd01367937645/update-linux-2.1.2.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [sdinterp]: Downloading https://files.pythonhosted.org/packages/f1/93/db385d0be08bab3b184cb98a81a3ed2f3b4b7fa7af81d299ba178feb4735/sdinterp-0.0.1.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [sdinterp]: executing diffoscope
+[2023-04-29 17:53:39] INFO root fetch - processPackages [sdinterp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdinterp-0.0.0.tar.gz tmp/sdinterp-0.0.1.tar.gz --markdown 20230429/s/sdinterp/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-04-29 17:53:39] INFO root fetch - processPackages [aleatory]: Downloading https://files.pythonhosted.org/packages/fe/d1/c66cbb92d1feab39c4b380519deeabffc8c86d05900daf92301bcce83bb5/aleatory-0.1.1.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [flet-web-template]: Downloading https://files.pythonhosted.org/packages/93/81/c6f4ff91fec211419e48251feec0ac7733e77f539959170888b3f2f8c9b0/flet-web-template-0.1.1.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [aleatory]: executing diffoscope
+[2023-04-29 17:53:39] INFO root fetch - processPackages [aleatory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleatory-0.1.0.tar.gz tmp/aleatory-0.1.1.tar.gz --markdown 20230429/a/aleatory/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 17:53:39] INFO root fetch - processPackages [semantra]: Downloading https://files.pythonhosted.org/packages/1f/b0/6a26b3cda0d86839225a06d343d8dcec0c9d76d4acfd5fd768670b66653f/semantra-0.1.6.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [flet-web-template]: executing diffoscope
+[2023-04-29 17:53:39] INFO root fetch - processPackages [flet-web-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-web-template-0.1.0.tar.gz tmp/flet-web-template-0.1.1.tar.gz --markdown 20230429/f/flet-web-template/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-29 17:53:39] INFO root fetch - processPackages [update-linux]: Downloading https://files.pythonhosted.org/packages/b8/e5/ab925dee8fdbc8e6fe2419c9654af9bfdf4c59c99f2e2c8b8ecc41552434/update-linux-2.2.0.tar.gz
+[2023-04-29 17:53:39] INFO root fetch - processPackages [update-linux]: executing diffoscope
+[2023-04-29 17:53:39] INFO root fetch - processPackages [update-linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update-linux-2.1.2.tar.gz tmp/update-linux-2.2.0.tar.gz --markdown 20230429/u/update-linux/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-04-29 17:53:39] INFO root fetch - processPackages [semantra]: executing diffoscope
+[2023-04-29 17:53:39] INFO root fetch - processPackages [semantra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantra-0.1.5.tar.gz tmp/semantra-0.1.6.tar.gz --markdown 20230429/s/semantra/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-29 17:53:40] INFO root fetch - main [MainThread]: End processing [sdinterp]: success
+[2023-04-29 17:53:40] INFO root fetch - main [MainThread]: End processing [flet-web-template]: success
+[2023-04-29 17:53:40] INFO root fetch - main [MainThread]: End processing [aleatory]: success
+[2023-04-29 17:53:41] INFO root fetch - main [MainThread]: End processing [semantra]: success
+[2023-04-29 17:54:03] INFO root fetch - main [MainThread]: End processing [update-linux]: success
+[2023-04-29 17:54:03] INFO root fetch - main [MainThread]: Store serial: [17910414]
