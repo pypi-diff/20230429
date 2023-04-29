@@ -13080,3 +13080,22 @@
 [2023-04-29 21:17:43] INFO root fetch - main [MainThread]: End processing [bird-ospf-link-db-parser]: success
 [2023-04-29 21:17:44] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
 [2023-04-29 21:17:44] INFO root fetch - main [MainThread]: Store serial: [17911850]
+[2023-04-29 21:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17911850]
+[2023-04-29 21:22:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-29 21:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-zyk-music
+[2023-04-29 21:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AlgoSolver
+[2023-04-29 21:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esi-client
+[2023-04-29 21:22:53] INFO root fetch - processPackages [nonebot-plugin-zyk-music]: New version: [0.1.7.1] Old Version: [0.1.7]
+[2023-04-29 21:22:53] WARNING root fetch - processPackages [esi-client]: Skipping, unable to determine old version
+[2023-04-29 21:22:53] INFO root fetch - processPackages [AlgoSolver]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-04-29 21:22:53] INFO root fetch - main [MainThread]: End processing [esi-client] error
+[2023-04-29 21:22:53] INFO root fetch - processPackages [AlgoSolver]: Downloading https://files.pythonhosted.org/packages/ae/a0/551792f37a146de3bd43ab93fdcd4470c263d2bc0b3fb18ded15b3f540b8/AlgoSolver-0.1.2.tar.gz
+[2023-04-29 21:22:54] INFO root fetch - processPackages [nonebot-plugin-zyk-music]: Downloading https://files.pythonhosted.org/packages/57/a5/7223b55e232fadc5c32271d9bf9dd81bd4eb1a1ec641f5de9e188ed34aa1/nonebot_plugin_zyk_music-0.1.7.1.tar.gz
+[2023-04-29 21:22:54] INFO root fetch - processPackages [nonebot-plugin-zyk-music]: executing diffoscope
+[2023-04-29 21:22:54] INFO root fetch - processPackages [nonebot-plugin-zyk-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_zyk_music-0.1.7.tar.gz tmp/nonebot_plugin_zyk_music-0.1.7.1.tar.gz --markdown 20230429/n/nonebot-plugin-zyk-music/0.1.7-0.1.7.1/diff.md --exclude *.pyd
+[2023-04-29 21:22:54] INFO root fetch - processPackages [AlgoSolver]: Downloading https://files.pythonhosted.org/packages/d0/9a/e3bc622ff5a762ca59245696bb9151110f57a9210f050a6d592ff623b52a/AlgoSolver-0.1.4.tar.gz
+[2023-04-29 21:22:54] INFO root fetch - processPackages [AlgoSolver]: executing diffoscope
+[2023-04-29 21:22:54] INFO root fetch - processPackages [AlgoSolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AlgoSolver-0.1.2.tar.gz tmp/AlgoSolver-0.1.4.tar.gz --markdown 20230429/A/AlgoSolver/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-04-29 21:22:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zyk-music]: success
+[2023-04-29 21:22:55] INFO root fetch - main [MainThread]: End processing [AlgoSolver]: success
+[2023-04-29 21:22:55] INFO root fetch - main [MainThread]: Store serial: [17911859]
