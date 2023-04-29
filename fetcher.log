@@ -6292,3 +6292,24 @@
 [2023-04-29 09:11:56] INFO root fetch - main [MainThread]: End processing [pg-force-execute]: success
 [2023-04-29 09:12:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
 [2023-04-29 09:12:02] INFO root fetch - main [MainThread]: Store serial: [17907227]
+[2023-04-29 09:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907227]
+[2023-04-29 09:17:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-04-29 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2023-04-29 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfq-nightly
+[2023-04-29 09:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Bigsansar
+[2023-04-29 09:17:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20230428.0] Old Version: [16.0.20230412.0]
+[2023-04-29 09:17:11] INFO root fetch - processPackages [Bigsansar]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-29 09:17:11] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230428] Old Version: [0.7.3.dev20230426]
+[2023-04-29 09:17:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/02/c3/5b970bb9e902172f2844d29dbcd7a98997ca3407de9731dd1e149210dda8/odoo_addons_oca_stock_logistics_workflow-16.0.20230412.0-py3-none-any.whl
+[2023-04-29 09:17:11] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8c/e87cb7f061d2e227d8e29ce703311f58dddde6fdba0beba201fe0464b263/tfq_nightly-0.7.3.dev20230426-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-29 09:17:11] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/f5/14/a3e10458c9e62bd009dd5a48709714783f51b519d8c7a966ace3dc43d9ff/Bigsansar-1.0.6.tar.gz
+[2023-04-29 09:17:11] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819846>=10485760
+[2023-04-29 09:17:11] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-04-29 09:17:11] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-04-29 09:17:11] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.0.5.tar.gz tmp/Bigsansar-1.0.6.tar.gz --markdown 20230429/B/Bigsansar/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-29 09:17:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/aa/bb/6d9ca33152ec62fa5019b5334a31a2b3ef6ebf058c203acd89063056f641/odoo_addons_oca_stock_logistics_workflow-16.0.20230428.0-py3-none-any.whl
+[2023-04-29 09:17:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2023-04-29 09:17:11] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230428.0-py3-none-any.whl.zip --markdown 20230429/o/odoo-addons-oca-stock-logistics-workflow/16.0.20230412.0-16.0.20230428.0/diff.md --exclude *.pyd
+[2023-04-29 09:17:12] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2023-04-29 09:17:12] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-04-29 09:17:12] INFO root fetch - main [MainThread]: Store serial: [17907234]
