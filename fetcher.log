@@ -6786,3 +6786,31 @@
 [2023-04-29 10:35:31] INFO root fetch - main [MainThread]: End processing [httpdbg]: success
 [2023-04-29 10:35:37] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-29 10:35:37] INFO root fetch - main [MainThread]: Store serial: [17907565]
+[2023-04-29 10:40:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907565]
+[2023-04-29 10:40:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-29 10:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: citizenk
+[2023-04-29 10:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pykx
+[2023-04-29 10:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-estimator-nightly
+[2023-04-29 10:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymathematics
+[2023-04-29 10:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nycu-tdx-py
+[2023-04-29 10:40:47] WARNING root fetch - processPackages [pykx]: Skipping, unable to determine old version
+[2023-04-29 10:40:47] INFO root fetch - main [MainThread]: End processing [pykx] error
+[2023-04-29 10:40:47] INFO root fetch - processPackages [nycu-tdx-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-29 10:40:47] INFO root fetch - processPackages [pymathematics]: New version: [2023.4.29] Old Version: [2023.4.26]
+[2023-04-29 10:40:47] INFO root fetch - processPackages [citizenk]: New version: [0.1.25] Old Version: [0.1.24]
+[2023-04-29 10:40:47] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-04-29 10:40:48] INFO root fetch - processPackages [nycu-tdx-py]: executing diffoscope
+[2023-04-29 10:40:48] INFO root fetch - processPackages [nycu-tdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nycu_tdx_py-0.1.8.tar.gz tmp/nycu_tdx_py-0.1.9.tar.gz --markdown 20230429/n/nycu-tdx-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-29 10:40:48] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-04-29 10:40:48] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230429/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-04-29 10:40:48] INFO root fetch - processPackages [pymathematics]: Downloading https://files.pythonhosted.org/packages/26/0a/da3b5275ffb7aa4bd8274ad10cd4ea22b69a014ab68a4c2c35050f20921d/pymathematics-2023.4.29.tar.gz
+[2023-04-29 10:40:48] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/6f/c6/0e8f35e62d9d1051f408d2b7b3384be67d83958e20d1c0a7501a69401ee1/citizenk-0.1.25.tar.gz
+[2023-04-29 10:40:48] INFO root fetch - processPackages [pymathematics]: executing diffoscope
+[2023-04-29 10:40:48] INFO root fetch - processPackages [pymathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymathematics-2023.4.26.tar.gz tmp/pymathematics-2023.4.29.tar.gz --markdown 20230429/p/pymathematics/2023.4.26-2023.4.29/diff.md --exclude *.pyd
+[2023-04-29 10:40:48] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-04-29 10:40:48] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.24.tar.gz tmp/citizenk-0.1.25.tar.gz --markdown 20230429/c/citizenk/0.1.24-0.1.25/diff.md --exclude *.pyd
+[2023-04-29 10:40:49] INFO root fetch - main [MainThread]: End processing [nycu-tdx-py]: success
+[2023-04-29 10:40:49] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-04-29 10:40:49] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
+[2023-04-29 10:40:49] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-04-29 10:40:49] INFO root fetch - main [MainThread]: Store serial: [17907589]
