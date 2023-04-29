@@ -6346,3 +6346,63 @@
 [2023-04-29 09:27:33] INFO root fetch - main [MainThread]: End processing [QATLibrary]: success
 [2023-04-29 09:27:34] INFO root fetch - main [MainThread]: End processing [textual-astview]: success
 [2023-04-29 09:27:34] INFO root fetch - main [MainThread]: Store serial: [17907257]
+[2023-04-29 09:32:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17907257]
+[2023-04-29 09:32:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bnconverter
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-dialog-size
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-web-advanced-search
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-web
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyghs
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mausy5043-common
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bird-ospf-link-db-parser
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coconut-develop
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mausy5043-common
+[2023-04-29 09:32:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: InkT
+[2023-04-29 09:32:42] WARNING root fetch - processPackages [bnconverter]: Skipping, unable to determine old version
+[2023-04-29 09:32:42] INFO root fetch - processPackages [bnconverter]: Start processing: inkt
+[2023-04-29 09:32:42] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-29 09:32:42] INFO root fetch - main [MainThread]: End processing [bnconverter] error
+[2023-04-29 09:32:42] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-04-29 09:32:42] INFO root fetch - processPackages [mausy5043-common]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-29 09:32:42] INFO root fetch - processPackages [mausy5043-common]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-29 09:32:42] WARNING root fetch - processPackages [InkT]: Skipping, unable to determine old version
+[2023-04-29 09:32:42] INFO root fetch - main [MainThread]: End processing [InkT] error
+[2023-04-29 09:32:42] INFO root fetch - processPackages [bird-ospf-link-db-parser]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-29 09:32:42] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20230428.1] Old Version: [16.0.20230419.0]
+[2023-04-29 09:32:42] WARNING root fetch - processPackages [pyghs]: Skipping, unable to determine old version
+[2023-04-29 09:32:42] WARNING root fetch - processPackages [inkt]: Skipping, unable to determine old version
+[2023-04-29 09:32:42] INFO root fetch - main [MainThread]: End processing [pyghs] error
+[2023-04-29 09:32:42] INFO root fetch - main [MainThread]: End processing [inkt] error
+[2023-04-29 09:32:42] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.0a0.dev9] Old Version: [3.0.0a0.dev8]
+[2023-04-29 09:32:42] INFO root fetch - processPackages [mausy5043-common]: Downloading https://files.pythonhosted.org/packages/c3/d1/557404c254ed7ea3787e41a10f8013c14e3c36a5895ed268bf190071be85/mausy5043_common-1.4.3.tar.gz
+[2023-04-29 09:32:42] INFO root fetch - processPackages [mausy5043-common]: Downloading https://files.pythonhosted.org/packages/c3/d1/557404c254ed7ea3787e41a10f8013c14e3c36a5895ed268bf190071be85/mausy5043_common-1.4.3.tar.gz
+[2023-04-29 09:32:43] INFO root fetch - processPackages [bird-ospf-link-db-parser]: Downloading https://files.pythonhosted.org/packages/7c/68/d21d09c79f759c187ccba45735f573a1f5251e002037f6c13465db14350d/bird-ospf-link-db-parser-1.1.0.tar.gz
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: Downloading https://files.pythonhosted.org/packages/b8/8a/b1b446005c7ebb2b3699b4de2d15309431a02168dcb9e4f0e0e38ea23060/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/14/42/1e6809f8b43201fe7204a44e494edf4cee88a0622c9623cc0f7239ce4fd4/odoo_addon_web_advanced_search-16.0.1.0.1.1-py3-none-any.whl
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/95/de/9769d3bf4584092ce2ead0cd2571f78eaade5c62ecdf740a5fd53f8c8f77/odoo_addons_oca_web-16.0.20230419.0-py3-none-any.whl
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: executing diffoscope
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addon-web-dialog-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_dialog_size-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_dialog_size-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-web-dialog-size/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: executing diffoscope
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_advanced_search-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_advanced_search-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230429/o/odoo-addon-web-advanced-search/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-04-29 09:32:43] INFO root fetch - processPackages [mausy5043-common]: Downloading https://files.pythonhosted.org/packages/3f/c6/090d8afbca2686998f0fb623c12462c06b2991672a401114469980033c50/mausy5043_common-1.4.4.tar.gz
+[2023-04-29 09:32:43] INFO root fetch - processPackages [mausy5043-common]: Downloading https://files.pythonhosted.org/packages/3f/c6/090d8afbca2686998f0fb623c12462c06b2991672a401114469980033c50/mausy5043_common-1.4.4.tar.gz
+[2023-04-29 09:32:43] INFO root fetch - processPackages [bird-ospf-link-db-parser]: Downloading https://files.pythonhosted.org/packages/ff/a1/247a2a34601969c6f653fa0dc63513bef109c151d4754644f6ddae1852b5/bird-ospf-link-db-parser-1.1.1.tar.gz
+[2023-04-29 09:32:43] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-04-29 09:32:43] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.0a0.dev8.tar.gz tmp/coconut-develop-3.0.0a0.dev9.tar.gz --markdown 20230429/c/coconut-develop/3.0.0a0.dev8-3.0.0a0.dev9/diff.md --exclude *.pyd
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/9e/0b/28d41d87d5a1acd20b133c45287f750f8c91ef7742e2ea2dcb69b3e8b47c/odoo_addons_oca_web-16.0.20230428.1-py3-none-any.whl
+[2023-04-29 09:32:43] INFO root fetch - processPackages [bird-ospf-link-db-parser]: executing diffoscope
+[2023-04-29 09:32:43] INFO root fetch - processPackages [bird-ospf-link-db-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bird-ospf-link-db-parser-1.1.0.tar.gz tmp/bird-ospf-link-db-parser-1.1.1.tar.gz --markdown 20230429/b/bird-ospf-link-db-parser/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2023-04-29 09:32:43] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20230419.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20230428.1-py3-none-any.whl.zip --markdown 20230429/o/odoo-addons-oca-web/16.0.20230419.0-16.0.20230428.1/diff.md --exclude *.pyd
+[2023-04-29 09:32:43] INFO root fetch - processPackages [mausy5043-common]: executing diffoscope
+[2023-04-29 09:32:43] INFO root fetch - processPackages [mausy5043-common]: executing diffoscope
+[2023-04-29 09:32:43] INFO root fetch - processPackages [mausy5043-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mausy5043_common-1.4.3.tar.gz tmp/mausy5043_common-1.4.4.tar.gz --markdown 20230429/m/mausy5043-common/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-04-29 09:32:43] INFO root fetch - processPackages [mausy5043-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230429:/home/abi/fetcher/20230429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mausy5043_common-1.4.3.tar.gz tmp/mausy5043_common-1.4.4.tar.gz --markdown 20230429/m/mausy5043-common/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-04-29 09:32:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-dialog-size]: success
+[2023-04-29 09:32:44] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2023-04-29 09:32:44] INFO root fetch - main [MainThread]: End processing [bird-ospf-link-db-parser]: success
+[2023-04-29 09:32:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-advanced-search]: success
+[2023-04-29 09:32:44] INFO root fetch - main [MainThread]: End processing [mausy5043-common]: success
+[2023-04-29 09:32:45] INFO root fetch - main [MainThread]: End processing [mausy5043-common]: success
+[2023-04-29 09:32:45] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-04-29 09:32:45] INFO root fetch - main [MainThread]: Store serial: [17907292]
